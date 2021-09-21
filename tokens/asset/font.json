@@ -2,20 +2,21 @@
   "asset": {
     "font": {
       "icon": {
-        "name" : { "value": "MaterialIcons" },
-        "ttf"  : { "value": "assets/fonts/MaterialIcons-Regular.ttf" },
-        "eot"  : { "value": "assets/fonts/MaterialIcons-Regular.eot" },
-        "woff" : { "value": "assets/fonts/MaterialIcons-Regular.woff" },
-        "woff2": { "value": "assets/fonts/MaterialIcons-Regular.woff2" }
+        "name" : { "value": "Glyphicons Halflings" },
+        "ttf"  : { "value": "assets/fonts/glyphicons-halflings-regular.ttf" },
+        "eot"  : { "value": "assets/fonts/glyphicons-halflings-regular.eot" },
+        "woff" : { "value": "assets/fonts/glyphicons-halflings-regular.woff" },
+        "woff2": { "value": "assets/fonts/glyphicons-halflings-regular.woff2" },
+        "svg"  : { "value": "assets/fonts/glyphicons-halflings-regular.svg" }
       },
-      "opensans": {
-        "name" : { "value": "Open Sans" },
-        "ttf"  : { "value": "assets/fonts/OpenSans-Regular.ttf" }
+      "notosans": {
+        "name" : { "value": "Noto Sans" },
+        "ttf"  : { "value": "assets/fonts/NotoSans-Regular.ttf" }
       },
-      "roboto": {
-        "name" : { "value": "Roboto" },
-        "ttf"  : { "value": "assets/fonts/Roboto-Regular.ttf" }
+      "lato": {
+        "name" : { "value": "Lato" },
+        "ttf"  : { "value": "assets/fonts/Lato-Regular.ttf" }
       }
-   }
+    }
   }
 }

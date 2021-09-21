@@ -1,8 +1,25 @@
 {
   "source": [
-    "tokens/**/*.json"
+    "tokens/**/*.json",
+    "tokens/**/*.js"
   ],
   "platforms": {
+    "scss" : {
+      "transformGroup": "scss",
+      "prefix": "gcds",
+      "files": [{
+        "destination": "web/_variables.scss",
+        "format": "scss/variables",
+        "options": {
+          "outputReferences": false
+        }
+      }]
+    },
+    "web" :{
+      "transformGroup": "web",
+      "buildPath": "web/assets/",
+      "action": ["copy_assests"]
+    },
     "ios": {
       "transformGroup": "ios",
       "buildPath": "ios/Classes/Generated/",

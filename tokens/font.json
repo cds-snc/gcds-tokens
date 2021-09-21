@@ -2,7 +2,10 @@
   "font": {
     "family": {
       "base": {
-        "value": "{asset.font.opensans.name.value}"
+        "value": "{asset.font.notosans.name.value}"
+      },
+      "heading": {
+        "value": "{asset.font.lato.name.value}"
       },
       "icons": {
         "value": "{asset.font.icon.name.value}"

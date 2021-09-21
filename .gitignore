@@ -79,3 +79,8 @@ xcuserdata/
 
 # Temporary build output directory for unit tests
 __tests__/__output
+
+# Style Dictionary
+android/styledictionary/src/main/res/values/style_dictionary_*
+android/styledictionary/src/main/assets/*
+ios/Classes/Generated/StyleDictionary*

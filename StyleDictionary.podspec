@@ -14,7 +14,7 @@ An example StyleDictionary cocoapod and example app.
   s.source_files = 'ios/Classes/**/*.{h,m}'
   s.public_header_files = 'ios/Classes/**/*.h'
   s.resource_bundles = {
-    'StyleDictionary' => ['assets/**/*']
+    'StyleDictionary' => ['_assets/**/*']
   }
   s.frameworks = 'UIKit', 'QuartzCore'
 end
