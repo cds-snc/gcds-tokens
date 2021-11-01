@@ -1,0 +1,17 @@
+{
+  "source": [
+    "tokens/**/*.js",
+    "tokens/**/*.json"
+  ],
+  "platforms": {
+    "tokens-json": {
+      "buildPath": "build/dispatches/",
+      "prefix": "gcds",
+      "transforms": [ "color/em" ],
+      "files": [ {
+        "destination": "global.tokens.json",
+        "format": "json"
+      } ]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "style-dictionary-example-complete",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "author": "@delisma",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "style-dictionary": "3.0.2"
+  }
+}
