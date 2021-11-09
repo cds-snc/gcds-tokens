@@ -1,4 +1,4 @@
-const Colour = require( 'tinycolor2' );
+const Colour = require( "tinycolor2" );
 
 const palette = {
     "red":       { h: 1,   s: 75, v: 75 }, // #BF3230 hsv(1, 75%, 75%)
@@ -14,20 +14,20 @@ const palette = {
 module.exports = {
 	"colour": {
 		"utils": {
-			"blue":   { "value": "#0535D2", "type": "color" },
-			"purple": { "value": "#7834BC", "type": "color" },
-			"white":  { "value": "#ffffff", "type": "color" },
-			"black":  { "value": "#000000", "type": "color" }
+			"blue":   { "value": "#0535D2", "type": "color", "description": "Used for hovered links" },
+			"purple": { "value": "#7834BC", "type": "color", "description": "Used for visited links" },
+			"white":  { "value": "#ffffff", "type": "color", "description": "Used for regular backgrounds" },
+			"black":  { "value": "#000000", "type": "color", "description": "Use as the default text color" }
 		},
 		"base": Object.keys( palette ).reduce( ( ret, colour ) => {
 			return Object.assign( {}, ret, {
 				[ colour ]: {
 				// generate the shades/tints for each colour
-					"100": { "value": Colour( palette[ colour ] ).lighten( 35 ).desaturate( 1 ).toString( "hex6" ), "type": "color" },
-					"300": { "value": Colour( palette[ colour ] ).lighten( 10 ).desaturate( 10 ).toString( "hex6" ), "type": "color" },
-					"500": { "value": Colour( palette[ colour ] ).toString( "hex6" ), "type": "color" },
-					"700": { "value": Colour( palette[ colour ] ).darken( 10 ).saturate( 10 ).toString( "hex6" ), "type": "color" },
-					"900": { "value": Colour( palette[ colour ] ).darken( 20 ).saturate( 20 ).toString( "hex6" ), "type": "color" }
+					"100": { "value": Colour( palette[ colour ] ).lighten( 35 ).desaturate( 1 ).toString( "hex6" ), "type": "color", "description": "35% lighter and 1% desaturated" },
+					"300": { "value": Colour( palette[ colour ] ).lighten( 10 ).desaturate( 10 ).toString( "hex6" ), "type": "color", "description": "10% lighter and 10% desaturated" },
+					"500": { "value": Colour( palette[ colour ] ).toString( "hex6" ), "type": "color", "description": "Regualar tint/hue" },
+					"700": { "value": Colour( palette[ colour ] ).darken( 10 ).saturate( 10 ).toString( "hex6" ), "type": "color", "description": "10% darker and 10% saturated" },
+					"900": { "value": Colour( palette[ colour ] ).darken( 20 ).saturate( 20 ).toString( "hex6" ), "type": "color", "description": "20% darker and 1% saturated" }
 				}
 			} )
 		}, {} ),
