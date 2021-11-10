@@ -51,7 +51,7 @@ module.exports = {
 			"transformGroup" : "css",
 			"prefix" : "gcds",
 			"files" : [ {
-				"destination" : " build/web/variables.css",
+				"destination" : "build/web/variables.css",
 				"format" : "css/variables"
 			} ]
 		},
