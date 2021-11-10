@@ -228,10 +228,12 @@
     },
     "font-style": {
       "normal": {
-        "value": "normal"
+        "value": "normal",
+        "type": "other"
       },
       "italic": {
-        "value": "italic"
+        "value": "italic",
+        "type": "other"
       }
     },
     "font-weight": {
