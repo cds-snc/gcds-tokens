@@ -1,0 +1,26 @@
+name: Push Tokens
+on: 
+  push:
+    branches:
+      - main
+    paths:
+      - 'build/**'
+
+jobs:
+  deploy:
+    name: Push Tokens
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git Checkout
+        uses: actions/checkout@v2
+      - name: Pushes to another repository
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: 'build/web/'
+          target-directory: 'src/variables/'
+          destination-github-username: 'JoshBeveridge'
+          destination-repository-name: 'gc-ds-core'
+          user-email: ${{ secrets.USER_EMAIL }}
+          target-branch: main
