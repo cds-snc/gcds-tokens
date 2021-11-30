@@ -14,7 +14,7 @@ jobs:
       - name: Git Checkout
         uses: actions/checkout@v2
       - name: Pushes to another repository
-        uses: cpina/github-action-push-to-another-repository@main
+        uses: cpina/github-action-push-to-another-repository@6e36e20d0ef541a7739b19a03280b844b26882e5
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
