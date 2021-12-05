@@ -1,5 +1,5 @@
 // Import Base
-const borderRadius = require( "../tokens/border-radius/base" );
+const borderRadius = require( "../tokens/border-radius/base.json" );
 const borderWidth = require( "../tokens/border-width/base.json" );
 const color = require( "../tokens/color/base.json" );
 const fontFamily = require( "../tokens/font-family/base.json" );
@@ -12,7 +12,6 @@ const size = require( "../tokens/size/base.js" );
 const space = require( "../tokens/space/base.js" );
 
 // Semantic
-//
 
 // components
 const button = require( "../tokens/button/base.json" );
