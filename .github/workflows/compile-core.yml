@@ -27,3 +27,25 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: 'main'
+      - name: Push to gc-ds-core
+        uses: cpina/github-action-push-to-another-repository@6e36e20d0ef541a7739b19a03280b844b26882e5
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: 'build/web/'
+          target-directory: 'src/variables/'
+          destination-github-username: 'JoshBeveridge'
+          destination-repository-name: 'gc-ds-core'
+          user-email: ${{ secrets.USER_EMAIL }}
+          target-branch: main
+      - name: Push to gc-ds-button
+        uses: cpina/github-action-push-to-another-repository@6e36e20d0ef541a7739b19a03280b844b26882e5
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: 'build/web/'
+          target-directory: 'src/styles/variables/'
+          destination-github-username: 'JoshBeveridge'
+          destination-repository-name: 'gc-ds-button'
+          user-email: ${{ secrets.USER_EMAIL }}
+          target-branch: main
