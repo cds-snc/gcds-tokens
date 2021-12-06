@@ -1,0 +1,29 @@
+name: Compile Core
+on: 
+  push:
+    branches:
+      - main
+    paths:
+      - 'tokens/**'
+
+jobs:
+  build-deploy:
+    name: Compile Core
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git Checkout
+        uses: actions/checkout@v2
+      - name: Install
+        run: npm install
+      - name: Compile + Commit
+        run: |
+          style-dictionary build
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -A
+          git commit -m "Compile tokens"
+      - name: Push changes
+        uses: ad-m/github-push-action@8407731efefc0d8f72af254c74276b7a90be36e1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: 'main'
