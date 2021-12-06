@@ -36,7 +36,7 @@
             "description": "10% lighter and 10% desaturated"
           },
           "500": {
-            "value": "#bf3230",
+            "value": "blue",
             "type": "color",
             "description": "Regualar tint/hue"
           },
@@ -228,7 +228,7 @@
     },
     "font-style": {
       "normal": {
-        "value": "normal",
+        "value": "Typography",
         "type": "other"
       },
       "italic": {
