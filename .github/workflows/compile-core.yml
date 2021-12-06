@@ -49,3 +49,14 @@ jobs:
           destination-repository-name: 'gc-ds-button'
           user-email: ${{ secrets.USER_EMAIL }}
           target-branch: main
+      - name: Push to alpha-design-system-documentation
+        uses: cpina/github-action-push-to-another-repository@6e36e20d0ef541a7739b19a03280b844b26882e5
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: 'build/web/'
+          target-directory: 'src/variables/'
+          destination-github-username: 'cds-snc'
+          destination-repository-name: 'alpha-design-system-documentation'
+          user-email: ${{ secrets.USER_EMAIL }}
+          target-branch: main
