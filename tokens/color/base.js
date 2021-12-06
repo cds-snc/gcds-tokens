@@ -1,7 +1,7 @@
 const Colour = require( "tinycolor2" );
 
 const palette = {
-    "red":       { h: 1,   s: 75, v: 75 }, // #BF3230 hsv(1, 75%, 75%)
+    "red":       { h: 226,   s: 95, v: 42 }, // #BF3230 hsv(1, 75%, 75%)
 	"cyan":      { h: 194, s: 70, v: 85 }, // #41B6D9 hsv(194, 70%, 85%)
 	"green":     { h: 102, s: 80, v: 70 }, // #4EB224 hsv(102, 80%, 70%)
 	"yellow":    { h: 35,  s: 65, v: 90 }, // #E5A750 hsv(35, 65%, 90%)
