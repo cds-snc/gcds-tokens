@@ -26,27 +26,27 @@
       "base": {
         "red": {
           "100": {
-            "value": "#2f5df3",
+            "value": "#ecb6b5",
             "type": "color",
             "description": "35% lighter and 1% desaturated"
           },
           "300": {
-            "value": "#102f93",
+            "value": "#c85c5a",
             "type": "color",
             "description": "10% lighter and 10% desaturated"
           },
           "500": {
-            "value": "#051d6b",
+            "value": "#bf3230",
             "type": "color",
             "description": "Regualar tint/hue"
           },
           "700": {
-            "value": "#000e3d",
+            "value": "#a01e1c",
             "type": "color",
             "description": "10% darker and 10% saturated"
           },
           "900": {
-            "value": "#00030a",
+            "value": "#7b100e",
             "type": "color",
             "description": "20% darker and 1% saturated"
           }
