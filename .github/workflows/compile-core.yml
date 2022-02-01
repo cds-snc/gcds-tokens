@@ -34,7 +34,7 @@ jobs:
         with:
           source-directory: 'build/web/'
           target-directory: 'src/variables/'
-          destination-github-username: 'JoshBeveridge'
+          destination-github-username: 'cds-snc'
           destination-repository-name: 'gc-ds-core'
           user-email: ${{ secrets.USER_EMAIL }}
           target-branch: main
@@ -45,7 +45,7 @@ jobs:
         with:
           source-directory: 'build/web/'
           target-directory: 'src/styles/variables/'
-          destination-github-username: 'JoshBeveridge'
+          destination-github-username: 'cds-snc'
           destination-repository-name: 'gc-ds-button'
           user-email: ${{ secrets.USER_EMAIL }}
           target-branch: main
