@@ -51,6 +51,33 @@
             "description": "20% darker and 1% saturated"
           }
         },
+        "red_dark": {
+          "100": {
+            "value": "#fa9395",
+            "type": "color",
+            "description": "35% lighter and 1% desaturated"
+          },
+          "300": {
+            "value": "#ea2427",
+            "type": "color",
+            "description": "10% lighter and 10% desaturated"
+          },
+          "500": {
+            "value": "#d3080b",
+            "type": "color",
+            "description": "Regualar tint/hue"
+          },
+          "700": {
+            "value": "#a80003",
+            "type": "color",
+            "description": "10% darker and 10% saturated"
+          },
+          "900": {
+            "value": "#750002",
+            "type": "color",
+            "description": "20% darker and 1% saturated"
+          }
+        },
         "cyan": {
           "100": {
             "value": "#d6eff6",
@@ -159,6 +186,114 @@
             "description": "20% darker and 1% saturated"
           }
         },
+        "grey_light": {
+          "100": {
+            "value": "#ffffff",
+            "type": "color",
+            "description": "35% lighter and 1% desaturated"
+          },
+          "300": {
+            "value": "#e6e6e6",
+            "type": "color",
+            "description": "10% lighter and 10% desaturated"
+          },
+          "500": {
+            "value": "#cccccc",
+            "type": "color",
+            "description": "Regualar tint/hue"
+          },
+          "700": {
+            "value": "#baabab",
+            "type": "color",
+            "description": "10% darker and 10% saturated"
+          },
+          "900": {
+            "value": "#ad8585",
+            "type": "color",
+            "description": "20% darker and 1% saturated"
+          }
+        },
+        "grey_medium": {
+          "100": {
+            "value": "#aeaeae",
+            "type": "color",
+            "description": "35% lighter and 1% desaturated"
+          },
+          "300": {
+            "value": "#6e6e6e",
+            "type": "color",
+            "description": "10% lighter and 10% desaturated"
+          },
+          "500": {
+            "value": "#555555",
+            "type": "color",
+            "description": "Regualar tint/hue"
+          },
+          "700": {
+            "value": "#413535",
+            "type": "color",
+            "description": "10% darker and 10% saturated"
+          },
+          "900": {
+            "value": "#291b1b",
+            "type": "color",
+            "description": "20% darker and 1% saturated"
+          }
+        },
+        "grey_dark": {
+          "100": {
+            "value": "#8c8c8c",
+            "type": "color",
+            "description": "35% lighter and 1% desaturated"
+          },
+          "300": {
+            "value": "#4d4d4d",
+            "type": "color",
+            "description": "10% lighter and 10% desaturated"
+          },
+          "500": {
+            "value": "#333333",
+            "type": "color",
+            "description": "Regualar tint/hue"
+          },
+          "700": {
+            "value": "#1c1717",
+            "type": "color",
+            "description": "10% darker and 10% saturated"
+          },
+          "900": {
+            "value": "#000000",
+            "type": "color",
+            "description": "20% darker and 1% saturated"
+          }
+        },
+        "blue": {
+          "100": {
+            "value": "#ffffff",
+            "type": "color",
+            "description": "35% lighter and 1% desaturated"
+          },
+          "300": {
+            "value": "#99c5e9",
+            "type": "color",
+            "description": "10% lighter and 10% desaturated"
+          },
+          "500": {
+            "value": "#66aee9",
+            "type": "color",
+            "description": "Regualar tint/hue"
+          },
+          "700": {
+            "value": "#2e98ee",
+            "type": "color",
+            "description": "10% darker and 10% saturated"
+          },
+          "900": {
+            "value": "#0680e3",
+            "type": "color",
+            "description": "20% darker and 1% saturated"
+          }
+        },
         "blue_grey": {
           "100": {
             "value": "#bcc5cf",
@@ -185,7 +320,66 @@
             "type": "color",
             "description": "20% darker and 1% saturated"
           }
+        },
+        "white_grey": {
+          "100": {
+            "value": "#ffffff",
+            "type": "color",
+            "description": "35% lighter and 1% desaturated"
+          },
+          "300": {
+            "value": "#ffffff",
+            "type": "color",
+            "description": "10% lighter and 10% desaturated"
+          },
+          "500": {
+            "value": "#eeeeee",
+            "type": "color",
+            "description": "Regualar tint/hue"
+          },
+          "700": {
+            "value": "#d9d0d0",
+            "type": "color",
+            "description": "10% darker and 10% saturated"
+          },
+          "900": {
+            "value": "#c9adad",
+            "type": "color",
+            "description": "20% darker and 1% saturated"
+          }
+        },
+        "white_red": {
+          "100": {
+            "value": "#ffffff",
+            "type": "color",
+            "description": "35% lighter and 1% desaturated"
+          },
+          "300": {
+            "value": "#ffffff",
+            "type": "color",
+            "description": "10% lighter and 10% desaturated"
+          },
+          "500": {
+            "value": "#f3e9e8",
+            "type": "color",
+            "description": "Regualar tint/hue"
+          },
+          "700": {
+            "value": "#e6c5c2",
+            "type": "color",
+            "description": "10% darker and 10% saturated"
+          },
+          "900": {
+            "value": "#de9d97",
+            "type": "color",
+            "description": "20% darker and 1% saturated"
+          }
         }
+      }
+    },
+    "font-family": {
+      "default": {
+        "value": "'Helvetica Neue', Helvetica, Arial, sans-serif"
       }
     },
     "font-size": {
