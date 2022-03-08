@@ -46,7 +46,7 @@ jobs:
           source-directory: 'build/web/'
           target-directory: 'src/styles/variables/'
           destination-github-username: 'cds-snc'
-          destination-repository-name: 'gc-ds-button'
+          destination-repository-name: 'gcds-components'
           user-email: ${{ secrets.USER_EMAIL }}
           target-branch: main
       - name: Push to alpha-design-system-documentation
