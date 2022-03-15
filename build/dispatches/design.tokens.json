@@ -1,86 +1,396 @@
 {
-  "colour": {
-    "utils": {
-      "blue": "#0535D2",
-      "purple": "#7834BC",
-      "white": "#ffffff",
-      "black": "#000000"
-    },
-    "base": {
-      "red": {
-        "100": "#ecb6b5",
-        "300": "#c85c5a",
-        "500": "#bf3230",
-        "700": "#a01e1c",
-        "900": "#7b100e"
+  "color": {
+    "color": {
+      "utils": {
+        "blue": {
+          "description": "Used for hovered links",
+          "type": "color",
+          "value": "#0535d2ff",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:11a8439e8e11dbe9fff9f7f42c0a871f4af83f4f,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "purple": {
+          "description": "Used for visited links",
+          "type": "color",
+          "value": "#7834bcff",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:abfb0bba221b04322e5d1d7ccc6adde9830b46dc,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "white": {
+          "description": "Used for regular backgrounds",
+          "type": "color",
+          "value": "#ffffffff",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:b7e57e3f83b864cfc6ac3f24d1d642e88449ba1f,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "black": {
+          "description": "Use as the default text color",
+          "type": "color",
+          "value": "#000000ff",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:c2bc87586471da3db7192b9cd13e35dff1fe02b1,",
+              "exportKey": "color"
+            }
+          }
+        }
       },
-      "cyan": {
-        "100": "#d6eff6",
-        "300": "#74c1d8",
-        "500": "#41b5d9",
-        "700": "#1ba2cc",
-        "900": "#0c83a8"
-      },
-      "green": {
-        "100": "#b5eb9e",
-        "300": "#69ca3f",
-        "500": "#4fb324",
-        "700": "#399013",
-        "900": "#256907"
-      },
-      "yellow": {
-        "100": "#fcf5ec",
-        "300": "#e5bc84",
-        "500": "#e6a750",
-        "700": "#ec9317",
-        "900": "#ca7806"
-      },
-      "grey": {
-        "100": "#bfbfbf",
-        "300": "#808080",
-        "500": "#666666",
-        "700": "#544545",
-        "900": "#3d2929"
-      },
-      "blue_grey": {
-        "100": "#bcc5cf",
-        "300": "#7d858f",
-        "500": "#596b80",
-        "700": "#3c516a",
-        "900": "#24384f"
+      "base": {
+        "red": {
+          "100": {
+            "description": "35% lighter and 1% desaturated",
+            "type": "color",
+            "value": "#ecb6b5ff",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:4ccda1b2f0b5d7f5bc2c2196e1e360ce8f552fb0,",
+                "exportKey": "color"
+              }
+            }
+          },
+          "300": {
+            "description": "10% lighter and 10% desaturated",
+            "type": "color",
+            "value": "#c85c5aff",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:f49f099ad7db8c5d1dbe9c18082b29f11895d546,",
+                "exportKey": "color"
+              }
+            }
+          },
+          "500": {
+            "description": "Regualar tint/hue",
+            "type": "color",
+            "value": "#bf3230ff",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:f9364f5da10b400f4f2a55421c490f5c251d2833,",
+                "exportKey": "color"
+              }
+            }
+          },
+          "700": {
+            "description": "10% darker and 10% saturated",
+            "type": "color",
+            "value": "#a01e1cff",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:8643549c139eeae05552b81d6e5ffda48e1947cb,",
+                "exportKey": "color"
+              }
+            }
+          },
+          "900": {
+            "description": "20% darker and 1% saturated",
+            "type": "color",
+            "value": "#7b100eff",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:fd3956b2c26b16fc738db52ed56fc0adbf29381d,",
+                "exportKey": "color"
+              }
+            }
+          }
+        },
+        "cyan": {
+          "100": {
+            "description": "35% lighter and 1% desaturated",
+            "type": "color",
+            "value": "#d6eff6ff",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:6568f121926c17afbc7b964896ec002551d98bcd,",
+                "exportKey": "color"
+              }
+            }
+          },
+          "300": {
+            "description": "10% lighter and 10% desaturated",
+            "type": "color",
+            "value": "#74c1d8ff",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:0156b5e84be92b728af0bfe193a7d14eef22eb64,",
+                "exportKey": "color"
+              }
+            }
+          },
+          "500": {
+            "description": "Regualar tint/hue",
+            "type": "color",
+            "value": "#41b5d9ff",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:6bffd7dd6c0dda9f7642d12e5c2a9cd8c1a7f2e2,",
+                "exportKey": "color"
+              }
+            }
+          },
+          "700": {
+            "description": "10% darker and 10% saturated",
+            "type": "color",
+            "value": "#1ba2ccff",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:61e233f54f0294ae2320a98bbe24111be2fc6d14,",
+                "exportKey": "color"
+              }
+            }
+          },
+          "900": {
+            "description": "20% darker and 1% saturated",
+            "type": "color",
+            "value": "#0c83a8ff",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:f1922bce9620016390ecdf996e9136cf93a88ef6,",
+                "exportKey": "color"
+              }
+            }
+          }
+        },
+        "green": {
+          "100": {
+            "description": "35% lighter and 1% desaturated",
+            "type": "color",
+            "value": "#b5eb9eff",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:b25cdd9abe9fc1d27cbabe9ec3530cf03e981fed,",
+                "exportKey": "color"
+              }
+            }
+          },
+          "300": {
+            "description": "10% lighter and 10% desaturated",
+            "type": "color",
+            "value": "#69ca3fff",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:c7c50822dcc9d087903c7061bfa03441f917fbae,",
+                "exportKey": "color"
+              }
+            }
+          },
+          "500": {
+            "description": "Regualar tint/hue",
+            "type": "color",
+            "value": "#4fb324ff",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:61004d4938e69edf2abecf632cf166252e517441,",
+                "exportKey": "color"
+              }
+            }
+          },
+          "700": {
+            "description": "10% darker and 10% saturated",
+            "type": "color",
+            "value": "#399013ff",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:8d6f701b87c6637d8a448f3dc7293d35ce10e7d5,",
+                "exportKey": "color"
+              }
+            }
+          },
+          "900": {
+            "description": "20% darker and 1% saturated",
+            "type": "color",
+            "value": "#256907ff",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:aebd48bc4d552d0e1bc6a49e8fb6bf58577ccbb2,",
+                "exportKey": "color"
+              }
+            }
+          }
+        },
+        "yellow": {
+          "100": {
+            "description": "35% lighter and 1% desaturated",
+            "type": "color",
+            "value": "#fcf5ecff",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:eb912556fb4e6b678292587a4107742b31a6fece,",
+                "exportKey": "color"
+              }
+            }
+          },
+          "300": {
+            "description": "10% lighter and 10% desaturated",
+            "type": "color",
+            "value": "#e5bc84ff",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:ab001fb0cff5ce16b2b89c480340547eac972d98,",
+                "exportKey": "color"
+              }
+            }
+          },
+          "500": {
+            "description": "Regualar tint/hue",
+            "type": "color",
+            "value": "#e6a750ff",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:49e6fa5fcde4006529cd5535a52239872fb52985,",
+                "exportKey": "color"
+              }
+            }
+          },
+          "700": {
+            "description": "10% darker and 10% saturated",
+            "type": "color",
+            "value": "#ec9317ff",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:915fe0699f28696f08f3870813752bf8736d11ca,",
+                "exportKey": "color"
+              }
+            }
+          },
+          "900": {
+            "description": "20% darker and 1% saturated",
+            "type": "color",
+            "value": "#ca7806ff",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:d38879fa02a87135eb62717de387da5856440e4e,",
+                "exportKey": "color"
+              }
+            }
+          }
+        },
+        "grey": {
+          "100": {
+            "description": "35% lighter and 1% desaturated",
+            "type": "color",
+            "value": "#bfbfbfff",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:8f0ab1a6d69625fb6034dca7add01f363aa12284,",
+                "exportKey": "color"
+              }
+            }
+          },
+          "300": {
+            "description": "10% lighter and 10% desaturated",
+            "type": "color",
+            "value": "#808080ff",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:f3c96db19b24bf5efbbe3d48cdb26cecf81879ce,",
+                "exportKey": "color"
+              }
+            }
+          },
+          "500": {
+            "description": "Regualar tint/hue",
+            "type": "color",
+            "value": "#666666ff",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:238ee1c5c1594be59ebb6c3bab9b2312b5b026a3,",
+                "exportKey": "color"
+              }
+            }
+          },
+          "700": {
+            "description": "10% darker and 10% saturated",
+            "type": "color",
+            "value": "#544545ff",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:3767227ff9b9b1ac0beb229c3c5ac5c80626d84e,",
+                "exportKey": "color"
+              }
+            }
+          },
+          "900": {
+            "description": "20% darker and 1% saturated",
+            "type": "color",
+            "value": "#3d2929ff",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:aa160bac7bee024c04d4142133300ead4dd50573,",
+                "exportKey": "color"
+              }
+            }
+          }
+        },
+        "blue-grey": {
+          "100": {
+            "description": "35% lighter and 1% desaturated",
+            "type": "color",
+            "value": "#bcc5cfff",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:1ca0907c19cc637083b22dacb1f00e691b34961b,",
+                "exportKey": "color"
+              }
+            }
+          },
+          "300": {
+            "description": "10% lighter and 10% desaturated",
+            "type": "color",
+            "value": "#7d858fff",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:1fca76f901f9fb052d8a4871d0d3715a5ec62e4f,",
+                "exportKey": "color"
+              }
+            }
+          },
+          "500": {
+            "description": "Regualar tint/hue",
+            "type": "color",
+            "value": "#596b80ff",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:94a48a01c11eb96477ccbf92dd35fab58ba7dbab,",
+                "exportKey": "color"
+              }
+            }
+          },
+          "700": {
+            "description": "10% darker and 10% saturated",
+            "type": "color",
+            "value": "#3c516aff",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:ea62458eeeacfa607101307b15f4a0928404ede7,",
+                "exportKey": "color"
+              }
+            }
+          },
+          "900": {
+            "description": "20% darker and 1% saturated",
+            "type": "color",
+            "value": "#24384fff",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:403ab7a44d7dce82bf92a35a8c52ab8c1a10571b,",
+                "exportKey": "color"
+              }
+            }
+          }
+        }
       }
     }
-  },
-  "font-size": {
-    "100": "8px",
-    "200": "10px",
-    "300": "13px",
-    "400": "16px",
-    "500": "20px",
-    "600": "25px",
-    "700": "31px",
-    "800": "39px",
-    "900": "49px"
-  },
-  "font-style": {
-    "normal": "normal",
-    "italic": "italic"
-  },
-  "font-weight": {
-    "semiBold": "SemiBold",
-    "regular": "Regular",
-    "light": "Light",
-    "bold": "Bold"
-  },
-  "size": {
-    "100": 2,
-    "200": 4,
-    "300": 6,
-    "400": 8,
-    "500": 10,
-    "600": 12,
-    "700": 14,
-    "800": 16,
-    "900": 18
   }
 }
