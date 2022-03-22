@@ -1,0 +1,16 @@
+{
+  "space": ""
+}
+/* .space-1/2
+(1rem * paragraph line height) / 2
+.space-x1
+1rem * paragraph line height
+.space-x2
+(1rem * paragraph line height) * 2
+.space-x3
+(1rem * paragraph line height) * 3
+.space-x4
+(1rem * paragraph line height) * 4
+.space-x5
+(1rem * paragraph line height) * 5
+ */

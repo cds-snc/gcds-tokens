@@ -1,5 +1,6 @@
 {
   "font-weight": {
+    "comment": "core",
     "semiBold": {
       "value": "SemiBold",
       "type": "fontWeights",
