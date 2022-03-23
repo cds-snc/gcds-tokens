@@ -1,25 +1,24 @@
 {
   "font-weight": {
-    "comment": "core",
-    "semiBold": {
-      "value": "SemiBold",
+    "300": {
+      "value": "300",
       "type": "fontWeights",
-      "default": "600"
+      "default": "Light"
     },
-    "regular": {
-      "value": "Regular",
+    "400": {
+      "value": "400",
       "type": "fontWeights",
-      "default": "400"
+      "default": "Regular"
     },
-    "light": {
-      "value": "Light",
+    "600": {
+      "value": "600",
       "type": "fontWeights",
-      "default": "300"
+      "default": "SemiBold"
     },
-    "bold": {
-      "value": "Bold",
+    "700": {
+      "value": "700",
       "type": "fontWeights",
-      "default": "700"
+      "default": "Bold"
     }
   }
 }

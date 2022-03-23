@@ -1,6 +1,12 @@
 {
   "font-style": {
-    "normal": { "value": "normal" },
-    "italic": { "value": "italic" }
+    "normal": {
+      "value": "normal",
+      "type": "fontStyle"
+    },
+    "italic": {
+      "value": "italic",
+      "type": "fontStyle"
+    }
   }
 }

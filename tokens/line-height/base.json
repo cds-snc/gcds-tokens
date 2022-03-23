@@ -1,0 +1,28 @@
+{
+  "line-height": {
+    "400": {
+      "value": "$font-size.400.value * $typography.line-height.400",
+      "type": "lineHeight"
+    },
+    "500": {
+      "value": "$font-size.500.value * $typography.line-height.500",
+      "type": "lineHeight"
+    },
+    "600": {
+      "value": "$font-size.600.value * $typography.line-height.600",
+      "type": "lineHeight"
+    },
+    "700": {
+      "value": "$font-size.700.value * $typography.line-height.600",
+      "type": "lineHeight"
+    },
+    "800": {
+      "value": "$font-size.800.value * $typography.line-height.600",
+      "type": "lineHeight"
+    },
+    "900": {
+      "value": "$font-size.600.value * $typography.line-height.600",
+      "type": "lineHeight"
+    }
+  }
+}
