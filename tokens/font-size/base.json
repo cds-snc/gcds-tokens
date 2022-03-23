@@ -1,28 +1,32 @@
 {
-
+  "font-size": {
+    "400": {
+      "value": "1 / $typography.type-scale.value * $typography.base-size.value",
+      "type": "fontSizes"
+    },
+    "500": {
+      "value": "1 * $typography.base-size.value",
+      "type": "fontSizes"
+    },
+    "600": {
+      "value": "1 * $typography.type-scale.value * $typography.base-size.value",
+      "type": "fontSizes"
+    },
+    "700": {
+      "value": "1 * $typography.type-scale.value^2 * $typography.base-size.value",
+      "type": "fontSizes"
+    },
+    "800": {
+      "value": "1 * $typography.type-scale.value^3 * $typography.base-size.value",
+      "type": "fontSizes"
+    },
+    "900": {
+      "value": "1 * $typography.type-scale.value^4 * $typography.base-size.value",
+      "type": "fontSizes"
+    },
+    "1000": {
+      "value": "1 * $typography.type-scale.value^5 * $typography.base-size.value",
+      "type": "fontSizes"
+    }
+  }
 }
-Caption
-1rem / type scale
-(1rem / type scale) * caption line height
-Paragraph
-1rem
-1rem * paragraph line height
-Heading 6
-1rem * type scale
-(1rem * type scale) * heading line height
-Heading 5
-1rem * type scale2
-(1rem * type scale2) * heading line height
-Heading 4
-1rem * type scale3
-(1rem * type scale3) * heading line height
-Heading 3
-1rem * type scale4
-(1rem * type scale4) * heading line height
-Heading 2
-1rem * type scale5
-(1rem * type scale5) * heading line height
-Heading 1
-1rem * type scale6
-(1rem * type scale6) * heading line height
-

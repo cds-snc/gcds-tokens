@@ -1,11 +1,11 @@
 {
-  "Core": {
+  "Raw": {
     "colour": {
       "utils": {
         "blue": {
           "value": "#0535D2",
           "type": "color",
-          "description": "Used for hovered links"
+          "description": "Used for default links"
         },
         "purple": {
           "value": "#7834BC",
@@ -13,7 +13,7 @@
           "description": "Used for visited links"
         },
         "white": {
-          "value": "#ffffff",
+          "value": "#ddd",
           "type": "color",
           "description": "Used for regular backgrounds"
         },
@@ -288,6 +288,44 @@
       "900": {
         "value": 18,
         "type": "sizing"
+      }
+    }
+  },
+  "Base":{
+    "color": {
+      "white": "raw.colour.utils.white"
+    }
+  },
+  "Utility":{
+    "color":{
+      "surface": {
+        "value": "raw.colour.brand.white.000"
+      },
+      "text": {
+        "button": {
+          "value": "base.color.white.text.500"
+        }
+      }
+    }
+  },
+  "Components":{
+    "button": {
+      "color":{
+        "background":{
+          "value": "raw.color.background.button",
+          "comment": "W3C composite tokens"
+        },
+        "border":{
+          "value": "raw.color.border.button"
+        },
+        "text":{
+          "value": "raw.colour.utils.white"
+        }
+      }
+    },
+    "form":{
+      "input": {
+
       }
     }
   }
