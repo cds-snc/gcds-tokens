@@ -1,0 +1,15 @@
+{
+  "Heading 1": {
+    "value": {
+      "fontFamily": "{core.font-family.headings}",
+      "fontWeight": "{core.font-weight.400}",
+      "lineHeight": "{core.line-height.900}",
+      "fontSize": "{core.font-size.900}",
+      "letterSpacing": "0%",
+      "paragraphSpacing": "0",
+      "textDecoration": "none",
+      "textCase": "none"
+    },
+    "type": "typography"
+  }
+}

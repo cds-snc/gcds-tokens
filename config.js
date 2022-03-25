@@ -43,6 +43,7 @@ module.exports = {
 					format: "scss/variables",
 				},
 			],
+			output: true
 		},
 		css: {
 			transformGroup: "css",
@@ -53,6 +54,7 @@ module.exports = {
 					format: "css/variables",
 				},
 			],
+			output: true
 		},
 		figma: {
 			transforms: ["name/cti/kebab"],
