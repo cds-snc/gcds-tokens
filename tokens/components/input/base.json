@@ -1,0 +1,42 @@
+{
+  "input": {
+    "danger": {
+      "default": {
+        "value": "$colors.red.300",
+        "type": "input"
+      },
+      "message": {
+        "background": {
+          "value": "$colors.red.100",
+          "type": "input"
+        },
+        "border": {
+          "value": "$colors.red.300",
+          "type": "input"
+        },
+        "text": {
+          "value": "$colors.grayscale.1000",
+          "type": "input"
+        }
+      }
+    },
+    "default": {
+      "value": "$colors.grayscale.1000",
+      "type": "input"
+    },
+    "disabled": {
+      "background": {
+        "value": "$colors.grayscale.100",
+        "type": "input"
+      },
+      "text": {
+        "value": "$colors.grayscale.500",
+        "type": "input"
+      }
+    },
+    "focus": {
+      "value": "$colors.blue.500",
+      "type": "input"
+    }
+  }
+}
