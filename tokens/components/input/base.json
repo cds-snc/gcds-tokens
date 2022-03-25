@@ -30,7 +30,7 @@
         "type": "input"
       },
       "text": {
-        "value": "$colors.grayscale.500",
+        "value": "$colors.grayscale.700",
         "type": "input"
       }
     },

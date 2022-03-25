@@ -30,7 +30,7 @@
           "background": {
             "value": "$colors.blue.900",
             "type": "button"
-          },
+          }
         }
       },
       "outline": {
@@ -72,7 +72,7 @@
     },
     "secondary": {
       "default": {
-        "value": "$colors.grayscale.600",
+        "value": "$colors.grayscale.500",
         "type": "button"
       },
       "hover": {
