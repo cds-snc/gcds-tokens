@@ -1,0 +1,42 @@
+{
+  "textarea": {
+    "danger": {
+      "default": {
+        "value": "$colors.red.300",
+        "type": "textarea"
+      },
+      "message": {
+        "background": {
+          "value": "$colors.red.100",
+          "type": "textarea"
+        },
+        "border": {
+          "value": "$colors.red.300",
+          "type": "textarea"
+        },
+        "text": {
+          "value": "$colors.grayscale.1000",
+          "type": "textarea"
+        }
+      }
+    },
+    "default": {
+      "value": "$colors.grayscale.1000",
+      "type": "textarea"
+    },
+    "disabled": {
+      "background": {
+        "value": "$colors.grayscale.100",
+        "type": "textarea"
+      },
+      "text": {
+        "value": "$colors.grayscale.500",
+        "type": "textarea"
+      }
+    },
+    "focus": {
+      "value": "$colors.blue.500",
+      "type": "textarea"
+    }
+  }
+}
