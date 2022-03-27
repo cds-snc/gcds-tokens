@@ -1,0 +1,24 @@
+{
+  "font-weight": {
+    "300": {
+      "value": "300",
+      "type": "fontWeights",
+      "default": "Light"
+    },
+    "400": {
+      "value": "400",
+      "type": "fontWeights",
+      "default": "Regular"
+    },
+    "600": {
+      "value": "600",
+      "type": "fontWeights",
+      "default": "SemiBold"
+    },
+    "700": {
+      "value": "700",
+      "type": "fontWeights",
+      "default": "Bold"
+    }
+  }
+}

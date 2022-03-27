@@ -1,0 +1,20 @@
+{
+  "font-family": {
+    "heading": {
+      "value": "Lato",
+      "type": "fontFamily"
+    },
+    "body": {
+      "value": "Noto Sans",
+      "type": "fontFamily"
+    },
+    "monospace": {
+      "value": "Menlo",
+      "type": "fontFamily"
+    },
+    "icons": {
+      "value": "Glyphicons Halflings",
+      "type": "fontFamily"
+    }
+  }
+}

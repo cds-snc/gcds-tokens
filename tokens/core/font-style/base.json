@@ -2,11 +2,11 @@
   "font-style": {
     "normal": {
       "value": "normal",
-      "type": "font-style"
+      "type": "fontStyle"
     },
     "italic": {
       "value": "italic",
-      "type": "font-style"
+      "type": "fontStyle"
     }
   }
 }

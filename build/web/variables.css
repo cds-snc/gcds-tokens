@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 18 Jan 2022 19:14:19 GMT
+ * Generated on Wed, 23 Mar 2022 22:29:23 GMT
  */
 
 :root {
@@ -38,28 +38,32 @@
   --gcds-colour-base-blue-grey-500: #596b80;
   --gcds-colour-base-blue-grey-700: #3c516a;
   --gcds-colour-base-blue-grey-900: #24384f;
-  --gcds-font-size-100: 8px;
-  --gcds-font-size-200: 10px;
-  --gcds-font-size-300: 13px;
-  --gcds-font-size-400: 16px;
-  --gcds-font-size-500: 20px;
-  --gcds-font-size-600: 25px;
-  --gcds-font-size-700: 31px;
-  --gcds-font-size-800: 39px;
-  --gcds-font-size-900: 49px;
+  --gcds-font-family-heading: Lato;
+  --gcds-font-family-body: Noto Sans;
+  --gcds-font-family-monospace: Menlo;
+  --gcds-font-family-icons: Glyphicons Halflings;
+  --gcds-font-size-400: 1 / $typography.type-scale.value * $typography.base-size.value;
+  --gcds-font-size-500: 1 * $typography.base-size.value;
+  --gcds-font-size-600: 1 * $typography.type-scale.value * $typography.base-size.value;
+  --gcds-font-size-700: 1 * $typography.type-scale.value^2 * $typography.base-size.value;
+  --gcds-font-size-800: 1 * $typography.type-scale.value^3 * $typography.base-size.value;
+  --gcds-font-size-900: 1 * $typography.type-scale.value^4 * $typography.base-size.value;
+  --gcds-font-size-1000: 1 * $typography.type-scale.value^5 * $typography.base-size.value;
   --gcds-font-style-normal: normal;
   --gcds-font-style-italic: italic;
   --gcds-font-weight-semi-bold: SemiBold;
   --gcds-font-weight-regular: Regular;
   --gcds-font-weight-light: Light;
   --gcds-font-weight-bold: Bold;
-  --gcds-size-100: 2rem;
-  --gcds-size-200: 4rem;
-  --gcds-size-300: 6rem;
-  --gcds-size-400: 8rem;
-  --gcds-size-500: 10rem;
-  --gcds-size-600: 12rem;
-  --gcds-size-700: 14rem;
-  --gcds-size-800: 16rem;
-  --gcds-size-900: 18rem;
+  --gcds-line-height-400: $font-size.400.value * $typography.line-height.400;
+  --gcds-line-height-500: $font-size.500.value * $typography.line-height.500;
+  --gcds-line-height-600: $font-size.600.value * $typography.line-height.600;
+  --gcds-line-height-700: $font-size.700.value * $typography.line-height.600;
+  --gcds-line-height-800: $font-size.800.value * $typography.line-height.600;
+  --gcds-line-height-900: $font-size.600.value * $typography.line-height.600;
+  --gcds-typography-base-size: 20; /* Based on Canada.ca body font-size */
+  --gcds-typography-line-height-400: 1.2; /* Caption line height */
+  --gcds-typography-line-height-500: 1.3; /* Default */
+  --gcds-typography-line-height-600: 1.1;
+  --gcds-typography-type-scale: 1.33;
 }
