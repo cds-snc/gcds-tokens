@@ -19,55 +19,13 @@
         "value": "$colors.blue.800",
         "type": "button"
       },
-      "solid": {
-        "hover": {
-          "background": {
-            "value": "$colors.blue.300",
-            "type": "button"
-          }
-        },
-        "active": {
-          "background": {
-            "value": "$colors.blue.900",
-            "type": "button"
-          }
-        }
+      "hover": {
+        "value": "$colors.blue.300",
+        "type": "button"
       },
-      "outline": {
-        "hover": {
-          "background": {
-            "value": "$colors.blue.100",
-            "type": "button"
-          },
-          "text": {
-            "value": "$colors.blue.400",
-            "type": "button"
-          }
-        },
-        "active": {
-          "background": {
-            "value": "$colors.blue.200",
-            "type": "button"
-          },
-          "text": {
-            "value": "$colors.blue.700",
-            "type": "button"
-          }
-        }
-      },
-      "text-only": {
-        "hover": {
-          "text": {
-            "value": "$colors.blue.600",
-            "type": "button"
-          }
-        },
-        "active": {
-          "text": {
-            "value": "$colors.blue.800",
-            "type": "button"
-          }
-        }
+      "active": {
+        "value": "$colors.blue.900",
+        "type": "button"
       }
     },
     "secondary": {
@@ -85,11 +43,9 @@
       }
     },
     "shared": {
-      "solid": {
-        "text": {
-          "value": "$colors.grayscale.0",
-          "type": "button"
-        }
+      "text": {
+        "value": "$colors.grayscale.0",
+        "type": "button"
       },
       "focus": {
         "background": {
