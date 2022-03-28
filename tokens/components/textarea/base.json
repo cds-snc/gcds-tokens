@@ -3,40 +3,40 @@
     "danger": {
       "default": {
         "value": "$colors.red.300",
-        "type": "textarea"
+        "type": "color"
       },
       "message": {
         "background": {
           "value": "$colors.red.100",
-          "type": "textarea"
+          "type": "color"
         },
         "border": {
           "value": "$colors.red.300",
-          "type": "textarea"
+          "type": "color"
         },
         "text": {
           "value": "$colors.grayscale.1000",
-          "type": "textarea"
+          "type": "color"
         }
       }
     },
     "default": {
       "value": "$colors.grayscale.1000",
-      "type": "textarea"
+      "type": "color"
     },
     "disabled": {
       "background": {
         "value": "$colors.grayscale.100",
-        "type": "textarea"
+        "type": "color"
       },
       "text": {
         "value": "$colors.grayscale.700",
-        "type": "textarea"
+        "type": "color"
       }
     },
     "focus": {
       "value": "$colors.blue.500",
-      "type": "textarea"
+      "type": "color"
     }
   }
 }
