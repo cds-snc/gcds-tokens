@@ -1,6 +1,6 @@
 {
   "button": {
-    "danger": {
+    "destructive": {
       "default": {
         "value": "$colors.red.200",
         "type": "color"

@@ -1,6 +1,6 @@
 {
   "input": {
-    "danger": {
+    "destructive": {
       "default": {
         "value": "$colors.red.300",
         "type": "color"
