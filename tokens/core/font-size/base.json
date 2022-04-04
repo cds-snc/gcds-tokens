@@ -1,32 +1,36 @@
 {
   "font-size": {
+    "300": {
+      "value": "$typography.base.font-size.value / $typography.base.scale.value",
+      "type": "fontSizes"
+    },
     "400": {
-      "value": "1 / $typography.type-scale.value * $typography.base-size.value",
+      "value": "$typography.base.font-size.value",
       "type": "fontSizes"
     },
     "500": {
-      "value": "1 * $typography.base-size.value",
+      "value": "$typography.base.font-size.value * $typography.base.scale.value",
       "type": "fontSizes"
     },
     "600": {
-      "value": "1 * $typography.type-scale.value * $typography.base-size.value",
+      "value": "$typography.base.font-size.value * $typography.base.scale.value^2",
       "type": "fontSizes"
     },
     "700": {
-      "value": "1 * $typography.type-scale.value^2 * $typography.base-size.value",
+      "value": "$typography.base.font-size.value * $typography.base.scale.value^3",
       "type": "fontSizes"
     },
     "800": {
-      "value": "1 * $typography.type-scale.value^3 * $typography.base-size.value",
+      "value": "$typography.base.font-size.value * $typography.base.scale.value^4",
       "type": "fontSizes"
     },
     "900": {
-      "value": "1 * $typography.type-scale.value^4 * $typography.base-size.value",
+      "value": "$typography.base.font-size.value * $typography.base.scale.value^5",
       "type": "fontSizes"
     },
     "1000": {
-      "value": "1 * $typography.type-scale.value^5 * $typography.base-size.value",
+      "value": "$typography.base.font-size.value * $typography.base.scale.value^6",
       "type": "fontSizes"
     }
   }
-}
+} 

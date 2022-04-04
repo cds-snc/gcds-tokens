@@ -6,7 +6,7 @@
         "type": "fontFamily"
       },
       "fontSize": {
-        "value": "$typography.base.font-size.value * $typography.base.scale.value^6",
+        "value": "$font-size.1000.value",
         "type": "fontSizes"
       },
       "fontWeight": {
