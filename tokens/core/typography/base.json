@@ -1,0 +1,12 @@
+{
+  "base": {
+    "font-size": {
+      "value": "18px",
+      "type": "fontSizes"
+    },
+    "scale": {
+      "value": "1.333",
+      "type": "typography"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "Heading 1": {
+    "value": {
+      "fontFamily": {
+        "value": "$font-family.heading.value",
+        "type": "fontFamily"
+      },
+      "fontSize": {
+        "value": "$typography.base.font-size.value * $typography.base.scale.value^6",
+        "type": "fontSizes"
+      },
+      "fontWeight": {
+        "value": "$font-weight.400.value",
+        "type": "fontWeights"
+      },
+      "lineHeight": {
+        "value": "($typography.base.font-size.value * $typography.base.scale.value^6) * $line-height.100.value",
+        "type": "lineHeight"
+      }
+    },
+    "type": "typography"
+  }
+}
