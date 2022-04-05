@@ -57,6 +57,6 @@ jobs:
           source-directory: 'build/web/'
           target-directory: 'src/variables/'
           destination-github-username: 'cds-snc'
-          destination-repository-name: 'alpha-design-system-documentation'
+          destination-repository-name: 'gcds-docs'
           user-email: ${{ secrets.USER_EMAIL }}
           target-branch: main
