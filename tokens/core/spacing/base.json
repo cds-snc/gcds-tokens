@@ -1,26 +1,26 @@
 {
   "spacing": {
-    "space-300": {
+    "300": {
       "value": "(1rem * $line-height.300.value) / 2",
       "type": "spacing"
     },
-    "space-400": {
+    "400": {
       "value": "1rem * $line-height.300.value",
       "type": "spacing"
     },
-    "space-500": {
+    "500": {
       "value": "(1rem * $line-height.300.value) * 2",
       "type": "spacing"
     },
-    "space-600": {
+    "600": {
       "value": "(1rem * $line-height.300.value) * 3",
       "type": "spacing"
     },
-    "space-700": {
+    "700": {
       "value": "(1rem * $line-height.300.value) * 4",
       "type": "spacing"
     },
-    "space-800": {
+    "800": {
       "value": "(1rem * $line-height.300.value) * 5",
       "type": "spacing"
     }
