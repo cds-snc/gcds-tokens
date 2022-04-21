@@ -20,14 +20,12 @@ const traverseObj = (obj) => {
 	return output;
 };
 
-// const data = traverseObj( { dictionary.tokens } );
-
 module.exports = {
 	source: ["tokens/**/*.@(js|json)"],
 	format: {
 		figmatokens: ({ dictionary }) => {
 			return JSON.stringify(
-				{ Core: traverseObj(dictionary.tokens) },
+				{ Tokens: traverseObj(dictionary.tokens) },
 				null,
 				2
 			);

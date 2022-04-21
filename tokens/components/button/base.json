@@ -2,72 +2,72 @@
   "button": {
     "destructive": {
       "default": {
-        "value": "$colors.red.200",
+        "value": "{color.red.200.value}",
         "type": "color"
       },
       "hover": {
-        "value": "$colors.red.400",
+        "value": "{color.red.400.value}",
         "type": "color"
       },
       "active": {
-        "value": "$colors.red.200",
+        "value": "{color.red.200.value}",
         "type": "color"
       }
     },
     "primary": {
       "default": {
-        "value": "$colors.blue.800",
+        "value": "{color.blue.800.value}",
         "type": "color"
       },
       "hover": {
-        "value": "$colors.blue.300",
+        "value": "{color.blue.300.value}",
         "type": "color"
       },
       "active": {
-        "value": "$colors.blue.900",
+        "value": "{color.blue.900.value}",
         "type": "color"
       }
     },
     "secondary": {
       "default": {
-        "value": "$colors.grayscale.500",
+        "value": "{color.grayscale.500.value}",
         "type": "color"
       },
       "hover": {
-        "value": "$colors.grayscale.900",
+        "value": "{color.grayscale.900.value}",
         "type": "color"
       },
       "active": {
-        "value": "$colors.grayscale.300",
+        "value": "{color.grayscale.300.value}",
         "type": "color"
       }
     },
     "shared": {
       "text": {
-        "value": "$colors.grayscale.0",
+        "value": "{color.grayscale.0.value}",
         "type": "color"
       },
       "focus": {
         "background": {
-          "value": "$colors.blue.500",
+          "value": "{color.blue.500.value}",
           "type": "color"
         },
         "text": {
-          "value": "$colors.grayscale.0",
+          "value": "{color.grayscale.0.value}",
           "type": "color"
         }
       },
       "disabled": {
         "background": {
-          "value": "$colors.blue.200",
+          "value": "{color.blue.200.value}",
           "type": "color"
         },
         "border": {
-          "value": "$colors.blue.400",
+          "value": "{color.blue.400.value}",
           "type": "color"
         },
         "text": {
-          "value": "$colors.blue.800",
+          "value": "{color.blue.800.value}",
           "type": "color"
         }
       }

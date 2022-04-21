@@ -2,40 +2,40 @@
   "input": {
     "destructive": {
       "default": {
-        "value": "$colors.red.300",
+        "value": "{color.red.300.value}",
         "type": "color"
       },
       "message": {
         "background": {
-          "value": "$colors.red.100",
+          "value": "{color.red.100.value}",
           "type": "color"
         },
         "border": {
-          "value": "$colors.red.300",
+          "value": "{color.red.300.value}",
           "type": "color"
         },
         "text": {
-          "value": "$colors.grayscale.1000",
+          "value": "{color.grayscale.1000.value}",
           "type": "color"
         }
       }
     },
     "default": {
-      "value": "$colors.grayscale.1000",
+      "value": "{color.grayscale.1000.value}",
       "type": "color"
     },
     "disabled": {
       "background": {
-        "value": "$colors.grayscale.100",
+        "value": "{color.grayscale.100.value}",
         "type": "color"
       },
       "text": {
-        "value": "$colors.grayscale.700",
+        "value": "{color.grayscale.700.value}",
         "type": "color"
       }
     },
     "focus": {
-      "value": "$colors.blue.500",
+      "value": "{color.blue.500.value}",
       "type": "color"
     }
   }

@@ -1,23 +1,20 @@
 {
-  "Heading 1": {
-    "value": {
-      "fontFamily": {
-        "value": "$font-family.heading.value",
-        "type": "fontFamily"
-      },
-      "fontSize": {
-        "value": "$font-size.1000.value",
-        "type": "fontSizes"
-      },
-      "fontWeight": {
-        "value": "$font-weight.400.value",
-        "type": "fontWeights"
-      },
-      "lineHeight": {
-        "value": "($typography.base.font-size.value * $typography.base.scale.value^6) * $line-height.100.value",
-        "type": "lineHeight"
-      }
+  "Heading-1": {
+    "fontFamilies": {
+      "value": "{fontFamilies.heading.value}",
+      "type": "fontFamilies"
     },
-    "type": "typography"
+    "fontSizes": {
+      "value": "{fontSizes.h1.value}",
+      "type": "fontSizes"
+    },
+    "fontWeights": {
+      "value": "{fontWeights.regular.value}",
+      "type": "fontWeights"
+    },
+    "lineHeights": {
+      "value": "{lineHeights.h1.value}",
+      "type": "lineHeights"
+    }
   }
 }
