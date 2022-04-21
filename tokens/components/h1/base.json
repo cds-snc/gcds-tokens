@@ -1,0 +1,20 @@
+{
+  "Heading-1": {
+    "fontFamilies": {
+      "value": "{fontFamilies.heading.value}",
+      "type": "fontFamilies"
+    },
+    "fontSizes": {
+      "value": "{fontSizes.h1.value}",
+      "type": "fontSizes"
+    },
+    "fontWeights": {
+      "value": "{fontWeights.regular.value}",
+      "type": "fontWeights"
+    },
+    "lineHeights": {
+      "value": "{lineHeights.h1.value}",
+      "type": "lineHeights"
+    }
+  }
+}
