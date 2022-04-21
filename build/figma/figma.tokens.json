@@ -340,19 +340,19 @@
       }
     },
     "Heading-1": {
-      "Font Family": {
+      "fontFamilies": {
         "value": "Lato",
         "type": "fontFamilies"
       },
-      "Font Size": {
+      "fontSizes": {
         "value": "2.5341081619262695rem",
         "type": "fontSizes"
       },
-      "Font Weight": {
+      "fontWeights": {
         "value": "400",
         "type": "fontWeights"
       },
-      "Line Height": {
+      "lineHeights": {
         "value": "128.25024791086875%",
         "type": "lineHeights"
       }

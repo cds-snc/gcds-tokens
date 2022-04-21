@@ -23,20 +23,13 @@ const traverseObj = (obj) => {
 module.exports = {
 	source: ["tokens/**/*.@(js|json)"],
 	format: {
-		designtokens: ({ dictionary }) => {
-			return JSON.stringify(
-				formatHelpers.minifyDictionary(dictionary.tokens),
-				null,
-				2
-			);
-		},
 		figmatokens: ({ dictionary }) => {
 			return JSON.stringify(
 				{ Tokens: traverseObj(dictionary.tokens) },
 				null,
 				2
 			);
-		},
+		}
 	},
 	platforms: {
 		scss: {
@@ -48,6 +41,7 @@ module.exports = {
 					format: "scss/variables",
 				},
 			],
+			output: true
 		},
 		css: {
 			transformGroup: "css",
@@ -58,6 +52,7 @@ module.exports = {
 					format: "css/variables",
 				},
 			],
+			output: true
 		},
 		figma: {
 			transforms: ["name/cti/kebab"],
@@ -66,14 +61,10 @@ module.exports = {
 			transforms: ["name/cti/kebab", "size/px"],
 			files: [
 				{
-					destination: "dispatches/design.tokens.json",
-					format: "designtokens",
-				},
-				{
 					destination: "figma/figma.tokens.json",
 					format: "figmatokens",
-				},
-			],
-		},
-	},
+				}
+			]
+		}
+	}
 };
