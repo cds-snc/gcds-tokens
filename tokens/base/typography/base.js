@@ -98,32 +98,26 @@ const lineHeights = {
   h6: {
     value: `${calculateLineHeight(fontSizes.h6.value)}%`,
     type: 'lineHeights',
-    comment: '26'
   },
   h5: {
     value: `${calculateLineHeight(fontSizes.h5.value)}%`,
     type: 'lineHeights',
-    comment: '26'
   },
   h4: {
     value: `${calculateLineHeight(fontSizes.h4.value)}%`,
     type: 'lineHeights',
-    comment: '52'
   },
   h3: {
     value: `${calculateLineHeight(fontSizes.h3.value)}%`,
     type: 'lineHeights',
-    comment: '52'
   },
   h2: {
     value: `${calculateLineHeight(fontSizes.h2.value)}%`,
     type: 'lineHeights',
-    comment: '52'
   },
   h1: {
     value: `${calculateLineHeight(fontSizes.h1.value)}%`,
     type: 'lineHeights',
-    comment: '52'
   }
 }
 
