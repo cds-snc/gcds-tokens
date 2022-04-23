@@ -1,22 +1,22 @@
 {
   "container": {
-    "xs": {
-      "value": "450px",
+    "100": {
+      "value": "28.125rem",
       "type": "sizing"
     },
-    "sm": {
-      "value": "600px",
+    "200": {
+      "value": "37.5rem",
       "type": "sizing"
     },
-    "md": {
-      "value": "900px",
+    "300": {
+      "value": "56.25rem",
       "type": "sizing"
     },
-    "lg": {
-      "value": "1280px",
+    "400": {
+      "value": "80rem",
       "type": "sizing"
     },
-    "fluid": {
+    "500": {
       "value": "100%",
       "type": "sizing"
     }
