@@ -1,10 +1,17 @@
 const base = {
   fontSize: {
     value: 1.25,
+    type: 'typography',
     comment: 'Sets base font size to 20px'
   },
-  lineHeight: { value: 1.3 },
-  scale: { value: 1.125 },
+  lineHeight: {
+    value: 1.3,
+    type: 'typography',
+  },
+  scale: {
+    value: 1.125,
+    type: 'typography',
+  },
 }
 
 const fontFamilies = {
