@@ -1,0 +1,10 @@
+{
+  "label": {
+    "destructive": {
+      "text": {
+        "value": "{color.red.300.value}",
+        "type": "color"
+      }
+    }
+  }
+}
