@@ -1,0 +1,24 @@
+{
+  "container": {
+    "xs": {
+      "value": "450px",
+      "type": "sizing"
+    },
+    "sm": {
+      "value": "600px",
+      "type": "sizing"
+    },
+    "md": {
+      "value": "900px",
+      "type": "sizing"
+    },
+    "lg": {
+      "value": "1280px",
+      "type": "sizing"
+    },
+    "fluid": {
+      "value": "100%",
+      "type": "sizing"
+    }
+  }
+}
