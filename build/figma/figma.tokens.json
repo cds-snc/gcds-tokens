@@ -52,12 +52,20 @@
           "value": "#EDEDED",
           "type": "color"
         },
+        "250": {
+          "value": "#D2D2D2",
+          "type": "color"
+        },
         "300": {
           "value": "#C4C3C5",
           "type": "color"
         },
         "400": {
           "value": "#BFBFBF",
+          "type": "color"
+        },
+        "450": {
+          "value": "#828282",
           "type": "color"
         },
         "500": {
@@ -78,6 +86,10 @@
         },
         "900": {
           "value": "#6A6D7B",
+          "type": "color"
+        },
+        "950": {
+          "value": "#595959",
           "type": "color"
         },
         "1000": {
@@ -102,6 +114,34 @@
           "value": "#340E0E",
           "type": "color"
         }
+      },
+      "yellow": {
+        "100": {
+          "value": "#f7b452",
+          "type": "color"
+        }
+      }
+    },
+    "container": {
+      "100": {
+        "value": "28.125rem",
+        "type": "sizing"
+      },
+      "200": {
+        "value": "37.5rem",
+        "type": "sizing"
+      },
+      "300": {
+        "value": "56.25rem",
+        "type": "sizing"
+      },
+      "400": {
+        "value": "80rem",
+        "type": "sizing"
+      },
+      "500": {
+        "value": "100%",
+        "type": "sizing"
       }
     },
     "spacing": {
@@ -152,13 +192,16 @@
     },
     "base": {
       "fontSize": {
-        "value": 1.25
+        "value": 1.25,
+        "type": "typography"
       },
       "lineHeight": {
-        "value": 1.3
+        "value": 1.3,
+        "type": "typography"
       },
       "scale": {
-        "value": 1.125
+        "value": 1.125,
+        "type": "typography"
       }
     },
     "fontFamilies": {
@@ -339,6 +382,20 @@
         }
       }
     },
+    "error-message": {
+      "background": {
+        "value": "#F3E9E8",
+        "type": "color"
+      },
+      "border": {
+        "value": "#D3080C",
+        "type": "color"
+      },
+      "text": {
+        "value": "#000",
+        "type": "color"
+      }
+    },
     "Heading-1": {
       "fontFamilies": {
         "value": "Lato",
@@ -358,28 +415,18 @@
       }
     },
     "input": {
-      "destructive": {
-        "default": {
-          "value": "#D3080C",
+      "default": {
+        "background": {
+          "value": "#FFF",
           "type": "color"
         },
-        "message": {
-          "background": {
-            "value": "#F3E9E8",
-            "type": "color"
-          },
-          "border": {
-            "value": "#D3080C",
-            "type": "color"
-          },
-          "text": {
-            "value": "#000",
-            "type": "color"
-          }
+        "text": {
+          "value": "#000",
+          "type": "color"
         }
       },
-      "default": {
-        "value": "#000",
+      "destructive": {
+        "value": "#D3080C",
         "type": "color"
       },
       "disabled": {
@@ -397,19 +444,83 @@
         "type": "color"
       }
     },
-    "textarea": {
+    "label": {
       "destructive": {
-        "default": {
+        "text": {
           "value": "#D3080C",
           "type": "color"
+        }
+      }
+    },
+    "site-menu": {
+      "active": {
+        "background": {
+          "value": "#595959",
+          "type": "color"
         },
-        "message": {
+        "text": {
+          "value": "#FFF",
+          "type": "color"
+        }
+      },
+      "default": {
+        "background": {
+          "value": "#D2D2D2",
+          "type": "color"
+        },
+        "border": {
+          "value": "#000",
+          "type": "color"
+        },
+        "text": {
+          "value": "#000",
+          "type": "color"
+        }
+      },
+      "focus": {
+        "background": {
+          "value": "#303FC3",
+          "type": "color"
+        },
+        "text": {
+          "value": "#FFF",
+          "type": "color"
+        }
+      },
+      "hover": {
+        "background": {
+          "value": "#BFBFBF",
+          "type": "color"
+        },
+        "text": {
+          "value": "#000",
+          "type": "color"
+        }
+      },
+      "mobile": {
+        "background": {
+          "value": "#EDEDED",
+          "type": "color"
+        }
+      },
+      "selection": {
+        "background": {
+          "value": "#f7b452",
+          "type": "color"
+        },
+        "text": {
+          "value": "#000",
+          "type": "color"
+        }
+      },
+      "submenu": {
+        "box-shadow": {
+          "value": "#000",
+          "type": "color"
+        },
+        "trigger": {
           "background": {
-            "value": "#F3E9E8",
-            "type": "color"
-          },
-          "border": {
-            "value": "#D3080C",
+            "value": "#828282",
             "type": "color"
           },
           "text": {
@@ -417,9 +528,21 @@
             "type": "color"
           }
         }
-      },
+      }
+    },
+    "textarea": {
       "default": {
-        "value": "#000",
+        "background": {
+          "value": "#FFF",
+          "type": "color"
+        },
+        "text": {
+          "value": "#000",
+          "type": "color"
+        }
+      },
+      "destructive": {
+        "value": "#D3080C",
         "type": "color"
       },
       "disabled": {
