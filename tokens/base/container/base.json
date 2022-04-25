@@ -1,0 +1,24 @@
+{
+  "container": {
+    "100": {
+      "value": "28.125rem",
+      "type": "sizing"
+    },
+    "200": {
+      "value": "37.5rem",
+      "type": "sizing"
+    },
+    "300": {
+      "value": "56.25rem",
+      "type": "sizing"
+    },
+    "400": {
+      "value": "80rem",
+      "type": "sizing"
+    },
+    "500": {
+      "value": "100%",
+      "type": "sizing"
+    }
+  }
+}

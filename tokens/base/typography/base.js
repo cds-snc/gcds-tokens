@@ -1,10 +1,17 @@
 const base = {
   fontSize: {
     value: 1.25,
+    type: 'typography',
     comment: 'Sets base font size to 20px'
   },
-  lineHeight: { value: 1.3 },
-  scale: { value: 1.125 },
+  lineHeight: {
+    value: 1.3,
+    type: 'typography',
+  },
+  scale: {
+    value: 1.125,
+    type: 'typography',
+  },
 }
 
 const fontFamilies = {
@@ -98,32 +105,26 @@ const lineHeights = {
   h6: {
     value: `${calculateLineHeight(fontSizes.h6.value)}%`,
     type: 'lineHeights',
-    comment: '26'
   },
   h5: {
     value: `${calculateLineHeight(fontSizes.h5.value)}%`,
     type: 'lineHeights',
-    comment: '26'
   },
   h4: {
     value: `${calculateLineHeight(fontSizes.h4.value)}%`,
     type: 'lineHeights',
-    comment: '52'
   },
   h3: {
     value: `${calculateLineHeight(fontSizes.h3.value)}%`,
     type: 'lineHeights',
-    comment: '52'
   },
   h2: {
     value: `${calculateLineHeight(fontSizes.h2.value)}%`,
     type: 'lineHeights',
-    comment: '52'
   },
   h1: {
     value: `${calculateLineHeight(fontSizes.h1.value)}%`,
     type: 'lineHeights',
-    comment: '52'
   }
 }
 

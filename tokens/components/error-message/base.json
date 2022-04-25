@@ -1,0 +1,16 @@
+{
+  "error-message": {
+    "background": {
+      "value": "{color.red.100.value}",
+      "type": "color"
+    },
+    "border": {
+      "value": "{color.red.300.value}",
+      "type": "color"
+    },
+    "text": {
+      "value": "{color.grayscale.1000.value}",
+      "type": "color"
+    }
+  }
+}

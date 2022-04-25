@@ -1,0 +1,80 @@
+{
+  "site-menu": {
+    "active": {
+      "background": {
+        "value": "{color.grayscale.950.value}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{color.grayscale.0.value}",
+        "type": "color"
+      }
+    },
+    "default": {
+      "background": {
+        "value": "{color.grayscale.250.value}",
+        "type": "color"
+      },
+      "border": {
+        "value": "{color.grayscale.1000.value}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{color.grayscale.1000.value}",
+        "type": "color"
+      }
+    },
+    "focus": {
+      "background": {
+        "value": "{color.blue.500.value}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{color.grayscale.0.value}",
+        "type": "color"
+      }
+    },
+    "hover": {
+      "background": {
+        "value": "{color.grayscale.400.value}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{color.grayscale.1000.value}",
+        "type": "color"
+      }
+    },
+    "mobile": {
+      "background": {
+        "value": "{color.grayscale.200.value}",
+        "type": "color"
+      }
+    },
+    "selection": {
+      "background": {
+        "value": "{color.yellow.100.value}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{color.grayscale.1000.value}",
+        "type": "color"
+      }
+    },
+    "submenu": {
+      "box-shadow": {
+        "value": "{color.grayscale.1000.value}",
+        "type": "color"
+      },
+      "trigger": {
+        "background": {
+          "value": "{color.grayscale.450.value}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{color.grayscale.1000.value}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

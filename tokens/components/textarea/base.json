@@ -1,27 +1,17 @@
 {
   "textarea": {
-    "destructive": {
-      "default": {
-        "value": "{color.red.300.value}",
+    "default": {
+      "background": {
+        "value": "{color.grayscale.0.value}",
         "type": "color"
       },
-      "message": {
-        "background": {
-          "value": "{color.red.100.value}",
-          "type": "color"
-        },
-        "border": {
-          "value": "{color.red.300.value}",
-          "type": "color"
-        },
-        "text": {
-          "value": "{color.grayscale.1000.value}",
-          "type": "color"
-        }
+      "text": {
+        "value": "{color.grayscale.1000.value}",
+        "type": "color"
       }
     },
-    "default": {
-      "value": "{color.grayscale.1000.value}",
+    "destructive": {
+      "value": "{color.red.300.value}",
       "type": "color"
     },
     "disabled": {
