@@ -368,15 +368,15 @@
         },
         "disabled": {
           "background": {
-            "value": "#AAD5F2",
+            "value": "#EDEDED",
             "type": "color"
           },
           "border": {
-            "value": "#396293",
+            "value": "#BFBFBF",
             "type": "color"
           },
           "text": {
-            "value": "#26374A",
+            "value": "#6B6B6B",
             "type": "color"
           }
         }
