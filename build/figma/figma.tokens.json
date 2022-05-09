@@ -465,11 +465,11 @@
       },
       "default": {
         "background": {
-          "value": "#D2D2D2",
+          "value": "#EDEDED",
           "type": "color"
         },
         "border": {
-          "value": "#000",
+          "value": "#00030",
           "type": "color"
         },
         "text": {
@@ -489,17 +489,11 @@
       },
       "hover": {
         "background": {
-          "value": "#BFBFBF",
+          "value": "#BFBFBF50",
           "type": "color"
         },
         "text": {
           "value": "#000",
-          "type": "color"
-        }
-      },
-      "mobile": {
-        "background": {
-          "value": "#EDEDED",
           "type": "color"
         }
       },
@@ -514,18 +508,28 @@
         }
       },
       "submenu": {
+        "background": {
+          "value": "#D2D2D250",
+          "type": "color"
+        },
         "box-shadow": {
-          "value": "#000",
+          "value": "#00030",
           "type": "color"
         },
         "trigger": {
           "background": {
-            "value": "#828282",
+            "value": "#82828235",
             "type": "color"
           },
           "text": {
             "value": "#000",
             "type": "color"
+          },
+          "hover": {
+            "background": {
+              "value": "#82828270",
+              "type": "color"
+            }
           }
         }
       }

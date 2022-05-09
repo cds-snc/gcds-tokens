@@ -12,11 +12,11 @@
     },
     "default": {
       "background": {
-        "value": "{color.grayscale.250.value}",
+        "value": "{color.grayscale.200.value}",
         "type": "color"
       },
       "border": {
-        "value": "{color.grayscale.1000.value}",
+        "value": "{color.grayscale.1000.value}30",
         "type": "color"
       },
       "text": {
@@ -36,17 +36,11 @@
     },
     "hover": {
       "background": {
-        "value": "{color.grayscale.400.value}",
+        "value": "{color.grayscale.400.value}50",
         "type": "color"
       },
       "text": {
         "value": "{color.grayscale.1000.value}",
-        "type": "color"
-      }
-    },
-    "mobile": {
-      "background": {
-        "value": "{color.grayscale.200.value}",
         "type": "color"
       }
     },
@@ -61,18 +55,28 @@
       }
     },
     "submenu": {
+      "background": {
+        "value": "{color.grayscale.250.value}50",
+        "type": "color"
+      },
       "box-shadow": {
-        "value": "{color.grayscale.1000.value}",
+        "value": "{color.grayscale.1000.value}30",
         "type": "color"
       },
       "trigger": {
         "background": {
-          "value": "{color.grayscale.450.value}",
+          "value": "{color.grayscale.450.value}35",
           "type": "color"
         },
         "text": {
           "value": "{color.grayscale.1000.value}",
           "type": "color"
+        },
+        "hover": {
+          "background": {
+            "value": "{color.grayscale.450.value}70",
+            "type": "color"
+          }
         }
       }
     }
