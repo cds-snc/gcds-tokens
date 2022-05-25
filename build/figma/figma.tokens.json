@@ -52,6 +52,10 @@
           "value": "#EDEDED",
           "type": "color"
         },
+        "225": {
+          "value": "#E8E7E7",
+          "type": "color"
+        },
         "250": {
           "value": "#D2D2D2",
           "type": "color"
@@ -517,10 +521,6 @@
           "type": "color"
         },
         "trigger": {
-          "background": {
-            "value": "#82828235",
-            "type": "color"
-          },
           "text": {
             "value": "#000",
             "type": "color"
@@ -530,6 +530,14 @@
               "value": "#82828270",
               "type": "color"
             }
+          }
+        }
+      },
+      "sidebar": {
+        "submenu": {
+          "background": {
+            "value": "#E8E7E7",
+            "type": "color"
           }
         }
       }
