@@ -53,7 +53,7 @@
           "type": "color"
         },
         "225": {
-          "value": "#E8E7E7",
+          "value": "#E5E5E5",
           "type": "color"
         },
         "250": {
@@ -513,7 +513,7 @@
       },
       "submenu": {
         "background": {
-          "value": "#D2D2D250",
+          "value": "#E5E5E5",
           "type": "color"
         },
         "box-shadow": {
@@ -530,14 +530,6 @@
               "value": "#82828270",
               "type": "color"
             }
-          }
-        }
-      },
-      "sidebar": {
-        "submenu": {
-          "background": {
-            "value": "#E8E7E7",
-            "type": "color"
           }
         }
       }
