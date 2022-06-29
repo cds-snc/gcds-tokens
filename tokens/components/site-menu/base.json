@@ -52,7 +52,7 @@
     },
     "submenu": {
       "background": {
-        "value": "{color.grayscale.250.value}50",
+        "value": "{color.grayscale.225.value}",
         "type": "color"
       },
       "box-shadow": {
@@ -62,14 +62,6 @@
       "trigger": {
         "text": {
           "value": "{color.grayscale.1000.value}",
-          "type": "color"
-        }
-      }
-    },
-    "sidebar": {
-      "submenu": {
-        "background": {
-          "value": "{color.grayscale.225.value}",
           "type": "color"
         }
       }
