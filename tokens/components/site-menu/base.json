@@ -38,10 +38,6 @@
       "background": {
         "value": "{color.grayscale.400.value}50",
         "type": "color"
-      },
-      "text": {
-        "value": "{color.grayscale.1000.value}",
-        "type": "color"
       }
     },
     "selection": {
@@ -67,12 +63,6 @@
         "text": {
           "value": "{color.grayscale.1000.value}",
           "type": "color"
-        },
-        "hover": {
-          "background": {
-            "value": "{color.grayscale.450.value}70",
-            "type": "color"
-          }
         }
       }
     },

@@ -495,10 +495,6 @@
         "background": {
           "value": "#BFBFBF50",
           "type": "color"
-        },
-        "text": {
-          "value": "#000",
-          "type": "color"
         }
       },
       "selection": {
@@ -524,12 +520,6 @@
           "text": {
             "value": "#000",
             "type": "color"
-          },
-          "hover": {
-            "background": {
-              "value": "#82828270",
-              "type": "color"
-            }
           }
         }
       },
