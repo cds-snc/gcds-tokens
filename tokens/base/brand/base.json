@@ -1,0 +1,28 @@
+{
+  "brand": {
+    "default": {
+      "text": {
+        "value": "{color.grayscale.1000.value}",
+        "type": "color"
+      }
+    },
+    "focus": {
+      "value": "{color.blue.500.value}",
+      "type": "color"
+    },
+    "disabled": {
+      "background": {
+        "value": "{color.grayscale.100.value}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{color.grayscale.700.value}",
+        "type": "color"
+      }
+    },
+    "destructive": {
+      "value": "{color.red.300.value}",
+      "type": "color"
+    }
+  }
+}

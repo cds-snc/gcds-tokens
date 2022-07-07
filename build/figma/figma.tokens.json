@@ -1,5 +1,31 @@
 {
   "Tokens": {
+    "brand": {
+      "default": {
+        "text": {
+          "value": "#000",
+          "type": "color"
+        }
+      },
+      "focus": {
+        "value": "#303FC3",
+        "type": "color"
+      },
+      "disabled": {
+        "background": {
+          "value": "#F0F0F0",
+          "type": "color"
+        },
+        "text": {
+          "value": "#707070",
+          "type": "color"
+        }
+      },
+      "destructive": {
+        "value": "#D3080C",
+        "type": "color"
+      }
+    },
     "color": {
       "blue": {
         "100": {
@@ -386,6 +412,36 @@
         }
       }
     },
+    "checkbox": {
+      "default": {
+        "text": {
+          "value": "#000",
+          "type": "color"
+        }
+      },
+      "destructive": {
+        "value": "#D3080C",
+        "type": "color"
+      },
+      "disabled": {
+        "background": {
+          "value": "#F0F0F0",
+          "type": "color"
+        },
+        "border": {
+          "value": "#707070",
+          "type": "color"
+        },
+        "text": {
+          "value": "#707070",
+          "type": "color"
+        }
+      },
+      "focus": {
+        "value": "#303FC3",
+        "type": "color"
+      }
+    },
     "error-message": {
       "background": {
         "value": "#F3E9E8",
@@ -454,6 +510,36 @@
           "value": "#D3080C",
           "type": "color"
         }
+      }
+    },
+    "radio": {
+      "default": {
+        "text": {
+          "value": "#000",
+          "type": "color"
+        }
+      },
+      "destructive": {
+        "value": "#D3080C",
+        "type": "color"
+      },
+      "disabled": {
+        "background": {
+          "value": "#F0F0F0",
+          "type": "color"
+        },
+        "border": {
+          "value": "#707070",
+          "type": "color"
+        },
+        "text": {
+          "value": "#707070",
+          "type": "color"
+        }
+      },
+      "focus": {
+        "value": "#303FC3",
+        "type": "color"
       }
     },
     "site-menu": {
