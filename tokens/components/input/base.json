@@ -11,21 +11,21 @@
       }
     },
     "destructive": {
-      "value": "{color.red.300.value}",
+      "value": "{brand.destructive.value}",
       "type": "color"
     },
     "disabled": {
       "background": {
-        "value": "{color.grayscale.100.value}",
+        "value": "{brand.disabled.background.value}",
         "type": "color"
       },
       "text": {
-        "value": "{color.grayscale.700.value}",
+        "value": "{brand.disabled.text.value}",
         "type": "color"
       }
     },
     "focus": {
-      "value": "{color.blue.500.value}",
+      "value": "{brand.focus.value}",
       "type": "color"
     }
   }
