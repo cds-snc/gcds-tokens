@@ -338,6 +338,40 @@
         "type": "lineHeights"
       }
     },
+    "banner": {
+      "destructive": {
+        "background": {
+          "value": "#D3080C",
+          "type": "color"
+        },
+        "text": {
+          "value": "#FFF",
+          "type": "color"
+        }
+      },
+      "primary": {
+        "background": {
+          "value": "#26374A",
+          "type": "color"
+        },
+        "text": {
+          "value": "#FFF",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "background": {
+          "value": "#F0F0F0",
+          "type": "color"
+        }
+      },
+      "warning": {
+        "background": {
+          "value": "#f7b452",
+          "type": "color"
+        }
+      }
+    },
     "button": {
       "destructive": {
         "default": {
