@@ -43,6 +43,10 @@
         "value": "#FFF",
         "type": "color"
       },
+      "50": {
+        "value": "#F8F8F8",
+        "type": "color"
+      },
       "100": {
         "value": "#F0F0F0",
         "type": "color"
@@ -106,14 +110,18 @@
         "type": "color"
       },
       "200": {
-        "value": "#BC3331",
+        "value": "#FF0000",
         "type": "color"
       },
       "300": {
-        "value": "#D3080C",
+        "value": "#BC3331",
         "type": "color"
       },
       "400": {
+        "value": "#D3080C",
+        "type": "color"
+      },
+      "500": {
         "value": "#340E0E",
         "type": "color"
       }

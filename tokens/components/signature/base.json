@@ -1,0 +1,20 @@
+{
+  "signature": {
+    "color": {
+      "flag": {
+        "value": "{color.red.200.value}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{color.grayscale.1000.value}",
+        "type": "color"
+      }
+    },
+    "white": {
+      "default": {
+        "value": "{color.grayscale.0.value}",
+        "type": "color"
+      }
+    }
+  }
+}

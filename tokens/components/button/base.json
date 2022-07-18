@@ -2,15 +2,15 @@
   "button": {
     "destructive": {
       "default": {
-        "value": "{color.red.200.value}",
+        "value": "{color.red.300.value}",
         "type": "color"
       },
       "hover": {
-        "value": "{color.red.400.value}",
+        "value": "{color.red.500.value}",
         "type": "color"
       },
       "active": {
-        "value": "{color.red.200.value}",
+        "value": "{color.red.300.value}",
         "type": "color"
       }
     },

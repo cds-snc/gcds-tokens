@@ -21,7 +21,7 @@
       }
     },
     "destructive": {
-      "value": "{color.red.300.value}",
+      "value": "{color.red.400.value}",
       "type": "color"
     }
   }
