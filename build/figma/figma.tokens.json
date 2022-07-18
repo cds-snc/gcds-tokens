@@ -454,8 +454,10 @@
         }
       },
       "destructive": {
-        "value": "#D3080C",
-        "type": "color"
+        "text": {
+          "value": "#D3080C",
+          "type": "color"
+        }
       },
       "disabled": {
         "background": {
@@ -472,8 +474,14 @@
         }
       },
       "focus": {
-        "value": "#303FC3",
-        "type": "color"
+        "text": {
+          "value": "#303FC3",
+          "type": "color"
+        },
+        "shadow": {
+          "value": "#FFF",
+          "type": "color"
+        }
       }
     },
     "error-message": {
@@ -554,8 +562,10 @@
         }
       },
       "destructive": {
-        "value": "#D3080C",
-        "type": "color"
+        "text": {
+          "value": "#D3080C",
+          "type": "color"
+        }
       },
       "disabled": {
         "background": {
@@ -572,8 +582,14 @@
         }
       },
       "focus": {
-        "value": "#303FC3",
-        "type": "color"
+        "text": {
+          "value": "#303FC3",
+          "type": "color"
+        },
+        "shadow": {
+          "value": "#FFF",
+          "type": "color"
+        }
       }
     },
     "site-menu": {
