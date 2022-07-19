@@ -1,0 +1,18 @@
+{
+  "verify-banner": {
+    "background": {
+      "value": "{color.grayscale.100.value}",
+      "type": "color"
+    },
+    "border": {
+      "value": "{color.grayscale.400.value}",
+      "type": "color"
+    },
+    "toggle": {
+      "text": {
+        "value": "{brand.focus.value}",
+        "type": "color"
+      }
+    }
+  }
+}
