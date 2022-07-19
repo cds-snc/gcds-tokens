@@ -1,0 +1,10 @@
+{
+  "header": {
+    "brand": {
+      "border": {
+        "value": "{color.blue.450.value}",
+        "type": "color"
+      }
+    }
+  }
+}

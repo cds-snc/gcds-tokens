@@ -1,0 +1,24 @@
+{
+  "footer": {
+    "brand": {
+      "background": {
+        "value": "{color.grayscale.50.value}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{color.grayscale.1000.value}",
+        "type": "color"
+      }
+    },
+    "landscape": {
+      "background": {
+        "value": "{color.blue.800.value}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{color.grayscale.0.value}",
+        "type": "color"
+      }
+    }
+  }
+}

@@ -44,6 +44,10 @@
           "value": "#396293",
           "type": "color"
         },
+        "450": {
+          "value": "#38414d",
+          "type": "color"
+        },
         "500": {
           "value": "#303FC3",
           "type": "color"
@@ -68,6 +72,10 @@
       "grayscale": {
         "0": {
           "value": "#FFF",
+          "type": "color"
+        },
+        "50": {
+          "value": "#F8F8F8",
           "type": "color"
         },
         "100": {
@@ -133,14 +141,18 @@
           "type": "color"
         },
         "200": {
-          "value": "#BC3331",
+          "value": "#FF0000",
           "type": "color"
         },
         "300": {
-          "value": "#D3080C",
+          "value": "#BC3331",
           "type": "color"
         },
         "400": {
+          "value": "#D3080C",
+          "type": "color"
+        },
+        "500": {
           "value": "#340E0E",
           "type": "color"
         }
@@ -498,6 +510,28 @@
         "type": "color"
       }
     },
+    "footer": {
+      "brand": {
+        "background": {
+          "value": "#F8F8F8",
+          "type": "color"
+        },
+        "text": {
+          "value": "#000",
+          "type": "color"
+        }
+      },
+      "landscape": {
+        "background": {
+          "value": "#26374A",
+          "type": "color"
+        },
+        "text": {
+          "value": "#FFF",
+          "type": "color"
+        }
+      }
+    },
     "Heading-1": {
       "fontFamilies": {
         "value": "Lato",
@@ -514,6 +548,14 @@
       "lineHeights": {
         "value": "128.25024791086875%",
         "type": "lineHeights"
+      }
+    },
+    "header": {
+      "brand": {
+        "border": {
+          "value": "#38414d",
+          "type": "color"
+        }
       }
     },
     "input": {
@@ -587,6 +629,24 @@
           "type": "color"
         },
         "shadow": {
+          "value": "#FFF",
+          "type": "color"
+        }
+      }
+    },
+    "signature": {
+      "color": {
+        "flag": {
+          "value": "#FF0000",
+          "type": "color"
+        },
+        "text": {
+          "value": "#000",
+          "type": "color"
+        }
+      },
+      "white": {
+        "default": {
           "value": "#FFF",
           "type": "color"
         }
