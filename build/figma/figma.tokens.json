@@ -718,6 +718,14 @@
             "type": "color"
           }
         }
+      },
+      "sidebar": {
+        "submenu": {
+          "background": {
+            "value": "#E5E5E5",
+            "type": "color"
+          }
+        }
       }
     },
     "textarea": {

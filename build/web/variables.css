@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 19 Jul 2022 17:35:44 GMT
+ * Generated on Wed, 20 Jul 2022 12:15:18 GMT
  */
 
 :root {
@@ -154,6 +154,7 @@
   --gcds-site-menu-submenu-background: #e5e5e5;
   --gcds-site-menu-submenu-box-shadow: #00000030;
   --gcds-site-menu-submenu-trigger-text: #000000;
+  --gcds-site-menu-sidebar-submenu-background: #e5e5e5;
   --gcds-textarea-default-background: #ffffff;
   --gcds-textarea-default-text: #000000;
   --gcds-textarea-destructive: #d3080c;
