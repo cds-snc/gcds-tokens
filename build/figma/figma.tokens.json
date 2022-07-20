@@ -749,6 +749,22 @@
         "value": "#303FC3",
         "type": "color"
       }
+    },
+    "verify-banner": {
+      "background": {
+        "value": "#F0F0F0",
+        "type": "color"
+      },
+      "border": {
+        "value": "#BFBFBF",
+        "type": "color"
+      },
+      "toggle": {
+        "text": {
+          "value": "#303FC3",
+          "type": "color"
+        }
+      }
     }
   }
 }
