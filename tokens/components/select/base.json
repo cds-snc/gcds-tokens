@@ -1,0 +1,38 @@
+{
+  "select": {
+    "default": {
+      "background": {
+        "value": "{color.grayscale.0.value}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{color.grayscale.1000.value}",
+        "type": "color"
+      }
+    },
+    "destructive": {
+      "value": "{brand.destructive.value}",
+      "type": "color"
+    },
+    "disabled": {
+      "background": {
+        "value": "{brand.disabled.background.value}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{brand.disabled.text.value}",
+        "type": "color"
+      }
+    },
+    "focus": {
+      "text": {
+        "value": "{brand.focus.value}",
+        "type": "color"
+      },
+      "shadow": {
+        "value": "{color.grayscale.0.value}",
+        "type": "color"
+      }
+    }
+  }
+}
