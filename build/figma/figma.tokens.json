@@ -634,6 +634,42 @@
         }
       }
     },
+    "select": {
+      "default": {
+        "background": {
+          "value": "#FFF",
+          "type": "color"
+        },
+        "text": {
+          "value": "#000",
+          "type": "color"
+        }
+      },
+      "destructive": {
+        "value": "#D3080C",
+        "type": "color"
+      },
+      "disabled": {
+        "background": {
+          "value": "#F0F0F0",
+          "type": "color"
+        },
+        "text": {
+          "value": "#707070",
+          "type": "color"
+        }
+      },
+      "focus": {
+        "text": {
+          "value": "#303FC3",
+          "type": "color"
+        },
+        "shadow": {
+          "value": "#FFF",
+          "type": "color"
+        }
+      }
+    },
     "signature": {
       "color": {
         "flag": {
