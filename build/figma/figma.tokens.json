@@ -510,6 +510,28 @@
         "type": "color"
       }
     },
+    "fieldset": {
+      "default": {
+        "text": {
+          "value": "#000",
+          "type": "color"
+        }
+      },
+      "destructive": {
+        "value": "#D3080C",
+        "type": "color"
+      },
+      "disabled": {
+        "text": {
+          "value": "#707070",
+          "type": "color"
+        }
+      },
+      "focus": {
+        "value": "#303FC3",
+        "type": "color"
+      }
+    },
     "footer": {
       "brand": {
         "background": {

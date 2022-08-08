@@ -1,0 +1,24 @@
+{
+  "fieldset": {
+    "default": {
+      "text": {
+        "value": "{color.grayscale.1000.value}",
+        "type": "color"
+      }
+    },
+    "destructive": {
+      "value": "{brand.destructive.value}",
+      "type": "color"
+    },
+    "disabled": {
+      "text": {
+        "value": "{brand.disabled.text.value}",
+        "type": "color"
+      }
+    },
+    "focus": {
+      "value": "{brand.focus.value}",
+      "type": "color"
+    }
+  }
+}
