@@ -2,7 +2,7 @@
 
 # GC Design Token Experimental Working Space
 
-([Français](#espace-de-travail-experimental-sur-les-jetons-de-conceptions-du-gouvernement-canadien))
+([Français](#espace-de-travail-expérimental-sur-les-jetons-de-conceptions-du-gouvernement-canadien))
 
 A repository set as the experimental space for design tokens that should inform the GC Design System Product Team. We will primarily explore the naming convention of design tokens through the use of tools like:
 * [Style Dictionary](https://amzn.github.io/style-dictionary)
