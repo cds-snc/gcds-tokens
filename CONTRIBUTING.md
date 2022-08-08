@@ -1,7 +1,7 @@
 # Contributing
 
 ([Français](#comment-contribuer))
-s
+
 ## How to Contribute
 
 When contributing, post comments and discuss changes you wish to make via Issues.
