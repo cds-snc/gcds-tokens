@@ -69,7 +69,7 @@ $size-font-base: 1rem;
 **JSON**
 ```
 {
-  "colour": {
+  "color": {
     "utils": {
       "blue": "#0535D2",
       "purple": "#7834BC",
@@ -113,7 +113,7 @@ ______________________
 Un dépôt de code défini comme l'espace de travail expérimental pour les jetons de conception qui devrait informer l'Équipe de produit du système de conception GC. Nous explorerons principalement la convention de nommage des jetons de conception à l'aide d'outils tels que&nbsp;:
 * [Style Dictionary](https://amzn.github.io/style-dictionary)
 
-## Dictionaire stylistique de base
+## Dictionnaire stylistique de base
 (version française à venir)
 
 ## Comment contribuer
