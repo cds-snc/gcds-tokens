@@ -532,6 +532,84 @@
         "type": "color"
       }
     },
+    "file-uploader": {
+      "button": {
+        "background": {
+          "value": "#FFF",
+          "type": "color"
+        },
+        "text": {
+          "value": "#26374A",
+          "type": "color"
+        }
+      },
+      "default": {
+        "text": {
+          "value": "#000",
+          "type": "color"
+        }
+      },
+      "destructive": {
+        "background": {
+          "value": "#F3E9E8",
+          "type": "color"
+        },
+        "text": {
+          "value": "#D3080C",
+          "type": "color"
+        }
+      },
+      "disabled": {
+        "background": {
+          "value": "#F0F0F0",
+          "type": "color"
+        },
+        "text": {
+          "value": "#707070",
+          "type": "color"
+        }
+      },
+      "file": {
+        "background": {
+          "value": "#E5E5E5",
+          "type": "color"
+        },
+        "icon": {
+          "default": {
+            "value": "#BC3331",
+            "type": "color"
+          },
+          "hover": {
+            "value": "#340E0E",
+            "type": "color"
+          },
+          "active": {
+            "value": "#000",
+            "type": "color"
+          }
+        }
+      },
+      "focus": {
+        "button": {
+          "background": {
+            "value": "#303FC3",
+            "type": "color"
+          },
+          "shadow": {
+            "value": "#FFF",
+            "type": "color"
+          },
+          "text": {
+            "value": "#FFF",
+            "type": "color"
+          }
+        },
+        "text": {
+          "value": "#303FC3",
+          "type": "color"
+        }
+      }
+    },
     "footer": {
       "brand": {
         "background": {
