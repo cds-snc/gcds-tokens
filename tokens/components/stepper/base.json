@@ -1,0 +1,8 @@
+{
+  "stepper": {
+    "text": {
+      "value": "{color.grayscale.700.value}",
+      "type": "color"
+    }
+  }
+}

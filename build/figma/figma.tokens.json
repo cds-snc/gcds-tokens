@@ -856,6 +856,12 @@
         }
       }
     },
+    "stepper": {
+      "text": {
+        "value": "#707070",
+        "type": "color"
+      }
+    },
     "textarea": {
       "default": {
         "background": {
