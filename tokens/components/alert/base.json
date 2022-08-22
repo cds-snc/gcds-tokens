@@ -1,0 +1,48 @@
+{
+  "alert": {
+    "text": {
+      "value": "{color.grayscale.1000.value}",
+      "type": "color"
+    },
+    "destructive": {
+      "background": {
+        "value": "{color.red.100.value}",
+        "type": "color"
+      },
+      "icon": {
+        "value": "{color.red.300.value}",
+        "type": "color"
+      }
+    },
+    "info": {
+      "background": {
+        "value": "{color.blue.100.value}",
+        "type": "color"
+      },
+      "icon": {
+        "value": "{color.blue.800.value}",
+        "type": "color"
+      }
+    },
+    "success": {
+      "background": {
+        "value": "{color.green.100.value}",
+        "type": "color"
+      },
+      "icon": {
+        "value": "{color.green.200.value}",
+        "type": "color"
+      }
+    },
+    "warning": {
+      "background": {
+        "value": "{color.yellow.100.value}",
+        "type": "color"
+      },
+      "icon": {
+        "value": "{color.grayscale.1000.value}",
+        "type": "color"
+      }
+    }
+  }
+}
