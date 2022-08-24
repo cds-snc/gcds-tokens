@@ -28,7 +28,7 @@
     },
     "warning": {
       "background": {
-        "value": "{color.yellow.100.value}",
+        "value": "{color.yellow.200.value}",
         "type": "color"
       }
     }
