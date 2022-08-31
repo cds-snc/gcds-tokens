@@ -5,9 +5,19 @@
         "value": "{color.grayscale.50.value}",
         "type": "color"
       },
+      "nav": {
+        "value": "{color.blue.800.value}",
+        "type": "color"
+      },
       "text": {
         "value": "{color.grayscale.1000.value}",
         "type": "color"
+      },
+      "hover": {
+        "nav": {
+          "value": "{color.blue.500.value}",
+          "type": "color"
+        }
       }
     },
     "landscape": {
