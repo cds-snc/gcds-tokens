@@ -676,9 +676,19 @@
           "value": "#F8F8F8",
           "type": "color"
         },
+        "nav": {
+          "value": "#26374A",
+          "type": "color"
+        },
         "text": {
           "value": "#000",
           "type": "color"
+        },
+        "hover": {
+          "nav": {
+            "value": "#303FC3",
+            "type": "color"
+          }
         }
       },
       "landscape": {
@@ -690,24 +700,6 @@
           "value": "#FFF",
           "type": "color"
         }
-      }
-    },
-    "Heading-1": {
-      "fontFamilies": {
-        "value": "Lato",
-        "type": "fontFamilies"
-      },
-      "fontSizes": {
-        "value": "2.5341081619262695rem",
-        "type": "fontSizes"
-      },
-      "fontWeights": {
-        "value": "400",
-        "type": "fontWeights"
-      },
-      "lineHeights": {
-        "value": "128.25024791086875%",
-        "type": "lineHeights"
       }
     },
     "header": {
@@ -744,8 +736,14 @@
         }
       },
       "focus": {
-        "value": "#303FC3",
-        "type": "color"
+        "text": {
+          "value": "#303FC3",
+          "type": "color"
+        },
+        "shadow": {
+          "value": "#FFF",
+          "type": "color"
+        }
       }
     },
     "label": {
@@ -948,8 +946,14 @@
         }
       },
       "focus": {
-        "value": "#303FC3",
-        "type": "color"
+        "text": {
+          "value": "#303FC3",
+          "type": "color"
+        },
+        "shadow": {
+          "value": "#FFF",
+          "type": "color"
+        }
       }
     },
     "verify-banner": {
