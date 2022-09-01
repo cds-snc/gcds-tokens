@@ -556,6 +556,44 @@
         }
       }
     },
+    "details": {
+      "default": {
+        "border": {
+          "value": "#C4C3C5",
+          "type": "color"
+        },
+        "text": {
+          "value": "#2B496E",
+          "type": "color"
+        }
+      },
+      "active": {
+        "background": {
+          "value": "#000",
+          "type": "color"
+        },
+        "text": {
+          "value": "#FFF",
+          "type": "color"
+        }
+      },
+      "focus": {
+        "background": {
+          "value": "#303FC3",
+          "type": "color"
+        },
+        "text": {
+          "value": "#FFF",
+          "type": "color"
+        }
+      },
+      "hover": {
+        "background": {
+          "value": "#D4E6F2",
+          "type": "color"
+        }
+      }
+    },
     "error-message": {
       "background": {
         "value": "#F3E9E8",
