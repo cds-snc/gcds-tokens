@@ -365,6 +365,18 @@
       }
     },
     "alert": {
+      "button": {
+        "focus": {
+          "background": {
+            "value": "#303FC3",
+            "type": "color"
+          },
+          "text": {
+            "value": "#FFF",
+            "type": "color"
+          }
+        }
+      },
       "text": {
         "value": "#000",
         "type": "color"
