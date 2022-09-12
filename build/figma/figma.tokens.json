@@ -283,7 +283,7 @@
         "value": "1.1111111111111112rem",
         "type": "fontSizes"
       },
-      "paragraph": {
+      "text": {
         "value": "1.25rem",
         "type": "fontSizes"
       },
@@ -335,7 +335,7 @@
         "value": "146.25%",
         "type": "lineHeights"
       },
-      "paragraph": {
+      "text": {
         "value": "130%",
         "type": "lineHeights"
       },
