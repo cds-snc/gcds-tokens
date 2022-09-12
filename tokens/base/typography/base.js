@@ -38,7 +38,7 @@ const fontSizes = {
     value: `${base.fontSize.value / base.scale.value}rem`,
     type: 'fontSizes',
   },
-  paragraph: {
+  text: {
     value: `${base.fontSize.value}rem`,
     type: 'fontSizes',
   },
@@ -98,7 +98,7 @@ const lineHeights = {
     value: `${calculateLineHeight(fontSizes.caption.value)}%`,
     type: 'lineHeights',
   },
-  paragraph: {
+  text: {
     value: `${base.lineHeight.value * 100}%`,
     type: 'lineHeights',
   },
