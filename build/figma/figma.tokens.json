@@ -519,6 +519,10 @@
         "text": {
           "value": "#000",
           "type": "color"
+        },
+        "hint": {
+          "value": "#6A6D7B",
+          "type": "color"
         }
       },
       "destructive": {
@@ -792,6 +796,10 @@
       "default": {
         "text": {
           "value": "#000",
+          "type": "color"
+        },
+        "hint": {
+          "value": "#6A6D7B",
           "type": "color"
         }
       },
