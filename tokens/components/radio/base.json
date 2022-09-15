@@ -4,6 +4,10 @@
       "text": {
         "value": "{color.grayscale.1000.value}",
         "type": "color"
+      },
+      "hint": {
+        "value": "{color.grayscale.900.value}",
+        "type": "color"
       }
     },
     "destructive": {
