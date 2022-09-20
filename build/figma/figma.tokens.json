@@ -792,6 +792,26 @@
         }
       }
     },
+    "link": {
+      "dark": {
+        "text": {
+          "value": "#000",
+          "type": "color"
+        }
+      },
+      "destructive": {
+        "text": {
+          "value": "#D3080C",
+          "type": "color"
+        }
+      },
+      "light": {
+        "text": {
+          "value": "#FFF",
+          "type": "color"
+        }
+      }
+    },
     "radio": {
       "default": {
         "text": {
