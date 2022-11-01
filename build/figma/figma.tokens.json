@@ -443,50 +443,70 @@
     "button": {
       "destructive": {
         "default": {
-          "value": "#BC3331",
-          "type": "color"
+          "background": {
+            "value": "#BC3331",
+            "type": "color"
+          },
+          "text": {
+            "value": "#FFF",
+            "type": "color"
+          }
         },
         "hover": {
-          "value": "#340E0E",
-          "type": "color"
-        },
-        "active": {
-          "value": "#BC3331",
-          "type": "color"
+          "background": {
+            "value": "#340E0E",
+            "type": "color"
+          }
         }
       },
       "primary": {
         "default": {
-          "value": "#26374A",
-          "type": "color"
+          "background": {
+            "value": "#26374A",
+            "type": "color"
+          },
+          "text": {
+            "value": "#FFF",
+            "type": "color"
+          }
         },
         "hover": {
-          "value": "#4F6592",
-          "type": "color"
-        },
-        "active": {
-          "value": "#0A0E14",
-          "type": "color"
+          "background": {
+            "value": "#4F6592",
+            "type": "color"
+          }
         }
       },
       "secondary": {
         "default": {
-          "value": "#78757A",
-          "type": "color"
+          "text": {
+            "value": "#26374A",
+            "type": "color"
+          }
         },
         "hover": {
-          "value": "#6A6D7B",
-          "type": "color"
+          "background": {
+            "value": "#D4E6F2",
+            "type": "color"
+          }
         },
         "active": {
-          "value": "#C4C3C5",
-          "type": "color"
+          "background": {
+            "value": "#AAD5F2",
+            "type": "color"
+          }
         }
       },
       "shared": {
-        "text": {
-          "value": "#FFF",
-          "type": "color"
+        "active": {
+          "background": {
+            "value": "#0A0E14",
+            "type": "color"
+          },
+          "text": {
+            "value": "#FFF",
+            "type": "color"
+          }
         },
         "focus": {
           "background": {
@@ -500,15 +520,11 @@
         },
         "disabled": {
           "background": {
-            "value": "#EDEDED",
-            "type": "color"
-          },
-          "border": {
-            "value": "#BFBFBF",
+            "value": "#F0F0F0",
             "type": "color"
           },
           "text": {
-            "value": "#6B6B6B",
+            "value": "#707070",
             "type": "color"
           }
         }
