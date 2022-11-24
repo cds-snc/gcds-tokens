@@ -828,6 +828,56 @@
         }
       }
     },
+    "pagination": {
+      "default": {
+        "text": {
+          "value": "#26374A",
+          "type": "color"
+        }
+      },
+      "hover": {
+        "background": {
+          "value": "#D4E6F2",
+          "type": "color"
+        }
+      },
+      "focus": {
+        "background": {
+          "value": "#303FC3",
+          "type": "color"
+        },
+        "text": {
+          "value": "#FFF",
+          "type": "color"
+        },
+        "shadow": {
+          "value": "#FFF",
+          "type": "color"
+        },
+        "outline": {
+          "value": "#303FC3",
+          "type": "color"
+        }
+      },
+      "active": {
+        "text": {
+          "value": "#FFF",
+          "type": "color"
+        },
+        "background": {
+          "value": "#26374A",
+          "type": "color"
+        }
+      },
+      "mobile": {
+        "list": {
+          "border": {
+            "value": "#26374A",
+            "type": "color"
+          }
+        }
+      }
+    },
     "radio": {
       "default": {
         "text": {
