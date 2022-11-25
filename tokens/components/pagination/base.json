@@ -1,0 +1,52 @@
+{
+  "pagination": {
+    "default": {
+      "text": {
+        "value": "{color.blue.800.value}",
+        "type": "color"
+      }
+    },
+    "hover": {
+      "background": {
+        "value": "{color.blue.100.value}",
+        "type": "color"
+      }
+    },
+    "focus": {
+      "background": {
+        "value": "{brand.focus.value}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{color.grayscale.0.value}",
+        "type": "color"
+      },
+      "shadow": {
+        "value": "{color.grayscale.0.value}",
+        "type": "color"
+      },
+      "outline": {
+        "value": "{brand.focus.value}",
+        "type": "color"
+      }
+    },
+    "active": {
+      "text": {
+        "value": "{color.grayscale.0.value}",
+        "type": "color"
+      },
+      "background": {
+        "value": "{color.blue.800.value}",
+        "type": "color"
+      }
+    },
+    "mobile": {
+      "list": {
+        "border": {
+          "value": "{color.blue.800.value}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}
