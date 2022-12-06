@@ -53,7 +53,7 @@
           "type": "color"
         },
         "600": {
-          "value": "#2A82CF",
+          "value": "#2675BA",
           "type": "color"
         },
         "700": {
@@ -604,8 +604,8 @@
         }
       },
       "hover": {
-        "background": {
-          "value": "#D4E6F2",
+        "text": {
+          "value": "#2675BA",
           "type": "color"
         }
       }
@@ -743,8 +743,8 @@
             "value": "#303FC3",
             "type": "color"
           },
-          "background": {
-            "value": "#D4E6F2",
+          "text": {
+            "value": "#2675BA",
             "type": "color"
           }
         },
@@ -840,8 +840,8 @@
         }
       },
       "hover": {
-        "background": {
-          "value": "#D4E6F2",
+        "text": {
+          "value": "#2675BA",
           "type": "color"
         }
       },

@@ -7,8 +7,8 @@
       }
     },
     "hover": {
-      "background": {
-        "value": "{color.blue.100.value}",
+      "text": {
+        "value": "{color.blue.600.value}",
         "type": "color"
       }
     },

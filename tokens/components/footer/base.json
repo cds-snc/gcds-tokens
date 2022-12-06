@@ -18,8 +18,8 @@
           "value": "{color.blue.500.value}",
           "type": "color"
         },
-        "background": {
-          "value": "{color.blue.100.value}",
+        "text": {
+          "value": "{color.blue.600.value}",
           "type": "color"
         }
       },
