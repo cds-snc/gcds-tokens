@@ -735,12 +735,36 @@
           "type": "color"
         },
         "text": {
-          "value": "#000",
+          "value": "#6B6B6B",
           "type": "color"
         },
         "hover": {
           "nav": {
             "value": "#303FC3",
+            "type": "color"
+          },
+          "background": {
+            "value": "#D4E6F2",
+            "type": "color"
+          }
+        },
+        "focus": {
+          "background": {
+            "value": "#303FC3",
+            "type": "color"
+          },
+          "text": {
+            "value": "#FFF",
+            "type": "color"
+          }
+        },
+        "active": {
+          "text": {
+            "value": "#FFF",
+            "type": "color"
+          },
+          "background": {
+            "value": "#0A0E14",
             "type": "color"
           }
         }
@@ -804,6 +828,40 @@
       "destructive": {
         "text": {
           "value": "#D3080C",
+          "type": "color"
+        }
+      }
+    },
+    "lang-toggle": {
+      "default": {
+        "text": {
+          "value": "#26374A",
+          "type": "color"
+        }
+      },
+      "hover": {
+        "background": {
+          "value": "#D4E6F2",
+          "type": "color"
+        }
+      },
+      "focus": {
+        "background": {
+          "value": "#303FC3",
+          "type": "color"
+        },
+        "text": {
+          "value": "#FFF",
+          "type": "color"
+        }
+      },
+      "active": {
+        "text": {
+          "value": "#FFF",
+          "type": "color"
+        },
+        "background": {
+          "value": "#0A0E14",
           "type": "color"
         }
       }

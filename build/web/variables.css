@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 25 Nov 2022 13:37:22 GMT
+ * Generated on Tue, 06 Dec 2022 15:23:17 GMT
  */
 
 :root {
@@ -155,8 +155,13 @@
   --gcds-file-uploader-focus-text: #303fc3;
   --gcds-footer-brand-background: #f8f8f8;
   --gcds-footer-brand-nav: #26374a;
-  --gcds-footer-brand-text: #000000;
+  --gcds-footer-brand-text: #6b6b6b;
   --gcds-footer-brand-hover-nav: #303fc3;
+  --gcds-footer-brand-hover-background: #d4e6f2;
+  --gcds-footer-brand-focus-background: #303fc3;
+  --gcds-footer-brand-focus-text: #ffffff;
+  --gcds-footer-brand-active-text: #ffffff;
+  --gcds-footer-brand-active-background: #0a0e14;
   --gcds-footer-landscape-background: #26374a;
   --gcds-footer-landscape-text: #ffffff;
   --gcds-header-brand-border: #38414d;
@@ -168,6 +173,12 @@
   --gcds-input-focus-text: #303fc3;
   --gcds-input-focus-shadow: #ffffff;
   --gcds-label-destructive-text: #d3080c;
+  --gcds-lang-toggle-default-text: #26374a;
+  --gcds-lang-toggle-hover-background: #d4e6f2;
+  --gcds-lang-toggle-focus-background: #303fc3;
+  --gcds-lang-toggle-focus-text: #ffffff;
+  --gcds-lang-toggle-active-text: #ffffff;
+  --gcds-lang-toggle-active-background: #0a0e14;
   --gcds-link-dark-text: #000000;
   --gcds-link-destructive-text: #d3080c;
   --gcds-link-light-text: #ffffff;
