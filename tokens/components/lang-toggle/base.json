@@ -1,22 +1,14 @@
 {
-  "details": {
+  "lang-toggle": {
     "default": {
-      "border": {
-        "value": "{color.grayscale.300.value}",
-        "type": "color"
-      },
       "text": {
-        "value": "{color.blue.700.value}",
+        "value": "{color.blue.800.value}",
         "type": "color"
       }
     },
-    "active": {
-      "background": {
-        "value": "{brand.active.background.value}",
-        "type": "color"
-      },
+    "hover": {
       "text": {
-        "value": "{brand.active.text.value}",
+        "value": "{color.blue.600.value}",
         "type": "color"
       }
     },
@@ -30,9 +22,13 @@
         "type": "color"
       }
     },
-    "hover": {
+    "active": {
       "text": {
-        "value": "{color.blue.600.value}",
+        "value": "{brand.active.text.value}",
+        "type": "color"
+      },
+      "background": {
+        "value": "{brand.active.background.value}",
         "type": "color"
       }
     }

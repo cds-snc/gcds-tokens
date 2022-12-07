@@ -10,6 +10,16 @@
       "value": "{color.blue.500.value}",
       "type": "color"
     },
+    "active": {
+      "text": {
+        "value": "{color.grayscale.0.value}",
+        "type": "color"
+      },
+      "background": {
+        "value": "{color.blue.900.value}",
+        "type": "color"
+      }
+    },
     "disabled": {
       "background": {
         "value": "{color.grayscale.100.value}",

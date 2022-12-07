@@ -79,3 +79,6 @@ xcuserdata/
 
 # Temporary build output directory for unit tests
 __tests__/__output
+
+#VS Code
+.vscode/
