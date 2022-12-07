@@ -59,11 +59,11 @@
     "shared": {
       "active": {
         "background": {
-          "value": "{color.blue.900.value}",
+          "value": "{brand.active.background.value}",
           "type": "color"
         },
         "text": {
-          "value": "{color.grayscale.0.value}",
+          "value": "{brand.active.text.value}",
           "type": "color"
         }
       },

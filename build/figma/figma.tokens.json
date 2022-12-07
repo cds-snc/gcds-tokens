@@ -11,6 +11,16 @@
         "value": "#303FC3",
         "type": "color"
       },
+      "active": {
+        "text": {
+          "value": "#FFF",
+          "type": "color"
+        },
+        "background": {
+          "value": "#0A0E14",
+          "type": "color"
+        }
+      },
       "disabled": {
         "background": {
           "value": "#F0F0F0",
@@ -585,7 +595,7 @@
       },
       "active": {
         "background": {
-          "value": "#000",
+          "value": "#0A0E14",
           "type": "color"
         },
         "text": {
