@@ -8,25 +8,16 @@ on:
 
 jobs:
   build-deploy:
-    name: Compile Core
+    name: Compile and push
     runs-on: ubuntu-latest
     steps:
       - name: Git Checkout
         uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v3.1.0
       - name: Install
         run: npm install
-      - name: Compile + Commit
+      - name: Compile
         run: |
           npm run build
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add -A
-          git commit -m "Compile tokens"
-      - name: Push changes
-        uses: ad-m/github-push-action@552c074ed701137ebd2bf098e70c394ca293e87f
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: 'main'
       - name: Push to gcds-utilities
         uses: cpina/github-action-push-to-another-repository@9e487f29582587eeb4837c0552c886bb0644b6b9
         env:
@@ -38,7 +29,7 @@ jobs:
           destination-repository-name: 'gcds-utilities'
           user-email: ${{ secrets.USER_EMAIL }}
           target-branch: main
-      - name: Push to gc-ds-button
+      - name: Push to gcds-components
         uses: cpina/github-action-push-to-another-repository@9e487f29582587eeb4837c0552c886bb0644b6b9
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
