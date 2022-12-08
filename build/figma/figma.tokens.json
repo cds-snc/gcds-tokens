@@ -740,19 +740,11 @@
           "value": "#F8F8F8",
           "type": "color"
         },
-        "nav": {
+        "text": {
           "value": "#26374A",
           "type": "color"
         },
-        "text": {
-          "value": "#6B6B6B",
-          "type": "color"
-        },
         "hover": {
-          "nav": {
-            "value": "#303FC3",
-            "type": "color"
-          },
           "text": {
             "value": "#2675BA",
             "type": "color"
