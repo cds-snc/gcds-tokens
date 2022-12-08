@@ -5,19 +5,11 @@
         "value": "{color.grayscale.50.value}",
         "type": "color"
       },
-      "nav": {
+      "text": {
         "value": "{color.blue.800.value}",
         "type": "color"
       },
-      "text": {
-        "value": "{color.grayscale.800.value}",
-        "type": "color"
-      },
       "hover": {
-        "nav": {
-          "value": "{color.blue.500.value}",
-          "type": "color"
-        },
         "text": {
           "value": "{color.blue.600.value}",
           "type": "color"
