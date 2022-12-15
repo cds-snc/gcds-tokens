@@ -5,17 +5,33 @@
         "value": "{color.grayscale.100.value}",
         "type": "color"
       },
-      "nav": {
+      "text": {
         "value": "{color.blue.800.value}",
         "type": "color"
       },
-      "text": {
-        "value": "{color.grayscale.1000.value}",
-        "type": "color"
-      },
       "hover": {
-        "nav": {
-          "value": "{color.blue.500.value}",
+        "text": {
+          "value": "{color.blue.600.value}",
+          "type": "color"
+        }
+      },
+      "focus": {
+        "background": {
+          "value": "{brand.focus.value}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{color.grayscale.0.value}",
+          "type": "color"
+        }
+      },
+      "active": {
+        "text": {
+          "value": "{brand.active.text.value}",
+          "type": "color"
+        },
+        "background": {
+          "value": "{brand.active.background.value}",
           "type": "color"
         }
       }

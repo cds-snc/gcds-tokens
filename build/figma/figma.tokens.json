@@ -11,6 +11,16 @@
         "value": "#303FC3",
         "type": "color"
       },
+      "active": {
+        "text": {
+          "value": "#FFF",
+          "type": "color"
+        },
+        "background": {
+          "value": "#0A0E14",
+          "type": "color"
+        }
+      },
       "disabled": {
         "background": {
           "value": "#F0F0F0",
@@ -53,7 +63,7 @@
           "type": "color"
         },
         "600": {
-          "value": "#2A82CF",
+          "value": "#2675BA",
           "type": "color"
         },
         "700": {
@@ -549,7 +559,7 @@
       },
       "active": {
         "background": {
-          "value": "#000",
+          "value": "#0A0E14",
           "type": "color"
         },
         "text": {
@@ -568,8 +578,8 @@
         }
       },
       "hover": {
-        "background": {
-          "value": "#D4E6F2",
+        "text": {
+          "value": "#2675BA",
           "type": "color"
         }
       }
@@ -694,17 +704,33 @@
           "value": "#F0F0F0",
           "type": "color"
         },
-        "nav": {
+        "text": {
           "value": "#26374A",
           "type": "color"
         },
-        "text": {
-          "value": "#000",
-          "type": "color"
-        },
         "hover": {
-          "nav": {
+          "text": {
+            "value": "#2675BA",
+            "type": "color"
+          }
+        },
+        "focus": {
+          "background": {
             "value": "#303FC3",
+            "type": "color"
+          },
+          "text": {
+            "value": "#FFF",
+            "type": "color"
+          }
+        },
+        "active": {
+          "text": {
+            "value": "#FFF",
+            "type": "color"
+          },
+          "background": {
+            "value": "#0A0E14",
             "type": "color"
           }
         }
@@ -768,6 +794,40 @@
       "destructive": {
         "text": {
           "value": "#D3080C",
+          "type": "color"
+        }
+      }
+    },
+    "lang-toggle": {
+      "default": {
+        "text": {
+          "value": "#26374A",
+          "type": "color"
+        }
+      },
+      "hover": {
+        "text": {
+          "value": "#2675BA",
+          "type": "color"
+        }
+      },
+      "focus": {
+        "background": {
+          "value": "#303FC3",
+          "type": "color"
+        },
+        "text": {
+          "value": "#FFF",
+          "type": "color"
+        }
+      },
+      "active": {
+        "text": {
+          "value": "#FFF",
+          "type": "color"
+        },
+        "background": {
+          "value": "#0A0E14",
           "type": "color"
         }
       }
