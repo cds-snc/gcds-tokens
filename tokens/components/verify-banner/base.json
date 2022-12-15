@@ -5,7 +5,7 @@
       "type": "color"
     },
     "border": {
-      "value": "{color.grayscale.400.value}",
+      "value": "{color.grayscale.300.value}",
       "type": "color"
     },
     "toggle": {

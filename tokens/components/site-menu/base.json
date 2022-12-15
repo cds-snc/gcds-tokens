@@ -2,7 +2,7 @@
   "site-menu": {
     "active": {
       "background": {
-        "value": "{color.grayscale.950.value}",
+        "value": "{color.grayscale.900.value}",
         "type": "color"
       },
       "text": {
@@ -12,7 +12,7 @@
     },
     "default": {
       "background": {
-        "value": "{color.grayscale.200.value}",
+        "value": "{color.grayscale.100.value}",
         "type": "color"
       },
       "border": {
@@ -36,7 +36,7 @@
     },
     "hover": {
       "background": {
-        "value": "{color.grayscale.400.value}50",
+        "value": "{color.grayscale.300.value}50",
         "type": "color"
       }
     },
@@ -52,7 +52,7 @@
     },
     "submenu": {
       "background": {
-        "value": "{color.grayscale.225.value}",
+        "value": "{color.grayscale.300.value}",
         "type": "color"
       },
       "box-shadow": {

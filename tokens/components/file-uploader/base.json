@@ -38,7 +38,7 @@
     },
     "file": {
       "background": {
-        "value": "{color.grayscale.225.value}",
+        "value": "{color.grayscale.300.value}",
         "type": "color"
       },
       "icon": {
