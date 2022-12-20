@@ -2,7 +2,7 @@
   "pagination": {
     "default": {
       "text": {
-        "value": "{color.blue.800.value}",
+        "value": "{color.blue.900.value}",
         "type": "color"
       }
     },
@@ -36,14 +36,14 @@
         "type": "color"
       },
       "background": {
-        "value": "{color.blue.800.value}",
+        "value": "{color.blue.900.value}",
         "type": "color"
       }
     },
     "mobile": {
       "list": {
         "border": {
-          "value": "{color.blue.800.value}",
+          "value": "{color.blue.900.value}",
           "type": "color"
         }
       }

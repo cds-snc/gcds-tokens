@@ -6,7 +6,7 @@
         "type": "color"
       },
       "text": {
-        "value": "{color.blue.700.value}",
+        "value": "{color.blue.900.value}",
         "type": "color"
       }
     },
@@ -32,7 +32,7 @@
     },
     "hover": {
       "text": {
-        "value": "{color.blue.600.value}",
+        "value": "{color.blue.800.value}",
         "type": "color"
       }
     }

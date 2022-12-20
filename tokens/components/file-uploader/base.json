@@ -6,7 +6,7 @@
         "type": "color"
       },
       "text": {
-        "value": "{color.blue.800.value}",
+        "value": "{color.blue.900.value}",
         "type": "color"
       }
     },
@@ -43,11 +43,11 @@
       },
       "icon": {
         "default": {
-          "value": "{color.red.300.value}",
+          "value": "{color.red.700.value}",
           "type": "color"
         },
         "hover": {
-          "value": "{color.red.500.value}",
+          "value": "{color.red.900.value}",
           "type": "color"
         },
         "active": {

@@ -10,7 +10,7 @@
     },
     "toggle": {
       "text": {
-        "value": "{brand.focus.value}",
+        "value": "{color.blue.900.value}",
         "type": "color"
       }
     }

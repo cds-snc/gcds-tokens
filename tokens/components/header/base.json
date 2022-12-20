@@ -2,7 +2,7 @@
   "header": {
     "brand": {
       "border": {
-        "value": "{color.blue.450.value}",
+        "value": "{color.blue.900.value}",
         "type": "color"
       }
     }
