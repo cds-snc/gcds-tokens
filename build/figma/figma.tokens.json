@@ -189,23 +189,23 @@
       }
     },
     "container": {
-      "100": {
-        "value": "28.125rem",
+      "sm": {
+        "value": "20rem",
         "type": "sizing"
       },
-      "200": {
-        "value": "37.5rem",
+      "md": {
+        "value": "48rem",
         "type": "sizing"
       },
-      "300": {
-        "value": "56.25rem",
+      "lg": {
+        "value": "64rem",
         "type": "sizing"
       },
-      "400": {
-        "value": "80rem",
+      "xl": {
+        "value": "73.125rem",
         "type": "sizing"
       },
-      "500": {
+      "full": {
         "value": "100%",
         "type": "sizing"
       }

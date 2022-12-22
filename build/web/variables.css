@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 08 Dec 2022 15:05:20 GMT
+ * Generated on Thu, 22 Dec 2022 20:11:27 GMT
  */
 
 :root {
@@ -46,11 +46,11 @@
   --gcds-color-red-500: #340e0e;
   --gcds-color-yellow-100: #faf3d1;
   --gcds-color-yellow-200: #f7b452;
-  --gcds-container-100: 28.125rem;
-  --gcds-container-200: 37.5rem;
-  --gcds-container-300: 56.25rem;
-  --gcds-container-400: 80rem;
-  --gcds-container-500: 100%;
+  --gcds-container-sm: 20rem;
+  --gcds-container-md: 48rem;
+  --gcds-container-lg: 64rem;
+  --gcds-container-xl: 73.125rem;
+  --gcds-container-full: 100%;
   --gcds-spacing-50: 0.26rem;
   --gcds-spacing-100: 0.325rem;
   --gcds-spacing-200: 0.43333333333333335rem;
