@@ -71,6 +71,10 @@
         "value": "#FBDDDA",
         "type": "color"
       },
+      "500": {
+        "value": "#D44335",
+        "type": "color"
+      },
       "700": {
         "value": "#A62A1E",
         "type": "color"
