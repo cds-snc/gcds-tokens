@@ -7,7 +7,7 @@
       }
     },
     "focus": {
-      "value": "{color.blue.500.value}",
+      "value": "{color.blue.focus.value}",
       "type": "color"
     },
     "active": {
@@ -16,7 +16,7 @@
         "type": "color"
       },
       "background": {
-        "value": "{color.blue.900.value}",
+        "value": "{color.grayscale.1000.value}",
         "type": "color"
       }
     },
@@ -31,7 +31,7 @@
       }
     },
     "destructive": {
-      "value": "{color.red.400.value}",
+      "value": "{color.red.700.value}",
       "type": "color"
     }
   }

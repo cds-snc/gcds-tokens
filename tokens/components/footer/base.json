@@ -2,16 +2,16 @@
   "footer": {
     "brand": {
       "background": {
-        "value": "{color.grayscale.50.value}",
+        "value": "{color.grayscale.100.value}",
         "type": "color"
       },
       "text": {
-        "value": "{color.blue.800.value}",
+        "value": "{color.blue.900.value}",
         "type": "color"
       },
       "hover": {
         "text": {
-          "value": "{color.blue.600.value}",
+          "value": "{color.blue.800.value}",
           "type": "color"
         }
       },
@@ -38,7 +38,7 @@
     },
     "landscape": {
       "background": {
-        "value": "{color.blue.800.value}",
+        "value": "{color.blue.900.value}",
         "type": "color"
       },
       "text": {

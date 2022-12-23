@@ -5,12 +5,12 @@
       "type": "color"
     },
     "border": {
-      "value": "{color.grayscale.400.value}",
+      "value": "{color.grayscale.300.value}",
       "type": "color"
     },
     "toggle": {
       "text": {
-        "value": "{brand.focus.value}",
+        "value": "{color.blue.900.value}",
         "type": "color"
       }
     }

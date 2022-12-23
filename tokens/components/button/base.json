@@ -3,7 +3,7 @@
     "destructive": {
       "default": {
         "background": {
-          "value": "{color.red.300.value}",
+          "value": "{color.red.700.value}",
           "type": "color"
         },
         "text": {
@@ -13,7 +13,7 @@
       },
       "hover": {
         "background": {
-          "value": "{color.red.500.value}",
+          "value": "{color.red.900.value}",
           "type": "color"
         }
       }
@@ -21,7 +21,7 @@
     "primary": {
       "default": {
         "background": {
-          "value": "{color.blue.800.value}",
+          "value": "{color.blue.900.value}",
           "type": "color"
         },
         "text": {
@@ -31,7 +31,7 @@
       },
       "hover": {
         "background": {
-          "value": "{color.blue.300.value}",
+          "value": "{color.blue.700.value}",
           "type": "color"
         }
       }
@@ -39,7 +39,7 @@
     "secondary": {
       "default": {
         "text": {
-          "value": "{color.blue.800.value}",
+          "value": "{color.blue.900.value}",
           "type": "color"
         }
       },
@@ -51,7 +51,7 @@
       },
       "active": {
         "background": {
-          "value": "{color.blue.200.value}",
+          "value": "{color.blue.100.value}",
           "type": "color"
         }
       }
