@@ -2,7 +2,7 @@
   "signature": {
     "color": {
       "flag": {
-        "value": "{color.red.200.value}",
+        "value": "{color.red.flag.value}",
         "type": "color"
       },
       "text": {

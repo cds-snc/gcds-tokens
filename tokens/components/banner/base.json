@@ -2,7 +2,7 @@
   "banner": {
     "primary": {
       "background": {
-        "value": "{color.blue.800.value}",
+        "value": "{color.blue.900.value}",
         "type": "color"
       },
       "text": {
