@@ -787,7 +787,7 @@
       },
       "hover": {
         "text": {
-          "value": "#31455C",
+          "value": "#425A76",
           "type": "color"
         }
       },
@@ -1048,7 +1048,7 @@
     },
     "stepper": {
       "text": {
-        "value": "#747A82",
+        "value": "#545961",
         "type": "color"
       }
     },
