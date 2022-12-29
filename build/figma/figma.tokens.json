@@ -398,6 +398,30 @@
         }
       }
     },
+    "breadcrumbs": {
+      "default": {
+        "text": {
+          "value": "#26374A",
+          "type": "color"
+        }
+      },
+      "focus": {
+        "background": {
+          "value": "#303FC3",
+          "type": "color"
+        },
+        "text": {
+          "value": "#FFF",
+          "type": "color"
+        }
+      },
+      "hover": {
+        "text": {
+          "value": "#425A76",
+          "type": "color"
+        }
+      }
+    },
     "button": {
       "destructive": {
         "default": {
