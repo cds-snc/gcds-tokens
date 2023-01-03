@@ -77,6 +77,10 @@ const fontWeights = {
     value: '400',
     type: 'fontWeights',
   },
+  medium: {
+    value: '500',
+    type: 'fontWeights',
+  },
   semibold: {
     value: '600',
     type: 'fontWeights',
