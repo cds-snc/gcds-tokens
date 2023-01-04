@@ -275,6 +275,10 @@
         "value": "400",
         "type": "fontWeights"
       },
+      "medium": {
+        "value": "500",
+        "type": "fontWeights"
+      },
       "semibold": {
         "value": "600",
         "type": "fontWeights"
@@ -390,6 +394,30 @@
       "secondary": {
         "background": {
           "value": "#F0F0F0",
+          "type": "color"
+        }
+      }
+    },
+    "breadcrumbs": {
+      "default": {
+        "text": {
+          "value": "#26374A",
+          "type": "color"
+        }
+      },
+      "focus": {
+        "background": {
+          "value": "#303FC3",
+          "type": "color"
+        },
+        "text": {
+          "value": "#FFF",
+          "type": "color"
+        }
+      },
+      "hover": {
+        "text": {
+          "value": "#425A76",
           "type": "color"
         }
       }
@@ -724,6 +752,16 @@
           "value": "#FFF",
           "type": "color"
         }
+      },
+      "contextual": {
+        "background": {
+          "value": "#31455C",
+          "type": "color"
+        },
+        "text": {
+          "value": "#FFF",
+          "type": "color"
+        }
       }
     },
     "header": {
@@ -1048,7 +1086,7 @@
     },
     "stepper": {
       "text": {
-        "value": "#747A82",
+        "value": "#545961",
         "type": "color"
       }
     },

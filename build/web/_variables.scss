@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Fri, 23 Dec 2022 14:27:54 GMT
+// Generated on Wed, 04 Jan 2023 19:31:48 GMT
 
 $gcds-brand-default-text: #000000;
 $gcds-brand-focus: #303fc3;
@@ -63,6 +63,7 @@ $gcds-font-sizes-h2: 2.2525405883789062rem;
 $gcds-font-sizes-h1: 2.5341081619262695rem;
 $gcds-font-weights-light: 300;
 $gcds-font-weights-regular: 400;
+$gcds-font-weights-medium: 500;
 $gcds-font-weights-semibold: 600;
 $gcds-font-weights-bold: 700;
 $gcds-line-heights-caption: 146.25%;
@@ -87,6 +88,10 @@ $gcds-alert-warning-icon: #000000;
 $gcds-banner-primary-background: #26374a;
 $gcds-banner-primary-text: #ffffff;
 $gcds-banner-secondary-background: #f0f0f0;
+$gcds-breadcrumbs-default-text: #26374a;
+$gcds-breadcrumbs-focus-background: #303fc3;
+$gcds-breadcrumbs-focus-text: #ffffff;
+$gcds-breadcrumbs-hover-text: #425a76;
 $gcds-button-destructive-default-background: #a62a1e;
 $gcds-button-destructive-default-text: #ffffff;
 $gcds-button-destructive-hover-background: #822117;
@@ -148,6 +153,8 @@ $gcds-footer-brand-active-text: #ffffff;
 $gcds-footer-brand-active-background: #000000;
 $gcds-footer-landscape-background: #26374a;
 $gcds-footer-landscape-text: #ffffff;
+$gcds-footer-contextual-background: #31455c;
+$gcds-footer-contextual-text: #ffffff;
 $gcds-header-brand-border: #26374a;
 $gcds-input-default-background: #ffffff;
 $gcds-input-default-text: #000000;
@@ -206,7 +213,7 @@ $gcds-site-menu-selection-text: #000000;
 $gcds-site-menu-submenu-background: #e0e2e5;
 $gcds-site-menu-submenu-box-shadow: #00000030;
 $gcds-site-menu-submenu-trigger-text: #000000;
-$gcds-stepper-text: #747a82;
+$gcds-stepper-text: #545961;
 $gcds-textarea-default-background: #ffffff;
 $gcds-textarea-default-text: #000000;
 $gcds-textarea-destructive: #a62a1e;
