@@ -752,6 +752,16 @@
           "value": "#FFF",
           "type": "color"
         }
+      },
+      "contextual": {
+        "background": {
+          "value": "#31455C",
+          "type": "color"
+        },
+        "text": {
+          "value": "#FFF",
+          "type": "color"
+        }
       }
     },
     "header": {
