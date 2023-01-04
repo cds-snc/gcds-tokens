@@ -1,0 +1,26 @@
+{
+  "breadcrumbs": {
+    "default": {
+      "text": {
+        "value": "{color.blue.900.value}",
+        "type": "color"
+      }
+    },
+    "focus": {
+      "background": {
+        "value": "{brand.focus.value}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{color.grayscale.0.value}",
+        "type": "color"
+      }
+    },
+    "hover": {
+      "text": {
+        "value": "{color.blue.700.value}",
+        "type": "color"
+      }
+    }
+  }
+}
