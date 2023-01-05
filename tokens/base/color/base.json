@@ -6,11 +6,11 @@
         "type": "color"
       },
       "100": {
-        "value": "#D7E5F5",
+        "value": "#EAECF0",
         "type": "color"
       },
       "500": {
-        "value": "#6584A6",
+        "value": "#B1B6BD",
         "type": "color",
         "comment": "Must contrast 3:1 with white"
       },

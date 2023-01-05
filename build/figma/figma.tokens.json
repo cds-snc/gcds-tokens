@@ -39,11 +39,11 @@
     "color": {
       "blue": {
         "100": {
-          "value": "#D7E5F5",
+          "value": "#EAECF0",
           "type": "color"
         },
         "500": {
-          "value": "#6584A6",
+          "value": "#B1B6BD",
           "type": "color"
         },
         "700": {
@@ -359,7 +359,7 @@
       },
       "info": {
         "background": {
-          "value": "#D7E5F5",
+          "value": "#EAECF0",
           "type": "color"
         },
         "icon": {
@@ -476,13 +476,13 @@
         },
         "hover": {
           "background": {
-            "value": "#D7E5F5",
+            "value": "#EAECF0",
             "type": "color"
           }
         },
         "active": {
           "background": {
-            "value": "#D7E5F5",
+            "value": "#EAECF0",
             "type": "color"
           }
         }
@@ -887,7 +887,7 @@
       },
       "hover": {
         "background": {
-          "value": "#D7E5F5",
+          "value": "#EAECF0",
           "type": "color"
         }
       },
