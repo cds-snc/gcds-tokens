@@ -20,6 +20,19 @@ const traverseObj = (obj) => {
 	return output;
 };
 
+StyleDictionary.registerTransform({
+	type: `value`,
+	transitive: true,
+	name: `spacing/remToPx`,
+	matcher: (token) => token.type === "spacing",
+	transformer: (token, options) => {
+		const val = parseFloat(token.value);
+		const baseFont = options.basePxFontSize;
+		if (isNaN(val)) throwSizeError(token.name, token.value, "px");
+		return (val * baseFont).toFixed(0) + "px";
+	},
+});
+
 module.exports = {
 	source: ["tokens/**/*.@(js|json)"],
 	format: {
@@ -29,7 +42,7 @@ module.exports = {
 				null,
 				2
 			);
-		}
+		},
 	},
 	platforms: {
 		scss: {
@@ -41,7 +54,7 @@ module.exports = {
 					format: "scss/variables",
 				},
 			],
-			output: true
+			output: true,
 		},
 		css: {
 			transformGroup: "css",
@@ -52,19 +65,20 @@ module.exports = {
 					format: "css/variables",
 				},
 			],
-			output: true
+			output: true,
 		},
 		figma: {
 			transforms: ["name/cti/kebab"],
 			buildPath: "build/",
 			prefix: "gcds",
-			transforms: ["name/cti/kebab", "size/px"],
+			basePxFontSize: 20,
+			transforms: ["name/cti/kebab", "size/remToPx", "spacing/remToPx"],
 			files: [
 				{
 					destination: "figma/figma.tokens.json",
 					format: "figmatokens",
-				}
-			]
-		}
-	}
+				},
+			],
+		},
+	},
 };
