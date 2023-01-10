@@ -305,6 +305,10 @@
         "value": "130%",
         "type": "lineHeights"
       },
+      "paragraph": {
+        "value": "195%",
+        "type": "lineHeights"
+      },
       "h6": {
         "value": "115.55555555555556%",
         "type": "lineHeights"
@@ -314,15 +318,15 @@
         "type": "lineHeights"
       },
       "h4": {
-        "value": "182.60631001371743%",
+        "value": "136.9547325102881%",
         "type": "lineHeights"
       },
       "h3": {
-        "value": "162.31672001219326%",
+        "value": "121.73754000914496%",
         "type": "lineHeights"
       },
       "h2": {
-        "value": "144.28152889972733%",
+        "value": "108.21114667479553%",
         "type": "lineHeights"
       },
       "h1": {
