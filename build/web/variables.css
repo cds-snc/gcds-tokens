@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 10 Jan 2023 16:22:37 GMT
+ * Generated on Tue, 10 Jan 2023 16:42:20 GMT
  */
 
 :root {
@@ -42,14 +42,16 @@
   --gcds-spacing-200: 0.6rem;
   --gcds-spacing-300: 0.8999999999999999rem;
   --gcds-spacing-400: 1.2rem;
-  --gcds-spacing-500: 1.7999999999999998rem;
-  --gcds-spacing-600: 2.4rem;
-  --gcds-spacing-700: 3rem;
-  --gcds-spacing-800: 3.5999999999999996rem;
-  --gcds-spacing-900: 4.2rem;
-  --gcds-spacing-1000: 4.8rem;
+  --gcds-spacing-450: 1.7999999999999998rem;
+  --gcds-spacing-500: 2.4rem;
+  --gcds-spacing-550: 3rem;
+  --gcds-spacing-600: 3.5999999999999996rem;
+  --gcds-spacing-700: 4.8rem;
+  --gcds-spacing-800: 6rem;
+  --gcds-spacing-900: 7.199999999999999rem;
+  --gcds-spacing-1000: 8.4rem;
   --gcds-base-font-size: 1.25; /* Sets base font size to 20px */
-  --gcds-base-line-height: 1.2; /* Sets line height to 24px */
+  --gcds-base-line-height: 1.2; /* Sets base line height to 24px */
   --gcds-base-scale: 1.125;
   --gcds-font-families-heading: Lato;
   --gcds-font-families-body: Noto Sans;
@@ -71,9 +73,9 @@
   --gcds-line-heights-caption: 135%;
   --gcds-line-heights-text: 120%;
   --gcds-line-heights-h6: 106.66666666666667%;
-  --gcds-line-heights-h5: 142.2222222222222%;
-  --gcds-line-heights-h4: 126.41975308641973%;
-  --gcds-line-heights-h3: 112.37311385459532%;
+  --gcds-line-heights-h5: 189.62962962962962%;
+  --gcds-line-heights-h4: 168.559670781893%;
+  --gcds-line-heights-h3: 149.8308184727938%;
   --gcds-line-heights-h2: 133.18294975359447%;
   --gcds-line-heights-h1: 118.38484422541731%;
   --gcds-alert-button-focus-background: #303fc3;
