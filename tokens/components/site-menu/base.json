@@ -42,7 +42,7 @@
     },
     "selection": {
       "background": {
-        "value": "{color.yellow.200.value}",
+        "value": "{color.yellow.500.value}",
         "type": "color"
       },
       "text": {

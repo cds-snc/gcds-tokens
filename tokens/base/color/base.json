@@ -6,12 +6,18 @@
         "type": "color"
       },
       "100": {
-        "value": "#D7E5F5",
+        "value": "#EAECF0",
         "type": "color"
+      },
+      "500": {
+        "value": "#B1B6BD",
+        "type": "color",
+        "comment": "Must contrast 3:1 with white"
       },
       "700": {
         "value": "#425A76",
-        "type": "color"
+        "type": "color",
+        "comment": "Must contrast 7:1 with white"
       },
       "800": {
         "value": "#31455C",
@@ -28,23 +34,25 @@
         "type": "color"
       },
       "100": {
-        "value": "#F0F0F0",
+        "value": "#D6D9DD",
         "type": "color"
       },
       "300": {
-        "value": "#E0E2E5",
+        "value": "#A8ADB4",
         "type": "color"
       },
       "500": {
-        "value": "#B6BABF",
-        "type": "color"
+        "value": "#7D828B",
+        "type": "color",
+        "comment": "Must contrast 3:1 with white"
       },
       "700": {
-        "value": "#747A82",
-        "type": "color"
+        "value": "#545961",
+        "type": "color",
+        "comment": "Must contrast 7:1 with white"
       },
       "900": {
-        "value": "#545961",
+        "value": "#2F3238",
         "type": "color"
       },
       "1000": {
@@ -54,12 +62,18 @@
     },
     "green": {
       "100": {
-        "value": "#ECF3EC",
+        "value": "#E6F6EC",
         "type": "color"
       },
-      "200": {
-        "value": "#005900",
-        "type": "color"
+      "500": {
+        "value": "#289F58",
+        "type": "color",
+        "comment": "Must contrast 3:1 with white"
+      },
+      "700": {
+        "value": "#03662A",
+        "type": "color",
+        "comment": "Must contrast 7:1 with white"
       }
     },
     "red": {
@@ -72,12 +86,14 @@
         "type": "color"
       },
       "500": {
-        "value": "#D44335",
-        "type": "color"
+        "value": "#C24438",
+        "type": "color",
+        "comment": "Must contrast 3:1 with white"
       },
       "700": {
         "value": "#A62A1E",
-        "type": "color"
+        "type": "color",
+        "comment": "Must contrast 7:1 with white"
       },
       "900": {
         "value": "#822117",
@@ -86,12 +102,13 @@
     },
     "yellow": {
       "100": {
-        "value": "#FAF3D1",
+        "value": "#FAEDD1",
         "type": "color"
       },
-      "200": {
-        "value": "#f7b452",
-        "type": "color"
+      "500": {
+        "value": "#B3800F",
+        "type": "color",
+        "comment": "Must contrast 3:1 with white"
       }
     }
   }
