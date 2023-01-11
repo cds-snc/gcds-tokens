@@ -20,19 +20,6 @@ const traverseObj = (obj) => {
 	return output;
 };
 
-StyleDictionary.registerTransform({
-	type: `value`,
-	transitive: true,
-	name: `spacing/remToPx`,
-	matcher: (token) => token.type === "spacing",
-	transformer: (token, options) => {
-		const val = parseFloat(token.value);
-		const baseFont = options.basePxFontSize;
-		if (isNaN(val)) throwSizeError(token.name, token.value, "px");
-		return (val * baseFont).toFixed(0) + "px";
-	},
-});
-
 module.exports = {
 	source: ["tokens/**/*.@(js|json)"],
 	format: {
@@ -72,7 +59,7 @@ module.exports = {
 			buildPath: "build/",
 			prefix: "gcds",
 			basePxFontSize: 20,
-			transforms: ["name/cti/kebab", "size/remToPx", "spacing/remToPx"],
+			transforms: ["name/cti/kebab", "size/rem"],
 			files: [
 				{
 					destination: "figma/figma.tokens.json",
