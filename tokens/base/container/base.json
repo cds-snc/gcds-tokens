@@ -1,7 +1,11 @@
 {
   "container": {
-    "sm": {
+    "xs": {
       "value": "20rem",
+      "type": "sizing"
+    },
+    "sm": {
+      "value": "30rem",
       "type": "sizing"
     },
     "md": {
