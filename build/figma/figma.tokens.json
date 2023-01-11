@@ -156,55 +156,55 @@
     },
     "spacing": {
       "50": {
-        "value": "3px",
+        "value": "3.5px",
         "type": "spacing"
       },
       "100": {
-        "value": "6px",
+        "value": "7.0px",
         "type": "spacing"
       },
       "200": {
-        "value": "12px",
+        "value": "14.0px",
         "type": "spacing"
       },
       "300": {
-        "value": "18px",
+        "value": "21.0px",
         "type": "spacing"
       },
       "400": {
-        "value": "24px",
+        "value": "28.0px",
         "type": "spacing"
       },
       "450": {
-        "value": "36px",
+        "value": "42.0px",
         "type": "spacing"
       },
       "500": {
-        "value": "48px",
+        "value": "56.0px",
         "type": "spacing"
       },
       "550": {
-        "value": "60px",
+        "value": "70.0px",
         "type": "spacing"
       },
       "600": {
-        "value": "72px",
+        "value": "84.0px",
         "type": "spacing"
       },
       "700": {
-        "value": "96px",
+        "value": "112.0px",
         "type": "spacing"
       },
       "800": {
-        "value": "120px",
+        "value": "140.0px",
         "type": "spacing"
       },
       "900": {
-        "value": "144px",
+        "value": "168.0px",
         "type": "spacing"
       },
       "1000": {
-        "value": "168px",
+        "value": "196.0px",
         "type": "spacing"
       }
     },
@@ -214,7 +214,7 @@
         "type": "typography"
       },
       "lineHeight": {
-        "value": 1.2,
+        "value": 1.4,
         "type": "typography"
       },
       "scale": {
@@ -298,35 +298,35 @@
     },
     "lineHeights": {
       "caption": {
-        "value": "135%",
+        "value": "157.5%",
         "type": "lineHeights"
       },
       "text": {
-        "value": "120%",
+        "value": "140%",
         "type": "lineHeights"
       },
       "h6": {
-        "value": "106.66666666666667%",
+        "value": "124.44444444444444%",
         "type": "lineHeights"
       },
       "h5": {
-        "value": "189.62962962962962%",
+        "value": "110.61728395061728%",
         "type": "lineHeights"
       },
       "h4": {
-        "value": "168.559670781893%",
+        "value": "196.65294924554183%",
         "type": "lineHeights"
       },
       "h3": {
-        "value": "149.8308184727938%",
+        "value": "174.80262155159275%",
         "type": "lineHeights"
       },
       "h2": {
-        "value": "133.18294975359447%",
+        "value": "155.38010804586023%",
         "type": "lineHeights"
       },
       "h1": {
-        "value": "118.38484422541731%",
+        "value": "138.1156515963202%",
         "type": "lineHeights"
       }
     },

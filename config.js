@@ -29,7 +29,7 @@ StyleDictionary.registerTransform({
 		const val = parseFloat(token.value);
 		const baseFont = options.basePxFontSize;
 		if (isNaN(val)) throwSizeError(token.name, token.value, "px");
-		return (val * baseFont).toFixed(0) + "px";
+		return (val * baseFont).toFixed(1) + "px";
 	},
 });
 
