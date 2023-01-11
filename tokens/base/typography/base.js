@@ -5,7 +5,7 @@ const base = {
 		comment: "Sets base font size to 20px",
 	},
 	lineHeight: {
-		value: 1.4,
+		value: 1.2,
 		type: "typography",
 		comment: "Sets base line height to 24px",
 	},

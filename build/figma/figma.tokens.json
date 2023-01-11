@@ -156,55 +156,63 @@
     },
     "spacing": {
       "50": {
-        "value": "3.5px",
+        "value": "3px",
         "type": "spacing"
       },
       "100": {
-        "value": "7.0px",
+        "value": "6px",
+        "type": "spacing"
+      },
+      "150": {
+        "value": "9px",
         "type": "spacing"
       },
       "200": {
-        "value": "14.0px",
+        "value": "12px",
+        "type": "spacing"
+      },
+      "250": {
+        "value": "15px",
         "type": "spacing"
       },
       "300": {
-        "value": "21.0px",
+        "value": "18px",
         "type": "spacing"
       },
       "400": {
-        "value": "28.0px",
+        "value": "24px",
         "type": "spacing"
       },
       "450": {
-        "value": "42.0px",
+        "value": "36px",
         "type": "spacing"
       },
       "500": {
-        "value": "56.0px",
+        "value": "48px",
         "type": "spacing"
       },
       "550": {
-        "value": "70.0px",
+        "value": "60px",
         "type": "spacing"
       },
       "600": {
-        "value": "84.0px",
+        "value": "72px",
         "type": "spacing"
       },
       "700": {
-        "value": "112.0px",
+        "value": "96px",
         "type": "spacing"
       },
       "800": {
-        "value": "140.0px",
+        "value": "120px",
         "type": "spacing"
       },
       "900": {
-        "value": "168.0px",
+        "value": "144px",
         "type": "spacing"
       },
       "1000": {
-        "value": "196.0px",
+        "value": "168px",
         "type": "spacing"
       }
     },
@@ -214,7 +222,7 @@
         "type": "typography"
       },
       "lineHeight": {
-        "value": 1.4,
+        "value": 1.2,
         "type": "typography"
       },
       "scale": {
@@ -298,35 +306,35 @@
     },
     "lineHeights": {
       "caption": {
-        "value": "157.5%",
+        "value": "135%",
         "type": "lineHeights"
       },
       "text": {
-        "value": "140%",
+        "value": "120%",
         "type": "lineHeights"
       },
       "h6": {
-        "value": "124.44444444444444%",
+        "value": "106.66666666666667%",
         "type": "lineHeights"
       },
       "h5": {
-        "value": "110.61728395061728%",
+        "value": "189.62962962962962%",
         "type": "lineHeights"
       },
       "h4": {
-        "value": "196.65294924554183%",
+        "value": "168.559670781893%",
         "type": "lineHeights"
       },
       "h3": {
-        "value": "174.80262155159275%",
+        "value": "149.8308184727938%",
         "type": "lineHeights"
       },
       "h2": {
-        "value": "155.38010804586023%",
+        "value": "133.18294975359447%",
         "type": "lineHeights"
       },
       "h1": {
-        "value": "138.1156515963202%",
+        "value": "118.38484422541731%",
         "type": "lineHeights"
       }
     },

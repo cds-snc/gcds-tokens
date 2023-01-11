@@ -9,8 +9,16 @@ const spacing = {
 		value: `${base.lineHeight.value * 0.25}rem`,
 		type: "spacing",
 	},
+	150: {
+		value: `${base.lineHeight.value * 0.375}rem`,
+		type: "spacing",
+	},
 	200: {
 		value: `${base.lineHeight.value * 0.5}rem`,
+		type: "spacing",
+	},
+	250: {
+		value: `${base.lineHeight.value * 0.625}rem`,
 		type: "spacing",
 	},
 	300: {
