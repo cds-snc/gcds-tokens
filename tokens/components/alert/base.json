@@ -42,7 +42,7 @@
         "type": "color"
       },
       "icon": {
-        "value": "{color.green.200.value}",
+        "value": "{color.green.700.value}",
         "type": "color"
       }
     },
