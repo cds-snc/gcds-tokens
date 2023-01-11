@@ -298,7 +298,7 @@
     },
     "lineHeights": {
       "caption": {
-        "value": "202.49999999999994%",
+        "value": "135%",
         "type": "lineHeights"
       },
       "text": {
@@ -310,27 +310,27 @@
         "type": "lineHeights"
       },
       "h6": {
-        "value": "159.99999999999997%",
+        "value": "124.44444444444444%",
         "type": "lineHeights"
       },
       "h5": {
-        "value": "189.62962962962962%",
+        "value": "126.41975308641975%",
         "type": "lineHeights"
       },
       "h4": {
-        "value": "168.559670781893%",
+        "value": "126.41975308641973%",
         "type": "lineHeights"
       },
       "h3": {
-        "value": "149.8308184727938%",
+        "value": "124.85901539399482%",
         "type": "lineHeights"
       },
       "h2": {
-        "value": "166.4786871919931%",
+        "value": "122.08437060746162%",
         "type": "lineHeights"
       },
       "h1": {
-        "value": "147.98105528177163%",
+        "value": "118.38484422541731%",
         "type": "lineHeights"
       }
     },

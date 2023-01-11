@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 11 Jan 2023 14:53:46 GMT
+ * Generated on Wed, 11 Jan 2023 20:38:31 GMT
  */
 
 :root {
@@ -70,15 +70,15 @@
   --gcds-font-weights-medium: 500;
   --gcds-font-weights-semibold: 600;
   --gcds-font-weights-bold: 700;
-  --gcds-line-heights-caption: 202.49999999999994%;
+  --gcds-line-heights-caption: 135%;
   --gcds-line-heights-text: 120%;
   --gcds-line-heights-paragraph: 180%;
-  --gcds-line-heights-h6: 159.99999999999997%;
-  --gcds-line-heights-h5: 189.62962962962962%;
-  --gcds-line-heights-h4: 168.559670781893%;
-  --gcds-line-heights-h3: 149.8308184727938%;
-  --gcds-line-heights-h2: 166.4786871919931%;
-  --gcds-line-heights-h1: 147.98105528177163%;
+  --gcds-line-heights-h6: 124.44444444444444%;
+  --gcds-line-heights-h5: 126.41975308641975%;
+  --gcds-line-heights-h4: 126.41975308641973%;
+  --gcds-line-heights-h3: 124.85901539399482%;
+  --gcds-line-heights-h2: 122.08437060746162%;
+  --gcds-line-heights-h1: 118.38484422541731%;
   --gcds-alert-button-focus-background: #303fc3;
   --gcds-alert-button-focus-text: #ffffff;
   --gcds-alert-text: #000000;

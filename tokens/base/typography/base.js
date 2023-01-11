@@ -5,7 +5,7 @@ const base = {
 		comment: "Sets base font size to 20px",
 	},
 	lineHeight: {
-		value: 1.4,
+		value: 1.2,
 		type: "typography",
 	},
 	scale: {
@@ -98,7 +98,7 @@ const calculateLineHeight = (fontSize) => {
 		Find out how many baseline octaves are required to fit the fontSize. Add one octave for a bit more spacing		
 		Return numBaseline as a percentage for fontSizeValue
 	*/
-	let octave = 7;
+	let octave = 6;
 	let fontSizeValue = parseFloat(fontSize) / base.fontSize.value;
 	let numBaselines =
 		Math.ceil((fontSizeValue * octave) / base.lineHeight.value) / octave +
