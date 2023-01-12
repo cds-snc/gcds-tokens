@@ -141,23 +141,27 @@
       }
     },
     "container": {
-      "100": {
-        "value": "28.125rem",
+      "xs": {
+        "value": "20rem",
         "type": "sizing"
       },
-      "200": {
-        "value": "37.5rem",
+      "sm": {
+        "value": "30rem",
         "type": "sizing"
       },
-      "300": {
-        "value": "56.25rem",
+      "md": {
+        "value": "48rem",
         "type": "sizing"
       },
-      "400": {
-        "value": "80rem",
+      "lg": {
+        "value": "64rem",
         "type": "sizing"
       },
-      "500": {
+      "xl": {
+        "value": "75rem",
+        "type": "sizing"
+      },
+      "full": {
         "value": "100%",
         "type": "sizing"
       }
