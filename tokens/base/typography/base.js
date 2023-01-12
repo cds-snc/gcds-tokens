@@ -92,12 +92,12 @@ const fontWeights = {
 };
 
 const calculateLineHeight = (fontSize) => {
-  /* 
-		Get fontSize value, divided away from the base font scaling
-		LineHeight has no units, its relative. 
-		Find out how many baseline octaves are required to fit the fontSize. Add one octave for a bit more spacing		
-		Return numBaseline as a percentage for fontSizeValue
-	*/
+  /*
+  Get fontSize value, divided away from the base font scaling
+  LineHeight has no units, its relative.
+  Find out how many baseline octaves are required to fit the fontSize. Add one octave for a bit more spacing
+  Return numBaseline as a percentage for fontSizeValue
+  */
   let octave = 6;
   let fontSizeValue = parseFloat(fontSize) / base.fontSize.value;
   let numBaselines =
@@ -119,7 +119,7 @@ const lineHeights = {
     type: 'lineHeights',
   },
   paragraph: {
-    value: `${base.lineHeight.value * 150}%`,
+    value: `150%`,
     type: 'lineHeights',
   },
   h6: {
