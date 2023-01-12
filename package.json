@@ -16,7 +16,7 @@
     "url": "https://github.com/cds-snc/gcds-tokens/issues"
   },
   "devDependencies": {
-    "style-dictionary": "3.7.1"
+    "style-dictionary": "3.7.2"
   },
   "license": "MIT"
 }
