@@ -305,10 +305,6 @@
         "value": "120%",
         "type": "lineHeights"
       },
-      "paragraph": {
-        "value": "150%",
-        "type": "lineHeights"
-      },
       "h6": {
         "value": "124.44444444444444%",
         "type": "lineHeights"
