@@ -1,16 +1,16 @@
-const StyleDictionary = require("style-dictionary");
+const StyleDictionary = require('style-dictionary');
 
 const { formatHelpers } = StyleDictionary;
 
 const traverseObj = (obj) => {
   let output = {};
-  if (obj.hasOwnProperty("value")) {
+  if (obj.hasOwnProperty('value')) {
     return {
       value: obj.value,
       type: obj.type,
-      description: obj.description
+      description: obj.description,
     };
-  } else if (typeof obj === "object") {
+  } else if (typeof obj === 'object') {
     // check if the current node holds an object
     // if it does, recursively run through the object as well
     Object.keys(obj).forEach((key) => {
@@ -21,7 +21,7 @@ const traverseObj = (obj) => {
 };
 
 module.exports = {
-  source: ["tokens/**/*.@(js|json)"],
+  source: ['tokens/**/*.@(js|json)'],
   format: {
     figmatokens: ({ dictionary }) => {
       return JSON.stringify(
@@ -29,43 +29,43 @@ module.exports = {
         null,
         2
       );
-    }
+    },
   },
   platforms: {
     scss: {
-      transformGroup: "scss",
-      prefix: "gcds",
+      transformGroup: 'scss',
+      prefix: 'gcds',
       files: [
         {
-          destination: "build/web/_variables.scss",
-          format: "scss/variables"
-        }
+          destination: 'build/web/_variables.scss',
+          format: 'scss/variables',
+        },
       ],
-      output: true
+      output: true,
     },
     css: {
-      transformGroup: "css",
-      prefix: "gcds",
+      transformGroup: 'css',
+      prefix: 'gcds',
       files: [
         {
-          destination: "build/web/variables.css",
-          format: "css/variables"
-        }
+          destination: 'build/web/variables.css',
+          format: 'css/variables',
+        },
       ],
-      output: true
+      output: true,
     },
     figma: {
-      transforms: ["name/cti/kebab"],
-      buildPath: "build/",
-      prefix: "gcds",
+      transforms: ['name/cti/kebab'],
+      buildPath: 'build/',
+      prefix: 'gcds',
       basePxFontSize: 20,
-      transforms: ["name/cti/kebab", "size/rem"],
+      transforms: ['name/cti/kebab', 'size/rem'],
       files: [
         {
-          destination: "figma/figma.tokens.json",
-          format: "figmatokens"
-        }
-      ]
-    }
-  }
+          destination: 'figma/figma.tokens.json',
+          format: 'figmatokens',
+        },
+      ],
+    },
+  },
 };

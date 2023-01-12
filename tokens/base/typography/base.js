@@ -2,94 +2,94 @@ const base = {
   fontSize: {
     value: 1.25,
     type: 'typography',
-    comment: 'Sets base font size to 20px'
+    comment: 'Sets base font size to 20px',
   },
   lineHeight: {
     value: 1.2,
     type: 'typography',
-    comment: 'Sets base line height to 24px'
+    comment: 'Sets base line height to 24px',
   },
   scale: {
     value: 1.125,
-    type: 'typography'
-  }
+    type: 'typography',
+  },
 };
 
 const fontFamilies = {
   heading: {
     value: 'Lato',
-    type: 'fontFamilies'
+    type: 'fontFamilies',
   },
   body: {
     value: 'Noto Sans',
-    type: 'fontFamilies'
+    type: 'fontFamilies',
   },
   monospace: {
     value: 'Menlo',
-    type: 'fontFamilies'
+    type: 'fontFamilies',
   },
   icons: {
     value: 'Glyphicons Halflings',
-    type: 'fontFamilies'
-  }
+    type: 'fontFamilies',
+  },
 };
 
 const fontSizes = {
   caption: {
     value: `${base.fontSize.value / base.scale.value}rem`,
-    type: 'fontSizes'
+    type: 'fontSizes',
   },
   text: {
     value: `${base.fontSize.value}rem`,
-    type: 'fontSizes'
+    type: 'fontSizes',
   },
   h6: {
     value: `${base.fontSize.value * base.scale.value}rem`,
-    type: 'fontSizes'
+    type: 'fontSizes',
   },
   h5: {
     value: `${base.fontSize.value * base.scale.value ** 2}rem`,
-    type: 'fontSizes'
+    type: 'fontSizes',
   },
   h4: {
     value: `${base.fontSize.value * base.scale.value ** 3}rem`,
-    type: 'fontSizes'
+    type: 'fontSizes',
   },
   h3: {
     value: `${base.fontSize.value * base.scale.value ** 4}rem`,
-    type: 'fontSizes'
+    type: 'fontSizes',
   },
   h2: {
     value: `${base.fontSize.value * base.scale.value ** 5}rem`,
-    type: 'fontSizes'
+    type: 'fontSizes',
   },
   h1: {
     value: `${base.fontSize.value * base.scale.value ** 6}rem`,
-    type: 'fontSizes'
-  }
+    type: 'fontSizes',
+  },
 };
 
 const fontWeights = {
   light: {
     value: '300',
-    type: 'fontWeights'
+    type: 'fontWeights',
   },
   regular: {
     value: '400',
-    type: 'fontWeights'
+    type: 'fontWeights',
   },
   medium: {
     value: '500',
-    type: 'fontWeights'
+    type: 'fontWeights',
   },
   semibold: {
     value: '600',
-    type: 'fontWeights'
+    type: 'fontWeights',
   },
   bold: {
     value: '700',
-    type: 'fontWeights'
-  }
+    type: 'fontWeights',
+  },
 };
 
 const calculateLineHeight = (fontSize) => {
@@ -108,36 +108,36 @@ const calculateLineHeight = (fontSize) => {
 const lineHeights = {
   caption: {
     value: `${calculateLineHeight(fontSizes.caption.value)}%`,
-    type: 'lineHeights'
+    type: 'lineHeights',
   },
   text: {
     value: `${base.lineHeight.value * 100}%`,
-    type: 'lineHeights'
+    type: 'lineHeights',
   },
   h6: {
     value: `${calculateLineHeight(fontSizes.h6.value)}%`,
-    type: 'lineHeights'
+    type: 'lineHeights',
   },
   h5: {
     value: `${calculateLineHeight(fontSizes.h5.value)}%`,
-    type: 'lineHeights'
+    type: 'lineHeights',
   },
   h4: {
     value: `${calculateLineHeight(fontSizes.h4.value)}%`,
-    type: 'lineHeights'
+    type: 'lineHeights',
   },
   h3: {
     value: `${calculateLineHeight(fontSizes.h3.value)}%`,
-    type: 'lineHeights'
+    type: 'lineHeights',
   },
   h2: {
     value: `${calculateLineHeight(fontSizes.h2.value)}%`,
-    type: 'lineHeights'
+    type: 'lineHeights',
   },
   h1: {
     value: `${calculateLineHeight(fontSizes.h1.value)}%`,
-    type: 'lineHeights'
-  }
+    type: 'lineHeights',
+  },
 };
 
 module.exports = {
@@ -145,5 +145,5 @@ module.exports = {
   fontFamilies,
   fontSizes,
   fontWeights,
-  lineHeights
+  lineHeights,
 };
