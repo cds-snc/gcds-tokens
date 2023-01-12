@@ -2,7 +2,7 @@ const base = {
   fontSize: {
     value: 1.25,
     type: 'typography',
-    comment: 'Sets base font size to 20px'
+    comment: 'Sets base font size to 20px',
   },
   lineHeight: {
     value: 1.3,
@@ -12,7 +12,7 @@ const base = {
     value: 1.125,
     type: 'typography',
   },
-}
+};
 
 const fontFamilies = {
   heading: {
@@ -30,8 +30,8 @@ const fontFamilies = {
   icons: {
     value: 'Glyphicons Halflings',
     type: 'fontFamilies',
-  }
-}
+  },
+};
 
 const fontSizes = {
   caption: {
@@ -65,8 +65,8 @@ const fontSizes = {
   h1: {
     value: `${base.fontSize.value * base.scale.value ** 6}rem`,
     type: 'fontSizes',
-  }
-}
+  },
+};
 
 const fontWeights = {
   light: {
@@ -88,11 +88,18 @@ const fontWeights = {
   bold: {
     value: '700',
     type: 'fontWeights',
-  }
-}
+  },
+};
 
 const calculateLineHeight = (fontSize) => {
-  return Math.ceil(parseFloat(fontSize) / base.fontSize.value / base.lineHeight.value) * base.lineHeight.value * 100 / (parseFloat(fontSize) / base.fontSize.value)
+  return (
+    (Math.ceil(
+      parseFloat(fontSize) / base.fontSize.value / base.lineHeight.value
+    ) *
+      base.lineHeight.value *
+      100) /
+    (parseFloat(fontSize) / base.fontSize.value)
+  );
 };
 
 // Line height needs to be calculated in percentage in order for it
@@ -129,8 +136,8 @@ const lineHeights = {
   h1: {
     value: `${calculateLineHeight(fontSizes.h1.value)}%`,
     type: 'lineHeights',
-  }
-}
+  },
+};
 
 module.exports = {
   base,

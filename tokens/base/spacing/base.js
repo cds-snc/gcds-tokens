@@ -44,9 +44,9 @@ const spacing = {
   1000: {
     value: `${base.lineHeight.value * 7}rem`,
     type: 'spacing',
-  }
+  },
 };
 
 module.exports = {
-  spacing
+  spacing,
 };
