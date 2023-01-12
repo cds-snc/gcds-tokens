@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 12 Jan 2023 21:03:48 GMT
+ * Generated on Thu, 12 Jan 2023 21:09:38 GMT
  */
 
 :root {
@@ -77,11 +77,11 @@
   --gcds-font-weights-bold: 700;
   --gcds-line-heights-caption: 135%;
   --gcds-line-heights-text: 120%;
-  --gcds-line-heights-h6: 106.66666666666667%;
-  --gcds-line-heights-h5: 189.62962962962962%;
-  --gcds-line-heights-h4: 168.559670781893%;
-  --gcds-line-heights-h3: 149.8308184727938%;
-  --gcds-line-heights-h2: 133.18294975359447%;
+  --gcds-line-heights-h6: 124.44444444444444%;
+  --gcds-line-heights-h5: 126.41975308641975%;
+  --gcds-line-heights-h4: 126.41975308641973%;
+  --gcds-line-heights-h3: 124.85901539399482%;
+  --gcds-line-heights-h2: 122.08437060746162%;
   --gcds-line-heights-h1: 118.38484422541731%;
   --gcds-alert-button-focus-background: #303fc3;
   --gcds-alert-button-focus-text: #ffffff;
