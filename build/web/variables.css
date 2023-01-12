@@ -136,6 +136,7 @@
   --gcds-error-message-border-width: .125rem;
   --gcds-error-message-font-family: Noto Sans;
   --gcds-error-message-font-size: 1.25rem;
+  --gcds-error-message-font-weight: 400;
   --gcds-error-message-line-height: 130%;
   --gcds-error-message-margin: 0 0 0.65rem;
   --gcds-error-message-padding: 0.43333333333333335rem;

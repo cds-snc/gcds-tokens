@@ -643,6 +643,10 @@
         "size": {
           "value": "1.25rem",
           "type": "fontSizes"
+        },
+        "weight": {
+          "value": "400",
+          "type": "fontWeights"
         }
       },
       "lineHeight": {
