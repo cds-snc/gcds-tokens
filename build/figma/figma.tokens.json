@@ -168,47 +168,47 @@
     },
     "spacing": {
       "50": {
-        "value": "0.26rem",
+        "value": "0.24rem",
         "type": "spacing"
       },
       "100": {
-        "value": "0.325rem",
+        "value": "0.3rem",
         "type": "spacing"
       },
       "200": {
-        "value": "0.43333333333333335rem",
+        "value": "0.39999999999999997rem",
         "type": "spacing"
       },
       "300": {
-        "value": "0.65rem",
+        "value": "0.6rem",
         "type": "spacing"
       },
       "400": {
-        "value": "1.3rem",
+        "value": "1.2rem",
         "type": "spacing"
       },
       "500": {
-        "value": "2.6rem",
+        "value": "2.4rem",
         "type": "spacing"
       },
       "600": {
-        "value": "3.9000000000000004rem",
+        "value": "3.5999999999999996rem",
         "type": "spacing"
       },
       "700": {
-        "value": "5.2rem",
+        "value": "4.8rem",
         "type": "spacing"
       },
       "800": {
-        "value": "6.5rem",
+        "value": "6rem",
         "type": "spacing"
       },
       "900": {
-        "value": "7.800000000000001rem",
+        "value": "7.199999999999999rem",
         "type": "spacing"
       },
       "1000": {
-        "value": "9.1rem",
+        "value": "8.4rem",
         "type": "spacing"
       }
     },
@@ -218,7 +218,7 @@
         "type": "typography"
       },
       "lineHeight": {
-        "value": 1.3,
+        "value": 1.2,
         "type": "typography"
       },
       "scale": {
@@ -302,35 +302,35 @@
     },
     "lineHeights": {
       "caption": {
-        "value": "146.25%",
+        "value": "135%",
         "type": "lineHeights"
       },
       "text": {
-        "value": "130%",
+        "value": "120%",
         "type": "lineHeights"
       },
       "h6": {
-        "value": "115.55555555555556%",
+        "value": "124.44444444444444%",
         "type": "lineHeights"
       },
       "h5": {
-        "value": "102.71604938271605%",
+        "value": "126.41975308641975%",
         "type": "lineHeights"
       },
       "h4": {
-        "value": "182.60631001371743%",
+        "value": "126.41975308641973%",
         "type": "lineHeights"
       },
       "h3": {
-        "value": "162.31672001219326%",
+        "value": "124.85901539399482%",
         "type": "lineHeights"
       },
       "h2": {
-        "value": "144.28152889972733%",
+        "value": "122.08437060746162%",
         "type": "lineHeights"
       },
       "h1": {
-        "value": "128.25024791086875%",
+        "value": "118.38484422541731%",
         "type": "lineHeights"
       }
     },
