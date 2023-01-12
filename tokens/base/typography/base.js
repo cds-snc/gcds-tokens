@@ -7,6 +7,7 @@ const base = {
   lineHeight: {
     value: 1.2,
     type: 'typography',
+    comment: 'Sets base line height to 24px',
   },
   scale: {
     value: 1.125,
