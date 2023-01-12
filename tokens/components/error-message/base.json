@@ -5,8 +5,36 @@
       "type": "color"
     },
     "border": {
-      "value": "{brand.destructive.value}",
-      "type": "color"
+      "color": {
+        "value": "{brand.destructive.value}",
+        "type": "border"
+      },
+      "width": {
+        "value": ".125rem",
+        "type": "borderWidth"
+      }
+    },
+    "font": {
+      "family": {
+        "value": "{fontFamilies.body.value}",
+        "type": "fontFamilies"
+      },
+      "size": {
+        "value": "{fontSizes.text.value}",
+        "type": "fontSizes"
+      }
+    },
+    "lineHeight": {
+      "value": "{lineHeights.text.value}",
+      "type": "lineHeights"
+    },
+    "margin": {
+      "value": "0 0 {spacing.300.value}",
+      "type": "spacing"
+    },
+    "padding": {
+      "value": "{spacing.200.value}",
+      "type": "spacing"
     },
     "text": {
       "value": "{color.grayscale.1000.value}",

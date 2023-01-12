@@ -626,8 +626,36 @@
         "type": "color"
       },
       "border": {
-        "value": "#A62A1E",
-        "type": "color"
+        "color": {
+          "value": "#A62A1E",
+          "type": "border"
+        },
+        "width": {
+          "value": ".125rem",
+          "type": "borderWidth"
+        }
+      },
+      "font": {
+        "family": {
+          "value": "Noto Sans",
+          "type": "fontFamilies"
+        },
+        "size": {
+          "value": "1.25rem",
+          "type": "fontSizes"
+        }
+      },
+      "lineHeight": {
+        "value": "130%",
+        "type": "lineHeights"
+      },
+      "margin": {
+        "value": "0 0 0.65rem",
+        "type": "spacing"
+      },
+      "padding": {
+        "value": "0.43333333333333335rem",
+        "type": "spacing"
       },
       "text": {
         "value": "#000",
@@ -1113,6 +1141,28 @@
       }
     },
     "stepper": {
+      "font": {
+        "family": {
+          "value": "Lato",
+          "type": "fontFamilies"
+        },
+        "size": {
+          "value": "1.40625rem",
+          "type": "fontSizes"
+        },
+        "weight": {
+          "value": "600",
+          "type": "fontWeights"
+        }
+      },
+      "lineHeight": {
+        "value": "115.55555555555556%",
+        "type": "lineHeights"
+      },
+      "margin": {
+        "value": "0 0 0.65rem",
+        "type": "spacing"
+      },
       "text": {
         "value": "#545961",
         "type": "color"
