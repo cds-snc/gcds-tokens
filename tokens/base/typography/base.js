@@ -118,10 +118,6 @@ const lineHeights = {
     value: `${base.lineHeight.value * 100}%`,
     type: 'lineHeights',
   },
-  paragraph: {
-    value: `150%`,
-    type: 'lineHeights',
-  },
   h6: {
     value: `${calculateLineHeight(fontSizes.h6.value)}%`,
     type: 'lineHeights',
