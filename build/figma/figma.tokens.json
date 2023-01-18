@@ -451,6 +451,16 @@
       }
     },
     "button": {
+      "border": {
+        "radius": {
+          "value": "0.375rem",
+          "type": "borderRadius"
+        },
+        "width": {
+          "value": "0.125rem",
+          "type": "borderWidth"
+        }
+      },
       "destructive": {
         "default": {
           "background": {
@@ -468,6 +478,28 @@
             "type": "color"
           }
         }
+      },
+      "font": {
+        "family": {
+          "value": "Noto Sans",
+          "type": "fontFamilies"
+        },
+        "size": {
+          "value": "1.25rem",
+          "type": "fontSizes"
+        },
+        "weight": {
+          "value": "400",
+          "type": "fontWeights"
+        }
+      },
+      "lineHeight": {
+        "value": "120%",
+        "type": "lineHeights"
+      },
+      "padding": {
+        "value": "1rem .75rem",
+        "type": "spacing"
       },
       "primary": {
         "default": {
@@ -489,6 +521,10 @@
       },
       "secondary": {
         "default": {
+          "background": {
+            "value": "transparent",
+            "type": "color"
+          },
           "text": {
             "value": "#26374A",
             "type": "color"
@@ -523,6 +559,20 @@
             "value": "#303FC3",
             "type": "color"
           },
+          "outline": {
+            "color": {
+              "value": "#303FC3",
+              "type": "color"
+            },
+            "offset": {
+              "value": ".125rem",
+              "type": "outlineOffset"
+            },
+            "width": {
+              "value": ".1875rem",
+              "type": "outlineWidth"
+            }
+          },
           "text": {
             "value": "#FFF",
             "type": "color"
@@ -537,6 +587,26 @@
             "value": "#545961",
             "type": "color"
           }
+        }
+      },
+      "skip": {
+        "position": {
+          "top": {
+            "value": "1.5rem",
+            "type": "spacing"
+          }
+        }
+      },
+      "small": {
+        "font": {
+          "size": {
+            "value": "80%",
+            "type": "fontSize"
+          }
+        },
+        "padding": {
+          "value": "0.75rem",
+          "type": "spacing"
         }
       }
     },
