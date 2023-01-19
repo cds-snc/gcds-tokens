@@ -454,11 +454,11 @@
       "border": {
         "radius": {
           "value": "0.375rem",
-          "type": "borderRadius"
+          "type": "border"
         },
         "width": {
           "value": "0.125rem",
-          "type": "borderWidth"
+          "type": "border"
         }
       },
       "destructive": {
@@ -611,6 +611,32 @@
       }
     },
     "checkbox": {
+      "check": {
+        "border": {
+          "width": {
+            "value": "0.3125rem",
+            "type": "border"
+          }
+        },
+        "height": {
+          "value": "1.5rem",
+          "type": "spacing"
+        },
+        "position": {
+          "left": {
+            "value": "1rem",
+            "type": "spacing"
+          },
+          "top": {
+            "value": "-0.1875rem",
+            "type": "spacing"
+          }
+        },
+        "width": {
+          "value": "0.9375rem",
+          "type": "spacing"
+        }
+      },
       "default": {
         "text": {
           "value": "#000",
@@ -641,14 +667,98 @@
           "type": "color"
         }
       },
+      "error": {
+        "padding": {
+          "value": "0 0 0 3.75rem",
+          "type": "spacing"
+        }
+      },
       "focus": {
         "text": {
           "value": "#303FC3",
           "type": "color"
         },
+        "outline": {
+          "offset": {
+            "value": "0.125rem",
+            "type": "spacing"
+          },
+          "width": {
+            "value": "0.1875rem",
+            "type": "spacing"
+          }
+        },
         "shadow": {
-          "value": "#FFF",
-          "type": "color"
+          "color": {
+            "value": "#FFF",
+            "type": "color"
+          },
+          "width": {
+            "value": "0.125rem",
+            "type": "spacing"
+          }
+        }
+      },
+      "font": {
+        "family": {
+          "value": "Noto Sans",
+          "type": "fontFamilies"
+        },
+        "size": {
+          "value": "1.25rem",
+          "type": "fontSizes"
+        },
+        "weight": {
+          "value": "400",
+          "type": "fontWeights"
+        }
+      },
+      "input": {
+        "border": {
+          "radius": {
+            "value": "0.1875rem",
+            "type": "border"
+          },
+          "width": {
+            "value": "0.125rem",
+            "type": "border"
+          }
+        },
+        "height": {
+          "value": "3rem",
+          "type": "spacing"
+        },
+        "width": {
+          "value": "3rem",
+          "type": "spacing"
+        }
+      },
+      "hint": {
+        "font": {
+          "size": {
+            "value": "1.1111111111111112rem",
+            "type": "fontSizes"
+          }
+        }
+      },
+      "label": {
+        "padding": {
+          "value": "0 0 0 3.75rem",
+          "type": "spacing"
+        }
+      },
+      "lineHeight": {
+        "value": "120%",
+        "type": "lineHeights"
+      },
+      "margin": {
+        "value": "2.25rem 0 1.5rem",
+        "type": "spacing"
+      },
+      "position": {
+        "top": {
+          "value": "-0.75rem",
+          "type": "spacing"
         }
       }
     },

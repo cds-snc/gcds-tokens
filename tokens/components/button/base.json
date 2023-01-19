@@ -3,11 +3,11 @@
     "border": {
       "radius": {
         "value": "{spacing.100.value}",
-        "type": "borderRadius"
+        "type": "border"
       },
       "width": {
         "value": "0.125rem",
-        "type": "borderWidth"
+        "type": "border"
       }
     },
     "destructive": {
