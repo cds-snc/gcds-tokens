@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 12 Jan 2023 21:13:46 GMT
+ * Generated on Thu, 19 Jan 2023 19:41:03 GMT
  */
 
 :root {
@@ -18,6 +18,7 @@
   --gcds-color-blue-900: #26374a;
   --gcds-color-blue-focus: #303fc3;
   --gcds-color-grayscale-0: #ffffff;
+  --gcds-color-grayscale-50: #f1f2f3;
   --gcds-color-grayscale-100: #d6d9dd;
   --gcds-color-grayscale-300: #a8adb4;
   --gcds-color-grayscale-500: #7d828b; /* Must contrast 3:1 with white */
@@ -27,6 +28,7 @@
   --gcds-color-green-100: #e6f6ec;
   --gcds-color-green-500: #289f58; /* Must contrast 3:1 with white */
   --gcds-color-green-700: #03662a; /* Must contrast 7:1 with white */
+  --gcds-color-green-800: #005422; /* Must contrast 7:1 with 100 */
   --gcds-color-red-100: #fbddda;
   --gcds-color-red-500: #c24438; /* Must contrast 3:1 with white */
   --gcds-color-red-700: #a62a1e; /* Must contrast 7:1 with white */
@@ -34,6 +36,7 @@
   --gcds-color-red-flag: #ff0000;
   --gcds-color-yellow-100: #faedd1;
   --gcds-color-yellow-500: #b3800f; /* Must contrast 3:1 with white */
+  --gcds-color-yellow-800: #6b4900; /* Must contrast 7:1 with 100 */
   --gcds-container-xs: 20rem;
   --gcds-container-sm: 30rem;
   --gcds-container-md: 48rem;
@@ -87,13 +90,17 @@
   --gcds-alert-button-focus-text: #ffffff;
   --gcds-alert-text: #000000;
   --gcds-alert-destructive-background: #fbddda;
-  --gcds-alert-destructive-icon: #822117;
+  --gcds-alert-destructive-icon: #c24438;
+  --gcds-alert-destructive-text: #822117;
   --gcds-alert-info-background: #d7e5f5;
-  --gcds-alert-info-icon: #26374a;
+  --gcds-alert-info-icon: #6584a6;
+  --gcds-alert-info-text: #31455c;
   --gcds-alert-success-background: #e6f6ec;
-  --gcds-alert-success-icon: #03662a;
+  --gcds-alert-success-icon: #289f58;
+  --gcds-alert-success-text: #005422;
   --gcds-alert-warning-background: #faedd1;
-  --gcds-alert-warning-icon: #000000;
+  --gcds-alert-warning-icon: #b3800f;
+  --gcds-alert-warning-text: #6b4900;
   --gcds-banner-primary-background: #26374a;
   --gcds-banner-primary-text: #ffffff;
   --gcds-banner-secondary-background: #d6d9dd;
