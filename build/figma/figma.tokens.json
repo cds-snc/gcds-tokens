@@ -1037,8 +1037,62 @@
     "header": {
       "brand": {
         "border": {
-          "value": "#26374A",
-          "type": "color"
+          "color": {
+            "value": "#26374A",
+            "type": "color"
+          },
+          "width": {
+            "value": "0.1875rem",
+            "type": "borderWidth"
+          }
+        },
+        "grid": {
+          "gap": {
+            "value": "0.75rem",
+            "type": "spacing"
+          }
+        },
+        "margin": {
+          "top": {
+            "value": "1.125rem",
+            "type": "spacing"
+          }
+        },
+        "padding": {
+          "bottom": {
+            "value": "0.375rem",
+            "type": "spacing"
+          }
+        },
+        "search": {
+          "width": {
+            "value": "30rem",
+            "type": "spacing"
+          }
+        },
+        "toggle": {
+          "padding": {
+            "value": "0 1.125rem",
+            "type": "spacing"
+          }
+        }
+      },
+      "container": {
+        "maxWidth": {
+          "value": "75rem",
+          "type": "spacing"
+        }
+      },
+      "margin": {
+        "value": "0 0 3rem",
+        "type": "spacing"
+      },
+      "topnav": {
+        "position": {
+          "top": {
+            "value": "1.5rem",
+            "type": "spacing"
+          }
         }
       }
     },

@@ -2,8 +2,62 @@
   "header": {
     "brand": {
       "border": {
-        "value": "{color.blue.900.value}",
-        "type": "color"
+        "color": {
+          "value": "{color.blue.900.value}",
+          "type": "color"
+        },
+        "width": {
+          "value": "0.1875rem",
+          "type": "borderWidth"
+        }
+      },
+      "grid": {
+        "gap": {
+          "value": "{spacing.200.value}",
+          "type": "spacing"
+        }
+      },
+      "margin": {
+        "top": {
+          "value": "{spacing.300.value}",
+          "type": "spacing"
+        }
+      },
+      "padding": {
+        "bottom": {
+          "value": "{spacing.100.value}",
+          "type": "spacing"
+        }
+      },
+      "search": {
+        "width": {
+          "value": "{container.sm.value}",
+          "type": "spacing"
+        }
+      },
+      "toggle": {
+        "padding": {
+          "value": "0 {spacing.300.value}",
+          "type": "spacing"
+        }
+      }
+    },
+    "container": {
+      "maxWidth": {
+        "value": "{container.xl.value}",
+        "type": "spacing"
+      }
+    },
+    "margin": {
+      "value": "0 0 {spacing.500.value}",
+      "type": "spacing"
+    },
+    "topnav": {
+      "position": {
+        "top": {
+          "value": "{spacing.400.value}",
+          "type": "spacing"
+        }
       }
     }
   }
