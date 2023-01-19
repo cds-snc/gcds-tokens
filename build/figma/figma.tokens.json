@@ -1377,10 +1377,44 @@
           "type": "color"
         }
       },
+      "margin": {
+        "bottom": {
+          "value": "0.375rem",
+          "type": "spacing"
+        }
+      },
+      "signature": {
+        "margin": {
+          "bottom": {
+            "value": "0.375rem",
+            "type": "spacing"
+          }
+        },
+        "height": {
+          "value": "1.6875rem",
+          "type": "spacing"
+        }
+      },
       "white": {
         "default": {
           "value": "#FFF",
           "type": "color"
+        }
+      },
+      "wordmark": {
+        "margin": {
+          "bottom": {
+            "value": "1.5rem",
+            "type": "spacing"
+          },
+          "top": {
+            "value": "1.5rem",
+            "type": "spacing"
+          }
+        },
+        "height": {
+          "value": "3rem",
+          "type": "spacing"
         }
       }
     },
