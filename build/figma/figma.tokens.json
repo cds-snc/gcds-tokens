@@ -838,6 +838,34 @@
       "focus": {
         "value": "#303FC3",
         "type": "color"
+      },
+      "font": {
+        "family": {
+          "value": "Noto Sans",
+          "type": "fontFamilies"
+        },
+        "size": {
+          "value": "1.25rem",
+          "type": "fontSizes"
+        },
+        "weight": {
+          "value": "600",
+          "type": "fontWeights"
+        }
+      },
+      "legend": {
+        "margin": {
+          "bottom": {
+            "value": "0.1875rem",
+            "type": "spacing"
+          }
+        },
+        "required": {
+          "margin": {
+            "value": "0 0 0 0.375rem",
+            "type": "spacing"
+          }
+        }
       }
     },
     "file-uploader": {

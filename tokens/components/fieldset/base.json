@@ -19,6 +19,34 @@
     "focus": {
       "value": "{brand.focus.value}",
       "type": "color"
+    },
+    "font": {
+      "family": {
+        "value": "{fontFamilies.body.value}",
+        "type": "fontFamilies"
+      },
+      "size": {
+        "value": "{fontSizes.text.value}",
+        "type": "fontSizes"
+      },
+      "weight": {
+        "value": "{fontWeights.semibold.value}",
+        "type": "fontWeights"
+      }
+    },
+    "legend": {
+      "margin": {
+        "bottom": {
+          "value": "{spacing.50.value}",
+          "type": "spacing"
+        }
+      },
+      "required": {
+        "margin": {
+          "value": "0 0 0 {spacing.100.value}",
+          "type": "spacing"
+        }
+      }
     }
   }
 }
