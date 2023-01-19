@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 19 Jan 2023 18:53:27 GMT
+ * Generated on Thu, 19 Jan 2023 19:21:39 GMT
  */
 
 :root {
@@ -160,6 +160,12 @@
   --gcds-checkbox-line-height: 120%;
   --gcds-checkbox-margin: 2.25rem 0 1.5rem;
   --gcds-checkbox-position-top: -0.75rem;
+  --gcds-date-modified-font-family: Noto Sans;
+  --gcds-date-modified-font-size: 1.25rem;
+  --gcds-date-modified-font-weight: 400;
+  --gcds-date-modified-line-height: 120%;
+  --gcds-date-modified-margin-left: 0.1875rem;
+  --gcds-date-modified-margin-top: 3rem;
   --gcds-details-default-border: #a8adb4;
   --gcds-details-default-text: #26374a;
   --gcds-details-active-background: #000000;
