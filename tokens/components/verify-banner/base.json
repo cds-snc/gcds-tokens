@@ -4,14 +4,116 @@
       "value": "{color.grayscale.100.value}",
       "type": "color"
     },
-    "border": {
-      "value": "{color.grayscale.300.value}",
+    "container": {
+      "xs": {
+        "value": "{container.xs.value}",
+        "type": "sizing"
+      },
+      "sm": {
+        "value": "{container.sm.value}",
+        "type": "sizing"
+      },
+      "md": {
+        "value": "{container.md.value}",
+        "type": "sizing"
+      },
+      "lg": {
+        "value": "{container.lg.value}",
+        "type": "sizing"
+      },
+      "xl": {
+        "value": "{container.xl.value}",
+        "type": "sizing"
+      },
+      "full": {
+        "value": "{container.full.value}",
+        "type": "sizing"
+      },
+      "padding": {
+        "value": "{spacing.300.value}",
+        "type": "spacing"
+      }
+    },
+    "content": {
+      "border": {
+        "color": {
+          "value": "{color.grayscale.500.value}",
+          "type": "border"
+        },
+        "width": {
+          "value": "0.0625rem",
+          "type": "borderWidth"
+        }
+      },
+      "heading": {
+        "margin": {
+          "value": "0 0 {spacing.50.value}",
+          "type": "spacing"
+        }
+      },
+      "list": {
+        "margin": {
+          "value": "0 0 {spacing.400.value}",
+          "type": "spacing"
+        },
+        "svg": {
+          "margin": {
+            "value": "{spacing.50.value}",
+            "type": "spacing"
+          }
+        }
+      },
+      "paddingBlockStart": {
+        "value": "{spacing.400.value}",
+        "type": "spacing"
+      },
+      "paddingBlockEnd": {
+        "value": "{spacing.200.value}",
+        "type": "spacing"
+      }
+    },
+    "font": {
+      "family": {
+        "value": "{fontFamilies.body.value}",
+        "type": "fontFamilies"
+      },
+      "size": {
+        "value": "{fontSizes.caption.value}",
+        "type": "fontSizes"
+      },
+      "weight": {
+        "value": "{fontWeights.regular.value}",
+        "type": "fontWeights"
+      }
+    },
+    "lineHeight": {
+      "value": "{lineHeights.text.value}",
+      "type": "lineHeights"
+    },
+    "summary": {
+      "padding": {
+        "value": "{spacing.200.value}",
+        "type": "spacing"
+      },
+      "content": {
+        "margin": {
+          "value": "0 {spacing.300.value} 0 0",
+          "type": "spacing"
+        }
+      }
+    },
+    "text": {
+      "value": "{color.grayscale.1000.value}",
       "type": "color"
     },
     "toggle": {
       "text": {
         "value": "{color.blue.900.value}",
         "type": "color"
+      },
+      "fontWeight": {
+        "value": "{fontWeights.bold.value}",
+        "type": "fontWeights"
       }
     }
   }
