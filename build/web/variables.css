@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 19 Jan 2023 14:20:11 GMT
+ * Generated on Thu, 19 Jan 2023 14:47:38 GMT
  */
 
 :root {
@@ -155,6 +155,7 @@
   --gcds-checkbox-input-height: 3rem;
   --gcds-checkbox-input-width: 3rem;
   --gcds-checkbox-hint-font-size: 1.1111111111111112rem;
+  --gcds-checkbox-hint-text: #2f3238;
   --gcds-checkbox-label-padding: 0 0 0 3.75rem;
   --gcds-checkbox-line-height: 120%;
   --gcds-checkbox-margin: 2.25rem 0 1.5rem;
@@ -226,14 +227,34 @@
   --gcds-pagination-active-text: #ffffff;
   --gcds-pagination-active-background: #26374a;
   --gcds-pagination-mobile-list-border: #26374a;
+  --gcds-radio-border-radius: 3rem;
+  --gcds-radio-check-border-width: 0.3125rem;
+  --gcds-radio-check-height: 1.125rem;
+  --gcds-radio-check-position-left: 0.9375rem;
+  --gcds-radio-check-position-top: 0.1875rem;
+  --gcds-radio-check-width: 1.125rem;
   --gcds-radio-default-text: #000000;
-  --gcds-radio-default-hint: #2f3238;
   --gcds-radio-destructive-text: #a62a1e;
   --gcds-radio-disabled-background: #d6d9dd;
   --gcds-radio-disabled-border: #545961;
   --gcds-radio-disabled-text: #545961;
   --gcds-radio-focus-text: #303fc3;
-  --gcds-radio-focus-shadow: #ffffff;
+  --gcds-radio-focus-outline-offset: 0.125rem;
+  --gcds-radio-focus-outline-width: 0.1875rem;
+  --gcds-radio-focus-shadow-color: #ffffff;
+  --gcds-radio-focus-shadow-width: 0.125rem;
+  --gcds-radio-font-family: Noto Sans;
+  --gcds-radio-font-size: 1.25rem;
+  --gcds-radio-font-weight: 400;
+  --gcds-radio-input-border-width: 0.125rem;
+  --gcds-radio-input-height: 3rem;
+  --gcds-radio-input-width: 3rem;
+  --gcds-radio-hint-font-size: 1.1111111111111112rem;
+  --gcds-radio-hint-text: #2f3238;
+  --gcds-radio-label-padding: 0 0 0 3.75rem;
+  --gcds-radio-line-height: 120%;
+  --gcds-radio-margin: 2.25rem 0 1.5rem;
+  --gcds-radio-position-top: -0.75rem;
   --gcds-select-default-background: #ffffff;
   --gcds-select-default-text: #000000;
   --gcds-select-destructive: #a62a1e;
