@@ -57,7 +57,7 @@
     "panel": {
       "border": {
         "color": {
-          "value": "{color.grayscale.300.value}",
+          "value": "{color.grayscale.500.value}",
           "type": "border"
         },
         "width": {

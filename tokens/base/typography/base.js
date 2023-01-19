@@ -29,7 +29,7 @@ const fontFamilies = {
     type: 'fontFamilies',
   },
   icons: {
-    value: 'Glyphicons Halflings',
+    value: 'FontAwesome',
     type: 'fontFamilies',
   },
 };
