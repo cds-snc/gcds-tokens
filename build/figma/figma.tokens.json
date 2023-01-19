@@ -1057,15 +1057,19 @@
       }
     },
     "lang-toggle": {
-      "default": {
+      "active": {
         "text": {
-          "value": "#26374A",
+          "value": "#FFF",
+          "type": "color"
+        },
+        "background": {
+          "value": "#000",
           "type": "color"
         }
       },
-      "hover": {
+      "default": {
         "text": {
-          "value": "#425A76",
+          "value": "#26374A",
           "type": "color"
         }
       },
@@ -1079,15 +1083,33 @@
           "type": "color"
         }
       },
-      "active": {
-        "text": {
-          "value": "#FFF",
-          "type": "color"
+      "font": {
+        "family": {
+          "value": "Noto Sans",
+          "type": "fontFamilies"
         },
-        "background": {
-          "value": "#000",
+        "size": {
+          "value": "1.25rem",
+          "type": "fontSizes"
+        },
+        "weight": {
+          "value": "400",
+          "type": "fontWeights"
+        }
+      },
+      "hover": {
+        "text": {
+          "value": "#425A76",
           "type": "color"
         }
+      },
+      "lineHeight": {
+        "value": "120%",
+        "type": "lineHeights"
+      },
+      "padding": {
+        "value": "1.125rem",
+        "type": "spacing"
       }
     },
     "link": {
