@@ -79,16 +79,16 @@
             "border": {
               "color": {
                 "value": "{color.grayscale.0.value}",
-                "type": "color"
+                "type": "border"
               },
               "width": {
                 "value": "{spacing.100.value}",
-                "type": "spacing"
+                "type": "borderWidth"
               }
             },
             "width": {
               "value": "{spacing.450.value}",
-              "type": "spacing"
+              "type": "sizing"
             }
           }
         }

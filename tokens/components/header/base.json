@@ -4,7 +4,7 @@
       "border": {
         "color": {
           "value": "{color.blue.900.value}",
-          "type": "color"
+          "type": "border"
         },
         "width": {
           "value": "0.1875rem",
@@ -32,7 +32,7 @@
       "search": {
         "width": {
           "value": "{container.sm.value}",
-          "type": "spacing"
+          "type": "sizing"
         }
       },
       "toggle": {
@@ -45,7 +45,7 @@
     "container": {
       "maxWidth": {
         "value": "{container.xl.value}",
-        "type": "spacing"
+        "type": "sizing"
       }
     },
     "margin": {

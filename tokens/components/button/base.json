@@ -115,11 +115,11 @@
           },
           "offset": {
             "value": ".125rem",
-            "type": "outlineOffset"
+            "type": "other"
           },
           "width": {
-            "value": ".1875rem",
-            "type": "outlineWidth"
+            "value": "{spacing.50.value}",
+            "type": "other"
           }
         },
         "text": {

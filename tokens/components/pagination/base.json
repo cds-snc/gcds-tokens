@@ -13,7 +13,7 @@
     "border": {
       "color": {
         "value": "{color.blue.900.value}",
-        "type": "color"
+        "type": "border"
       },
       "radius": {
         "value": "{spacing.50.value}",
@@ -48,24 +48,24 @@
       "shadow": {
         "color": {
           "value": "{color.grayscale.0.value}",
-          "type": "color"
+          "type": "other"
         },
         "width": {
           "value": ".125rem",
-          "type": "spacing"
+          "type": "other"
         }
       },
       "outline": {
         "color": {
           "value": "{brand.focus.value}",
-          "type": "color"
+          "type": "other"
         },
         "offset": {
           "value": ".125rem",
           "type": "other"
         },
         "width": {
-          "value": ".1875rem",
+          "value": "{spacing.50.value}",
           "type": "other"
         }
 
@@ -107,7 +107,7 @@
       "list": {
         "border": {
           "value": "{color.blue.900.value}",
-          "type": "color"
+          "type": "border"
         },
         "item": {
           "margin": {

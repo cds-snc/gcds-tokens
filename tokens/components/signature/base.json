@@ -25,7 +25,7 @@
       },
       "height": {
         "value": "1.6875rem",
-        "type": "spacing"
+        "type": "sizing"
       }
     },
     "white": {
@@ -47,7 +47,7 @@
       },
       "height": {
         "value": "{spacing.500.value}",
-        "type": "spacing"
+        "type": "sizing"
       }
     }
   }
