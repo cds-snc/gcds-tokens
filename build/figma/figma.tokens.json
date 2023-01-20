@@ -1217,6 +1217,30 @@
       }
     },
     "pagination": {
+      "active": {
+        "text": {
+          "value": "#FFF",
+          "type": "color"
+        },
+        "background": {
+          "value": "#26374A",
+          "type": "color"
+        }
+      },
+      "border": {
+        "color": {
+          "value": "#26374A",
+          "type": "color"
+        },
+        "radius": {
+          "value": "0.1875rem",
+          "type": "borderRadius"
+        },
+        "width": {
+          "value": ".125rem",
+          "type": "borderWidth"
+        }
+      },
       "default": {
         "text": {
           "value": "#26374A",
@@ -1239,22 +1263,60 @@
           "type": "color"
         },
         "shadow": {
-          "value": "#FFF",
-          "type": "color"
+          "color": {
+            "value": "#FFF",
+            "type": "color"
+          },
+          "width": {
+            "value": ".125rem",
+            "type": "spacing"
+          }
         },
         "outline": {
-          "value": "#303FC3",
-          "type": "color"
+          "color": {
+            "value": "#303FC3",
+            "type": "color"
+          },
+          "offset": {
+            "value": ".125rem",
+            "type": "other"
+          },
+          "width": {
+            "value": ".1875rem",
+            "type": "other"
+          }
         }
       },
-      "active": {
-        "text": {
-          "value": "#FFF",
-          "type": "color"
+      "font": {
+        "family": {
+          "value": "Noto Sans",
+          "type": "fontFamilies"
         },
-        "background": {
-          "value": "#26374A",
-          "type": "color"
+        "size": {
+          "value": "1.25rem",
+          "type": "fontSizes"
+        },
+        "weight": {
+          "value": "700",
+          "type": "fontWeights"
+        }
+      },
+      "lineHeight": {
+        "value": "120%",
+        "type": "lineHeights"
+      },
+      "list": {
+        "endButton": {
+          "padding": {
+            "value": "0.75rem 0.5625rem",
+            "type": "spacing"
+          }
+        }
+      },
+      "listitem": {
+        "margin": {
+          "value": "0.375rem",
+          "type": "spacing"
         }
       },
       "mobile": {
@@ -1262,7 +1324,41 @@
           "border": {
             "value": "#26374A",
             "type": "color"
+          },
+          "item": {
+            "margin": {
+              "value": ".125rem",
+              "type": "spacing"
+            }
+          },
+          "prevnext": {
+            "margin": {
+              "top": {
+                "value": "0.75rem",
+                "type": "spacing"
+              }
+            }
           }
+        }
+      },
+      "simple": {
+        "label": {
+          "fontWeight": {
+            "value": "400",
+            "type": "fontWeights"
+          }
+        },
+        "listitem": {
+          "margin": {
+            "bottom": {
+              "value": "0.75rem",
+              "type": "spacing"
+            }
+          }
+        },
+        "padding": {
+          "value": "0.75rem 0.5625rem",
+          "type": "spacing"
         }
       }
     },

@@ -1,5 +1,29 @@
 {
   "pagination": {
+    "active": {
+      "text": {
+        "value": "{color.grayscale.0.value}",
+        "type": "color"
+      },
+      "background": {
+        "value": "{color.blue.900.value}",
+        "type": "color"
+      }
+    },
+    "border": {
+      "color": {
+        "value": "{color.blue.900.value}",
+        "type": "color"
+      },
+      "radius": {
+        "value": "{spacing.50.value}",
+        "type": "borderRadius"
+      },
+      "width": {
+        "value": ".125rem",
+        "type": "borderWidth"
+      }
+    },
     "default": {
       "text": {
         "value": "{color.blue.900.value}",
@@ -22,22 +46,61 @@
         "type": "color"
       },
       "shadow": {
-        "value": "{color.grayscale.0.value}",
-        "type": "color"
+        "color": {
+          "value": "{color.grayscale.0.value}",
+          "type": "color"
+        },
+        "width": {
+          "value": ".125rem",
+          "type": "spacing"
+        }
       },
       "outline": {
-        "value": "{brand.focus.value}",
-        "type": "color"
+        "color": {
+          "value": "{brand.focus.value}",
+          "type": "color"
+        },
+        "offset": {
+          "value": ".125rem",
+          "type": "other"
+        },
+        "width": {
+          "value": ".1875rem",
+          "type": "other"
+        }
+
       }
     },
-    "active": {
-      "text": {
-        "value": "{color.grayscale.0.value}",
-        "type": "color"
+    "font": {
+      "family": {
+        "value": "{fontFamilies.body.value}",
+        "type": "fontFamilies"
       },
-      "background": {
-        "value": "{color.blue.900.value}",
-        "type": "color"
+      "size": {
+        "value": "{fontSizes.text.value}",
+        "type": "fontSizes"
+      },
+      "weight": {
+        "value": "{fontWeights.bold.value}",
+        "type": "fontWeights"
+      }
+    },
+    "lineHeight": {
+      "value": "{lineHeights.text.value}",
+      "type": "lineHeights"
+    },
+    "list": {
+      "endButton": {
+        "padding": {
+          "value": "{spacing.200.value} {spacing.150.value}",
+          "type": "spacing"
+        }
+      }
+    },
+    "listitem": {
+      "margin": {
+        "value": "{spacing.100.value}",
+        "type": "spacing"
       }
     },
     "mobile": {
@@ -45,7 +108,41 @@
         "border": {
           "value": "{color.blue.900.value}",
           "type": "color"
+        },
+        "item": {
+          "margin": {
+            "value": ".125rem",
+            "type": "spacing"
+          }
+        },
+        "prevnext": {
+          "margin": {
+            "top": {
+              "value": "{spacing.200.value}",
+              "type": "spacing"
+            }
+          }
         }
+      }
+    },
+    "simple": {
+      "label": {
+        "fontWeight": {
+          "value": "{fontWeights.regular.value}",
+          "type": "fontWeights"
+        }
+      },
+      "listitem": {
+        "margin": {
+          "bottom": {
+            "value": "{spacing.200.value}",
+            "type": "spacing"
+          }
+        }
+      },
+      "padding": {
+        "value": "{spacing.200.value} {spacing.150.value}",
+        "type": "spacing"
       }
     }
   }
