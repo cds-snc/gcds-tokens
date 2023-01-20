@@ -977,20 +977,124 @@
       }
     },
     "footer": {
-      "brand": {
+      "container": {
+        "margin": {
+          "value": "0 auto",
+          "type": "spacing"
+        },
+        "width": {
+          "value": "75rem",
+          "type": "sizing"
+        }
+      },
+      "contextual": {
         "background": {
-          "value": "#D6D9DD",
+          "value": "#31455C",
           "type": "color"
         },
+        "padding": {
+          "value": "1.125rem 0",
+          "type": "spacing"
+        },
         "text": {
+          "value": "#FFF",
+          "type": "color"
+        }
+      },
+      "font": {
+        "family": {
+          "value": "Noto Sans",
+          "type": "fontFamilies"
+        },
+        "size": {
+          "value": "75%",
+          "type": "fontSizes"
+        },
+        "weight": {
+          "value": "400",
+          "type": "fontWeights"
+        }
+      },
+      "lineHeight": {
+        "value": "120%",
+        "type": "lineHeights"
+      },
+      "list": {
+        "gridGap": {
+          "value": "0.75rem",
+          "type": "spacing"
+        },
+        "padding": {
+          "left": {
+            "value": "0",
+            "type": "spacing"
+          }
+        }
+      },
+      "listitem": {
+        "margin": {
+          "bottom": {
+            "value": "1.125rem",
+            "type": "spacing"
+          }
+        }
+      },
+      "main": {
+        "background": {
           "value": "#26374A",
           "type": "color"
         },
-        "hover": {
+        "govnav": {
+          "padding": {
+            "value": "1.125rem 0",
+            "type": "spacing"
+          }
+        },
+        "nav": {
+          "first": {
+            "after": {
+              "border": {
+                "color": {
+                  "value": "#FFF",
+                  "type": "color"
+                },
+                "width": {
+                  "value": "0.375rem",
+                  "type": "spacing"
+                }
+              },
+              "width": {
+                "value": "2.25rem",
+                "type": "spacing"
+              }
+            }
+          }
+        },
+        "text": {
+          "value": "#FFF",
+          "type": "color"
+        },
+        "themenav": {
+          "padding": {
+            "value": "0.75rem 0 1.125rem",
+            "type": "spacing"
+          }
+        }
+      },
+      "sub": {
+        "active": {
           "text": {
-            "value": "#31455C",
+            "value": "#FFF",
+            "type": "color"
+          },
+          "background": {
+            "value": "#000",
             "type": "color"
           }
+        },
+        "background": {
+          "value": "#f8f8f8",
+          "type": "color"
         },
         "focus": {
           "background": {
@@ -1002,34 +1106,70 @@
             "type": "color"
           }
         },
-        "active": {
+        "gridGap": {
+          "value": "0.75rem",
+          "type": "spacing"
+        },
+        "hover": {
           "text": {
-            "value": "#FFF",
-            "type": "color"
-          },
-          "background": {
-            "value": "#000",
+            "value": "#31455C",
             "type": "color"
           }
-        }
-      },
-      "landscape": {
-        "background": {
+        },
+        "listitem": {
+          "lastchild": {
+            "marginBottom": {
+              "value": "1.125rem",
+              "type": "spacing"
+            }
+          },
+          "marginRight": {
+            "value": "1.125rem",
+            "type": "spacing"
+          }
+        },
+        "nav": {
+          "padding": {
+            "value": "3rem 0",
+            "type": "spacing"
+          }
+        },
+        "signature": {
+          "lg": {
+            "width": {
+              "value": "10.937rem",
+              "type": "sizing"
+            },
+            "minWidth": {
+              "value": "auto",
+              "type": "sizing"
+            }
+          },
+          "margin": {
+            "bottom": {
+              "value": "1.5rem",
+              "type": "spacing"
+            },
+            "left": {
+              "value": "auto",
+              "type": "spacing"
+            }
+          }
+        },
+        "md": {
+          "width": {
+            "value": "7rem",
+            "type": "sizing"
+          }
+        },
+        "sm": {
+          "width": {
+            "value": "100%",
+            "type": "sizing"
+          }
+        },
+        "text": {
           "value": "#26374A",
-          "type": "color"
-        },
-        "text": {
-          "value": "#FFF",
-          "type": "color"
-        }
-      },
-      "contextual": {
-        "background": {
-          "value": "#31455C",
-          "type": "color"
-        },
-        "text": {
-          "value": "#FFF",
           "type": "color"
         }
       }

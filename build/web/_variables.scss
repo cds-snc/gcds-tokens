@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Fri, 20 Jan 2023 14:38:27 GMT
+// Generated on Fri, 20 Jan 2023 16:25:05 GMT
 
 $gcds-brand-default-text: #000000;
 $gcds-brand-focus: #303fc3;
@@ -198,17 +198,42 @@ $gcds-file-uploader-focus-button-background: #303fc3;
 $gcds-file-uploader-focus-button-shadow: #ffffff;
 $gcds-file-uploader-focus-button-text: #ffffff;
 $gcds-file-uploader-focus-text: #303fc3;
-$gcds-footer-brand-background: #d6d9dd;
-$gcds-footer-brand-text: #26374a;
-$gcds-footer-brand-hover-text: #31455c;
-$gcds-footer-brand-focus-background: #303fc3;
-$gcds-footer-brand-focus-text: #ffffff;
-$gcds-footer-brand-active-text: #ffffff;
-$gcds-footer-brand-active-background: #000000;
-$gcds-footer-landscape-background: #26374a;
-$gcds-footer-landscape-text: #ffffff;
+$gcds-footer-container-margin: 0 auto;
+$gcds-footer-container-width: 75rem;
 $gcds-footer-contextual-background: #31455c;
+$gcds-footer-contextual-padding: 1.125rem 0;
 $gcds-footer-contextual-text: #ffffff;
+$gcds-footer-font-family: Noto Sans;
+$gcds-footer-font-size: 75%;
+$gcds-footer-font-weight: 400;
+$gcds-footer-line-height: 120%;
+$gcds-footer-list-grid-gap: 0.75rem;
+$gcds-footer-list-padding-left: 0;
+$gcds-footer-listitem-margin-bottom: 1.125rem;
+$gcds-footer-main-background: #26374a;
+$gcds-footer-main-govnav-padding: 1.125rem 0;
+$gcds-footer-main-nav-first-after-border-color: #ffffff;
+$gcds-footer-main-nav-first-after-border-width: 0.375rem;
+$gcds-footer-main-nav-first-after-width: 2.25rem;
+$gcds-footer-main-text: #ffffff;
+$gcds-footer-main-themenav-padding: 0.75rem 0 1.125rem;
+$gcds-footer-sub-active-text: #ffffff;
+$gcds-footer-sub-active-background: #000000;
+$gcds-footer-sub-background: #f8f8f8;
+$gcds-footer-sub-focus-background: #303fc3;
+$gcds-footer-sub-focus-text: #ffffff;
+$gcds-footer-sub-grid-gap: 0.75rem;
+$gcds-footer-sub-hover-text: #31455c;
+$gcds-footer-sub-listitem-lastchild-margin-bottom: 1.125rem;
+$gcds-footer-sub-listitem-margin-right: 1.125rem;
+$gcds-footer-sub-nav-padding: 3rem 0;
+$gcds-footer-sub-signature-lg-width: 10.937rem;
+$gcds-footer-sub-signature-lg-min-width: auto;
+$gcds-footer-sub-signature-margin-bottom: 1.5rem;
+$gcds-footer-sub-signature-margin-left: auto;
+$gcds-footer-sub-md-width: 7rem;
+$gcds-footer-sub-sm-width: 100%;
+$gcds-footer-sub-text: #26374a;
 $gcds-header-brand-border-color: #26374a;
 $gcds-header-brand-border-width: 0.1875rem;
 $gcds-header-brand-grid-gap: 0.75rem;
