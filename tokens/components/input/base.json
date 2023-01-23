@@ -1,5 +1,15 @@
 {
   "input": {
+    "border": {
+      "radius": {
+        "value": "{spacing.50.value}",
+        "type": "borderRadius"
+      },
+      "width": {
+        "value": ".125rem",
+        "type": "borderWidth"
+      }
+    },
     "default": {
       "background": {
         "value": "{color.grayscale.0.value}",
@@ -33,6 +43,42 @@
         "value": "{color.grayscale.0.value}",
         "type": "color"
       }
+    },
+    "font": {
+      "family": {
+        "value": "{fontFamilies.body.value}",
+        "type": "fontFamilies"
+      },
+      "size": {
+        "value": "{fontSizes.text.value}",
+        "type": "fontSizes"
+      },
+      "weight": {
+        "value": "{fontWeights.regular.value}",
+        "type": "fontWeights"
+      }
+    },
+    "lineHeight": {
+      "value": "{lineHeights.text.value}",
+      "type": "lineHeights"
+    },
+    "margin": {
+      "value": "0 0 {spacing.400.value}",
+      "type": "spacing"
+    },
+    "minWidthAndHeight": {
+      "value": "{spacing.500.value}",
+      "type": "sizing"
+    },
+    "outline": {
+      "width": {
+        "value": "{spacing.50.value}",
+        "type": "other"
+      }
+    },
+    "padding": {
+      "value": "{spacing.200.value}",
+      "type": "spacing"
     }
   }
 }
