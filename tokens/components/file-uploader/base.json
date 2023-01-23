@@ -5,6 +5,30 @@
         "value": "{color.grayscale.0.value}",
         "type": "color"
       },
+      "border": {
+        "radius": {
+          "value": "{spacing.100.value}",
+          "type": "borderRadius"
+        },
+        "width": {
+          "value": ".125rem",
+          "type": "borderWidth"
+        }
+      },
+      "fontWeight": {
+        "value": "{fontWeights.medium.value}",
+        "type": "fontWeights"
+      },
+      "outline": {
+        "width": {
+          "value": "{spacing.50.value}",
+          "type": "other"
+        }
+      },
+      "padding": {
+        "value": "{spacing.300.value} {spacing.200.value}",
+        "type": "spacing"
+      },
       "text": {
         "value": "{color.blue.900.value}",
         "type": "color"
@@ -36,10 +60,30 @@
         "type": "color"
       }
     },
+    "font": {
+      "family": {
+        "value": "{fontFamilies.body.value}",
+        "type": "fontFamilies"
+      },
+      "size": {
+        "value": "{fontSizes.text.value}",
+        "type": "fontSizes"
+      },
+      "weight": {
+        "value": "{fontWeights.regular.value}",
+        "type": "fontWeights"
+      }
+    },
     "file": {
       "background": {
-        "value": "{color.grayscale.300.value}",
+        "value": "{color.grayscale.100.value}",
         "type": "color"
+      },
+      "border": {
+        "radius": {
+          "value": "{spacing.500.value}",
+          "type": "borderRadius"
+        }
       },
       "icon": {
         "default": {
@@ -54,6 +98,32 @@
           "value": "{color.grayscale.1000.value}",
           "type": "color"
         }
+      },
+      "margin": {
+        "value": "{spacing.200.value} 0 0",
+        "type": "spacing"
+      },
+      "marginFirstOfType": {
+        "value": "{spacing.300.value} 0 0",
+        "type": "spacing"
+      },
+      "maxWidth": {
+        "value": "{container.sm.value}",
+        "type": "sizing"
+      },
+      "outline": {
+        "offset": {
+          "value": ".125rem",
+          "type": "other"
+        },
+        "width": {
+          "value": "{spacing.50.value}",
+          "type": "other"
+        }
+      },
+      "padding": {
+        "value": "{spacing.250.value} {spacing.400.value}",
+        "type": "spacing"
       }
     },
     "focus": {
@@ -75,6 +145,10 @@
         "value": "{brand.focus.value}",
         "type": "color"
       }
+    },
+    "lineHeight": {
+      "value": "{lineHeights.text.value}",
+      "type": "lineHeights"
     }
   }
 }

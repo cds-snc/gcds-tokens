@@ -1,5 +1,5 @@
 {
-  "label": {
+  "hint": {
     "font": {
       "family": {
         "value": "{fontFamilies.body.value}",
@@ -10,7 +10,7 @@
         "type": "fontSizes"
       },
       "weight": {
-        "value": "{fontWeights.medium.value}",
+        "value": "{fontWeights.regular.value}",
         "type": "fontWeights"
       }
     },
@@ -19,14 +19,8 @@
       "type": "lineHeights"
     },
     "margin": {
-      "value": "0 0 {spacing.100.value}",
+      "value": "0 0 {spacing.200.value}",
       "type": "spacing"
-    },
-    "required": {
-      "margin": {
-        "value": "0 0 0 {spacing.100.value}",
-        "type": "spacing"
-      }
     }
   }
 }
