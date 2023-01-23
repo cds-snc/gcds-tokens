@@ -1991,42 +1991,6 @@
           "type": "fontWeights"
         }
       }
-    },
-    "global": {
-      "default": {
-        "text": {
-          "value": "#000",
-          "type": "color"
-        }
-      },
-      "focus": {
-        "value": "#303FC3",
-        "type": "color"
-      },
-      "active": {
-        "text": {
-          "value": "#FFF",
-          "type": "color"
-        },
-        "background": {
-          "value": "#000",
-          "type": "color"
-        }
-      },
-      "disabled": {
-        "background": {
-          "value": "#D6D9DD",
-          "type": "color"
-        },
-        "text": {
-          "value": "#545961",
-          "type": "color"
-        }
-      },
-      "destructive": {
-        "value": "#A62A1E",
-        "type": "color"
-      }
     }
   }
 }
