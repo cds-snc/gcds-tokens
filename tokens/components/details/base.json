@@ -1,10 +1,6 @@
 {
   "details": {
     "default": {
-      "border": {
-        "value": "{color.grayscale.300.value}",
-        "type": "color"
-      },
       "text": {
         "value": "{color.blue.900.value}",
         "type": "color"
@@ -30,10 +26,94 @@
         "type": "color"
       }
     },
+    "font": {
+      "family": {
+        "value": "{fontFamilies.body.value}",
+        "type": "fontFamilies"
+      },
+      "size": {
+        "value": "{fontSizes.text.value}",
+        "type": "fontSizes"
+      },
+      "sizeSmall": {
+        "value": "{fontSizes.caption.value}",
+        "type": "fontSizes"
+      },
+      "weight": {
+        "value": "{fontWeights.regular.value}",
+        "type": "fontWeights"
+      }
+    },
     "hover": {
       "text": {
         "value": "{color.blue.800.value}",
         "type": "color"
+      }
+    },
+    "lineHeight": {
+      "value": "{lineHeights.text.value}",
+      "type": "lineHeights"
+    },
+    "panel": {
+      "border": {
+        "color": {
+          "value": "{color.grayscale.500.value}",
+          "type": "border"
+        },
+        "width": {
+          "value": "{spacing.100.value}",
+          "type": "borderWidth"
+        }
+      },
+      "margin": {
+        "value": "{spacing.100.value} 0 0 0",
+        "type": "spacing"
+      },
+      "padding": {
+        "value": "{spacing.150.value} {spacing.450.value}",
+        "type": "spacing"
+      },
+      "slotted": {
+        "margin": {
+          "value": "{spacing.400.value}",
+          "type": "spacing"
+        }
+      }
+    },
+    "summary": {
+      "arrow": {
+        "borderLeft": {
+          "value": "{spacing.250.value}",
+          "type": "spacing"
+        },
+        "borderTopBottom": {
+          "value": "{spacing.150.value}",
+          "type": "spacing"
+        },
+        "left": {
+          "value": "{spacing.100.value}",
+          "type": "spacing"
+        },
+        "top": {
+          "value": "{spacing.150.value}",
+          "type": "spacing"
+        }
+      },
+      "border": {
+        "width": {
+          "value": "0.0625rem",
+          "type": "borderWidth"
+        }
+      },
+      "padding": {
+        "value": "{spacing.100.value}",
+        "type": "spacing"
+      },
+      "text": {
+        "margin": {
+          "value": "0 0 0 {spacing.450.value}",
+          "type": "spacing"
+        }
       }
     }
   }

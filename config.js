@@ -58,7 +58,8 @@ module.exports = {
       transforms: ['name/cti/kebab'],
       buildPath: 'build/',
       prefix: 'gcds',
-      transforms: ['name/cti/kebab', 'size/px'],
+      basePxFontSize: 20,
+      transforms: ['name/cti/kebab', 'size/rem'],
       files: [
         {
           destination: 'figma/figma.tokens.json',

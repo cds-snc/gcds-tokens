@@ -1,5 +1,27 @@
 {
   "stepper": {
+    "font": {
+      "family": {
+        "value": "{fontFamilies.heading.value}",
+        "type": "fontFamilies"
+      },
+      "size": {
+        "value": "{fontSizes.h6.value}",
+        "type": "fontSizes"
+      },
+      "weight": {
+        "value": "{fontWeights.semibold.value}",
+        "type": "fontWeights"
+      }
+    },
+    "lineHeight": {
+      "value": "{lineHeights.h6.value}",
+      "type": "lineHeights"
+    },
+    "margin": {
+      "value": "0 0 {spacing.300.value}",
+      "type": "spacing"
+    },
     "text": {
       "value": "{color.grayscale.700.value}",
       "type": "color"
