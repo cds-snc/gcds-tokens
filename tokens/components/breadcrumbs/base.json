@@ -16,11 +16,61 @@
         "type": "color"
       }
     },
+    "font": {
+      "family": {
+        "value": "{fontFamilies.body.value}",
+        "type": "fontFamilies"
+      },
+      "size": {
+        "value": "{fontSizes.text.value}",
+        "type": "fontSizes"
+      },
+      "weight": {
+        "value": "{fontWeights.regular.value}",
+        "type": "fontWeights"
+      }
+    },
     "hover": {
       "text": {
         "value": "{color.blue.700.value}",
         "type": "color"
       }
+    },
+    "item": {
+      "arrow": {
+        "top": {
+          "value": "{spacing.50.value}",
+          "type": "spacing"
+        },
+        "left": {
+          "value": "{spacing.50.value}",
+          "type": "spacing"
+        }
+      },
+      "firstChild": {
+        "margin": {
+          "value": "0 0 0 -{spacing.400.value}",
+          "type": "spacing"
+        }
+      },
+      "link": {
+        "padding": {
+          "value": "{spacing.50.value}",
+          "type": "spacing"
+        }
+      },
+      "margin": {
+        "value": "{spacing.200.value} 0",
+        "type": "spacing"
+      },
+      "padding": {
+        "value": "0 0 0 {spacing.400.value}",
+        "type": "spacing"
+      }
+    },
+    "lineHeight": {
+      "value": "{lineHeights.text.value}",
+      "type": "lineHeights"
     }
   }
 }
