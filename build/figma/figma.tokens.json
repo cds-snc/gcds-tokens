@@ -560,14 +560,6 @@
             "type": "color"
           },
           "outline": {
-            "color": {
-              "value": "#303FC3",
-              "type": "color"
-            },
-            "offset": {
-              "value": ".125rem",
-              "type": "other"
-            },
             "width": {
               "value": "0.1875rem",
               "type": "other"
@@ -590,11 +582,9 @@
         }
       },
       "skip": {
-        "position": {
-          "top": {
-            "value": "1.5rem",
-            "type": "spacing"
-          }
+        "top": {
+          "value": "1.5rem",
+          "type": "spacing"
         }
       },
       "small": {
@@ -622,15 +612,13 @@
           "value": "1.5rem",
           "type": "spacing"
         },
-        "position": {
-          "left": {
-            "value": "1rem",
-            "type": "spacing"
-          },
-          "top": {
-            "value": "-0.1875rem",
-            "type": "spacing"
-          }
+        "left": {
+          "value": "1rem",
+          "type": "spacing"
+        },
+        "top": {
+          "value": "-0.1875rem",
+          "type": "spacing"
         },
         "width": {
           "value": "0.9375rem",
@@ -679,10 +667,6 @@
           "type": "color"
         },
         "outline": {
-          "offset": {
-            "value": "0.125rem",
-            "type": "other"
-          },
           "width": {
             "value": "0.1875rem",
             "type": "other"
@@ -691,10 +675,6 @@
         "shadow": {
           "color": {
             "value": "#FFF",
-            "type": "other"
-          },
-          "width": {
-            "value": "0.125rem",
             "type": "other"
           }
         }
@@ -759,11 +739,9 @@
         "value": "2.25rem 0 1.5rem",
         "type": "spacing"
       },
-      "position": {
-        "top": {
-          "value": "-0.75rem",
-          "type": "spacing"
-        }
+      "top": {
+        "value": "-0.75rem",
+        "type": "spacing"
       }
     },
     "date-modified": {
@@ -1228,11 +1206,9 @@
         "type": "spacing"
       },
       "topnav": {
-        "position": {
-          "top": {
-            "value": "1.5rem",
-            "type": "spacing"
-          }
+        "top": {
+          "value": "1.5rem",
+          "type": "spacing"
         }
       }
     },
@@ -1406,21 +1382,9 @@
           "color": {
             "value": "#FFF",
             "type": "other"
-          },
-          "width": {
-            "value": ".125rem",
-            "type": "other"
           }
         },
         "outline": {
-          "color": {
-            "value": "#303FC3",
-            "type": "other"
-          },
-          "offset": {
-            "value": ".125rem",
-            "type": "other"
-          },
           "width": {
             "value": "0.1875rem",
             "type": "other"
@@ -1520,15 +1484,13 @@
           "value": "1.125rem",
           "type": "sizing"
         },
-        "position": {
-          "left": {
-            "value": "0.9375rem",
-            "type": "spacing"
-          },
-          "top": {
-            "value": "0.1875rem",
-            "type": "spacing"
-          }
+        "left": {
+          "value": "0.9375rem",
+          "type": "spacing"
+        },
+        "top": {
+          "value": "0.1875rem",
+          "type": "spacing"
         },
         "width": {
           "value": "1.125rem",
@@ -1567,10 +1529,6 @@
           "type": "color"
         },
         "outline": {
-          "offset": {
-            "value": "0.125rem",
-            "type": "other"
-          },
           "width": {
             "value": "0.1875rem",
             "type": "other"
@@ -1579,10 +1537,6 @@
         "shadow": {
           "color": {
             "value": "#FFF",
-            "type": "other"
-          },
-          "width": {
-            "value": "0.125rem",
             "type": "other"
           }
         }
@@ -1643,11 +1597,9 @@
         "value": "2.25rem 0 1.5rem",
         "type": "spacing"
       },
-      "position": {
-        "top": {
-          "value": "-0.75rem",
-          "type": "spacing"
-        }
+      "top": {
+        "value": "-0.75rem",
+        "type": "spacing"
       }
     },
     "select": {

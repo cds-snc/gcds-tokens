@@ -53,11 +53,9 @@
       "type": "spacing"
     },
     "topnav": {
-      "position": {
-        "top": {
-          "value": "{spacing.400.value}",
-          "type": "spacing"
-        }
+      "top": {
+        "value": "{spacing.400.value}",
+        "type": "spacing"
       }
     }
   }

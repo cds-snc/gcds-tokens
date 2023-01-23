@@ -109,14 +109,6 @@
           "type": "color"
         },
         "outline": {
-          "color": {
-            "value": "{brand.focus.value}",
-            "type": "color"
-          },
-          "offset": {
-            "value": ".125rem",
-            "type": "other"
-          },
           "width": {
             "value": "{spacing.50.value}",
             "type": "other"
@@ -139,11 +131,9 @@
       }
     },
     "skip": {
-      "position": {
-        "top": {
-          "value": "{spacing.400.value}",
-          "type": "spacing"
-        }
+      "top": {
+        "value": "{spacing.400.value}",
+        "type": "spacing"
       }
     },
     "small": {
