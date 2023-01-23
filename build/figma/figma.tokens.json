@@ -350,6 +350,100 @@
         "type": "lineHeights"
       }
     },
+    "typography": {
+      "typography": {
+        "h1": {
+          "value": {
+            "fontFamily": "Lato",
+            "fontWeight": "500",
+            "lineHeight": "118.38484422541731%",
+            "fontSize": "2.5341081619262695rem"
+          },
+          "type": "typography"
+        },
+        "h2": {
+          "value": {
+            "fontFamily": "Lato",
+            "fontWeight": "500",
+            "lineHeight": "122.08437060746162%",
+            "fontSize": "2.2525405883789062rem"
+          },
+          "type": "typography"
+        },
+        "h3": {
+          "value": {
+            "fontFamily": "Lato",
+            "fontWeight": "500",
+            "lineHeight": "124.85901539399482%",
+            "fontSize": "2.00225830078125rem"
+          },
+          "type": "typography"
+        },
+        "h4": {
+          "value": {
+            "fontFamily": "Lato",
+            "fontWeight": "500",
+            "lineHeight": "126.41975308641973%",
+            "fontSize": "1.77978515625rem"
+          },
+          "type": "typography"
+        },
+        "h5": {
+          "value": {
+            "fontFamily": "Lato",
+            "fontWeight": "500",
+            "lineHeight": "126.41975308641975%",
+            "fontSize": "1.58203125rem"
+          },
+          "type": "typography"
+        },
+        "h6": {
+          "value": {
+            "fontFamily": "Lato",
+            "fontWeight": "500",
+            "lineHeight": "124.44444444444444%",
+            "fontSize": "1.40625rem"
+          },
+          "type": "typography"
+        },
+        "label": {
+          "value": {
+            "fontFamily": "Noto Sans",
+            "fontWeight": "500",
+            "lineHeight": "120%",
+            "fontSize": "1.25rem"
+          },
+          "type": "typography"
+        },
+        "hint": {
+          "value": {
+            "fontFamily": "Noto Sans",
+            "fontWeight": "400",
+            "lineHeight": "135%",
+            "fontSize": "1.1111111111111112rem"
+          },
+          "type": "typography"
+        },
+        "text": {
+          "value": {
+            "fontFamily": "Noto Sans",
+            "fontWeight": "400",
+            "lineHeight": "120%",
+            "fontSize": "1.25rem"
+          },
+          "type": "typography"
+        },
+        "paragraph": {
+          "value": {
+            "fontFamily": "Noto Sans",
+            "fontWeight": "400",
+            "lineHeight": "150%",
+            "fontSize": "1.25rem"
+          },
+          "type": "typography"
+        }
+      }
+    },
     "alert": {
       "button": {
         "focus": {

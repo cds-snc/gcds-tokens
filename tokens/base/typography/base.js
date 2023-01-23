@@ -276,4 +276,5 @@ module.exports = {
   fontSizes,
   fontWeights,
   lineHeights,
+  typography,
 };
