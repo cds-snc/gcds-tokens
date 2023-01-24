@@ -224,7 +224,7 @@ const font = {
     },
     type: 'typography',
   },
-  longText: {
+  textLong: {
     value: {
       fontFamily: '{fontFamilies.body}',
       fontWeight: '{fontWeights.regular}',

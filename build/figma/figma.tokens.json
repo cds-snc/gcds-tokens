@@ -429,7 +429,7 @@
         },
         "type": "typography"
       },
-      "longText": {
+      "textLong": {
         "value": {
           "fontFamily": "Noto Sans",
           "fontWeight": "400",
