@@ -68,6 +68,10 @@
           "value": "#FFF",
           "type": "color"
         },
+        "50": {
+          "value": "#F1F2F3",
+          "type": "color"
+        },
         "100": {
           "value": "#D6D9DD",
           "type": "color"
@@ -373,7 +377,11 @@
           "type": "color"
         },
         "icon": {
-          "value": "#822117",
+          "value": "#C24438",
+          "type": "color"
+        },
+        "text": {
+          "value": "#000",
           "type": "color"
         }
       },
@@ -383,7 +391,11 @@
           "type": "color"
         },
         "icon": {
-          "value": "#26374A",
+          "value": "#6584A6",
+          "type": "color"
+        },
+        "text": {
+          "value": "#000",
           "type": "color"
         }
       },
@@ -393,7 +405,11 @@
           "type": "color"
         },
         "icon": {
-          "value": "#03662A",
+          "value": "#289F58",
+          "type": "color"
+        },
+        "text": {
+          "value": "#000",
           "type": "color"
         }
       },
@@ -403,6 +419,10 @@
           "type": "color"
         },
         "icon": {
+          "value": "#B3800F",
+          "type": "color"
+        },
+        "text": {
           "value": "#000",
           "type": "color"
         }
@@ -955,7 +975,7 @@
     "footer": {
       "brand": {
         "background": {
-          "value": "#D6D9DD",
+          "value": "#F1F2F3",
           "type": "color"
         },
         "text": {
@@ -1709,7 +1729,7 @@
       },
       "default": {
         "background": {
-          "value": "#D6D9DD",
+          "value": "#F1F2F3",
           "type": "color"
         },
         "border": {
@@ -1990,42 +2010,6 @@
           "value": "700",
           "type": "fontWeights"
         }
-      }
-    },
-    "global": {
-      "default": {
-        "text": {
-          "value": "#000",
-          "type": "color"
-        }
-      },
-      "focus": {
-        "value": "#303FC3",
-        "type": "color"
-      },
-      "active": {
-        "text": {
-          "value": "#FFF",
-          "type": "color"
-        },
-        "background": {
-          "value": "#000",
-          "type": "color"
-        }
-      },
-      "disabled": {
-        "background": {
-          "value": "#D6D9DD",
-          "type": "color"
-        },
-        "text": {
-          "value": "#545961",
-          "type": "color"
-        }
-      },
-      "destructive": {
-        "value": "#A62A1E",
-        "type": "color"
       }
     }
   }
