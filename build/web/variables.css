@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 24 Jan 2023 19:40:32 GMT
+ * Generated on Tue, 24 Jan 2023 19:42:02 GMT
  */
 
 :root {
@@ -28,7 +28,6 @@
   --gcds-color-green-100: #e6f6ec;
   --gcds-color-green-500: #289f58; /* Must contrast 3:1 with white */
   --gcds-color-green-700: #03662a; /* Must contrast 7:1 with white */
-  --gcds-color-green-800: #005422; /* Must contrast 7:1 with 100 */
   --gcds-color-red-100: #fbddda;
   --gcds-color-red-500: #c24438; /* Must contrast 3:1 with white */
   --gcds-color-red-700: #a62a1e; /* Must contrast 7:1 with white */
@@ -36,7 +35,6 @@
   --gcds-color-red-flag: #ff0000;
   --gcds-color-yellow-100: #faedd1;
   --gcds-color-yellow-500: #b3800f; /* Must contrast 3:1 with white */
-  --gcds-color-yellow-800: #6b4900; /* Must contrast 7:1 with 100 */
   --gcds-container-xs: 20rem;
   --gcds-container-sm: 30rem;
   --gcds-container-md: 48rem;

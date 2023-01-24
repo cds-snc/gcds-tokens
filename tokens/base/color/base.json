@@ -78,11 +78,6 @@
         "value": "#03662A",
         "type": "color",
         "comment": "Must contrast 7:1 with white"
-      },
-      "800": {
-        "value": "#005422",
-        "type": "color",
-        "comment": "Must contrast 7:1 with 100"
       }
     },
     "red": {
@@ -118,11 +113,6 @@
         "value": "#B3800F",
         "type": "color",
         "comment": "Must contrast 3:1 with white"
-      },
-      "800": {
-        "value": "#6B4900",
-        "type": "color",
-        "comment": "Must contrast 7:1 with 100"
       }
     }
   }
