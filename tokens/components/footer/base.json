@@ -30,7 +30,7 @@
         "type": "fontFamilies"
       },
       "size": {
-        "value": "75%",
+        "value": "85%",
         "type": "fontSizes"
       },
       "weight": {
@@ -48,18 +48,14 @@
         "type": "spacing"
       },
       "padding": {
-        "left": {
-          "value": "0",
-          "type": "spacing"
-        }
+        "value": "0",
+        "type": "spacing"
       }
     },
     "listitem": {
       "margin": {
-        "bottom": {
-          "value": "{spacing.300.value}",
-          "type": "spacing"
-        }
+        "value": "0 0 {spacing.300.value}",
+        "type": "spacing"
       }
     },
     "main": {
@@ -140,15 +136,11 @@
         }
       },
       "listitem": {
-        "lastchild": {
-          "marginBottom": {
-            "value": "{spacing.300.value}",
+        "before": {
+          "margin": {
+            "value": "0 {spacing.300.value}",
             "type": "spacing"
           }
-        },
-        "marginRight": {
-          "value": "{spacing.300.value}",
-          "type": "spacing"
         }
       },
       "nav": {
@@ -169,14 +161,8 @@
           }
         },
         "margin": {
-          "bottom": {
-            "value": "{spacing.400.value}",
-            "type": "spacing"
-          },
-          "left": {
-            "value": "auto",
-            "type": "spacing"
-          }
+          "value": "0 0 {spacing.400.value}",
+          "type": "spacing"
         }
       },
       "md": {

@@ -105,10 +105,8 @@
         },
         "prevnext": {
           "margin": {
-            "top": {
-              "value": "{spacing.200.value}",
-              "type": "spacing"
-            }
+            "value": "{spacing.200.value} auto 0",
+            "type": "spacing"
           }
         }
       }
@@ -122,10 +120,8 @@
       },
       "listitem": {
         "margin": {
-          "bottom": {
-            "value": "{spacing.200.value}",
-            "type": "spacing"
-          }
+          "value": "{spacing.100.value} {spacing.100.value} {spacing.200.value}",
+          "type": "spacing"
         }
       },
       "padding": {

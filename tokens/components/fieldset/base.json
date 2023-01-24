@@ -36,10 +36,8 @@
     },
     "legend": {
       "margin": {
-        "bottom": {
-          "value": "{spacing.50.value}",
-          "type": "spacing"
-        }
+        "value": "0 0 {spacing.50.value}",
+        "type": "spacing"
       },
       "required": {
         "margin": {

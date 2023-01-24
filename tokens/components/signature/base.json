@@ -11,17 +11,13 @@
       }
     },
     "margin": {
-      "bottom": {
-        "value": "{spacing.100.value}",
-        "type": "spacing"
-      }
+      "value": "0 0 {spacing.100.value}",
+      "type": "spacing"
     },
     "signature": {
       "margin": {
-        "bottom": {
-          "value": "{spacing.100.value}",
-          "type": "spacing"
-        }
+        "value": "0 0 {spacing.100.value}",
+        "type": "spacing"
       },
       "height": {
         "value": "1.6875rem",
@@ -36,14 +32,8 @@
     },
     "wordmark": {
       "margin": {
-        "bottom": {
-          "value": "{spacing.400.value}",
-          "type": "spacing"
-        },
-        "top": {
-          "value": "{spacing.400.value}",
-          "type": "spacing"
-        }
+        "value": "{spacing.400.value} 0",
+        "type": "spacing"
       },
       "height": {
         "value": "{spacing.500.value}",

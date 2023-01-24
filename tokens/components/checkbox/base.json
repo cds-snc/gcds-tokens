@@ -103,11 +103,7 @@
           "type": "border"
         }
       },
-      "height": {
-        "value": "{spacing.500.value}",
-        "type": "sizing"
-      },
-      "width": {
+      "heightAndWidth": {
         "value": "{spacing.500.value}",
         "type": "sizing"
       }

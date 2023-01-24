@@ -1,5 +1,11 @@
 {
   "date-modified": {
+    "description": {
+      "margin": {
+        "value": "0 0 0 {spacing.50.value}",
+        "type": "spacing"
+      }
+    },
     "font": {
       "family": {
         "value": "{fontFamilies.body.value}",
@@ -19,14 +25,8 @@
       "type": "lineHeights"
     },
     "margin": {
-      "left": {
-        "value": "{spacing.50.value}",
-        "type": "spacing"
-      },
-      "top": {
-        "value": "{spacing.500.value}",
-        "type": "spacing"
-      }
+      "value": "{spacing.500.value} 0 0",
+      "type": "spacing"
     }
   }
 }

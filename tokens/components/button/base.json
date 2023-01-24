@@ -140,7 +140,7 @@
       "font": {
         "size": {
           "value": "80%",
-          "type": "fontSize"
+          "type": "fontSizes"
         }
       },
       "padding": {

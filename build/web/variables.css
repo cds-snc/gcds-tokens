@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 23 Jan 2023 18:38:11 GMT
+ * Generated on Tue, 24 Jan 2023 18:51:26 GMT
  */
 
 :root {
@@ -155,20 +155,19 @@
   --gcds-checkbox-font-weight: 400;
   --gcds-checkbox-input-border-radius: 0.1875rem;
   --gcds-checkbox-input-border-width: 0.125rem;
-  --gcds-checkbox-input-height: 3rem;
-  --gcds-checkbox-input-width: 3rem;
+  --gcds-checkbox-input-height-and-width: 3rem;
   --gcds-checkbox-hint-font-size: 1.1111111111111112rem;
   --gcds-checkbox-hint-text: #2f3238;
   --gcds-checkbox-label-padding: 0 0 0 3.75rem;
   --gcds-checkbox-line-height: 120%;
   --gcds-checkbox-margin: 2.25rem 0 1.5rem;
   --gcds-checkbox-top: -0.75rem;
+  --gcds-date-modified-description-margin: 0 0 0 0.1875rem;
   --gcds-date-modified-font-family: Noto Sans;
   --gcds-date-modified-font-size: 1.25rem;
   --gcds-date-modified-font-weight: 400;
   --gcds-date-modified-line-height: 120%;
-  --gcds-date-modified-margin-left: 0.1875rem;
-  --gcds-date-modified-margin-top: 3rem;
+  --gcds-date-modified-margin: 3rem 0 0;
   --gcds-details-default-text: #26374a;
   --gcds-details-active-background: #000000;
   --gcds-details-active-text: #ffffff;
@@ -209,7 +208,7 @@
   --gcds-fieldset-font-family: Noto Sans;
   --gcds-fieldset-font-size: 1.25rem;
   --gcds-fieldset-font-weight: 600;
-  --gcds-fieldset-legend-margin-bottom: 0.1875rem;
+  --gcds-fieldset-legend-margin: 0 0 0.1875rem;
   --gcds-fieldset-legend-required-margin: 0 0 0 0.375rem;
   --gcds-file-uploader-button-background: #ffffff;
   --gcds-file-uploader-button-border-radius: 0.375rem;
@@ -248,12 +247,12 @@
   --gcds-footer-contextual-padding: 1.125rem 0;
   --gcds-footer-contextual-text: #ffffff;
   --gcds-footer-font-family: Noto Sans;
-  --gcds-footer-font-size: 75%;
+  --gcds-footer-font-size: 85%;
   --gcds-footer-font-weight: 400;
   --gcds-footer-line-height: 120%;
   --gcds-footer-list-grid-gap: 0.75rem;
-  --gcds-footer-list-padding-left: 0;
-  --gcds-footer-listitem-margin-bottom: 1.125rem;
+  --gcds-footer-list-padding: 0;
+  --gcds-footer-listitem-margin: 0 0 1.125rem;
   --gcds-footer-main-background: #26374a;
   --gcds-footer-main-govnav-padding: 1.125rem 0;
   --gcds-footer-main-nav-first-after-border-color: #ffffff;
@@ -268,13 +267,11 @@
   --gcds-footer-sub-focus-text: #ffffff;
   --gcds-footer-sub-grid-gap: 0.75rem;
   --gcds-footer-sub-hover-text: #31455c;
-  --gcds-footer-sub-listitem-lastchild-margin-bottom: 1.125rem;
-  --gcds-footer-sub-listitem-margin-right: 1.125rem;
+  --gcds-footer-sub-listitem-before-margin: 0 1.125rem;
   --gcds-footer-sub-nav-padding: 3rem 0;
   --gcds-footer-sub-signature-lg-width: 10.937rem;
   --gcds-footer-sub-signature-lg-min-width: auto;
-  --gcds-footer-sub-signature-margin-bottom: 1.5rem;
-  --gcds-footer-sub-signature-margin-left: auto;
+  --gcds-footer-sub-signature-margin: 0 0 1.5rem;
   --gcds-footer-sub-md-width: 7rem;
   --gcds-footer-sub-sm-width: 100%;
   --gcds-footer-sub-text: #26374a;
@@ -302,8 +299,8 @@
   --gcds-header-brand-border-color: #26374a;
   --gcds-header-brand-border-width: 0.1875rem;
   --gcds-header-brand-grid-gap: 0.75rem;
-  --gcds-header-brand-margin-top: 1.125rem;
-  --gcds-header-brand-padding-bottom: 0.375rem;
+  --gcds-header-brand-margin: 1.125rem 0 0;
+  --gcds-header-brand-padding: 0 0 0.375rem;
   --gcds-header-brand-search-width: 30rem;
   --gcds-header-brand-toggle-padding: 0 1.125rem;
   --gcds-header-container-max-width: 75rem;
@@ -396,9 +393,9 @@
   --gcds-pagination-listitem-margin: 0.375rem;
   --gcds-pagination-mobile-list-border: #26374a;
   --gcds-pagination-mobile-list-item-margin: .125rem;
-  --gcds-pagination-mobile-list-prevnext-margin-top: 0.75rem;
+  --gcds-pagination-mobile-list-prevnext-margin: 0.75rem auto 0;
   --gcds-pagination-simple-label-font-weight: 400;
-  --gcds-pagination-simple-listitem-margin-bottom: 0.75rem;
+  --gcds-pagination-simple-listitem-margin: 0.375rem 0.375rem 0.75rem;
   --gcds-pagination-simple-padding: 0.75rem 0.5625rem;
   --gcds-phase-banner-container-xs: 20rem;
   --gcds-phase-banner-container-sm: 30rem;
@@ -420,10 +417,9 @@
   --gcds-phase-banner-secondary-text: #000000;
   --gcds-radio-border-radius: 3rem;
   --gcds-radio-check-border-width: 0.3125rem;
-  --gcds-radio-check-height: 1.125rem;
+  --gcds-radio-check-height-and-width: 1.125rem;
   --gcds-radio-check-left: 0.9375rem;
   --gcds-radio-check-top: 0.1875rem;
-  --gcds-radio-check-width: 1.125rem;
   --gcds-radio-default-text: #000000;
   --gcds-radio-destructive-text: #a62a1e;
   --gcds-radio-disabled-background: #d6d9dd;
@@ -436,8 +432,7 @@
   --gcds-radio-font-size: 1.25rem;
   --gcds-radio-font-weight: 400;
   --gcds-radio-input-border-width: 0.125rem;
-  --gcds-radio-input-height: 3rem;
-  --gcds-radio-input-width: 3rem;
+  --gcds-radio-input-height-and-width: 3rem;
   --gcds-radio-hint-font-size: 1.1111111111111112rem;
   --gcds-radio-hint-text: #2f3238;
   --gcds-radio-label-padding: 0 0 0 3.75rem;
@@ -464,12 +459,11 @@
   --gcds-select-padding: 0.75rem 3.75rem 0.75rem 0.75rem;
   --gcds-signature-color-flag: #ff0000;
   --gcds-signature-color-text: #000000;
-  --gcds-signature-margin-bottom: 0.375rem;
-  --gcds-signature-signature-margin-bottom: 0.375rem;
+  --gcds-signature-margin: 0 0 0.375rem;
+  --gcds-signature-signature-margin: 0 0 0.375rem;
   --gcds-signature-signature-height: 1.6875rem;
   --gcds-signature-white-default: #ffffff;
-  --gcds-signature-wordmark-margin-bottom: 1.5rem;
-  --gcds-signature-wordmark-margin-top: 1.5rem;
+  --gcds-signature-wordmark-margin: 1.5rem 0;
   --gcds-signature-wordmark-height: 3rem;
   --gcds-site-menu-active-background: #2f3238;
   --gcds-site-menu-active-text: #ffffff;

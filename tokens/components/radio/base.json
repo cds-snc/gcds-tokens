@@ -13,7 +13,7 @@
           "type": "borderWidth"
         }
       },
-      "height": {
+      "heightAndWidth": {
         "value": "{spacing.300.value}",
         "type": "sizing"
       },
@@ -24,10 +24,6 @@
       "top": {
         "value": "{spacing.50.value}",
         "type": "spacing"
-      },
-      "width": {
-        "value": "{spacing.300.value}",
-        "type": "sizing"
       }
     },
     "default": {
@@ -95,11 +91,7 @@
           "type": "borderWidth"
         }
       },
-      "height": {
-        "value": "{spacing.500.value}",
-        "type": "sizing"
-      },
-      "width": {
+      "heightAndWidth": {
         "value": "{spacing.500.value}",
         "type": "sizing"
       }
