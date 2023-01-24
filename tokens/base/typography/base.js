@@ -1,17 +1,14 @@
 const base = {
   fontSize: {
     value: 1.25,
-    type: 'typography',
     comment: 'Sets base font size to 20px',
   },
   lineHeight: {
     value: 1.2,
-    type: 'typography',
     comment: 'Sets base line height to 24px',
   },
   scale: {
     value: 1.125,
-    type: 'typography',
   },
 };
 
@@ -145,10 +142,104 @@ const lineHeights = {
   },
 };
 
+const font = {
+  h1: {
+    value: {
+      fontFamily: '{fontFamilies.heading}',
+      fontWeight: '{fontWeights.bold}',
+      lineHeight: '{lineHeights.h1}',
+      fontSize: '{fontSizes.h1}',
+    },
+    type: 'typography',
+  },
+  h2: {
+    value: {
+      fontFamily: '{fontFamilies.heading}',
+      fontWeight: '{fontWeights.bold}',
+      lineHeight: '{lineHeights.h2}',
+      fontSize: '{fontSizes.h2}',
+    },
+    type: 'typography',
+  },
+  h3: {
+    value: {
+      fontFamily: '{fontFamilies.heading}',
+      fontWeight: '{fontWeights.bold}',
+      lineHeight: '{lineHeights.h3}',
+      fontSize: '{fontSizes.h3}',
+    },
+    type: 'typography',
+  },
+  h4: {
+    value: {
+      fontFamily: '{fontFamilies.heading}',
+      fontWeight: '{fontWeights.bold}',
+      lineHeight: '{lineHeights.h4}',
+      fontSize: '{fontSizes.h4}',
+    },
+    type: 'typography',
+  },
+  h5: {
+    value: {
+      fontFamily: '{fontFamilies.heading}',
+      fontWeight: '{fontWeights.bold}',
+      lineHeight: '{lineHeights.h5}',
+      fontSize: '{fontSizes.h5}',
+    },
+    type: 'typography',
+  },
+  h6: {
+    value: {
+      fontFamily: '{fontFamilies.heading}',
+      fontWeight: '{fontWeights.bold}',
+      lineHeight: '{lineHeights.h6}',
+      fontSize: '{fontSizes.h6}',
+    },
+    type: 'typography',
+  },
+  label: {
+    value: {
+      fontFamily: '{fontFamilies.body}',
+      fontWeight: '{fontWeights.medium}',
+      lineHeight: '{lineHeights.text}',
+      fontSize: '{fontSizes.text}',
+    },
+    type: 'typography',
+  },
+  caption: {
+    value: {
+      fontFamily: '{fontFamilies.body}',
+      fontWeight: '{fontWeights.regular}',
+      lineHeight: '{lineHeights.caption}',
+      fontSize: '{fontSizes.caption}',
+    },
+    type: 'typography',
+  },
+  text: {
+    value: {
+      fontFamily: '{fontFamilies.body}',
+      fontWeight: '{fontWeights.regular}',
+      lineHeight: '{lineHeights.text}',
+      fontSize: '{fontSizes.text}',
+    },
+    type: 'typography',
+  },
+  textLong: {
+    value: {
+      fontFamily: '{fontFamilies.body}',
+      fontWeight: '{fontWeights.regular}',
+      lineHeight: '150%',
+      fontSize: '{fontSizes.text}',
+    },
+    type: 'typography',
+  },
+};
+
 module.exports = {
   base,
   fontFamilies,
   fontSizes,
   fontWeights,
   lineHeights,
+  font,
 };
