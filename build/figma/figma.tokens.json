@@ -550,7 +550,7 @@
         "type": "lineHeights"
       },
       "padding": {
-        "value": "1rem .75rem",
+        "value": "1.125rem 0.75rem",
         "type": "spacing"
       },
       "primary": {
@@ -767,6 +767,10 @@
             "value": "1.1111111111111112rem",
             "type": "fontSizes"
           }
+        },
+        "lineHeight": {
+          "value": "135%",
+          "type": "lineHeights"
         },
         "text": {
           "value": "#2F3238",
@@ -2161,6 +2165,10 @@
             "value": "1.1111111111111112rem",
             "type": "fontSizes"
           }
+        },
+        "lineHeight": {
+          "value": "135%",
+          "type": "lineHeights"
         },
         "text": {
           "value": "#2F3238",

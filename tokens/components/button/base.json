@@ -47,7 +47,7 @@
       "type": "lineHeights"
     },
     "padding": {
-      "value": "1rem .75rem",
+      "value": "{spacing.300.value} {spacing.200.value}",
       "type": "spacing"
     },
     "primary": {

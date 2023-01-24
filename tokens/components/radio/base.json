@@ -103,6 +103,10 @@
           "type": "fontSizes"
         }
       },
+      "lineHeight": {
+        "value": "{lineHeights.caption.value}",
+        "type": "lineHeights"
+      },
       "text": {
         "value": "{color.grayscale.900.value}",
         "type": "color"
