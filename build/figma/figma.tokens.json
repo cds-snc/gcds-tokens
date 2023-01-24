@@ -389,7 +389,7 @@
           "type": "color"
         },
         "text": {
-          "value": "#822117",
+          "value": "#000",
           "type": "color"
         }
       },
@@ -403,7 +403,7 @@
           "type": "color"
         },
         "text": {
-          "value": "#31455C",
+          "value": "#000",
           "type": "color"
         }
       },
@@ -417,7 +417,7 @@
           "type": "color"
         },
         "text": {
-          "value": "#005422",
+          "value": "#000",
           "type": "color"
         }
       },
@@ -431,7 +431,7 @@
           "type": "color"
         },
         "text": {
-          "value": "#6B4900",
+          "value": "#000",
           "type": "color"
         }
       }
@@ -983,7 +983,7 @@
     "footer": {
       "brand": {
         "background": {
-          "value": "#D6D9DD",
+          "value": "#F1F2F3",
           "type": "color"
         },
         "text": {
@@ -1737,7 +1737,7 @@
       },
       "default": {
         "background": {
-          "value": "#D6D9DD",
+          "value": "#F1F2F3",
           "type": "color"
         },
         "border": {
