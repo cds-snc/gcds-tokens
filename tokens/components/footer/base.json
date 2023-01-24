@@ -112,7 +112,7 @@
         }
       },
       "background": {
-        "value": "#f8f8f8",
+        "value": "{color.grayscale.50.value}",
         "type": "color"
       },
       "focus": {
