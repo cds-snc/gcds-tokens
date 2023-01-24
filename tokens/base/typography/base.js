@@ -1,17 +1,14 @@
 const base = {
   fontSize: {
     value: 1.25,
-    type: 'typography',
     comment: 'Sets base font size to 20px',
   },
   lineHeight: {
     value: 1.2,
-    type: 'typography',
     comment: 'Sets base line height to 24px',
   },
   scale: {
     value: 1.125,
-    type: 'typography',
   },
 };
 
@@ -145,127 +142,125 @@ const lineHeights = {
   },
 };
 
-const typography = {
-  typography: {
-    h1: {
-      value: {
-        fontFamily: '{fontFamilies.heading}',
-        fontWeight: '{fontWeights.medium}',
-        lineHeight: '{lineHeights.h1}',
-        fontSize: '{fontSizes.h1}',
-      },
-      type: 'typography',
-      attributes: {
-        category: 'typography',
-      },
+const font = {
+  h1: {
+    value: {
+      fontFamily: '{fontFamilies.heading}',
+      fontWeight: '{fontWeights.bold}',
+      lineHeight: '{lineHeights.h1}',
+      fontSize: '{fontSizes.h1}',
     },
-    h2: {
-      value: {
-        fontFamily: '{fontFamilies.heading}',
-        fontWeight: '{fontWeights.medium}',
-        lineHeight: '{lineHeights.h2}',
-        fontSize: '{fontSizes.h2}',
-      },
-      type: 'typography',
-      attributes: {
-        category: 'typography',
-      },
+    type: 'typography',
+    attributes: {
+      category: 'typography',
     },
-    h3: {
-      value: {
-        fontFamily: '{fontFamilies.heading}',
-        fontWeight: '{fontWeights.medium}',
-        lineHeight: '{lineHeights.h3}',
-        fontSize: '{fontSizes.h3}',
-      },
-      type: 'typography',
-      attributes: {
-        category: 'typography',
-      },
+  },
+  h2: {
+    value: {
+      fontFamily: '{fontFamilies.heading}',
+      fontWeight: '{fontWeights.bold}',
+      lineHeight: '{lineHeights.h2}',
+      fontSize: '{fontSizes.h2}',
     },
-    h4: {
-      value: {
-        fontFamily: '{fontFamilies.heading}',
-        fontWeight: '{fontWeights.medium}',
-        lineHeight: '{lineHeights.h4}',
-        fontSize: '{fontSizes.h4}',
-      },
-      type: 'typography',
-      attributes: {
-        category: 'typography',
-      },
+    type: 'typography',
+    attributes: {
+      category: 'typography',
     },
-    h5: {
-      value: {
-        fontFamily: '{fontFamilies.heading}',
-        fontWeight: '{fontWeights.medium}',
-        lineHeight: '{lineHeights.h5}',
-        fontSize: '{fontSizes.h5}',
-      },
-      type: 'typography',
-      attributes: {
-        category: 'typography',
-      },
+  },
+  h3: {
+    value: {
+      fontFamily: '{fontFamilies.heading}',
+      fontWeight: '{fontWeights.bold}',
+      lineHeight: '{lineHeights.h3}',
+      fontSize: '{fontSizes.h3}',
     },
-    h6: {
-      value: {
-        fontFamily: '{fontFamilies.heading}',
-        fontWeight: '{fontWeights.medium}',
-        lineHeight: '{lineHeights.h6}',
-        fontSize: '{fontSizes.h6}',
-      },
-      type: 'typography',
-      attributes: {
-        category: 'typography',
-      },
+    type: 'typography',
+    attributes: {
+      category: 'typography',
     },
-    label: {
-      value: {
-        fontFamily: '{fontFamilies.body}',
-        fontWeight: '{fontWeights.medium}',
-        lineHeight: '{lineHeights.text}',
-        fontSize: '{fontSizes.text}',
-      },
-      type: 'typography',
-      attributes: {
-        category: 'typography',
-      },
+  },
+  h4: {
+    value: {
+      fontFamily: '{fontFamilies.heading}',
+      fontWeight: '{fontWeights.bold}',
+      lineHeight: '{lineHeights.h4}',
+      fontSize: '{fontSizes.h4}',
     },
-    hint: {
-      value: {
-        fontFamily: '{fontFamilies.body}',
-        fontWeight: '{fontWeights.regular}',
-        lineHeight: '{lineHeights.caption}',
-        fontSize: '{fontSizes.caption}',
-      },
-      type: 'typography',
-      attributes: {
-        category: 'typography',
-      },
+    type: 'typography',
+    attributes: {
+      category: 'typography',
     },
-    text: {
-      value: {
-        fontFamily: '{fontFamilies.body}',
-        fontWeight: '{fontWeights.regular}',
-        lineHeight: '{lineHeights.text}',
-        fontSize: '{fontSizes.text}',
-      },
-      type: 'typography',
-      attributes: {
-        category: 'typography',
-      },
+  },
+  h5: {
+    value: {
+      fontFamily: '{fontFamilies.heading}',
+      fontWeight: '{fontWeights.bold}',
+      lineHeight: '{lineHeights.h5}',
+      fontSize: '{fontSizes.h5}',
     },
-    paragraph: {
-      value: {
-        fontFamily: '{fontFamilies.body}',
-        fontWeight: '{fontWeights.regular}',
-        lineHeight: '150%',
-        fontSize: '{fontSizes.text}',
-      },
-      type: 'typography',
-      attributes: {
-        category: 'typography',
-      },
+    type: 'typography',
+    attributes: {
+      category: 'typography',
+    },
+  },
+  h6: {
+    value: {
+      fontFamily: '{fontFamilies.heading}',
+      fontWeight: '{fontWeights.bold}',
+      lineHeight: '{lineHeights.h6}',
+      fontSize: '{fontSizes.h6}',
+    },
+    type: 'typography',
+    attributes: {
+      category: 'typography',
+    },
+  },
+  label: {
+    value: {
+      fontFamily: '{fontFamilies.body}',
+      fontWeight: '{fontWeights.medium}',
+      lineHeight: '{lineHeights.text}',
+      fontSize: '{fontSizes.text}',
+    },
+    type: 'typography',
+    attributes: {
+      category: 'typography',
+    },
+  },
+  caption: {
+    value: {
+      fontFamily: '{fontFamilies.body}',
+      fontWeight: '{fontWeights.regular}',
+      lineHeight: '{lineHeights.caption}',
+      fontSize: '{fontSizes.caption}',
+    },
+    type: 'typography',
+    attributes: {
+      category: 'typography',
+    },
+  },
+  text: {
+    value: {
+      fontFamily: '{fontFamilies.body}',
+      fontWeight: '{fontWeights.regular}',
+      lineHeight: '{lineHeights.text}',
+      fontSize: '{fontSizes.text}',
+    },
+    type: 'typography',
+    attributes: {
+      category: 'typography',
+    },
+  },
+  longText: {
+    value: {
+      fontFamily: '{fontFamilies.body}',
+      fontWeight: '{fontWeights.regular}',
+      lineHeight: '150%',
+      fontSize: '{fontSizes.text}',
+    },
+    type: 'typography',
+    attributes: {
+      category: 'typography',
     },
   },
 };
@@ -276,5 +271,5 @@ module.exports = {
   fontSizes,
   fontWeights,
   lineHeights,
-  typography,
+  font,
 };
