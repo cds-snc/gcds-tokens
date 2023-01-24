@@ -25,7 +25,7 @@ StyleDictionary.registerTransform({
   name: `typography/font`,
   transitive: true,
   matcher: (token) => {
-    return token.attributes.category === 'typography';
+    return token.type === 'typography';
   },
   transformer: (token) => {
     return `${token.original.value.fontWeight} ${token.original.value.fontSize}/${token.original.value.lineHeight} ${token.original.value.fontFamily}`;

@@ -151,9 +151,6 @@ const font = {
       fontSize: '{fontSizes.h1}',
     },
     type: 'typography',
-    attributes: {
-      category: 'typography',
-    },
   },
   h2: {
     value: {
@@ -163,9 +160,6 @@ const font = {
       fontSize: '{fontSizes.h2}',
     },
     type: 'typography',
-    attributes: {
-      category: 'typography',
-    },
   },
   h3: {
     value: {
@@ -175,9 +169,6 @@ const font = {
       fontSize: '{fontSizes.h3}',
     },
     type: 'typography',
-    attributes: {
-      category: 'typography',
-    },
   },
   h4: {
     value: {
@@ -187,9 +178,6 @@ const font = {
       fontSize: '{fontSizes.h4}',
     },
     type: 'typography',
-    attributes: {
-      category: 'typography',
-    },
   },
   h5: {
     value: {
@@ -199,9 +187,6 @@ const font = {
       fontSize: '{fontSizes.h5}',
     },
     type: 'typography',
-    attributes: {
-      category: 'typography',
-    },
   },
   h6: {
     value: {
@@ -211,9 +196,6 @@ const font = {
       fontSize: '{fontSizes.h6}',
     },
     type: 'typography',
-    attributes: {
-      category: 'typography',
-    },
   },
   label: {
     value: {
@@ -223,9 +205,6 @@ const font = {
       fontSize: '{fontSizes.text}',
     },
     type: 'typography',
-    attributes: {
-      category: 'typography',
-    },
   },
   caption: {
     value: {
@@ -235,9 +214,6 @@ const font = {
       fontSize: '{fontSizes.caption}',
     },
     type: 'typography',
-    attributes: {
-      category: 'typography',
-    },
   },
   text: {
     value: {
@@ -247,9 +223,6 @@ const font = {
       fontSize: '{fontSizes.text}',
     },
     type: 'typography',
-    attributes: {
-      category: 'typography',
-    },
   },
   longText: {
     value: {
@@ -259,9 +232,6 @@ const font = {
       fontSize: '{fontSizes.text}',
     },
     type: 'typography',
-    attributes: {
-      category: 'typography',
-    },
   },
 };
 
