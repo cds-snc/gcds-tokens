@@ -33,6 +33,10 @@
         "value": "#FFF",
         "type": "color"
       },
+      "50": {
+        "value": "#F1F2F3",
+        "type": "color"
+      },
       "100": {
         "value": "#D6D9DD",
         "type": "color"

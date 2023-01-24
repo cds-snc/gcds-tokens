@@ -12,7 +12,7 @@
     },
     "default": {
       "background": {
-        "value": "{color.grayscale.100.value}",
+        "value": "{color.grayscale.50.value}",
         "type": "color"
       },
       "border": {

@@ -22,7 +22,11 @@
         "type": "color"
       },
       "icon": {
-        "value": "{color.red.900.value}",
+        "value": "{color.red.500.value}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{color.grayscale.1000.value}",
         "type": "color"
       }
     },
@@ -32,7 +36,11 @@
         "type": "color"
       },
       "icon": {
-        "value": "{color.blue.900.value}",
+        "value": "{color.blue.500.value}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{color.grayscale.1000.value}",
         "type": "color"
       }
     },
@@ -42,7 +50,11 @@
         "type": "color"
       },
       "icon": {
-        "value": "{color.green.700.value}",
+        "value": "{color.green.500.value}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{color.grayscale.1000.value}",
         "type": "color"
       }
     },
@@ -52,6 +64,10 @@
         "type": "color"
       },
       "icon": {
+        "value": "{color.yellow.500.value}",
+        "type": "color"
+      },
+      "text": {
         "value": "{color.grayscale.1000.value}",
         "type": "color"
       }
