@@ -20,6 +20,18 @@ const traverseObj = (obj) => {
   return output;
 };
 
+StyleDictionary.registerTransform({
+  type: `value`,
+  name: `typography/font`,
+  transitive: true,
+  matcher: (token) => {
+    return token.type === 'typography';
+  },
+  transformer: (token) => {
+    return `${token.original.value.fontWeight} ${token.original.value.fontSize}/${token.original.value.lineHeight} ${token.original.value.fontFamily}`;
+  },
+});
+
 module.exports = {
   source: ['tokens/**/*.@(js|json)'],
   format: {
@@ -33,7 +45,15 @@ module.exports = {
   },
   platforms: {
     scss: {
-      transformGroup: 'scss',
+      transforms: [
+        'attribute/cti',
+        'name/cti/kebab',
+        'time/seconds',
+        'content/icon',
+        'size/rem',
+        'color/css',
+        'typography/font',
+      ],
       prefix: 'gcds',
       files: [
         {
@@ -44,7 +64,16 @@ module.exports = {
       output: true,
     },
     css: {
-      transformGroup: 'css',
+      //   transformGroup: 'css',
+      transforms: [
+        'attribute/cti',
+        'name/cti/kebab',
+        'time/seconds',
+        'content/icon',
+        'size/rem',
+        'color/css',
+        'typography/font',
+      ],
       prefix: 'gcds',
       files: [
         {
@@ -55,7 +84,6 @@ module.exports = {
       output: true,
     },
     figma: {
-      transforms: ['name/cti/kebab'],
       buildPath: 'build/',
       prefix: 'gcds',
       basePxFontSize: 20,
