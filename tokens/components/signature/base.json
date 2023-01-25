@@ -10,10 +10,34 @@
         "type": "color"
       }
     },
+    "margin": {
+      "value": "0 0 {spacing.100.value}",
+      "type": "spacing"
+    },
+    "signature": {
+      "margin": {
+        "value": "0 0 {spacing.100.value}",
+        "type": "spacing"
+      },
+      "height": {
+        "value": "1.6875rem",
+        "type": "sizing"
+      }
+    },
     "white": {
       "default": {
         "value": "{color.grayscale.0.value}",
         "type": "color"
+      }
+    },
+    "wordmark": {
+      "margin": {
+        "value": "{spacing.400.value} 0",
+        "type": "spacing"
+      },
+      "height": {
+        "value": "{spacing.500.value}",
+        "type": "sizing"
       }
     }
   }
