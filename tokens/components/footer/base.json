@@ -161,7 +161,7 @@
           }
         },
         "margin": {
-          "value": "0 0 {spacing.400.value}",
+          "value": "0 0 {spacing.400.value} auto",
           "type": "spacing"
         }
       },
