@@ -10,6 +10,12 @@
         "type": "color"
       }
     },
+    "container": {
+      "maxWidth": {
+        "value": "{container.xl.value}",
+        "type": "sizing"
+      }
+    },
     "default": {
       "background": {
         "value": "{color.grayscale.50.value}",
