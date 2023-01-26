@@ -1441,7 +1441,7 @@
             }
           },
           "margin": {
-            "value": "0 0 1.5rem",
+            "value": "0 0 1.5rem auto",
             "type": "spacing"
           }
         },
@@ -1599,7 +1599,7 @@
         }
       },
       "margin": {
-        "value": "0 0 3rem",
+        "value": "0 0 0.75rem",
         "type": "spacing"
       },
       "topnav": {
