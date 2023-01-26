@@ -1,6 +1,40 @@
 {
   "alert": {
+    "border": {
+      "width": {
+        "value": "{spacing.100.value}",
+        "type": "borderWidth"
+      }
+    },
     "button": {
+      "border": {
+        "radius": {
+          "value": "{spacing.100.value}",
+          "type": "borderRadius"
+        },
+        "width": {
+          "value": ".125rem",
+          "type": "borderWidth"
+        }
+      },
+      "active": {
+        "border": {
+          "color": {
+            "value": "{color.grayscale.1000.value}",
+            "type": "color"
+          }
+        }
+      },
+      "default": {
+        "background": {
+          "value": "{color.grayscale.0.value}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{color.grayscale.1000.value}",
+          "type": "color"
+        }
+      },
       "focus": {
         "background": {
           "value": "{brand.focus.value}",
@@ -10,7 +44,137 @@
           "value": "{color.grayscale.0.value}",
           "type": "color"
         }
+      },
+      "icon": {
+        "padding": {
+          "value": "{spacing.200.value}",
+          "type": "spacing"
+        },
+        "widthAndHeight": {
+          "value": "{spacing.300.value}",
+          "type": "sizing"
+        }
+      },
+      "margin": {
+        "value": "0 0 0 {spacing.250.value}",
+        "type": "spacing"
+      },
+      "mobile": {
+        "margin": {
+          "value": "{spacing.250.value} 0 0",
+          "type": "spacing"
+        }
       }
+    },
+    "container": {
+      "xs": {
+        "value": "{container.xs.value}",
+        "type": "sizing"
+      },
+      "sm": {
+        "value": "{container.sm.value}",
+        "type": "sizing"
+      },
+      "md": {
+        "value": "{container.md.value}",
+        "type": "sizing"
+      },
+      "lg": {
+        "value": "{container.lg.value}",
+        "type": "sizing"
+      },
+      "xl": {
+        "value": "{container.xl.value}",
+        "type": "sizing"
+      },
+      "full": {
+        "value": "{container.full.value}",
+        "type": "sizing"
+      }
+    },
+    "content": {
+      "heading": {
+        "font": {
+          "family": {
+            "value": "{fontFamilies.heading.value}",
+            "type": "fontFamilies"
+          },
+          "size": {
+            "value": "{fontSizes.h5.value}",
+            "type": "fontSizes"
+          },
+          "weight": {
+            "value": "{fontWeights.bold.value}",
+            "type": "fontWeights"
+          }
+        },
+        "lineHeight": {
+          "value": "{lineHeights.h5.value}",
+          "type": "lineHeights"
+        },
+        "margin": {
+          "value": "{spacing.50.value} 0 {spacing.150.value}",
+          "type": "spacing"
+        },
+        "mobile": {
+          "margin": {
+            "value": "0 0 {spacing.150.value}",
+            "type": "spacing"
+          }
+        }
+      },
+      "slotted": {
+        "list": {
+          "margin": {
+            "value": "{spacing.400.value}",
+            "type": "spacing"
+          }
+        },
+        "margin": {
+          "value": "{spacing.150.value}",
+          "type": "spacing"
+        }
+      }
+    },
+    "font": {
+      "family": {
+        "value": "{fontFamilies.body.value}",
+        "type": "fontFamilies"
+      },
+      "size": {
+        "value": "{fontSizes.text.value}",
+        "type": "fontSizes"
+      },
+      "weight": {
+        "value": "{fontWeights.regular.value}",
+        "type": "fontWeights"
+      }
+    },
+    "icon": {
+      "font": {
+        "size": {
+          "value": "{spacing.450.value}",
+          "type": "spacing"
+        }
+      },
+      "margin": {
+        "value": "0 {spacing.250.value} 0 0",
+        "type": "spacing"
+      },
+      "mobile": {
+        "margin": {
+          "value": "0 0 {spacing.250.value}",
+          "type": "spacing"
+        }
+      }
+    },
+    "lineHeight": {
+      "value": "{lineHeights.text.value}",
+      "type": "lineHeights"
+    },
+    "padding": {
+      "value": "{spacing.200.value} {spacing.250.value}",
+      "type": "spacing"
     },
     "text": {
       "value": "{color.grayscale.1000.value}",
