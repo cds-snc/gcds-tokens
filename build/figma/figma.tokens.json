@@ -2588,6 +2588,12 @@
           "type": "color"
         }
       },
+      "container": {
+        "maxWidth": {
+          "value": "75rem",
+          "type": "sizing"
+        }
+      },
       "default": {
         "background": {
           "value": "#F1F2F3",
