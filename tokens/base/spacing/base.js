@@ -3,63 +3,63 @@ const { base } = require('../typography/base');
 const spacing = {
   50: {
     value: `${base.fontSize.value * base.lineHeight.value * 0.125}rem`,
-    type: 'spacing',
+    type: 'dimension',
   },
   100: {
     value: `${base.fontSize.value * base.lineHeight.value * 0.25}rem`,
-    type: 'spacing',
+    type: 'dimension',
   },
   150: {
     value: `${base.fontSize.value * base.lineHeight.value * 0.375}rem`,
-    type: 'spacing',
+    type: 'dimension',
   },
   200: {
     value: `${base.fontSize.value * base.lineHeight.value * 0.5}rem`,
-    type: 'spacing',
+    type: 'dimension',
   },
   250: {
     value: `${base.fontSize.value * base.lineHeight.value * 0.625}rem`,
-    type: 'spacing',
+    type: 'dimension',
   },
   300: {
     value: `${base.fontSize.value * base.lineHeight.value * 0.75}rem`,
-    type: 'spacing',
+    type: 'dimension',
   },
   400: {
     value: `${base.fontSize.value * base.lineHeight.value}rem`,
-    type: 'spacing',
+    type: 'dimension',
   },
   450: {
     value: `${base.fontSize.value * base.lineHeight.value * 1.5}rem`,
-    type: 'spacing',
+    type: 'dimension',
   },
   500: {
     value: `${base.fontSize.value * base.lineHeight.value * 2}rem`,
-    type: 'spacing',
+    type: 'dimension',
   },
   550: {
     value: `${base.fontSize.value * base.lineHeight.value * 2.5}rem`,
-    type: 'spacing',
+    type: 'dimension',
   },
   600: {
     value: `${base.fontSize.value * base.lineHeight.value * 3}rem`,
-    type: 'spacing',
+    type: 'dimension',
   },
   700: {
     value: `${base.fontSize.value * base.lineHeight.value * 4}rem`,
-    type: 'spacing',
+    type: 'dimension',
   },
   800: {
     value: `${base.fontSize.value * base.lineHeight.value * 5}rem`,
-    type: 'spacing',
+    type: 'dimension',
   },
   900: {
     value: `${base.fontSize.value * base.lineHeight.value * 6}rem`,
-    type: 'spacing',
+    type: 'dimension',
   },
   1000: {
     value: `${base.fontSize.value * base.lineHeight.value * 7}rem`,
-    type: 'spacing',
+    type: 'dimension',
   },
 };
 
