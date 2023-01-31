@@ -508,6 +508,12 @@
             "value": "0.9375rem 0 0",
             "type": "spacing"
           }
+        },
+        "outline": {
+          "width": {
+            "value": "0.1875rem",
+            "type": "other"
+          }
         }
       },
       "container": {
