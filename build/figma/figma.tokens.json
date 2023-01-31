@@ -431,11 +431,19 @@
       "border": {
         "value": "#C24438",
         "type": "color"
+      },
+      "text": {
+        "value": "#A62A1E",
+        "type": "color"
       }
     },
     "disabled": {
       "background": {
         "value": "#D6D9DD",
+        "type": "color"
+      },
+      "text": {
+        "value": "#7D828B",
         "type": "color"
       }
     },
@@ -454,10 +462,6 @@
       }
     },
     "link": {
-      "danger": {
-        "value": "#A62A1E",
-        "type": "color"
-      },
       "default": {
         "value": "#26374A",
         "type": "color"
@@ -472,14 +476,6 @@
       }
     },
     "text": {
-      "danger": {
-        "value": "#A62A1E",
-        "type": "color"
-      },
-      "disabled": {
-        "value": "#7D828B",
-        "type": "color"
-      },
       "light": {
         "value": "#FFF",
         "type": "color"

@@ -8,13 +8,13 @@
     },
     "destructive": {
       "text": {
-        "value": "{text.danger.value}",
+        "value": "{danger.text.value}",
         "type": "color"
       }
     },
     "disabled": {
       "text": {
-        "value": "{text.disabled.value}",
+        "value": "{disabled.text.value}",
         "type": "color"
       }
     },

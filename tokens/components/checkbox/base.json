@@ -36,7 +36,7 @@
     },
     "destructive": {
       "text": {
-        "value": "{text.danger.value}",
+        "value": "{danger.text.value}",
         "type": "color"
       }
     },
@@ -46,11 +46,11 @@
         "type": "color"
       },
       "border": {
-        "value": "{text.disabled.value}",
+        "value": "{disabled.text.value}",
         "type": "color"
       },
       "text": {
-        "value": "{text.disabled.value}",
+        "value": "{disabled.text.value}",
         "type": "color"
       }
     },

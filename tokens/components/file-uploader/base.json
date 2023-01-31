@@ -46,7 +46,7 @@
         "type": "color"
       },
       "text": {
-        "value": "{text.danger.value}",
+        "value": "{danger.text.value}",
         "type": "color"
       }
     },
@@ -56,7 +56,7 @@
         "type": "color"
       },
       "text": {
-        "value": "{text.disabled.value}",
+        "value": "{disabled.text.value}",
         "type": "color"
       }
     },

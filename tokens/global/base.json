@@ -26,6 +26,11 @@
       "value": "{color.red.500.value}",
       "type": "color",
       "comment": "Global color: danger border"
+    },
+    "text": {
+      "value": "{color.red.700.value}",
+      "type": "color",
+      "comment": "Global color: danger text"
     }
   },
   "disabled": {
@@ -33,6 +38,11 @@
       "value": "{color.grayscale.100.value}",
       "type": "color",
       "comment": "Global color: disabled background"
+    },
+    "text": {
+      "value": "{color.grayscale.500.value}",
+      "type": "color",
+      "comment": "Global color: disabled text"
     }
   },
   "focus": {
@@ -53,11 +63,6 @@
     }
   },
   "link": {
-    "danger": {
-      "value": "{color.red.700.value}",
-      "type": "color",
-      "comment": "Global color: link danger"
-    },
     "default": {
       "value": "{color.blue.900.value}",
       "type": "color",
@@ -75,16 +80,6 @@
     }
   },
   "text": {
-    "danger": {
-      "value": "{color.red.700.value}",
-      "type": "color",
-      "comment": "Global color: text danger"
-    },
-    "disabled": {
-      "value": "{color.grayscale.500.value}",
-      "type": "color",
-      "comment": "Global color: text disabled"
-    },
     "light": {
       "value": "{color.grayscale.0.value}",
       "type": "color",

@@ -125,7 +125,7 @@
           "type": "color"
         },
         "text": {
-          "value": "{text.disabled.value}",
+          "value": "{disabled.text.value}",
           "type": "color"
         }
       }
