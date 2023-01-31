@@ -31,17 +31,17 @@
           "type": "color"
         },
         "text": {
-          "value": "{color.grayscale.1000.value}",
+          "value": "{text.primary.value}",
           "type": "color"
         }
       },
       "focus": {
         "background": {
-          "value": "{brand.focus.value}",
+          "value": "{focus.background.value}",
           "type": "color"
         },
         "text": {
-          "value": "{color.grayscale.0.value}",
+          "value": "{focus.text.value}",
           "type": "color"
         }
       },
@@ -183,20 +183,20 @@
       "type": "spacing"
     },
     "text": {
-      "value": "{color.grayscale.1000.value}",
+      "value": "{text.primary.value}",
       "type": "color"
     },
     "destructive": {
       "background": {
-        "value": "{color.red.100.value}",
+        "value": "{danger.background.value}",
         "type": "color"
       },
       "icon": {
-        "value": "{color.red.500.value}",
+        "value": "{danger.border.value}",
         "type": "color"
       },
       "text": {
-        "value": "{color.grayscale.1000.value}",
+        "value": "{text.primary.value}",
         "type": "color"
       }
     },
@@ -210,7 +210,7 @@
         "type": "color"
       },
       "text": {
-        "value": "{color.grayscale.1000.value}",
+        "value": "{text.primary.value}",
         "type": "color"
       }
     },
@@ -224,7 +224,7 @@
         "type": "color"
       },
       "text": {
-        "value": "{color.grayscale.1000.value}",
+        "value": "{text.primary.value}",
         "type": "color"
       }
     },
@@ -238,7 +238,7 @@
         "type": "color"
       },
       "text": {
-        "value": "{color.grayscale.1000.value}",
+        "value": "{text.primary.value}",
         "type": "color"
       }
     }

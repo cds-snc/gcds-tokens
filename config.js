@@ -33,7 +33,12 @@ StyleDictionary.registerTransform({
 });
 
 module.exports = {
-  source: ['tokens/**/*.@(js|json)'],
+  source: [
+		// Load global tokens after base and before component tokens
+		'tokens/base/**/*.@(js|json)',
+		'tokens/global/**/*.@(js|json)',
+		'tokens/components/**/*.@(js|json)'
+	],
   format: {
     figmatokens: ({ dictionary }) => {
       return JSON.stringify(

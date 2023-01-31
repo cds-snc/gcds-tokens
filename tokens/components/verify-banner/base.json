@@ -37,7 +37,7 @@
     "content": {
       "border": {
         "color": {
-          "value": "{color.grayscale.500.value}",
+          "value": "{border.default.value}",
           "type": "border"
         },
         "width": {
@@ -103,12 +103,12 @@
       }
     },
     "text": {
-      "value": "{color.grayscale.1000.value}",
+      "value": "{text.primary.value}",
       "type": "color"
     },
     "toggle": {
       "text": {
-        "value": "{color.blue.900.value}",
+        "value": "{link.default.value}",
         "type": "color"
       },
       "fontWeight": {

@@ -1,12 +1,12 @@
 {
   "error-message": {
     "background": {
-      "value": "{color.red.100.value}",
+      "value": "{danger.background.value}",
       "type": "color"
     },
     "border": {
       "color": {
-        "value": "{brand.destructive.value}",
+        "value": "{danger.border.value}",
         "type": "border"
       },
       "width": {
@@ -41,7 +41,7 @@
       "type": "spacing"
     },
     "text": {
-      "value": "{color.grayscale.1000.value}",
+      "value": "{text.primary.value}",
       "type": "color"
     }
   }
