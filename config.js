@@ -95,5 +95,17 @@ module.exports = {
         },
       ],
     },
+    docs: {
+      buildPath: 'build/',
+      prefix: 'gcds',
+      basePxFontSize: 20,
+      transforms: ['name/cti/kebab'],
+      files: [
+        {
+          destination: 'docs/tokens.json',
+          format: 'json',
+        },
+      ],
+    },
   },
 };
