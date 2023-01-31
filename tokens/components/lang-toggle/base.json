@@ -1,12 +1,12 @@
 {
   "lang-toggle": {
     "active": {
-      "text": {
-        "value": "{link.light.value}",
+      "background": {
+        "value": "{active.background.value}",
         "type": "color"
       },
-      "background": {
-        "value": "{brand.active.background.value}",
+      "text": {
+        "value": "{active.text.value}",
         "type": "color"
       }
     },

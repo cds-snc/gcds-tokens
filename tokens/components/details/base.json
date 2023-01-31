@@ -8,11 +8,11 @@
     },
     "active": {
       "background": {
-        "value": "{brand.active.background.value}",
+        "value": "{active.background.value}",
         "type": "color"
       },
       "text": {
-        "value": "{link.light.value}",
+        "value": "{active.text.value}",
         "type": "color"
       }
     },

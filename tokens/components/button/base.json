@@ -95,11 +95,11 @@
     "shared": {
       "active": {
         "background": {
-          "value": "{brand.active.background.value}",
+          "value": "{active.background.value}",
           "type": "color"
         },
         "text": {
-          "value": "{text.light.value}",
+          "value": "{active.text.value}",
           "type": "color"
         }
       },

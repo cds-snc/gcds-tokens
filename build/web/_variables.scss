@@ -1,14 +1,7 @@
 
 // Do not edit directly
-// Generated on Tue, 31 Jan 2023 19:25:47 GMT
+// Generated on Tue, 31 Jan 2023 21:16:14 GMT
 
-$gcds-brand-default-text: #000000;
-$gcds-brand-focus: #303fc3;
-$gcds-brand-active-text: #ffffff;
-$gcds-brand-active-background: #000000;
-$gcds-brand-disabled-background: #d6d9dd;
-$gcds-brand-disabled-text: #545961;
-$gcds-brand-destructive: #a62a1e;
 $gcds-color-blue-100: #d7e5f5;
 $gcds-color-blue-500: #6584a6; // Must contrast 3:1 with white
 $gcds-color-blue-700: #425a76; // Must contrast 7:1 with white
@@ -92,6 +85,8 @@ $gcds-font-label: 500 1.25rem/120% "Noto Sans", sans-serif;
 $gcds-font-caption: 400 1.1111111111111112rem/135% "Noto Sans", sans-serif;
 $gcds-font-text: 400 1.25rem/120% "Noto Sans", sans-serif;
 $gcds-font-text-long: 400 1.25rem/150% "Noto Sans", sans-serif;
+$gcds-active-background: #000000;
+$gcds-active-text: #ffffff;
 $gcds-border-default: #7d828b; // Global color: border default
 $gcds-danger-background: #fbddda; // Global color: danger background
 $gcds-danger-border: #c24438; // Global color: danger border
@@ -321,8 +316,8 @@ $gcds-footer-main-nav-first-after-border-width: 0.375rem;
 $gcds-footer-main-nav-first-after-width: 2.25rem;
 $gcds-footer-main-text: #ffffff;
 $gcds-footer-main-themenav-padding: 0.75rem 0 1.125rem;
-$gcds-footer-sub-active-text: #ffffff;
 $gcds-footer-sub-active-background: #000000;
+$gcds-footer-sub-active-text: #ffffff;
 $gcds-footer-sub-background: #f1f2f3;
 $gcds-footer-sub-focus-background: #303fc3;
 $gcds-footer-sub-focus-text: #ffffff;
@@ -420,8 +415,8 @@ $gcds-label-font-weight: 500;
 $gcds-label-line-height: 120%;
 $gcds-label-margin: 0 0 0.375rem;
 $gcds-label-required-margin: 0 0 0 0.375rem;
-$gcds-lang-toggle-active-text: #ffffff;
 $gcds-lang-toggle-active-background: #000000;
+$gcds-lang-toggle-active-text: #ffffff;
 $gcds-lang-toggle-default-text: #26374a;
 $gcds-lang-toggle-focus-background: #303fc3;
 $gcds-lang-toggle-focus-text: #ffffff;
