@@ -22,27 +22,29 @@
         "type": "color"
       },
       "text": {
-        "value": "{color.grayscale.1000.value}",
+        "value": "{text.primary.value}",
         "type": "color"
       }
     },
     "destructive": {
-      "value": "{brand.destructive.value}",
-      "type": "color"
+      "text": {
+        "value": "{text.danger.value}",
+        "type": "color"
+      }
     },
     "disabled": {
       "background": {
-        "value": "{brand.disabled.background.value}",
+        "value": "{disabled.background.value}",
         "type": "color"
       },
       "text": {
-        "value": "{brand.disabled.text.value}",
+        "value": "{text.disabled.value}",
         "type": "color"
       }
     },
     "focus": {
       "text": {
-        "value": "{brand.focus.value}",
+        "value": "{focus.textForm.value}",
         "type": "color"
       }
     },

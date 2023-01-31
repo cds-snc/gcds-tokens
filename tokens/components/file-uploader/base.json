@@ -30,33 +30,33 @@
         "type": "spacing"
       },
       "text": {
-        "value": "{color.blue.900.value}",
+        "value": "{link.default.value}",
         "type": "color"
       }
     },
     "default": {
       "text": {
-        "value": "{color.grayscale.1000.value}",
+        "value": "{text.primary.value}",
         "type": "color"
       }
     },
     "destructive": {
       "background": {
-        "value": "{color.red.100.value}",
+        "value": "{danger.background.value}",
         "type": "color"
       },
       "text": {
-        "value": "{brand.destructive.value}",
+        "value": "{text.danger.value}",
         "type": "color"
       }
     },
     "disabled": {
       "background": {
-        "value": "{brand.disabled.background.value}",
+        "value": "{disabled.background.value}",
         "type": "color"
       },
       "text": {
-        "value": "{brand.disabled.text.value}",
+        "value": "{text.disabled.value}",
         "type": "color"
       }
     },
@@ -95,7 +95,7 @@
           "type": "color"
         },
         "active": {
-          "value": "{color.grayscale.1000.value}",
+          "value": "{text.primary.value}",
           "type": "color"
         }
       },
@@ -129,16 +129,16 @@
     "focus": {
       "button": {
         "background": {
-          "value": "{brand.focus.value}",
+          "value": "{focus.background.value}",
           "type": "color"
         },
         "text": {
-          "value": "{color.grayscale.0.value}",
+          "value": "{focus.text.value}",
           "type": "color"
         }
       },
       "text": {
-        "value": "{brand.focus.value}",
+        "value": "{focus.textForm.value}",
         "type": "color"
       }
     },
