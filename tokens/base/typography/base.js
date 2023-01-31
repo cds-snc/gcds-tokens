@@ -14,15 +14,15 @@ const base = {
 
 const fontFamilies = {
   heading: {
-    value: 'Lato',
+    value: '"Lato", sans-serif',
     type: 'fontFamilies',
   },
   body: {
-    value: 'Noto Sans',
+    value: '"Noto Sans", sans-serif',
     type: 'fontFamilies',
   },
   monospace: {
-    value: 'Menlo',
+    value: '"Menlo", sans-serif',
     type: 'fontFamilies',
   },
   icons: {

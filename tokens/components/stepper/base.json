@@ -23,7 +23,7 @@
       "type": "spacing"
     },
     "text": {
-      "value": "{color.grayscale.700.value}",
+      "value": "{text.secondary.value}",
       "type": "color"
     }
   }

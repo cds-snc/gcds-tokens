@@ -28,44 +28,38 @@
     },
     "default": {
       "text": {
-        "value": "{color.grayscale.1000.value}",
+        "value": "{text.primary.value}",
         "type": "color"
       }
     },
     "destructive": {
       "text": {
-        "value": "{brand.destructive.value}",
+        "value": "{danger.text.value}",
         "type": "color"
       }
     },
     "disabled": {
       "background": {
-        "value": "{brand.disabled.background.value}",
+        "value": "{disabled.background.value}",
         "type": "color"
       },
       "border": {
-        "value": "{brand.disabled.text.value}",
+        "value": "{disabled.text.value}",
         "type": "color"
       },
       "text": {
-        "value": "{brand.disabled.text.value}",
+        "value": "{disabled.text.value}",
         "type": "color"
       }
     },
     "focus": {
       "text": {
-        "value": "{brand.focus.value}",
+        "value": "{focus.textForm.value}",
         "type": "color"
       },
       "outline": {
         "width": {
           "value": "{spacing.50.value}",
-          "type": "other"
-        }
-      },
-      "shadow": {
-        "color": {
-          "value": "{color.grayscale.0.value}",
           "type": "other"
         }
       }

@@ -1,0 +1,99 @@
+{
+  "active": {
+    "background": {
+      "value": "{color.grayscale.1000.value}",
+      "type": "color"
+    },
+    "text": {
+      "value": "{color.grayscale.0.value}",
+      "type": "color"
+    }
+  },
+  "border": {
+    "default": {
+      "value": "{color.grayscale.500.value}",
+      "type": "color",
+      "comment": "Global color: border default"
+    }
+  },
+  "danger": {
+    "background": {
+      "value": "{color.red.100.value}",
+      "type": "color",
+      "comment": "Global color: danger background"
+    },
+    "border": {
+      "value": "{color.red.500.value}",
+      "type": "color",
+      "comment": "Global color: danger border"
+    },
+    "text": {
+      "value": "{color.red.700.value}",
+      "type": "color",
+      "comment": "Global color: danger text"
+    }
+  },
+  "disabled": {
+    "background": {
+      "value": "{color.grayscale.100.value}",
+      "type": "color",
+      "comment": "Global color: disabled background"
+    },
+    "text": {
+      "value": "{color.grayscale.500.value}",
+      "type": "color",
+      "comment": "Global color: disabled text"
+    }
+  },
+  "focus": {
+    "background": {
+      "value": "{color.blue.focus.value}",
+      "type": "color",
+      "comment": "Global color: focus background"
+    },
+    "text": {
+      "value": "{color.grayscale.0.value}",
+      "type": "color",
+      "comment": "Global color: focus text"
+    },
+    "textForm": {
+      "value": "{color.blue.focus.value}",
+      "type": "color",
+      "comment": "Global color: focus text form elements"
+    }
+  },
+  "link": {
+    "default": {
+      "value": "{color.blue.900.value}",
+      "type": "color",
+      "comment": "Global color: link default"
+    },
+    "hover": {
+      "value": "{color.blue.800.value}",
+      "type": "color",
+      "comment": "Global color: link hover"
+    },
+    "light": {
+      "value": "{color.grayscale.0.value}",
+      "type": "color",
+      "comment": "Global color: link light"
+    }
+  },
+  "text": {
+    "light": {
+      "value": "{color.grayscale.0.value}",
+      "type": "color",
+      "comment": "Global color: text light"
+    },
+    "primary": {
+      "value": "{color.grayscale.1000.value}",
+      "type": "color",
+      "comment": "Global color: text primary"
+    },
+    "secondary": {
+      "value": "{color.grayscale.700.value}",
+      "type": "color",
+      "comment": "Global color: text secondary"
+    }
+  }
+}

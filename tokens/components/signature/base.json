@@ -6,7 +6,7 @@
         "type": "color"
       },
       "text": {
-        "value": "{color.grayscale.1000.value}",
+        "value": "{text.primary.value}",
         "type": "color"
       }
     },
@@ -26,7 +26,7 @@
     },
     "white": {
       "default": {
-        "value": "{color.grayscale.0.value}",
+        "value": "{text.light.value}",
         "type": "color"
       }
     },

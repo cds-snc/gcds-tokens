@@ -1,28 +1,28 @@
 {
   "lang-toggle": {
     "active": {
-      "text": {
-        "value": "{brand.active.text.value}",
+      "background": {
+        "value": "{active.background.value}",
         "type": "color"
       },
-      "background": {
-        "value": "{brand.active.background.value}",
+      "text": {
+        "value": "{active.text.value}",
         "type": "color"
       }
     },
     "default": {
       "text": {
-        "value": "{color.blue.900.value}",
+        "value": "{link.default.value}",
         "type": "color"
       }
     },
     "focus": {
       "background": {
-        "value": "{brand.focus.value}",
+        "value": "{focus.background.value}",
         "type": "color"
       },
       "text": {
-        "value": "{color.grayscale.0.value}",
+        "value": "{focus.text.value}",
         "type": "color"
       }
     },
@@ -42,7 +42,7 @@
     },
     "hover": {
       "text": {
-        "value": "{color.blue.700.value}",
+        "value": "{link.hover.value}",
         "type": "color"
       }
     },

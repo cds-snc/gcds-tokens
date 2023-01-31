@@ -2,17 +2,17 @@
   "breadcrumbs": {
     "default": {
       "text": {
-        "value": "{color.blue.900.value}",
+        "value": "{link.default.value}",
         "type": "color"
       }
     },
     "focus": {
       "background": {
-        "value": "{brand.focus.value}",
+        "value": "{focus.background.value}",
         "type": "color"
       },
       "text": {
-        "value": "{color.grayscale.0.value}",
+        "value": "{focus.text.value}",
         "type": "color"
       }
     },
@@ -32,7 +32,7 @@
     },
     "hover": {
       "text": {
-        "value": "{color.blue.700.value}",
+        "value": "{link.hover.value}",
         "type": "color"
       }
     },

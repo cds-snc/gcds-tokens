@@ -2,7 +2,7 @@
   "pagination": {
     "active": {
       "text": {
-        "value": "{color.grayscale.0.value}",
+        "value": "{link.light.value}",
         "type": "color"
       },
       "background": {
@@ -12,7 +12,7 @@
     },
     "border": {
       "color": {
-        "value": "{color.blue.900.value}",
+        "value": "{link.default.value}",
         "type": "border"
       },
       "radius": {
@@ -26,7 +26,7 @@
     },
     "default": {
       "text": {
-        "value": "{color.blue.900.value}",
+        "value": "{link.default.value}",
         "type": "color"
       }
     },
@@ -38,18 +38,12 @@
     },
     "focus": {
       "background": {
-        "value": "{brand.focus.value}",
+        "value": "{focus.background.value}",
         "type": "color"
       },
       "text": {
-        "value": "{color.grayscale.0.value}",
+        "value": "{focus.text.value}",
         "type": "color"
-      },
-      "shadow": {
-        "color": {
-          "value": "{color.grayscale.0.value}",
-          "type": "other"
-        }
       },
       "outline": {
         "width": {
@@ -94,7 +88,7 @@
     "mobile": {
       "list": {
         "border": {
-          "value": "{color.blue.900.value}",
+          "value": "{link.default.value}",
           "type": "border"
         },
         "item": {
