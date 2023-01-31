@@ -62,12 +62,6 @@
           "value": "{spacing.50.value}",
           "type": "other"
         }
-      },
-      "shadow": {
-        "color": {
-          "value": "{color.grayscale.0.value}",
-          "type": "other"
-        }
       }
     },
     "font": {

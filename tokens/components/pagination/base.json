@@ -45,12 +45,6 @@
         "value": "{color.grayscale.0.value}",
         "type": "color"
       },
-      "shadow": {
-        "color": {
-          "value": "{color.grayscale.0.value}",
-          "type": "other"
-        }
-      },
       "outline": {
         "width": {
           "value": "{spacing.50.value}",
