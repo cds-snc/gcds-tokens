@@ -33,6 +33,11 @@
         "type": "borderWidth",
         "comment": "Global border: width md"
       },
+      "lg": {
+        "value": "0.25rem",
+        "type": "borderWidth",
+        "comment": "Global border: width lg"
+      },
       "xl": {
         "value": "{spacing.100.value}",
         "type": "borderWidth",

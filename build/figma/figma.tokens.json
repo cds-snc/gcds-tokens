@@ -439,6 +439,10 @@
           "value": "0.125rem",
           "type": "borderWidth"
         },
+        "lg": {
+          "value": "0.25rem",
+          "type": "borderWidth"
+        },
         "xl": {
           "value": "0.375rem",
           "type": "borderWidth"
