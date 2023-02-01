@@ -2,7 +2,7 @@
   "radio": {
     "border": {
       "radius": {
-        "value": "{border.radius.lg.value}",
+        "value": "{border.radius.xl.value}",
         "type": "borderRadius"
       }
     },

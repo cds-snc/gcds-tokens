@@ -15,6 +15,11 @@
         "value": "{spacing.500.value}",
         "type": "borderRadius",
         "comment": "Global border: radius lg"
+      },
+      "xl": {
+        "value": "100%",
+        "type": "borderRadius",
+        "comment": "Global border: radius xl"
       }
     },
     "width": {
@@ -28,10 +33,10 @@
         "type": "borderWidth",
         "comment": "Global border: width md"
       },
-      "lg": {
+      "xl": {
         "value": "{spacing.100.value}",
         "type": "borderWidth",
-        "comment": "Global border: width lg"
+        "comment": "Global border: width xl"
       }
     }
   }

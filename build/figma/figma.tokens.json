@@ -424,6 +424,10 @@
         "lg": {
           "value": "3rem",
           "type": "borderRadius"
+        },
+        "xl": {
+          "value": "100%",
+          "type": "borderRadius"
         }
       },
       "width": {
@@ -435,7 +439,7 @@
           "value": "0.125rem",
           "type": "borderWidth"
         },
-        "lg": {
+        "xl": {
           "value": "0.375rem",
           "type": "borderWidth"
         }
@@ -2244,7 +2248,7 @@
     "radio": {
       "border": {
         "radius": {
-          "value": "3rem",
+          "value": "100%",
           "type": "borderRadius"
         }
       },
