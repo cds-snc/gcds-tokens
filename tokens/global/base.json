@@ -2,11 +2,13 @@
   "active": {
     "background": {
       "value": "{color.grayscale.1000.value}",
-      "type": "color"
+      "type": "color",
+      "comment": "Global color: active background"
     },
     "text": {
       "value": "{color.grayscale.0.value}",
-      "type": "color"
+      "type": "color",
+      "comment": "Global color: active text"
     }
   },
   "border": {
