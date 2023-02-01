@@ -94,10 +94,6 @@
           "fontSize": "{fontSizes.caption}"
         },
         "type": "typography"
-      },
-      "text": {
-        "value": "{color.grayscale.900.value}",
-        "type": "color"
       }
     },
     "label": {

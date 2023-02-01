@@ -34,10 +34,6 @@
       "text": {
         "value": "{text.primary.value}",
         "type": "color"
-      },
-      "hint": {
-        "value": "{color.grayscale.900.value}",
-        "type": "color"
       }
     },
     "disabled": {
@@ -106,10 +102,6 @@
           "fontSize": "{fontSizes.caption}"
         },
         "type": "typography"
-      },
-      "text": {
-        "value": "{color.grayscale.900.value}",
-        "type": "color"
       }
     },
     "label": {

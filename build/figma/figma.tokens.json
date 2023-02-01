@@ -1001,10 +1001,6 @@
         "text": {
           "value": "#000",
           "type": "color"
-        },
-        "hint": {
-          "value": "#2F3238",
-          "type": "color"
         }
       },
       "disabled": {
@@ -1073,10 +1069,6 @@
             "fontSize": "1.1111111111111112rem"
           },
           "type": "typography"
-        },
-        "text": {
-          "value": "#2F3238",
-          "type": "color"
         }
       },
       "label": {
@@ -2340,10 +2332,6 @@
             "fontSize": "1.1111111111111112rem"
           },
           "type": "typography"
-        },
-        "text": {
-          "value": "#2F3238",
-          "type": "color"
         }
       },
       "label": {

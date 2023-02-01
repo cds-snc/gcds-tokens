@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 01 Feb 2023 17:44:11 GMT
+ * Generated on Wed, 01 Feb 2023 17:49:31 GMT
  */
 
 :root {
@@ -197,7 +197,6 @@
   --gcds-checkbox-check-width: 0.9375rem;
   --gcds-checkbox-danger-text: #a62a1e;
   --gcds-checkbox-default-text: #000000;
-  --gcds-checkbox-default-hint: #2f3238;
   --gcds-checkbox-disabled-background: #d6d9dd;
   --gcds-checkbox-disabled-border: #7d828b;
   --gcds-checkbox-disabled-text: #7d828b;
@@ -209,7 +208,6 @@
   --gcds-checkbox-input-border-width: 0.125rem;
   --gcds-checkbox-input-height-and-width: 3rem;
   --gcds-checkbox-hint-font: 400 1.1111111111111112rem/135% "Noto Sans", sans-serif;
-  --gcds-checkbox-hint-text: #2f3238;
   --gcds-checkbox-label-padding: 0 0 0 3.75rem;
   --gcds-checkbox-margin: 2.25rem 0 1.5rem;
   --gcds-checkbox-top: -0.75rem;
@@ -444,7 +442,6 @@
   --gcds-radio-input-border-width: 0.125rem;
   --gcds-radio-input-height-and-width: 3rem;
   --gcds-radio-hint-font: 400 1.1111111111111112rem/135% "Noto Sans", sans-serif;
-  --gcds-radio-hint-text: #2f3238;
   --gcds-radio-label-padding: 0 0 0 3.75rem;
   --gcds-radio-margin: 2.25rem 0 1.5rem;
   --gcds-radio-top: -0.75rem;
