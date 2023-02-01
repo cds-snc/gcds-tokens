@@ -1,6 +1,10 @@
 const { base } = require('../typography/base');
 
 const spacing = {
+  0: {
+    value: '0',
+    type: 'dimension',
+  },
   50: {
     value: `${base.fontSize.value * base.lineHeight.value * 0.125}rem`,
     type: 'dimension',

@@ -51,6 +51,10 @@
       }
     },
     "margin": {
+      "0": {
+        "value": "{spacing.0.value}",
+        "type": "spacing"
+      },
       "50": {
         "value": "{spacing.50.value}",
         "type": "spacing"

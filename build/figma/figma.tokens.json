@@ -135,6 +135,10 @@
       }
     },
     "spacing": {
+      "0": {
+        "value": "0",
+        "type": "dimension"
+      },
       "50": {
         "value": "0.1875rem",
         "type": "dimension"
@@ -1619,6 +1623,10 @@
         }
       },
       "gap": {
+        "0": {
+          "value": "0",
+          "type": "spacing"
+        },
         "50": {
           "value": "0.1875rem",
           "type": "spacing"
@@ -1804,6 +1812,10 @@
         }
       },
       "margin": {
+        "0": {
+          "value": "0",
+          "type": "spacing"
+        },
         "50": {
           "value": "0.1875rem",
           "type": "spacing"
