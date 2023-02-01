@@ -10,6 +10,12 @@
         "type": "borderWidth"
       }
     },
+    "danger": {
+      "text": {
+        "value": "{danger.text.value}",
+        "type": "color"
+      }
+    },
     "default": {
       "background": {
         "value": "{color.grayscale.0.value}",
@@ -17,12 +23,6 @@
       },
       "text": {
         "value": "{text.primary.value}",
-        "type": "color"
-      }
-    },
-    "destructive": {
-      "text": {
-        "value": "{danger.text.value}",
         "type": "color"
       }
     },

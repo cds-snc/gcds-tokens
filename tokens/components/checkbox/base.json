@@ -24,6 +24,12 @@
         "type": "sizing"
       }
     },
+    "danger": {
+      "text": {
+        "value": "{danger.text.value}",
+        "type": "color"
+      }
+    },
     "default": {
       "text": {
         "value": "{text.primary.value}",
@@ -31,12 +37,6 @@
       },
       "hint": {
         "value": "{color.grayscale.900.value}",
-        "type": "color"
-      }
-    },
-    "destructive": {
-      "text": {
-        "value": "{danger.text.value}",
         "type": "color"
       }
     },

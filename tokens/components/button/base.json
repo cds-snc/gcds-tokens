@@ -10,7 +10,7 @@
         "type": "border"
       }
     },
-    "destructive": {
+    "danger": {
       "default": {
         "background": {
           "value": "{color.red.700.value}",

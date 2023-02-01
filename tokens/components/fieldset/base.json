@@ -1,14 +1,14 @@
 {
   "fieldset": {
-    "default": {
+    "danger": {
       "text": {
-        "value": "{text.primary.value}",
+        "value": "{danger.text.value}",
         "type": "color"
       }
     },
-    "destructive": {
+    "default": {
       "text": {
-        "value": "{danger.text.value}",
+        "value": "{text.primary.value}",
         "type": "color"
       }
     },

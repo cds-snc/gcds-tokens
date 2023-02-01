@@ -658,7 +658,7 @@
         "value": "#000",
         "type": "color"
       },
-      "destructive": {
+      "danger": {
         "background": {
           "value": "#FBDDDA",
           "type": "color"
@@ -791,7 +791,7 @@
           "type": "border"
         }
       },
-      "destructive": {
+      "danger": {
         "default": {
           "background": {
             "value": "#A62A1E",
@@ -949,6 +949,12 @@
           "type": "sizing"
         }
       },
+      "danger": {
+        "text": {
+          "value": "#A62A1E",
+          "type": "color"
+        }
+      },
       "default": {
         "text": {
           "value": "#000",
@@ -956,12 +962,6 @@
         },
         "hint": {
           "value": "#2F3238",
-          "type": "color"
-        }
-      },
-      "destructive": {
-        "text": {
-          "value": "#A62A1E",
           "type": "color"
         }
       },
@@ -1231,15 +1231,15 @@
       }
     },
     "fieldset": {
-      "default": {
+      "danger": {
         "text": {
-          "value": "#000",
+          "value": "#A62A1E",
           "type": "color"
         }
       },
-      "destructive": {
+      "default": {
         "text": {
-          "value": "#A62A1E",
+          "value": "#000",
           "type": "color"
         }
       },
@@ -1312,19 +1312,19 @@
           "type": "color"
         }
       },
-      "default": {
-        "text": {
-          "value": "#000",
-          "type": "color"
-        }
-      },
-      "destructive": {
+      "danger": {
         "background": {
           "value": "#FBDDDA",
           "type": "color"
         },
         "text": {
           "value": "#A62A1E",
+          "type": "color"
+        }
+      },
+      "default": {
+        "text": {
+          "value": "#000",
           "type": "color"
         }
       },
@@ -1877,6 +1877,12 @@
           "type": "borderWidth"
         }
       },
+      "danger": {
+        "text": {
+          "value": "#A62A1E",
+          "type": "color"
+        }
+      },
       "default": {
         "background": {
           "value": "#FFF",
@@ -1884,12 +1890,6 @@
         },
         "text": {
           "value": "#000",
-          "type": "color"
-        }
-      },
-      "destructive": {
-        "text": {
-          "value": "#A62A1E",
           "type": "color"
         }
       },
@@ -2224,15 +2224,15 @@
           "type": "spacing"
         }
       },
-      "default": {
+      "danger": {
         "text": {
-          "value": "#000",
+          "value": "#A62A1E",
           "type": "color"
         }
       },
-      "destructive": {
+      "default": {
         "text": {
-          "value": "#A62A1E",
+          "value": "#000",
           "type": "color"
         }
       },
@@ -2330,6 +2330,12 @@
           "type": "borderWidth"
         }
       },
+      "danger": {
+        "text": {
+          "value": "#A62A1E",
+          "type": "color"
+        }
+      },
       "default": {
         "background": {
           "value": "#FFF",
@@ -2337,12 +2343,6 @@
         },
         "text": {
           "value": "#000",
-          "type": "color"
-        }
-      },
-      "destructive": {
-        "text": {
-          "value": "#A62A1E",
           "type": "color"
         }
       },
@@ -2536,6 +2536,12 @@
           "type": "borderWidth"
         }
       },
+      "danger": {
+        "text": {
+          "value": "#A62A1E",
+          "type": "color"
+        }
+      },
       "default": {
         "background": {
           "value": "#FFF",
@@ -2543,12 +2549,6 @@
         },
         "text": {
           "value": "#000",
-          "type": "color"
-        }
-      },
-      "destructive": {
-        "text": {
-          "value": "#A62A1E",
           "type": "color"
         }
       },

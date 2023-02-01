@@ -168,7 +168,7 @@
       "value": "{text.primary.value}",
       "type": "color"
     },
-    "destructive": {
+    "danger": {
       "background": {
         "value": "{danger.background.value}",
         "type": "color"
