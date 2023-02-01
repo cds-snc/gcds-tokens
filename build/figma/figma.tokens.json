@@ -225,7 +225,7 @@
         "type": "fontFamilies"
       },
       "icons": {
-        "value": "\"Font Awesome 6 Free\"",
+        "value": "\"Font Awesome 6 Free\", FontAwesome",
         "type": "fontFamilies"
       }
     },
@@ -1803,7 +1803,7 @@
     "icon": {
       "font": {
         "family": {
-          "value": "\"Font Awesome 6 Free\"",
+          "value": "\"Font Awesome 6 Free\", FontAwesome",
           "type": "fontFamilies"
         },
         "size": {

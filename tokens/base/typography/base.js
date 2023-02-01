@@ -26,7 +26,7 @@ const fontFamilies = {
     type: 'fontFamilies',
   },
   icons: {
-    value: '"Font Awesome 6 Free"',
+    value: '"Font Awesome 6 Free", FontAwesome',
     type: 'fontFamilies',
   },
 };
