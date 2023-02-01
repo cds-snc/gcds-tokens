@@ -1441,24 +1441,6 @@
         "padding": {
           "value": "0.75rem 0.75rem 0.75rem 1.5rem",
           "type": "spacing"
-        },
-        "hover": {
-          "background": {
-            "value": "#A62A1E",
-            "type": "color"
-          }
-        },
-        "active": {
-          "background": {
-            "value": "#000",
-            "type": "color"
-          }
-        },
-        "focus": {
-          "background": {
-            "value": "#303FC3",
-            "type": "color"
-          }
         }
       },
       "focus": {
