@@ -66,12 +66,12 @@
   },
   "link": {
     "default": {
-      "value": "{color.blue.900.value}",
+      "value": "{color.blue.700.value}",
       "type": "color",
       "comment": "Global color: link default"
     },
     "hover": {
-      "value": "{color.blue.800.value}",
+      "value": "{color.blue.900.value}",
       "type": "color",
       "comment": "Global color: link hover"
     },
