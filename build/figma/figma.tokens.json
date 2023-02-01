@@ -495,11 +495,11 @@
     },
     "link": {
       "default": {
-        "value": "#26374A",
+        "value": "#425A76",
         "type": "color"
       },
       "hover": {
-        "value": "#31455C",
+        "value": "#26374A",
         "type": "color"
       },
       "light": {
@@ -756,7 +756,7 @@
     "breadcrumbs": {
       "default": {
         "text": {
-          "value": "#26374A",
+          "value": "#425A76",
           "type": "color"
         }
       },
@@ -781,7 +781,7 @@
       },
       "hover": {
         "text": {
-          "value": "#31455C",
+          "value": "#26374A",
           "type": "color"
         }
       },
@@ -885,7 +885,7 @@
             "type": "color"
           },
           "text": {
-            "value": "#26374A",
+            "value": "#425A76",
             "type": "color"
           }
         },
@@ -1050,11 +1050,11 @@
         "border": {
           "radius": {
             "value": "0.1875rem",
-            "type": "border"
+            "type": "borderRadius"
           },
           "width": {
             "value": "0.125rem",
-            "type": "border"
+            "type": "borderWidth"
           }
         },
         "heightAndWidth": {
@@ -1120,7 +1120,7 @@
     "details": {
       "default": {
         "text": {
-          "value": "#26374A",
+          "value": "#425A76",
           "type": "color"
         }
       },
@@ -1164,7 +1164,7 @@
       },
       "hover": {
         "text": {
-          "value": "#31455C",
+          "value": "#26374A",
           "type": "color"
         }
       },
@@ -1346,7 +1346,7 @@
           "type": "spacing"
         },
         "text": {
-          "value": "#26374A",
+          "value": "#425A76",
           "type": "color"
         }
       },
@@ -1577,7 +1577,7 @@
         },
         "hover": {
           "text": {
-            "value": "#31455C",
+            "value": "#26374A",
             "type": "color"
           }
         },
@@ -1624,7 +1624,7 @@
           }
         },
         "text": {
-          "value": "#26374A",
+          "value": "#425A76",
           "type": "color"
         }
       }
@@ -2017,7 +2017,7 @@
       },
       "default": {
         "text": {
-          "value": "#26374A",
+          "value": "#425A76",
           "type": "color"
         }
       },
@@ -2042,7 +2042,7 @@
       },
       "hover": {
         "text": {
-          "value": "#31455C",
+          "value": "#26374A",
           "type": "color"
         }
       },
@@ -2064,7 +2064,7 @@
       },
       "border": {
         "color": {
-          "value": "#26374A",
+          "value": "#425A76",
           "type": "border"
         },
         "radius": {
@@ -2078,7 +2078,7 @@
       },
       "default": {
         "text": {
-          "value": "#26374A",
+          "value": "#425A76",
           "type": "color"
         }
       },
@@ -2130,7 +2130,7 @@
       "mobile": {
         "list": {
           "border": {
-            "value": "#26374A",
+            "value": "#425A76",
             "type": "border"
           },
           "item": {
@@ -2742,7 +2742,7 @@
       },
       "toggle": {
         "text": {
-          "value": "#26374A",
+          "value": "#425A76",
           "type": "color"
         },
         "fontWeight": {
