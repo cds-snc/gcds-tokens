@@ -81,16 +81,22 @@
         }
       },
       "icon": {
-        "default": {
-          "value": "{color.red.500.value}",
-          "type": "color"
+        "background": {
+          "default": {
+            "value": "{color.red.500.value}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{color.red.900.value}",
+            "type": "color"
+          },
+          "active": {
+            "value": "{text.primary.value}",
+            "type": "color"
+          }
         },
-        "hover": {
-          "value": "{color.red.900.value}",
-          "type": "color"
-        },
-        "active": {
-          "value": "{text.primary.value}",
+        "text": {
+          "value": "{text.light.value}",
           "type": "color"
         }
       },
@@ -117,8 +123,26 @@
         }
       },
       "padding": {
-        "value": "{spacing.250.value} {spacing.400.value}",
+        "value": "{spacing.200.value} {spacing.200.value} {spacing.200.value} {spacing.400.value}",
         "type": "spacing"
+      },
+      "hover": {
+        "background": {
+          "value": "{color.red.700.value}",
+          "type": "color"
+        }
+      },
+      "active": {
+        "background": {
+          "value": "{text.primary.value}",
+          "type": "color"
+        }
+      },
+      "focus": {
+        "background": {
+          "value": "{focus.background.value}",
+          "type": "color"
+        }
       }
     },
     "focus": {

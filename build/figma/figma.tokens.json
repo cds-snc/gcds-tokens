@@ -225,7 +225,7 @@
         "type": "fontFamilies"
       },
       "icons": {
-        "value": "FontAwesome",
+        "value": "\"Font Awesome 6 Free\"",
         "type": "fontFamilies"
       }
     },
@@ -638,7 +638,7 @@
             "type": "typography"
           },
           "margin": {
-            "value": "0.1875rem 0 0.5625rem",
+            "value": "0 0 0.5625rem",
             "type": "spacing"
           },
           "mobile": {
@@ -1050,11 +1050,11 @@
         "border": {
           "radius": {
             "value": "0.1875rem",
-            "type": "border"
+            "type": "borderRadius"
           },
           "width": {
             "value": "0.125rem",
-            "type": "border"
+            "type": "borderWidth"
           }
         },
         "heightAndWidth": {
@@ -1397,16 +1397,22 @@
           }
         },
         "icon": {
-          "default": {
-            "value": "#C24438",
-            "type": "color"
+          "background": {
+            "default": {
+              "value": "#C24438",
+              "type": "color"
+            },
+            "hover": {
+              "value": "#822117",
+              "type": "color"
+            },
+            "active": {
+              "value": "#000",
+              "type": "color"
+            }
           },
-          "hover": {
-            "value": "#822117",
-            "type": "color"
-          },
-          "active": {
-            "value": "#000",
+          "text": {
+            "value": "#FFF",
             "type": "color"
           }
         },
@@ -1433,8 +1439,26 @@
           }
         },
         "padding": {
-          "value": "0.9375rem 1.5rem",
+          "value": "0.75rem 0.75rem 0.75rem 1.5rem",
           "type": "spacing"
+        },
+        "hover": {
+          "background": {
+            "value": "#A62A1E",
+            "type": "color"
+          }
+        },
+        "active": {
+          "background": {
+            "value": "#000",
+            "type": "color"
+          }
+        },
+        "focus": {
+          "background": {
+            "value": "#303FC3",
+            "type": "color"
+          }
         }
       },
       "focus": {
@@ -1797,118 +1821,110 @@
     "icon": {
       "font": {
         "family": {
-          "value": "FontAwesome",
+          "value": "\"Font Awesome 6 Free\"",
           "type": "fontFamilies"
         },
         "size": {
-          "xs": {
+          "caption": {
             "value": "1.1111111111111112rem",
             "type": "fontSizes"
           },
-          "sm": {
+          "text": {
             "value": "1.25rem",
             "type": "fontSizes"
           },
-          "md": {
+          "h6": {
+            "value": "1.40625rem",
+            "type": "fontSizes"
+          },
+          "h5": {
             "value": "1.58203125rem",
             "type": "fontSizes"
           },
-          "lg": {
+          "h4": {
+            "value": "1.77978515625rem",
+            "type": "fontSizes"
+          },
+          "h3": {
             "value": "2.00225830078125rem",
             "type": "fontSizes"
           },
-          "xl": {
+          "h2": {
+            "value": "2.2525405883789062rem",
+            "type": "fontSizes"
+          },
+          "h1": {
             "value": "2.5341081619262695rem",
             "type": "fontSizes"
           }
         }
       },
       "lineHeight": {
-        "xs": {
+        "caption": {
           "value": "135%",
           "type": "lineHeights"
         },
-        "sm": {
+        "text": {
           "value": "120%",
           "type": "lineHeights"
         },
-        "md": {
+        "h6": {
+          "value": "124.44444444444444%",
+          "type": "lineHeights"
+        },
+        "h5": {
           "value": "126.41975308641975%",
           "type": "lineHeights"
         },
-        "lg": {
+        "h4": {
+          "value": "126.41975308641973%",
+          "type": "lineHeights"
+        },
+        "h3": {
           "value": "124.85901539399482%",
           "type": "lineHeights"
         },
-        "xl": {
+        "h2": {
+          "value": "122.08437060746162%",
+          "type": "lineHeights"
+        },
+        "h1": {
           "value": "118.38484422541731%",
           "type": "lineHeights"
         }
       },
-      "margin": {
-        "0": {
-          "value": "0",
-          "type": "spacing"
+      "fixedWidth": {
+        "caption": {
+          "value": 1.35,
+          "type": "dimensions"
         },
-        "50": {
-          "value": "0.1875rem",
-          "type": "spacing"
+        "text": {
+          "value": 1.2,
+          "type": "dimensions"
         },
-        "100": {
-          "value": "0.375rem",
-          "type": "spacing"
+        "h6": {
+          "value": 1.2444444444444445,
+          "type": "dimensions"
         },
-        "150": {
-          "value": "0.5625rem",
-          "type": "spacing"
+        "h5": {
+          "value": 1.2641975308641975,
+          "type": "dimensions"
         },
-        "200": {
-          "value": "0.75rem",
-          "type": "spacing"
+        "h4": {
+          "value": 1.2641975308641973,
+          "type": "dimensions"
         },
-        "250": {
-          "value": "0.9375rem",
-          "type": "spacing"
+        "h3": {
+          "value": 1.2485901539399482,
+          "type": "dimensions"
         },
-        "300": {
-          "value": "1.125rem",
-          "type": "spacing"
+        "h2": {
+          "value": 1.2208437060746162,
+          "type": "dimensions"
         },
-        "400": {
-          "value": "1.5rem",
-          "type": "spacing"
-        },
-        "450": {
-          "value": "2.25rem",
-          "type": "spacing"
-        },
-        "500": {
-          "value": "3rem",
-          "type": "spacing"
-        },
-        "550": {
-          "value": "3.75rem",
-          "type": "spacing"
-        },
-        "600": {
-          "value": "4.5rem",
-          "type": "spacing"
-        },
-        "700": {
-          "value": "6rem",
-          "type": "spacing"
-        },
-        "800": {
-          "value": "7.5rem",
-          "type": "spacing"
-        },
-        "900": {
-          "value": "9rem",
-          "type": "spacing"
-        },
-        "1000": {
-          "value": "10.5rem",
-          "type": "spacing"
+        "h1": {
+          "value": 1.183848442254173,
+          "type": "dimensions"
         }
       }
     },
