@@ -54,14 +54,14 @@
           "type": "spacing"
         }
       },
-      "margin": {
-        "value": "{spacing.200.value} 0",
-        "type": "spacing"
-      },
       "padding": {
         "value": "0 0 0 {spacing.400.value}",
         "type": "spacing"
       }
+    },
+    "margin": {
+      "value": "{spacing.200.value} 0",
+      "type": "spacing"
     }
   }
 }

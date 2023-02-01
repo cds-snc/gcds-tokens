@@ -816,14 +816,14 @@
             "type": "spacing"
           }
         },
-        "margin": {
-          "value": "0.75rem 0",
-          "type": "spacing"
-        },
         "padding": {
           "value": "0 0 0 1.5rem",
           "type": "spacing"
         }
+      },
+      "margin": {
+        "value": "0.75rem 0",
+        "type": "spacing"
       }
     },
     "button": {
