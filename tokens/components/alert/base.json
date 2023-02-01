@@ -2,18 +2,18 @@
   "alert": {
     "border": {
       "width": {
-        "value": "{spacing.100.value}",
+        "value": "{border.width.lg.value}",
         "type": "borderWidth"
       }
     },
     "button": {
       "border": {
         "radius": {
-          "value": "{spacing.100.value}",
+          "value": "{border.radius.md.value}",
           "type": "borderRadius"
         },
         "width": {
-          "value": ".125rem",
+          "value": "{border.width.md.value}",
           "type": "borderWidth"
         }
       },
@@ -67,7 +67,7 @@
       },
       "outline": {
         "width": {
-          "value": "{spacing.50.value}",
+          "value": "{outline.width.value}",
           "type": "other"
         }
       }

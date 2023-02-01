@@ -57,7 +57,7 @@
           "type": "border"
         },
         "width": {
-          "value": "{spacing.100.value}",
+          "value": "{border.width.lg.value}",
           "type": "borderWidth"
         }
       },
@@ -97,7 +97,7 @@
       },
       "border": {
         "width": {
-          "value": "0.0625rem",
+          "value": "{border.width.sm.value}",
           "type": "borderWidth"
         }
       },

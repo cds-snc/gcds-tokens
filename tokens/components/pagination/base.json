@@ -16,11 +16,11 @@
         "type": "border"
       },
       "radius": {
-        "value": "{spacing.50.value}",
+        "value": "{border.radius.sm.value}",
         "type": "borderRadius"
       },
       "width": {
-        "value": ".125rem",
+        "value": "{border.width.md.value}",
         "type": "borderWidth"
       }
     },
@@ -47,7 +47,7 @@
       },
       "outline": {
         "width": {
-          "value": "{spacing.50.value}",
+          "value": "{outline.width.value}",
           "type": "other"
         }
 

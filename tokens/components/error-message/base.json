@@ -10,7 +10,7 @@
         "type": "border"
       },
       "width": {
-        "value": ".125rem",
+        "value": "{border.width.md.value}",
         "type": "borderWidth"
       }
     },

@@ -69,7 +69,7 @@
                 "type": "border"
               },
               "width": {
-                "value": "{spacing.100.value}",
+                "value": "{border.width.lg.value}",
                 "type": "borderWidth"
               }
             },

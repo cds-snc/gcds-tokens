@@ -2,7 +2,7 @@
   "radio": {
     "border": {
       "radius": {
-        "value": "{spacing.500.value}",
+        "value": "{border.radius.lg.value}",
         "type": "borderRadius"
       }
     },
@@ -59,7 +59,7 @@
       },
       "outline": {
         "width": {
-          "value": "{spacing.50.value}",
+          "value": "{outline.width.value}",
           "type": "other"
         }
       }
@@ -76,7 +76,7 @@
     "input": {
       "border": {
         "width": {
-          "value": "0.125rem",
+          "value": "{border.width.md.value}",
           "type": "borderWidth"
         }
       },

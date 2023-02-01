@@ -67,7 +67,7 @@
       },
       "outline": {
         "width": {
-          "value": "{spacing.50.value}",
+          "value": "{outline.width.value}",
           "type": "other"
         }
       }
@@ -86,12 +86,12 @@
     "input": {
       "border": {
         "radius": {
-          "value": "{spacing.50.value}",
-          "type": "border"
+          "value": "{border.radius.sm.value}",
+          "type": "borderRadius"
         },
         "width": {
-          "value": "0.125rem",
-          "type": "border"
+          "value": "{border.width.md.value}",
+          "type": "borderWidth"
         }
       },
       "heightAndWidth": {

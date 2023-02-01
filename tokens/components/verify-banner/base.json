@@ -41,7 +41,7 @@
           "type": "border"
         },
         "width": {
-          "value": "0.0625rem",
+          "value": "{border.width.sm.value}",
           "type": "borderWidth"
         }
       },
