@@ -424,6 +424,10 @@
         "lg": {
           "value": "3rem",
           "type": "borderRadius"
+        },
+        "xl": {
+          "value": "100%",
+          "type": "borderRadius"
         }
       },
       "width": {
@@ -436,6 +440,10 @@
           "type": "borderWidth"
         },
         "lg": {
+          "value": "0.25rem",
+          "type": "borderWidth"
+        },
+        "xl": {
           "value": "0.375rem",
           "type": "borderWidth"
         }
@@ -495,11 +503,11 @@
     },
     "link": {
       "default": {
-        "value": "#26374A",
+        "value": "#425A76",
         "type": "color"
       },
       "hover": {
-        "value": "#31455C",
+        "value": "#26374A",
         "type": "color"
       },
       "light": {
@@ -756,7 +764,7 @@
     "breadcrumbs": {
       "default": {
         "text": {
-          "value": "#26374A",
+          "value": "#425A76",
           "type": "color"
         }
       },
@@ -781,7 +789,7 @@
       },
       "hover": {
         "text": {
-          "value": "#31455C",
+          "value": "#26374A",
           "type": "color"
         }
       },
@@ -885,7 +893,7 @@
             "type": "color"
           },
           "text": {
-            "value": "#26374A",
+            "value": "#425A76",
             "type": "color"
           }
         },
@@ -997,10 +1005,6 @@
         "text": {
           "value": "#000",
           "type": "color"
-        },
-        "hint": {
-          "value": "#2F3238",
-          "type": "color"
         }
       },
       "disabled": {
@@ -1036,25 +1040,23 @@
         }
       },
       "font": {
-        "font": {
-          "value": {
-            "fontFamily": "\"Noto Sans\", sans-serif",
-            "fontWeight": "400",
-            "lineHeight": "120%",
-            "fontSize": "1.25rem"
-          },
-          "type": "typography"
-        }
+        "value": {
+          "fontFamily": "\"Noto Sans\", sans-serif",
+          "fontWeight": "400",
+          "lineHeight": "120%",
+          "fontSize": "1.25rem"
+        },
+        "type": "typography"
       },
       "input": {
         "border": {
           "radius": {
             "value": "0.1875rem",
-            "type": "border"
+            "type": "borderRadius"
           },
           "width": {
             "value": "0.125rem",
-            "type": "border"
+            "type": "borderWidth"
           }
         },
         "heightAndWidth": {
@@ -1071,10 +1073,6 @@
             "fontSize": "1.1111111111111112rem"
           },
           "type": "typography"
-        },
-        "text": {
-          "value": "#2F3238",
-          "type": "color"
         }
       },
       "label": {
@@ -1120,7 +1118,7 @@
     "details": {
       "default": {
         "text": {
-          "value": "#26374A",
+          "value": "#425A76",
           "type": "color"
         }
       },
@@ -1164,7 +1162,7 @@
       },
       "hover": {
         "text": {
-          "value": "#31455C",
+          "value": "#26374A",
           "type": "color"
         }
       },
@@ -1346,7 +1344,7 @@
           "type": "spacing"
         },
         "text": {
-          "value": "#26374A",
+          "value": "#425A76",
           "type": "color"
         }
       },
@@ -1577,7 +1575,7 @@
         },
         "hover": {
           "text": {
-            "value": "#31455C",
+            "value": "#26374A",
             "type": "color"
           }
         },
@@ -1624,7 +1622,7 @@
           }
         },
         "text": {
-          "value": "#26374A",
+          "value": "#425A76",
           "type": "color"
         }
       }
@@ -2017,7 +2015,7 @@
       },
       "default": {
         "text": {
-          "value": "#26374A",
+          "value": "#425A76",
           "type": "color"
         }
       },
@@ -2042,7 +2040,7 @@
       },
       "hover": {
         "text": {
-          "value": "#31455C",
+          "value": "#26374A",
           "type": "color"
         }
       },
@@ -2064,7 +2062,7 @@
       },
       "border": {
         "color": {
-          "value": "#26374A",
+          "value": "#425A76",
           "type": "border"
         },
         "radius": {
@@ -2078,7 +2076,7 @@
       },
       "default": {
         "text": {
-          "value": "#26374A",
+          "value": "#425A76",
           "type": "color"
         }
       },
@@ -2130,7 +2128,7 @@
       "mobile": {
         "list": {
           "border": {
-            "value": "#26374A",
+            "value": "#425A76",
             "type": "border"
           },
           "item": {
@@ -2246,7 +2244,7 @@
     "radio": {
       "border": {
         "radius": {
-          "value": "3rem",
+          "value": "100%",
           "type": "borderRadius"
         }
       },
@@ -2338,10 +2336,6 @@
             "fontSize": "1.1111111111111112rem"
           },
           "type": "typography"
-        },
-        "text": {
-          "value": "#2F3238",
-          "type": "color"
         }
       },
       "label": {
@@ -2742,7 +2736,7 @@
       },
       "toggle": {
         "text": {
-          "value": "#26374A",
+          "value": "#425A76",
           "type": "color"
         },
         "fontWeight": {

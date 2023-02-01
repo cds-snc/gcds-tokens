@@ -34,10 +34,6 @@
       "text": {
         "value": "{text.primary.value}",
         "type": "color"
-      },
-      "hint": {
-        "value": "{color.grayscale.900.value}",
-        "type": "color"
       }
     },
     "disabled": {
@@ -73,15 +69,13 @@
       }
     },
     "font": {
-      "font": {
-        "value": {
-          "fontFamily": "{fontFamilies.body}",
-          "fontWeight": "{fontWeights.regular}",
-          "lineHeight": "{lineHeights.text}",
-          "fontSize": "{fontSizes.text}"
-        },
-        "type": "typography"
-      }
+      "value": {
+        "fontFamily": "{fontFamilies.body}",
+        "fontWeight": "{fontWeights.regular}",
+        "lineHeight": "{lineHeights.text}",
+        "fontSize": "{fontSizes.text}"
+      },
+      "type": "typography"
     },
     "input": {
       "border": {
@@ -108,10 +102,6 @@
           "fontSize": "{fontSizes.caption}"
         },
         "type": "typography"
-      },
-      "text": {
-        "value": "{color.grayscale.900.value}",
-        "type": "color"
       }
     },
     "label": {
