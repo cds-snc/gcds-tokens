@@ -7,11 +7,11 @@
       },
       "border": {
         "radius": {
-          "value": "{spacing.100.value}",
+          "value": "{border.radius.md.value}",
           "type": "borderRadius"
         },
         "width": {
-          "value": ".125rem",
+          "value": "{border.width.md.value}",
           "type": "borderWidth"
         }
       },
@@ -21,7 +21,7 @@
       },
       "outline": {
         "width": {
-          "value": "{spacing.50.value}",
+          "value": "{outline.width.value}",
           "type": "other"
         }
       },
@@ -34,19 +34,19 @@
         "type": "color"
       }
     },
-    "default": {
-      "text": {
-        "value": "{text.primary.value}",
-        "type": "color"
-      }
-    },
-    "destructive": {
+    "danger": {
       "background": {
         "value": "{danger.background.value}",
         "type": "color"
       },
       "text": {
         "value": "{danger.text.value}",
+        "type": "color"
+      }
+    },
+    "default": {
+      "text": {
+        "value": "{text.primary.value}",
         "type": "color"
       }
     },
@@ -61,18 +61,13 @@
       }
     },
     "font": {
-      "family": {
-        "value": "{fontFamilies.body.value}",
-        "type": "fontFamilies"
+      "value": {
+        "fontFamily": "{fontFamilies.body}",
+        "fontWeight": "{fontWeights.regular}",
+        "lineHeight": "{lineHeights.text}",
+        "fontSize": "{fontSizes.text}"
       },
-      "size": {
-        "value": "{fontSizes.text.value}",
-        "type": "fontSizes"
-      },
-      "weight": {
-        "value": "{fontWeights.regular.value}",
-        "type": "fontWeights"
-      }
+      "type": "typography"
     },
     "file": {
       "background": {
@@ -81,7 +76,7 @@
       },
       "border": {
         "radius": {
-          "value": "{spacing.500.value}",
+          "value": "{border.radius.lg.value}",
           "type": "borderRadius"
         }
       },
@@ -117,7 +112,7 @@
           "type": "other"
         },
         "width": {
-          "value": "{spacing.50.value}",
+          "value": "{outline.width.value}",
           "type": "other"
         }
       },
@@ -141,10 +136,6 @@
         "value": "{focus.textForm.value}",
         "type": "color"
       }
-    },
-    "lineHeight": {
-      "value": "{lineHeights.text.value}",
-      "type": "lineHeights"
     }
   }
 }

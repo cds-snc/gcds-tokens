@@ -1,0 +1,9 @@
+{
+  "outline": {
+    "width": {
+      "value": "{spacing.50.value}",
+      "type": "other",
+      "comment": "Global outline: width"
+    }
+  }
+}

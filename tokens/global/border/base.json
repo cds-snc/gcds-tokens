@@ -1,0 +1,38 @@
+{
+  "border": {
+    "radius": {
+      "sm": {
+        "value": "{spacing.50.value}",
+        "type": "borderRadius",
+        "comment": "Global border: radius sm"
+      },
+      "md": {
+        "value": "{spacing.100.value}",
+        "type": "borderRadius",
+        "comment": "Global border: radius md"
+      },
+      "lg": {
+        "value": "{spacing.500.value}",
+        "type": "borderRadius",
+        "comment": "Global border: radius lg"
+      }
+    },
+    "width": {
+      "sm": {
+        "value": "0.0625rem",
+        "type": "borderWidth",
+        "comment": "Global border: width sm"
+      },
+      "md": {
+        "value": "0.125rem",
+        "type": "borderWidth",
+        "comment": "Global border: width md"
+      },
+      "lg": {
+        "value": "{spacing.100.value}",
+        "type": "borderWidth",
+        "comment": "Global border: width lg"
+      }
+    }
+  }
+}

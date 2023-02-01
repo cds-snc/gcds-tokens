@@ -2,7 +2,7 @@
   "radio": {
     "border": {
       "radius": {
-        "value": "{spacing.500.value}",
+        "value": "{border.radius.lg.value}",
         "type": "borderRadius"
       }
     },
@@ -26,15 +26,15 @@
         "type": "spacing"
       }
     },
-    "default": {
+    "danger": {
       "text": {
-        "value": "{text.primary.value}",
+        "value": "{danger.text.value}",
         "type": "color"
       }
     },
-    "destructive": {
+    "default": {
       "text": {
-        "value": "{danger.text.value}",
+        "value": "{text.primary.value}",
         "type": "color"
       }
     },
@@ -59,29 +59,24 @@
       },
       "outline": {
         "width": {
-          "value": "{spacing.50.value}",
+          "value": "{outline.width.value}",
           "type": "other"
         }
       }
     },
     "font": {
-      "family": {
-        "value": "{fontFamilies.body.value}",
-        "type": "fontFamilies"
+      "value": {
+        "fontFamily": "{fontFamilies.body}",
+        "fontWeight": "{fontWeights.regular}",
+        "lineHeight": "{lineHeights.text}",
+        "fontSize": "{fontSizes.text}"
       },
-      "size": {
-        "value": "{fontSizes.text.value}",
-        "type": "fontSizes"
-      },
-      "weight": {
-        "value": "{fontWeights.regular.value}",
-        "type": "fontWeights"
-      }
+      "type": "typography"
     },
     "input": {
       "border": {
         "width": {
-          "value": "0.125rem",
+          "value": "{border.width.md.value}",
           "type": "borderWidth"
         }
       },
@@ -92,14 +87,13 @@
     },
     "hint": {
       "font": {
-        "size": {
-          "value": "{fontSizes.caption.value}",
-          "type": "fontSizes"
-        }
-      },
-      "lineHeight": {
-        "value": "{lineHeights.caption.value}",
-        "type": "lineHeights"
+        "value": {
+          "fontFamily": "{fontFamilies.body}",
+          "fontWeight": "{fontWeights.regular}",
+          "lineHeight": "{lineHeights.caption}",
+          "fontSize": "{fontSizes.caption}"
+        },
+        "type": "typography"
       },
       "text": {
         "value": "{color.grayscale.900.value}",
@@ -111,10 +105,6 @@
         "value": "0 0 0 {spacing.550.value}",
         "type": "spacing"
       }
-    },
-    "lineHeight": {
-      "value": "{lineHeights.text.value}",
-      "type": "lineHeights"
     },
     "margin": {
       "value": "{spacing.450.value} 0 {spacing.400.value}",

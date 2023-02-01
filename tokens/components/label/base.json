@@ -1,22 +1,13 @@
 {
   "label": {
     "font": {
-      "family": {
-        "value": "{fontFamilies.body.value}",
-        "type": "fontFamilies"
+      "value": {
+        "fontFamily": "{fontFamilies.body}",
+        "fontWeight": "{fontWeights.medium}",
+        "lineHeight": "{lineHeights.text}",
+        "fontSize": "{fontSizes.text}"
       },
-      "size": {
-        "value": "{fontSizes.text.value}",
-        "type": "fontSizes"
-      },
-      "weight": {
-        "value": "{fontWeights.medium.value}",
-        "type": "fontWeights"
-      }
-    },
-    "lineHeight": {
-      "value": "{lineHeights.text.value}",
-      "type": "lineHeights"
+      "type": "typography"
     },
     "margin": {
       "value": "0 0 {spacing.100.value}",

@@ -135,6 +135,10 @@
       }
     },
     "spacing": {
+      "0": {
+        "value": "0",
+        "type": "dimension"
+      },
       "50": {
         "value": "0.1875rem",
         "type": "dimension"
@@ -407,6 +411,40 @@
         "type": "typography"
       }
     },
+    "border": {
+      "radius": {
+        "sm": {
+          "value": "0.1875rem",
+          "type": "borderRadius"
+        },
+        "md": {
+          "value": "0.375rem",
+          "type": "borderRadius"
+        },
+        "lg": {
+          "value": "3rem",
+          "type": "borderRadius"
+        }
+      },
+      "width": {
+        "sm": {
+          "value": "0.0625rem",
+          "type": "borderWidth"
+        },
+        "md": {
+          "value": "0.125rem",
+          "type": "borderWidth"
+        },
+        "lg": {
+          "value": "0.375rem",
+          "type": "borderWidth"
+        }
+      },
+      "default": {
+        "value": "#7D828B",
+        "type": "color"
+      }
+    },
     "active": {
       "background": {
         "value": "#000",
@@ -414,12 +452,6 @@
       },
       "text": {
         "value": "#FFF",
-        "type": "color"
-      }
-    },
-    "border": {
-      "default": {
-        "value": "#7D828B",
         "type": "color"
       }
     },
@@ -489,6 +521,12 @@
         "type": "color"
       }
     },
+    "outline": {
+      "width": {
+        "value": "0.1875rem",
+        "type": "other"
+      }
+    },
     "alert": {
       "border": {
         "width": {
@@ -503,7 +541,7 @@
             "type": "borderRadius"
           },
           "width": {
-            "value": ".125rem",
+            "value": "0.125rem",
             "type": "borderWidth"
           }
         },
@@ -591,22 +629,13 @@
       "content": {
         "heading": {
           "font": {
-            "family": {
-              "value": "\"Lato\", sans-serif",
-              "type": "fontFamilies"
+            "value": {
+              "fontFamily": "\"Lato\", sans-serif",
+              "fontWeight": "700",
+              "lineHeight": "126.41975308641975%",
+              "fontSize": "1.58203125rem"
             },
-            "size": {
-              "value": "1.58203125rem",
-              "type": "fontSizes"
-            },
-            "weight": {
-              "value": "700",
-              "type": "fontWeights"
-            }
-          },
-          "lineHeight": {
-            "value": "126.41975308641975%",
-            "type": "lineHeights"
+            "type": "typography"
           },
           "margin": {
             "value": "0.1875rem 0 0.5625rem",
@@ -633,18 +662,13 @@
         }
       },
       "font": {
-        "family": {
-          "value": "\"Noto Sans\", sans-serif",
-          "type": "fontFamilies"
+        "value": {
+          "fontFamily": "\"Noto Sans\", sans-serif",
+          "fontWeight": "400",
+          "lineHeight": "120%",
+          "fontSize": "1.25rem"
         },
-        "size": {
-          "value": "1.25rem",
-          "type": "fontSizes"
-        },
-        "weight": {
-          "value": "400",
-          "type": "fontWeights"
-        }
+        "type": "typography"
       },
       "icon": {
         "font": {
@@ -664,10 +688,6 @@
           }
         }
       },
-      "lineHeight": {
-        "value": "120%",
-        "type": "lineHeights"
-      },
       "padding": {
         "value": "0.75rem 0.9375rem",
         "type": "spacing"
@@ -676,7 +696,7 @@
         "value": "#000",
         "type": "color"
       },
-      "destructive": {
+      "danger": {
         "background": {
           "value": "#FBDDDA",
           "type": "color"
@@ -751,18 +771,13 @@
         }
       },
       "font": {
-        "family": {
-          "value": "\"Noto Sans\", sans-serif",
-          "type": "fontFamilies"
+        "value": {
+          "fontFamily": "\"Noto Sans\", sans-serif",
+          "fontWeight": "400",
+          "lineHeight": "120%",
+          "fontSize": "1.25rem"
         },
-        "size": {
-          "value": "1.25rem",
-          "type": "fontSizes"
-        },
-        "weight": {
-          "value": "400",
-          "type": "fontWeights"
-        }
+        "type": "typography"
       },
       "hover": {
         "text": {
@@ -801,24 +816,20 @@
           "value": "0 0 0 1.5rem",
           "type": "spacing"
         }
-      },
-      "lineHeight": {
-        "value": "120%",
-        "type": "lineHeights"
       }
     },
     "button": {
       "border": {
         "radius": {
           "value": "0.375rem",
-          "type": "border"
+          "type": "borderRadius"
         },
         "width": {
           "value": "0.125rem",
-          "type": "border"
+          "type": "borderWidth"
         }
       },
-      "destructive": {
+      "danger": {
         "default": {
           "background": {
             "value": "#A62A1E",
@@ -837,22 +848,13 @@
         }
       },
       "font": {
-        "family": {
-          "value": "\"Noto Sans\", sans-serif",
-          "type": "fontFamilies"
+        "value": {
+          "fontFamily": "\"Noto Sans\", sans-serif",
+          "fontWeight": "400",
+          "lineHeight": "120%",
+          "fontSize": "1.25rem"
         },
-        "size": {
-          "value": "1.25rem",
-          "type": "fontSizes"
-        },
-        "weight": {
-          "value": "400",
-          "type": "fontWeights"
-        }
-      },
-      "lineHeight": {
-        "value": "120%",
-        "type": "lineHeights"
+        "type": "typography"
       },
       "padding": {
         "value": "1.125rem 0.75rem",
@@ -946,10 +948,13 @@
       },
       "small": {
         "font": {
-          "size": {
-            "value": "80%",
-            "type": "fontSizes"
-          }
+          "value": {
+            "fontFamily": "\"Noto Sans\", sans-serif",
+            "fontWeight": "400",
+            "lineHeight": "120%",
+            "fontSize": "80%"
+          },
+          "type": "typography"
         },
         "padding": {
           "value": "0.75rem",
@@ -982,6 +987,12 @@
           "type": "sizing"
         }
       },
+      "danger": {
+        "text": {
+          "value": "#A62A1E",
+          "type": "color"
+        }
+      },
       "default": {
         "text": {
           "value": "#000",
@@ -989,12 +1000,6 @@
         },
         "hint": {
           "value": "#2F3238",
-          "type": "color"
-        }
-      },
-      "destructive": {
-        "text": {
-          "value": "#A62A1E",
           "type": "color"
         }
       },
@@ -1031,17 +1036,14 @@
         }
       },
       "font": {
-        "family": {
-          "value": "\"Noto Sans\", sans-serif",
-          "type": "fontFamilies"
-        },
-        "size": {
-          "value": "1.25rem",
-          "type": "fontSizes"
-        },
-        "weight": {
-          "value": "400",
-          "type": "fontWeights"
+        "font": {
+          "value": {
+            "fontFamily": "\"Noto Sans\", sans-serif",
+            "fontWeight": "400",
+            "lineHeight": "120%",
+            "fontSize": "1.25rem"
+          },
+          "type": "typography"
         }
       },
       "input": {
@@ -1062,14 +1064,13 @@
       },
       "hint": {
         "font": {
-          "size": {
-            "value": "1.1111111111111112rem",
-            "type": "fontSizes"
-          }
-        },
-        "lineHeight": {
-          "value": "135%",
-          "type": "lineHeights"
+          "value": {
+            "fontFamily": "\"Noto Sans\", sans-serif",
+            "fontWeight": "400",
+            "lineHeight": "135%",
+            "fontSize": "1.1111111111111112rem"
+          },
+          "type": "typography"
         },
         "text": {
           "value": "#2F3238",
@@ -1081,10 +1082,6 @@
           "value": "0 0 0 3.75rem",
           "type": "spacing"
         }
-      },
-      "lineHeight": {
-        "value": "120%",
-        "type": "lineHeights"
       },
       "margin": {
         "value": "2.25rem 0 1.5rem",
@@ -1103,26 +1100,21 @@
         }
       },
       "font": {
-        "family": {
-          "value": "\"Noto Sans\", sans-serif",
-          "type": "fontFamilies"
+        "value": {
+          "fontFamily": "\"Noto Sans\", sans-serif",
+          "fontWeight": "400",
+          "lineHeight": "120%",
+          "fontSize": "1.25rem"
         },
-        "size": {
-          "value": "1.25rem",
-          "type": "fontSizes"
-        },
-        "weight": {
-          "value": "400",
-          "type": "fontWeights"
-        }
-      },
-      "lineHeight": {
-        "value": "120%",
-        "type": "lineHeights"
+        "type": "typography"
       },
       "margin": {
         "value": "3rem 0 0",
         "type": "spacing"
+      },
+      "text": {
+        "value": "#000",
+        "type": "color"
       }
     },
     "details": {
@@ -1153,32 +1145,28 @@
         }
       },
       "font": {
-        "family": {
-          "value": "\"Noto Sans\", sans-serif",
-          "type": "fontFamilies"
+        "value": {
+          "fontFamily": "\"Noto Sans\", sans-serif",
+          "fontWeight": "400",
+          "lineHeight": "120%",
+          "fontSize": "1.25rem"
         },
-        "size": {
-          "value": "1.25rem",
-          "type": "fontSizes"
+        "type": "typography"
+      },
+      "fontSmall": {
+        "value": {
+          "fontFamily": "\"Noto Sans\", sans-serif",
+          "fontWeight": "400",
+          "lineHeight": "135%",
+          "fontSize": "1.1111111111111112rem"
         },
-        "sizeSmall": {
-          "value": "1.1111111111111112rem",
-          "type": "fontSizes"
-        },
-        "weight": {
-          "value": "400",
-          "type": "fontWeights"
-        }
+        "type": "typography"
       },
       "hover": {
         "text": {
           "value": "#31455C",
           "type": "color"
         }
-      },
-      "lineHeight": {
-        "value": "120%",
-        "type": "lineHeights"
       },
       "panel": {
         "border": {
@@ -1254,27 +1242,18 @@
           "type": "border"
         },
         "width": {
-          "value": ".125rem",
+          "value": "0.125rem",
           "type": "borderWidth"
         }
       },
       "font": {
-        "family": {
-          "value": "\"Noto Sans\", sans-serif",
-          "type": "fontFamilies"
+        "value": {
+          "fontFamily": "\"Noto Sans\", sans-serif",
+          "fontWeight": "400",
+          "lineHeight": "120%",
+          "fontSize": "1.25rem"
         },
-        "size": {
-          "value": "1.25rem",
-          "type": "fontSizes"
-        },
-        "weight": {
-          "value": "400",
-          "type": "fontWeights"
-        }
-      },
-      "lineHeight": {
-        "value": "120%",
-        "type": "lineHeights"
+        "type": "typography"
       },
       "margin": {
         "value": "0 0 1.125rem",
@@ -1290,15 +1269,15 @@
       }
     },
     "fieldset": {
-      "default": {
+      "danger": {
         "text": {
-          "value": "#000",
+          "value": "#A62A1E",
           "type": "color"
         }
       },
-      "destructive": {
+      "default": {
         "text": {
-          "value": "#A62A1E",
+          "value": "#000",
           "type": "color"
         }
       },
@@ -1315,18 +1294,13 @@
         }
       },
       "font": {
-        "family": {
-          "value": "\"Noto Sans\", sans-serif",
-          "type": "fontFamilies"
+        "value": {
+          "fontFamily": "\"Noto Sans\", sans-serif",
+          "fontWeight": "600",
+          "lineHeight": "120%",
+          "fontSize": "1.25rem"
         },
-        "size": {
-          "value": "1.25rem",
-          "type": "fontSizes"
-        },
-        "weight": {
-          "value": "600",
-          "type": "fontWeights"
-        }
+        "type": "typography"
       },
       "legend": {
         "margin": {
@@ -1353,7 +1327,7 @@
             "type": "borderRadius"
           },
           "width": {
-            "value": ".125rem",
+            "value": "0.125rem",
             "type": "borderWidth"
           }
         },
@@ -1376,19 +1350,19 @@
           "type": "color"
         }
       },
-      "default": {
-        "text": {
-          "value": "#000",
-          "type": "color"
-        }
-      },
-      "destructive": {
+      "danger": {
         "background": {
           "value": "#FBDDDA",
           "type": "color"
         },
         "text": {
           "value": "#A62A1E",
+          "type": "color"
+        }
+      },
+      "default": {
+        "text": {
+          "value": "#000",
           "type": "color"
         }
       },
@@ -1403,18 +1377,13 @@
         }
       },
       "font": {
-        "family": {
-          "value": "\"Noto Sans\", sans-serif",
-          "type": "fontFamilies"
+        "value": {
+          "fontFamily": "\"Noto Sans\", sans-serif",
+          "fontWeight": "400",
+          "lineHeight": "120%",
+          "fontSize": "1.25rem"
         },
-        "size": {
-          "value": "1.25rem",
-          "type": "fontSizes"
-        },
-        "weight": {
-          "value": "400",
-          "type": "fontWeights"
-        }
+        "type": "typography"
       },
       "file": {
         "background": {
@@ -1483,10 +1452,6 @@
           "value": "#303FC3",
           "type": "color"
         }
-      },
-      "lineHeight": {
-        "value": "120%",
-        "type": "lineHeights"
       }
     },
     "footer": {
@@ -1515,22 +1480,13 @@
         }
       },
       "font": {
-        "family": {
-          "value": "\"Noto Sans\", sans-serif",
-          "type": "fontFamilies"
+        "value": {
+          "fontFamily": "\"Noto Sans\", sans-serif",
+          "fontWeight": "400",
+          "lineHeight": "120%",
+          "fontSize": "85%"
         },
-        "size": {
-          "value": "85%",
-          "type": "fontSizes"
-        },
-        "weight": {
-          "value": "400",
-          "type": "fontWeights"
-        }
-      },
-      "lineHeight": {
-        "value": "120%",
-        "type": "lineHeights"
+        "type": "typography"
       },
       "list": {
         "gridGap": {
@@ -1701,6 +1657,10 @@
         }
       },
       "gap": {
+        "0": {
+          "value": "0",
+          "type": "spacing"
+        },
         "50": {
           "value": "0.1875rem",
           "type": "spacing"
@@ -1821,22 +1781,13 @@
     },
     "hint": {
       "font": {
-        "family": {
-          "value": "\"Noto Sans\", sans-serif",
-          "type": "fontFamilies"
+        "value": {
+          "fontFamily": "\"Noto Sans\", sans-serif",
+          "fontWeight": "400",
+          "lineHeight": "120%",
+          "fontSize": "1.25rem"
         },
-        "size": {
-          "value": "1.25rem",
-          "type": "fontSizes"
-        },
-        "weight": {
-          "value": "400",
-          "type": "fontWeights"
-        }
-      },
-      "lineHeight": {
-        "value": "120%",
-        "type": "lineHeights"
+        "type": "typography"
       },
       "margin": {
         "value": "0 0 0.75rem",
@@ -1895,6 +1846,10 @@
         }
       },
       "margin": {
+        "0": {
+          "value": "0",
+          "type": "spacing"
+        },
         "50": {
           "value": "0.1875rem",
           "type": "spacing"
@@ -1964,8 +1919,14 @@
           "type": "borderRadius"
         },
         "width": {
-          "value": ".125rem",
+          "value": "0.125rem",
           "type": "borderWidth"
+        }
+      },
+      "danger": {
+        "text": {
+          "value": "#A62A1E",
+          "type": "color"
         }
       },
       "default": {
@@ -1975,12 +1936,6 @@
         },
         "text": {
           "value": "#000",
-          "type": "color"
-        }
-      },
-      "destructive": {
-        "text": {
-          "value": "#A62A1E",
           "type": "color"
         }
       },
@@ -2001,22 +1956,13 @@
         }
       },
       "font": {
-        "family": {
-          "value": "\"Noto Sans\", sans-serif",
-          "type": "fontFamilies"
+        "value": {
+          "fontFamily": "\"Noto Sans\", sans-serif",
+          "fontWeight": "400",
+          "lineHeight": "120%",
+          "fontSize": "1.25rem"
         },
-        "size": {
-          "value": "1.25rem",
-          "type": "fontSizes"
-        },
-        "weight": {
-          "value": "400",
-          "type": "fontWeights"
-        }
-      },
-      "lineHeight": {
-        "value": "120%",
-        "type": "lineHeights"
+        "type": "typography"
       },
       "margin": {
         "value": "0 0 1.5rem",
@@ -2039,22 +1985,13 @@
     },
     "label": {
       "font": {
-        "family": {
-          "value": "\"Noto Sans\", sans-serif",
-          "type": "fontFamilies"
+        "value": {
+          "fontFamily": "\"Noto Sans\", sans-serif",
+          "fontWeight": "500",
+          "lineHeight": "120%",
+          "fontSize": "1.25rem"
         },
-        "size": {
-          "value": "1.25rem",
-          "type": "fontSizes"
-        },
-        "weight": {
-          "value": "500",
-          "type": "fontWeights"
-        }
-      },
-      "lineHeight": {
-        "value": "120%",
-        "type": "lineHeights"
+        "type": "typography"
       },
       "margin": {
         "value": "0 0 0.375rem",
@@ -2095,28 +2032,19 @@
         }
       },
       "font": {
-        "family": {
-          "value": "\"Noto Sans\", sans-serif",
-          "type": "fontFamilies"
+        "value": {
+          "fontFamily": "\"Noto Sans\", sans-serif",
+          "fontWeight": "400",
+          "lineHeight": "120%",
+          "fontSize": "1.25rem"
         },
-        "size": {
-          "value": "1.25rem",
-          "type": "fontSizes"
-        },
-        "weight": {
-          "value": "400",
-          "type": "fontWeights"
-        }
+        "type": "typography"
       },
       "hover": {
         "text": {
           "value": "#31455C",
           "type": "color"
         }
-      },
-      "lineHeight": {
-        "value": "120%",
-        "type": "lineHeights"
       },
       "padding": {
         "value": "1.125rem",
@@ -2144,7 +2072,7 @@
           "type": "borderRadius"
         },
         "width": {
-          "value": ".125rem",
+          "value": "0.125rem",
           "type": "borderWidth"
         }
       },
@@ -2177,22 +2105,13 @@
         }
       },
       "font": {
-        "family": {
-          "value": "\"Noto Sans\", sans-serif",
-          "type": "fontFamilies"
+        "value": {
+          "fontFamily": "\"Noto Sans\", sans-serif",
+          "fontWeight": "700",
+          "lineHeight": "120%",
+          "fontSize": "1.25rem"
         },
-        "size": {
-          "value": "1.25rem",
-          "type": "fontSizes"
-        },
-        "weight": {
-          "value": "700",
-          "type": "fontWeights"
-        }
-      },
-      "lineHeight": {
-        "value": "120%",
-        "type": "lineHeights"
+        "type": "typography"
       },
       "list": {
         "endButton": {
@@ -2281,18 +2200,13 @@
         }
       },
       "font": {
-        "family": {
-          "value": "\"Noto Sans\", sans-serif",
-          "type": "fontFamilies"
+        "value": {
+          "fontFamily": "\"Noto Sans\", sans-serif",
+          "fontWeight": "400",
+          "lineHeight": "135%",
+          "fontSize": "1.1111111111111112rem"
         },
-        "size": {
-          "value": "1.1111111111111112rem",
-          "type": "fontSizes"
-        },
-        "weight": {
-          "value": "400",
-          "type": "fontWeights"
-        }
+        "type": "typography"
       },
       "icon": {
         "margin": {
@@ -2303,10 +2217,6 @@
           "value": "1.125rem",
           "type": "sizing"
         }
-      },
-      "lineHeight": {
-        "value": "135%",
-        "type": "lineHeights"
       },
       "padding": {
         "value": "0.9375rem",
@@ -2360,15 +2270,15 @@
           "type": "spacing"
         }
       },
-      "default": {
+      "danger": {
         "text": {
-          "value": "#000",
+          "value": "#A62A1E",
           "type": "color"
         }
       },
-      "destructive": {
+      "default": {
         "text": {
-          "value": "#A62A1E",
+          "value": "#000",
           "type": "color"
         }
       },
@@ -2399,18 +2309,13 @@
         }
       },
       "font": {
-        "family": {
-          "value": "\"Noto Sans\", sans-serif",
-          "type": "fontFamilies"
+        "value": {
+          "fontFamily": "\"Noto Sans\", sans-serif",
+          "fontWeight": "400",
+          "lineHeight": "120%",
+          "fontSize": "1.25rem"
         },
-        "size": {
-          "value": "1.25rem",
-          "type": "fontSizes"
-        },
-        "weight": {
-          "value": "400",
-          "type": "fontWeights"
-        }
+        "type": "typography"
       },
       "input": {
         "border": {
@@ -2426,14 +2331,13 @@
       },
       "hint": {
         "font": {
-          "size": {
-            "value": "1.1111111111111112rem",
-            "type": "fontSizes"
-          }
-        },
-        "lineHeight": {
-          "value": "135%",
-          "type": "lineHeights"
+          "value": {
+            "fontFamily": "\"Noto Sans\", sans-serif",
+            "fontWeight": "400",
+            "lineHeight": "135%",
+            "fontSize": "1.1111111111111112rem"
+          },
+          "type": "typography"
         },
         "text": {
           "value": "#2F3238",
@@ -2445,10 +2349,6 @@
           "value": "0 0 0 3.75rem",
           "type": "spacing"
         }
-      },
-      "lineHeight": {
-        "value": "120%",
-        "type": "lineHeights"
       },
       "margin": {
         "value": "2.25rem 0 1.5rem",
@@ -2472,8 +2372,14 @@
           "type": "borderRadius"
         },
         "width": {
-          "value": ".125rem",
+          "value": "0.125rem",
           "type": "borderWidth"
+        }
+      },
+      "danger": {
+        "text": {
+          "value": "#A62A1E",
+          "type": "color"
         }
       },
       "default": {
@@ -2483,12 +2389,6 @@
         },
         "text": {
           "value": "#000",
-          "type": "color"
-        }
-      },
-      "destructive": {
-        "text": {
-          "value": "#A62A1E",
           "type": "color"
         }
       },
@@ -2509,22 +2409,13 @@
         }
       },
       "font": {
-        "family": {
-          "value": "\"Noto Sans\", sans-serif",
-          "type": "fontFamilies"
+        "value": {
+          "fontFamily": "\"Noto Sans\", sans-serif",
+          "fontWeight": "400",
+          "lineHeight": "120%",
+          "fontSize": "1.25rem"
         },
-        "size": {
-          "value": "1.25rem",
-          "type": "fontSizes"
-        },
-        "weight": {
-          "value": "400",
-          "type": "fontWeights"
-        }
-      },
-      "lineHeight": {
-        "value": "120%",
-        "type": "lineHeights"
+        "type": "typography"
       },
       "margin": {
         "value": "0 0 1.5rem",
@@ -2663,22 +2554,13 @@
     },
     "stepper": {
       "font": {
-        "family": {
-          "value": "\"Lato\", sans-serif",
-          "type": "fontFamilies"
+        "value": {
+          "fontFamily": "\"Lato\", sans-serif",
+          "fontWeight": "600",
+          "lineHeight": "124.44444444444444%",
+          "fontSize": "1.40625rem"
         },
-        "size": {
-          "value": "1.40625rem",
-          "type": "fontSizes"
-        },
-        "weight": {
-          "value": "600",
-          "type": "fontWeights"
-        }
-      },
-      "lineHeight": {
-        "value": "124.44444444444444%",
-        "type": "lineHeights"
+        "type": "typography"
       },
       "margin": {
         "value": "0 0 1.125rem",
@@ -2696,8 +2578,14 @@
           "type": "borderRadius"
         },
         "width": {
-          "value": ".125rem",
+          "value": "0.125rem",
           "type": "borderWidth"
+        }
+      },
+      "danger": {
+        "text": {
+          "value": "#A62A1E",
+          "type": "color"
         }
       },
       "default": {
@@ -2707,12 +2595,6 @@
         },
         "text": {
           "value": "#000",
-          "type": "color"
-        }
-      },
-      "destructive": {
-        "text": {
-          "value": "#A62A1E",
           "type": "color"
         }
       },
@@ -2733,22 +2615,13 @@
         }
       },
       "font": {
-        "family": {
-          "value": "\"Noto Sans\", sans-serif",
-          "type": "fontFamilies"
+        "value": {
+          "fontFamily": "\"Noto Sans\", sans-serif",
+          "fontWeight": "400",
+          "lineHeight": "120%",
+          "fontSize": "1.25rem"
         },
-        "size": {
-          "value": "1.25rem",
-          "type": "fontSizes"
-        },
-        "weight": {
-          "value": "400",
-          "type": "fontWeights"
-        }
-      },
-      "lineHeight": {
-        "value": "120%",
-        "type": "lineHeights"
+        "type": "typography"
       },
       "margin": {
         "value": "0 0 1.5rem",
@@ -2843,22 +2716,13 @@
         }
       },
       "font": {
-        "family": {
-          "value": "\"Noto Sans\", sans-serif",
-          "type": "fontFamilies"
+        "value": {
+          "fontFamily": "\"Noto Sans\", sans-serif",
+          "fontWeight": "400",
+          "lineHeight": "135%",
+          "fontSize": "1.1111111111111112rem"
         },
-        "size": {
-          "value": "1.1111111111111112rem",
-          "type": "fontSizes"
-        },
-        "weight": {
-          "value": "400",
-          "type": "fontWeights"
-        }
-      },
-      "lineHeight": {
-        "value": "120%",
-        "type": "lineHeights"
+        "type": "typography"
       },
       "summary": {
         "padding": {

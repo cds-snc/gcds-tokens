@@ -2,12 +2,18 @@
   "input": {
     "border": {
       "radius": {
-        "value": "{spacing.50.value}",
+        "value": "{border.radius.sm.value}",
         "type": "borderRadius"
       },
       "width": {
-        "value": ".125rem",
+        "value": "{border.width.md.value}",
         "type": "borderWidth"
+      }
+    },
+    "danger": {
+      "text": {
+        "value": "{danger.text.value}",
+        "type": "color"
       }
     },
     "default": {
@@ -17,12 +23,6 @@
       },
       "text": {
         "value": "{text.primary.value}",
-        "type": "color"
-      }
-    },
-    "destructive": {
-      "text": {
-        "value": "{danger.text.value}",
         "type": "color"
       }
     },
@@ -43,22 +43,13 @@
       }
     },
     "font": {
-      "family": {
-        "value": "{fontFamilies.body.value}",
-        "type": "fontFamilies"
+      "value": {
+        "fontFamily": "{fontFamilies.body}",
+        "fontWeight": "{fontWeights.regular}",
+        "lineHeight": "{lineHeights.text}",
+        "fontSize": "{fontSizes.text}"
       },
-      "size": {
-        "value": "{fontSizes.text.value}",
-        "type": "fontSizes"
-      },
-      "weight": {
-        "value": "{fontWeights.regular.value}",
-        "type": "fontWeights"
-      }
-    },
-    "lineHeight": {
-      "value": "{lineHeights.text.value}",
-      "type": "lineHeights"
+      "type": "typography"
     },
     "margin": {
       "value": "0 0 {spacing.400.value}",
@@ -70,7 +61,7 @@
     },
     "outline": {
       "width": {
-        "value": "{spacing.50.value}",
+        "value": "{outline.width.value}",
         "type": "other"
       }
     },

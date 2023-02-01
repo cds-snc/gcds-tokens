@@ -25,22 +25,13 @@
       }
     },
     "font": {
-      "family": {
-        "value": "{fontFamilies.body.value}",
-        "type": "fontFamilies"
+      "value": {
+        "fontFamily": "{fontFamilies.body}",
+        "fontWeight": "{fontWeights.regular}",
+        "lineHeight": "{lineHeights.text}",
+        "fontSize": "85%"
       },
-      "size": {
-        "value": "85%",
-        "type": "fontSizes"
-      },
-      "weight": {
-        "value": "{fontWeights.regular.value}",
-        "type": "fontWeights"
-      }
-    },
-    "lineHeight": {
-      "value": "{lineHeights.text.value}",
-      "type": "lineHeights"
+      "type": "typography"
     },
     "list": {
       "gridGap": {
@@ -78,7 +69,7 @@
                 "type": "border"
               },
               "width": {
-                "value": "{spacing.100.value}",
+                "value": "{border.width.lg.value}",
                 "type": "borderWidth"
               }
             },

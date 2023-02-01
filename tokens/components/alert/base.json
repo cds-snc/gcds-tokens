@@ -2,18 +2,18 @@
   "alert": {
     "border": {
       "width": {
-        "value": "{spacing.100.value}",
+        "value": "{border.width.lg.value}",
         "type": "borderWidth"
       }
     },
     "button": {
       "border": {
         "radius": {
-          "value": "{spacing.100.value}",
+          "value": "{border.radius.md.value}",
           "type": "borderRadius"
         },
         "width": {
-          "value": ".125rem",
+          "value": "{border.width.md.value}",
           "type": "borderWidth"
         }
       },
@@ -67,7 +67,7 @@
       },
       "outline": {
         "width": {
-          "value": "{spacing.50.value}",
+          "value": "{outline.width.value}",
           "type": "other"
         }
       }
@@ -101,22 +101,13 @@
     "content": {
       "heading": {
         "font": {
-          "family": {
-            "value": "{fontFamilies.heading.value}",
-            "type": "fontFamilies"
+          "value": {
+            "fontFamily": "{fontFamilies.heading}",
+            "fontWeight": "{fontWeights.bold}",
+            "lineHeight": "{lineHeights.h5}",
+            "fontSize": "{fontSizes.h5}"
           },
-          "size": {
-            "value": "{fontSizes.h5.value}",
-            "type": "fontSizes"
-          },
-          "weight": {
-            "value": "{fontWeights.bold.value}",
-            "type": "fontWeights"
-          }
-        },
-        "lineHeight": {
-          "value": "{lineHeights.h5.value}",
-          "type": "lineHeights"
+          "type": "typography"
         },
         "margin": {
           "value": "{spacing.50.value} 0 {spacing.150.value}",
@@ -143,18 +134,13 @@
       }
     },
     "font": {
-      "family": {
-        "value": "{fontFamilies.body.value}",
-        "type": "fontFamilies"
+      "value": {
+        "fontFamily": "{fontFamilies.body}",
+        "fontWeight": "{fontWeights.regular}",
+        "lineHeight": "{lineHeights.text}",
+        "fontSize": "{fontSizes.text}"
       },
-      "size": {
-        "value": "{fontSizes.text.value}",
-        "type": "fontSizes"
-      },
-      "weight": {
-        "value": "{fontWeights.regular.value}",
-        "type": "fontWeights"
-      }
+      "type": "typography"
     },
     "icon": {
       "font": {
@@ -174,10 +160,6 @@
         }
       }
     },
-    "lineHeight": {
-      "value": "{lineHeights.text.value}",
-      "type": "lineHeights"
-    },
     "padding": {
       "value": "{spacing.200.value} {spacing.250.value}",
       "type": "spacing"
@@ -186,7 +168,7 @@
       "value": "{text.primary.value}",
       "type": "color"
     },
-    "destructive": {
+    "danger": {
       "background": {
         "value": "{danger.background.value}",
         "type": "color"
