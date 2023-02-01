@@ -18,6 +18,10 @@
     "margin": {
       "value": "{spacing.500.value} 0 0",
       "type": "spacing"
+    },
+    "text": {
+      "value": "{text.primary.value}",
+      "type": "color"
     }
   }
 }

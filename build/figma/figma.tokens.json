@@ -1073,6 +1073,10 @@
       "margin": {
         "value": "3rem 0 0",
         "type": "spacing"
+      },
+      "text": {
+        "value": "#000",
+        "type": "color"
       }
     },
     "details": {
