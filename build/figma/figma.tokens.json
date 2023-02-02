@@ -1412,6 +1412,10 @@
           "text": {
             "value": "#FFF",
             "type": "color"
+          },
+          "padding": {
+            "value": "0.5625rem",
+            "type": "spacing"
           }
         },
         "margin": {

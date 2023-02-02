@@ -98,6 +98,10 @@
         "text": {
           "value": "{text.light.value}",
           "type": "color"
+        },
+        "padding": {
+          "value": "{spacing.150.value}",
+          "type": "spacing"
         }
       },
       "margin": {
