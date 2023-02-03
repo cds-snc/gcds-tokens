@@ -796,7 +796,7 @@
       "item": {
         "arrow": {
           "top": {
-            "value": "0.1875rem",
+            "value": "0.9375rem",
             "type": "spacing"
           },
           "left": {
@@ -816,14 +816,14 @@
             "type": "spacing"
           }
         },
+        "margin": {
+          "value": "0.75rem 0",
+          "type": "spacing"
+        },
         "padding": {
           "value": "0 0 0 1.5rem",
           "type": "spacing"
         }
-      },
-      "margin": {
-        "value": "0.75rem 0",
-        "type": "spacing"
       }
     },
     "button": {
