@@ -34,7 +34,7 @@
     "item": {
       "arrow": {
         "top": {
-          "value": "{spacing.50.value}",
+          "value": "{spacing.250.value}",
           "type": "spacing"
         },
         "left": {
