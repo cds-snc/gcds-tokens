@@ -56,7 +56,7 @@
     "font": {
       "value": {
         "fontFamily": "{fontFamilies.body}",
-        "fontWeight": "{fontWeights.bold}",
+        "fontWeight": "{fontWeights.medium}",
         "lineHeight": "{lineHeights.text}",
         "fontSize": "{fontSizes.text}"
       },
@@ -107,6 +107,12 @@
         "margin": {
           "value": "{spacing.100.value} {spacing.100.value} {spacing.200.value}",
           "type": "spacing"
+        },
+        "text": {
+          "margin": {
+            "value": "0 0 {spacing.50.value}",
+            "type": "spacing"
+          }
         }
       },
       "padding": {
