@@ -796,7 +796,7 @@
       "item": {
         "arrow": {
           "top": {
-            "value": "0.1875rem",
+            "value": "0.9375rem",
             "type": "spacing"
           },
           "left": {
@@ -2173,7 +2173,7 @@
       "font": {
         "value": {
           "fontFamily": "\"Noto Sans\", sans-serif",
-          "fontWeight": "700",
+          "fontWeight": "500",
           "lineHeight": "120%",
           "fontSize": "1.25rem"
         },
@@ -2224,6 +2224,12 @@
           "margin": {
             "value": "0.375rem 0.375rem 0.75rem",
             "type": "spacing"
+          },
+          "text": {
+            "margin": {
+              "value": "0 0 0.1875rem",
+              "type": "spacing"
+            }
           }
         },
         "padding": {
