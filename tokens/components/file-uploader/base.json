@@ -81,17 +81,27 @@
         }
       },
       "icon": {
-        "default": {
-          "value": "{color.red.500.value}",
+        "background": {
+          "default": {
+            "value": "{color.red.500.value}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{color.red.900.value}",
+            "type": "color"
+          },
+          "active": {
+            "value": "{text.primary.value}",
+            "type": "color"
+          }
+        },
+        "text": {
+          "value": "{text.light.value}",
           "type": "color"
         },
-        "hover": {
-          "value": "{color.red.900.value}",
-          "type": "color"
-        },
-        "active": {
-          "value": "{text.primary.value}",
-          "type": "color"
+        "padding": {
+          "value": "{spacing.150.value}",
+          "type": "spacing"
         }
       },
       "margin": {
@@ -117,7 +127,7 @@
         }
       },
       "padding": {
-        "value": "{spacing.250.value} {spacing.400.value}",
+        "value": "{spacing.200.value} {spacing.200.value} {spacing.200.value} {spacing.400.value}",
         "type": "spacing"
       }
     },

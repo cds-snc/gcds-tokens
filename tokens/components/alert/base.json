@@ -110,7 +110,7 @@
           "type": "typography"
         },
         "margin": {
-          "value": "{spacing.50.value} 0 {spacing.150.value}",
+          "value": "0 0 {spacing.150.value}",
           "type": "spacing"
         },
         "mobile": {
