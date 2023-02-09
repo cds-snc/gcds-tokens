@@ -43,7 +43,7 @@ jobs:
       - name: Prep push to gcds-docs
         run: |
           cd build/figma
-          mv figma.token.json tokens.json
+          mv figma.token.json figma.json
       - name: Push to gcds-docs
         uses: cpina/github-action-push-to-another-repository@9e487f29582587eeb4837c0552c886bb0644b6b9
         env:
