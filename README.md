@@ -1,4 +1,4 @@
-[La version française suit.](#--------------------------------------------------------)
+[La version française suit.](#unités-de-style-de-système-de-design-gc)
 <br/>
 <br/>
 
