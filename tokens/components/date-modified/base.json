@@ -10,13 +10,13 @@
       "value": {
         "fontFamily": "{fontFamilies.body}",
         "fontWeight": "{fontWeights.regular}",
-        "lineHeight": "{lineHeights.text}",
-        "fontSize": "{fontSizes.text}"
+        "lineHeight": "{lineHeights.caption}",
+        "fontSize": "{fontSizes.caption}"
       },
       "type": "typography"
     },
     "margin": {
-      "value": "{spacing.500.value} 0 0",
+      "value": "{spacing.500.value} 0 {spacing.400.value}",
       "type": "spacing"
     },
     "text": {

@@ -69,7 +69,7 @@
                 "type": "border"
               },
               "width": {
-                "value": "{border.width.xl.value}",
+                "value": "{border.width.lg.value}",
                 "type": "borderWidth"
               }
             },

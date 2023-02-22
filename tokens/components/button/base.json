@@ -31,14 +31,14 @@
     "font": {
       "value": {
         "fontFamily": "{fontFamilies.body}",
-        "fontWeight": "{fontWeights.regular}",
+        "fontWeight": "{fontWeights.medium}",
         "lineHeight": "{lineHeights.text}",
         "fontSize": "{fontSizes.text}"
       },
       "type": "typography"
     },
     "padding": {
-      "value": "{spacing.300.value} {spacing.200.value}",
+      "value": "{spacing.200.value}",
       "type": "spacing"
     },
     "primary": {

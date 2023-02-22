@@ -3,7 +3,7 @@
     "font": {
       "value": {
         "fontFamily": "{fontFamilies.body}",
-        "fontWeight": "{fontWeights.medium}",
+        "fontWeight": "{fontWeights.semibold}",
         "lineHeight": "{lineHeights.text}",
         "fontSize": "{fontSizes.text}"
       },
