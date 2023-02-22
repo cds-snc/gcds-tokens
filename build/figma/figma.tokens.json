@@ -910,6 +910,24 @@
           }
         }
       },
+      "textOnly": {
+        "default": {
+          "background": {
+            "value": "transparent",
+            "type": "color"
+          },
+          "text": {
+            "value": "#425A76",
+            "type": "color"
+          }
+        },
+        "hover": {
+          "text": {
+            "value": "#26374A",
+            "type": "color"
+          }
+        }
+      },
       "shared": {
         "active": {
           "background": {

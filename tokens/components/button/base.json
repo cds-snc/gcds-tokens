@@ -83,6 +83,24 @@
         }
       }
     },
+    "textOnly": {
+      "default": {
+        "background": {
+          "value": "transparent",
+          "type": "color"
+        },
+        "text": {
+          "value": "{link.default.value}",
+          "type": "color"
+        }
+      },
+      "hover": {
+        "text": {
+          "value": "{link.hover.value}",
+          "type": "color"
+        }
+      }
+    },
     "shared": {
       "active": {
         "background": {
