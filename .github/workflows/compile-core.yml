@@ -19,7 +19,7 @@ jobs:
         run: |
           npm run build
       - name: Push to gcds-utilities
-        uses: cpina/github-action-push-to-another-repository@9e487f29582587eeb4837c0552c886bb0644b6b9
+        uses: cpina/github-action-push-to-another-repository@0a14457bb28b04dfa1652e0ffdfda866d2845c73
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
@@ -30,7 +30,7 @@ jobs:
           user-email: ${{ secrets.USER_EMAIL }}
           target-branch: main
       - name: Push to gcds-components
-        uses: cpina/github-action-push-to-another-repository@9e487f29582587eeb4837c0552c886bb0644b6b9
+        uses: cpina/github-action-push-to-another-repository@0a14457bb28b04dfa1652e0ffdfda866d2845c73
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
@@ -41,7 +41,7 @@ jobs:
           user-email: ${{ secrets.USER_EMAIL }}
           target-branch: main
       - name: Push to gcds-docs
-        uses: cpina/github-action-push-to-another-repository@9e487f29582587eeb4837c0552c886bb0644b6b9
+        uses: cpina/github-action-push-to-another-repository@0a14457bb28b04dfa1652e0ffdfda866d2845c73
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
