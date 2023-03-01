@@ -55,6 +55,10 @@
         "type": "color",
         "comment": "Must contrast 7:1 with white"
       },
+      "800": {
+        "value": "#43474E",
+        "type": "color"
+      },
       "900": {
         "value": "#2F3238",
         "type": "color"

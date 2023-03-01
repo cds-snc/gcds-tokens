@@ -52,6 +52,10 @@
           "value": "#545961",
           "type": "color"
         },
+        "800": {
+          "value": "#43474E",
+          "type": "color"
+        },
         "900": {
           "value": "#2F3238",
           "type": "color"
@@ -483,7 +487,7 @@
         "type": "color"
       },
       "text": {
-        "value": "#7D828B",
+        "value": "#545961",
         "type": "color"
       }
     },
@@ -525,7 +529,7 @@
         "type": "color"
       },
       "secondary": {
-        "value": "#545961",
+        "value": "#43474E",
         "type": "color"
       }
     },
@@ -961,7 +965,7 @@
             "type": "color"
           },
           "text": {
-            "value": "#7D828B",
+            "value": "#545961",
             "type": "color"
           }
         }
@@ -1031,11 +1035,11 @@
           "type": "color"
         },
         "border": {
-          "value": "#7D828B",
+          "value": "#545961",
           "type": "color"
         },
         "text": {
-          "value": "#7D828B",
+          "value": "#545961",
           "type": "color"
         }
       },
@@ -1299,7 +1303,7 @@
       },
       "disabled": {
         "text": {
-          "value": "#7D828B",
+          "value": "#545961",
           "type": "color"
         }
       },
@@ -1388,7 +1392,7 @@
           "type": "color"
         },
         "text": {
-          "value": "#7D828B",
+          "value": "#545961",
           "type": "color"
         }
       },
@@ -1413,6 +1417,12 @@
           }
         },
         "button": {
+          "border": {
+            "width": {
+              "value": "0.0625rem",
+              "type": "borderWidth"
+            }
+          },
           "default": {
             "text": {
               "value": "#A62A1E",
@@ -2017,7 +2027,7 @@
           "type": "color"
         },
         "text": {
-          "value": "#7D828B",
+          "value": "#545961",
           "type": "color"
         }
       },
@@ -2366,11 +2376,11 @@
           "type": "color"
         },
         "border": {
-          "value": "#7D828B",
+          "value": "#545961",
           "type": "color"
         },
         "text": {
-          "value": "#7D828B",
+          "value": "#545961",
           "type": "color"
         }
       },
@@ -2472,7 +2482,7 @@
           "type": "color"
         },
         "text": {
-          "value": "#7D828B",
+          "value": "#545961",
           "type": "color"
         }
       },
@@ -2641,7 +2651,7 @@
         "type": "spacing"
       },
       "text": {
-        "value": "#545961",
+        "value": "#43474E",
         "type": "color"
       }
     },
@@ -2678,7 +2688,7 @@
           "type": "color"
         },
         "text": {
-          "value": "#7D828B",
+          "value": "#545961",
           "type": "color"
         }
       },

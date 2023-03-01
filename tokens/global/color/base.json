@@ -42,7 +42,7 @@
       "comment": "Global color: disabled background"
     },
     "text": {
-      "value": "{color.grayscale.500.value}",
+      "value": "{color.grayscale.700.value}",
       "type": "color",
       "comment": "Global color: disabled text"
     }
@@ -93,7 +93,7 @@
       "comment": "Global color: text primary"
     },
     "secondary": {
-      "value": "{color.grayscale.700.value}",
+      "value": "{color.grayscale.800.value}",
       "type": "color",
       "comment": "Global color: text secondary"
     }
