@@ -93,7 +93,7 @@
       "comment": "Global color: text primary"
     },
     "secondary": {
-      "value": "{color.grayscale.700.value}",
+      "value": "{color.grayscale.800.value}",
       "type": "color",
       "comment": "Global color: text secondary"
     }

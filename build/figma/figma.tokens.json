@@ -52,6 +52,10 @@
           "value": "#545961",
           "type": "color"
         },
+        "800": {
+          "value": "#43474E",
+          "type": "color"
+        },
         "900": {
           "value": "#2F3238",
           "type": "color"
@@ -525,7 +529,7 @@
         "type": "color"
       },
       "secondary": {
-        "value": "#545961",
+        "value": "#43474E",
         "type": "color"
       }
     },
@@ -2647,7 +2651,7 @@
         "type": "spacing"
       },
       "text": {
-        "value": "#545961",
+        "value": "#43474E",
         "type": "color"
       }
     },
