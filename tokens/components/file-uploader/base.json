@@ -81,6 +81,12 @@
         }
       },
       "button": {
+        "border": {
+          "width": {
+            "value": "{border.width.sm.value}",
+            "type": "borderWidth"
+          }
+        },
         "default": {
           "text": {
             "value": "{danger.text.value}",

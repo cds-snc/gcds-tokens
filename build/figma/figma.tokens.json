@@ -1413,6 +1413,12 @@
           }
         },
         "button": {
+          "border": {
+            "width": {
+              "value": "0.0625rem",
+              "type": "borderWidth"
+            }
+          },
           "default": {
             "text": {
               "value": "#A62A1E",
