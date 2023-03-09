@@ -2621,7 +2621,7 @@
       },
       "submenu": {
         "background": {
-          "value": "#A8ADB4",
+          "value": "#D6D9DD",
           "type": "color"
         },
         "box-shadow": {

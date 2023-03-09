@@ -58,7 +58,7 @@
     },
     "submenu": {
       "background": {
-        "value": "{color.grayscale.300.value}",
+        "value": "{color.grayscale.100.value}",
         "type": "color"
       },
       "box-shadow": {
