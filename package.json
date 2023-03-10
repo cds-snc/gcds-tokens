@@ -1,9 +1,9 @@
 {
   "name": "@cdssnc/gcds-tokens",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Government of Canada | Gouvernement du Canada",
   "description": "GC Design System Tokens",
-  "homepage": "https://cds-design-snc.netlify.app/",
+  "homepage": "https://design-system.alpha.canada.ca/",
   "main": "build.js",
   "scripts": {
     "build": "style-dictionary build"
