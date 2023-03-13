@@ -2553,7 +2553,7 @@
       },
       "wordmark": {
         "margin": {
-          "value": "1.5rem 0",
+          "value": "2.25rem 0",
           "type": "spacing"
         },
         "height": {
