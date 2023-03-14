@@ -1585,16 +1585,6 @@
           "value": "#F1F2F3",
           "type": "color"
         },
-        "focus": {
-          "background": {
-            "value": "#303FC3",
-            "type": "color"
-          },
-          "text": {
-            "value": "#FFF",
-            "type": "color"
-          }
-        },
         "gridGap": {
           "value": "0.75rem",
           "type": "spacing"
@@ -1603,6 +1593,12 @@
           "text": {
             "value": "#26374A",
             "type": "color"
+          },
+          "decoration": {
+            "thickness": {
+              "value": "0.125rem",
+              "type": "borderWidth"
+            }
           }
         },
         "listitem": {
@@ -1628,6 +1624,10 @@
             "minWidth": {
               "value": "auto",
               "type": "sizing"
+            },
+            "margin": {
+              "value": "0 0 0 auto",
+              "type": "spacing"
             }
           },
           "margin": {
@@ -1650,6 +1650,34 @@
         "text": {
           "value": "#31455C",
           "type": "color"
+        }
+      },
+      "link": {
+        "focus": {
+          "text": {
+            "value": "#FFF",
+            "type": "color"
+          },
+          "background": {
+            "value": "#303FC3",
+            "type": "color"
+          },
+          "radius": {
+            "value": "0.1875rem",
+            "type": "borderRadius"
+          },
+          "box-shadow": {
+            "value": "0 0 0 0.125rem #FFF",
+            "type": "color"
+          },
+          "outline-offset": {
+            "value": "0.125rem",
+            "type": "spacing"
+          },
+          "outline": {
+            "value": "0.1875rem solid #303FC3",
+            "type": "other"
+          }
         }
       }
     },
