@@ -54,7 +54,7 @@
         "value": "{color.blue.900.value}",
         "type": "color"
       },
-      "govnav" : {
+      "govnav": {
         "padding": {
           "value": "{spacing.300.value} 0",
           "type": "spacing"
@@ -84,7 +84,7 @@
         "value": "{text.light.value}",
         "type": "color"
       },
-      "themenav" : {
+      "themenav": {
         "padding": {
           "value": "{spacing.200.value} 0 {spacing.300.value}",
           "type": "spacing"
@@ -106,16 +106,6 @@
         "value": "{color.grayscale.50.value}",
         "type": "color"
       },
-      "focus": {
-        "background": {
-          "value": "{focus.background.value}",
-          "type": "color"
-        },
-        "text": {
-          "value": "{focus.text.value}",
-          "type": "color"
-        }
-      },
       "gridGap": {
         "value": "{spacing.200.value}",
         "type": "spacing"
@@ -124,6 +114,12 @@
         "text": {
           "value": "{link.hover.value}",
           "type": "color"
+        },
+        "decoration": {
+          "thickness": {
+            "value": "{border.width.md.value}",
+            "type": "borderWidth"
+          }
         }
       },
       "listitem": {
@@ -149,6 +145,10 @@
           "minWidth": {
             "value": "auto",
             "type": "sizing"
+          },
+          "margin": {
+            "value": "0 0 0 auto",
+            "type": "spacing"
           }
         },
         "margin": {
@@ -169,8 +169,36 @@
         }
       },
       "text": {
-        "value": "{link.default.value}",
+        "value": "{color.blue.800.value}",
         "type": "color"
+      }
+    },
+    "link": {
+      "focus": {
+        "text": {
+          "value": "{focus.text.value}",
+          "type": "color"
+        },
+        "background": {
+          "value": "{focus.background.value}",
+          "type": "color"
+        },
+        "radius": {
+          "value": "{border.radius.sm.value}",
+          "type": "borderRadius"
+        },
+        "box-shadow": {
+          "value": "0 0 0 {border.width.md.value} {color.grayscale.0.value}",
+          "type": "color"
+        },
+        "outline-offset": {
+          "value": "{border.width.md.value}",
+          "type": "spacing"
+        },
+        "outline": {
+          "value": "{spacing.50.value} solid {focus.background.value}",
+          "type": "other"
+        }
       }
     }
   }

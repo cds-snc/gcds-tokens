@@ -32,7 +32,7 @@
     },
     "wordmark": {
       "margin": {
-        "value": "{spacing.400.value} 0",
+        "value": "{spacing.450.value} 0",
         "type": "spacing"
       },
       "height": {
