@@ -5,6 +5,12 @@
   "description": "GC Design System Tokens",
   "homepage": "https://design-system.alpha.canada.ca/",
   "main": "build.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "build"
+  ],
   "scripts": {
     "build": "style-dictionary build"
   },

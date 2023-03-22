@@ -1,0 +1,18 @@
+name: Publish tokens
+on: 
+  push:
+    branches:
+      - main
+    paths:
+      - 'package.json'
+
+jobs:
+  build-deploy:
+    name: Publish package
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git Checkout
+        uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # v3.3.0
+       - uses: JS-DevTools/npm-publish@0f451a94170d1699fd50710966d48fb26194d939
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
