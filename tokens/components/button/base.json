@@ -101,6 +101,16 @@
         }
       }
     },
+    "mobile": {
+      "margin": {
+        "value": "{spacing.50.value} 0",
+        "type": "spacing"
+      },
+      "width": {
+        "value": "{container.full.value}",
+        "type": "sizing"
+      }
+    },
     "shared": {
       "active": {
         "background": {
@@ -159,6 +169,10 @@
         "value": "{spacing.200.value}",
         "type": "spacing"
       }
+    },
+    "width": {
+      "value": "fit-content",
+      "type": "sizing"
     }
   }
 }

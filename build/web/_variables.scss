@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Tue, 14 Mar 2023 21:47:29 GMT
+// Generated on Mon, 27 Mar 2023 18:30:38 GMT
 
 $gcds-color-blue-100: #d7e5f5;
 $gcds-color-blue-500: #6584a6; // Must contrast 3:1 with white
@@ -183,6 +183,8 @@ $gcds-button-secondary-active-background: #d7e5f5;
 $gcds-button-text-only-default-background: transparent;
 $gcds-button-text-only-default-text: #425a76;
 $gcds-button-text-only-hover-text: #26374a;
+$gcds-button-mobile-margin: 0.1875rem 0;
+$gcds-button-mobile-width: 100%;
 $gcds-button-shared-active-background: #000000;
 $gcds-button-shared-active-text: #ffffff;
 $gcds-button-shared-focus-background: #303fc3;
@@ -193,6 +195,7 @@ $gcds-button-shared-disabled-text: #545961;
 $gcds-button-skip-top: 1.5rem;
 $gcds-button-small-font: 400 80%/120% "Noto Sans", sans-serif;
 $gcds-button-small-padding: 0.75rem;
+$gcds-button-width: fit-content;
 $gcds-checkbox-check-border-width: 0.3125rem;
 $gcds-checkbox-check-height: 1.5rem;
 $gcds-checkbox-check-left: 1rem;
