@@ -932,6 +932,16 @@
           }
         }
       },
+      "mobile": {
+        "margin": {
+          "value": "0.1875rem 0",
+          "type": "spacing"
+        },
+        "width": {
+          "value": "100%",
+          "type": "sizing"
+        }
+      },
       "shared": {
         "active": {
           "background": {
@@ -990,6 +1000,10 @@
           "value": "0.75rem",
           "type": "spacing"
         }
+      },
+      "width": {
+        "value": "fit-content",
+        "type": "sizing"
       }
     },
     "checkbox": {
