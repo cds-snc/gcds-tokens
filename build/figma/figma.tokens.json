@@ -770,6 +770,12 @@
         "text": {
           "value": "#425A76",
           "type": "color"
+        },
+        "decoration": {
+          "thickness": {
+            "value": "0.0625rem",
+            "type": "borderWidth"
+          }
         }
       },
       "focus": {
@@ -777,9 +783,25 @@
           "value": "#303FC3",
           "type": "color"
         },
+        "border-radius": {
+          "value": "0.1875rem",
+          "type": "other"
+        },
         "text": {
           "value": "#FFF",
           "type": "color"
+        },
+        "box-shadow": {
+          "value": "0 0 0 0.125rem #FFF",
+          "type": "color"
+        },
+        "outline": {
+          "value": "0.1875rem solid #303FC3",
+          "type": "other"
+        },
+        "outline-offset": {
+          "value": "0.125rem",
+          "type": "borderWidth"
         }
       },
       "font": {
@@ -795,6 +817,12 @@
         "text": {
           "value": "#26374A",
           "type": "color"
+        },
+        "decoration": {
+          "thickness": {
+            "value": "0.125rem",
+            "type": "borderWidth"
+          }
         }
       },
       "item": {
@@ -1156,16 +1184,12 @@
         "text": {
           "value": "#425A76",
           "type": "color"
-        }
-      },
-      "active": {
-        "background": {
-          "value": "#000",
-          "type": "color"
         },
-        "text": {
-          "value": "#FFF",
-          "type": "color"
+        "decoration": {
+          "thickness": {
+            "value": "0.0625rem",
+            "type": "borderWidth"
+          }
         }
       },
       "focus": {
@@ -1176,6 +1200,22 @@
         "text": {
           "value": "#FFF",
           "type": "color"
+        },
+        "border-radius": {
+          "value": "0.1875rem",
+          "type": "other"
+        },
+        "box-shadow": {
+          "value": "0 0 0 0.125rem #FFF",
+          "type": "color"
+        },
+        "outline-offset": {
+          "value": "0.125rem",
+          "type": "borderWidth"
+        },
+        "outline": {
+          "value": "0.1875rem solid #303FC3",
+          "type": "other"
         }
       },
       "font": {
@@ -1200,6 +1240,12 @@
         "text": {
           "value": "#26374A",
           "type": "color"
+        },
+        "decoration": {
+          "thickness": {
+            "value": "0.125rem",
+            "type": "borderWidth"
+          }
         }
       },
       "panel": {

@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Mon, 27 Mar 2023 18:30:38 GMT
+// Generated on Wed, 29 Mar 2023 16:56:18 GMT
 
 $gcds-color-blue-100: #d7e5f5;
 $gcds-color-blue-500: #6584a6; // Must contrast 3:1 with white
@@ -156,10 +156,16 @@ $gcds-alert-warning-background: #faedd1;
 $gcds-alert-warning-icon: #b3800f;
 $gcds-alert-warning-text: #000000;
 $gcds-breadcrumbs-default-text: #425a76;
+$gcds-breadcrumbs-default-decoration-thickness: 0.0625rem;
 $gcds-breadcrumbs-focus-background: #303fc3;
+$gcds-breadcrumbs-focus-border-radius: 0.1875rem;
 $gcds-breadcrumbs-focus-text: #ffffff;
+$gcds-breadcrumbs-focus-box-shadow: 0 0 0 0.125rem #ffffff;
+$gcds-breadcrumbs-focus-outline: 0.1875rem solid #303fc3;
+$gcds-breadcrumbs-focus-outline-offset: 0.125rem;
 $gcds-breadcrumbs-font: 400 1.25rem/120% "Noto Sans", sans-serif;
 $gcds-breadcrumbs-hover-text: #26374a;
+$gcds-breadcrumbs-hover-decoration-thickness: 0.125rem;
 $gcds-breadcrumbs-item-arrow-top: 0.9375rem;
 $gcds-breadcrumbs-item-arrow-left: 0.1875rem;
 $gcds-breadcrumbs-item-first-child-margin: 0 0 0 -1.5rem;
@@ -222,13 +228,17 @@ $gcds-date-modified-font: 400 1.1111111111111112rem/135% "Noto Sans", sans-serif
 $gcds-date-modified-margin: 3rem 0 1.5rem;
 $gcds-date-modified-text: #000000;
 $gcds-details-default-text: #425a76;
-$gcds-details-active-background: #000000;
-$gcds-details-active-text: #ffffff;
+$gcds-details-default-decoration-thickness: 0.0625rem;
 $gcds-details-focus-background: #303fc3;
 $gcds-details-focus-text: #ffffff;
+$gcds-details-focus-border-radius: 0.1875rem;
+$gcds-details-focus-box-shadow: 0 0 0 0.125rem #ffffff;
+$gcds-details-focus-outline-offset: 0.125rem;
+$gcds-details-focus-outline: 0.1875rem solid #303fc3;
 $gcds-details-font: 400 1.25rem/120% "Noto Sans", sans-serif;
 $gcds-details-font-small: 400 1.1111111111111112rem/135% "Noto Sans", sans-serif;
 $gcds-details-hover-text: #26374a;
+$gcds-details-hover-decoration-thickness: 0.125rem;
 $gcds-details-panel-border-color: #7d828b;
 $gcds-details-panel-border-width: 0.375rem;
 $gcds-details-panel-margin: 0.375rem 0 0 0;
