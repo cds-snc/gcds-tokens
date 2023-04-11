@@ -1348,6 +1348,128 @@
         "type": "color"
       }
     },
+    "error-summary": {
+      "border": {
+        "color": {
+          "value": "#C24438",
+          "type": "color"
+        },
+        "width": {
+          "value": "0.375rem",
+          "type": "borderWidth"
+        }
+      },
+      "focus": {
+        "color": {
+          "value": "#303FC3",
+          "type": "color"
+        },
+        "link": {
+          "backgroundColor": {
+            "value": "#303FC3",
+            "type": "color"
+          },
+          "borderRadius": {
+            "value": "0.1875rem",
+            "type": "other"
+          },
+          "boxShadow": {
+            "value": "0 0 0 0.125rem #FFF",
+            "type": "other"
+          },
+          "outline": {
+            "value": "0.1875rem solid #303FC3",
+            "type": "other"
+          },
+          "outlineOffset": {
+            "value": "0.125rem",
+            "type": "borderWidth"
+          },
+          "text": {
+            "value": "#FFF",
+            "type": "color"
+          }
+        }
+      },
+      "heading": {
+        "font": {
+          "value": {
+            "fontFamily": "\"Lato\", sans-serif",
+            "fontWeight": "700",
+            "lineHeight": "122.08437060746162%",
+            "fontSize": "2.2525405883789062rem"
+          },
+          "type": "typography"
+        },
+        "paddingBottom": {
+          "value": "1.125rem",
+          "type": "spacing"
+        }
+      },
+      "hover": {
+        "link": {
+          "thickness": {
+            "value": "0.125rem",
+            "type": "borderWidth"
+          }
+        }
+      },
+      "link": {
+        "color": {
+          "value": "#A62A1E",
+          "type": "color"
+        },
+        "thickness": {
+          "value": "0.0625rem",
+          "type": "borderWidth"
+        }
+      },
+      "list": {
+        "item": {
+          "padding": {
+            "value": "0 0 0.75rem",
+            "type": "sizing"
+          }
+        },
+        "margin": {
+          "value": "0 0 0 1.125rem",
+          "type": "spacing"
+        }
+      },
+      "margin": {
+        "value": "0 0 2.25rem",
+        "type": "spacing"
+      },
+      "maxWidth": {
+        "value": "65ch",
+        "type": "sizing"
+      },
+      "message": {
+        "font": {
+          "value": {
+            "fontFamily": "\"Noto Sans\", sans-serif",
+            "fontWeight": "400",
+            "lineHeight": "120%",
+            "fontSize": "1.25rem"
+          },
+          "type": "typography"
+        },
+        "padding": {
+          "value": "0 0 1.125rem",
+          "type": "spacing"
+        }
+      },
+      "mobile": {
+        "padding": {
+          "value": "1.125rem",
+          "type": "spacing"
+        }
+      },
+      "padding": {
+        "value": "2.25rem",
+        "type": "spacing"
+      }
+    },
     "fieldset": {
       "danger": {
         "text": {
