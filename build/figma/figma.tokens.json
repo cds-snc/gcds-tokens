@@ -1444,7 +1444,7 @@
         "value": "65ch",
         "type": "sizing"
       },
-      "message": {
+      "subHeading": {
         "font": {
           "value": {
             "fontFamily": "\"Noto Sans\", sans-serif",
@@ -1458,6 +1458,10 @@
           "value": "0 0 1.125rem",
           "type": "spacing"
         }
+      },
+      "text": {
+        "value": "#000",
+        "type": "color"
       },
       "mobile": {
         "padding": {

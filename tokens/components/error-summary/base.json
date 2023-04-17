@@ -95,7 +95,7 @@
       "value": "65ch",
       "type": "sizing"
     },
-    "message": {
+    "subHeading": {
       "font": {
         "value": {
           "fontFamily": "{fontFamilies.body}",
@@ -109,6 +109,10 @@
         "value": "0 0 {spacing.300.value}",
         "type": "spacing"
       }
+    },
+    "text": {
+      "value": "{text.primary.value}",
+      "type": "color"
     },
     "mobile": {
       "padding": {

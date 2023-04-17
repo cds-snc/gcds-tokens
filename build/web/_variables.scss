@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Tue, 11 Apr 2023 13:01:15 GMT
+// Generated on Mon, 17 Apr 2023 18:08:38 GMT
 
 $gcds-color-blue-100: #d7e5f5;
 $gcds-color-blue-500: #6584a6; // Must contrast 3:1 with white
@@ -276,8 +276,9 @@ $gcds-error-summary-list-item-padding: 0 0 0.75rem;
 $gcds-error-summary-list-margin: 0 0 0 1.125rem;
 $gcds-error-summary-margin: 0 0 2.25rem;
 $gcds-error-summary-max-width: 65ch;
-$gcds-error-summary-message-font: 400 1.25rem/120% "Noto Sans", sans-serif;
-$gcds-error-summary-message-padding: 0 0 1.125rem;
+$gcds-error-summary-sub-heading-font: 400 1.25rem/120% "Noto Sans", sans-serif;
+$gcds-error-summary-sub-heading-padding: 0 0 1.125rem;
+$gcds-error-summary-text: #000000;
 $gcds-error-summary-mobile-padding: 1.125rem;
 $gcds-error-summary-padding: 2.25rem;
 $gcds-fieldset-danger-text: #a62a1e;
