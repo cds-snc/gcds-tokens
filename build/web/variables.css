@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 21 Apr 2023 00:11:04 GMT
+ * Generated on Tue, 25 Apr 2023 15:56:00 GMT
  */
 
 :root {
@@ -174,6 +174,8 @@
   --gcds-breadcrumbs-item-link-padding: 0.1875rem;
   --gcds-breadcrumbs-item-margin: 0.75rem 0;
   --gcds-breadcrumbs-item-padding: 0 0 0 1.5rem;
+  --gcds-breadcrumbs-margin: 0 0 0 -0.375rem;
+  --gcds-breadcrumbs-padding: 0 0 0 0.375rem;
   --gcds-button-border-radius: 0.375rem;
   --gcds-button-border-width: 0.125rem;
   --gcds-button-danger-default-background: #a62a1e;
