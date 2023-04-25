@@ -90,6 +90,14 @@
         "value": "0 0 0 {spacing.400.value}",
         "type": "spacing"
       }
+    },
+    "margin": {
+      "value": "0 0 0 -{spacing.100.value}",
+      "type": "spacing"
+    },
+    "padding": {
+      "value": "0 0 0 {spacing.100.value}",
+      "type": "spacing"
     }
   }
 }
