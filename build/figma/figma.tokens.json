@@ -208,7 +208,7 @@
         "type": "color"
       },
       "hover": {
-        "value": "#26374A",
+        "value": "#0535d2",
         "type": "color"
       },
       "light": {
@@ -815,7 +815,7 @@
       },
       "hover": {
         "text": {
-          "value": "#26374A",
+          "value": "#0535d2",
           "type": "color"
         },
         "decoration": {
@@ -963,7 +963,7 @@
         },
         "hover": {
           "text": {
-            "value": "#26374A",
+            "value": "#0535d2",
             "type": "color"
           }
         }
@@ -1246,7 +1246,7 @@
       },
       "hover": {
         "text": {
-          "value": "#26374A",
+          "value": "#0535d2",
           "type": "color"
         },
         "decoration": {
@@ -1785,7 +1785,7 @@
         },
         "hover": {
           "text": {
-            "value": "#26374A",
+            "value": "#0535d2",
             "type": "color"
           },
           "decoration": {
@@ -2358,7 +2358,7 @@
       },
       "hover": {
         "text": {
-          "value": "#26374A",
+          "value": "#0535d2",
           "type": "color"
         },
         "decoration": {
