@@ -23,7 +23,7 @@
           "type": "color"
         },
         "focus": {
-          "value": "#303FC3",
+          "value": "#0535d2",
           "type": "color"
         }
       },
@@ -190,7 +190,7 @@
     },
     "focus": {
       "background": {
-        "value": "#303FC3",
+        "value": "#0535d2",
         "type": "color"
       },
       "text": {
@@ -198,7 +198,7 @@
         "type": "color"
       },
       "textForm": {
-        "value": "#303FC3",
+        "value": "#0535d2",
         "type": "color"
       }
     },
@@ -577,7 +577,7 @@
         },
         "focus": {
           "background": {
-            "value": "#303FC3",
+            "value": "#0535d2",
             "type": "color"
           },
           "text": {
@@ -780,7 +780,7 @@
       },
       "focus": {
         "background": {
-          "value": "#303FC3",
+          "value": "#0535d2",
           "type": "color"
         },
         "border-radius": {
@@ -796,7 +796,7 @@
           "type": "color"
         },
         "outline": {
-          "value": "0.1875rem solid #303FC3",
+          "value": "0.1875rem solid #0535d2",
           "type": "other"
         },
         "outline-offset": {
@@ -991,7 +991,7 @@
         },
         "focus": {
           "background": {
-            "value": "#303FC3",
+            "value": "#0535d2",
             "type": "color"
           },
           "outline": {
@@ -1101,7 +1101,7 @@
       },
       "focus": {
         "text": {
-          "value": "#303FC3",
+          "value": "#0535d2",
           "type": "color"
         },
         "outline": {
@@ -1202,7 +1202,7 @@
       },
       "focus": {
         "background": {
-          "value": "#303FC3",
+          "value": "#0535d2",
           "type": "color"
         },
         "text": {
@@ -1222,7 +1222,7 @@
           "type": "borderWidth"
         },
         "outline": {
-          "value": "0.1875rem solid #303FC3",
+          "value": "0.1875rem solid #0535d2",
           "type": "other"
         }
       },
@@ -1369,12 +1369,12 @@
       },
       "focus": {
         "color": {
-          "value": "#303FC3",
+          "value": "#0535d2",
           "type": "color"
         },
         "link": {
           "backgroundColor": {
-            "value": "#303FC3",
+            "value": "#0535d2",
             "type": "color"
           },
           "borderRadius": {
@@ -1386,7 +1386,7 @@
             "type": "other"
           },
           "outline": {
-            "value": "0.1875rem solid #303FC3",
+            "value": "0.1875rem solid #0535d2",
             "type": "other"
           },
           "outlineOffset": {
@@ -1503,7 +1503,7 @@
       },
       "focus": {
         "text": {
-          "value": "#303FC3",
+          "value": "#0535d2",
           "type": "color"
         }
       },
@@ -1658,7 +1658,7 @@
       "focus": {
         "button": {
           "background": {
-            "value": "#303FC3",
+            "value": "#0535d2",
             "type": "color"
           },
           "text": {
@@ -1667,7 +1667,7 @@
           }
         },
         "text": {
-          "value": "#303FC3",
+          "value": "#0535d2",
           "type": "color"
         }
       }
@@ -1853,7 +1853,7 @@
             "type": "color"
           },
           "background": {
-            "value": "#303FC3",
+            "value": "#0535d2",
             "type": "color"
           },
           "radius": {
@@ -1869,7 +1869,7 @@
             "type": "spacing"
           },
           "outline": {
-            "value": "0.1875rem solid #303FC3",
+            "value": "0.1875rem solid #0535d2",
             "type": "other"
           }
         }
@@ -2255,7 +2255,7 @@
       },
       "focus": {
         "text": {
-          "value": "#303FC3",
+          "value": "#0535d2",
           "type": "color"
         }
       },
@@ -2323,7 +2323,7 @@
       },
       "focus": {
         "background": {
-          "value": "#303FC3",
+          "value": "#0535d2",
           "type": "color"
         },
         "text": {
@@ -2343,7 +2343,7 @@
           "type": "borderWidth"
         },
         "outline": {
-          "value": "0.1875rem solid #303FC3",
+          "value": "0.1875rem solid #0535d2",
           "type": "other"
         }
       },
@@ -2412,7 +2412,7 @@
       },
       "focus": {
         "background": {
-          "value": "#303FC3",
+          "value": "#0535d2",
           "type": "color"
         },
         "text": {
@@ -2626,7 +2626,7 @@
       },
       "focus": {
         "text": {
-          "value": "#303FC3",
+          "value": "#0535d2",
           "type": "color"
         },
         "outline": {
@@ -2728,7 +2728,7 @@
       },
       "focus": {
         "text": {
-          "value": "#303FC3",
+          "value": "#0535d2",
           "type": "color"
         }
       },
@@ -2835,7 +2835,7 @@
       },
       "focus": {
         "background": {
-          "value": "#303FC3",
+          "value": "#0535d2",
           "type": "color"
         },
         "text": {
@@ -2934,7 +2934,7 @@
       },
       "focus": {
         "text": {
-          "value": "#303FC3",
+          "value": "#0535d2",
           "type": "color"
         }
       },
