@@ -88,7 +88,7 @@
       "comment": "Global color: text light"
     },
     "primary": {
-      "value": "{color.grayscale.1000.value}",
+      "value": "{color.grayscale.900.value}",
       "type": "color",
       "comment": "Global color: text primary"
     },
