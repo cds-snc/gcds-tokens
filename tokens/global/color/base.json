@@ -49,7 +49,7 @@
   },
   "focus": {
     "background": {
-      "value": "{color.blue.focus.value}",
+      "value": "{color.blue.850.value}",
       "type": "color",
       "comment": "Global color: focus background"
     },
@@ -59,19 +59,19 @@
       "comment": "Global color: focus text"
     },
     "textForm": {
-      "value": "{color.blue.focus.value}",
+      "value": "{color.blue.850.value}",
       "type": "color",
       "comment": "Global color: focus text form elements"
     }
   },
   "link": {
     "default": {
-      "value": "{color.blue.700.value}",
+      "value": "{color.blue.800.value}",
       "type": "color",
       "comment": "Global color: link default"
     },
     "hover": {
-      "value": "{color.blue.focus.value}",
+      "value": "{color.blue.850.value}",
       "type": "color",
       "comment": "Global color: link hover"
     },

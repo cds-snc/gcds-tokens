@@ -12,7 +12,7 @@
     },
     "contextual": {
       "background": {
-        "value": "{color.blue.800.value}",
+        "value": "{color.blue.700.value}",
         "type": "color"
       },
       "padding": {

@@ -11,19 +11,19 @@
           "type": "color"
         },
         "700": {
-          "value": "#2b4380",
+          "value": "#33465c",
           "type": "color"
         },
         "800": {
-          "value": "#33465c",
+          "value": "#2b4380",
+          "type": "color"
+        },
+        "850": {
+          "value": "#0535d2",
           "type": "color"
         },
         "900": {
           "value": "#26374A",
-          "type": "color"
-        },
-        "focus": {
-          "value": "#0535d2",
           "type": "color"
         }
       },
