@@ -15,7 +15,7 @@
           "type": "color"
         },
         "800": {
-          "value": "#31455C",
+          "value": "#33465c",
           "type": "color"
         },
         "900": {
@@ -1685,7 +1685,7 @@
       },
       "contextual": {
         "background": {
-          "value": "#31455C",
+          "value": "#33465c",
           "type": "color"
         },
         "padding": {
