@@ -85,7 +85,7 @@
           "type": "color"
         },
         "500": {
-          "value": "#C24438",
+          "value": "#d3080c",
           "type": "color"
         },
         "700": {
@@ -170,7 +170,7 @@
         "type": "color"
       },
       "border": {
-        "value": "#C24438",
+        "value": "#d3080c",
         "type": "color"
       },
       "text": {
@@ -714,7 +714,7 @@
           "type": "color"
         },
         "icon": {
-          "value": "#C24438",
+          "value": "#d3080c",
           "type": "color"
         },
         "text": {
@@ -1326,7 +1326,7 @@
       },
       "border": {
         "color": {
-          "value": "#C24438",
+          "value": "#d3080c",
           "type": "border"
         },
         "width": {
@@ -1359,7 +1359,7 @@
     "error-summary": {
       "border": {
         "color": {
-          "value": "#C24438",
+          "value": "#d3080c",
           "type": "color"
         },
         "width": {
@@ -1641,7 +1641,7 @@
         "danger": {
           "border": {
             "color": {
-              "value": "#C24438",
+              "value": "#d3080c",
               "type": "color"
             }
           }

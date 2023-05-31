@@ -22,7 +22,7 @@
       "850": {
         "value": "#0535d2",
         "type": "color",
-        "comment": "focus and hover colour"
+        "comment": "Focus and hover colour"
       },
       "900": {
         "value": "#26374A",
@@ -88,14 +88,15 @@
     "red": {
       "flag": {
         "value": "#FF0000",
-        "type": "color"
+        "type": "color",
+        "comment": "Signature flag colour"
       },
       "100": {
         "value": "#FBDDDA",
         "type": "color"
       },
       "500": {
-        "value": "#C24438",
+        "value": "#d3080c",
         "type": "color",
         "comment": "Must contrast 3:1 with white"
       },
