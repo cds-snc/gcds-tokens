@@ -92,16 +92,6 @@
       }
     },
     "sub": {
-      "active": {
-        "background": {
-          "value": "{active.background.value}",
-          "type": "color"
-        },
-        "text": {
-          "value": "{active.text.value}",
-          "type": "color"
-        }
-      },
       "background": {
         "value": "{color.grayscale.50.value}",
         "type": "color"
@@ -169,7 +159,7 @@
         }
       },
       "text": {
-        "value": "{color.blue.800.value}",
+        "value": "{link.default.value}",
         "type": "color"
       }
     },

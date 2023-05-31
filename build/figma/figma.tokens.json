@@ -11,7 +11,7 @@
           "type": "color"
         },
         "700": {
-          "value": "#425A76",
+          "value": "#2b4380",
           "type": "color"
         },
         "800": {
@@ -204,7 +204,7 @@
     },
     "link": {
       "default": {
-        "value": "#425A76",
+        "value": "#2b4380",
         "type": "color"
       },
       "hover": {
@@ -768,7 +768,7 @@
     "breadcrumbs": {
       "default": {
         "text": {
-          "value": "#425A76",
+          "value": "#2b4380",
           "type": "color"
         },
         "decoration": {
@@ -921,7 +921,7 @@
         },
         "hover": {
           "background": {
-            "value": "#425A76",
+            "value": "#2b4380",
             "type": "color"
           }
         }
@@ -933,7 +933,7 @@
             "type": "color"
           },
           "text": {
-            "value": "#425A76",
+            "value": "#2b4380",
             "type": "color"
           }
         },
@@ -957,7 +957,7 @@
             "type": "color"
           },
           "text": {
-            "value": "#425A76",
+            "value": "#2b4380",
             "type": "color"
           }
         },
@@ -1190,7 +1190,7 @@
     "details": {
       "default": {
         "text": {
-          "value": "#425A76",
+          "value": "#2b4380",
           "type": "color"
         },
         "decoration": {
@@ -1564,7 +1564,7 @@
           "type": "spacing"
         },
         "text": {
-          "value": "#425A76",
+          "value": "#2b4380",
           "type": "color"
         }
       },
@@ -1765,16 +1765,6 @@
         }
       },
       "sub": {
-        "active": {
-          "background": {
-            "value": "#000",
-            "type": "color"
-          },
-          "text": {
-            "value": "#FFF",
-            "type": "color"
-          }
-        },
         "background": {
           "value": "#F1F2F3",
           "type": "color"
@@ -1842,7 +1832,7 @@
           }
         },
         "text": {
-          "value": "#31455C",
+          "value": "#2b4380",
           "type": "color"
         }
       },
@@ -2311,7 +2301,7 @@
     "lang-toggle": {
       "default": {
         "text": {
-          "value": "#425A76",
+          "value": "#2b4380",
           "type": "color"
         },
         "decoration": {
@@ -2386,7 +2376,7 @@
       },
       "border": {
         "color": {
-          "value": "#425A76",
+          "value": "#2b4380",
           "type": "border"
         },
         "radius": {
@@ -2400,7 +2390,7 @@
       },
       "default": {
         "text": {
-          "value": "#425A76",
+          "value": "#2b4380",
           "type": "color"
         }
       },
@@ -2452,7 +2442,7 @@
       "mobile": {
         "list": {
           "border": {
-            "value": "#425A76",
+            "value": "#2b4380",
             "type": "border"
           },
           "item": {
@@ -3066,7 +3056,7 @@
       },
       "toggle": {
         "text": {
-          "value": "#425A76",
+          "value": "#2b4380",
           "type": "color"
         },
         "fontWeight": {
