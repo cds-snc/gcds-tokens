@@ -1,13 +1,13 @@
 
 // Do not edit directly
-// Generated on Tue, 25 Apr 2023 15:56:00 GMT
+// Generated on Wed, 31 May 2023 18:44:56 GMT
 
 $gcds-color-blue-100: #d7e5f5;
 $gcds-color-blue-500: #6584a6; // Must contrast 3:1 with white
-$gcds-color-blue-700: #425a76; // Must contrast 7:1 with white
-$gcds-color-blue-800: #31455c;
+$gcds-color-blue-700: #33465c; // Must contrast 7:1 with white
+$gcds-color-blue-800: #2b4380;
+$gcds-color-blue-850: #0535d2; // Focus and hover colour
 $gcds-color-blue-900: #26374a;
-$gcds-color-blue-focus: #303fc3;
 $gcds-color-grayscale-0: #ffffff;
 $gcds-color-grayscale-50: #f1f2f3;
 $gcds-color-grayscale-100: #d6d9dd;
@@ -15,24 +15,50 @@ $gcds-color-grayscale-300: #a8adb4;
 $gcds-color-grayscale-500: #7d828b; // Must contrast 3:1 with white
 $gcds-color-grayscale-700: #545961; // Must contrast 7:1 with white
 $gcds-color-grayscale-800: #43474e;
-$gcds-color-grayscale-900: #2f3238;
+$gcds-color-grayscale-900: #333333;
 $gcds-color-grayscale-1000: #000000;
 $gcds-color-green-100: #e6f6ec;
 $gcds-color-green-500: #289f58; // Must contrast 3:1 with white
 $gcds-color-green-700: #03662a; // Must contrast 7:1 with white
 $gcds-color-red-100: #fbddda;
-$gcds-color-red-500: #c24438; // Must contrast 3:1 with white
+$gcds-color-red-500: #d3080c; // Must contrast 3:1 with white
 $gcds-color-red-700: #a62a1e; // Must contrast 7:1 with white
 $gcds-color-red-900: #822117;
-$gcds-color-red-flag: #ff0000;
+$gcds-color-red-flag: #ff0000; // Signature flag colour
 $gcds-color-yellow-100: #faedd1;
 $gcds-color-yellow-500: #b3800f; // Must contrast 3:1 with white
+$gcds-border-radius-sm: 0.1875rem; // Global border: radius sm
+$gcds-border-radius-md: 0.375rem; // Global border: radius md
+$gcds-border-radius-lg: 3rem; // Global border: radius lg
+$gcds-border-radius-xl: 100%; // Global border: radius xl
+$gcds-border-width-sm: 0.0625rem; // Global border: width sm
+$gcds-border-width-md: 0.125rem; // Global border: width md
+$gcds-border-width-lg: 0.25rem; // Global border: width lg
+$gcds-border-width-xl: 0.375rem; // Global border: width xl
+$gcds-border-default: #7d828b; // Global color: border default
+$gcds-active-background: #000000; // Global color: active background
+$gcds-active-text: #ffffff; // Global color: active text
+$gcds-danger-background: #fbddda; // Global color: danger background
+$gcds-danger-border: #d3080c; // Global color: danger border
+$gcds-danger-text: #a62a1e; // Global color: danger text
+$gcds-disabled-background: #d6d9dd; // Global color: disabled background
+$gcds-disabled-text: #545961; // Global color: disabled text
+$gcds-focus-background: #0535d2; // Global color: focus background
+$gcds-focus-text: #ffffff; // Global color: focus text
+$gcds-focus-text-form: #0535d2; // Global color: focus text form elements
+$gcds-link-default: #2b4380; // Global color: link default
+$gcds-link-hover: #0535d2; // Global color: link hover
+$gcds-link-light: #ffffff; // Global color: link light
+$gcds-text-light: #ffffff; // Global color: text light
+$gcds-text-primary: #333333; // Global color: text primary
+$gcds-text-secondary: #43474e; // Global color: text secondary
 $gcds-container-xs: 20rem;
 $gcds-container-sm: 30rem;
 $gcds-container-md: 48rem;
 $gcds-container-lg: 64rem;
 $gcds-container-xl: 75rem;
 $gcds-container-full: 100%;
+$gcds-outline-width: 0.1875rem; // Global outline: width
 $gcds-spacing-0: 0;
 $gcds-spacing-50: 0.1875rem;
 $gcds-spacing-100: 0.375rem;
@@ -87,39 +113,13 @@ $gcds-font-label: 500 1.25rem/120% "Noto Sans", sans-serif;
 $gcds-font-caption: 400 1.1111111111111112rem/135% "Noto Sans", sans-serif;
 $gcds-font-text: 400 1.25rem/120% "Noto Sans", sans-serif;
 $gcds-font-text-long: 400 1.25rem/150% "Noto Sans", sans-serif;
-$gcds-border-radius-sm: 0.1875rem; // Global border: radius sm
-$gcds-border-radius-md: 0.375rem; // Global border: radius md
-$gcds-border-radius-lg: 3rem; // Global border: radius lg
-$gcds-border-radius-xl: 100%; // Global border: radius xl
-$gcds-border-width-sm: 0.0625rem; // Global border: width sm
-$gcds-border-width-md: 0.125rem; // Global border: width md
-$gcds-border-width-lg: 0.25rem; // Global border: width lg
-$gcds-border-width-xl: 0.375rem; // Global border: width xl
-$gcds-border-default: #7d828b; // Global color: border default
-$gcds-active-background: #000000; // Global color: active background
-$gcds-active-text: #ffffff; // Global color: active text
-$gcds-danger-background: #fbddda; // Global color: danger background
-$gcds-danger-border: #c24438; // Global color: danger border
-$gcds-danger-text: #a62a1e; // Global color: danger text
-$gcds-disabled-background: #d6d9dd; // Global color: disabled background
-$gcds-disabled-text: #545961; // Global color: disabled text
-$gcds-focus-background: #303fc3; // Global color: focus background
-$gcds-focus-text: #ffffff; // Global color: focus text
-$gcds-focus-text-form: #303fc3; // Global color: focus text form elements
-$gcds-link-default: #425a76; // Global color: link default
-$gcds-link-hover: #26374a; // Global color: link hover
-$gcds-link-light: #ffffff; // Global color: link light
-$gcds-text-light: #ffffff; // Global color: text light
-$gcds-text-primary: #000000; // Global color: text primary
-$gcds-text-secondary: #43474e; // Global color: text secondary
-$gcds-outline-width: 0.1875rem; // Global outline: width
 $gcds-alert-border-width: 0.375rem;
 $gcds-alert-button-border-radius: 0.375rem;
 $gcds-alert-button-border-width: 0.125rem;
 $gcds-alert-button-active-border-color: #000000;
 $gcds-alert-button-default-background: #ffffff;
-$gcds-alert-button-default-text: #000000;
-$gcds-alert-button-focus-background: #303fc3;
+$gcds-alert-button-default-text: #333333;
+$gcds-alert-button-focus-background: #0535d2;
 $gcds-alert-button-focus-text: #ffffff;
 $gcds-alert-button-icon-padding: 0.75rem;
 $gcds-alert-button-icon-width-and-height: 1.125rem;
@@ -142,29 +142,29 @@ $gcds-alert-icon-font-size: 2.25rem;
 $gcds-alert-icon-margin: 0 0.9375rem 0 0;
 $gcds-alert-icon-mobile-margin: 0 0 0.9375rem;
 $gcds-alert-padding: 0.75rem 0.9375rem;
-$gcds-alert-text: #000000;
+$gcds-alert-text: #333333;
 $gcds-alert-danger-background: #fbddda;
-$gcds-alert-danger-icon: #c24438;
-$gcds-alert-danger-text: #000000;
+$gcds-alert-danger-icon: #d3080c;
+$gcds-alert-danger-text: #333333;
 $gcds-alert-info-background: #d7e5f5;
 $gcds-alert-info-icon: #6584a6;
-$gcds-alert-info-text: #000000;
+$gcds-alert-info-text: #333333;
 $gcds-alert-success-background: #e6f6ec;
 $gcds-alert-success-icon: #289f58;
-$gcds-alert-success-text: #000000;
+$gcds-alert-success-text: #333333;
 $gcds-alert-warning-background: #faedd1;
 $gcds-alert-warning-icon: #b3800f;
-$gcds-alert-warning-text: #000000;
-$gcds-breadcrumbs-default-text: #425a76;
+$gcds-alert-warning-text: #333333;
+$gcds-breadcrumbs-default-text: #2b4380;
 $gcds-breadcrumbs-default-decoration-thickness: 0.0625rem;
-$gcds-breadcrumbs-focus-background: #303fc3;
+$gcds-breadcrumbs-focus-background: #0535d2;
 $gcds-breadcrumbs-focus-border-radius: 0.1875rem;
 $gcds-breadcrumbs-focus-text: #ffffff;
 $gcds-breadcrumbs-focus-box-shadow: 0 0 0 0.125rem #ffffff;
-$gcds-breadcrumbs-focus-outline: 0.1875rem solid #303fc3;
+$gcds-breadcrumbs-focus-outline: 0.1875rem solid #0535d2;
 $gcds-breadcrumbs-focus-outline-offset: 0.125rem;
 $gcds-breadcrumbs-font: 400 1.25rem/120% "Noto Sans", sans-serif;
-$gcds-breadcrumbs-hover-text: #26374a;
+$gcds-breadcrumbs-hover-text: #0535d2;
 $gcds-breadcrumbs-hover-decoration-thickness: 0.125rem;
 $gcds-breadcrumbs-item-arrow-top: 0.9375rem;
 $gcds-breadcrumbs-item-arrow-left: 0.1875rem;
@@ -183,19 +183,19 @@ $gcds-button-font: 500 1.25rem/120% "Noto Sans", sans-serif;
 $gcds-button-padding: 0.75rem;
 $gcds-button-primary-default-background: #26374a;
 $gcds-button-primary-default-text: #ffffff;
-$gcds-button-primary-hover-background: #425a76;
+$gcds-button-primary-hover-background: #2b4380;
 $gcds-button-secondary-default-background: transparent;
-$gcds-button-secondary-default-text: #425a76;
+$gcds-button-secondary-default-text: #2b4380;
 $gcds-button-secondary-hover-background: #d7e5f5;
 $gcds-button-secondary-active-background: #d7e5f5;
 $gcds-button-text-only-default-background: transparent;
-$gcds-button-text-only-default-text: #425a76;
-$gcds-button-text-only-hover-text: #26374a;
+$gcds-button-text-only-default-text: #2b4380;
+$gcds-button-text-only-hover-text: #0535d2;
 $gcds-button-mobile-margin: 0.1875rem 0;
 $gcds-button-mobile-width: 100%;
 $gcds-button-shared-active-background: #000000;
 $gcds-button-shared-active-text: #ffffff;
-$gcds-button-shared-focus-background: #303fc3;
+$gcds-button-shared-focus-background: #0535d2;
 $gcds-button-shared-focus-outline-width: 0.1875rem;
 $gcds-button-shared-focus-text: #ffffff;
 $gcds-button-shared-disabled-background: #d6d9dd;
@@ -210,12 +210,12 @@ $gcds-checkbox-check-left: 1rem;
 $gcds-checkbox-check-top: -0.1875rem;
 $gcds-checkbox-check-width: 0.9375rem;
 $gcds-checkbox-danger-text: #a62a1e;
-$gcds-checkbox-default-text: #000000;
+$gcds-checkbox-default-text: #333333;
 $gcds-checkbox-disabled-background: #d6d9dd;
 $gcds-checkbox-disabled-border: #545961;
 $gcds-checkbox-disabled-text: #545961;
 $gcds-checkbox-error-padding: 0 0 0 3.75rem;
-$gcds-checkbox-focus-text: #303fc3;
+$gcds-checkbox-focus-text: #0535d2;
 $gcds-checkbox-focus-outline-width: 0.1875rem;
 $gcds-checkbox-font: 400 1.25rem/120% "Noto Sans", sans-serif;
 $gcds-checkbox-input-border-radius: 0.1875rem;
@@ -228,18 +228,18 @@ $gcds-checkbox-top: -0.75rem;
 $gcds-date-modified-description-margin: 0 0 0 0.1875rem;
 $gcds-date-modified-font: 400 1.1111111111111112rem/135% "Noto Sans", sans-serif;
 $gcds-date-modified-margin: 3rem 0 1.5rem;
-$gcds-date-modified-text: #000000;
-$gcds-details-default-text: #425a76;
+$gcds-date-modified-text: #333333;
+$gcds-details-default-text: #2b4380;
 $gcds-details-default-decoration-thickness: 0.0625rem;
-$gcds-details-focus-background: #303fc3;
+$gcds-details-focus-background: #0535d2;
 $gcds-details-focus-text: #ffffff;
 $gcds-details-focus-border-radius: 0.1875rem;
 $gcds-details-focus-box-shadow: 0 0 0 0.125rem #ffffff;
 $gcds-details-focus-outline-offset: 0.125rem;
-$gcds-details-focus-outline: 0.1875rem solid #303fc3;
+$gcds-details-focus-outline: 0.1875rem solid #0535d2;
 $gcds-details-font: 400 1.25rem/120% "Noto Sans", sans-serif;
 $gcds-details-font-small: 400 1.1111111111111112rem/135% "Noto Sans", sans-serif;
-$gcds-details-hover-text: #26374a;
+$gcds-details-hover-text: #0535d2;
 $gcds-details-hover-decoration-thickness: 0.125rem;
 $gcds-details-panel-border-color: #7d828b;
 $gcds-details-panel-border-width: 0.375rem;
@@ -254,19 +254,19 @@ $gcds-details-summary-border-width: 0.0625rem;
 $gcds-details-summary-padding: 0.375rem;
 $gcds-details-summary-text-margin: 0 0 0 2.25rem;
 $gcds-error-message-background: #fbddda;
-$gcds-error-message-border-color: #c24438;
+$gcds-error-message-border-color: #d3080c;
 $gcds-error-message-border-width: 0.125rem;
 $gcds-error-message-font: 400 1.25rem/120% "Noto Sans", sans-serif;
 $gcds-error-message-margin: 0 0 1.125rem;
 $gcds-error-message-padding: 0.75rem;
-$gcds-error-message-text: #000000;
-$gcds-error-summary-border-color: #c24438;
+$gcds-error-message-text: #333333;
+$gcds-error-summary-border-color: #d3080c;
 $gcds-error-summary-border-width: 0.375rem;
-$gcds-error-summary-focus-color: #303fc3;
-$gcds-error-summary-focus-link-background-color: #303fc3;
+$gcds-error-summary-focus-color: #0535d2;
+$gcds-error-summary-focus-link-background-color: #0535d2;
 $gcds-error-summary-focus-link-border-radius: 0.1875rem;
 $gcds-error-summary-focus-link-box-shadow: 0 0 0 0.125rem #ffffff;
-$gcds-error-summary-focus-link-outline: 0.1875rem solid #303fc3;
+$gcds-error-summary-focus-link-outline: 0.1875rem solid #0535d2;
 $gcds-error-summary-focus-link-outline-offset: 0.125rem;
 $gcds-error-summary-focus-link-text: #ffffff;
 $gcds-error-summary-heading-font: 700 2.2525405883789062rem/122.08437060746162% "Lato", sans-serif;
@@ -280,13 +280,13 @@ $gcds-error-summary-margin: 0 0 2.25rem;
 $gcds-error-summary-max-width: 65ch;
 $gcds-error-summary-sub-heading-font: 400 1.25rem/120% "Noto Sans", sans-serif;
 $gcds-error-summary-sub-heading-padding: 0 0 1.125rem;
-$gcds-error-summary-text: #000000;
+$gcds-error-summary-text: #333333;
 $gcds-error-summary-mobile-padding: 1.125rem;
 $gcds-error-summary-padding: 2.25rem;
 $gcds-fieldset-danger-text: #a62a1e;
-$gcds-fieldset-default-text: #000000;
+$gcds-fieldset-default-text: #333333;
 $gcds-fieldset-disabled-text: #545961;
-$gcds-fieldset-focus-text: #303fc3;
+$gcds-fieldset-focus-text: #0535d2;
 $gcds-fieldset-font: 600 1.25rem/120% "Noto Sans", sans-serif;
 $gcds-fieldset-legend-margin: 0 0 0.1875rem;
 $gcds-fieldset-legend-required-margin: 0 0 0 0.375rem;
@@ -297,9 +297,9 @@ $gcds-file-uploader-button-font-weight: 500;
 $gcds-file-uploader-button-outline-width: 0.1875rem;
 $gcds-file-uploader-button-margin: 0 0 1.125rem;
 $gcds-file-uploader-button-padding: 0.75rem;
-$gcds-file-uploader-button-text: #425a76;
+$gcds-file-uploader-button-text: #2b4380;
 $gcds-file-uploader-danger-text: #a62a1e;
-$gcds-file-uploader-default-text: #000000;
+$gcds-file-uploader-default-text: #333333;
 $gcds-file-uploader-disabled-background: #d6d9dd;
 $gcds-file-uploader-disabled-text: #545961;
 $gcds-file-uploader-font: 400 1.25rem/120% "Noto Sans", sans-serif;
@@ -310,15 +310,15 @@ $gcds-file-uploader-file-button-default-text: #a62a1e;
 $gcds-file-uploader-file-button-hover-text: #822117;
 $gcds-file-uploader-file-button-margin: 0 0 0 2.25rem;
 $gcds-file-uploader-file-button-padding: 0.75rem 0.1875rem;
-$gcds-file-uploader-file-danger-border-color: #c24438;
+$gcds-file-uploader-file-danger-border-color: #d3080c;
 $gcds-file-uploader-file-max-width: 30rem;
 $gcds-file-uploader-file-padding: 0.75rem 1.125rem;
-$gcds-file-uploader-focus-button-background: #303fc3;
+$gcds-file-uploader-focus-button-background: #0535d2;
 $gcds-file-uploader-focus-button-text: #ffffff;
-$gcds-file-uploader-focus-text: #303fc3;
+$gcds-file-uploader-focus-text: #0535d2;
 $gcds-footer-container-margin: 0 auto;
 $gcds-footer-container-width: 75rem;
-$gcds-footer-contextual-background: #31455c;
+$gcds-footer-contextual-background: #33465c;
 $gcds-footer-contextual-padding: 1.125rem 0;
 $gcds-footer-contextual-text: #ffffff;
 $gcds-footer-font: 400 85%/120% "Noto Sans", sans-serif;
@@ -332,11 +332,9 @@ $gcds-footer-main-nav-first-after-border-width: 0.25rem;
 $gcds-footer-main-nav-first-after-width: 2.25rem;
 $gcds-footer-main-text: #ffffff;
 $gcds-footer-main-themenav-padding: 0.75rem 0 1.125rem;
-$gcds-footer-sub-active-background: #000000;
-$gcds-footer-sub-active-text: #ffffff;
 $gcds-footer-sub-background: #f1f2f3;
 $gcds-footer-sub-grid-gap: 0.75rem;
-$gcds-footer-sub-hover-text: #26374a;
+$gcds-footer-sub-hover-text: #0535d2;
 $gcds-footer-sub-hover-decoration-thickness: 0.125rem;
 $gcds-footer-sub-listitem-before-margin: 0 1.125rem;
 $gcds-footer-sub-nav-padding: 3rem 0;
@@ -346,13 +344,13 @@ $gcds-footer-sub-signature-lg-margin: 0 0 0 auto;
 $gcds-footer-sub-signature-margin: 0 0 1.5rem auto;
 $gcds-footer-sub-md-width: 7rem;
 $gcds-footer-sub-sm-width: 100%;
-$gcds-footer-sub-text: #31455c;
+$gcds-footer-sub-text: #2b4380;
 $gcds-footer-link-focus-text: #ffffff;
-$gcds-footer-link-focus-background: #303fc3;
+$gcds-footer-link-focus-background: #0535d2;
 $gcds-footer-link-focus-radius: 0.1875rem;
 $gcds-footer-link-focus-box-shadow: 0 0 0 0.125rem #ffffff;
 $gcds-footer-link-focus-outline-offset: 0.125rem;
-$gcds-footer-link-focus-outline: 0.1875rem solid #303fc3;
+$gcds-footer-link-focus-outline: 0.1875rem solid #0535d2;
 $gcds-grid-container-xs: 20rem;
 $gcds-grid-container-sm: 30rem;
 $gcds-grid-container-md: 48rem;
@@ -432,10 +430,10 @@ $gcds-input-border-radius: 0.1875rem;
 $gcds-input-border-width: 0.125rem;
 $gcds-input-danger-text: #a62a1e;
 $gcds-input-default-background: #ffffff;
-$gcds-input-default-text: #000000;
+$gcds-input-default-text: #333333;
 $gcds-input-disabled-background: #d6d9dd;
 $gcds-input-disabled-text: #545961;
-$gcds-input-focus-text: #303fc3;
+$gcds-input-focus-text: #0535d2;
 $gcds-input-font: 400 1.25rem/120% "Noto Sans", sans-serif;
 $gcds-input-margin: 0 0 1.5rem;
 $gcds-input-min-width-and-height: 3rem;
@@ -444,32 +442,32 @@ $gcds-input-padding: 0.75rem;
 $gcds-label-font: 600 1.25rem/120% "Noto Sans", sans-serif;
 $gcds-label-margin: 0 0 0.375rem;
 $gcds-label-required-margin: 0 0 0 0.375rem;
-$gcds-lang-toggle-default-text: #425a76;
+$gcds-lang-toggle-default-text: #2b4380;
 $gcds-lang-toggle-default-decoration-thickness: 0.0625rem;
-$gcds-lang-toggle-focus-background: #303fc3;
+$gcds-lang-toggle-focus-background: #0535d2;
 $gcds-lang-toggle-focus-text: #ffffff;
 $gcds-lang-toggle-focus-border-radius: 0.1875rem;
 $gcds-lang-toggle-focus-box-shadow: 0 0 0 0.125rem #ffffff;
 $gcds-lang-toggle-focus-outline-offset: 0.125rem;
-$gcds-lang-toggle-focus-outline: 0.1875rem solid #303fc3;
+$gcds-lang-toggle-focus-outline: 0.1875rem solid #0535d2;
 $gcds-lang-toggle-font: 400 1.25rem/120% "Noto Sans", sans-serif;
-$gcds-lang-toggle-hover-text: #26374a;
+$gcds-lang-toggle-hover-text: #0535d2;
 $gcds-lang-toggle-hover-decoration-thickness: 0.125rem;
 $gcds-lang-toggle-padding: 0.5625rem;
 $gcds-pagination-active-text: #ffffff;
 $gcds-pagination-active-background: #26374a;
-$gcds-pagination-border-color: #425a76;
+$gcds-pagination-border-color: #2b4380;
 $gcds-pagination-border-radius: 0.1875rem;
 $gcds-pagination-border-width: 0.125rem;
-$gcds-pagination-default-text: #425a76;
+$gcds-pagination-default-text: #2b4380;
 $gcds-pagination-hover-background: #d7e5f5;
-$gcds-pagination-focus-background: #303fc3;
+$gcds-pagination-focus-background: #0535d2;
 $gcds-pagination-focus-text: #ffffff;
 $gcds-pagination-focus-outline-width: 0.1875rem;
 $gcds-pagination-font: 500 1.25rem/120% "Noto Sans", sans-serif;
 $gcds-pagination-list-end-button-padding: 0.75rem 0.5625rem;
 $gcds-pagination-listitem-margin: 0.375rem;
-$gcds-pagination-mobile-list-border: #425a76;
+$gcds-pagination-mobile-list-border: #2b4380;
 $gcds-pagination-mobile-list-item-margin: .125rem;
 $gcds-pagination-mobile-list-prevnext-margin: 0.75rem auto 0;
 $gcds-pagination-simple-label-font-weight: 400;
@@ -490,18 +488,18 @@ $gcds-phase-banner-padding: 0.9375rem;
 $gcds-phase-banner-primary-background: #26374a;
 $gcds-phase-banner-primary-text: #ffffff;
 $gcds-phase-banner-secondary-background: #d6d9dd;
-$gcds-phase-banner-secondary-text: #000000;
+$gcds-phase-banner-secondary-text: #333333;
 $gcds-radio-border-radius: 100%;
 $gcds-radio-check-border-width: 0.3125rem;
 $gcds-radio-check-height-and-width: 1.125rem;
 $gcds-radio-check-left: 0.9375rem;
 $gcds-radio-check-top: 0.1875rem;
 $gcds-radio-danger-text: #a62a1e;
-$gcds-radio-default-text: #000000;
+$gcds-radio-default-text: #333333;
 $gcds-radio-disabled-background: #d6d9dd;
 $gcds-radio-disabled-border: #545961;
 $gcds-radio-disabled-text: #545961;
-$gcds-radio-focus-text: #303fc3;
+$gcds-radio-focus-text: #0535d2;
 $gcds-radio-focus-outline-width: 0.1875rem;
 $gcds-radio-font: 400 1.25rem/120% "Noto Sans", sans-serif;
 $gcds-radio-input-border-width: 0.125rem;
@@ -515,10 +513,10 @@ $gcds-select-border-radius: 0.1875rem;
 $gcds-select-border-width: 0.125rem;
 $gcds-select-danger-text: #a62a1e;
 $gcds-select-default-background: #ffffff;
-$gcds-select-default-text: #000000;
+$gcds-select-default-text: #333333;
 $gcds-select-disabled-background: #d6d9dd;
 $gcds-select-disabled-text: #545961;
-$gcds-select-focus-text: #303fc3;
+$gcds-select-focus-text: #0535d2;
 $gcds-select-font: 400 1.25rem/120% "Noto Sans", sans-serif;
 $gcds-select-margin: 0 0 1.5rem;
 $gcds-select-min-width-and-height: 3rem;
@@ -532,20 +530,20 @@ $gcds-signature-signature-height: 1.6875rem;
 $gcds-signature-white-default: #ffffff;
 $gcds-signature-wordmark-margin: 2.25rem 0;
 $gcds-signature-wordmark-height: 3rem;
-$gcds-site-menu-active-background: #2f3238;
+$gcds-site-menu-active-background: #333333;
 $gcds-site-menu-active-text: #ffffff;
 $gcds-site-menu-container-max-width: 75rem;
 $gcds-site-menu-default-background: #f1f2f3;
 $gcds-site-menu-default-border: #00000030;
-$gcds-site-menu-default-text: #000000;
-$gcds-site-menu-focus-background: #303fc3;
+$gcds-site-menu-default-text: #333333;
+$gcds-site-menu-focus-background: #0535d2;
 $gcds-site-menu-focus-text: #ffffff;
 $gcds-site-menu-hover-background: #a8adb450;
 $gcds-site-menu-selection-background: #b3800f;
-$gcds-site-menu-selection-text: #000000;
+$gcds-site-menu-selection-text: #333333;
 $gcds-site-menu-submenu-background: #d6d9dd;
 $gcds-site-menu-submenu-box-shadow: #00000030;
-$gcds-site-menu-submenu-trigger-text: #000000;
+$gcds-site-menu-submenu-trigger-text: #333333;
 $gcds-stepper-font: 600 1.40625rem/124.44444444444444% "Lato", sans-serif;
 $gcds-stepper-margin: 0 0 1.125rem;
 $gcds-stepper-text: #43474e;
@@ -553,10 +551,10 @@ $gcds-textarea-border-radius: 0.1875rem;
 $gcds-textarea-border-width: 0.125rem;
 $gcds-textarea-danger-text: #a62a1e;
 $gcds-textarea-default-background: #ffffff;
-$gcds-textarea-default-text: #000000;
+$gcds-textarea-default-text: #333333;
 $gcds-textarea-disabled-background: #d6d9dd;
 $gcds-textarea-disabled-text: #545961;
-$gcds-textarea-focus-text: #303fc3;
+$gcds-textarea-focus-text: #0535d2;
 $gcds-textarea-font: 400 1.25rem/120% "Noto Sans", sans-serif;
 $gcds-textarea-margin: 0 0 1.5rem;
 $gcds-textarea-min-height: 3rem;
@@ -580,6 +578,6 @@ $gcds-verify-banner-content-padding-block-end: 0.75rem;
 $gcds-verify-banner-font: 400 1.1111111111111112rem/135% "Noto Sans", sans-serif;
 $gcds-verify-banner-summary-padding: 0.75rem;
 $gcds-verify-banner-summary-content-margin: 0 1.125rem 0 0;
-$gcds-verify-banner-text: #000000;
-$gcds-verify-banner-toggle-text: #425a76;
+$gcds-verify-banner-text: #333333;
+$gcds-verify-banner-toggle-text: #2b4380;
 $gcds-verify-banner-toggle-font-weight: 700;

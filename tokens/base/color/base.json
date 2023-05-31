@@ -1,10 +1,6 @@
 {
   "color": {
     "blue": {
-      "focus": {
-        "value": "#303FC3",
-        "type": "color"
-      },
       "100": {
         "value": "#D7E5F5",
         "type": "color"
@@ -15,13 +11,18 @@
         "comment": "Must contrast 3:1 with white"
       },
       "700": {
-        "value": "#425A76",
+        "value": "#33465c",
         "type": "color",
         "comment": "Must contrast 7:1 with white"
       },
       "800": {
-        "value": "#31455C",
+        "value": "#2b4380",
         "type": "color"
+      },
+      "850": {
+        "value": "#0535d2",
+        "type": "color",
+        "comment": "Focus and hover colour"
       },
       "900": {
         "value": "#26374A",
@@ -60,7 +61,7 @@
         "type": "color"
       },
       "900": {
-        "value": "#2F3238",
+        "value": "#333333",
         "type": "color"
       },
       "1000": {
@@ -87,14 +88,15 @@
     "red": {
       "flag": {
         "value": "#FF0000",
-        "type": "color"
+        "type": "color",
+        "comment": "Signature flag colour"
       },
       "100": {
         "value": "#FBDDDA",
         "type": "color"
       },
       "500": {
-        "value": "#C24438",
+        "value": "#d3080c",
         "type": "color",
         "comment": "Must contrast 3:1 with white"
       },
