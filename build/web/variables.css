@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 31 May 2023 18:44:56 GMT
+ * Generated on Thu, 01 Jun 2023 23:04:57 GMT
  */
 
 :root {
@@ -118,7 +118,6 @@
   --gcds-alert-border-width: 0.375rem;
   --gcds-alert-button-border-radius: 0.375rem;
   --gcds-alert-button-border-width: 0.125rem;
-  --gcds-alert-button-active-border-color: #000000;
   --gcds-alert-button-default-background: #ffffff;
   --gcds-alert-button-default-text: #333333;
   --gcds-alert-button-focus-background: #0535d2;
@@ -458,7 +457,6 @@
   --gcds-lang-toggle-padding: 0.5625rem;
   --gcds-pagination-active-text: #ffffff;
   --gcds-pagination-active-background: #26374a;
-  --gcds-pagination-border-color: #2b4380;
   --gcds-pagination-border-radius: 0.1875rem;
   --gcds-pagination-border-width: 0.125rem;
   --gcds-pagination-default-text: #2b4380;

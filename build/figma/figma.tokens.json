@@ -557,14 +557,6 @@
             "type": "borderWidth"
           }
         },
-        "active": {
-          "border": {
-            "color": {
-              "value": "#000",
-              "type": "color"
-            }
-          }
-        },
         "default": {
           "background": {
             "value": "#FFF",
@@ -2375,10 +2367,6 @@
         }
       },
       "border": {
-        "color": {
-          "value": "#2b4380",
-          "type": "border"
-        },
         "radius": {
           "value": "0.1875rem",
           "type": "borderRadius"

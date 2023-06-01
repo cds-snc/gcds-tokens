@@ -17,14 +17,6 @@
           "type": "borderWidth"
         }
       },
-      "active": {
-        "border": {
-          "color": {
-            "value": "{color.grayscale.1000.value}",
-            "type": "color"
-          }
-        }
-      },
       "default": {
         "background": {
           "value": "{color.grayscale.0.value}",
