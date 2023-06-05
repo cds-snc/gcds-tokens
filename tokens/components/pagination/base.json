@@ -11,10 +11,6 @@
       }
     },
     "border": {
-      "color": {
-        "value": "{link.default.value}",
-        "type": "border"
-      },
       "radius": {
         "value": "{border.radius.sm.value}",
         "type": "borderRadius"
