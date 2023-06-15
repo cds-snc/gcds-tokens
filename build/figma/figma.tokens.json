@@ -3194,80 +3194,6 @@
         }
       }
     },
-    "site-menu": {
-      "active": {
-        "background": {
-          "value": "#333333",
-          "type": "color"
-        },
-        "text": {
-          "value": "#FFF",
-          "type": "color"
-        }
-      },
-      "container": {
-        "maxWidth": {
-          "value": "75rem",
-          "type": "sizing"
-        }
-      },
-      "default": {
-        "background": {
-          "value": "#F1F2F3",
-          "type": "color"
-        },
-        "border": {
-          "value": "#00030",
-          "type": "color"
-        },
-        "text": {
-          "value": "#333333",
-          "type": "color"
-        }
-      },
-      "focus": {
-        "background": {
-          "value": "#0535d2",
-          "type": "color"
-        },
-        "text": {
-          "value": "#FFF",
-          "type": "color"
-        }
-      },
-      "hover": {
-        "background": {
-          "value": "#A8ADB450",
-          "type": "color"
-        }
-      },
-      "selection": {
-        "background": {
-          "value": "#B3800F",
-          "type": "color"
-        },
-        "text": {
-          "value": "#333333",
-          "type": "color"
-        }
-      },
-      "submenu": {
-        "background": {
-          "value": "#D6D9DD",
-          "type": "color"
-        },
-        "box-shadow": {
-          "value": "#00030",
-          "type": "color"
-        },
-        "trigger": {
-          "text": {
-            "value": "#333333",
-            "type": "color"
-          }
-        }
-      }
-    },
     "stepper": {
       "font": {
         "value": {
@@ -3356,6 +3282,16 @@
       "padding": {
         "value": "0.75rem",
         "type": "spacing"
+      }
+    },
+    "top-nav": {
+      "background": {
+        "value": "#F1F2F3",
+        "type": "color"
+      },
+      "maxWidth": {
+        "value": "75rem",
+        "type": "sizing"
       }
     },
     "verify-banner": {

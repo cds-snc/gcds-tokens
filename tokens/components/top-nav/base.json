@@ -1,0 +1,12 @@
+{
+  "top-nav": {
+    "background": {
+      "value": "{color.grayscale.50.value}",
+      "type": "color"
+    },
+    "maxWidth": {
+      "value": "{container.xl.value}",
+      "type": "sizing"
+    }
+  }
+}
