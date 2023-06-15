@@ -2538,6 +2538,123 @@
         "type": "spacing"
       }
     },
+    "nav-group": {
+      "sideNav": {
+        "dropdown": {
+          "padding": {
+            "value": "2.25rem",
+            "type": "spacing"
+          }
+        },
+        "trigger": {
+          "fontWeight": {
+            "value": "600",
+            "type": "color"
+          },
+          "hover": {
+            "background": {
+              "value": "#F1F2F3",
+              "type": "color"
+            }
+          },
+          "icon": {
+            "margin": {
+              "value": "1.125rem",
+              "type": "spacing"
+            }
+          },
+          "margin": {
+            "value": "0.5625rem",
+            "type": "spacing"
+          }
+        }
+      },
+      "topNav": {
+        "dropdown": {
+          "background": {
+            "value": "#F1F2F3",
+            "type": "color"
+          },
+          "padding": {
+            "value": "0.75rem 0.75rem 0.1875rem",
+            "type": "spacing"
+          },
+          "width": {
+            "value": "20rem",
+            "type": "sizing"
+          }
+        },
+        "trigger": {
+          "border": {
+            "width": {
+              "value": "0.25rem",
+              "type": "borderWidth"
+            }
+          },
+          "hover": {
+            "background": {
+              "value": "#D6D9DD",
+              "type": "color"
+            }
+          },
+          "icon": {
+            "margin": {
+              "value": "0.9375rem",
+              "type": "spacing"
+            }
+          },
+          "padding": {
+            "value": "1.125rem",
+            "type": "spacing"
+          }
+        }
+      },
+      "trigger": {
+        "focus": {
+          "background": {
+            "value": "#0535d2",
+            "type": "color"
+          },
+          "text": {
+            "value": "#FFF",
+            "type": "color"
+          },
+          "border-radius": {
+            "value": "0.1875rem",
+            "type": "other"
+          },
+          "outline-offset": {
+            "value": "0.125rem",
+            "type": "borderWidth"
+          },
+          "outline": {
+            "value": "0.1875rem solid #0535d2",
+            "type": "other"
+          }
+        },
+        "font": {
+          "value": {
+            "fontFamily": "\"Noto Sans\", sans-serif",
+            "fontWeight": "400",
+            "lineHeight": "120%",
+            "fontSize": "1.25rem"
+          },
+          "type": "typography"
+        },
+        "maxWidth": {
+          "value": "20rem",
+          "type": "sizing"
+        },
+        "padding": {
+          "value": "0.9375rem",
+          "type": "spacing"
+        },
+        "text": {
+          "value": "#333333",
+          "type": "color"
+        }
+      }
+    },
     "nav-link": {
       "active": {
         "border": {
