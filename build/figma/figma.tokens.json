@@ -244,11 +244,11 @@
         "type": "sizing"
       },
       "lg": {
-        "value": "64rem",
+        "value": "62rem",
         "type": "sizing"
       },
       "xl": {
-        "value": "75rem",
+        "value": "71.25rem",
         "type": "sizing"
       },
       "full": {
@@ -1880,7 +1880,7 @@
           "type": "spacing"
         },
         "width": {
-          "value": "75rem",
+          "value": "71.25rem",
           "type": "sizing"
         }
       },
@@ -2175,7 +2175,7 @@
       },
       "container": {
         "maxWidth": {
-          "value": "75rem",
+          "value": "71.25rem",
           "type": "sizing"
         }
       },
@@ -3315,7 +3315,7 @@
         "type": "color"
       },
       "maxWidth": {
-        "value": "75rem",
+        "value": "71.25rem",
         "type": "sizing"
       }
     },
@@ -3338,11 +3338,11 @@
           "type": "sizing"
         },
         "lg": {
-          "value": "64rem",
+          "value": "62rem",
           "type": "sizing"
         },
         "xl": {
-          "value": "75rem",
+          "value": "71.25rem",
           "type": "sizing"
         },
         "full": {
