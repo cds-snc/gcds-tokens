@@ -599,6 +599,10 @@
   --gcds-select-min-width-and-height: 3rem;
   --gcds-select-outline-width: 0.1875rem;
   --gcds-select-padding: 0.75rem 3.75rem 0.75rem 0.75rem;
+  --gcds-side-nav-heading-font: 700 1.58203125rem/126.41975308641975% "Lato", sans-serif;
+  --gcds-side-nav-heading-margin: 0.5625rem;
+  --gcds-side-nav-heading-padding: 0.9375rem;
+  --gcds-side-nav-max-width: 20rem;
   --gcds-signature-color-flag: #ff0000;
   --gcds-signature-color-text: #000000;
   --gcds-signature-margin: 0 0 0.375rem;

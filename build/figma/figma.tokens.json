@@ -3152,6 +3152,31 @@
         "type": "spacing"
       }
     },
+    "side-nav": {
+      "heading": {
+        "font": {
+          "value": {
+            "fontFamily": "\"Lato\", sans-serif",
+            "fontWeight": "700",
+            "lineHeight": "126.41975308641975%",
+            "fontSize": "1.58203125rem"
+          },
+          "type": "typography"
+        },
+        "margin": {
+          "value": "0.5625rem",
+          "type": "spacing"
+        },
+        "padding": {
+          "value": "0.9375rem",
+          "type": "spacing"
+        }
+      },
+      "maxWidth": {
+        "value": "20rem",
+        "type": "sizing"
+      }
+    },
     "signature": {
       "color": {
         "flag": {
