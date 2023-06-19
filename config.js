@@ -1,6 +1,18 @@
 const StyleDictionary = require('style-dictionary');
+const glob = require('glob');
 
-const { formatHelpers } = StyleDictionary;
+// Change token path to create output files for each token category
+const tokensPath = `tokens/**`;
+const files = glob.sync(tokensPath).map((filePath) => {
+  const fileName = filePath.replace('tokens/', '').replace('.json', '');
+
+  // Remove base.json and base.js files from file path to avoid duplication
+  if (filePath.endsWith('tokens.json') || filePath.endsWith('tokens.js')) {
+    return '';
+  } else {
+    return fileName;
+  }
+});
 
 const traverseObj = (obj) => {
   let output = {};
@@ -60,16 +72,16 @@ module.exports = {
         'typography/font',
       ],
       prefix: 'gcds',
-      files: [
-        {
-          destination: 'build/web/_variables.scss',
+      files: files.map((filePath) => {
+        return {
+          destination: `build/web/scss/${filePath}.scss`,
           format: 'scss/variables',
-        },
-      ],
+          filter: (token) => token.filePath.includes(filePath),
+        };
+      }),
       output: true,
     },
     css: {
-      //   transformGroup: 'css',
       transforms: [
         'attribute/cti',
         'name/cti/kebab',
@@ -80,12 +92,13 @@ module.exports = {
         'typography/font',
       ],
       prefix: 'gcds',
-      files: [
-        {
-          destination: 'build/web/variables.css',
+      files: files.map((filePath) => {
+        return {
+          destination: `build/web/css/${filePath}.css`,
           format: 'css/variables',
-        },
-      ],
+          filter: (token) => token.filePath.includes(filePath),
+        };
+      }),
       output: true,
     },
     figma: {

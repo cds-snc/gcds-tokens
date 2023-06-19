@@ -1,0 +1,15 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 19 Jun 2023 20:28:18 GMT
+ */
+
+:root {
+  --gcds-border-radius-sm: 0.1875rem; /* Global border: radius sm */
+  --gcds-border-radius-md: 0.375rem; /* Global border: radius md */
+  --gcds-border-radius-lg: 3rem; /* Global border: radius lg */
+  --gcds-border-radius-xl: 100%; /* Global border: radius xl */
+  --gcds-border-width-sm: 0.0625rem; /* Global border: width sm */
+  --gcds-border-width-md: 0.125rem; /* Global border: width md */
+  --gcds-border-width-lg: 0.25rem; /* Global border: width lg */
+  --gcds-border-width-xl: 0.375rem; /* Global border: width xl */
+}
