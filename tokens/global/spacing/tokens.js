@@ -1,4 +1,4 @@
-const { base } = require('../typography/base');
+const { base } = require('../typography/tokens');
 
 const spacing = {
   0: {

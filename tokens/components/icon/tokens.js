@@ -1,4 +1,4 @@
-const { lineHeights } = require('../../global/typography/base');
+const { lineHeights } = require('../../global/typography/tokens');
 
 const font = {
   family: {
