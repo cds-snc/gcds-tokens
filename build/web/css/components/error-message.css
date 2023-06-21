@@ -1,0 +1,14 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 19 Jun 2023 20:28:18 GMT
+ */
+
+:root {
+  --gcds-error-message-background: #fbddda;
+  --gcds-error-message-border-color: #d3080c;
+  --gcds-error-message-border-width: 0.125rem;
+  --gcds-error-message-font: 400 1.25rem/120% "Noto Sans", sans-serif;
+  --gcds-error-message-margin: 0 0 1.125rem;
+  --gcds-error-message-padding: 0.75rem;
+  --gcds-error-message-text: #333333;
+}
