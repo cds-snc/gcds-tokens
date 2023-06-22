@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 19 Jun 2023 20:28:18 GMT
+ * Generated on Thu, 22 Jun 2023 14:47:37 GMT
  */
 
 :root {
@@ -19,7 +19,9 @@
   --gcds-button-secondary-hover-background: #d7e5f5;
   --gcds-button-secondary-active-background: #d7e5f5;
   --gcds-button-text-only-default-background: transparent;
+  --gcds-button-text-only-default-decoration-thickness: 0.0625rem;
   --gcds-button-text-only-default-text: #2b4380;
+  --gcds-button-text-only-hover-decoration-thickness: 0.125rem;
   --gcds-button-text-only-hover-text: #0535d2;
   --gcds-button-mobile-margin: 0.1875rem 0;
   --gcds-button-mobile-width: 100%;

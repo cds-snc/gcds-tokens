@@ -604,32 +604,6 @@
           }
         }
       },
-      "container": {
-        "xs": {
-          "value": "20rem",
-          "type": "sizing"
-        },
-        "sm": {
-          "value": "30rem",
-          "type": "sizing"
-        },
-        "md": {
-          "value": "48rem",
-          "type": "sizing"
-        },
-        "lg": {
-          "value": "64rem",
-          "type": "sizing"
-        },
-        "xl": {
-          "value": "75rem",
-          "type": "sizing"
-        },
-        "full": {
-          "value": "100%",
-          "type": "sizing"
-        }
-      },
       "content": {
         "heading": {
           "font": {
@@ -948,12 +922,24 @@
             "value": "transparent",
             "type": "color"
           },
+          "decoration": {
+            "thickness": {
+              "value": "0.0625rem",
+              "type": "borderWidth"
+            }
+          },
           "text": {
             "value": "#2b4380",
             "type": "color"
           }
         },
         "hover": {
+          "decoration": {
+            "thickness": {
+              "value": "0.125rem",
+              "type": "borderWidth"
+            }
+          },
           "text": {
             "value": "#0535d2",
             "type": "color"
@@ -1858,32 +1844,6 @@
       }
     },
     "grid": {
-      "container": {
-        "xs": {
-          "value": "20rem",
-          "type": "sizing"
-        },
-        "sm": {
-          "value": "30rem",
-          "type": "sizing"
-        },
-        "md": {
-          "value": "48rem",
-          "type": "sizing"
-        },
-        "lg": {
-          "value": "64rem",
-          "type": "sizing"
-        },
-        "xl": {
-          "value": "75rem",
-          "type": "sizing"
-        },
-        "full": {
-          "value": "100%",
-          "type": "sizing"
-        }
-      },
       "gap": {
         "0": {
           "value": "0",
@@ -2473,32 +2433,6 @@
       }
     },
     "phaseBanner": {
-      "container": {
-        "xs": {
-          "value": "20rem",
-          "type": "sizing"
-        },
-        "sm": {
-          "value": "30rem",
-          "type": "sizing"
-        },
-        "md": {
-          "value": "48rem",
-          "type": "sizing"
-        },
-        "lg": {
-          "value": "64rem",
-          "type": "sizing"
-        },
-        "xl": {
-          "value": "75rem",
-          "type": "sizing"
-        },
-        "full": {
-          "value": "100%",
-          "type": "sizing"
-        }
-      },
       "detailsCta": {
         "margin": {
           "value": "0 0 0 0.9375rem",
