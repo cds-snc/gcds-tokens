@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Wed, 21 Jun 2023 20:08:20 GMT
+// Generated on Thu, 22 Jun 2023 14:47:37 GMT
 
 $gcds-color-blue-100: #d7e5f5;
 $gcds-color-blue-500: #6584a6; // Must contrast 3:1 with white
@@ -125,12 +125,6 @@ $gcds-alert-button-icon-width-and-height: 1.125rem;
 $gcds-alert-button-margin: 0 0 0 0.9375rem;
 $gcds-alert-button-mobile-margin: 0.9375rem 0 0;
 $gcds-alert-button-outline-width: 0.1875rem;
-$gcds-alert-container-xs: 20rem;
-$gcds-alert-container-sm: 30rem;
-$gcds-alert-container-md: 48rem;
-$gcds-alert-container-lg: 64rem;
-$gcds-alert-container-xl: 75rem;
-$gcds-alert-container-full: 100%;
 $gcds-alert-content-heading-font: 700 1.58203125rem/126.41975308641975% "Lato", sans-serif;
 $gcds-alert-content-heading-margin: 0 0 0.5625rem;
 $gcds-alert-content-heading-mobile-margin: 0 0 0.5625rem;
@@ -188,7 +182,9 @@ $gcds-button-secondary-default-text: #2b4380;
 $gcds-button-secondary-hover-background: #d7e5f5;
 $gcds-button-secondary-active-background: #d7e5f5;
 $gcds-button-text-only-default-background: transparent;
+$gcds-button-text-only-default-decoration-thickness: 0.0625rem;
 $gcds-button-text-only-default-text: #2b4380;
+$gcds-button-text-only-hover-decoration-thickness: 0.125rem;
 $gcds-button-text-only-hover-text: #0535d2;
 $gcds-button-mobile-margin: 0.1875rem 0;
 $gcds-button-mobile-width: 100%;
@@ -373,12 +369,6 @@ $gcds-footer-link-focus-radius: 0.1875rem;
 $gcds-footer-link-focus-box-shadow: 0 0 0 0.125rem #ffffff;
 $gcds-footer-link-focus-outline-offset: 0.125rem;
 $gcds-footer-link-focus-outline: 0.1875rem solid #0535d2;
-$gcds-grid-container-xs: 20rem;
-$gcds-grid-container-sm: 30rem;
-$gcds-grid-container-md: 48rem;
-$gcds-grid-container-lg: 64rem;
-$gcds-grid-container-xl: 75rem;
-$gcds-grid-container-full: 100%;
 $gcds-grid-gap-0: 0;
 $gcds-grid-gap-50: 0.1875rem;
 $gcds-grid-gap-100: 0.375rem;
@@ -495,12 +485,6 @@ $gcds-pagination-simple-label-font-weight: 400;
 $gcds-pagination-simple-listitem-margin: 0.375rem 0.375rem 0.75rem;
 $gcds-pagination-simple-listitem-text-margin: 0 0 0.1875rem;
 $gcds-pagination-simple-padding: 0.75rem 0.5625rem;
-$gcds-phase-banner-container-xs: 20rem;
-$gcds-phase-banner-container-sm: 30rem;
-$gcds-phase-banner-container-md: 48rem;
-$gcds-phase-banner-container-lg: 64rem;
-$gcds-phase-banner-container-xl: 75rem;
-$gcds-phase-banner-container-full: 100%;
 $gcds-phase-banner-details-cta-margin: 0 0 0 0.9375rem;
 $gcds-phase-banner-font: 400 1.1111111111111112rem/135% "Noto Sans", sans-serif;
 $gcds-phase-banner-icon-margin: 1.125rem;
