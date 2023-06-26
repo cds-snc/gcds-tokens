@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Thu, 22 Jun 2023 14:47:37 GMT
+// Generated on Fri, 23 Jun 2023 12:36:45 GMT
 
 $gcds-color-blue-100: #d7e5f5;
 $gcds-color-blue-500: #6584a6; // Must contrast 3:1 with white
@@ -199,6 +199,29 @@ $gcds-button-skip-top: 1.5rem;
 $gcds-button-small-font: 400 80%/120% "Noto Sans", sans-serif;
 $gcds-button-small-padding: 0.75rem;
 $gcds-button-width: fit-content;
+$gcds-card-background-color: #ffffff;
+$gcds-card-border: 0.0625rem solid #7d828b;
+$gcds-card-color: #333333;
+$gcds-card-focus-background: #0535d2;
+$gcds-card-focus-color: #ffffff;
+$gcds-card-focus-border-radius: 0.1875rem;
+$gcds-card-focus-box-shadow: 0 0 0 0.125rem #ffffff;
+$gcds-card-focus-outline-offset: 0.125rem;
+$gcds-card-focus-outline: 0.1875rem solid #0535d2;
+$gcds-card-hover-background-color: #f1f2f3;
+$gcds-card-hover-box-shadow: 0 0.1875rem 0.75rem 0.1875rem #d6d9dd;
+$gcds-card-hover-title-color: #0535d2;
+$gcds-card-hover-title-text-decoration-thickness: 0.125rem;
+$gcds-card-margin: 0 0 1.5rem;
+$gcds-card-padding: 1.5rem;
+$gcds-card-tag-color: #43474e;
+$gcds-card-tag-font: 400 1.1111111111111112rem/135% "Noto Sans", sans-serif;
+$gcds-card-slot-color: #43474e;
+$gcds-card-slot-font: 400 1.1111111111111112rem/135% "Noto Sans", sans-serif;
+$gcds-card-title-color: #2b4380;
+$gcds-card-title-font: 700 2.00225830078125rem/124.85901539399482% "Lato", sans-serif;
+$gcds-card-title-text-decoration-thickness: 0.0625rem;
+$gcds-card-title-text-underline-offset: 0.125rem;
 $gcds-checkbox-check-border-width: 0.3125rem;
 $gcds-checkbox-check-height: 1.5rem;
 $gcds-checkbox-check-left: 1rem;
