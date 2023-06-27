@@ -1,0 +1,33 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 27 Jun 2023 23:17:02 GMT
+ */
+
+:root {
+  --gcds-nav-link-active-border-color: #33465c;
+  --gcds-nav-link-active-font-weight: 700;
+  --gcds-nav-link-active-text: #26374a;
+  --gcds-nav-link-active-background: #d7e5f5;
+  --gcds-nav-link-border-width: 0.25rem;
+  --gcds-nav-link-default-text: #2b4380;
+  --gcds-nav-link-default-decoration-thickness: 0.0625rem;
+  --gcds-nav-link-default-max-width: 20rem;
+  --gcds-nav-link-default-underline-offset: 0.25rem;
+  --gcds-nav-link-focus-background: #0535d2;
+  --gcds-nav-link-focus-text: #ffffff;
+  --gcds-nav-link-focus-border-radius: 0.1875rem;
+  --gcds-nav-link-focus-outline-offset: 0.125rem;
+  --gcds-nav-link-focus-outline: 0.1875rem solid #0535d2;
+  --gcds-nav-link-font: 400 1.25rem/120% "Noto Sans", sans-serif;
+  --gcds-nav-link-hover-decoration-thickness: 0.125rem;
+  --gcds-nav-link-hover-text: #0535d2;
+  --gcds-nav-link-margin: 0.5625rem;
+  --gcds-nav-link-padding: 0.9375rem;
+  --gcds-nav-link-side-nav-hover-background: #f1f2f3;
+  --gcds-nav-link-side-nav-padding: 0.9375rem 0.75rem;
+  --gcds-nav-link-top-nav-hover-background: #d6d9dd;
+  --gcds-nav-link-top-nav-home-font: 500 1.58203125rem/126.41975308641975% "Noto Sans", sans-serif;
+  --gcds-nav-link-top-nav-home-padding: 0.9375rem 0.1875rem;
+  --gcds-nav-link-top-nav-padding: 1.125rem;
+  --gcds-nav-link-top-nav-text: #333333;
+}
