@@ -1033,6 +1033,12 @@
         "value": "#333333",
         "type": "color"
       },
+      "description": {
+        "maxWidth": {
+          "value": "65ch",
+          "type": "sizing"
+        }
+      },
       "focus": {
         "background": {
           "value": "#0535d2",
