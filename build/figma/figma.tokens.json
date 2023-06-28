@@ -2539,6 +2539,42 @@
       }
     },
     "nav-group": {
+      "mobile": {
+        "background": {
+          "value": "#FFF",
+          "type": "color"
+        },
+        "list": {
+          "margin": {
+            "value": "0.9375rem 0 0",
+            "type": "spacing"
+          }
+        },
+        "padding": {
+          "value": "0.5625rem 0.9375rem 1.5rem 0.9375rem",
+          "type": "spacing"
+        },
+        "trigger": {
+          "border": {
+            "radius": {
+              "value": "0.375rem",
+              "type": "other"
+            },
+            "width": {
+              "value": "0.125rem",
+              "type": "borderWidth"
+            }
+          },
+          "margin": {
+            "value": "0.5625rem",
+            "type": "spacing"
+          },
+          "text": {
+            "value": "#2b4380",
+            "type": "color"
+          }
+        }
+      },
       "sideNav": {
         "dropdown": {
           "padding": {
@@ -2573,6 +2609,10 @@
         "dropdown": {
           "background": {
             "value": "#F1F2F3",
+            "type": "color"
+          },
+          "box-shadow": {
+            "value": "0 0 0.5625rem rgba(0, 0, 0, 0.25)",
             "type": "color"
           },
           "padding": {
@@ -2640,6 +2680,12 @@
             "fontSize": "1.25rem"
           },
           "type": "typography"
+        },
+        "hover": {
+          "text": {
+            "value": "#0535d2",
+            "type": "color"
+          }
         },
         "maxWidth": {
           "value": "20rem",
@@ -2741,6 +2787,10 @@
             "value": "0.125rem",
             "type": "borderWidth"
           }
+        },
+        "text": {
+          "value": "#0535d2",
+          "type": "color"
         }
       },
       "margin": {

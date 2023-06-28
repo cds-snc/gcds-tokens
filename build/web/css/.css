@@ -149,15 +149,6 @@
   --gcds-alert-button-margin: 0 0 0 0.9375rem;
   --gcds-alert-button-mobile-margin: 0.9375rem 0 0;
   --gcds-alert-button-outline-width: 0.1875rem;
-<<<<<<< HEAD:build/web/css/.css
-=======
-  --gcds-alert-container-xs: 20rem;
-  --gcds-alert-container-sm: 30rem;
-  --gcds-alert-container-md: 48rem;
-  --gcds-alert-container-lg: 62rem;
-  --gcds-alert-container-xl: 71.25rem;
-  --gcds-alert-container-full: 100%;
->>>>>>> a202957 (change container xl to 71.25rem (1140px) to be aligned with canada.ca, change lg to 62rem (992px) to create more equal spacing between xl-lg and lg-md):build/web/variables.css
   --gcds-alert-content-heading-font: 700 1.58203125rem/126.41975308641975% "Lato", sans-serif;
   --gcds-alert-content-heading-margin: 0 0 0.5625rem;
   --gcds-alert-content-heading-mobile-margin: 0 0 0.5625rem;
@@ -404,15 +395,6 @@
   --gcds-footer-link-focus-box-shadow: 0 0 0 0.125rem #ffffff;
   --gcds-footer-link-focus-outline-offset: 0.125rem;
   --gcds-footer-link-focus-outline: 0.1875rem solid #0535d2;
-<<<<<<< HEAD:build/web/css/.css
-=======
-  --gcds-grid-container-xs: 20rem;
-  --gcds-grid-container-sm: 30rem;
-  --gcds-grid-container-md: 48rem;
-  --gcds-grid-container-lg: 62rem;
-  --gcds-grid-container-xl: 71.25rem;
-  --gcds-grid-container-full: 100%;
->>>>>>> a202957 (change container xl to 71.25rem (1140px) to be aligned with canada.ca, change lg to 62rem (992px) to create more equal spacing between xl-lg and lg-md):build/web/variables.css
   --gcds-grid-gap-0: 0;
   --gcds-grid-gap-50: 0.1875rem;
   --gcds-grid-gap-100: 0.375rem;
@@ -510,12 +492,20 @@
   --gcds-lang-toggle-hover-text: #0535d2;
   --gcds-lang-toggle-hover-decoration-thickness: 0.125rem;
   --gcds-lang-toggle-padding: 0.5625rem;
+  --gcds-nav-group-mobile-background: #ffffff;
+  --gcds-nav-group-mobile-list-margin: 0.9375rem 0 0;
+  --gcds-nav-group-mobile-padding: 0.5625rem 0.9375rem 1.5rem 0.9375rem;
+  --gcds-nav-group-mobile-trigger-border-radius: 0.375rem;
+  --gcds-nav-group-mobile-trigger-border-width: 0.125rem;
+  --gcds-nav-group-mobile-trigger-margin: 0.5625rem;
+  --gcds-nav-group-mobile-trigger-text: #2b4380;
   --gcds-nav-group-side-nav-dropdown-padding: 2.25rem;
   --gcds-nav-group-side-nav-trigger-font-weight: 600;
   --gcds-nav-group-side-nav-trigger-hover-background: #f1f2f3;
   --gcds-nav-group-side-nav-trigger-icon-margin: 1.125rem;
   --gcds-nav-group-side-nav-trigger-margin: 0.5625rem;
   --gcds-nav-group-top-nav-dropdown-background: #f1f2f3;
+  --gcds-nav-group-top-nav-dropdown-box-shadow: 0 0 0.5625rem rgba(0, 0, 0, 0.25);
   --gcds-nav-group-top-nav-dropdown-padding: 0.75rem 0.75rem 0.1875rem;
   --gcds-nav-group-top-nav-dropdown-width: 20rem;
   --gcds-nav-group-top-nav-trigger-border-width: 0.25rem;
@@ -528,6 +518,7 @@
   --gcds-nav-group-trigger-focus-outline-offset: 0.125rem;
   --gcds-nav-group-trigger-focus-outline: 0.1875rem solid #0535d2;
   --gcds-nav-group-trigger-font: 400 1.25rem/120% "Noto Sans", sans-serif;
+  --gcds-nav-group-trigger-hover-text: #0535d2;
   --gcds-nav-group-trigger-max-width: 20rem;
   --gcds-nav-group-trigger-padding: 0.9375rem;
   --gcds-nav-group-trigger-text: #333333;
@@ -547,6 +538,7 @@
   --gcds-nav-link-focus-outline: 0.1875rem solid #0535d2;
   --gcds-nav-link-font: 400 1.25rem/120% "Noto Sans", sans-serif;
   --gcds-nav-link-hover-decoration-thickness: 0.125rem;
+  --gcds-nav-link-hover-text: #0535d2;
   --gcds-nav-link-margin: 0.5625rem;
   --gcds-nav-link-padding: 0.9375rem;
   --gcds-nav-link-side-nav-hover-background: #f1f2f3;
@@ -575,15 +567,6 @@
   --gcds-pagination-simple-listitem-margin: 0.375rem 0.375rem 0.75rem;
   --gcds-pagination-simple-listitem-text-margin: 0 0 0.1875rem;
   --gcds-pagination-simple-padding: 0.75rem 0.5625rem;
-<<<<<<< HEAD:build/web/css/.css
-=======
-  --gcds-phase-banner-container-xs: 20rem;
-  --gcds-phase-banner-container-sm: 30rem;
-  --gcds-phase-banner-container-md: 48rem;
-  --gcds-phase-banner-container-lg: 62rem;
-  --gcds-phase-banner-container-xl: 71.25rem;
-  --gcds-phase-banner-container-full: 100%;
->>>>>>> a202957 (change container xl to 71.25rem (1140px) to be aligned with canada.ca, change lg to 62rem (992px) to create more equal spacing between xl-lg and lg-md):build/web/variables.css
   --gcds-phase-banner-details-cta-margin: 0 0 0 0.9375rem;
   --gcds-phase-banner-font: 400 1.1111111111111112rem/135% "Noto Sans", sans-serif;
   --gcds-phase-banner-icon-margin: 1.125rem;
