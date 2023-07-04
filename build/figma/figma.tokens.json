@@ -1029,6 +1029,10 @@
         "value": "0.0625rem solid #7D828B",
         "type": "border"
       },
+      "borderRadius": {
+        "value": "0.375rem",
+        "type": "borderRadius"
+      },
       "color": {
         "value": "#333333",
         "type": "color"
