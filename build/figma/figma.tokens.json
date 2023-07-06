@@ -255,6 +255,10 @@
         "value": "100%",
         "type": "sizing"
       },
+      "border": {
+        "value": "0.0625rem solid #7D828B",
+        "type": "border"
+      },
       "size": {
         "xs": {
           "value": "20rem",
@@ -269,11 +273,11 @@
           "type": "sizing"
         },
         "lg": {
-          "value": "64rem",
+          "value": "62rem",
           "type": "sizing"
         },
         "xl": {
-          "value": "75rem",
+          "value": "71.25rem",
           "type": "sizing"
         },
         "full": {
@@ -1118,7 +1122,7 @@
         "type": "color"
       },
       "border": {
-        "value": "0.0625rem solid #7D828B",
+        "value": "0.125rem solid #7D828B",
         "type": "border"
       },
       "borderRadius": {
