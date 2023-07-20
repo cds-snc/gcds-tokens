@@ -1657,21 +1657,6 @@
         "value": "65ch",
         "type": "sizing"
       },
-      "subHeading": {
-        "font": {
-          "value": {
-            "fontFamily": "\"Noto Sans\", sans-serif",
-            "fontWeight": "400",
-            "lineHeight": "120%",
-            "fontSize": "1.25rem"
-          },
-          "type": "typography"
-        },
-        "padding": {
-          "value": "0 0 1.125rem",
-          "type": "spacing"
-        }
-      },
       "text": {
         "value": "#333333",
         "type": "color"

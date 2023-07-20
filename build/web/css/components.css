@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 20 Jul 2023 17:58:42 GMT
+ * Generated on Thu, 20 Jul 2023 23:02:42 GMT
  */
 
 :root {
@@ -212,8 +212,6 @@
   --gcds-error-summary-list-margin: 0 0 0 1.125rem;
   --gcds-error-summary-margin: 0 0 2.25rem;
   --gcds-error-summary-max-width: 65ch;
-  --gcds-error-summary-sub-heading-font: 400 1.25rem/120% "Noto Sans", sans-serif;
-  --gcds-error-summary-sub-heading-padding: 0 0 1.125rem;
   --gcds-error-summary-text: #333333;
   --gcds-error-summary-mobile-padding: 1.125rem;
   --gcds-error-summary-padding: 2.25rem;
