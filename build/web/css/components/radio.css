@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 19 Jun 2023 20:28:18 GMT
+ * Generated on Thu, 20 Jul 2023 17:58:42 GMT
  */
 
 :root {
@@ -9,7 +9,7 @@
   --gcds-radio-check-height-and-width: 1.125rem;
   --gcds-radio-check-left: 0.9375rem;
   --gcds-radio-check-top: 0.1875rem;
-  --gcds-radio-danger-text: #a62a1e;
+  --gcds-radio-danger-border: #d3080c;
   --gcds-radio-default-text: #333333;
   --gcds-radio-disabled-background: #d6d9dd;
   --gcds-radio-disabled-border: #545961;

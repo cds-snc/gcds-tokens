@@ -1273,8 +1273,8 @@
         }
       },
       "danger": {
-        "text": {
-          "value": "#A62A1E",
+        "border": {
+          "value": "#d3080c",
           "type": "color"
         }
       },
@@ -1688,12 +1688,6 @@
       }
     },
     "fieldset": {
-      "danger": {
-        "text": {
-          "value": "#A62A1E",
-          "type": "color"
-        }
-      },
       "default": {
         "text": {
           "value": "#333333",
@@ -1770,12 +1764,6 @@
         },
         "text": {
           "value": "#2b4380",
-          "type": "color"
-        }
-      },
-      "danger": {
-        "text": {
-          "value": "#A62A1E",
           "type": "color"
         }
       },
@@ -2397,8 +2385,8 @@
         }
       },
       "danger": {
-        "text": {
-          "value": "#A62A1E",
+        "border": {
+          "value": "#d3080c",
           "type": "color"
         }
       },
@@ -3045,8 +3033,8 @@
         }
       },
       "danger": {
-        "text": {
-          "value": "#A62A1E",
+        "border": {
+          "value": "#d3080c",
           "type": "color"
         }
       },
@@ -3147,8 +3135,8 @@
         }
       },
       "danger": {
-        "text": {
-          "value": "#A62A1E",
+        "border": {
+          "value": "#d3080c",
           "type": "color"
         }
       },
@@ -3304,8 +3292,8 @@
         }
       },
       "danger": {
-        "text": {
-          "value": "#A62A1E",
+        "border": {
+          "value": "#d3080c",
           "type": "color"
         }
       },

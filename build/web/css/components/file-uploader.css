@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 19 Jun 2023 20:28:18 GMT
+ * Generated on Thu, 20 Jul 2023 17:58:42 GMT
  */
 
 :root {
@@ -12,7 +12,6 @@
   --gcds-file-uploader-button-margin: 0 0 1.125rem;
   --gcds-file-uploader-button-padding: 0.75rem;
   --gcds-file-uploader-button-text: #2b4380;
-  --gcds-file-uploader-danger-text: #a62a1e;
   --gcds-file-uploader-default-text: #333333;
   --gcds-file-uploader-disabled-background: #d6d9dd;
   --gcds-file-uploader-disabled-text: #545961;

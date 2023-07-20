@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 20 Jul 2023 16:54:24 GMT
+ * Generated on Thu, 20 Jul 2023 17:58:42 GMT
  */
 
 :root {
@@ -254,7 +254,7 @@
   --gcds-checkbox-check-left: 1rem;
   --gcds-checkbox-check-top: -0.1875rem;
   --gcds-checkbox-check-width: 0.9375rem;
-  --gcds-checkbox-danger-text: #a62a1e;
+  --gcds-checkbox-danger-border: #d3080c;
   --gcds-checkbox-default-text: #333333;
   --gcds-checkbox-disabled-background: #d6d9dd;
   --gcds-checkbox-disabled-border: #545961;
@@ -328,7 +328,6 @@
   --gcds-error-summary-text: #333333;
   --gcds-error-summary-mobile-padding: 1.125rem;
   --gcds-error-summary-padding: 2.25rem;
-  --gcds-fieldset-danger-text: #a62a1e;
   --gcds-fieldset-default-text: #333333;
   --gcds-fieldset-disabled-text: #545961;
   --gcds-fieldset-focus-text: #0535d2;
@@ -343,7 +342,6 @@
   --gcds-file-uploader-button-margin: 0 0 1.125rem;
   --gcds-file-uploader-button-padding: 0.75rem;
   --gcds-file-uploader-button-text: #2b4380;
-  --gcds-file-uploader-danger-text: #a62a1e;
   --gcds-file-uploader-default-text: #333333;
   --gcds-file-uploader-disabled-background: #d6d9dd;
   --gcds-file-uploader-disabled-text: #545961;
@@ -467,7 +465,7 @@
   --gcds-icon-margin-1000: 10.5rem;
   --gcds-input-border-radius: 0.1875rem;
   --gcds-input-border-width: 0.125rem;
-  --gcds-input-danger-text: #a62a1e;
+  --gcds-input-danger-border: #d3080c;
   --gcds-input-default-background: #ffffff;
   --gcds-input-default-text: #333333;
   --gcds-input-disabled-background: #d6d9dd;
@@ -582,7 +580,7 @@
   --gcds-radio-check-height-and-width: 1.125rem;
   --gcds-radio-check-left: 0.9375rem;
   --gcds-radio-check-top: 0.1875rem;
-  --gcds-radio-danger-text: #a62a1e;
+  --gcds-radio-danger-border: #d3080c;
   --gcds-radio-default-text: #333333;
   --gcds-radio-disabled-background: #d6d9dd;
   --gcds-radio-disabled-border: #545961;
@@ -599,7 +597,7 @@
   --gcds-select-arrow-position-x: calc(100% - 0.75rem);
   --gcds-select-border-radius: 0.1875rem;
   --gcds-select-border-width: 0.125rem;
-  --gcds-select-danger-text: #a62a1e;
+  --gcds-select-danger-border: #d3080c;
   --gcds-select-default-background: #ffffff;
   --gcds-select-default-text: #333333;
   --gcds-select-disabled-background: #d6d9dd;
@@ -627,7 +625,7 @@
   --gcds-stepper-text: #43474e;
   --gcds-textarea-border-radius: 0.1875rem;
   --gcds-textarea-border-width: 0.125rem;
-  --gcds-textarea-danger-text: #a62a1e;
+  --gcds-textarea-danger-border: #d3080c;
   --gcds-textarea-default-background: #ffffff;
   --gcds-textarea-default-text: #333333;
   --gcds-textarea-disabled-background: #d6d9dd;
