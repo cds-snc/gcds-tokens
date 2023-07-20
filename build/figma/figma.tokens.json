@@ -1714,10 +1714,10 @@
       },
       "font": {
         "value": {
-          "fontFamily": "\"Noto Sans\", sans-serif",
+          "fontFamily": "\"Lato\", sans-serif",
           "fontWeight": "600",
-          "lineHeight": "120%",
-          "fontSize": "1.25rem"
+          "lineHeight": "124.85901539399482%",
+          "fontSize": "2.00225830078125rem"
         },
         "type": "typography"
       },
