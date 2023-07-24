@@ -1,12 +1,12 @@
 /**
  * Do not edit directly
- * Generated on Mon, 19 Jun 2023 20:28:18 GMT
+ * Generated on Thu, 20 Jul 2023 17:58:42 GMT
  */
 
 :root {
   --gcds-textarea-border-radius: 0.1875rem;
   --gcds-textarea-border-width: 0.125rem;
-  --gcds-textarea-danger-text: #a62a1e;
+  --gcds-textarea-danger-border: #d3080c;
   --gcds-textarea-default-background: #ffffff;
   --gcds-textarea-default-text: #333333;
   --gcds-textarea-disabled-background: #d6d9dd;
