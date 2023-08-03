@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 03 Aug 2023 12:54:10 GMT
+ * Generated on Thu, 03 Aug 2023 19:14:40 GMT
  */
 
 :root {
@@ -591,10 +591,11 @@
   --gcds-radio-label-padding: 0 0 0 3.75rem;
   --gcds-radio-margin: 2.25rem 0 1.5rem;
   --gcds-radio-top: -0.75rem;
-  --gcds-search-border-radius: 0.1875rem;
+  --gcds-search-border-radius: 0.1875rem 0 0 0.1875rem;
   --gcds-search-border-width: 0.125rem;
   --gcds-search-default-background: #ffffff;
   --gcds-search-default-text: #333333;
+  --gcds-search-focus-border-radius: 0.1875rem;
   --gcds-search-focus-box-shadow: 0 0 0 0.125rem #ffffff;
   --gcds-search-focus-text: #0535d2;
   --gcds-search-font: 400 1.25rem/120% "Noto Sans", sans-serif;
