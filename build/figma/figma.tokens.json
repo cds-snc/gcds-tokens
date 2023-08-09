@@ -2137,12 +2137,6 @@
           "value": "0 0 0.375rem",
           "type": "spacing"
         },
-        "search": {
-          "width": {
-            "value": "30rem",
-            "type": "sizing"
-          }
-        },
         "toggle": {
           "padding": {
             "value": "0 1.125rem",
@@ -3149,7 +3143,7 @@
     "search": {
       "border": {
         "radius": {
-          "value": "0.1875rem",
+          "value": "0.1875rem 0 0 0.1875rem",
           "type": "borderRadius"
         },
         "width": {
@@ -3168,6 +3162,12 @@
         }
       },
       "focus": {
+        "border": {
+          "radius": {
+            "value": "0.1875rem",
+            "type": "borderRadius"
+          }
+        },
         "boxShadow": {
           "value": "0 0 0 0.125rem #FFF",
           "type": "other"
