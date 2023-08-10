@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Thu, 03 Aug 2023 19:14:39 GMT
+// Generated on Thu, 10 Aug 2023 15:16:25 GMT
 
 $gcds-color-blue-100: #d7e5f5;
 $gcds-color-blue-500: #6584a6; // Must contrast 3:1 with white
@@ -504,6 +504,12 @@ $gcds-nav-group-top-nav-dropdown-padding: 0.75rem 0.75rem 0.1875rem;
 $gcds-nav-group-top-nav-dropdown-width: 20rem;
 $gcds-nav-group-top-nav-trigger-border-width: 0.25rem;
 $gcds-nav-group-top-nav-trigger-hover-background: #d6d9dd;
+$gcds-nav-group-top-nav-trigger-hover-text: #0535d2;
+$gcds-nav-group-top-nav-trigger-hover-decoration-thickness: 0.125rem;
+$gcds-nav-group-top-nav-trigger-margin-inline-start: 0.1875rem;
+$gcds-nav-group-top-nav-trigger-decoration-thickness: 0.0625rem;
+$gcds-nav-group-top-nav-trigger-underline-offset: 0.25rem;
+$gcds-nav-group-top-nav-trigger-expanded-background-color: #d6d9dd;
 $gcds-nav-group-top-nav-trigger-icon-margin: 0.9375rem;
 $gcds-nav-group-top-nav-trigger-padding: 1.125rem;
 $gcds-nav-group-trigger-focus-background: #0535d2;
@@ -511,6 +517,7 @@ $gcds-nav-group-trigger-focus-text: #ffffff;
 $gcds-nav-group-trigger-focus-border-radius: 0.1875rem;
 $gcds-nav-group-trigger-focus-outline-offset: 0.125rem;
 $gcds-nav-group-trigger-focus-outline: 0.1875rem solid #0535d2;
+$gcds-nav-group-trigger-focus-box-shadow: 0 0 0 0.125rem #FFF;
 $gcds-nav-group-trigger-font: 400 1.25rem/120% "Noto Sans", sans-serif;
 $gcds-nav-group-trigger-hover-text: #0535d2;
 $gcds-nav-group-trigger-max-width: 20rem;
@@ -530,6 +537,7 @@ $gcds-nav-link-focus-text: #ffffff;
 $gcds-nav-link-focus-border-radius: 0.1875rem;
 $gcds-nav-link-focus-outline-offset: 0.125rem;
 $gcds-nav-link-focus-outline: 0.1875rem solid #0535d2;
+$gcds-nav-link-focus-box-shadow: 0 0 0 0.125rem #FFF;
 $gcds-nav-link-font: 400 1.25rem/120% "Noto Sans", sans-serif;
 $gcds-nav-link-hover-decoration-thickness: 0.125rem;
 $gcds-nav-link-hover-text: #0535d2;
@@ -542,6 +550,7 @@ $gcds-nav-link-top-nav-home-font: 500 1.58203125rem/126.41975308641975% "Noto Sa
 $gcds-nav-link-top-nav-home-padding: 0.9375rem 0.1875rem;
 $gcds-nav-link-top-nav-padding: 1.125rem;
 $gcds-nav-link-top-nav-text: #333333;
+$gcds-nav-link-top-nav-margin: 0 0 0 0.1875rem;
 $gcds-pagination-active-text: #ffffff;
 $gcds-pagination-active-background: #26374a;
 $gcds-pagination-border-radius: 0.1875rem;
