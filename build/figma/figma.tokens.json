@@ -1793,18 +1793,40 @@
             "width": {
               "value": "0.0625rem",
               "type": "borderWidth"
+            },
+            "radius": {
+              "value": "0.375rem",
+              "type": "borderRadius"
+            }
+          },
+          "underline": {
+            "offset": {
+              "value": "0.25rem",
+              "type": "borderWidth"
             }
           },
           "default": {
             "text": {
               "value": "#A62A1E",
               "type": "color"
+            },
+            "decoration": {
+              "thickness": {
+                "value": "0.0625rem",
+                "type": "borderWidth"
+              }
             }
           },
           "hover": {
             "text": {
               "value": "#822117",
               "type": "color"
+            },
+            "decoration": {
+              "thickness": {
+                "value": "0.125rem",
+                "type": "borderWidth"
+              }
             }
           },
           "margin": {
@@ -1820,6 +1842,14 @@
           "border": {
             "color": {
               "value": "#d3080c",
+              "type": "color"
+            }
+          }
+        },
+        "focus": {
+          "border": {
+            "color": {
+              "value": "#0535d2",
               "type": "color"
             }
           }
@@ -1842,11 +1872,41 @@
           "text": {
             "value": "#FFF",
             "type": "color"
+          },
+          "outline": {
+            "width": {
+              "value": "0.1875rem",
+              "type": "other"
+            },
+            "offset": {
+              "value": "0.125rem",
+              "type": "borderWidth"
+            }
           }
         },
         "text": {
           "value": "#0535d2",
           "type": "color"
+        }
+      },
+      "hover": {
+        "button": {
+          "background": {
+            "value": "#D7E5F5",
+            "type": "color"
+          }
+        }
+      },
+      "active": {
+        "button": {
+          "background": {
+            "value": "#000",
+            "type": "color"
+          },
+          "text": {
+            "value": "#FFF",
+            "type": "color"
+          }
         }
       }
     },
@@ -2890,6 +2950,10 @@
       "hover": {
         "background": {
           "value": "#D7E5F5",
+          "type": "color"
+        },
+        "text": {
+          "value": "#0535d2",
           "type": "color"
         }
       },
