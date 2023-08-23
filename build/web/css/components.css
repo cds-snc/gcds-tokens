@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 16 Aug 2023 12:29:55 GMT
+ * Generated on Wed, 23 Aug 2023 00:58:38 GMT
  */
 
 :root {
@@ -280,8 +280,8 @@
   --gcds-footer-sub-nav-padding: 3rem 0;
   --gcds-footer-sub-signature-lg-width: 10.937rem;
   --gcds-footer-sub-signature-lg-min-width: auto;
-  --gcds-footer-sub-signature-lg-margin: 0 0 0 auto;
-  --gcds-footer-sub-signature-margin: 0 0 1.5rem auto;
+  --gcds-footer-sub-signature-lg-margin: 2.25rem 0 2.25rem auto;
+  --gcds-footer-sub-signature-margin: 2.25rem 0 3.75rem auto;
   --gcds-footer-sub-md-width: 7rem;
   --gcds-footer-sub-sm-width: 100%;
   --gcds-footer-sub-text: #2b4380;
@@ -312,6 +312,7 @@
   --gcds-header-brand-grid-gap: 0.75rem;
   --gcds-header-brand-margin: 1.125rem 0 0;
   --gcds-header-brand-padding: 0 0 0.375rem;
+  --gcds-header-brand-signature-margin: 0 0 0.375rem;
   --gcds-header-brand-toggle-padding: 0 1.125rem;
   --gcds-header-container-max-width: 71.25rem;
   --gcds-header-margin: 0 0 0.75rem;
@@ -532,11 +533,8 @@
   --gcds-side-nav-max-width: 20rem;
   --gcds-signature-color-flag: #ff0000;
   --gcds-signature-color-text: #000000;
-  --gcds-signature-margin: 0 0 0.375rem;
-  --gcds-signature-signature-margin: 0 0 0.375rem;
   --gcds-signature-signature-height: 1.6875rem;
   --gcds-signature-white-default: #ffffff;
-  --gcds-signature-wordmark-margin: 2.25rem 0;
   --gcds-signature-wordmark-height: 3rem;
   --gcds-stepper-font: 600 1.40625rem/124.44444444444444% "Lato", sans-serif;
   --gcds-stepper-margin: 0 0 1.125rem;
