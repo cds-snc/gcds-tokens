@@ -2048,12 +2048,12 @@
               "type": "sizing"
             },
             "margin": {
-              "value": "0 0 0 auto",
+              "value": "2.25rem 0 2.25rem auto",
               "type": "spacing"
             }
           },
           "margin": {
-            "value": "0 0 1.5rem auto",
+            "value": "2.25rem 0 3.75rem auto",
             "type": "spacing"
           }
         },
@@ -2197,6 +2197,12 @@
           "value": "0 0 0.375rem",
           "type": "spacing"
         },
+        "signature": {
+          "margin": {
+            "value": "0 0 0.375rem",
+            "type": "spacing"
+          }
+        },
         "toggle": {
           "padding": {
             "value": "0 1.125rem",
@@ -2214,7 +2220,7 @@
         "value": "0 0 0.75rem",
         "type": "spacing"
       },
-      "topnav": {
+      "skiptonav": {
         "top": {
           "value": "1.5rem",
           "type": "spacing"
@@ -2895,7 +2901,7 @@
           "font": {
             "value": {
               "fontFamily": "\"Noto Sans\", sans-serif",
-              "fontWeight": "500",
+              "fontWeight": "600",
               "lineHeight": "126.41975308641975%",
               "fontSize": "1.58203125rem"
             },
@@ -3382,15 +3388,7 @@
           "type": "color"
         }
       },
-      "margin": {
-        "value": "0 0 0.375rem",
-        "type": "spacing"
-      },
       "signature": {
-        "margin": {
-          "value": "0 0 0.375rem",
-          "type": "spacing"
-        },
         "height": {
           "value": "1.6875rem",
           "type": "sizing"
@@ -3403,10 +3401,6 @@
         }
       },
       "wordmark": {
-        "margin": {
-          "value": "2.25rem 0",
-          "type": "spacing"
-        },
         "height": {
           "value": "3rem",
           "type": "sizing"
