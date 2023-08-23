@@ -2901,7 +2901,7 @@
           "font": {
             "value": {
               "fontFamily": "\"Noto Sans\", sans-serif",
-              "fontWeight": "500",
+              "fontWeight": "600",
               "lineHeight": "126.41975308641975%",
               "fontSize": "1.58203125rem"
             },
