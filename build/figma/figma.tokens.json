@@ -2220,7 +2220,7 @@
         "value": "0 0 0.75rem",
         "type": "spacing"
       },
-      "topnav": {
+      "skiptonav": {
         "top": {
           "value": "1.5rem",
           "type": "spacing"

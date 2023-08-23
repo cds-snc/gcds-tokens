@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 23 Aug 2023 00:58:38 GMT
+ * Generated on Wed, 23 Aug 2023 01:41:47 GMT
  */
 
 :root {
@@ -13,5 +13,5 @@
   --gcds-header-brand-toggle-padding: 0 1.125rem;
   --gcds-header-container-max-width: 71.25rem;
   --gcds-header-margin: 0 0 0.75rem;
-  --gcds-header-topnav-top: 1.5rem;
+  --gcds-header-skiptonav-top: 1.5rem;
 }
