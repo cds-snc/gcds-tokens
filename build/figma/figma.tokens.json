@@ -3514,14 +3514,18 @@
       }
     },
     "topic-menu": {
+      "borderWidth": {
+        "value": "0.0625rem",
+        "type": "borderWidth"
+      },
       "button": {
         "background": {
           "value": "#26374A",
           "type": "color"
         },
         "border": {
-          "value": "0.0625rem solid #26374A",
-          "type": "border"
+          "value": "#26374A",
+          "type": "color"
         },
         "expanded": {
           "background": {
@@ -3611,12 +3615,12 @@
       "menuitem": {
         "border": {
           "blockEnd": {
-            "value": "0.0625rem solid #545961",
-            "type": "border"
+            "value": "#545961",
+            "type": "color"
           },
           "inlineEnd": {
-            "value": "0.0625rem solid #FFF",
-            "type": "border"
+            "value": "#FFF",
+            "type": "color"
           }
         },
         "expanded": {
@@ -3679,6 +3683,10 @@
             "value": "#D6D9DD",
             "type": "color"
           },
+          "border": {
+            "value": "#A8ADB4",
+            "type": "color"
+          },
           "expanded": {
             "marginInlineStart": {
               "value": "6rem",
@@ -3691,9 +3699,9 @@
           }
         },
         "themelist": {
-          "borderInlineEnd": {
-            "value": "0.0625rem solid #F1F2F3",
-            "type": "border"
+          "border": {
+            "value": "#F1F2F3",
+            "type": "color"
           },
           "marginBlockStart": {
             "value": "3rem",
@@ -3704,9 +3712,9 @@
           "item": {
             "first": {
               "menuitem": {
-                "borderBlockEnd": {
-                  "value": "0.0625rem solid #D6D9DD",
-                  "type": "border"
+                "border": {
+                  "value": "#D6D9DD",
+                  "type": "color"
                 },
                 "text": {
                   "value": "#000",
@@ -3731,8 +3739,8 @@
           },
           "menuitem": {
             "borderBlockEnd": {
-              "value": "0.0625rem solid #D6D9DD",
-              "type": "border"
+              "value": "#D6D9DD",
+              "type": "color"
             },
             "haspopup": {
               "font": {
@@ -3787,18 +3795,8 @@
         },
         "item": {
           "border": {
-            "blockStart": {
-              "value": "0.0625rem solid #444",
-              "type": "border"
-            },
-            "blockEnd": {
-              "value": "0.0625rem solid #444",
-              "type": "border"
-            },
-            "inlineStart": {
-              "value": "0.0625rem solid #444",
-              "type": "border"
-            }
+            "value": "#444",
+            "type": "color"
           }
         },
         "text": {
@@ -3815,9 +3813,9 @@
           "value": "#FFF",
           "type": "color"
         },
-        "borderBlockStart": {
-          "value": "0.0625rem solid #D6D9DD",
-          "type": "border"
+        "border": {
+          "value": "#D6D9DD",
+          "type": "color"
         },
         "boxShadow": {
           "value": "0.5625rem 0.5625rem 0.5625rem 0.375rem rgba(0,0,0,.1)",
