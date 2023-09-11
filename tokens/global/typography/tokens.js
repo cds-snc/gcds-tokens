@@ -89,7 +89,7 @@ const fontWeights = {
   },
 };
 
-const calculateLineHeight = (fontSize) => {
+const calculateLineHeight = fontSize => {
   /*
   Get fontSize value, divided away from the base font scaling
   LineHeight has no units, its relative.

@@ -4,17 +4,16 @@ about: Template to use for tasks
 title: ''
 labels: ''
 assignees: ''
-
 ---
 
 **TODO**
-- [ ] 
+
+- [ ]
 
 **Outcomes**
-- 
 
-**Deliverables**
-- 
+- **Deliverables**
 
-**Out of scope**
 -
+
+## **Out of scope**
