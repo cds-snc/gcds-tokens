@@ -12,7 +12,8 @@
     "build"
   ],
   "scripts": {
-    "build": "style-dictionary build"
+    "build": "style-dictionary build",
+    "format": "npx prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
     "url": "https://github.com/cds-snc/gcds-tokens/issues"
   },
   "devDependencies": {
+    "prettier": "3.0.3",
     "style-dictionary": "3.8.0"
   },
   "license": "MIT"

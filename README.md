@@ -21,7 +21,7 @@ We are using [Style Dictionary](https://amzn.github.io/style-dictionary/#/) to b
 - Clone the repo `git clone https://github.com/cds-snc/gcds-tokens`.
 - Run `npm install` to install all Node.js dependencies.
 - Run `npm run build` to build the tokens.
-<br/>
+  <br/>
 
 ## How to contribute
 
@@ -30,10 +30,13 @@ If you are interested in contributing to GC Design System Tokens, please read ou
 <br/>
 
 ## License
+
 Code released under the [MIT License](https://github.com/cds-snc/gcds-tokens/blob/main/LICENSE).
 <br/>
 <br/>
+
 # --------------------------------------------------------
+
 <br/>
 <br/>
 
@@ -58,7 +61,7 @@ Nous utilisons [Style Dictionary](https://amzn.github.io/style-dictionary/#/) po
 - Copiez le référentiel `git clone https://github.com/cds-snc/gcds-tokens`.
 - Exécutez ensuite `npm install` pour installer toutes les dépendances Node.js.
 - Finalement, exécutez `npm run build` pour compiler les unités de style.
-<br/>
+  <br/>
 
 ## Apportez votre contribution
 
@@ -67,6 +70,7 @@ Si vous souhaitez contribuer aux unités de style de Système de design GC, veui
 <br/>
 
 ## Licence
+
 Code publié en vertu de la [licence MIT](https://github.com/cds-snc/gcds-tokens/blob/main/LICENSE) (en anglais).
 <br/>
 <br/>

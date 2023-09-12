@@ -1,5 +1,5 @@
 name: Publish tokens
-on: 
+on:
   push:
     branches:
       - main
@@ -13,7 +13,7 @@ permissions:
 env:
   CDN_BUCKET: gc-design-system-production-cdn
   CDN_REGION: ca-central-1
-  PACKAGE_NAME: "@cdssnc/gcds-tokens"  
+  PACKAGE_NAME: '@cdssnc/gcds-tokens'
 
 jobs:
   build-deploy:
@@ -51,7 +51,7 @@ jobs:
           aws s3api head-object --bucket ${{ env.CDN_BUCKET }} --key "$PUBLISHED_PACKAGE"/package.json
           aws s3api head-object --bucket ${{ env.CDN_BUCKET }} --key ${{ env.PACKAGE_NAME }}@latest/package.json
 
-          aws cloudfront create-invalidation --distribution-id ${{ secrets.CDN_CLOUDFRONT_DIST_ID }} --paths "/*"                
+          aws cloudfront create-invalidation --distribution-id ${{ secrets.CDN_CLOUDFRONT_DIST_ID }} --paths "/*"
 
       - name: Slack notify on failure
         if: failure()

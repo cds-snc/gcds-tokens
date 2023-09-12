@@ -76,7 +76,7 @@ const lineHeight = {
   },
 };
 
-lineHeightToDimension = (value) => {
+lineHeightToDimension = value => {
   return Number(value.slice(0, -1)) / 100;
 };
 
