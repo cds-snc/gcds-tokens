@@ -428,6 +428,9 @@
       "fontSize": {
         "value": 1.25
       },
+      "fontSizeMobile": {
+        "value": 1
+      },
       "lineHeight": {
         "value": 1.2
       },
@@ -458,32 +461,64 @@
         "value": "1.1111111111111112rem",
         "type": "fontSizes"
       },
+      "captionMobile": {
+        "value": "0.8888888888888888rem",
+        "type": "fontSizes"
+      },
       "text": {
         "value": "1.25rem",
+        "type": "fontSizes"
+      },
+      "textMobile": {
+        "value": "1rem",
         "type": "fontSizes"
       },
       "h6": {
         "value": "1.40625rem",
         "type": "fontSizes"
       },
+      "h6Mobile": {
+        "value": "1.125rem",
+        "type": "fontSizes"
+      },
       "h5": {
         "value": "1.58203125rem",
+        "type": "fontSizes"
+      },
+      "h5Mobile": {
+        "value": "1.265625rem",
         "type": "fontSizes"
       },
       "h4": {
         "value": "1.77978515625rem",
         "type": "fontSizes"
       },
+      "h4Mobile": {
+        "value": "1.423828125rem",
+        "type": "fontSizes"
+      },
       "h3": {
         "value": "2.00225830078125rem",
+        "type": "fontSizes"
+      },
+      "h3Mobile": {
+        "value": "1.601806640625rem",
         "type": "fontSizes"
       },
       "h2": {
         "value": "2.2525405883789062rem",
         "type": "fontSizes"
       },
+      "h2Mobile": {
+        "value": "1.802032470703125rem",
+        "type": "fontSizes"
+      },
       "h1": {
         "value": "2.5341081619262695rem",
+        "type": "fontSizes"
+      },
+      "h1Mobile": {
+        "value": "2.0272865295410156rem",
         "type": "fontSizes"
       }
     },
@@ -514,32 +549,64 @@
         "value": "135%",
         "type": "lineHeights"
       },
+      "captionMobile": {
+        "value": "140.625%",
+        "type": "lineHeights"
+      },
       "text": {
         "value": "120%",
+        "type": "lineHeights"
+      },
+      "textMobile": {
+        "value": "150%",
         "type": "lineHeights"
       },
       "h6": {
         "value": "124.44444444444444%",
         "type": "lineHeights"
       },
+      "h6Mobile": {
+        "value": "133.33333333333334%",
+        "type": "lineHeights"
+      },
       "h5": {
         "value": "126.41975308641975%",
+        "type": "lineHeights"
+      },
+      "h5Mobile": {
+        "value": "138.27160493827162%",
         "type": "lineHeights"
       },
       "h4": {
         "value": "126.41975308641973%",
         "type": "lineHeights"
       },
+      "h4Mobile": {
+        "value": "122.90809327846364%",
+        "type": "lineHeights"
+      },
       "h3": {
         "value": "124.85901539399482%",
+        "type": "lineHeights"
+      },
+      "h3Mobile": {
+        "value": "124.85901539399481%",
         "type": "lineHeights"
       },
       "h2": {
         "value": "122.08437060746162%",
         "type": "lineHeights"
       },
+      "h2Mobile": {
+        "value": "124.85901539399481%",
+        "type": "lineHeights"
+      },
       "h1": {
         "value": "118.38484422541731%",
+        "type": "lineHeights"
+      },
+      "h1Mobile": {
+        "value": "123.31754606814303%",
         "type": "lineHeights"
       }
     },
@@ -553,12 +620,30 @@
         },
         "type": "typography"
       },
+      "h1Mobile": {
+        "value": {
+          "fontFamily": "\"Lato\", sans-serif",
+          "fontWeight": "700",
+          "lineHeight": "123.31754606814303%",
+          "fontSize": "2.0272865295410156rem"
+        },
+        "type": "typography"
+      },
       "h2": {
         "value": {
           "fontFamily": "\"Lato\", sans-serif",
           "fontWeight": "700",
           "lineHeight": "122.08437060746162%",
           "fontSize": "2.2525405883789062rem"
+        },
+        "type": "typography"
+      },
+      "h2Mobile": {
+        "value": {
+          "fontFamily": "\"Lato\", sans-serif",
+          "fontWeight": "700",
+          "lineHeight": "124.85901539399481%",
+          "fontSize": "1.802032470703125rem"
         },
         "type": "typography"
       },
@@ -571,12 +656,30 @@
         },
         "type": "typography"
       },
+      "h3Mobile": {
+        "value": {
+          "fontFamily": "\"Lato\", sans-serif",
+          "fontWeight": "700",
+          "lineHeight": "124.85901539399481%",
+          "fontSize": "1.601806640625rem"
+        },
+        "type": "typography"
+      },
       "h4": {
         "value": {
           "fontFamily": "\"Lato\", sans-serif",
           "fontWeight": "700",
           "lineHeight": "126.41975308641973%",
           "fontSize": "1.77978515625rem"
+        },
+        "type": "typography"
+      },
+      "h4Mobile": {
+        "value": {
+          "fontFamily": "\"Lato\", sans-serif",
+          "fontWeight": "700",
+          "lineHeight": "122.90809327846364%",
+          "fontSize": "1.423828125rem"
         },
         "type": "typography"
       },
@@ -589,12 +692,30 @@
         },
         "type": "typography"
       },
+      "h5Mobile": {
+        "value": {
+          "fontFamily": "\"Lato\", sans-serif",
+          "fontWeight": "700",
+          "lineHeight": "138.27160493827162%",
+          "fontSize": "1.265625rem"
+        },
+        "type": "typography"
+      },
       "h6": {
         "value": {
           "fontFamily": "\"Lato\", sans-serif",
           "fontWeight": "700",
           "lineHeight": "124.44444444444444%",
           "fontSize": "1.40625rem"
+        },
+        "type": "typography"
+      },
+      "h6Mobile": {
+        "value": {
+          "fontFamily": "\"Lato\", sans-serif",
+          "fontWeight": "700",
+          "lineHeight": "133.33333333333334%",
+          "fontSize": "1.125rem"
         },
         "type": "typography"
       },
@@ -607,12 +728,30 @@
         },
         "type": "typography"
       },
+      "labelMobile": {
+        "value": {
+          "fontFamily": "\"Noto Sans\", sans-serif",
+          "fontWeight": "500",
+          "lineHeight": "150%",
+          "fontSize": "1rem"
+        },
+        "type": "typography"
+      },
       "caption": {
         "value": {
           "fontFamily": "\"Noto Sans\", sans-serif",
           "fontWeight": "400",
           "lineHeight": "135%",
           "fontSize": "1.1111111111111112rem"
+        },
+        "type": "typography"
+      },
+      "captionMobile": {
+        "value": {
+          "fontFamily": "\"Noto Sans\", sans-serif",
+          "fontWeight": "400",
+          "lineHeight": "140.625%",
+          "fontSize": "0.8888888888888888rem"
         },
         "type": "typography"
       },
@@ -625,12 +764,30 @@
         },
         "type": "typography"
       },
+      "textMobile": {
+        "value": {
+          "fontFamily": "\"Noto Sans\", sans-serif",
+          "fontWeight": "400",
+          "lineHeight": "150%",
+          "fontSize": "1rem"
+        },
+        "type": "typography"
+      },
       "textLong": {
         "value": {
           "fontFamily": "\"Noto Sans\", sans-serif",
           "fontWeight": "400",
           "lineHeight": "150%",
           "fontSize": "1.25rem"
+        },
+        "type": "typography"
+      },
+      "textLongMobile": {
+        "value": {
+          "fontFamily": "\"Noto Sans\", sans-serif",
+          "fontWeight": "400",
+          "lineHeight": "150%",
+          "fontSize": "1rem"
         },
         "type": "typography"
       }
