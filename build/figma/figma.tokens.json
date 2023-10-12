@@ -214,6 +214,21 @@
       "light": {
         "value": "#FFF",
         "type": "color"
+      },
+      "font": {
+        "value": {
+          "fontFamily": "\"Noto Sans\", sans-serif",
+          "fontWeight": "500",
+          "lineHeight": "120%",
+          "fontSize": "1.25rem"
+        },
+        "type": "typography"
+      },
+      "focus": {
+        "text": {
+          "value": "#FFF",
+          "type": "color"
+        }
       }
     },
     "text": {
