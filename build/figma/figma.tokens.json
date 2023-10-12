@@ -218,13 +218,23 @@
       "font": {
         "value": {
           "fontFamily": "\"Noto Sans\", sans-serif",
-          "fontWeight": "500",
+          "fontWeight": "400",
           "lineHeight": "120%",
           "fontSize": "1.25rem"
         },
         "type": "typography"
       },
       "focus": {
+        "background": {
+          "value": "#0535d2",
+          "type": "color"
+        },
+        "outline": {
+          "width": {
+            "value": "0.1875rem",
+            "type": "other"
+          }
+        },
         "text": {
           "value": "#FFF",
           "type": "color"
