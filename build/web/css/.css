@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 12 Oct 2023 16:08:01 GMT
+ * Generated on Thu, 12 Oct 2023 18:46:16 GMT
  */
 
 :root {
@@ -53,6 +53,7 @@
   --gcds-link-light: #ffffff; /* Global color: link light */
   --gcds-link-font: 500 1.25rem/120% "Noto Sans", sans-serif;
   --gcds-link-focus-text: #ffffff;
+  --gcds-link-small-font: 400 80%/120% "Noto Sans", sans-serif;
   --gcds-text-light: #ffffff; /* Global color: text light */
   --gcds-text-primary: #333333; /* Global color: text primary */
   --gcds-text-secondary: #43474e; /* Global color: text secondary */
