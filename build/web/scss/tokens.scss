@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Thu, 05 Oct 2023 20:55:52 GMT
+// Generated on Fri, 13 Oct 2023 21:38:05 GMT
 
 $gcds-color-blue-100: #d7e5f5;
 $gcds-color-blue-500: #6584a6; // Must contrast 3:1 with white
@@ -49,6 +49,11 @@ $gcds-focus-text-form: #0535d2; // Global color: focus text form elements
 $gcds-link-default: #2b4380; // Global color: link default
 $gcds-link-hover: #0535d2; // Global color: link hover
 $gcds-link-light: #ffffff; // Global color: link light
+$gcds-link-font: 400 1.25rem/120% "Noto Sans", sans-serif;
+$gcds-link-focus-background: #0535d2;
+$gcds-link-focus-outline-width: 0.1875rem;
+$gcds-link-focus-text: #ffffff;
+$gcds-link-small-font: 400 1.1111111111111112rem/135% "Noto Sans", sans-serif;
 $gcds-text-light: #ffffff; // Global color: text light
 $gcds-text-primary: #333333; // Global color: text primary
 $gcds-text-secondary: #43474e; // Global color: text secondary
