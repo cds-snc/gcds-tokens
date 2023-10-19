@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file.
 
+## v1.9.0
+
+### Minor
+
+- https://github.com/cds-snc/gcds-tokens/pull/175 - [946bbfc](https://github.com/cds-snc/gcds-tokens/pull/175/commits/946bbfce254ed16b98767e35fd5a4a89b6823135) - Add gcds-text tokens.
+
+### Patch
+
+- https://github.com/cds-snc/gcds-tokens/pull/175 - [03639c3](https://github.com/cds-snc/gcds-tokens/pull/175/commits/03639c3bfaafcfbaae36f21288a58fdd870755eb) - Add character limit tokens for gcds-heading.
+
+## v1.8.0
+
+### Minor
+
+- https://github.com/cds-snc/gcds-tokens/pull/173 - [4a20f0b](https://github.com/cds-snc/gcds-tokens/pull/173/commits/4a20f0b55ef0679b1b73fa486bc21cf87fcadb07) - Add gcds-link tokens.
+
+## v1.7.0
+
+### Minor
+
+- https://github.com/cds-snc/gcds-tokens/pull/170 - [aec4aa5](https://github.com/cds-snc/gcds-tokens/pull/170/commits/aec4aa5d5c34fb339c321a17880572b82e444461) - Add mobile font styles.
+- https://github.com/cds-snc/gcds-tokens/pull/170 - [edd8c9e](https://github.com/cds-snc/gcds-tokens/pull/170/commits/edd8c9ecaf4f925ab0446b0dda6570b0fba438d5) - Add gcds-heading tokens.
+
 ## v1.6.1
 
 ### Patch
