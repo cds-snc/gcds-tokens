@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 19 Oct 2023 17:50:31 GMT
+ * Generated on Wed, 25 Oct 2023 22:37:20 GMT
  */
 
 :root {
@@ -54,8 +54,11 @@
   --gcds-link-font: 400 1.25rem/120% "Noto Sans", sans-serif;
   --gcds-link-focus-background: #0535d2;
   --gcds-link-focus-outline-width: 0.1875rem;
+  --gcds-link-focus-outline-offset: 0.125rem;
   --gcds-link-focus-text: #ffffff;
+  --gcds-link-focus-border-color: #0535d2;
   --gcds-link-small-font: 400 1.1111111111111112rem/135% "Noto Sans", sans-serif;
+  --gcds-link-decoration-thickness: 0.0625rem;
   --gcds-text-light: #ffffff; /* Global color: text light */
   --gcds-text-primary: #333333; /* Global color: text primary */
   --gcds-text-secondary: #43474e; /* Global color: text secondary */
@@ -484,6 +487,12 @@
   --gcds-header-container-max-width: 71.25rem;
   --gcds-header-margin: 0 0 0.75rem;
   --gcds-header-skiptonav-top: 1.5rem;
+  --gcds-heading-character-limit-h1: 31ch;
+  --gcds-heading-character-limit-h2: 35ch;
+  --gcds-heading-character-limit-h3: 40ch;
+  --gcds-heading-character-limit-h4: 45ch;
+  --gcds-heading-character-limit-h5: 50ch;
+  --gcds-heading-character-limit-h6: 57ch;
   --gcds-heading-default-text: #333333;
   --gcds-heading-h1-border-background: #d3080c;
   --gcds-heading-h1-border-height: 0.375rem;

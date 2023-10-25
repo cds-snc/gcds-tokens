@@ -235,9 +235,19 @@
             "type": "other"
           }
         },
+        "outline-offset": {
+          "value": "0.125rem",
+          "type": "spacing"
+        },
         "text": {
           "value": "#FFF",
           "type": "color"
+        },
+        "border": {
+          "color": {
+            "value": "#0535d2",
+            "type": "color"
+          }
         }
       },
       "small": {
@@ -249,6 +259,12 @@
             "fontSize": "1.1111111111111112rem"
           },
           "type": "typography"
+        }
+      },
+      "decoration": {
+        "thickness": {
+          "value": "0.0625rem",
+          "type": "borderWidth"
         }
       }
     },
