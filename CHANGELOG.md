@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## v1.9.1
+
+### Minor
+
+- https://github.com/cds-snc/gcds-tokens/pull/178 - [9130ec3](https://github.com/cds-snc/gcds-tokens/commit/9130ec37e7114256e40c4fce497dad2bdaf0aefd) - Adds updates for gcds-link tokens.
+
+### Patch
+
 ## v1.9.0
 
 ### Minor
