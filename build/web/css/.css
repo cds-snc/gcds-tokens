@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 19 Oct 2023 18:11:33 GMT
+ * Generated on Wed, 25 Oct 2023 14:27:12 GMT
  */
 
 :root {
@@ -273,6 +273,7 @@
   --gcds-button-shared-active-background: #000000;
   --gcds-button-shared-active-text: #ffffff;
   --gcds-button-shared-focus-background: #0535d2;
+  --gcds-button-shared-focus-box-shadow: 0 0 0 0.125rem #ffffff;
   --gcds-button-shared-focus-outline-width: 0.1875rem;
   --gcds-button-shared-focus-text: #ffffff;
   --gcds-button-shared-disabled-background: #d6d9dd;
@@ -317,6 +318,8 @@
   --gcds-checkbox-disabled-border: #545961;
   --gcds-checkbox-disabled-text: #545961;
   --gcds-checkbox-error-padding: 0 0 0 3.75rem;
+  --gcds-checkbox-focus-background: #ffffff;
+  --gcds-checkbox-focus-box-shadow: 0 0 0 0.125rem #ffffff;
   --gcds-checkbox-focus-text: #0535d2;
   --gcds-checkbox-focus-outline-width: 0.1875rem;
   --gcds-checkbox-font: 400 1.25rem/120% "Noto Sans", sans-serif;
@@ -573,6 +576,7 @@
   --gcds-input-default-text: #333333;
   --gcds-input-disabled-background: #d6d9dd;
   --gcds-input-disabled-text: #545961;
+  --gcds-input-focus-box-shadow: 0 0 0 0.125rem #ffffff;
   --gcds-input-focus-text: #0535d2;
   --gcds-input-font: 400 1.25rem/120% "Noto Sans", sans-serif;
   --gcds-input-margin: 0 0 1.5rem;
@@ -667,6 +671,7 @@
   --gcds-pagination-hover-background: #d7e5f5;
   --gcds-pagination-hover-text: #0535d2;
   --gcds-pagination-focus-background: #0535d2;
+  --gcds-pagination-focus-box-shadow: 0 0 0 0.125rem #ffffff;
   --gcds-pagination-focus-text: #ffffff;
   --gcds-pagination-focus-outline-width: 0.1875rem;
   --gcds-pagination-font: 500 1.25rem/120% "Noto Sans", sans-serif;
@@ -698,6 +703,8 @@
   --gcds-radio-disabled-background: #d6d9dd;
   --gcds-radio-disabled-border: #545961;
   --gcds-radio-disabled-text: #545961;
+  --gcds-radio-focus-background: #ffffff;
+  --gcds-radio-focus-box-shadow: 0 0 0 0.125rem #ffffff;
   --gcds-radio-focus-text: #0535d2;
   --gcds-radio-focus-outline-width: 0.1875rem;
   --gcds-radio-font: 400 1.25rem/120% "Noto Sans", sans-serif;
@@ -727,6 +734,7 @@
   --gcds-select-default-text: #333333;
   --gcds-select-disabled-background: #d6d9dd;
   --gcds-select-disabled-text: #545961;
+  --gcds-select-focus-box-shadow: 0 0 0 0.125rem #ffffff;
   --gcds-select-focus-text: #0535d2;
   --gcds-select-font: 400 1.25rem/120% "Noto Sans", sans-serif;
   --gcds-select-margin: 0 0 1.5rem;
@@ -752,6 +760,7 @@
   --gcds-textarea-default-text: #333333;
   --gcds-textarea-disabled-background: #d6d9dd;
   --gcds-textarea-disabled-text: #545961;
+  --gcds-textarea-focus-box-shadow: 0 0 0 0.125rem #ffffff;
   --gcds-textarea-focus-text: #0535d2;
   --gcds-textarea-font: 400 1.25rem/120% "Noto Sans", sans-serif;
   --gcds-textarea-margin: 0 0 1.5rem;

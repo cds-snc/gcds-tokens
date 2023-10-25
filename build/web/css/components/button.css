@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 22 Jun 2023 14:47:37 GMT
+ * Generated on Wed, 25 Oct 2023 14:27:11 GMT
  */
 
 :root {
@@ -28,6 +28,7 @@
   --gcds-button-shared-active-background: #000000;
   --gcds-button-shared-active-text: #ffffff;
   --gcds-button-shared-focus-background: #0535d2;
+  --gcds-button-shared-focus-box-shadow: 0 0 0 0.125rem #ffffff;
   --gcds-button-shared-focus-outline-width: 0.1875rem;
   --gcds-button-shared-focus-text: #ffffff;
   --gcds-button-shared-disabled-background: #d6d9dd;

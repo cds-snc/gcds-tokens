@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 20 Jul 2023 17:58:42 GMT
+ * Generated on Wed, 25 Oct 2023 14:27:12 GMT
  */
 
 :root {
@@ -12,6 +12,7 @@
   --gcds-select-default-text: #333333;
   --gcds-select-disabled-background: #d6d9dd;
   --gcds-select-disabled-text: #545961;
+  --gcds-select-focus-box-shadow: 0 0 0 0.125rem #ffffff;
   --gcds-select-focus-text: #0535d2;
   --gcds-select-font: 400 1.25rem/120% "Noto Sans", sans-serif;
   --gcds-select-margin: 0 0 1.5rem;

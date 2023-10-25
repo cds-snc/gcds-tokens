@@ -1393,6 +1393,10 @@
             "value": "#0535d2",
             "type": "color"
           },
+          "box-shadow": {
+            "value": "0 0 0 0.125rem #FFF",
+            "type": "color"
+          },
           "outline": {
             "width": {
               "value": "0.1875rem",
@@ -1630,6 +1634,14 @@
         }
       },
       "focus": {
+        "background": {
+          "value": "#FFF",
+          "type": "color"
+        },
+        "box-shadow": {
+          "value": "0 0 0 0.125rem #FFF",
+          "type": "color"
+        },
         "text": {
           "value": "#0535d2",
           "type": "color"
@@ -3013,6 +3025,10 @@
         }
       },
       "focus": {
+        "box-shadow": {
+          "value": "0 0 0 0.125rem #FFF",
+          "type": "color"
+        },
         "text": {
           "value": "#0535d2",
           "type": "color"
@@ -3525,6 +3541,10 @@
           "value": "#0535d2",
           "type": "color"
         },
+        "box-shadow": {
+          "value": "0 0 0 0.125rem #FFF",
+          "type": "color"
+        },
         "text": {
           "value": "#FFF",
           "type": "color"
@@ -3709,6 +3729,14 @@
         }
       },
       "focus": {
+        "background": {
+          "value": "#FFF",
+          "type": "color"
+        },
+        "box-shadow": {
+          "value": "0 0 0 0.125rem #FFF",
+          "type": "color"
+        },
         "text": {
           "value": "#0535d2",
           "type": "color"
@@ -3876,6 +3904,10 @@
         }
       },
       "focus": {
+        "box-shadow": {
+          "value": "0 0 0 0.125rem #FFF",
+          "type": "color"
+        },
         "text": {
           "value": "#0535d2",
           "type": "color"
@@ -4021,6 +4053,10 @@
         }
       },
       "focus": {
+        "box-shadow": {
+          "value": "0 0 0 0.125rem #FFF",
+          "type": "color"
+        },
         "text": {
           "value": "#0535d2",
           "type": "color"
