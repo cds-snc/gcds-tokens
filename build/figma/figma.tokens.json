@@ -260,6 +260,12 @@
           },
           "type": "typography"
         }
+      },
+      "decoration": {
+        "thickness": {
+          "value": "0.0625rem",
+          "type": "borderWidth"
+        }
       }
     },
     "text": {
