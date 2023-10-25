@@ -235,9 +235,19 @@
             "type": "other"
           }
         },
+        "outline-offset": {
+          "value": "0.125rem",
+          "type": "spacing"
+        },
         "text": {
           "value": "#FFF",
           "type": "color"
+        },
+        "border": {
+          "color": {
+            "value": "#0535d2",
+            "type": "color"
+          }
         }
       },
       "small": {

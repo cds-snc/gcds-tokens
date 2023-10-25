@@ -1,13 +1,15 @@
 /**
  * Do not edit directly
- * Generated on Thu, 19 Oct 2023 18:11:33 GMT
+ * Generated on Wed, 25 Oct 2023 20:42:19 GMT
  */
 
 :root {
   --gcds-link-font: 400 1.25rem/120% "Noto Sans", sans-serif;
   --gcds-link-focus-background: #0535d2;
   --gcds-link-focus-outline-width: 0.1875rem;
+  --gcds-link-focus-outline-offset: 0.125rem;
   --gcds-link-focus-text: #ffffff;
+  --gcds-link-focus-border-color: #0535d2;
   --gcds-link-small-font: 400 1.1111111111111112rem/135% "Noto Sans", sans-serif;
   --gcds-text-character-limit: 65ch;
   --gcds-text-role-light: #ffffff;
