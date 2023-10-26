@@ -2,13 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
-## v1.9.1
-
-### Minor
-
-- https://github.com/cds-snc/gcds-tokens/pull/178 - [9130ec3](https://github.com/cds-snc/gcds-tokens/commit/9130ec37e7114256e40c4fce497dad2bdaf0aefd) - Adds updates for gcds-link tokens.
+## v1.9.2
 
 ### Patch
+
+- https://github.com/cds-snc/gcds-tokens/pull/177 - [479ca70](https://github.com/cds-snc/gcds-tokens/commit/479ca70d56be13f6e453f2a309d35de515cc7bb8) - Add focus box-shadow to multiple components.
+
+## v1.9.1
+
+### Patch
+
+- https://github.com/cds-snc/gcds-tokens/pull/178 - [9130ec3](https://github.com/cds-snc/gcds-tokens/commit/9130ec37e7114256e40c4fce497dad2bdaf0aefd) - Adds updates for gcds-link tokens.
 
 ## v1.9.0
 
