@@ -266,6 +266,12 @@
           "value": "0.0625rem",
           "type": "borderWidth"
         }
+      },
+      "underline": {
+        "offset": {
+          "value": "0.25rem",
+          "type": "borderWidth"
+        }
       }
     },
     "text": {
