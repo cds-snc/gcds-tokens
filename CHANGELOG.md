@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.10.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.9.2...gcds-tokens-v1.10.0) (2023-11-01)
+
+
+### Features
+
+* add release generator ([#180](https://github.com/cds-snc/gcds-tokens/issues/180)) ([9aaacc2](https://github.com/cds-snc/gcds-tokens/commit/9aaacc2c92e907f9124c3b8c4cdcc62c8af0825b))
+
+
+### Miscellaneous Chores
+
+* add new token for link (underline offset) ([#185](https://github.com/cds-snc/gcds-tokens/issues/185)) ([75c8769](https://github.com/cds-snc/gcds-tokens/commit/75c87693d55f41b2d30cb10eaee529e4e8e5e1f6))
+* bootstrap releases for path: . ([#186](https://github.com/cds-snc/gcds-tokens/issues/186)) ([19d7074](https://github.com/cds-snc/gcds-tokens/commit/19d70749058be700009c2eb5071796e6b3d569b8))
+* created local '.github/workflows/backstage-catalog-helper.yml' from remote 'tools/sre_file_sync/backstage-catalog-helper.yml' ([#182](https://github.com/cds-snc/gcds-tokens/issues/182)) ([ce3fd35](https://github.com/cds-snc/gcds-tokens/commit/ce3fd35354945d58a6782084861e935cb477df03))
+* **deps:** lock file maintenance ([#188](https://github.com/cds-snc/gcds-tokens/issues/188)) ([0c0f69e](https://github.com/cds-snc/gcds-tokens/commit/0c0f69ed62dad4bac481750c5b25ddfd4e109ec4))
+* **deps:** update all non-major github action dependencies ([#181](https://github.com/cds-snc/gcds-tokens/issues/181)) ([fedb4c2](https://github.com/cds-snc/gcds-tokens/commit/fedb4c24ee511d627eadc336f74e77374480d0ad))
+* synced local '.github/workflows/backstage-catalog-helper.yml' with remote 'tools/sre_file_sync/backstage-catalog-helper.yml' ([#183](https://github.com/cds-snc/gcds-tokens/issues/183)) ([66d48cd](https://github.com/cds-snc/gcds-tokens/commit/66d48cd16e83cbd119a84175ab099e754b555900))
+* synced local '.github/workflows/backstage-catalog-helper.yml' with remote 'tools/sre_file_sync/backstage-catalog-helper.yml' ([#184](https://github.com/cds-snc/gcds-tokens/issues/184)) ([9d8a374](https://github.com/cds-snc/gcds-tokens/commit/9d8a3746c8148143d03c8b495abf71095acd380d))
+
 ## v1.9.2
 
 ### Patch
