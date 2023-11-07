@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: gcds-tokens
+  description: >-
+    GC Design System Tokens are the smallest building blocks of GC Design
+    System, represent design decisions for basic elements like colour,
+    typography, and spacing. | Les jetons Système de design GC sont les plus
+    petits blocs de construction du système et représentent les choix de design
+    pour les éléments de base (couleur, typographie, espacement…).
+  labels:
+    license: MIT
+spec:
+  type: website
+  lifecycle: experimental
+  owner: cds-snc
