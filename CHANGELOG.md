@@ -19,7 +19,6 @@ All notable changes to this project will be documented in this file.
 ### Miscellaneous Chores 
 
 * **deps:** update all non-major github action dependencies ([#193](https://github.com/cds-snc/gcds-tokens/issues/193)) ([b70d681](https://github.com/cds-snc/gcds-tokens/commit/b70d681a9e00e15fb79db67a28ee3993064e476d))
-
 * synced local '.github/workflows/backstage-catalog-helper.yml' with remote 'tools/sre_file_sync/backstage-catalog-helper.yml' ([#196](https://github.com/cds-snc/gcds-tokens/issues/196)) ([0f10d01](https://github.com/cds-snc/gcds-tokens/commit/0f10d01d10b6084bdcd8b5af6c0cefe1793549e4))
 
 ## [1.10.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.9.2...gcds-tokens-v1.10.0) (2023-11-01)
