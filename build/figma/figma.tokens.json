@@ -255,10 +255,6 @@
           "type": "color"
         },
         "border": {
-          "color": {
-            "value": "#0535d2",
-            "type": "color"
-          },
           "radius": {
             "value": "0.1875rem",
             "type": "borderRadius"
