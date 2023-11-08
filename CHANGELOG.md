@@ -4,20 +4,12 @@ All notable changes to this project will be documented in this file.
 
 ## [1.10.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.10.0...gcds-tokens-v1.10.1) (2023-11-08)
 
-
-### Bug Fixes
-
-* give `npm publish` time to complete ([#189](https://github.com/cds-snc/gcds-tokens/issues/189)) ([2afddba](https://github.com/cds-snc/gcds-tokens/commit/2afddba1804e53cc31d6c0e638e089474ad9a24b))
-
-
-### Updates
+### Patch
 
 * add focus box-shadow to link token ([#192](https://github.com/cds-snc/gcds-tokens/issues/192)) ([ca00a31](https://github.com/cds-snc/gcds-tokens/commit/ca00a310ca726156c94f61944d432c1275a2bb19))
 * update link tokens ([#191](https://github.com/cds-snc/gcds-tokens/issues/191)) ([3649eb8](https://github.com/cds-snc/gcds-tokens/commit/3649eb833fadaee0024c4e183942f96fa524a786))
 * remove link token focus-border-color ([#198](https://github.com/cds-snc/gcds-tokens/issues/198)) ([0e17bf1](https://github.com/cds-snc/gcds-tokens/commit/0e17bf1ef16960e5086949f940c2fa05fb2675a5))
-  
-### Miscellaneous Chores 
-
+* give `npm publish` time to complete ([#189](https://github.com/cds-snc/gcds-tokens/issues/189)) ([2afddba](https://github.com/cds-snc/gcds-tokens/commit/2afddba1804e53cc31d6c0e638e089474ad9a24b))
 * **deps:** update all non-major github action dependencies ([#193](https://github.com/cds-snc/gcds-tokens/issues/193)) ([b70d681](https://github.com/cds-snc/gcds-tokens/commit/b70d681a9e00e15fb79db67a28ee3993064e476d))
 * synced local '.github/workflows/backstage-catalog-helper.yml' with remote 'tools/sre_file_sync/backstage-catalog-helper.yml' ([#196](https://github.com/cds-snc/gcds-tokens/issues/196)) ([0f10d01](https://github.com/cds-snc/gcds-tokens/commit/0f10d01d10b6084bdcd8b5af6c0cefe1793549e4))
 
