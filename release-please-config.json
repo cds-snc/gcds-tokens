@@ -13,8 +13,8 @@
   "changelog-sections": [
     { "type": "feat", "section": "New Features" },
     { "type": "feature", "section": "New Features" },
-    { "type": "fix", "section": "Patch" },
-    { "type": "perf", "section": "Patch" },
+    { "type": "fix", "section": "Bug Fixes" },
+    { "type": "perf", "section": "Performance Improvements" },
     { "type": "revert", "section": "Reverts", "hidden": true },
     { "type": "docs", "section": "Documentation" },
     { "type": "style", "section": "Styles" },
