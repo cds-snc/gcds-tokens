@@ -2,34 +2,38 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.11.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.10.1...gcds-tokens-v1.11.0) (2023-11-30)
+
+### New Features
+
+- add new grid functionality ([#205](https://github.com/cds-snc/gcds-tokens/issues/205)) ([cfeb4df](https://github.com/cds-snc/gcds-tokens/commit/cfeb4df48014ff748e2bc33c2aabb5a0b458cf31))
+
 ## [1.10.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.10.0...gcds-tokens-v1.10.1) (2023-11-08)
 
 ### Patch
 
-* add focus box-shadow to link token ([#192](https://github.com/cds-snc/gcds-tokens/issues/192)) ([ca00a31](https://github.com/cds-snc/gcds-tokens/commit/ca00a310ca726156c94f61944d432c1275a2bb19))
-* update link tokens ([#191](https://github.com/cds-snc/gcds-tokens/issues/191)) ([3649eb8](https://github.com/cds-snc/gcds-tokens/commit/3649eb833fadaee0024c4e183942f96fa524a786))
-* remove link token focus-border-color ([#198](https://github.com/cds-snc/gcds-tokens/issues/198)) ([0e17bf1](https://github.com/cds-snc/gcds-tokens/commit/0e17bf1ef16960e5086949f940c2fa05fb2675a5))
-* give `npm publish` time to complete ([#189](https://github.com/cds-snc/gcds-tokens/issues/189)) ([2afddba](https://github.com/cds-snc/gcds-tokens/commit/2afddba1804e53cc31d6c0e638e089474ad9a24b))
-* **deps:** update all non-major github action dependencies ([#193](https://github.com/cds-snc/gcds-tokens/issues/193)) ([b70d681](https://github.com/cds-snc/gcds-tokens/commit/b70d681a9e00e15fb79db67a28ee3993064e476d))
-* synced local '.github/workflows/backstage-catalog-helper.yml' with remote 'tools/sre_file_sync/backstage-catalog-helper.yml' ([#196](https://github.com/cds-snc/gcds-tokens/issues/196)) ([0f10d01](https://github.com/cds-snc/gcds-tokens/commit/0f10d01d10b6084bdcd8b5af6c0cefe1793549e4))
+- add focus box-shadow to link token ([#192](https://github.com/cds-snc/gcds-tokens/issues/192)) ([ca00a31](https://github.com/cds-snc/gcds-tokens/commit/ca00a310ca726156c94f61944d432c1275a2bb19))
+- update link tokens ([#191](https://github.com/cds-snc/gcds-tokens/issues/191)) ([3649eb8](https://github.com/cds-snc/gcds-tokens/commit/3649eb833fadaee0024c4e183942f96fa524a786))
+- remove link token focus-border-color ([#198](https://github.com/cds-snc/gcds-tokens/issues/198)) ([0e17bf1](https://github.com/cds-snc/gcds-tokens/commit/0e17bf1ef16960e5086949f940c2fa05fb2675a5))
+- give `npm publish` time to complete ([#189](https://github.com/cds-snc/gcds-tokens/issues/189)) ([2afddba](https://github.com/cds-snc/gcds-tokens/commit/2afddba1804e53cc31d6c0e638e089474ad9a24b))
+- **deps:** update all non-major github action dependencies ([#193](https://github.com/cds-snc/gcds-tokens/issues/193)) ([b70d681](https://github.com/cds-snc/gcds-tokens/commit/b70d681a9e00e15fb79db67a28ee3993064e476d))
+- synced local '.github/workflows/backstage-catalog-helper.yml' with remote 'tools/sre_file_sync/backstage-catalog-helper.yml' ([#196](https://github.com/cds-snc/gcds-tokens/issues/196)) ([0f10d01](https://github.com/cds-snc/gcds-tokens/commit/0f10d01d10b6084bdcd8b5af6c0cefe1793549e4))
 
 ## [1.10.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.9.2...gcds-tokens-v1.10.0) (2023-11-01)
 
-
 ### Features
 
-* add release generator ([#180](https://github.com/cds-snc/gcds-tokens/issues/180)) ([9aaacc2](https://github.com/cds-snc/gcds-tokens/commit/9aaacc2c92e907f9124c3b8c4cdcc62c8af0825b))
-
+- add release generator ([#180](https://github.com/cds-snc/gcds-tokens/issues/180)) ([9aaacc2](https://github.com/cds-snc/gcds-tokens/commit/9aaacc2c92e907f9124c3b8c4cdcc62c8af0825b))
 
 ### Miscellaneous Chores
 
-* add new token for link (underline offset) ([#185](https://github.com/cds-snc/gcds-tokens/issues/185)) ([75c8769](https://github.com/cds-snc/gcds-tokens/commit/75c87693d55f41b2d30cb10eaee529e4e8e5e1f6))
-* bootstrap releases for path: . ([#186](https://github.com/cds-snc/gcds-tokens/issues/186)) ([19d7074](https://github.com/cds-snc/gcds-tokens/commit/19d70749058be700009c2eb5071796e6b3d569b8))
-* created local '.github/workflows/backstage-catalog-helper.yml' from remote 'tools/sre_file_sync/backstage-catalog-helper.yml' ([#182](https://github.com/cds-snc/gcds-tokens/issues/182)) ([ce3fd35](https://github.com/cds-snc/gcds-tokens/commit/ce3fd35354945d58a6782084861e935cb477df03))
-* **deps:** lock file maintenance ([#188](https://github.com/cds-snc/gcds-tokens/issues/188)) ([0c0f69e](https://github.com/cds-snc/gcds-tokens/commit/0c0f69ed62dad4bac481750c5b25ddfd4e109ec4))
-* **deps:** update all non-major github action dependencies ([#181](https://github.com/cds-snc/gcds-tokens/issues/181)) ([fedb4c2](https://github.com/cds-snc/gcds-tokens/commit/fedb4c24ee511d627eadc336f74e77374480d0ad))
-* synced local '.github/workflows/backstage-catalog-helper.yml' with remote 'tools/sre_file_sync/backstage-catalog-helper.yml' ([#183](https://github.com/cds-snc/gcds-tokens/issues/183)) ([66d48cd](https://github.com/cds-snc/gcds-tokens/commit/66d48cd16e83cbd119a84175ab099e754b555900))
-* synced local '.github/workflows/backstage-catalog-helper.yml' with remote 'tools/sre_file_sync/backstage-catalog-helper.yml' ([#184](https://github.com/cds-snc/gcds-tokens/issues/184)) ([9d8a374](https://github.com/cds-snc/gcds-tokens/commit/9d8a3746c8148143d03c8b495abf71095acd380d))
+- add new token for link (underline offset) ([#185](https://github.com/cds-snc/gcds-tokens/issues/185)) ([75c8769](https://github.com/cds-snc/gcds-tokens/commit/75c87693d55f41b2d30cb10eaee529e4e8e5e1f6))
+- bootstrap releases for path: . ([#186](https://github.com/cds-snc/gcds-tokens/issues/186)) ([19d7074](https://github.com/cds-snc/gcds-tokens/commit/19d70749058be700009c2eb5071796e6b3d569b8))
+- created local '.github/workflows/backstage-catalog-helper.yml' from remote 'tools/sre_file_sync/backstage-catalog-helper.yml' ([#182](https://github.com/cds-snc/gcds-tokens/issues/182)) ([ce3fd35](https://github.com/cds-snc/gcds-tokens/commit/ce3fd35354945d58a6782084861e935cb477df03))
+- **deps:** lock file maintenance ([#188](https://github.com/cds-snc/gcds-tokens/issues/188)) ([0c0f69e](https://github.com/cds-snc/gcds-tokens/commit/0c0f69ed62dad4bac481750c5b25ddfd4e109ec4))
+- **deps:** update all non-major github action dependencies ([#181](https://github.com/cds-snc/gcds-tokens/issues/181)) ([fedb4c2](https://github.com/cds-snc/gcds-tokens/commit/fedb4c24ee511d627eadc336f74e77374480d0ad))
+- synced local '.github/workflows/backstage-catalog-helper.yml' with remote 'tools/sre_file_sync/backstage-catalog-helper.yml' ([#183](https://github.com/cds-snc/gcds-tokens/issues/183)) ([66d48cd](https://github.com/cds-snc/gcds-tokens/commit/66d48cd16e83cbd119a84175ab099e754b555900))
+- synced local '.github/workflows/backstage-catalog-helper.yml' with remote 'tools/sre_file_sync/backstage-catalog-helper.yml' ([#184](https://github.com/cds-snc/gcds-tokens/issues/184)) ([9d8a374](https://github.com/cds-snc/gcds-tokens/commit/9d8a3746c8148143d03c8b495abf71095acd380d))
 
 ## v1.9.2
 
