@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.11.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.10.1...gcds-tokens-v1.11.0) (2023-11-30)
+
+
+### New Features
+
+* add new grid functionality ([#205](https://github.com/cds-snc/gcds-tokens/issues/205)) ([cfeb4df](https://github.com/cds-snc/gcds-tokens/commit/cfeb4df48014ff748e2bc33c2aabb5a0b458cf31))
+
+
+### Patch
+
+* **deps:** update actions/create-github-app-token action to v1.6.0 ([#204](https://github.com/cds-snc/gcds-tokens/issues/204)) ([769efad](https://github.com/cds-snc/gcds-tokens/commit/769efad746a5d2eca6bb42e490e4e6dad9712e5a))
+* **deps:** update all non-major github action dependencies ([#201](https://github.com/cds-snc/gcds-tokens/issues/201)) ([6756eff](https://github.com/cds-snc/gcds-tokens/commit/6756effd68dc1911490d1c67d2d10f85ab594360))
+* **deps:** update dependency prettier to v3.1.0 ([#203](https://github.com/cds-snc/gcds-tokens/issues/203)) ([567cff5](https://github.com/cds-snc/gcds-tokens/commit/567cff59e3907ad6f6794b0b7eb367146395bdac))
+* **deps:** update dependency style-dictionary to v3.9.0 ([#194](https://github.com/cds-snc/gcds-tokens/issues/194)) ([be101a7](https://github.com/cds-snc/gcds-tokens/commit/be101a79928d03f2de09a230b5d8361807783c24))
+
 ## [1.10.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.10.0...gcds-tokens-v1.10.1) (2023-11-08)
 
 ### Patch
