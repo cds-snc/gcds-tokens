@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
 
       - name: Publish
-        uses: JS-DevTools/npm-publish@3a3ce8768f68335c199746eadc16bcc7ddda963b
+        uses: JS-DevTools/npm-publish@fe58a596e87f1297b15f580ec0dbc833d51a4622
         id: publish
         with:
           token: ${{ secrets.NPM_TOKEN }}
