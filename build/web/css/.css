@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 29 Nov 2023 22:36:35 GMT
+ * Generated on Tue, 16 Jan 2024 21:32:40 GMT
  */
 
 :root {
@@ -617,7 +617,7 @@
   --gcds-lang-toggle-font: 400 1.25rem/120% 'Noto Sans', sans-serif;
   --gcds-lang-toggle-hover-text: #0535d2;
   --gcds-lang-toggle-hover-decoration-thickness: 0.125rem;
-  --gcds-lang-toggle-padding: 0.5625rem;
+  --gcds-lang-toggle-padding: 0.5625rem 0.75rem;
   --gcds-nav-group-mobile-background: #ffffff;
   --gcds-nav-group-mobile-list-margin: 0.9375rem 0 0;
   --gcds-nav-group-mobile-padding: 0.5625rem 0.9375rem 1.5rem 0.9375rem;
