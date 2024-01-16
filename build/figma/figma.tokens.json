@@ -3154,7 +3154,7 @@
         }
       },
       "padding": {
-        "value": "0.5625rem",
+        "value": "0.5625rem 0.75rem",
         "type": "spacing"
       }
     },
