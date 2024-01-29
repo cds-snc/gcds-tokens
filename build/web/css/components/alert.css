@@ -15,14 +15,15 @@
   --gcds-alert-button-margin: 0 0 0 0.9375rem;
   --gcds-alert-button-mobile-margin: 0.9375rem 0 0;
   --gcds-alert-button-outline-width: 0.1875rem;
-  --gcds-alert-content-heading-font: 700 1.58203125rem/126.41975308641975% "Lato", sans-serif;
+  --gcds-alert-content-heading-font: 700 1.58203125rem/126.41975308641975%
+      'Lato',
+    sans-serif;
   --gcds-alert-content-heading-margin: 0 0 0.5625rem;
   --gcds-alert-content-heading-mobile-margin: 0 0 0.5625rem;
   --gcds-alert-content-slotted-list-margin: 1.5rem;
   --gcds-alert-content-slotted-margin: 0.5625rem;
-  --gcds-alert-font: 400 1.25rem/120% "Noto Sans", sans-serif;
+  --gcds-alert-font: 400 1.25rem/120% 'Noto Sans', sans-serif;
   --gcds-alert-icon-font-size: 2.25rem;
-  --gcds-alert-icon-margin: 0 0.9375rem 0 0;
   --gcds-alert-icon-mobile-margin: 0 0 0.9375rem;
   --gcds-alert-padding: 0.75rem 0.9375rem;
   --gcds-alert-text: #333333;

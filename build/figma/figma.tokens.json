@@ -1142,10 +1142,6 @@
             "type": "spacing"
           }
         },
-        "margin": {
-          "value": "0 0.9375rem 0 0",
-          "type": "spacing"
-        },
         "mobile": {
           "margin": {
             "value": "0 0 0.9375rem",
