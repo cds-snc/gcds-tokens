@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "prettier": "3.2.2",
-    "style-dictionary": "3.9.1"
+    "style-dictionary": "3.9.2"
   },
   "license": "MIT"
 }
