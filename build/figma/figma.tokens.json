@@ -1933,32 +1933,6 @@
         "color": {
           "value": "#0535d2",
           "type": "color"
-        },
-        "link": {
-          "backgroundColor": {
-            "value": "#0535d2",
-            "type": "color"
-          },
-          "borderRadius": {
-            "value": "0.1875rem",
-            "type": "other"
-          },
-          "boxShadow": {
-            "value": "0 0 0 0.125rem #FFF",
-            "type": "other"
-          },
-          "outline": {
-            "value": "0.1875rem solid #0535d2",
-            "type": "other"
-          },
-          "outlineOffset": {
-            "value": "0.125rem",
-            "type": "borderWidth"
-          },
-          "text": {
-            "value": "#FFF",
-            "type": "color"
-          }
         }
       },
       "heading": {
@@ -1974,24 +1948,6 @@
         "paddingBottom": {
           "value": "1.125rem",
           "type": "spacing"
-        }
-      },
-      "hover": {
-        "link": {
-          "thickness": {
-            "value": "0.125rem",
-            "type": "borderWidth"
-          }
-        }
-      },
-      "link": {
-        "color": {
-          "value": "#A62A1E",
-          "type": "color"
-        },
-        "thickness": {
-          "value": "0.0625rem",
-          "type": "borderWidth"
         }
       },
       "list": {
@@ -2461,71 +2417,25 @@
       }
     },
     "grid": {
-      "gap": {
-        "0": {
-          "value": "0",
-          "type": "spacing"
-        },
-        "50": {
-          "value": "0.1875rem",
-          "type": "spacing"
-        },
-        "100": {
-          "value": "0.375rem",
-          "type": "spacing"
-        },
-        "150": {
-          "value": "0.5625rem",
-          "type": "spacing"
-        },
-        "200": {
-          "value": "0.75rem",
-          "type": "spacing"
-        },
-        "250": {
-          "value": "0.9375rem",
-          "type": "spacing"
-        },
-        "300": {
-          "value": "1.125rem",
-          "type": "spacing"
-        },
-        "400": {
-          "value": "1.5rem",
-          "type": "spacing"
-        },
-        "450": {
-          "value": "2.25rem",
-          "type": "spacing"
-        },
-        "500": {
-          "value": "3rem",
-          "type": "spacing"
-        },
-        "550": {
-          "value": "3.75rem",
-          "type": "spacing"
-        },
-        "600": {
-          "value": "4.5rem",
-          "type": "spacing"
-        },
-        "700": {
-          "value": "6rem",
-          "type": "spacing"
-        },
-        "800": {
-          "value": "7.5rem",
-          "type": "spacing"
-        },
-        "900": {
-          "value": "9rem",
-          "type": "spacing"
-        },
-        "1000": {
-          "value": "10.5rem",
-          "type": "spacing"
+      "columns": {
+        "default": {
+          "base": {
+            "value": 1,
+            "type": "sizing"
+          },
+          "tablet": {
+            "value": 6,
+            "type": "sizing"
+          },
+          "desktop": {
+            "value": 12,
+            "type": "sizing"
+          }
         }
+      },
+      "gap": {
+        "value": "3rem",
+        "type": "spacing"
       }
     },
     "header": {
