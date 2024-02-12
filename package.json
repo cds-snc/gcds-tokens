@@ -23,7 +23,7 @@
     "url": "https://github.com/cds-snc/gcds-tokens/issues"
   },
   "devDependencies": {
-    "prettier": "3.2.4",
+    "prettier": "3.2.5",
     "style-dictionary": "3.9.2"
   },
   "license": "MIT"
