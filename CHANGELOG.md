@@ -4,6 +4,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.11.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.11.0...gcds-tokens-v1.11.1) (2024-02-20)
+
+
+### Documentation
+
+* add french translations for changelog ([#219](https://github.com/cds-snc/gcds-tokens/issues/219)) ([6aa9d24](https://github.com/cds-snc/gcds-tokens/commit/6aa9d24e03f7fc45457cf4cc30a61388ad49be99))
+
+
+### Code Refactoring
+
+* remove text-only tokens from button component ([#199](https://github.com/cds-snc/gcds-tokens/issues/199)) ([0764dff](https://github.com/cds-snc/gcds-tokens/commit/0764dff00bd7d5f68e8b005829988fb800df29a3))
+
 ## [1.11.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.10.1...gcds-tokens-v1.11.0) (2023-11-30)
 
 ### New Features
