@@ -1363,36 +1363,6 @@
           }
         }
       },
-      "textOnly": {
-        "default": {
-          "background": {
-            "value": "transparent",
-            "type": "color"
-          },
-          "decoration": {
-            "thickness": {
-              "value": "0.0625rem",
-              "type": "borderWidth"
-            }
-          },
-          "text": {
-            "value": "#2b4380",
-            "type": "color"
-          }
-        },
-        "hover": {
-          "decoration": {
-            "thickness": {
-              "value": "0.125rem",
-              "type": "borderWidth"
-            }
-          },
-          "text": {
-            "value": "#0535d2",
-            "type": "color"
-          }
-        }
-      },
       "mobile": {
         "margin": {
           "value": "0.1875rem 0",
