@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 22 Feb 2024 02:09:12 GMT
+ * Generated on Thu, 22 Feb 2024 17:04:01 GMT
  */
 
 :root {
@@ -234,17 +234,7 @@
   --gcds-alert-warning-background: #faedd1;
   --gcds-alert-warning-icon: #b3800f;
   --gcds-alert-warning-text: #333333;
-  --gcds-breadcrumbs-default-text: #2b4380;
-  --gcds-breadcrumbs-default-decoration-thickness: 0.0625rem;
-  --gcds-breadcrumbs-focus-background: #0535d2;
-  --gcds-breadcrumbs-focus-border-radius: 0.1875rem;
-  --gcds-breadcrumbs-focus-text: #ffffff;
-  --gcds-breadcrumbs-focus-box-shadow: 0 0 0 0.125rem #ffffff;
-  --gcds-breadcrumbs-focus-outline: 0.1875rem solid #0535d2;
-  --gcds-breadcrumbs-focus-outline-offset: 0.125rem;
   --gcds-breadcrumbs-font: 400 1.25rem/120% "Noto Sans", sans-serif;
-  --gcds-breadcrumbs-hover-text: #0535d2;
-  --gcds-breadcrumbs-hover-decoration-thickness: 0.125rem;
   --gcds-breadcrumbs-item-arrow-top: 0.9375rem;
   --gcds-breadcrumbs-item-arrow-left: 0.1875rem;
   --gcds-breadcrumbs-item-first-child-margin: 0 0 0 -1.5rem;

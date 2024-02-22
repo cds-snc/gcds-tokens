@@ -1175,44 +1175,6 @@
       }
     },
     "breadcrumbs": {
-      "default": {
-        "text": {
-          "value": "#2b4380",
-          "type": "color"
-        },
-        "decoration": {
-          "thickness": {
-            "value": "0.0625rem",
-            "type": "borderWidth"
-          }
-        }
-      },
-      "focus": {
-        "background": {
-          "value": "#0535d2",
-          "type": "color"
-        },
-        "border-radius": {
-          "value": "0.1875rem",
-          "type": "other"
-        },
-        "text": {
-          "value": "#FFF",
-          "type": "color"
-        },
-        "box-shadow": {
-          "value": "0 0 0 0.125rem #FFF",
-          "type": "color"
-        },
-        "outline": {
-          "value": "0.1875rem solid #0535d2",
-          "type": "other"
-        },
-        "outline-offset": {
-          "value": "0.125rem",
-          "type": "borderWidth"
-        }
-      },
       "font": {
         "value": {
           "fontFamily": "\"Noto Sans\", sans-serif",
@@ -1221,18 +1183,6 @@
           "fontSize": "1.25rem"
         },
         "type": "typography"
-      },
-      "hover": {
-        "text": {
-          "value": "#0535d2",
-          "type": "color"
-        },
-        "decoration": {
-          "thickness": {
-            "value": "0.125rem",
-            "type": "borderWidth"
-          }
-        }
       },
       "item": {
         "arrow": {
