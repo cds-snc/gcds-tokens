@@ -2220,6 +2220,10 @@
             }
           }
         },
+        "text": {
+          "value": "#FFF",
+          "type": "color"
+        },
         "themenav": {
           "padding": {
             "value": "0.75rem 0 1.125rem",
