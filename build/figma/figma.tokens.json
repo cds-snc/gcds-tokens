@@ -1454,32 +1454,6 @@
           "type": "sizing"
         }
       },
-      "focus": {
-        "background": {
-          "value": "#0535d2",
-          "type": "color"
-        },
-        "color": {
-          "value": "#FFF",
-          "type": "color"
-        },
-        "border-radius": {
-          "value": "0.1875rem",
-          "type": "other"
-        },
-        "box-shadow": {
-          "value": "0 0 0 0.125rem #FFF",
-          "type": "color"
-        },
-        "outline-offset": {
-          "value": "0.125rem",
-          "type": "borderWidth"
-        },
-        "outline": {
-          "value": "0.1875rem solid #0535d2",
-          "type": "other"
-        }
-      },
       "hover": {
         "backgroundColor": {
           "value": "#F1F2F3",
@@ -1539,10 +1513,6 @@
         }
       },
       "title": {
-        "color": {
-          "value": "#2b4380",
-          "type": "color"
-        },
         "font": {
           "value": {
             "fontFamily": "\"Lato\", sans-serif",
@@ -1551,14 +1521,6 @@
             "fontSize": "2.00225830078125rem"
           },
           "type": "typography"
-        },
-        "textDecorationThickness": {
-          "value": "0.0625rem",
-          "type": "other"
-        },
-        "textUnderlineOffset": {
-          "value": "0.125rem",
-          "type": "other"
         }
       }
     },
