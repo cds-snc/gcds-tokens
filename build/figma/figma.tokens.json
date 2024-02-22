@@ -1411,12 +1411,6 @@
           }
         }
       },
-      "skip": {
-        "top": {
-          "value": "1.5rem",
-          "type": "spacing"
-        }
-      },
       "small": {
         "font": {
           "value": {
@@ -4496,18 +4490,6 @@
           "margin": {
             "value": "0 0 0.1875rem",
             "type": "spacing"
-          }
-        },
-        "list": {
-          "margin": {
-            "value": "0 0 1.5rem",
-            "type": "spacing"
-          },
-          "svg": {
-            "margin": {
-              "value": "0.1875rem",
-              "type": "spacing"
-            }
           }
         },
         "paddingBlockStart": {
