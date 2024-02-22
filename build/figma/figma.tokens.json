@@ -2220,10 +2220,6 @@
             }
           }
         },
-        "text": {
-          "value": "#FFF",
-          "type": "color"
-        },
         "themenav": {
           "padding": {
             "value": "0.75rem 0 1.125rem",
@@ -2239,18 +2235,6 @@
         "gridGap": {
           "value": "0.75rem",
           "type": "spacing"
-        },
-        "hover": {
-          "text": {
-            "value": "#0535d2",
-            "type": "color"
-          },
-          "decoration": {
-            "thickness": {
-              "value": "0.125rem",
-              "type": "borderWidth"
-            }
-          }
         },
         "listitem": {
           "before": {
@@ -2296,38 +2280,6 @@
           "width": {
             "value": "100%",
             "type": "sizing"
-          }
-        },
-        "text": {
-          "value": "#2b4380",
-          "type": "color"
-        }
-      },
-      "link": {
-        "focus": {
-          "text": {
-            "value": "#FFF",
-            "type": "color"
-          },
-          "background": {
-            "value": "#0535d2",
-            "type": "color"
-          },
-          "radius": {
-            "value": "0.1875rem",
-            "type": "borderRadius"
-          },
-          "box-shadow": {
-            "value": "0 0 0 0.125rem #FFF",
-            "type": "color"
-          },
-          "outline-offset": {
-            "value": "0.125rem",
-            "type": "spacing"
-          },
-          "outline": {
-            "value": "0.1875rem solid #0535d2",
-            "type": "other"
           }
         }
       }
