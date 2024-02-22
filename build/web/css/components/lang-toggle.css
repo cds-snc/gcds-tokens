@@ -1,19 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Tue, 16 Jan 2024 21:32:40 GMT
+ * Generated on Thu, 22 Feb 2024 01:21:15 GMT
  */
 
 :root {
-  --gcds-lang-toggle-default-text: #2b4380;
-  --gcds-lang-toggle-default-decoration-thickness: 0.0625rem;
-  --gcds-lang-toggle-focus-background: #0535d2;
-  --gcds-lang-toggle-focus-text: #ffffff;
-  --gcds-lang-toggle-focus-border-radius: 0.1875rem;
-  --gcds-lang-toggle-focus-box-shadow: 0 0 0 0.125rem #ffffff;
-  --gcds-lang-toggle-focus-outline-offset: 0.125rem;
-  --gcds-lang-toggle-focus-outline: 0.1875rem solid #0535d2;
   --gcds-lang-toggle-font: 400 1.25rem/120% "Noto Sans", sans-serif;
-  --gcds-lang-toggle-hover-text: #0535d2;
-  --gcds-lang-toggle-hover-decoration-thickness: 0.125rem;
   --gcds-lang-toggle-padding: 0.5625rem 0.75rem;
 }
