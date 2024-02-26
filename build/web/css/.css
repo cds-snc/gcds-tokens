@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Feb 2024 23:28:26 GMT
+ * Generated on Mon, 26 Feb 2024 23:55:19 GMT
  */
 
 :root {
@@ -336,10 +336,8 @@
   --gcds-error-message-background: #fbddda;
   --gcds-error-message-border-color: #d3080c;
   --gcds-error-message-border-width: 0.125rem;
-  --gcds-error-message-font: 400 1.25rem/120% "Noto Sans", sans-serif;
   --gcds-error-message-margin: 0 0 1.125rem;
   --gcds-error-message-padding: 0.75rem;
-  --gcds-error-message-text: #333333;
   --gcds-error-summary-border-color: #d3080c;
   --gcds-error-summary-border-width: 0.375rem;
   --gcds-error-summary-focus-color: #0535d2;
