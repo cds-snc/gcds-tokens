@@ -1398,12 +1398,6 @@
         "value": "#333333",
         "type": "color"
       },
-      "description": {
-        "maxWidth": {
-          "value": "65ch",
-          "type": "sizing"
-        }
-      },
       "hover": {
         "backgroundColor": {
           "value": "#F1F2F3",
