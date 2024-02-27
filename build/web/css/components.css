@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 26 Feb 2024 23:55:19 GMT
+ * Generated on Tue, 27 Feb 2024 00:07:08 GMT
  */
 
 :root {
@@ -341,8 +341,6 @@
   --gcds-heading-spacing-800: 7.5rem;
   --gcds-heading-spacing-900: 9rem;
   --gcds-heading-spacing-1000: 10.5rem;
-  --gcds-hint-font: 400 1.25rem/120% "Noto Sans", sans-serif;
-  --gcds-hint-margin: 0 0 0.75rem;
   --gcds-icon-font-family: "Font Awesome 6 Free", FontAwesome;
   --gcds-icon-font-size-caption: 1.1111111111111112rem;
   --gcds-icon-font-size-text: 1.25rem;
