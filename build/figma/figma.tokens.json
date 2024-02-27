@@ -2561,21 +2561,6 @@
         }
       }
     },
-    "hint": {
-      "font": {
-        "value": {
-          "fontFamily": "\"Noto Sans\", sans-serif",
-          "fontWeight": "400",
-          "lineHeight": "120%",
-          "fontSize": "1.25rem"
-        },
-        "type": "typography"
-      },
-      "margin": {
-        "value": "0 0 0.75rem",
-        "type": "spacing"
-      }
-    },
     "icon": {
       "font": {
         "family": {
