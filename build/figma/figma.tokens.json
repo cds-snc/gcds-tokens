@@ -1749,65 +1749,6 @@
         "color": {
           "value": "#0535d2",
           "type": "color"
-        },
-        "link": {
-          "backgroundColor": {
-            "value": "#0535d2",
-            "type": "color"
-          },
-          "borderRadius": {
-            "value": "0.1875rem",
-            "type": "other"
-          },
-          "boxShadow": {
-            "value": "0 0 0 0.125rem #FFF",
-            "type": "other"
-          },
-          "outline": {
-            "value": "0.1875rem solid #0535d2",
-            "type": "other"
-          },
-          "outlineOffset": {
-            "value": "0.125rem",
-            "type": "borderWidth"
-          },
-          "text": {
-            "value": "#FFF",
-            "type": "color"
-          }
-        }
-      },
-      "heading": {
-        "font": {
-          "value": {
-            "fontFamily": "\"Lato\", sans-serif",
-            "fontWeight": "700",
-            "lineHeight": "122.08437060746162%",
-            "fontSize": "2.2525405883789062rem"
-          },
-          "type": "typography"
-        },
-        "paddingBottom": {
-          "value": "1.125rem",
-          "type": "spacing"
-        }
-      },
-      "hover": {
-        "link": {
-          "thickness": {
-            "value": "0.125rem",
-            "type": "borderWidth"
-          }
-        }
-      },
-      "link": {
-        "color": {
-          "value": "#A62A1E",
-          "type": "color"
-        },
-        "thickness": {
-          "value": "0.0625rem",
-          "type": "borderWidth"
         }
       },
       "list": {
