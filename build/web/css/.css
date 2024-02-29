@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 05 Mar 2024 16:54:35 GMT
+ * Generated on Tue, 05 Mar 2024 19:35:55 GMT
  */
 
 :root {
@@ -687,8 +687,6 @@
   --gcds-signature-signature-height: 1.6875rem;
   --gcds-signature-white-default: #ffffff;
   --gcds-signature-wordmark-height: 3rem;
-  --gcds-stepper-font: 600 1.40625rem/124.44444444444444% "Lato", sans-serif;
-  --gcds-stepper-margin: 0 0 1.125rem;
   --gcds-stepper-text: #43474e;
   --gcds-textarea-border-radius: 0.1875rem;
   --gcds-textarea-border-width: 0.125rem;

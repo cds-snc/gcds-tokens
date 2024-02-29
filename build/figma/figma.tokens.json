@@ -3675,19 +3675,6 @@
       }
     },
     "stepper": {
-      "font": {
-        "value": {
-          "fontFamily": "\"Lato\", sans-serif",
-          "fontWeight": "600",
-          "lineHeight": "124.44444444444444%",
-          "fontSize": "1.40625rem"
-        },
-        "type": "typography"
-      },
-      "margin": {
-        "value": "0 0 1.125rem",
-        "type": "spacing"
-      },
       "text": {
         "value": "#43474E",
         "type": "color"
