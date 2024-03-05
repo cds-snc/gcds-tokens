@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 22 Feb 2024 23:14:48 GMT
+ * Generated on Tue, 05 Mar 2024 01:55:17 GMT
  */
 
 :root {
@@ -234,7 +234,6 @@
   --gcds-alert-warning-background: #faedd1;
   --gcds-alert-warning-icon: #b3800f;
   --gcds-alert-warning-text: #333333;
-  --gcds-breadcrumbs-font: 400 1.25rem/120% "Noto Sans", sans-serif;
   --gcds-breadcrumbs-item-arrow-top: 0.9375rem;
   --gcds-breadcrumbs-item-arrow-left: 0.1875rem;
   --gcds-breadcrumbs-item-first-child-margin: 0 0 0 -1.5rem;
@@ -410,7 +409,7 @@
   --gcds-footer-contextual-background: #33465c;
   --gcds-footer-contextual-padding: 1.125rem 0;
   --gcds-footer-contextual-text: #ffffff;
-  --gcds-footer-font: 400 85%/120% "Noto Sans", sans-serif;
+  --gcds-footer-font: 400 1.1111111111111112rem/135% "Noto Sans", sans-serif;
   --gcds-footer-list-grid-gap: 0.75rem;
   --gcds-footer-list-padding: 0;
   --gcds-footer-listitem-margin: 0 0 1.125rem;
@@ -544,7 +543,6 @@
   --gcds-label-font: 600 1.25rem/120% "Noto Sans", sans-serif;
   --gcds-label-margin: 0 0 0.375rem;
   --gcds-label-required-margin: 0 0 0 0.375rem;
-  --gcds-lang-toggle-font: 400 1.25rem/120% "Noto Sans", sans-serif;
   --gcds-lang-toggle-padding: 0.5625rem 0.75rem;
   --gcds-nav-group-mobile-background: #ffffff;
   --gcds-nav-group-mobile-list-margin: 0.9375rem 0 0;
