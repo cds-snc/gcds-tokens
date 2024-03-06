@@ -1389,12 +1389,6 @@
         "value": "#333333",
         "type": "color"
       },
-      "description": {
-        "maxWidth": {
-          "value": "65ch",
-          "type": "sizing"
-        }
-      },
       "hover": {
         "backgroundColor": {
           "value": "#F1F2F3",
@@ -1422,21 +1416,6 @@
       "padding": {
         "value": "1.5rem",
         "type": "spacing"
-      },
-      "tag": {
-        "color": {
-          "value": "#43474E",
-          "type": "color"
-        },
-        "font": {
-          "value": {
-            "fontFamily": "\"Noto Sans\", sans-serif",
-            "fontWeight": "400",
-            "lineHeight": "135%",
-            "fontSize": "1.1111111111111112rem"
-          },
-          "type": "typography"
-        }
       },
       "slot": {
         "color": {
@@ -1600,22 +1579,9 @@
           "type": "spacing"
         }
       },
-      "font": {
-        "value": {
-          "fontFamily": "\"Noto Sans\", sans-serif",
-          "fontWeight": "400",
-          "lineHeight": "135%",
-          "fontSize": "1.1111111111111112rem"
-        },
-        "type": "typography"
-      },
       "margin": {
         "value": "3rem 0 1.5rem",
         "type": "spacing"
-      },
-      "text": {
-        "value": "#333333",
-        "type": "color"
       }
     },
     "details": {
@@ -1759,15 +1725,6 @@
           "type": "borderWidth"
         }
       },
-      "font": {
-        "value": {
-          "fontFamily": "\"Noto Sans\", sans-serif",
-          "fontWeight": "400",
-          "lineHeight": "120%",
-          "fontSize": "1.25rem"
-        },
-        "type": "typography"
-      },
       "margin": {
         "value": "0 0 1.125rem",
         "type": "spacing"
@@ -1775,10 +1732,6 @@
       "padding": {
         "value": "0.75rem",
         "type": "spacing"
-      },
-      "text": {
-        "value": "#333333",
-        "type": "color"
       }
     },
     "error-summary": {
@@ -1796,65 +1749,6 @@
         "color": {
           "value": "#0535d2",
           "type": "color"
-        },
-        "link": {
-          "backgroundColor": {
-            "value": "#0535d2",
-            "type": "color"
-          },
-          "borderRadius": {
-            "value": "0.1875rem",
-            "type": "other"
-          },
-          "boxShadow": {
-            "value": "0 0 0 0.125rem #FFF",
-            "type": "other"
-          },
-          "outline": {
-            "value": "0.1875rem solid #0535d2",
-            "type": "other"
-          },
-          "outlineOffset": {
-            "value": "0.125rem",
-            "type": "borderWidth"
-          },
-          "text": {
-            "value": "#FFF",
-            "type": "color"
-          }
-        }
-      },
-      "heading": {
-        "font": {
-          "value": {
-            "fontFamily": "\"Lato\", sans-serif",
-            "fontWeight": "700",
-            "lineHeight": "122.08437060746162%",
-            "fontSize": "2.2525405883789062rem"
-          },
-          "type": "typography"
-        },
-        "paddingBottom": {
-          "value": "1.125rem",
-          "type": "spacing"
-        }
-      },
-      "hover": {
-        "link": {
-          "thickness": {
-            "value": "0.125rem",
-            "type": "borderWidth"
-          }
-        }
-      },
-      "link": {
-        "color": {
-          "value": "#A62A1E",
-          "type": "color"
-        },
-        "thickness": {
-          "value": "0.0625rem",
-          "type": "borderWidth"
         }
       },
       "list": {
@@ -2593,21 +2487,6 @@
           "value": "10.5rem",
           "type": "spacing"
         }
-      }
-    },
-    "hint": {
-      "font": {
-        "value": {
-          "fontFamily": "\"Noto Sans\", sans-serif",
-          "fontWeight": "400",
-          "lineHeight": "120%",
-          "fontSize": "1.25rem"
-        },
-        "type": "typography"
-      },
-      "margin": {
-        "value": "0 0 0.75rem",
-        "type": "spacing"
       }
     },
     "icon": {
@@ -3737,19 +3616,6 @@
       }
     },
     "stepper": {
-      "font": {
-        "value": {
-          "fontFamily": "\"Lato\", sans-serif",
-          "fontWeight": "600",
-          "lineHeight": "124.44444444444444%",
-          "fontSize": "1.40625rem"
-        },
-        "type": "typography"
-      },
-      "margin": {
-        "value": "0 0 1.125rem",
-        "type": "spacing"
-      },
       "text": {
         "value": "#43474E",
         "type": "color"
