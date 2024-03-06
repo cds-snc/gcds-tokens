@@ -1175,65 +1175,6 @@
       }
     },
     "breadcrumbs": {
-      "default": {
-        "text": {
-          "value": "#2b4380",
-          "type": "color"
-        },
-        "decoration": {
-          "thickness": {
-            "value": "0.0625rem",
-            "type": "borderWidth"
-          }
-        }
-      },
-      "focus": {
-        "background": {
-          "value": "#0535d2",
-          "type": "color"
-        },
-        "border-radius": {
-          "value": "0.1875rem",
-          "type": "other"
-        },
-        "text": {
-          "value": "#FFF",
-          "type": "color"
-        },
-        "box-shadow": {
-          "value": "0 0 0 0.125rem #FFF",
-          "type": "color"
-        },
-        "outline": {
-          "value": "0.1875rem solid #0535d2",
-          "type": "other"
-        },
-        "outline-offset": {
-          "value": "0.125rem",
-          "type": "borderWidth"
-        }
-      },
-      "font": {
-        "value": {
-          "fontFamily": "\"Noto Sans\", sans-serif",
-          "fontWeight": "400",
-          "lineHeight": "120%",
-          "fontSize": "1.25rem"
-        },
-        "type": "typography"
-      },
-      "hover": {
-        "text": {
-          "value": "#0535d2",
-          "type": "color"
-        },
-        "decoration": {
-          "thickness": {
-            "value": "0.125rem",
-            "type": "borderWidth"
-          }
-        }
-      },
       "item": {
         "arrow": {
           "top": {
@@ -1448,38 +1389,6 @@
         "value": "#333333",
         "type": "color"
       },
-      "description": {
-        "maxWidth": {
-          "value": "65ch",
-          "type": "sizing"
-        }
-      },
-      "focus": {
-        "background": {
-          "value": "#0535d2",
-          "type": "color"
-        },
-        "color": {
-          "value": "#FFF",
-          "type": "color"
-        },
-        "border-radius": {
-          "value": "0.1875rem",
-          "type": "other"
-        },
-        "box-shadow": {
-          "value": "0 0 0 0.125rem #FFF",
-          "type": "color"
-        },
-        "outline-offset": {
-          "value": "0.125rem",
-          "type": "borderWidth"
-        },
-        "outline": {
-          "value": "0.1875rem solid #0535d2",
-          "type": "other"
-        }
-      },
       "hover": {
         "backgroundColor": {
           "value": "#F1F2F3",
@@ -1508,21 +1417,6 @@
         "value": "1.5rem",
         "type": "spacing"
       },
-      "tag": {
-        "color": {
-          "value": "#43474E",
-          "type": "color"
-        },
-        "font": {
-          "value": {
-            "fontFamily": "\"Noto Sans\", sans-serif",
-            "fontWeight": "400",
-            "lineHeight": "135%",
-            "fontSize": "1.1111111111111112rem"
-          },
-          "type": "typography"
-        }
-      },
       "slot": {
         "color": {
           "value": "#43474E",
@@ -1539,10 +1433,6 @@
         }
       },
       "title": {
-        "color": {
-          "value": "#2b4380",
-          "type": "color"
-        },
         "font": {
           "value": {
             "fontFamily": "\"Lato\", sans-serif",
@@ -1551,14 +1441,6 @@
             "fontSize": "2.00225830078125rem"
           },
           "type": "typography"
-        },
-        "textDecorationThickness": {
-          "value": "0.0625rem",
-          "type": "other"
-        },
-        "textUnderlineOffset": {
-          "value": "0.125rem",
-          "type": "other"
         }
       }
     },
@@ -1697,22 +1579,9 @@
           "type": "spacing"
         }
       },
-      "font": {
-        "value": {
-          "fontFamily": "\"Noto Sans\", sans-serif",
-          "fontWeight": "400",
-          "lineHeight": "135%",
-          "fontSize": "1.1111111111111112rem"
-        },
-        "type": "typography"
-      },
       "margin": {
         "value": "3rem 0 1.5rem",
         "type": "spacing"
-      },
-      "text": {
-        "value": "#333333",
-        "type": "color"
       }
     },
     "details": {
@@ -1856,15 +1725,6 @@
           "type": "borderWidth"
         }
       },
-      "font": {
-        "value": {
-          "fontFamily": "\"Noto Sans\", sans-serif",
-          "fontWeight": "400",
-          "lineHeight": "120%",
-          "fontSize": "1.25rem"
-        },
-        "type": "typography"
-      },
       "margin": {
         "value": "0 0 1.125rem",
         "type": "spacing"
@@ -1872,10 +1732,6 @@
       "padding": {
         "value": "0.75rem",
         "type": "spacing"
-      },
-      "text": {
-        "value": "#333333",
-        "type": "color"
       }
     },
     "error-summary": {
@@ -1893,65 +1749,6 @@
         "color": {
           "value": "#0535d2",
           "type": "color"
-        },
-        "link": {
-          "backgroundColor": {
-            "value": "#0535d2",
-            "type": "color"
-          },
-          "borderRadius": {
-            "value": "0.1875rem",
-            "type": "other"
-          },
-          "boxShadow": {
-            "value": "0 0 0 0.125rem #FFF",
-            "type": "other"
-          },
-          "outline": {
-            "value": "0.1875rem solid #0535d2",
-            "type": "other"
-          },
-          "outlineOffset": {
-            "value": "0.125rem",
-            "type": "borderWidth"
-          },
-          "text": {
-            "value": "#FFF",
-            "type": "color"
-          }
-        }
-      },
-      "heading": {
-        "font": {
-          "value": {
-            "fontFamily": "\"Lato\", sans-serif",
-            "fontWeight": "700",
-            "lineHeight": "122.08437060746162%",
-            "fontSize": "2.2525405883789062rem"
-          },
-          "type": "typography"
-        },
-        "paddingBottom": {
-          "value": "1.125rem",
-          "type": "spacing"
-        }
-      },
-      "hover": {
-        "link": {
-          "thickness": {
-            "value": "0.125rem",
-            "type": "borderWidth"
-          }
-        }
-      },
-      "link": {
-        "color": {
-          "value": "#A62A1E",
-          "type": "color"
-        },
-        "thickness": {
-          "value": "0.0625rem",
-          "type": "borderWidth"
         }
       },
       "list": {
@@ -2256,8 +2053,8 @@
         "value": {
           "fontFamily": "\"Noto Sans\", sans-serif",
           "fontWeight": "400",
-          "lineHeight": "120%",
-          "fontSize": "85%"
+          "lineHeight": "135%",
+          "fontSize": "1.1111111111111112rem"
         },
         "type": "typography"
       },
@@ -2328,18 +2125,6 @@
           "value": "0.75rem",
           "type": "spacing"
         },
-        "hover": {
-          "text": {
-            "value": "#0535d2",
-            "type": "color"
-          },
-          "decoration": {
-            "thickness": {
-              "value": "0.125rem",
-              "type": "borderWidth"
-            }
-          }
-        },
         "listitem": {
           "before": {
             "margin": {
@@ -2384,38 +2169,6 @@
           "width": {
             "value": "100%",
             "type": "sizing"
-          }
-        },
-        "text": {
-          "value": "#2b4380",
-          "type": "color"
-        }
-      },
-      "link": {
-        "focus": {
-          "text": {
-            "value": "#FFF",
-            "type": "color"
-          },
-          "background": {
-            "value": "#0535d2",
-            "type": "color"
-          },
-          "radius": {
-            "value": "0.1875rem",
-            "type": "borderRadius"
-          },
-          "box-shadow": {
-            "value": "0 0 0 0.125rem #FFF",
-            "type": "color"
-          },
-          "outline-offset": {
-            "value": "0.125rem",
-            "type": "spacing"
-          },
-          "outline": {
-            "value": "0.1875rem solid #0535d2",
-            "type": "other"
           }
         }
       }
@@ -2736,21 +2489,6 @@
         }
       }
     },
-    "hint": {
-      "font": {
-        "value": {
-          "fontFamily": "\"Noto Sans\", sans-serif",
-          "fontWeight": "400",
-          "lineHeight": "120%",
-          "fontSize": "1.25rem"
-        },
-        "type": "typography"
-      },
-      "margin": {
-        "value": "0 0 0.75rem",
-        "type": "spacing"
-      }
-    },
     "icon": {
       "font": {
         "family": {
@@ -3024,65 +2762,6 @@
       }
     },
     "lang-toggle": {
-      "default": {
-        "text": {
-          "value": "#2b4380",
-          "type": "color"
-        },
-        "decoration": {
-          "thickness": {
-            "value": "0.0625rem",
-            "type": "borderWidth"
-          }
-        }
-      },
-      "focus": {
-        "background": {
-          "value": "#0535d2",
-          "type": "color"
-        },
-        "text": {
-          "value": "#FFF",
-          "type": "color"
-        },
-        "border-radius": {
-          "value": "0.1875rem",
-          "type": "other"
-        },
-        "box-shadow": {
-          "value": "0 0 0 0.125rem #FFF",
-          "type": "color"
-        },
-        "outline-offset": {
-          "value": "0.125rem",
-          "type": "borderWidth"
-        },
-        "outline": {
-          "value": "0.1875rem solid #0535d2",
-          "type": "other"
-        }
-      },
-      "font": {
-        "value": {
-          "fontFamily": "\"Noto Sans\", sans-serif",
-          "fontWeight": "400",
-          "lineHeight": "120%",
-          "fontSize": "1.25rem"
-        },
-        "type": "typography"
-      },
-      "hover": {
-        "text": {
-          "value": "#0535d2",
-          "type": "color"
-        },
-        "decoration": {
-          "thickness": {
-            "value": "0.125rem",
-            "type": "borderWidth"
-          }
-        }
-      },
       "padding": {
         "value": "0.5625rem 0.75rem",
         "type": "spacing"
@@ -3937,19 +3616,6 @@
       }
     },
     "stepper": {
-      "font": {
-        "value": {
-          "fontFamily": "\"Lato\", sans-serif",
-          "fontWeight": "600",
-          "lineHeight": "124.44444444444444%",
-          "fontSize": "1.40625rem"
-        },
-        "type": "typography"
-      },
-      "margin": {
-        "value": "0 0 1.125rem",
-        "type": "spacing"
-      },
       "text": {
         "value": "#43474E",
         "type": "color"
