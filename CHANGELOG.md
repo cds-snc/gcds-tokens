@@ -4,6 +4,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.12.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.11.1...gcds-tokens-v1.12.0) (2024-03-06)
+
+
+### New Features
+
+* add mobile font-size to link component ([#236](https://github.com/cds-snc/gcds-tokens/issues/236)) ([4d7f36d](https://github.com/cds-snc/gcds-tokens/commit/4d7f36dac86d0db1fe107c630d3fdca3c3153595))
+
 ## [1.11.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.11.0...gcds-tokens-v1.11.1) (2024-02-20)
 
 
