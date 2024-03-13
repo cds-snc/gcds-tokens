@@ -4,6 +4,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.12.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.12.0...gcds-tokens-v1.12.1) (2024-03-13)
+
+
+### Bug Fixes
+
+* remove camelCase naming convention from global focus-text-form token ([#239](https://github.com/cds-snc/gcds-tokens/issues/239)) ([9203e71](https://github.com/cds-snc/gcds-tokens/commit/9203e715fabfe59bf299c8e61277ca0f520d1335))
+
 ## [1.12.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.11.1...gcds-tokens-v1.12.0) (2024-03-06)
 
 
