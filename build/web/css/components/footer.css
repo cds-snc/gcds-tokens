@@ -8,7 +8,7 @@
   --gcds-footer-contextual-background: #33465c;
   --gcds-footer-contextual-padding: 1.125rem 0;
   --gcds-footer-contextual-text: #ffffff;
-  --gcds-footer-font: 400 85%/120% "Noto Sans", sans-serif;
+  --gcds-footer-font: 400 1.1111111111111112rem/135% 'Noto Sans', sans-serif;
   --gcds-footer-list-grid-gap: 0.75rem;
   --gcds-footer-list-padding: 0;
   --gcds-footer-listitem-margin: 0 0 1.125rem;
@@ -21,8 +21,6 @@
   --gcds-footer-main-themenav-padding: 0.75rem 0 1.125rem;
   --gcds-footer-sub-background: #f1f2f3;
   --gcds-footer-sub-grid-gap: 0.75rem;
-  --gcds-footer-sub-hover-text: #0535d2;
-  --gcds-footer-sub-hover-decoration-thickness: 0.125rem;
   --gcds-footer-sub-listitem-before-margin: 0 1.125rem;
   --gcds-footer-sub-nav-padding: 3rem 0;
   --gcds-footer-sub-signature-lg-width: 10.937rem;
@@ -31,11 +29,4 @@
   --gcds-footer-sub-signature-margin: 2.25rem 0 3.75rem auto;
   --gcds-footer-sub-md-width: 7rem;
   --gcds-footer-sub-sm-width: 100%;
-  --gcds-footer-sub-text: #2b4380;
-  --gcds-footer-link-focus-text: #ffffff;
-  --gcds-footer-link-focus-background: #0535d2;
-  --gcds-footer-link-focus-radius: 0.1875rem;
-  --gcds-footer-link-focus-box-shadow: 0 0 0 0.125rem #ffffff;
-  --gcds-footer-link-focus-outline-offset: 0.125rem;
-  --gcds-footer-link-focus-outline: 0.1875rem solid #0535d2;
 }
