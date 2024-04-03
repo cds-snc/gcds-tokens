@@ -5,7 +5,5 @@
 
 :root {
   --gcds-date-modified-description-margin: 0 0 0 0.1875rem;
-  --gcds-date-modified-font: 400 1.1111111111111112rem/135% "Noto Sans", sans-serif;
   --gcds-date-modified-margin: 3rem 0 1.5rem;
-  --gcds-date-modified-text: #333333;
 }
