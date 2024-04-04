@@ -3759,11 +3759,15 @@
         }
       },
       "margin": {
-        "value": "2.25rem 0 1.5rem",
+        "value": "0 0 1.125rem",
         "type": "spacing"
       },
-      "top": {
-        "value": "-0.75rem",
+      "maxWidth": {
+        "value": "46.5rem",
+        "type": "sizing"
+      },
+      "padding": {
+        "value": "0.75rem",
         "type": "spacing"
       }
     },
