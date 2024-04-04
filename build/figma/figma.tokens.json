@@ -2041,13 +2041,24 @@
         }
       },
       "font": {
-        "value": {
-          "fontFamily": "\"Lato\", sans-serif",
-          "fontWeight": "600",
-          "lineHeight": "124.85901539399482%",
-          "fontSize": "2.00225830078125rem"
+        "desktop": {
+          "value": {
+            "fontFamily": "\"Lato\", sans-serif",
+            "fontWeight": "600",
+            "lineHeight": "124.85901539399482%",
+            "fontSize": "2.00225830078125rem"
+          },
+          "type": "typography"
         },
-        "type": "typography"
+        "mobile": {
+          "value": {
+            "fontFamily": "\"Lato\", sans-serif",
+            "fontWeight": "600",
+            "lineHeight": "124.85901539399481%",
+            "fontSize": "1.601806640625rem"
+          },
+          "type": "typography"
+        }
       },
       "legend": {
         "margin": {
@@ -3036,13 +3047,24 @@
     },
     "label": {
       "font": {
-        "value": {
-          "fontFamily": "\"Noto Sans\", sans-serif",
-          "fontWeight": "600",
-          "lineHeight": "120%",
-          "fontSize": "1.25rem"
+        "desktop": {
+          "value": {
+            "fontFamily": "\"Noto Sans\", sans-serif",
+            "fontWeight": "600",
+            "lineHeight": "120%",
+            "fontSize": "1.25rem"
+          },
+          "type": "typography"
         },
-        "type": "typography"
+        "mobile": {
+          "value": {
+            "fontFamily": "\"Noto Sans\", sans-serif",
+            "fontWeight": "600",
+            "lineHeight": "150%",
+            "fontSize": "1rem"
+          },
+          "type": "typography"
+        }
       },
       "margin": {
         "value": "0 0 0.375rem",
