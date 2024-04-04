@@ -1611,7 +1611,7 @@
           "type": "spacing"
         },
         "top": {
-          "value": "-0.1875rem",
+          "value": "0.5625rem",
           "type": "spacing"
         },
         "width": {
@@ -1696,17 +1696,6 @@
           "type": "sizing"
         }
       },
-      "hint": {
-        "font": {
-          "value": {
-            "fontFamily": "\"Noto Sans\", sans-serif",
-            "fontWeight": "400",
-            "lineHeight": "135%",
-            "fontSize": "1.1111111111111112rem"
-          },
-          "type": "typography"
-        }
-      },
       "label": {
         "padding": {
           "value": "0 0 0 3.75rem",
@@ -1714,11 +1703,15 @@
         }
       },
       "margin": {
-        "value": "2.25rem 0 1.5rem",
+        "value": "0 0 1.125rem",
         "type": "spacing"
       },
-      "top": {
-        "value": "-0.75rem",
+      "maxWidth": {
+        "value": "46.5rem",
+        "type": "sizing"
+      },
+      "padding": {
+        "value": "0.75rem",
         "type": "spacing"
       }
     },
@@ -2790,7 +2783,7 @@
         "type": "typography"
       },
       "margin": {
-        "value": "0 0 0.75rem",
+        "value": "0 0 1.125rem",
         "type": "spacing"
       }
     },

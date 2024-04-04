@@ -327,7 +327,7 @@
   --gcds-checkbox-check-border-width: 0.3125rem;
   --gcds-checkbox-check-height: 1.5rem;
   --gcds-checkbox-check-left: 1rem;
-  --gcds-checkbox-check-top: -0.1875rem;
+  --gcds-checkbox-check-top: 0.5625rem;
   --gcds-checkbox-check-width: 0.9375rem;
   --gcds-checkbox-danger-border: #d3080c;
   --gcds-checkbox-default-text: #333333;
@@ -343,11 +343,10 @@
   --gcds-checkbox-input-border-radius: 0.1875rem;
   --gcds-checkbox-input-border-width: 0.125rem;
   --gcds-checkbox-input-height-and-width: 3rem;
-  --gcds-checkbox-hint-font: 400 1.1111111111111112rem/135% 'Noto Sans',
-    sans-serif;
   --gcds-checkbox-label-padding: 0 0 0 3.75rem;
-  --gcds-checkbox-margin: 2.25rem 0 1.5rem;
-  --gcds-checkbox-top: -0.75rem;
+  --gcds-checkbox-margin: 0 0 1.125rem;
+  --gcds-checkbox-max-width: 46.5rem;
+  --gcds-checkbox-padding: 0.75rem;
   --gcds-date-modified-description-margin: 0 0 0 0.1875rem;
   --gcds-date-modified-font: 400 1.1111111111111112rem/135% 'Noto Sans',
     sans-serif;
@@ -554,7 +553,7 @@
   --gcds-heading-spacing-900: 9rem;
   --gcds-heading-spacing-1000: 10.5rem;
   --gcds-hint-font: 400 1.25rem/120% 'Noto Sans', sans-serif;
-  --gcds-hint-margin: 0 0 0.75rem;
+  --gcds-hint-margin: 0 0 1.125rem;
   --gcds-icon-font-family: 'Font Awesome 6 Free', FontAwesome;
   --gcds-icon-font-size-caption: 1.1111111111111112rem;
   --gcds-icon-font-size-text: 1.25rem;
