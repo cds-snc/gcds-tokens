@@ -4,6 +4,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.12.2](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.12.1...gcds-tokens-v1.12.2) (2024-04-10)
+
+
+### Code Refactoring
+
+* design updates for input, label, fieldset, radio, checkbox ([#247](https://github.com/cds-snc/gcds-tokens/issues/247)) ([121d2f7](https://github.com/cds-snc/gcds-tokens/commit/121d2f7b3967515418041cbab5d44e6cc8af6285))
+
 ## [1.12.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.12.0...gcds-tokens-v1.12.1) (2024-03-13)
 
 
