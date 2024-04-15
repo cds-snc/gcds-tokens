@@ -6,36 +6,31 @@ All notable changes to this project will be documented in this file.
 
 ## [1.12.2](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.12.1...gcds-tokens-v1.12.2) (2024-04-10)
 
-
 ### Code Refactoring
 
-* design updates for input, label, fieldset, radio, checkbox ([#247](https://github.com/cds-snc/gcds-tokens/issues/247)) ([121d2f7](https://github.com/cds-snc/gcds-tokens/commit/121d2f7b3967515418041cbab5d44e6cc8af6285))
+- design updates for input, label, fieldset, radio, checkbox ([#247](https://github.com/cds-snc/gcds-tokens/issues/247)) ([121d2f7](https://github.com/cds-snc/gcds-tokens/commit/121d2f7b3967515418041cbab5d44e6cc8af6285))
 
 ## [1.12.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.12.0...gcds-tokens-v1.12.1) (2024-03-13)
 
-
 ### Bug Fixes
 
-* remove camelCase naming convention from global focus-text-form token ([#239](https://github.com/cds-snc/gcds-tokens/issues/239)) ([9203e71](https://github.com/cds-snc/gcds-tokens/commit/9203e715fabfe59bf299c8e61277ca0f520d1335))
+- remove camelCase naming convention from global focus-text-form token ([#239](https://github.com/cds-snc/gcds-tokens/issues/239)) ([9203e71](https://github.com/cds-snc/gcds-tokens/commit/9203e715fabfe59bf299c8e61277ca0f520d1335))
 
 ## [1.12.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.11.1...gcds-tokens-v1.12.0) (2024-03-06)
 
-
 ### New Features
 
-* add mobile font-size to link component ([#236](https://github.com/cds-snc/gcds-tokens/issues/236)) ([4d7f36d](https://github.com/cds-snc/gcds-tokens/commit/4d7f36dac86d0db1fe107c630d3fdca3c3153595))
+- add mobile font-size to link component ([#236](https://github.com/cds-snc/gcds-tokens/issues/236)) ([4d7f36d](https://github.com/cds-snc/gcds-tokens/commit/4d7f36dac86d0db1fe107c630d3fdca3c3153595))
 
 ## [1.11.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.11.0...gcds-tokens-v1.11.1) (2024-02-20)
 
-
 ### Documentation
 
-* add french translations for changelog ([#219](https://github.com/cds-snc/gcds-tokens/issues/219)) ([6aa9d24](https://github.com/cds-snc/gcds-tokens/commit/6aa9d24e03f7fc45457cf4cc30a61388ad49be99))
-
+- add french translations for changelog ([#219](https://github.com/cds-snc/gcds-tokens/issues/219)) ([6aa9d24](https://github.com/cds-snc/gcds-tokens/commit/6aa9d24e03f7fc45457cf4cc30a61388ad49be99))
 
 ### Code Refactoring
 
-* remove text-only tokens from button component ([#199](https://github.com/cds-snc/gcds-tokens/issues/199)) ([0764dff](https://github.com/cds-snc/gcds-tokens/commit/0764dff00bd7d5f68e8b005829988fb800df29a3))
+- remove text-only tokens from button component ([#199](https://github.com/cds-snc/gcds-tokens/issues/199)) ([0764dff](https://github.com/cds-snc/gcds-tokens/commit/0764dff00bd7d5f68e8b005829988fb800df29a3))
 
 ## [1.11.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.10.1...gcds-tokens-v1.11.0) (2023-11-30)
 
@@ -314,6 +309,34 @@ First release of GC Design System Tokens.
 # Journal des modifications
 
 Tout changement important à ce projet sera consigné dans le présent fichier.
+
+## [1.12.2](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.12.1...gcds-tokens-v1.12.2) (2024-04-10)
+
+### Refactorisation du code
+
+- mises à jour du design pour les composants champ de saisie, étiquette, jeu de champs, radio, case à cocher ([\#247](https://github.com/cds-snc/gcds-tokens/issues/247)) ([121d2f7](https://github.com/cds-snc/gcds-tokens/commit/121d2f7b3967515418041cbab5d44e6cc8af6285))
+
+## [1.12.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.12.0...gcds-tokens-v1.12.1) (2024-03-13)
+
+### Corrections de bogues
+
+- suppression de la convention de nomenclature CamelCase de l’unité de style global focus-text-form ([\#239](https://github.com/cds-snc/gcds-tokens/issues/239)) ([9203e71](https://github.com/cds-snc/gcds-tokens/commit/9203e715fabfe59bf299c8e61277ca0f520d1335))
+
+## [1.12.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.11.1...gcds-tokens-v1.12.0) (2024-03-06)
+
+### Nouvelles fonctionnalités
+
+- ajout d’une taille de police mobile au composant lien ([\#236](https://github.com/cds-snc/gcds-tokens/issues/236)) ([4d7f36d](https://github.com/cds-snc/gcds-tokens/commit/4d7f36dac86d0db1fe107c630d3fdca3c3153595))
+
+## [1.11.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.11.0...gcds-tokens-v1.11.1) (2024-02-20)
+
+### Documentation
+
+- ajout des traductions françaises pour le journal des modifications ([\#219](https://github.com/cds-snc/gcds-tokens/issues/219)) ([6aa9d24](https://github.com/cds-snc/gcds-tokens/commit/6aa9d24e03f7fc45457cf4cc30a61388ad49be99))
+
+### Refactorisation du code
+
+- suppression des unités de style textuels du composant bouton ([\#199](https://github.com/cds-snc/gcds-tokens/issues/199)) ([0764dff](https://github.com/cds-snc/gcds-tokens/commit/0764dff00bd7d5f68e8b005829988fb800df29a3))
 
 ## [1.11.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.10.1...gcds-tokens-v1.11.0) (2023-11-30)
 
