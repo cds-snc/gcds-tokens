@@ -164,6 +164,28 @@
         "type": "color"
       }
     },
+    "bg": {
+      "black": {
+        "value": "#000",
+        "type": "color"
+      },
+      "dark": {
+        "value": "#333333",
+        "type": "color"
+      },
+      "light": {
+        "value": "#F1F2F3",
+        "type": "color"
+      },
+      "primary": {
+        "value": "#26374A",
+        "type": "color"
+      },
+      "white": {
+        "value": "#FFF",
+        "type": "color"
+      }
+    },
     "danger": {
       "background": {
         "value": "#FBDDDA",
@@ -3653,7 +3675,7 @@
       },
       "secondary": {
         "background": {
-          "value": "#D6D9DD",
+          "value": "#F1F2F3",
           "type": "color"
         },
         "text": {
@@ -4493,7 +4515,7 @@
     },
     "verify-banner": {
       "background": {
-        "value": "#D6D9DD",
+        "value": "#F1F2F3",
         "type": "color"
       },
       "container": {
