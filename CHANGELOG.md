@@ -11,11 +11,6 @@ All notable changes to this project will be documented in this file.
 
 * add global background tokens ([#252](https://github.com/cds-snc/gcds-tokens/issues/252)) ([ab6e899](https://github.com/cds-snc/gcds-tokens/commit/ab6e89967cb370082e7b1b093c247455eafc63f3))
 
-
-### Documentation
-
-* add french translations for changelog ([#250](https://github.com/cds-snc/gcds-tokens/issues/250)) ([54d1391](https://github.com/cds-snc/gcds-tokens/commit/54d1391db173b92353ebec723c64f953fe911855))
-
 ## [1.12.2](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.12.1...gcds-tokens-v1.12.2) (2024-04-10)
 
 ### Code Refactoring
