@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 05 Oct 2023 20:50:40 GMT
+ * Generated on Mon, 15 Apr 2024 23:56:04 GMT
  */
 
 :root {
@@ -15,6 +15,11 @@
   --gcds-border-default: #7d828b; /* Global color: border default */
   --gcds-active-background: #000000; /* Global color: active background */
   --gcds-active-text: #ffffff; /* Global color: active text */
+  --gcds-bg-black: #000000; /* Global bg color: black background */
+  --gcds-bg-dark: #333333; /* Global bg color: dark background */
+  --gcds-bg-light: #f1f2f3; /* Global bg color: light background */
+  --gcds-bg-primary: #26374a; /* Global bg color: primary background */
+  --gcds-bg-white: #ffffff; /* Global bg color: white background */
   --gcds-danger-background: #fbddda; /* Global color: danger background */
   --gcds-danger-border: #d3080c; /* Global color: danger border */
   --gcds-danger-text: #a62a1e; /* Global color: danger text */
