@@ -76,6 +76,9 @@ module.exports = {
         return {
           destination: `build/web/scss/${filePath}.scss`,
           format: 'scss/variables',
+          options: {
+            showFileHeader: false,
+          },
           filter: token => token.filePath.includes(filePath),
         };
       }),
@@ -96,6 +99,9 @@ module.exports = {
         return {
           destination: `build/web/css/${filePath}.css`,
           format: 'css/variables',
+          options: {
+            showFileHeader: false,
+          },
           filter: token => token.filePath.includes(filePath),
         };
       }),
