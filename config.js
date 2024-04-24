@@ -32,6 +32,9 @@ const traverseObj = obj => {
   return output;
 };
 
+// File header text
+const fileHeaderText = `Do not edit directly.`;
+
 StyleDictionary.registerTransform({
   type: `value`,
   name: `typography/font`,
@@ -76,6 +79,9 @@ module.exports = {
         return {
           destination: `build/web/scss/${filePath}.scss`,
           format: 'scss/variables',
+          options: {
+            fileHeader: () => [fileHeaderText],
+          },
           filter: token => token.filePath.includes(filePath),
         };
       }),
@@ -96,6 +102,9 @@ module.exports = {
         return {
           destination: `build/web/css/${filePath}.css`,
           format: 'css/variables',
+          options: {
+            fileHeader: () => [fileHeaderText],
+          },
           filter: token => token.filePath.includes(filePath),
         };
       }),
