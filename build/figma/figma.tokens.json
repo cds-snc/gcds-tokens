@@ -165,10 +165,6 @@
       }
     },
     "bg": {
-      "black": {
-        "value": "#000",
-        "type": "color"
-      },
       "dark": {
         "value": "#333333",
         "type": "color"
