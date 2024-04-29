@@ -1843,11 +1843,11 @@
           }
         },
         "margin": {
-          "value": "0.75rem 0 0 0",
+          "value": "0.75rem 0 0 0.75rem",
           "type": "spacing"
         },
         "padding": {
-          "value": "0.5625rem 2.25rem",
+          "value": "0.75rem 0.75rem 0.75rem 1.125rem",
           "type": "spacing"
         },
         "slotted": {
