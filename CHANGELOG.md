@@ -4,6 +4,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.13.2](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.13.1...gcds-tokens-v1.13.2) (2024-04-30)
+
+
+### Code Refactoring
+
+* remove global black background token ([#258](https://github.com/cds-snc/gcds-tokens/issues/258)) ([2071bb2](https://github.com/cds-snc/gcds-tokens/commit/2071bb2d6e36c3bcb1f36bbe0e5a339d0487ef32))
+* update details margin + padding tokens to match new design ([#259](https://github.com/cds-snc/gcds-tokens/issues/259)) ([9019e9b](https://github.com/cds-snc/gcds-tokens/commit/9019e9b8266c597bec54dbb46c4e3ce4ff0367f7))
+
 ## [1.13.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.13.0...gcds-tokens-v1.13.1) (2024-04-23)
 
 
