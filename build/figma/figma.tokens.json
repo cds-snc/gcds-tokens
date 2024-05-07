@@ -1751,6 +1751,12 @@
           "type": "color"
         }
       },
+      "link": {
+        "color": {
+          "value": "#A62A1E",
+          "type": "color"
+        }
+      },
       "list": {
         "item": {
           "padding": {
