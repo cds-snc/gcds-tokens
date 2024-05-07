@@ -1842,9 +1842,9 @@
           "type": "borderWidth"
         }
       },
-      "focus": {
+      "link": {
         "color": {
-          "value": "#0535d2",
+          "value": "#A62A1E",
           "type": "color"
         }
       },
