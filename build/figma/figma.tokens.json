@@ -1745,12 +1745,6 @@
           "type": "borderWidth"
         }
       },
-      "focus": {
-        "color": {
-          "value": "#0535d2",
-          "type": "color"
-        }
-      },
       "link": {
         "color": {
           "value": "#A62A1E",
