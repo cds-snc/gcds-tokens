@@ -4,6 +4,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.13.3](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.13.2...gcds-tokens-v1.13.3) (2024-05-28)
+
+
+### Code Refactoring
+
+* change monospace font to noto sans mono ([#267](https://github.com/cds-snc/gcds-tokens/issues/267)) ([fee4a06](https://github.com/cds-snc/gcds-tokens/commit/fee4a06cd4e6a47b6440c13bec7c7cfc45deeded))
+
 ## [1.13.2](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.13.1...gcds-tokens-v1.13.2) (2024-04-30)
 
 
