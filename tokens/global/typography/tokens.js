@@ -26,7 +26,7 @@ const fontFamilies = {
     type: 'fontFamilies',
   },
   monospace: {
-    value: '"Menlo", sans-serif',
+    value: '"Noto Sans Mono", monospace',
     type: 'fontFamilies',
   },
   icons: {
