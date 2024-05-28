@@ -61,7 +61,7 @@
   --gcds-base-scale: 1.125;
   --gcds-font-families-heading: "Lato", sans-serif;
   --gcds-font-families-body: "Noto Sans", sans-serif;
-  --gcds-font-families-monospace: "Menlo", sans-serif;
+  --gcds-font-families-monospace: "Noto Sans Mono", monospace;
   --gcds-font-families-icons: "Font Awesome 6 Free", FontAwesome;
   --gcds-font-sizes-caption: 1.1111111111111112rem;
   --gcds-font-sizes-caption-mobile: 0.8888888888888888rem;
