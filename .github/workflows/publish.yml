@@ -68,3 +68,9 @@ jobs:
         run: |
           json='{"blocks":[{"type":"section","text":{"type":"mrkdwn","text":":red: Publish @cdssnc/gcds-tokens failed: <https://github.com/cds-snc/gcds-tokens/actions/workflows/publish.yml|Publish tokens>"}}]}'
           curl -X POST -H 'Content-type: application/json' --data "$json" ${{ secrets.SLACK_WEBHOOK_OPS }}
+
+      - name: Slack notify on release and publish
+        if: steps.publish.outputs.id != ''
+        run: |
+          json='{"blocks":[{"type":"section","text":{"type":"mrkdwn","text":"🚀 New release available! @cdssnc/gcds-tokens **version [${{steps.publish.outputs.id}}](https://github.com/cds-snc/gcds-tokens/releases/tag/gcds-tokens-v${{steps.publish.outputs.id}})**"}}]}'
+          curl -X POST -H 'Content-type: application/json' --data "$json" ${{ secrets.SLACK_WEBHOOK_DSNDEV }}
