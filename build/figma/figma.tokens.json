@@ -4027,8 +4027,14 @@
         }
       },
       "margin": {
-        "value": "0 0 0.75rem",
-        "type": "spacing"
+        "desktop": {
+          "value": "0 0 0.5625rem",
+          "type": "spacing"
+        },
+        "mobile": {
+          "value": "0 0 0.375rem",
+          "type": "spacing"
+        }
       }
     },
     "textarea": {
