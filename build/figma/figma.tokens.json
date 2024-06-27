@@ -4007,21 +4007,34 @@
     },
     "stepper": {
       "font": {
-        "value": {
-          "fontFamily": "\"Lato\", sans-serif",
-          "fontWeight": "600",
-          "lineHeight": "124.44444444444444%",
-          "fontSize": "1.40625rem"
+        "desktop": {
+          "value": {
+            "fontFamily": "\"Lato\", sans-serif",
+            "fontWeight": "600",
+            "lineHeight": "124.44444444444444%",
+            "fontSize": "1.40625rem"
+          },
+          "type": "typography"
         },
-        "type": "typography"
+        "mobile": {
+          "value": {
+            "fontFamily": "\"Lato\", sans-serif",
+            "fontWeight": "700",
+            "lineHeight": "133.33333333333334%",
+            "fontSize": "1.125rem"
+          },
+          "type": "typography"
+        }
       },
       "margin": {
-        "value": "0 0 1.125rem",
-        "type": "spacing"
-      },
-      "text": {
-        "value": "#43474E",
-        "type": "color"
+        "desktop": {
+          "value": "0 0 0.5625rem",
+          "type": "spacing"
+        },
+        "mobile": {
+          "value": "0 0 0.375rem",
+          "type": "spacing"
+        }
       }
     },
     "textarea": {
