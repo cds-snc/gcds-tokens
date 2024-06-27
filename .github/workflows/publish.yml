@@ -71,6 +71,9 @@ jobs:
 
       - name: Slack notify on release and publish
         if: steps.publish.outputs.id != ''
+        env: 
+          VERSION: $(jq -r '.version' package.json)
         run: |
-          json='{"text":"🚀 New release available! @cdssnc/gcds-tokens *version <https://github.com/cds-snc/gcds-tokens/releases/tag/gcds-tokens-v${{steps.publish.outputs.id}}|${{steps.publish.outputs.id}}>*"}'
+          json='{"text":"🚀 New release available! @cdssnc/gcds-tokens *version <https://github.com/cds-snc/gcds-tokens/releases/tag/gcds-tokens-v${{ VERSION }}|${{steps.publish.outputs.id}}>*"}'
           curl -X POST -H 'Content-type: application/json' --data "$json" ${{ secrets.SLACK_WEBHOOK_DSNDEV }}
+          
