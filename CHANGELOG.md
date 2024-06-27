@@ -4,6 +4,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.13.4](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.13.3...gcds-tokens-v1.13.4) (2024-06-27)
+
+
+### Code Refactoring
+
+* Update stepper tokens to match new design ([#278](https://github.com/cds-snc/gcds-tokens/issues/278)) ([f2abfb8](https://github.com/cds-snc/gcds-tokens/commit/f2abfb885a57f71814bf612044ab377acbfbb48a))
+
 ## [1.13.3](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.13.2...gcds-tokens-v1.13.3) (2024-05-28)
 
 
