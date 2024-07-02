@@ -4,6 +4,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.13.5](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.13.4...gcds-tokens-v1.13.5) (2024-07-02)
+
+
+### Bug Fixes
+
+* wrong link ([#281](https://github.com/cds-snc/gcds-tokens/issues/281)) ([d60be6c](https://github.com/cds-snc/gcds-tokens/commit/d60be6c86e8f8abc21f8b1592eddfdd30a3b400c))
+
 ## [1.13.4](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.13.3...gcds-tokens-v1.13.4) (2024-06-27)
 
 
