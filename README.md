@@ -13,8 +13,8 @@ Tokens replace hard-coded values with variables that can be reused throughout th
 ## Table of contents
 - [Tools](#tools)
 - [How to use design tokens](#how-to-use-design-tokens)
-  - [If you are using any of our component packages](#if-you-are-using-any-of-our-component-packages)
-  - [If you want to use the design tokens on its own](#if-you-want-to-use-the-design-tokens-on-its-own-without-our-gcds-components-or-gcds-utility-framework)
+  - [Using design tokens with our GCDS Components or GCDS Utility Framework](#using-design-tokens-with-our-gcds-components-or-gcds-utility-framework)
+  - [Using design tokens on their own, without our GCDS Components or GCDS Utility Framework](#using-design-tokens-on-their-own-without-our-gcds-components-or-gcds-utility-framework)
 - [Installation](#installation)
 - [How to contribute](#how-to-contribute)
 - [License](#license)
