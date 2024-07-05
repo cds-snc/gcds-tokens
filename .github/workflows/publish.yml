@@ -1,5 +1,6 @@
 name: Publish tokens
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -71,9 +72,9 @@ jobs:
 
       - name: Slack notify on release and publish
         if: steps.publish.outputs.id != ''
-        env: 
-          VERSION: $(jq -r '.version' package.json)
         run: |
-          json='{"text":"🚀 New release available! @cdssnc/gcds-tokens *version <https://github.com/cds-snc/gcds-tokens/releases/tag/gcds-tokens-v${{ VERSION }}|${{steps.publish.outputs.id}}>*"}'
+          VERSION=$(jq -r '.version' package.json)
+          json='{"text":"🚀 New release available! @cdssnc/gcds-tokens *version <https://github.com/cds-snc/gcds-tokens/releases/tag/gcds-tokens-v'$VERSION'|${{steps.publish.outputs.id}}>*"}'
+          echo "Posting to slack: $json"
           curl -X POST -H 'Content-type: application/json' --data "$json" ${{ secrets.SLACK_WEBHOOK_DSNDEV }}
           
