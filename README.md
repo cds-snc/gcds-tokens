@@ -127,8 +127,8 @@ Nos unités de style contribuent à créer une expérience visuelle uniforme qui
 ## Table of contents [FR]
 - [Outils](#outils)
 - [Comment utiliser les unités de style](#comment-utiliser-les-unités-de-style)
-  - [Utiliser les unités de style avec nos composants Système de design GC ou notre cadre d'utilitaires Système de design GC](#utiliser-les-unités-de-style-avec-nos-composants-système-de-design-gc-ou-notre-cadre-dutilitaires-système-de-design-gc)
-  - [Utiliser les unités de style seules, sans nos composants Système de design GC ou notre cadre d'utilitaires Système de design GC](#utiliser-les-unités-de-style-seules-sans-nos-composants-système-de-design-gc-ou-notre-cadre-dutilitaires-système-de-design-gc)
+  - [Utilisation des unités de style avec les composants ou le cadre utilitaire de Système de design GC](#utilisation-des-unités-de-style-avec-les-composants-ou-le-cadre-utilitaire-de-système-de-design-gc)
+  - [Utilisation des unités de style sans les composants ou le cadre utilitaire de Système de design GC](#utilisation-des-unités-de-style-sans-les-composants-ou-le-cadre-utilitaire-de-système-de-design-gc)
 - [Installation](#installation-1)
 - [Apportez votre contribution](#apportez-votre-contribution)
 - [Licence](#licence)
