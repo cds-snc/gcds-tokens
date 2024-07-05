@@ -25,27 +25,29 @@ We are using [Style Dictionary](https://amzn.github.io/style-dictionary/#/) to b
 
 ---
 ## How to use design tokens
+What are GCDS Design Tokens and what tokens are available to me? Refer to our [documentation on styles and design tokens on our website](https://design-system.alpha.canada.ca/en/styles/design-tokens/) for details.
 
-### If you are using any of our component packages
+### Using design tokens with our GCDS Components or GCDS Utility Framework
 
-...and have imported a stylesheet like:
-
-```
-import '@cdssnc/gcds-components-vue/gcds.css';
-```
-
-You already have our design tokens available to you! Simply use them in your custom stylesheets:
+If you are using any of our GCDS components or the GCDS utility framework, and have imported a CSS stylesheet like this:
 
 ```
-  font: var(--gcds-font-text);
+import '@cdssnc/gcds-components/gcds.css';
+```
 
-  color: var(--gcds-text-primary);
-  background-color: var(--gcds-bg-white);
+You already have our design tokens available to you! Simply use them in your custom stylesheets like so:
+
+```
+ font: var(--gcds-font-text);
+ color: var(--gcds-text-primary);
+
+ background-color: var(--gcds-bg-white);
 ```
 
 
 
-### If you want to use the design tokens on its own, without our GCDS Components or GCDS Utility Framework
+### Using design tokens on their own, without our GCDS Components or GCDS Utility Framework
+If you want to use the design tokens on its own, without our GCDS Components or GCDS Utility Framework
 
 Install GCDS Tokens (Design Tokens)
 
