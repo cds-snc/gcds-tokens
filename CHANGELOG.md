@@ -4,6 +4,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.14.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.13.4...gcds-tokens-v1.14.0) (2024-07-05)
+
+
+### New Features
+
+* Update card tokens to match new design ([#283](https://github.com/cds-snc/gcds-tokens/issues/283)) ([92c475f](https://github.com/cds-snc/gcds-tokens/commit/92c475fe2ddc421722a493515d8d00a8df4ad4ce))
+
+
+### Bug Fixes
+
+* wrong link ([#281](https://github.com/cds-snc/gcds-tokens/issues/281)) ([d60be6c](https://github.com/cds-snc/gcds-tokens/commit/d60be6c86e8f8abc21f8b1592eddfdd30a3b400c))
+
 ## [1.13.4](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.13.3...gcds-tokens-v1.13.4) (2024-06-27)
 
 
