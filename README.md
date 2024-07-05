@@ -196,7 +196,7 @@ Ajoutez-les à votre CSS :
 
 ```
 
-Or in your scss:
+Ou dans votre scss :
 
 ```scss
 // Unités de style de Système de design GC
