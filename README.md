@@ -31,13 +31,13 @@ What are GCDS Design Tokens and what tokens are available to me? Refer to our [d
 
 If you are using any of our GCDS components or the GCDS utility framework, and have imported a CSS stylesheet like this:
 
-```
+```js
 import '@cdssnc/gcds-components/gcds.css';
 ```
 
 You already have our design tokens available to you! Simply use them in your custom stylesheets like so:
 
-```
+```css
  font: var(--gcds-font-text);
  color: var(--gcds-text-primary);
 
@@ -57,17 +57,32 @@ npm i @cdssnc/gcds-tokens
 
 Add it to your css:
 
-```
+```css
 // GCDS tokens
+
 @import '../node_modules/@cdssnc/gcds-tokens/build/web/css/base.css';
+
 @import '../node_modules/@cdssnc/gcds-tokens/build/web/css/global.css';
+
 @import '../node_modules/@cdssnc/gcds-tokens/build/web/css/components/heading.css';
 
+// You can choose to use all of our tokens
+@import '../node_modules/@cdssnc/gcds-tokens/build/web/css/base.css';
+
+// Or pick and choose the files you need
+// Global tokens (semantic)
+@import '../node_modules/@cdssnc/gcds-tokens/build/web/css/global.css';
+
+// Base tokens (non-semantic, example: colours)
+@import '../node_modules/@cdssnc/gcds-tokens/build/web/css/base.css';
+
+// Component-specific tokens (Heading component in this example)
+@import '../node_modules/@cdssnc/gcds-tokens/build/web/css/components/heading.css';
 ```
 
 Or in your scss:
 
-```
+```scss
 // GCDS tokens
 @use '../node_modules/@cdssnc/gcds-tokens/build/web/css/base.css';
 @use '../node_modules/@cdssnc/gcds-tokens/build/web/css/global.css';
@@ -111,6 +126,9 @@ Nos unités de style contribuent à créer une expérience visuelle uniforme qui
 <br/>
 ## Table of contents [FR]
 - [Outils](#outils)
+- [Comment utiliser les unités de style](#comment-utiliser-les-unités-de-style)
+  - [Utiliser les unités de style avec nos composants Système de design GC ou notre cadre d'utilitaires Système de design GC](#utiliser-les-unités-de-style-avec-nos-composants-système-de-design-gc-ou-notre-cadre-dutilitaires-système-de-design-gc)
+  - [Utiliser les unités de style seules, sans nos composants Système de design GC ou notre cadre d'utilitaires Système de design GC](#utiliser-les-unités-de-style-seules-sans-nos-composants-système-de-design-gc-ou-notre-cadre-dutilitaires-système-de-design-gc)
 - [Installation](#installation-1)
 - [Apportez votre contribution](#apportez-votre-contribution)
 - [Licence](#licence)
@@ -120,6 +138,72 @@ Nos unités de style contribuent à créer une expérience visuelle uniforme qui
 ## Outils
 
 Nous utilisons [Style Dictionary](https://amzn.github.io/style-dictionary/#/) pour concevoir nos unités de style.
+
+## Comment utiliser les unités de style
+Que sont les unités de style de Système de design GC et quelles sont celles à ma disposition? Pour en savoir plus, référez-vous à notre [documentation sur les styles et les unités de style sur notre site Web](https://systeme-design.alpha.canada.ca/fr/styles/unites-de-style/).
+
+### Utilisation des unités de style avec les composants ou le cadre utilitaire de Système de design GC
+Si vous utilisez l’un des composants de Système de design GC ou son cadre utilitaire, et que vous avez importé une feuille de style CSS de la façon suivante :
+
+```js
+import '@cdssnc/gcds-components/gcds.css';
+```
+
+
+Alors vous avez déjà à votre disposition nos unités de style! Utilisez-les simplement dans vos feuilles de style personnalisées comme ceci :
+
+```css
+ font: var(--gcds-font-text);
+ color: var(--gcds-text-primary);
+
+ background-color: var(--gcds-bg-white);
+```
+
+
+
+### Utilisation des unités de style sans les composants ou le cadre utilitaire de Système de design GC
+Pour utiliser les unités de style sans les composants ou le cadre utilitaire de Système de design GC :
+
+Installez GCDS Tokens (les unités de style de Système de design GC)
+
+```
+npm i @cdssnc/gcds-tokens
+```
+
+Ajoutez-les à votre CSS :
+
+```css
+// Unités de style de Système de design GC
+
+@import '../node_modules/@cdssnc/gcds-tokens/build/web/css/base.css';
+
+@import '../node_modules/@cdssnc/gcds-tokens/build/web/css/global.css';
+
+@import '../node_modules/@cdssnc/gcds-tokens/build/web/css/components/heading.css';
+
+// Vous pouvez utiliser toutes nos unités de style
+@import '../node_modules/@cdssnc/gcds-tokens/build/web/css/base.css';
+
+// Ou choisir seulement les fichiers dont vous avez besoin
+// Unités de style globales (sémantiques)
+@import '../node_modules/@cdssnc/gcds-tokens/build/web/css/global.css';
+
+// Unités de style de base (non sémantiques, exemple : couleurs)
+@import '../node_modules/@cdssnc/gcds-tokens/build/web/css/base.css';
+
+// Unités de style propres aux composants (composant Titre dans cet exemple)
+@import '../node_modules/@cdssnc/gcds-tokens/build/web/css/components/heading.css';
+
+```
+
+Or in your scss:
+
+```scss
+// Unités de style de Système de design GC
+@use '../node_modules/@cdssnc/gcds-tokens/build/web/css/base.css';
+@use '../node_modules/@cdssnc/gcds-tokens/build/web/css/global.css';
+@use '../node_modules/@cdssnc/gcds-tokens/build/web/css/components/heading.css';
+```
 
 ---
 
