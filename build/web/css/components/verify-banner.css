@@ -16,8 +16,7 @@
   --gcds-verify-banner-content-heading-margin: 0 0 0.1875rem;
   --gcds-verify-banner-content-padding-block-start: 1.5rem;
   --gcds-verify-banner-content-padding-block-end: 0.75rem;
-  --gcds-verify-banner-font: 400 1.1111111111111112rem/135% 'Noto Sans',
-    sans-serif;
+  --gcds-verify-banner-font: 400 1.1111111111111112rem/135% "Noto Sans", sans-serif;
   --gcds-verify-banner-summary-padding: 0.75rem;
   --gcds-verify-banner-summary-content-margin: 0 1.125rem 0 0;
   --gcds-verify-banner-text: #333333;

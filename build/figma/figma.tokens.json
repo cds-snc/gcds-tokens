@@ -2598,15 +2598,6 @@
       }
     },
     "hint": {
-      "font": {
-        "value": {
-          "fontFamily": "\"Noto Sans\", sans-serif",
-          "fontWeight": "400",
-          "lineHeight": "120%",
-          "fontSize": "1.25rem"
-        },
-        "type": "typography"
-      },
       "margin": {
         "value": "0 0 1.125rem",
         "type": "spacing"
@@ -3520,17 +3511,6 @@
         "heightAndWidth": {
           "value": "3rem",
           "type": "sizing"
-        }
-      },
-      "hint": {
-        "font": {
-          "value": {
-            "fontFamily": "\"Noto Sans\", sans-serif",
-            "fontWeight": "400",
-            "lineHeight": "135%",
-            "fontSize": "1.1111111111111112rem"
-          },
-          "type": "typography"
         }
       },
       "label": {
