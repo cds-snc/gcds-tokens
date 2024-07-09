@@ -62,6 +62,7 @@
   --gcds-link-focus-box-shadow: 0 0 0 0.125rem #ffffff;
   --gcds-link-font-small-desktop: 400 1.1111111111111112rem/135% "Noto Sans", sans-serif;
   --gcds-link-font-small-mobile: 400 0.8888888888888888rem/140.625% "Noto Sans", sans-serif;
+  --gcds-link-font-hover-decoration-thickness: 0.125rem;
   --gcds-link-font-regular-desktop: 400 1.25rem/120% "Noto Sans", sans-serif;
   --gcds-link-font-regular-mobile: 400 1rem/150% "Noto Sans", sans-serif;
   --gcds-link-decoration-thickness: 0.0625rem;
@@ -310,6 +311,7 @@
   --gcds-card-badge-padding: 0.1875rem 1.5rem;
   --gcds-card-title-font-desktop: 700 2.00225830078125rem/124.85901539399482% "Lato", sans-serif;
   --gcds-card-title-font-mobile: 700 1.601806640625rem/124.85901539399481% "Lato", sans-serif;
+  --gcds-card-max-width: 34.125rem;
   --gcds-checkbox-check-border-width: 0.3125rem;
   --gcds-checkbox-check-height: 1.5rem;
   --gcds-checkbox-check-left: 1rem;

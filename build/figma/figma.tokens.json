@@ -284,6 +284,14 @@
             "type": "typography"
           }
         },
+        "hover": {
+          "decoration": {
+            "thickness": {
+              "value": "0.125rem",
+              "type": "borderWidth"
+            }
+          }
+        },
         "regular": {
           "desktop": {
             "value": {
@@ -1615,6 +1623,10 @@
             "type": "typography"
           }
         }
+      },
+      "maxWidth": {
+        "value": "34.125rem",
+        "type": "sizing"
       }
     },
     "checkbox": {
