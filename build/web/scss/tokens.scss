@@ -63,6 +63,7 @@ $gcds-link-font-small-mobile: 400 0.8888888888888888rem/140.625% "Noto Sans", sa
 $gcds-link-font-regular-desktop: 400 1.25rem/120% "Noto Sans", sans-serif;
 $gcds-link-font-regular-mobile: 400 1rem/150% "Noto Sans", sans-serif;
 $gcds-link-decoration-thickness: 0.0625rem;
+$gcds-link-hover-decoration-thickness: 0.125rem;
 $gcds-link-underline-offset: 0.25rem;
 $gcds-text-light: #ffffff; // Global color: text light
 $gcds-text-primary: #333333; // Global color: text primary
@@ -308,6 +309,7 @@ $gcds-card-badge-background-color: #20809D;
 $gcds-card-badge-padding: 0.1875rem 1.5rem;
 $gcds-card-title-font-desktop: 700 2.00225830078125rem/124.85901539399482% "Lato", sans-serif;
 $gcds-card-title-font-mobile: 700 1.601806640625rem/124.85901539399481% "Lato", sans-serif;
+$gcds-card-max-width: 34.125rem;
 $gcds-checkbox-check-border-width: 0.3125rem;
 $gcds-checkbox-check-height: 1.5rem;
 $gcds-checkbox-check-left: 1rem;
