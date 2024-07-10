@@ -1499,12 +1499,6 @@
         "boxShadow": {
           "value": "0 0.25rem 0.5625rem 0.25rem #00032",
           "type": "other"
-        },
-        "title": {
-          "textDecorationThickness": {
-            "value": "0.125rem",
-            "type": "other"
-          }
         }
       },
       "margin": {
