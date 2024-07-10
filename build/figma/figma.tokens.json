@@ -284,14 +284,6 @@
             "type": "typography"
           }
         },
-        "hover": {
-          "decoration": {
-            "thickness": {
-              "value": "0.125rem",
-              "type": "borderWidth"
-            }
-          }
-        },
         "regular": {
           "desktop": {
             "value": {
@@ -318,6 +310,10 @@
           "value": "0.0625rem",
           "type": "borderWidth"
         }
+      },
+      "hover-decoration-thickness": {
+        "value": "0.125rem",
+        "type": "borderWidth"
       },
       "underline": {
         "offset": {
