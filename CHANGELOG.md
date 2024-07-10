@@ -4,6 +4,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.14.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.14.0...gcds-tokens-v1.14.1) (2024-07-10)
+
+
+### Bug Fixes
+
+* Add missing component tokens for link and card ([#288](https://github.com/cds-snc/gcds-tokens/issues/288)) ([824fdc0](https://github.com/cds-snc/gcds-tokens/commit/824fdc068caa9641b7596ca07a43aea5673304ac))
+* invalid env for version on slack message ([#284](https://github.com/cds-snc/gcds-tokens/issues/284)) ([56ee12e](https://github.com/cds-snc/gcds-tokens/commit/56ee12e2ce475a552f3c8b50f917ee531b3d49de))
+
+
+### Code Refactoring
+
+* remove tokens redundant after CSS rewrite ([#230](https://github.com/cds-snc/gcds-tokens/issues/230)) ([d819ecf](https://github.com/cds-snc/gcds-tokens/commit/d819ecf92d068bb8f675b1f9687f246e8f6a55b8))
+
 ## [1.14.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.13.4...gcds-tokens-v1.14.0) (2024-07-05)
 
 
