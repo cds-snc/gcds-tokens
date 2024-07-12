@@ -49,46 +49,66 @@ You already have our design tokens available to you! Simply use them in your cus
 ### Using design tokens on their own, without our GCDS Components or GCDS Utility Framework
 If you want to use the design tokens on its own, without our GCDS Components or GCDS Utility Framework
 
-Install GCDS Tokens (Design Tokens)
+#### Install GCDS Tokens (Design Tokens)
+Navigate to the root folder of your project and run:
 
 ```
 npm i @cdssnc/gcds-tokens
 ```
 
-Add it to your css:
+#### Import all GCDS Tokens
+Choose to include all GCDS tokens if you are planning on using the component, global and base tokens. Add all GCDS tokens to your CSS by importing the <tokens.css> file:
 
 ```css
-// GCDS tokens
-
-@import '../node_modules/@cdssnc/gcds-tokens/build/web/css/base.css';
-
-@import '../node_modules/@cdssnc/gcds-tokens/build/web/css/global.css';
-
-@import '../node_modules/@cdssnc/gcds-tokens/build/web/css/components/heading.css';
-
-// You can choose to use all of our tokens
-@import '../node_modules/@cdssnc/gcds-tokens/build/web/css/base.css';
-
-// Or pick and choose the files you need
-// Global tokens (semantic)
-@import '../node_modules/@cdssnc/gcds-tokens/build/web/css/global.css';
-
-// Base tokens (non-semantic, example: colours)
-@import '../node_modules/@cdssnc/gcds-tokens/build/web/css/base.css';
-
-// Component-specific tokens (Heading component in this example)
-@import '../node_modules/@cdssnc/gcds-tokens/build/web/css/components/heading.css';
+<!-- GC Design System Tokens -->
+@import 'path/to/node_modules/@cdssnc/gcds-tokens/build/web/css/tokens.css'
 ```
 
-Or in your scss:
-
-```scss
-// GCDS tokens
-@use '../node_modules/@cdssnc/gcds-tokens/build/web/css/base.css';
-@use '../node_modules/@cdssnc/gcds-tokens/build/web/css/global.css';
-@use '../node_modules/@cdssnc/gcds-tokens/build/web/css/components/heading.css';
+Add all GCDS tokens in your SCSS by importing the <tokens.scss> file:
+```css
+<!-- GC Design System Tokens -->
+@import 'path/to/node_modules/@cdssnc/gcds-tokens/build/web/scss/tokens.scss'
 ```
 
+#### Import GCDS component tokens
+Choose to only include GCDS component tokens if you are planning on only using component-specific tokens. Add GCDS component-specific tokens to your CSS by importing the CSS file for a specific component. For example, add the component tokens for the <gcds-button> component by importing the <button.css> file:
+```css
+<!-- GC Design System Tokens -->
+@import 'path/to/node_modules/@cdssnc/gcds-tokens/build/web/css/components/button.css'
+```
+
+Add the component tokens in your SCSS for the <gcds-button> component by importing the <button.scss> file:
+```css
+<!-- GC Design System Tokens -->
+@import 'path/to/node_modules/@cdssnc/gcds-tokens/build/web/scss/components/button.scss'
+```
+
+Repeat the above step for each component-specific CSS or SCSS file you want to include. Or include all component-specific tokens to your CSS by importing the <components.css> file:
+```css
+<!-- GC Design System Tokens -->
+@import 'path/to/node_modules/@cdssnc/gcds-tokens/build/web/css/components.css'
+```
+
+Add all component tokens in your SCSS by importing the <components.scss> file:
+```css
+<!-- GC Design System Tokens -->
+@import 'path/to/node_modules/@cdssnc/gcds-tokens/build/web/scss/components.scss'
+```
+
+#### Import GCDS global and base tokens
+Choose to only include the GCDS global and base tokens if you don’t need component-specific tokens. Add GCDS global and base tokens to your CSS by importing the <base.css> and <global.css> files:
+```css
+<!-- GC Design System Tokens -->
+@import 'path/to/node_modules/@cdssnc/gcds-tokens/build/web/css/base.css'
+@import 'path/to/node_modules/@cdssnc/gcds-tokens/build/web/css/global.css'
+```
+
+Add the GCDS global and base tokens to your SCSS by importing the <base.scss> and <global.scss> files:
+```css
+<!-- GC Design System Tokens -->
+@import 'path/to/node_modules/@cdssnc/gcds-tokens/build/web/scss/base.scss'
+@import 'path/to/node_modules/@cdssnc/gcds-tokens/build/web/scss/global.scss'
+```
 ---
 
 ## Installation
