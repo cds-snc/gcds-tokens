@@ -40,7 +40,6 @@ You already have our design tokens available to you! Simply use them in your cus
 ```css
  font: var(--gcds-font-text);
  color: var(--gcds-text-primary);
-
  background-color: var(--gcds-bg-white);
 ```
 
