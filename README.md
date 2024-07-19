@@ -174,54 +174,74 @@ Alors vous avez déjà à votre disposition nos unités de style! Utilisez-les s
 ```css
  font: var(--gcds-font-text);
  color: var(--gcds-text-primary);
-
  background-color: var(--gcds-bg-white);
 ```
 
 
 
-### Utilisation des unités de style sans les composants ou le cadre utilitaire de Système de design GC
-Pour utiliser les unités de style sans les composants ou le cadre utilitaire de Système de design GC :
+### Utilisation des unités de style sans les composants ou le cadre utilitaire de Système de design GC 
+Vous pouvez utiliser les unités de style seules, sans les composants ou le cadre utilitaire de Système de design GC.
 
-Installez GCDS Tokens (les unités de style de Système de design GC)
+#### Installer GCDS Tokens (unités de style de Système de design GC)
+Naviguez jusqu’au dossier racine de votre projet et exécutez :
 
 ```
 npm i @cdssnc/gcds-tokens
 ```
 
-Ajoutez-les à votre CSS :
+#### Importer toutes les unités de style de Système de design GC
+Choisissez d’inclure toutes les unités de style de Système de design GC si vous planifiez utiliser les unités de styles globales et de base, ainsi que celles des composants. Ajoutez toutes les unités de style à votre CSS en important le fichier `tokens.css` :
 
 ```css
-// Unités de style de Système de design GC
-
-@import '../node_modules/@cdssnc/gcds-tokens/build/web/css/base.css';
-
-@import '../node_modules/@cdssnc/gcds-tokens/build/web/css/global.css';
-
-@import '../node_modules/@cdssnc/gcds-tokens/build/web/css/components/heading.css';
-
-// Vous pouvez utiliser toutes nos unités de style
-@import '../node_modules/@cdssnc/gcds-tokens/build/web/css/base.css';
-
-// Ou choisir seulement les fichiers dont vous avez besoin
-// Unités de style globales (sémantiques)
-@import '../node_modules/@cdssnc/gcds-tokens/build/web/css/global.css';
-
-// Unités de style de base (non sémantiques, exemple : couleurs)
-@import '../node_modules/@cdssnc/gcds-tokens/build/web/css/base.css';
-
-// Unités de style propres aux composants (composant Titre dans cet exemple)
-@import '../node_modules/@cdssnc/gcds-tokens/build/web/css/components/heading.css';
-
+<!-- Unités de style de Système de design GC -->
+@import 'path/to/node_modules/@cdssnc/gcds-tokens/build/web/css/tokens.css'
 ```
 
-Ou dans votre scss :
+Ajoutez toutes les unités de style à votre SCSS en important le fichier `tokens.scss` :
+```css
+<!-- Unités de style de Système de design GC -->
+@import 'path/to/node_modules/@cdssnc/gcds-tokens/build/web/scss/tokens.scss'
+```
 
-```scss
-// Unités de style de Système de design GC
-@use '../node_modules/@cdssnc/gcds-tokens/build/web/css/base.css';
-@use '../node_modules/@cdssnc/gcds-tokens/build/web/css/global.css';
-@use '../node_modules/@cdssnc/gcds-tokens/build/web/css/components/heading.css';
+#### Importer les unités de style des composants de Système de design GC
+Choisissez d’inclure uniquement les unités de style des composants de Système de design GC si vous planifiez n’utiliser que les unités de style propres à des composants. Ajoutez les unités de style propres à un composant dans votre CSS en important le fichier CSS du composant en question. Par exemple, ajoutez les unités de style du composant `gcds-button` en important le fichier `button.css` :
+
+```css
+<!-- Unités de style de Système de design GC -->
+@import 'path/to/node_modules/@cdssnc/gcds-tokens/build/web/css/components/button.css'
+```
+
+Ajoutez les unités de style du composant `gcds-button` à votre SCSS en important le fichier `button.scss` :
+```css
+<!-- Unités de style de Système de design GC -->
+@import 'path/to/node_modules/@cdssnc/gcds-tokens/build/web/scss/components/button.scss'
+```
+
+Répétez l’étape ci-dessus pour chaque composant dont vous souhaitez inclure le fichier CSS ou SCSS. Vous pouvez aussi ajouter toutes les unités de style propres aux composants de Système de design GC à votre CSS en important le fichier `components.css` :
+```css
+<!-- Unités de style de Système de design GC -->
+@import 'path/to/node_modules/@cdssnc/gcds-tokens/build/web/css/components.css'
+```
+
+Ou toutes les unités de style propres aux composants de Système de design GC à votre SCSS en important le fichier `components.scss` :
+```css
+<!-- Unités de style de Système de design GC -->
+@import 'path/to/node_modules/@cdssnc/gcds-tokens/build/web/scss/components.scss'
+```
+
+#### Importer les unités de style globales et de base
+Choisissez d’inclure uniquement les unités de styles globales et de base de Système de design GC si vous n’avez pas besoin d’unités de style propres à des composants. Ajoutez les unités de style globales et de base à votre CSS en important les fichiers `base.css` et  `global.css` :
+```css
+<!-- Unités de style de Système de design GC -->
+@import 'path/to/node_modules/@cdssnc/gcds-tokens/build/web/css/base.css'
+@import 'path/to/node_modules/@cdssnc/gcds-tokens/build/web/css/global.css'
+```
+
+Ajoutez les unités de style globales et de base à votre SCSS en important les fichiers `base.scss` et  `global.scss` :
+```css
+<!-- Unités de style de Système de design GC -->
+@import 'path/to/node_modules/@cdssnc/gcds-tokens/build/web/scss/base.scss'
+@import 'path/to/node_modules/@cdssnc/gcds-tokens/build/web/scss/global.scss'
 ```
 
 ---
