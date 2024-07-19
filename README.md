@@ -174,7 +174,6 @@ Alors vous avez déjà à votre disposition nos unités de style! Utilisez-les s
 ```css
  font: var(--gcds-font-text);
  color: var(--gcds-text-primary);
-
  background-color: var(--gcds-bg-white);
 ```
 
@@ -212,7 +211,7 @@ Choisissez d’inclure uniquement les unités de style des composants de Systèm
 @import 'path/to/node_modules/@cdssnc/gcds-tokens/build/web/css/components/button.css'
 ```
 
-Ajoutez les unités de style du composant <gcds-button> à votre SCSS en important le fichier `button.scss` :
+Ajoutez les unités de style du composant `gcds-button` à votre SCSS en important le fichier `button.scss` :
 ```css
 <!-- Unités de style de Système de design GC -->
 @import 'path/to/node_modules/@cdssnc/gcds-tokens/build/web/scss/components/button.scss'
