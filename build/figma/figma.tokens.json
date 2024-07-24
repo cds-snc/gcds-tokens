@@ -1421,70 +1421,40 @@
         "value": "#FFF",
         "type": "color"
       },
-      "boxShadow": {
-        "value": "0 0.1875rem 0.5625rem 0.1875rem #00019",
-        "type": "other"
+      "border": {
+        "value": "0.125rem solid #7D828B",
+        "type": "border"
+      },
+      "borderRadius": {
+        "value": "0.375rem",
+        "type": "borderRadius"
       },
       "color": {
         "value": "#333333",
         "type": "color"
       },
       "description": {
-        "font": {
-          "desktop": {
-            "value": {
-              "fontFamily": "\"Noto Sans\", sans-serif",
-              "fontWeight": "400",
-              "lineHeight": "120%",
-              "fontSize": "1.25rem"
-            },
-            "type": "typography"
-          },
-          "mobile": {
-            "value": {
-              "fontFamily": "\"Noto Sans\", sans-serif",
-              "fontWeight": "400",
-              "lineHeight": "150%",
-              "fontSize": "1rem"
-            },
-            "type": "typography"
-          }
+        "maxWidth": {
+          "value": "65ch",
+          "type": "sizing"
         }
       },
       "focus": {
-        "box-shadow": {
-          "value": "inset 0 0 0 0.125rem #0535d2",
+        "background": {
+          "value": "#0535d2",
           "type": "color"
         },
-        "link": {
-          "backgroundColor": {
-            "value": "transparent",
-            "type": "color"
-          },
-          "border": {
-            "value": "none",
-            "type": "borderRadius"
-          },
-          "box-shadow": {
-            "value": "none",
-            "type": "color"
-          },
-          "color": {
-            "value": "#2b4380",
-            "type": "color"
-          },
-          "outline": {
-            "value": "none",
-            "type": "other"
-          },
-          "text": {
-            "decoration": {
-              "thickness": {
-                "value": "0.125rem",
-                "type": "borderWidth"
-              }
-            }
-          }
+        "color": {
+          "value": "#FFF",
+          "type": "color"
+        },
+        "border-radius": {
+          "value": "0.1875rem",
+          "type": "other"
+        },
+        "box-shadow": {
+          "value": "0 0 0 0.125rem #FFF",
+          "type": "color"
         },
         "outline-offset": {
           "value": "0.125rem",
@@ -1497,12 +1467,18 @@
       },
       "hover": {
         "backgroundColor": {
-          "value": "#F1F2F380",
+          "value": "#F1F2F3",
           "type": "color"
         },
         "boxShadow": {
-          "value": "0 0.25rem 0.5625rem 0.25rem #00032",
+          "value": "0 0.1875rem 0.75rem 0.1875rem #D6D9DD",
           "type": "other"
+        },
+        "title": {
+          "color": {
+            "value": "#0535d2",
+            "type": "color"
+          }
         }
       },
       "margin": {
@@ -1510,44 +1486,61 @@
         "type": "spacing"
       },
       "padding": {
-        "value": "2.25rem 1.5rem",
+        "value": "1.5rem",
         "type": "spacing"
       },
-      "badge": {
-        "backgroundColor": {
-          "value": "#20809D",
+      "tag": {
+        "color": {
+          "value": "#43474E",
           "type": "color"
         },
-        "padding": {
-          "value": "0.1875rem 1.5rem",
-          "type": "spacing"
+        "font": {
+          "value": {
+            "fontFamily": "\"Noto Sans\", sans-serif",
+            "fontWeight": "400",
+            "lineHeight": "135%",
+            "fontSize": "1.1111111111111112rem"
+          },
+          "type": "typography"
+        }
+      },
+      "slot": {
+        "color": {
+          "value": "#43474E",
+          "type": "color"
+        },
+        "font": {
+          "value": {
+            "fontFamily": "\"Noto Sans\", sans-serif",
+            "fontWeight": "400",
+            "lineHeight": "135%",
+            "fontSize": "1.1111111111111112rem"
+          },
+          "type": "typography"
         }
       },
       "title": {
+        "color": {
+          "value": "#2b4380",
+          "type": "color"
+        },
         "font": {
-          "desktop": {
-            "value": {
-              "fontFamily": "\"Lato\", sans-serif",
-              "fontWeight": "700",
-              "lineHeight": "124.85901539399482%",
-              "fontSize": "2.00225830078125rem"
-            },
-            "type": "typography"
+          "value": {
+            "fontFamily": "\"Lato\", sans-serif",
+            "fontWeight": "700",
+            "lineHeight": "124.85901539399482%",
+            "fontSize": "2.00225830078125rem"
           },
-          "mobile": {
-            "value": {
-              "fontFamily": "\"Lato\", sans-serif",
-              "fontWeight": "700",
-              "lineHeight": "124.85901539399481%",
-              "fontSize": "1.601806640625rem"
-            },
-            "type": "typography"
-          }
+          "type": "typography"
+        },
+        "textDecorationThickness": {
+          "value": "0.0625rem",
+          "type": "other"
+        },
+        "textUnderlineOffset": {
+          "value": "0.125rem",
+          "type": "other"
         }
-      },
-      "maxWidth": {
-        "value": "34.125rem",
-        "type": "sizing"
       }
     },
     "checkbox": {
