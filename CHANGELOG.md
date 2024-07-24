@@ -4,6 +4,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.14.2](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.14.1...gcds-tokens-v1.14.2) (2024-07-24)
+
+
+### Bug Fixes
+
+* revert card tokens updates until new card is ready for release ([#294](https://github.com/cds-snc/gcds-tokens/issues/294)) ([c1753a1](https://github.com/cds-snc/gcds-tokens/commit/c1753a1027827edf23235951a7def4e6015b2f98))
+* revert stepper tokens update until stepper is ready for release ([#278](https://github.com/cds-snc/gcds-tokens/issues/278)) ([#293](https://github.com/cds-snc/gcds-tokens/issues/293)) ([24c7436](https://github.com/cds-snc/gcds-tokens/commit/24c74365dac87b06959d39a8ce67c7ffa772b0a7))
+
+
+### Documentation
+
+* add instructions on how to use design tokens ([#279](https://github.com/cds-snc/gcds-tokens/issues/279)) ([0f29b55](https://github.com/cds-snc/gcds-tokens/commit/0f29b5560c939bbfc3f3fe0896a1034555758fa8))
+* update README french section ([#290](https://github.com/cds-snc/gcds-tokens/issues/290)) ([bcf6a35](https://github.com/cds-snc/gcds-tokens/commit/bcf6a35ad0a5514eee253768c73ec59d53e65616))
+
+
+### Code Refactoring
+
+* update error message design ([#292](https://github.com/cds-snc/gcds-tokens/issues/292)) ([a8df46d](https://github.com/cds-snc/gcds-tokens/commit/a8df46dffb408ac5d3774529181e6d3751aeb142))
+
 ## [1.14.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.14.0...gcds-tokens-v1.14.1) (2024-07-10)
 
 
