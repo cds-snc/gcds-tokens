@@ -204,11 +204,7 @@
   --gcds-details-summary-arrow-top: 0.5625rem;
   --gcds-details-summary-border-width: 0.0625rem;
   --gcds-details-summary-padding: 0.375rem 0.375rem 0.375rem 2.25rem;
-  --gcds-error-message-background: #fbddda;
-  --gcds-error-message-border-color: #d3080c;
-  --gcds-error-message-border-width: 0.125rem;
-  --gcds-error-message-margin: 0 0 1.125rem;
-  --gcds-error-message-padding: 0.75rem;
+  --gcds-error-message-text-color: #a62a1e;
   --gcds-error-summary-border-color: #d3080c;
   --gcds-error-summary-border-width: 0.375rem;
   --gcds-error-summary-link-color: #a62a1e;

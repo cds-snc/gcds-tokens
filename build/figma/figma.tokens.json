@@ -1810,27 +1810,11 @@
       }
     },
     "error-message": {
-      "background": {
-        "value": "#FBDDDA",
-        "type": "color"
-      },
-      "border": {
+      "text": {
         "color": {
-          "value": "#d3080c",
+          "value": "#A62A1E",
           "type": "border"
-        },
-        "width": {
-          "value": "0.125rem",
-          "type": "borderWidth"
         }
-      },
-      "margin": {
-        "value": "0 0 1.125rem",
-        "type": "spacing"
-      },
-      "padding": {
-        "value": "0.75rem",
-        "type": "spacing"
       }
     },
     "error-summary": {

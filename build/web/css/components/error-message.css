@@ -3,9 +3,5 @@
  */
 
 :root {
-  --gcds-error-message-background: #fbddda;
-  --gcds-error-message-border-color: #d3080c;
-  --gcds-error-message-border-width: 0.125rem;
-  --gcds-error-message-margin: 0 0 1.125rem;
-  --gcds-error-message-padding: 0.75rem;
+  --gcds-error-message-text-color: #a62a1e;
 }
