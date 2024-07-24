@@ -1478,10 +1478,6 @@
           "color": {
             "value": "#0535d2",
             "type": "color"
-          },
-          "textDecorationThickness": {
-            "value": "0.125rem",
-            "type": "other"
           }
         }
       },
