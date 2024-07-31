@@ -4,6 +4,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.15.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.14.2...gcds-tokens-v1.15.0) (2024-07-31)
+
+
+### New Features
+
+* add global link visited token ([#297](https://github.com/cds-snc/gcds-tokens/issues/297)) ([d344857](https://github.com/cds-snc/gcds-tokens/commit/d344857891e9629ff94cf3225dd3554e1fea21b4))
+
 ## [1.14.2](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.14.1...gcds-tokens-v1.14.2) (2024-07-24)
 
 
