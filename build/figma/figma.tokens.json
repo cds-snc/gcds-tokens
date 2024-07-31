@@ -79,6 +79,12 @@
           "type": "color"
         }
       },
+      "purple": {
+        "700": {
+          "value": "#7532B8",
+          "type": "color"
+        }
+      },
       "red": {
         "100": {
           "value": "#FBDDDA",
@@ -231,6 +237,10 @@
       },
       "light": {
         "value": "#FFF",
+        "type": "color"
+      },
+      "visited": {
+        "value": "#7532B8",
         "type": "color"
       },
       "focus": {
