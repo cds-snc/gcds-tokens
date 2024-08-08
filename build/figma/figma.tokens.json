@@ -2869,6 +2869,10 @@
         "type": "spacing"
       },
       "required": {
+        "fontWeight": {
+          "value": "400",
+          "type": "spacing"
+        },
         "margin": {
           "value": "0 0 0 0.375rem",
           "type": "spacing"
