@@ -1724,7 +1724,7 @@
           "desktop": {
             "value": {
               "fontFamily": "\"Noto Sans\", sans-serif",
-              "fontWeight": "400",
+              "fontWeight": "500",
               "lineHeight": "120%",
               "fontSize": "1.25rem"
             },
@@ -1733,7 +1733,7 @@
           "mobile": {
             "value": {
               "fontFamily": "\"Noto Sans\", sans-serif",
-              "fontWeight": "400",
+              "fontWeight": "500",
               "lineHeight": "150%",
               "fontSize": "1rem"
             },
