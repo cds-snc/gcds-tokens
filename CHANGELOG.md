@@ -4,6 +4,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.15.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.15.0...gcds-tokens-v1.15.1) (2024-08-08)
+
+
+### Bug Fixes
+
+* required label font weight ([#302](https://github.com/cds-snc/gcds-tokens/issues/302)) ([f940755](https://github.com/cds-snc/gcds-tokens/commit/f940755cf586e2c30ee812e4c0f5fd0631a3c6b0))
+
 ## [1.15.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.14.2...gcds-tokens-v1.15.0) (2024-07-31)
 
 
