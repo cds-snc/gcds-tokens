@@ -1268,6 +1268,24 @@
       "padding": {
         "value": "0 0 0 0.375rem",
         "type": "spacing"
+      },
+      "mobile": {
+        "item": {
+          "arrow": {
+            "top": {
+              "value": "0.1875rem",
+              "type": "spacing"
+            }
+          },
+          "margin": {
+            "value": "0.375rem 0",
+            "type": "spacing"
+          },
+          "padding": {
+            "value": "0",
+            "type": "spacing"
+          }
+        }
       }
     },
     "button": {
