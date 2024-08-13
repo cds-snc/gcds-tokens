@@ -250,6 +250,9 @@
   --gcds-breadcrumbs-item-padding: 0 0 0 1.5rem;
   --gcds-breadcrumbs-margin: 0 0 0 -0.375rem;
   --gcds-breadcrumbs-padding: 0 0 0 0.375rem;
+  --gcds-breadcrumbs-mobile-item-arrow-top: 0.1875rem;
+  --gcds-breadcrumbs-mobile-item-margin: 0.375rem 0;
+  --gcds-breadcrumbs-mobile-item-padding: 0;
   --gcds-button-border-radius: 0.375rem;
   --gcds-button-border-width: 0.125rem;
   --gcds-button-danger-default-background: #a62a1e;
