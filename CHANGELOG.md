@@ -4,6 +4,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.16.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.15.1...gcds-tokens-v1.16.0) (2024-08-13)
+
+
+### New Features
+
+* Add component tokens for gcds-date-input ([#301](https://github.com/cds-snc/gcds-tokens/issues/301)) ([33dcdf3](https://github.com/cds-snc/gcds-tokens/commit/33dcdf367fdc6d4e14ed6aa72f9d8f66c6348490))
+
+
+### Bug Fixes
+
+* update required label font weight + add mobile breadcrumbs item tokens ([#304](https://github.com/cds-snc/gcds-tokens/issues/304)) ([4359e16](https://github.com/cds-snc/gcds-tokens/commit/4359e16bb944f3cd215069b5af45cac416beccda))
+
 ## [1.15.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.15.0...gcds-tokens-v1.15.1) (2024-08-08)
 
 
