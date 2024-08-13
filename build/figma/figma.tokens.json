@@ -1674,6 +1674,78 @@
         "type": "spacing"
       }
     },
+    "date-input": {
+      "danger": {
+        "border": {
+          "value": "#d3080c",
+          "type": "color"
+        }
+      },
+      "fieldset": {
+        "font": {
+          "desktop": {
+            "value": {
+              "fontFamily": "\"Noto Sans\", sans-serif",
+              "fontWeight": "600",
+              "lineHeight": "120%",
+              "fontSize": "1.25rem"
+            },
+            "type": "typography"
+          },
+          "mobile": {
+            "value": {
+              "fontFamily": "\"Noto Sans\", sans-serif",
+              "fontWeight": "600",
+              "lineHeight": "150%",
+              "fontSize": "1rem"
+            },
+            "type": "typography"
+          }
+        },
+        "error": {
+          "margin": {
+            "value": "0 0 0.1875rem",
+            "type": "spacing"
+          }
+        },
+        "hint": {
+          "margin": {
+            "value": "0 0 0.1875rem",
+            "type": "spacing"
+          }
+        },
+        "margin": {
+          "value": "0 0 1.125rem",
+          "type": "spacing"
+        }
+      },
+      "label": {
+        "font": {
+          "desktop": {
+            "value": {
+              "fontFamily": "\"Noto Sans\", sans-serif",
+              "fontWeight": "500",
+              "lineHeight": "120%",
+              "fontSize": "1.25rem"
+            },
+            "type": "typography"
+          },
+          "mobile": {
+            "value": {
+              "fontFamily": "\"Noto Sans\", sans-serif",
+              "fontWeight": "500",
+              "lineHeight": "150%",
+              "fontSize": "1rem"
+            },
+            "type": "typography"
+          }
+        }
+      },
+      "margin": {
+        "value": "0.75rem",
+        "type": "spacing"
+      }
+    },
     "date-modified": {
       "description": {
         "margin": {
