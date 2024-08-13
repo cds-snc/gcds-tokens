@@ -4,6 +4,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.16.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.16.0...gcds-tokens-v1.16.1) (2024-08-13)
+
+
+### Bug Fixes
+
+* fieldset legend required font ([#307](https://github.com/cds-snc/gcds-tokens/issues/307)) ([2dad7bf](https://github.com/cds-snc/gcds-tokens/commit/2dad7bf5ee454b08cdcaf05310d5f855cbeae450))
+
 ## [1.16.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.15.1...gcds-tokens-v1.16.0) (2024-08-13)
 
 
