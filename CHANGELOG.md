@@ -4,6 +4,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.17.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.17.0...gcds-tokens-v1.17.1) (2024-08-20)
+
+
+### Bug Fixes
+
+* Margin spacing tokens in card component ([#310](https://github.com/cds-snc/gcds-tokens/issues/310)) ([6c000e0](https://github.com/cds-snc/gcds-tokens/commit/6c000e0c100145b3097076d58ceafb80919f88db))
+
 ## [1.17.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.16.1...gcds-tokens-v1.17.0) (2024-08-19)
 
 
