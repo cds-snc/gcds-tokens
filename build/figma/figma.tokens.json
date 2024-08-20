@@ -1463,7 +1463,7 @@
             "value": {
               "fontFamily": "\"Noto Sans\", sans-serif",
               "fontWeight": "400",
-              "lineHeight": "120%",
+              "lineHeight": "150%",
               "fontSize": "1.25rem"
             },
             "type": "typography"
@@ -1533,9 +1533,11 @@
           "type": "other"
         }
       },
-      "margin": {
-        "value": "0 0 1.5rem",
-        "type": "spacing"
+      "image": {
+        "margin": {
+          "value": "0 0 1.5rem",
+          "type": "spacing"
+        }
       },
       "padding": {
         "value": "2.25rem 1.5rem",
@@ -1571,6 +1573,10 @@
             },
             "type": "typography"
           }
+        },
+        "margin": {
+          "value": "0 0 0.5625rem",
+          "type": "spacing"
         }
       },
       "maxWidth": {
