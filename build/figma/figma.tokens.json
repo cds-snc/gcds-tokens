@@ -3432,23 +3432,29 @@
           }
         },
         "type": {
-          "desktop": {
-            "value": {
-              "fontFamily": "\"Noto Sans\", sans-serif",
-              "fontWeight": "700",
-              "lineHeight": "120%",
-              "fontSize": "1.25rem"
+          "font": {
+            "desktop": {
+              "value": {
+                "fontFamily": "\"Noto Sans\", sans-serif",
+                "fontWeight": "700",
+                "lineHeight": "120%",
+                "fontSize": "1.25rem"
+              },
+              "type": "typography"
             },
-            "type": "typography"
+            "mobile": {
+              "value": {
+                "fontFamily": "\"Noto Sans\", sans-serif",
+                "fontWeight": "700",
+                "lineHeight": "150%",
+                "fontSize": "1rem"
+              },
+              "type": "typography"
+            }
           },
-          "mobile": {
-            "value": {
-              "fontFamily": "\"Noto Sans\", sans-serif",
-              "fontWeight": "700",
-              "lineHeight": "150%",
-              "fontSize": "1rem"
-            },
-            "type": "typography"
+          "margin": {
+            "value": "-0.1875rem 0 0",
+            "type": "spacing"
           }
         }
       },
