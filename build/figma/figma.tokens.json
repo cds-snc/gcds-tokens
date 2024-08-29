@@ -14,6 +14,10 @@
           "value": "#33465c",
           "type": "color"
         },
+        "750": {
+          "value": "#1E7B96",
+          "type": "color"
+        },
         "800": {
           "value": "#2b4380",
           "type": "color"
@@ -82,6 +86,12 @@
       "purple": {
         "700": {
           "value": "#7532B8",
+          "type": "color"
+        }
+      },
+      "orange": {
+        "700": {
+          "value": "#BE5A00",
           "type": "color"
         }
       },
@@ -3356,6 +3366,122 @@
         "margin": {
           "value": "0 0 0 0.1875rem",
           "type": "spacing"
+        }
+      }
+    },
+    "notice": {
+      "border": {
+        "width": {
+          "value": "0.375rem",
+          "type": "borderWidth"
+        }
+      },
+      "content": {
+        "heading": {
+          "font": {
+            "desktop": {
+              "value": {
+                "fontFamily": "\"Lato\", sans-serif",
+                "fontWeight": "700",
+                "lineHeight": "124.85901539399482%",
+                "fontSize": "2.00225830078125rem"
+              },
+              "type": "typography"
+            },
+            "mobile": {
+              "value": {
+                "fontFamily": "\"Lato\", sans-serif",
+                "fontWeight": "700",
+                "lineHeight": "124.85901539399481%",
+                "fontSize": "1.601806640625rem"
+              },
+              "type": "typography"
+            }
+          }
+        },
+        "slotted": {
+          "font": {
+            "desktop": {
+              "value": {
+                "fontFamily": "\"Noto Sans\", sans-serif",
+                "fontWeight": "400",
+                "lineHeight": "120%",
+                "fontSize": "1.25rem"
+              },
+              "type": "typography"
+            },
+            "mobile": {
+              "value": {
+                "fontFamily": "\"Noto Sans\", sans-serif",
+                "fontWeight": "400",
+                "lineHeight": "150%",
+                "fontSize": "1rem"
+              },
+              "type": "typography"
+            }
+          },
+          "list": {
+            "margin": {
+              "value": "1.5rem",
+              "type": "spacing"
+            }
+          },
+          "margin": {
+            "value": "0.5625rem",
+            "type": "spacing"
+          }
+        },
+        "type": {
+          "desktop": {
+            "value": {
+              "fontFamily": "\"Noto Sans\", sans-serif",
+              "fontWeight": "700",
+              "lineHeight": "120%",
+              "fontSize": "1.25rem"
+            },
+            "type": "typography"
+          },
+          "mobile": {
+            "value": {
+              "fontFamily": "\"Noto Sans\", sans-serif",
+              "fontWeight": "700",
+              "lineHeight": "150%",
+              "fontSize": "1rem"
+            },
+            "type": "typography"
+          }
+        }
+      },
+      "padding": {
+        "value": "0 0 0 0.75rem",
+        "type": "spacing"
+      },
+      "text": {
+        "value": "#333333",
+        "type": "color"
+      },
+      "danger": {
+        "text": {
+          "value": "#A62A1E",
+          "type": "color"
+        }
+      },
+      "info": {
+        "text": {
+          "value": "#1E7B96",
+          "type": "color"
+        }
+      },
+      "success": {
+        "text": {
+          "value": "#03662A",
+          "type": "color"
+        }
+      },
+      "warning": {
+        "text": {
+          "value": "#BE5A00",
+          "type": "color"
         }
       }
     },
