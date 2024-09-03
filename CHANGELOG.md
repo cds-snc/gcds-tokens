@@ -4,13 +4,13 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.18.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.17.1...gcds-tokens-v1.18.0) (2024-09-03)
+## [1.18.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.17.1...gcds-tokens-v1.18.0)
 
+Released on: 2024-09-03
 
 ### :rocket: New Features
 
 * Add notice component tokens + new colours ([#313](https://github.com/cds-snc/gcds-tokens/issues/313)) ([5fb28f1](https://github.com/cds-snc/gcds-tokens/commit/5fb28f195e6ad3a09ba2d6ff18c4628a68a2e8f5))
-
 
 ### :bug: :wrench: Bug Fixes
 
