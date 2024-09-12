@@ -4,6 +4,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.18.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.18.0...gcds-tokens-v1.18.1)
+
+Released on: 2024-09-12
+
+### :bug: :wrench: Bug Fixes
+
+* various small design bug fixes ([#318](https://github.com/cds-snc/gcds-tokens/issues/318)) ([182270f](https://github.com/cds-snc/gcds-tokens/commit/182270fac9eb5ac47a6d6f36eba16dd392be5023))
+
 ## [1.18.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.17.1...gcds-tokens-v1.18.0)
 
 Released on: 2024-09-03
