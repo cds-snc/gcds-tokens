@@ -4,7 +4,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.19.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.18.1...gcds-tokens-v2.0.0) (2024-09-13)
+## [1.19.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.18.1...gcds-tokens-v1.19.0) (2024-09-13)
 
 
 ### ⚠ BREAKING CHANGES
