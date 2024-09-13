@@ -4,6 +4,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.18.1...gcds-tokens-v2.0.0) (2024-09-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* new tokens for search component mobile text ([#321](https://github.com/cds-snc/gcds-tokens/issues/321))
+
+### :rocket: New Features
+
+* new tokens for search component mobile text ([#321](https://github.com/cds-snc/gcds-tokens/issues/321)) ([f4bdabe](https://github.com/cds-snc/gcds-tokens/commit/f4bdabea1c9606368d4f8264025527268b33fbbc))
+
 ## [1.18.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.18.0...gcds-tokens-v1.18.1)
 
 Released on: 2024-09-12
