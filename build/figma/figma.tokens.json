@@ -3831,13 +3831,24 @@
         }
       },
       "font": {
-        "value": {
-          "fontFamily": "\"Noto Sans\", sans-serif",
-          "fontWeight": "400",
-          "lineHeight": "120%",
-          "fontSize": "1.25rem"
+        "desktop": {
+          "value": {
+            "fontFamily": "\"Noto Sans\", sans-serif",
+            "fontWeight": "400",
+            "lineHeight": "120%",
+            "fontSize": "1.25rem"
+          },
+          "type": "typography"
         },
-        "type": "typography"
+        "mobile": {
+          "value": {
+            "fontFamily": "\"Noto Sans\", sans-serif",
+            "fontWeight": "400",
+            "lineHeight": "120%",
+            "fontSize": "1rem"
+          },
+          "type": "typography"
+        }
       },
       "margin": {
         "value": "0 0 0.1875rem",
