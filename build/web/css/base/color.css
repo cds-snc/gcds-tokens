@@ -28,7 +28,7 @@
   --gcds-color-red-500: #d3080c; /* Must contrast 3:1 with white */
   --gcds-color-red-700: #a62a1e; /* Must contrast 7:1 with white */
   --gcds-color-red-900: #822117;
-  --gcds-color-red-flag: #eb2d37; /* Signature flag colour - Fip red */
+  --gcds-color-red-flag: #eb2d37; /* Signature flag colour - FIP red */
   --gcds-color-yellow-100: #faedd1;
   --gcds-color-yellow-500: #b3800f; /* Must contrast 3:1 with white */
 }
