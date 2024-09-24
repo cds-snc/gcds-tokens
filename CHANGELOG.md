@@ -4,6 +4,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.19.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.19.0...gcds-tokens-v1.19.1) (2024-09-24)
+
+
+### :bug: :wrench: Bug Fixes
+
+* Legend font weight in date input ([#328](https://github.com/cds-snc/gcds-tokens/issues/328)) ([8edde71](https://github.com/cds-snc/gcds-tokens/commit/8edde71d8c0f08b0c0c3cb993f3857e6d42ad796))
+* Update the red flag colour to be fip red ([#324](https://github.com/cds-snc/gcds-tokens/issues/324)) ([017f15b](https://github.com/cds-snc/gcds-tokens/commit/017f15b186a3d9229f632414f1012d8014ea62df))
+
 ## [1.19.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.18.1...gcds-tokens-v1.19.0)
 
 Released on: 2024-09-13
