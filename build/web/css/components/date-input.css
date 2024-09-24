@@ -4,8 +4,8 @@
 
 :root {
   --gcds-date-input-danger-border: #d3080c;
-  --gcds-date-input-fieldset-font-desktop: 600 1.25rem/120% "Noto Sans", sans-serif;
-  --gcds-date-input-fieldset-font-mobile: 600 1rem/150% "Noto Sans", sans-serif;
+  --gcds-date-input-fieldset-font-desktop: 700 1.25rem/120% "Noto Sans", sans-serif;
+  --gcds-date-input-fieldset-font-mobile: 700 1rem/150% "Noto Sans", sans-serif;
   --gcds-date-input-fieldset-error-margin: 0 0 0.1875rem;
   --gcds-date-input-fieldset-hint-margin: 0 0 0.1875rem;
   --gcds-date-input-fieldset-margin: 0 0 1.125rem;
