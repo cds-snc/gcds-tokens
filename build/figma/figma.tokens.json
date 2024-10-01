@@ -3443,41 +3443,7 @@
             "value": "0.5625rem",
             "type": "spacing"
           }
-        },
-        "type": {
-          "font": {
-            "desktop": {
-              "value": {
-                "fontFamily": "\"Noto Sans\", sans-serif",
-                "fontWeight": "700",
-                "lineHeight": "120%",
-                "fontSize": "1.25rem"
-              },
-              "type": "typography"
-            },
-            "mobile": {
-              "value": {
-                "fontFamily": "\"Noto Sans\", sans-serif",
-                "fontWeight": "700",
-                "lineHeight": "150%",
-                "fontSize": "1rem"
-              },
-              "type": "typography"
-            }
-          },
-          "margin": {
-            "value": "-0.1875rem 0 0",
-            "type": "spacing"
-          }
         }
-      },
-      "padding": {
-        "value": "0 0 0 0.75rem",
-        "type": "spacing"
-      },
-      "text": {
-        "value": "#333333",
-        "type": "color"
       },
       "danger": {
         "text": {
@@ -3485,11 +3451,37 @@
           "type": "color"
         }
       },
+      "icon": {
+        "afterHeight": {
+          "value": "calc(100% - (3rem + 0.5625rem))",
+          "type": "sizing"
+        },
+        "beforeHeight": {
+          "value": "1.125rem",
+          "type": "sizing"
+        },
+        "gap": {
+          "value": "0.9375rem",
+          "type": "spacing"
+        },
+        "margin": {
+          "value": "0.1875rem auto 0",
+          "type": "spacing"
+        },
+        "width": {
+          "value": "2.25rem",
+          "type": "sizing"
+        }
+      },
       "info": {
         "text": {
           "value": "#1E7B96",
           "type": "color"
         }
+      },
+      "text": {
+        "value": "#333333",
+        "type": "color"
       },
       "success": {
         "text": {

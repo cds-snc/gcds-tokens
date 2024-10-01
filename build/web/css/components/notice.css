@@ -10,13 +10,14 @@
   --gcds-notice-content-slotted-font-mobile: 400 1rem/150% "Noto Sans", sans-serif;
   --gcds-notice-content-slotted-list-margin: 1.5rem;
   --gcds-notice-content-slotted-margin: 0.5625rem;
-  --gcds-notice-content-type-font-desktop: 700 1.25rem/120% "Noto Sans", sans-serif;
-  --gcds-notice-content-type-font-mobile: 700 1rem/150% "Noto Sans", sans-serif;
-  --gcds-notice-content-type-margin: -0.1875rem 0 0;
-  --gcds-notice-padding: 0 0 0 0.75rem;
-  --gcds-notice-text: #333333;
   --gcds-notice-danger-text: #a62a1e;
+  --gcds-notice-icon-after-height: calc(100% - (3rem + 0.5625rem));
+  --gcds-notice-icon-before-height: 1.125rem;
+  --gcds-notice-icon-gap: 0.9375rem;
+  --gcds-notice-icon-margin: 0.1875rem auto 0;
+  --gcds-notice-icon-width: 2.25rem;
   --gcds-notice-info-text: #1e7b96;
+  --gcds-notice-text: #333333;
   --gcds-notice-success-text: #03662a;
   --gcds-notice-warning-text: #be5a00;
 }
