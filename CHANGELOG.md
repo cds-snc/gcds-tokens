@@ -4,15 +4,17 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.20.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.19.1...gcds-tokens-v1.20.0) (2024-10-02)
+## [1.20.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.19.1...gcds-tokens-v1.20.0)
 
+Released on: 2024-10-02
 
 ### :rocket: New Features
 
 * update notice tokens for new icon design ([#332](https://github.com/cds-snc/gcds-tokens/issues/332)) ([b6d9b7e](https://github.com/cds-snc/gcds-tokens/commit/b6d9b7e554d23826a02b06996771ad793533342b))
 
-## [1.19.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.19.0...gcds-tokens-v1.19.1) (2024-09-24)
+## [1.19.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.19.0...gcds-tokens-v1.19.1)
 
+Released on: 2024-09-24
 
 ### :bug: :wrench: Bug Fixes
 
