@@ -4,6 +4,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.20.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.20.0...gcds-tokens-v1.20.1) (2024-10-23)
+
+
+### :arrows_counterclockwise: Code Refactoring
+
+* adjust details tokens ([#337](https://github.com/cds-snc/gcds-tokens/issues/337)) ([c3ec9bf](https://github.com/cds-snc/gcds-tokens/commit/c3ec9bfb9a0895505758baecd63d217a11fafcd7))
+
 ## [1.20.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.19.1...gcds-tokens-v1.20.0)
 
 Released on: 2024-10-02
