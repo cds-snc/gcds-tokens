@@ -54,11 +54,16 @@ const transforms = [
 
 
 // Create file configuration for CSS + SCSS
-const createFileConfig = (platform, filePath) => ({
-  destination: `build/web/${platform}/${filePath}.${platform}`,
-  format: `${platform}/variables`,
-  filter: token => token.filePath.includes(filePath),
-});
+const createFileConfig = (platform, filePath) => {
+  // Remove ".js" from file path, if present
+  const newFilePath = filePath.endsWith('.js') ? filePath.replace(/\.js$/, '') : filePath;
+
+  return {
+    destination: `build/web/${platform}/${newFilePath}.${platform}`,
+    format: `${platform}/variables`,
+    filter: token => token.filePath.includes(filePath),
+  };
+};
 
 /**
  * Defines source token files, platform-specific settings,
