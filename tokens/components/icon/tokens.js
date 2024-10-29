@@ -1,188 +1,56 @@
-const { lineHeights } = require('../../global/typography/tokens');
+import heights from '../../global/typography/lineHeights.js';
+
+const lineHeights = heights.lineHeights;
+
+// Font sizes, line heights, and margin values
+const fontSizeKeys = ['caption', 'text', 'h6', 'h5', 'h4', 'h3', 'h2', 'h1'];
+const lineHeightKeys = fontSizeKeys;
+const marginKeys = [0, 50, 100, 150, 200, 250, 300, 400, 450, 500, 550, 600, 700, 800, 900, 1000];
+
+// Create font and lineHeight objects
+const createPropertiesObject = (keys, type) => {
+  return keys.reduce((acc, key) => {
+    acc[key] = {
+      value: `{${type}.${key}.value}`,
+      type,
+    };
+
+    return acc;
+  }, {});
+};
 
 const font = {
   family: {
     value: '{fontFamilies.icons.value}',
     type: 'fontFamilies',
   },
-  size: {
-    caption: {
-      value: '{fontSizes.caption.value}',
-      type: 'fontSizes',
-    },
-    text: {
-      value: '{fontSizes.text.value}',
-      type: 'fontSizes',
-    },
-    h6: {
-      value: '{fontSizes.h6.value}',
-      type: 'fontSizes',
-    },
-    h5: {
-      value: '{fontSizes.h5.value}',
-      type: 'fontSizes',
-    },
-    h4: {
-      value: '{fontSizes.h4.value}',
-      type: 'fontSizes',
-    },
-    h3: {
-      value: '{fontSizes.h3.value}',
-      type: 'fontSizes',
-    },
-    h2: {
-      value: '{fontSizes.h2.value}',
-      type: 'fontSizes',
-    },
-    h1: {
-      value: '{fontSizes.h1.value}',
-      type: 'fontSizes',
-    },
-  },
+  size: createPropertiesObject(fontSizeKeys, 'fontSizes'),
 };
 
-const lineHeight = {
-  caption: {
-    value: '{lineHeights.caption.value}',
-    type: 'lineHeights',
-  },
-  text: {
-    value: '{lineHeights.text.value}',
-    type: 'lineHeights',
-  },
-  h6: {
-    value: '{lineHeights.h6.value}',
-    type: 'lineHeights',
-  },
-  h5: {
-    value: '{lineHeights.h5.value}',
-    type: 'lineHeights',
-  },
-  h4: {
-    value: '{lineHeights.h4.value}',
-    type: 'lineHeights',
-  },
-  h3: {
-    value: '{lineHeights.h3.value}',
-    type: 'lineHeights',
-  },
-  h2: {
-    value: '{lineHeights.h2.value}',
-    type: 'lineHeights',
-  },
-  h1: {
-    value: '{lineHeights.h1.value}',
-    type: 'lineHeights',
-  },
-};
+const lineHeight = createPropertiesObject(lineHeightKeys, 'lineHeights');
 
-lineHeightToDimension = value => {
-  return Number(value.slice(0, -1)) / 100;
-};
+// Calculate fixed width values
+const fixedWidth = lineHeightKeys.reduce((acc, key) => {
+  const value = lineHeights[key].value;
 
-const fixedWidth = {
-  caption: {
-    value: lineHeightToDimension(lineHeights.caption.value),
+  acc[key] = {
+    value: Number(value.slice(0, -1)) / 100,
     type: 'dimensions',
-  },
-  text: {
-    value: lineHeightToDimension(lineHeights.text.value),
-    type: 'dimensions',
-  },
-  h6: {
-    value: lineHeightToDimension(lineHeights.h6.value),
-    type: 'dimensions',
-  },
-  h5: {
-    value: lineHeightToDimension(lineHeights.h5.value),
-    type: 'dimensions',
-  },
-  h4: {
-    value: lineHeightToDimension(lineHeights.h4.value),
-    type: 'dimensions',
-  },
-  h3: {
-    value: lineHeightToDimension(lineHeights.h3.value),
-    type: 'dimensions',
-  },
-  h2: {
-    value: lineHeightToDimension(lineHeights.h2.value),
-    type: 'dimensions',
-  },
-  h1: {
-    value: lineHeightToDimension(lineHeights.h1.value),
-    type: 'dimensions',
-  },
-};
+  };
 
-const margin = {
-  0: {
-    value: '{spacing.0.value}',
-    type: 'spacing',
-  },
-  50: {
-    value: '{spacing.50.value}',
-    type: 'spacing',
-  },
-  100: {
-    value: '{spacing.100.value}',
-    type: 'spacing',
-  },
-  150: {
-    value: '{spacing.150.value}',
-    type: 'spacing',
-  },
-  200: {
-    value: '{spacing.200.value}',
-    type: 'spacing',
-  },
-  250: {
-    value: '{spacing.250.value}',
-    type: 'spacing',
-  },
-  300: {
-    value: '{spacing.300.value}',
-    type: 'spacing',
-  },
-  400: {
-    value: '{spacing.400.value}',
-    type: 'spacing',
-  },
-  450: {
-    value: '{spacing.450.value}',
-    type: 'spacing',
-  },
-  500: {
-    value: '{spacing.500.value}',
-    type: 'spacing',
-  },
-  550: {
-    value: '{spacing.550.value}',
-    type: 'spacing',
-  },
-  600: {
-    value: '{spacing.600.value}',
-    type: 'spacing',
-  },
-  700: {
-    value: '{spacing.700.value}',
-    type: 'spacing',
-  },
-  800: {
-    value: '{spacing.800.value}',
-    type: 'spacing',
-  },
-  900: {
-    value: '{spacing.900.value}',
-    type: 'spacing',
-  },
-  1000: {
-    value: '{spacing.1000.value}',
-    type: 'spacing',
-  },
-};
+  return acc;
+}, {});
 
-module.exports = {
+const margin = marginKeys.reduce((acc, key) => {
+  acc[key] = {
+    value: `{spacing.${key}.value}`,
+    type: 'spacing',
+  };
+
+  return acc;
+}, {});
+
+const icon = {
   icon: {
     font,
     lineHeight,
@@ -190,3 +58,5 @@ module.exports = {
     margin,
   },
 };
+
+export default icon;

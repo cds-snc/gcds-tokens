@@ -1,5 +1,5 @@
 /**
- * Do not edit directly.
+ * Do not edit directly, this file was auto-generated.
  */
 
 :root {
@@ -35,7 +35,7 @@
   --gcds-nav-group-trigger-focus-outline-offset: 0.125rem;
   --gcds-nav-group-trigger-focus-outline: 0.1875rem solid #0535d2;
   --gcds-nav-group-trigger-focus-box-shadow: 0 0 0 0.125rem #FFF;
-  --gcds-nav-group-trigger-font: 400 1.25rem/120% "Noto Sans", sans-serif;
+  --gcds-nav-group-trigger-font: 400 1.25rem/120% 'Noto Sans', sans-serif;
   --gcds-nav-group-trigger-hover-text: #0535d2;
   --gcds-nav-group-trigger-max-width: 20rem;
   --gcds-nav-group-trigger-padding: 0.9375rem;

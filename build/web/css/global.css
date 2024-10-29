@@ -1,5 +1,5 @@
 /**
- * Do not edit directly.
+ * Do not edit directly, this file was auto-generated.
  */
 
 :root {
@@ -60,26 +60,46 @@
   --gcds-base-font-size-mobile: 1; /* Sets base font size for smaller screens to 16px */
   --gcds-base-line-height: 1.2; /* Sets base line height to 24px */
   --gcds-base-scale: 1.125;
-  --gcds-font-families-heading: "Lato", sans-serif;
-  --gcds-font-families-body: "Noto Sans", sans-serif;
-  --gcds-font-families-monospace: "Noto Sans Mono", monospace;
-  --gcds-font-families-icons: "Font Awesome 6 Free", FontAwesome;
+  --gcds-font-h1: 700 2.5341081619262695rem/118.38484422541731% 'Lato', sans-serif;
+  --gcds-font-h1-mobile: 700 2.0272865295410156rem/123.31754606814303% 'Lato', sans-serif;
+  --gcds-font-h2: 700 2.2525405883789062rem/122.08437060746162% 'Lato', sans-serif;
+  --gcds-font-h2-mobile: 700 1.802032470703125rem/124.85901539399481% 'Lato', sans-serif;
+  --gcds-font-h3: 700 2.00225830078125rem/124.85901539399482% 'Lato', sans-serif;
+  --gcds-font-h3-mobile: 700 1.601806640625rem/124.85901539399481% 'Lato', sans-serif;
+  --gcds-font-h4: 700 1.77978515625rem/126.41975308641973% 'Lato', sans-serif;
+  --gcds-font-h4-mobile: 700 1.423828125rem/122.90809327846364% 'Lato', sans-serif;
+  --gcds-font-h5: 700 1.58203125rem/126.41975308641975% 'Lato', sans-serif;
+  --gcds-font-h5-mobile: 700 1.265625rem/138.27160493827162% 'Lato', sans-serif;
+  --gcds-font-h6: 700 1.40625rem/124.44444444444444% 'Lato', sans-serif;
+  --gcds-font-h6-mobile: 700 1.125rem/133.33333333333334% 'Lato', sans-serif;
+  --gcds-font-label: 500 1.25rem/120% 'Noto Sans', sans-serif;
+  --gcds-font-label-mobile: 500 1rem/150% 'Noto Sans', sans-serif;
+  --gcds-font-caption: 400 1.1111111111111112rem/135% 'Noto Sans', sans-serif;
+  --gcds-font-caption-mobile: 400 0.8888888888888888rem/140.625% 'Noto Sans', sans-serif;
+  --gcds-font-text: 400 1.25rem/120% 'Noto Sans', sans-serif;
+  --gcds-font-text-mobile: 400 1rem/150% 'Noto Sans', sans-serif;
+  --gcds-font-text-long: 400 1.25rem/150% 'Noto Sans', sans-serif;
+  --gcds-font-text-long-mobile: 400 1rem/150% 'Noto Sans', sans-serif;
+  --gcds-font-families-heading: 'Lato', sans-serif;
+  --gcds-font-families-body: 'Noto Sans', sans-serif;
+  --gcds-font-families-monospace: 'Noto Sans Mono', monospace;
+  --gcds-font-families-icons: 'Font Awesome 6 Free', FontAwesome;
   --gcds-font-sizes-caption: 1.1111111111111112rem;
   --gcds-font-sizes-caption-mobile: 0.8888888888888888rem;
   --gcds-font-sizes-text: 1.25rem;
   --gcds-font-sizes-text-mobile: 1rem;
-  --gcds-font-sizes-h6: 1.40625rem;
-  --gcds-font-sizes-h6-mobile: 1.125rem;
-  --gcds-font-sizes-h5: 1.58203125rem;
-  --gcds-font-sizes-h5-mobile: 1.265625rem;
-  --gcds-font-sizes-h4: 1.77978515625rem;
-  --gcds-font-sizes-h4-mobile: 1.423828125rem;
-  --gcds-font-sizes-h3: 2.00225830078125rem;
-  --gcds-font-sizes-h3-mobile: 1.601806640625rem;
-  --gcds-font-sizes-h2: 2.2525405883789062rem;
-  --gcds-font-sizes-h2-mobile: 1.802032470703125rem;
   --gcds-font-sizes-h1: 2.5341081619262695rem;
   --gcds-font-sizes-h1-mobile: 2.0272865295410156rem;
+  --gcds-font-sizes-h2: 2.2525405883789062rem;
+  --gcds-font-sizes-h2-mobile: 1.802032470703125rem;
+  --gcds-font-sizes-h3: 2.00225830078125rem;
+  --gcds-font-sizes-h3-mobile: 1.601806640625rem;
+  --gcds-font-sizes-h4: 1.77978515625rem;
+  --gcds-font-sizes-h4-mobile: 1.423828125rem;
+  --gcds-font-sizes-h5: 1.58203125rem;
+  --gcds-font-sizes-h5-mobile: 1.265625rem;
+  --gcds-font-sizes-h6: 1.40625rem;
+  --gcds-font-sizes-h6-mobile: 1.125rem;
   --gcds-font-weights-light: 300;
   --gcds-font-weights-regular: 400;
   --gcds-font-weights-medium: 500;
@@ -89,36 +109,16 @@
   --gcds-line-heights-caption-mobile: 140.625%;
   --gcds-line-heights-text: 120%;
   --gcds-line-heights-text-mobile: 150%;
-  --gcds-line-heights-h6: 124.44444444444444%;
-  --gcds-line-heights-h6-mobile: 133.33333333333334%;
-  --gcds-line-heights-h5: 126.41975308641975%;
-  --gcds-line-heights-h5-mobile: 138.27160493827162%;
-  --gcds-line-heights-h4: 126.41975308641973%;
-  --gcds-line-heights-h4-mobile: 122.90809327846364%;
-  --gcds-line-heights-h3: 124.85901539399482%;
-  --gcds-line-heights-h3-mobile: 124.85901539399481%;
-  --gcds-line-heights-h2: 122.08437060746162%;
-  --gcds-line-heights-h2-mobile: 124.85901539399481%;
   --gcds-line-heights-h1: 118.38484422541731%;
   --gcds-line-heights-h1-mobile: 123.31754606814303%;
-  --gcds-font-h1: 700 2.5341081619262695rem/118.38484422541731% "Lato", sans-serif;
-  --gcds-font-h1-mobile: 700 2.0272865295410156rem/123.31754606814303% "Lato", sans-serif;
-  --gcds-font-h2: 700 2.2525405883789062rem/122.08437060746162% "Lato", sans-serif;
-  --gcds-font-h2-mobile: 700 1.802032470703125rem/124.85901539399481% "Lato", sans-serif;
-  --gcds-font-h3: 700 2.00225830078125rem/124.85901539399482% "Lato", sans-serif;
-  --gcds-font-h3-mobile: 700 1.601806640625rem/124.85901539399481% "Lato", sans-serif;
-  --gcds-font-h4: 700 1.77978515625rem/126.41975308641973% "Lato", sans-serif;
-  --gcds-font-h4-mobile: 700 1.423828125rem/122.90809327846364% "Lato", sans-serif;
-  --gcds-font-h5: 700 1.58203125rem/126.41975308641975% "Lato", sans-serif;
-  --gcds-font-h5-mobile: 700 1.265625rem/138.27160493827162% "Lato", sans-serif;
-  --gcds-font-h6: 700 1.40625rem/124.44444444444444% "Lato", sans-serif;
-  --gcds-font-h6-mobile: 700 1.125rem/133.33333333333334% "Lato", sans-serif;
-  --gcds-font-label: 500 1.25rem/120% "Noto Sans", sans-serif;
-  --gcds-font-label-mobile: 500 1rem/150% "Noto Sans", sans-serif;
-  --gcds-font-caption: 400 1.1111111111111112rem/135% "Noto Sans", sans-serif;
-  --gcds-font-caption-mobile: 400 0.8888888888888888rem/140.625% "Noto Sans", sans-serif;
-  --gcds-font-text: 400 1.25rem/120% "Noto Sans", sans-serif;
-  --gcds-font-text-mobile: 400 1rem/150% "Noto Sans", sans-serif;
-  --gcds-font-text-long: 400 1.25rem/150% "Noto Sans", sans-serif;
-  --gcds-font-text-long-mobile: 400 1rem/150% "Noto Sans", sans-serif;
+  --gcds-line-heights-h2: 122.08437060746162%;
+  --gcds-line-heights-h2-mobile: 124.85901539399481%;
+  --gcds-line-heights-h3: 124.85901539399482%;
+  --gcds-line-heights-h3-mobile: 124.85901539399481%;
+  --gcds-line-heights-h4: 126.41975308641973%;
+  --gcds-line-heights-h4-mobile: 122.90809327846364%;
+  --gcds-line-heights-h5: 126.41975308641975%;
+  --gcds-line-heights-h5-mobile: 138.27160493827162%;
+  --gcds-line-heights-h6: 124.44444444444444%;
+  --gcds-line-heights-h6-mobile: 133.33333333333334%;
 }

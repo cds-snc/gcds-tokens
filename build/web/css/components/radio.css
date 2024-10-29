@@ -1,5 +1,5 @@
 /**
- * Do not edit directly.
+ * Do not edit directly, this file was auto-generated.
  */
 
 :root {
@@ -17,7 +17,7 @@
   --gcds-radio-focus-box-shadow: 0 0 0 0.125rem #ffffff;
   --gcds-radio-focus-text: #0535d2;
   --gcds-radio-focus-outline-width: 0.1875rem;
-  --gcds-radio-font: 400 1.25rem/120% "Noto Sans", sans-serif;
+  --gcds-radio-font: 400 1.25rem/120% 'Noto Sans', sans-serif;
   --gcds-radio-input-border-width: 0.125rem;
   --gcds-radio-input-height-and-width: 3rem;
   --gcds-radio-label-padding: 0 0 0 3.75rem;

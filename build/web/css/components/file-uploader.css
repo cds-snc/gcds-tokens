@@ -1,5 +1,5 @@
 /**
- * Do not edit directly.
+ * Do not edit directly, this file was auto-generated.
  */
 
 :root {
@@ -14,7 +14,7 @@
   --gcds-file-uploader-default-text: #333333;
   --gcds-file-uploader-disabled-background: #d6d9dd;
   --gcds-file-uploader-disabled-text: #545961;
-  --gcds-file-uploader-font: 400 1.25rem/120% "Noto Sans", sans-serif;
+  --gcds-file-uploader-font: 400 1.25rem/120% 'Noto Sans', sans-serif;
   --gcds-file-uploader-file-border-color: #7d828b;
   --gcds-file-uploader-file-border-width: 0.125rem;
   --gcds-file-uploader-file-button-border-width: 0.0625rem;

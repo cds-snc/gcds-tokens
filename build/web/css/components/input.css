@@ -1,5 +1,5 @@
 /**
- * Do not edit directly.
+ * Do not edit directly, this file was auto-generated.
  */
 
 :root {
@@ -12,7 +12,7 @@
   --gcds-input-disabled-text: #545961;
   --gcds-input-focus-box-shadow: 0 0 0 0.125rem #ffffff;
   --gcds-input-focus-text: #0535d2;
-  --gcds-input-font: 400 1.25rem/120% "Noto Sans", sans-serif;
+  --gcds-input-font: 400 1.25rem/120% 'Noto Sans', sans-serif;
   --gcds-input-margin: 0 0 1.5rem;
   --gcds-input-min-width-and-height: 3rem;
   --gcds-input-outline-width: 0.1875rem;
