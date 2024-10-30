@@ -29,13 +29,18 @@ const font = {
 
 const lineHeight = createPropertiesObject(lineHeightKeys, 'lineHeights');
 
-// Calculate fixed width values
+/**
+ * Iterate over lineHeightKeys array to compute fixed width values
+ * from lineHeights into a standardized format.
+ */
 const fixedWidth = lineHeightKeys.reduce((acc, key) => {
+  // Get value associated with current key from lineHeights object
   const value = lineHeights[key].value;
 
   acc[key] = {
+    // Convert string value to number and remove last character
     value: Number(value.slice(0, -1)) / 100,
-    type: 'dimensions',
+    type: 'sizing',
   };
 
   return acc;

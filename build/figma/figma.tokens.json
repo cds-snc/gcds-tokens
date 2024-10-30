@@ -2838,35 +2838,35 @@
       "fixedWidth": {
         "caption": {
           "value": 1.35,
-          "type": "dimensions"
+          "type": "sizing"
         },
         "text": {
           "value": 1.2,
-          "type": "dimensions"
+          "type": "sizing"
         },
         "h6": {
           "value": 1.2444444444444445,
-          "type": "dimensions"
+          "type": "sizing"
         },
         "h5": {
           "value": 1.2641975308641975,
-          "type": "dimensions"
+          "type": "sizing"
         },
         "h4": {
           "value": 1.2641975308641973,
-          "type": "dimensions"
+          "type": "sizing"
         },
         "h3": {
           "value": 1.2485901539399482,
-          "type": "dimensions"
+          "type": "sizing"
         },
         "h2": {
           "value": 1.2208437060746162,
-          "type": "dimensions"
+          "type": "sizing"
         },
         "h1": {
           "value": 1.183848442254173,
-          "type": "dimensions"
+          "type": "sizing"
         }
       },
       "margin": {
