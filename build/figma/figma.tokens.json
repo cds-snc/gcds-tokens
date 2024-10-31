@@ -2020,12 +2020,6 @@
           "type": "color"
         }
       },
-      "focus": {
-        "text": {
-          "value": "#0535d2",
-          "type": "color"
-        }
-      },
       "font": {
         "desktop": {
           "value": {
@@ -2758,6 +2752,10 @@
       "margin": {
         "value": "0 0 1.125rem",
         "type": "spacing"
+      },
+      "text": {
+        "value": "#43474E",
+        "type": "color"
       }
     },
     "icon": {
@@ -3045,6 +3043,10 @@
           "value": "0 0 0 0.375rem",
           "type": "spacing"
         }
+      },
+      "text": {
+        "value": "#333333",
+        "type": "color"
       }
     },
     "lang-toggle": {
