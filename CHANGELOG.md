@@ -4,6 +4,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.20.2](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.20.1...gcds-tokens-v1.20.2) (2024-11-04)
+
+
+### :arrows_counterclockwise: Code Refactoring
+
+* remove global focus text form color (breaking change) + label, hint and legend ([#340](https://github.com/cds-snc/gcds-tokens/issues/340)) ([90da86f](https://github.com/cds-snc/gcds-tokens/commit/90da86f214f9b2c295241f110cc857ac2963eebf))
+
 ## [1.20.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.20.0...gcds-tokens-v1.20.1)
 
 Released on: 2024-10-23
