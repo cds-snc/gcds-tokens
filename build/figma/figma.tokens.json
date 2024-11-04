@@ -227,12 +227,12 @@
         "value": "#0535d2",
         "type": "color"
       },
-      "text": {
-        "value": "#FFF",
+      "border": {
+        "value": "#0535d2",
         "type": "color"
       },
-      "text-form": {
-        "value": "#0535d2",
+      "text": {
+        "value": "#FFF",
         "type": "color"
       }
     },
@@ -1660,7 +1660,7 @@
           "value": "0 0 0 0.125rem #FFF",
           "type": "color"
         },
-        "text": {
+        "color": {
           "value": "#0535d2",
           "type": "color"
         },
@@ -2243,10 +2243,6 @@
               "type": "borderWidth"
             }
           }
-        },
-        "text": {
-          "value": "#0535d2",
-          "type": "color"
         }
       },
       "hover": {
@@ -2972,12 +2968,12 @@
         }
       },
       "focus": {
-        "box-shadow": {
-          "value": "0 0 0 0.125rem #FFF",
+        "border": {
+          "value": "#0535d2",
           "type": "color"
         },
-        "text": {
-          "value": "#0535d2",
+        "box-shadow": {
+          "value": "0 0 0 0.125rem #FFF",
           "type": "color"
         }
       },
@@ -3758,7 +3754,7 @@
           "value": "0 0 0 0.125rem #FFF",
           "type": "color"
         },
-        "text": {
+        "color": {
           "value": "#0535d2",
           "type": "color"
         },
@@ -3835,15 +3831,15 @@
           "radius": {
             "value": "0.1875rem",
             "type": "borderRadius"
+          },
+          "color": {
+            "value": "#0535d2",
+            "type": "color"
           }
         },
         "boxShadow": {
           "value": "0 0 0 0.125rem #FFF",
           "type": "other"
-        },
-        "text": {
-          "value": "#0535d2",
-          "type": "color"
         }
       },
       "font": {
@@ -3929,12 +3925,12 @@
         }
       },
       "focus": {
-        "box-shadow": {
-          "value": "0 0 0 0.125rem #FFF",
+        "border": {
+          "value": "#0535d2",
           "type": "color"
         },
-        "text": {
-          "value": "#0535d2",
+        "box-shadow": {
+          "value": "0 0 0 0.125rem #FFF",
           "type": "color"
         }
       },
@@ -4091,12 +4087,12 @@
         }
       },
       "focus": {
-        "box-shadow": {
-          "value": "0 0 0 0.125rem #FFF",
+        "border": {
+          "value": "#0535d2",
           "type": "color"
         },
-        "text": {
-          "value": "#0535d2",
+        "box-shadow": {
+          "value": "0 0 0 0.125rem #FFF",
           "type": "color"
         }
       },
