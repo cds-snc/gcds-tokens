@@ -5,7 +5,6 @@
 :root {
   --gcds-fieldset-default-text: #333333;
   --gcds-fieldset-disabled-text: #545961;
-  --gcds-fieldset-focus-text: #0535d2;
   --gcds-fieldset-font-desktop: 600 2.00225830078125rem/124.85901539399482% "Lato", sans-serif;
   --gcds-fieldset-font-mobile: 600 1.601806640625rem/124.85901539399481% "Lato", sans-serif;
   --gcds-fieldset-legend-margin: 0 0 0.1875rem;
