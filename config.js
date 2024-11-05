@@ -1,21 +1,18 @@
-const StyleDictionary = require('style-dictionary');
-const glob = require('glob');
+import StyleDictionary from 'style-dictionary';
+import * as glob from 'glob';
 
 // Change token path to create output files for each token category
-const tokensPath = `tokens/**`;
-const files = glob.sync(tokensPath).map(filePath => {
-  const fileName = filePath.replace('tokens/', '').replace('.json', '');
+const files = glob.sync('tokens/**')
+  .map(filePath => {
+    const fileName = filePath.replace('tokens/', '').replace('.json', '');
 
-  // Remove base.json and base.js files from file path to avoid duplication
-  if (filePath.endsWith('tokens.json') || filePath.endsWith('tokens.js')) {
-    return '';
-  } else {
-    return fileName;
-  }
-});
+    return (filePath.endsWith('tokens.json') || filePath.endsWith('tokens.js')) ? '' : fileName;
+  })
+  .filter(Boolean);
 
 const traverseObj = obj => {
   let output = {};
+
   if (obj.hasOwnProperty('value')) {
     return {
       value: obj.value,
@@ -29,98 +26,87 @@ const traverseObj = obj => {
       output[key] = traverseObj(obj[key]);
     });
   }
+
   return output;
 };
 
-// File header text
-const fileHeaderText = `Do not edit directly.`;
-
+// Custom transformation to format typography tokens
 StyleDictionary.registerTransform({
-  type: `value`,
-  name: `typography/font`,
+  type: 'value',
+  name: 'typography/font',
   transitive: true,
-  matcher: token => {
-    return token.type === 'typography';
-  },
-  transformer: token => {
+  filter: token => token.type === 'typography',
+  transform: token => {
     return `${token.original.value.fontWeight} ${token.original.value.fontSize}/${token.original.value.lineHeight} ${token.original.value.fontFamily}`;
   },
 });
 
-module.exports = {
+// Define transforms constant
+const transforms = [
+  'attribute/cti',
+  'name/kebab',
+  'time/seconds',
+  'html/icon',
+  'size/rem',
+  'color/css',
+  'typography/font',
+];
+
+
+// Create file configuration for CSS + SCSS
+const createFileConfig = (platform, filePath) => {
+  // Remove ".js" from file path, if present
+  const newFilePath = filePath.endsWith('.js') ? filePath.replace(/\.js$/, '') : filePath;
+
+  return {
+    destination: `build/web/${platform}/${newFilePath}.${platform}`,
+    format: `${platform}/variables`,
+    filter: token => token.filePath.includes(filePath),
+  };
+};
+
+/**
+ * Defines source token files, platform-specific settings,
+ * custom transformations, and hooks for processing tokens.
+ */
+export default {
   source: [
-    // Load global tokens after base and before component tokens
+    // Load tokens in correct order: base -> global -> components
     'tokens/base/**/*.@(js|json)',
     'tokens/global/**/*.@(js|json)',
     'tokens/components/**/*.@(js|json)',
   ],
-  format: {
-    figmatokens: ({ dictionary }) => {
-      return JSON.stringify(
-        { Tokens: traverseObj(dictionary.tokens) },
-        null,
-        2,
-      );
-    },
-  },
   platforms: {
     scss: {
-      transforms: [
-        'attribute/cti',
-        'name/cti/kebab',
-        'time/seconds',
-        'content/icon',
-        'size/rem',
-        'color/css',
-        'typography/font',
-      ],
+      transforms,
       prefix: 'gcds',
-      files: files.map(filePath => {
-        return {
-          destination: `build/web/scss/${filePath}.scss`,
-          format: 'scss/variables',
-          options: {
-            fileHeader: () => [fileHeaderText],
-          },
-          filter: token => token.filePath.includes(filePath),
-        };
-      }),
+      files: files.map(filePath => createFileConfig('scss', filePath)),
       output: true,
     },
     css: {
-      transforms: [
-        'attribute/cti',
-        'name/cti/kebab',
-        'time/seconds',
-        'content/icon',
-        'size/rem',
-        'color/css',
-        'typography/font',
-      ],
+      transforms,
       prefix: 'gcds',
-      files: files.map(filePath => {
-        return {
-          destination: `build/web/css/${filePath}.css`,
-          format: 'css/variables',
-          options: {
-            fileHeader: () => [fileHeaderText],
-          },
-          filter: token => token.filePath.includes(filePath),
-        };
-      }),
+      files: files.map(filePath => createFileConfig('css', filePath)),
       output: true,
     },
     figma: {
       buildPath: 'build/',
       prefix: 'gcds',
       basePxFontSize: 20,
-      transforms: ['name/cti/kebab', 'size/rem'],
+      transforms: ['name/kebab', 'size/rem'],
       files: [
         {
           destination: 'figma/figma.tokens.json',
           format: 'figmatokens',
         },
       ],
+    },
+  },
+  hooks: {
+    formats: {
+      figmatokens: ({ dictionary }) => {
+        return JSON.stringify({ Tokens: traverseObj(dictionary.tokens) }, null, 2);
+      },
     },
   },
 };

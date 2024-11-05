@@ -1,0 +1,20 @@
+{
+  "fontFamilies": {
+    "heading": {
+      "value": "'Lato', sans-serif",
+      "type": "fontFamilies"
+    },
+    "body": {
+      "value": "'Noto Sans', sans-serif",
+      "type": "fontFamilies"
+    },
+    "monospace": {
+      "value": "'Noto Sans Mono', monospace",
+      "type": "fontFamilies"
+    },
+    "icons": {
+      "value": "'Font Awesome 6 Free', FontAwesome",
+      "type": "fontFamilies"
+    }
+  }
+}
