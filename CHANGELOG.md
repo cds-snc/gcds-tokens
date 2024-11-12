@@ -4,8 +4,9 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.20.2](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.20.1...gcds-tokens-v1.20.2) (2024-11-04)
+## [1.20.2](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.20.1...gcds-tokens-v1.20.2)
 
+Released on: 2024-11-04
 
 ### :arrows_counterclockwise: Code Refactoring
 
