@@ -1,4 +1,6 @@
-const { base } = require('../typography/tokens');
+import typography from '../typography/core.js';
+
+const base = typography.base;
 
 const spacing = {
   0: {
@@ -67,6 +69,4 @@ const spacing = {
   },
 };
 
-module.exports = {
-  spacing,
-};
+export default { spacing };

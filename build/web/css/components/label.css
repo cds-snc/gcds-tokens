@@ -1,10 +1,10 @@
 /**
- * Do not edit directly.
+ * Do not edit directly, this file was auto-generated.
  */
 
 :root {
-  --gcds-label-font-desktop: 600 1.25rem/120% "Noto Sans", sans-serif;
-  --gcds-label-font-mobile: 600 1rem/150% "Noto Sans", sans-serif;
+  --gcds-label-font-desktop: 600 1.25rem/120% 'Noto Sans', sans-serif;
+  --gcds-label-font-mobile: 600 1rem/150% 'Noto Sans', sans-serif;
   --gcds-label-margin: 0 0 0.375rem;
   --gcds-label-required-font-weight: 400;
   --gcds-label-required-margin: 0 0 0 0.375rem;

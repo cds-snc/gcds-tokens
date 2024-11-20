@@ -1,13 +1,13 @@
 /**
- * Do not edit directly.
+ * Do not edit directly, this file was auto-generated.
  */
 
 :root {
   --gcds-notice-border-width: 0.375rem;
-  --gcds-notice-content-heading-font-desktop: 700 2.00225830078125rem/124.85901539399482% "Lato", sans-serif;
-  --gcds-notice-content-heading-font-mobile: 700 1.601806640625rem/124.85901539399481% "Lato", sans-serif;
-  --gcds-notice-content-slotted-font-desktop: 400 1.25rem/120% "Noto Sans", sans-serif;
-  --gcds-notice-content-slotted-font-mobile: 400 1rem/150% "Noto Sans", sans-serif;
+  --gcds-notice-content-heading-font-desktop: 700 2.00225830078125rem/124.85901539399482% 'Lato', sans-serif;
+  --gcds-notice-content-heading-font-mobile: 700 1.601806640625rem/124.85901539399481% 'Lato', sans-serif;
+  --gcds-notice-content-slotted-font-desktop: 400 1.25rem/120% 'Noto Sans', sans-serif;
+  --gcds-notice-content-slotted-font-mobile: 400 1rem/150% 'Noto Sans', sans-serif;
   --gcds-notice-content-slotted-list-margin: 1.5rem;
   --gcds-notice-content-slotted-margin: 0.5625rem;
   --gcds-notice-danger-text: #a62a1e;
