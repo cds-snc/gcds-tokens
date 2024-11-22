@@ -3,20 +3,20 @@
  */
 
 :root {
-  --gcds-font-sizes-caption: 1.1111111111111112rem;
-  --gcds-font-sizes-caption-mobile: 0.8888888888888888rem;
+  --gcds-font-sizes-caption: 1.125rem;
+  --gcds-font-sizes-caption-mobile: 1rem;
   --gcds-font-sizes-text: 1.25rem;
-  --gcds-font-sizes-text-mobile: 1rem;
-  --gcds-font-sizes-h1: 2.5341081619262695rem;
-  --gcds-font-sizes-h1-mobile: 2.0272865295410156rem;
-  --gcds-font-sizes-h2: 2.2525405883789062rem;
-  --gcds-font-sizes-h2-mobile: 1.802032470703125rem;
-  --gcds-font-sizes-h3: 2.00225830078125rem;
-  --gcds-font-sizes-h3-mobile: 1.601806640625rem;
-  --gcds-font-sizes-h4: 1.77978515625rem;
-  --gcds-font-sizes-h4-mobile: 1.423828125rem;
-  --gcds-font-sizes-h5: 1.58203125rem;
-  --gcds-font-sizes-h5-mobile: 1.265625rem;
-  --gcds-font-sizes-h6: 1.40625rem;
-  --gcds-font-sizes-h6-mobile: 1.125rem;
+  --gcds-font-sizes-text-mobile: 1.125rem;
+  --gcds-font-sizes-h1: 2.5625rem;
+  --gcds-font-sizes-h1-mobile: 2.3125rem;
+  --gcds-font-sizes-h2: 2.4375rem;
+  --gcds-font-sizes-h2-mobile: 2.1875rem;
+  --gcds-font-sizes-h3: 1.8125rem;
+  --gcds-font-sizes-h3-mobile: 1.625rem;
+  --gcds-font-sizes-h4: 1.6875rem;
+  --gcds-font-sizes-h4-mobile: 1.5rem;
+  --gcds-font-sizes-h5: 1.5rem;
+  --gcds-font-sizes-h5-mobile: 1.375rem;
+  --gcds-font-sizes-h6: 1.375rem;
+  --gcds-font-sizes-h6-mobile: 1.25rem;
 }

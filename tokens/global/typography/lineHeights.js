@@ -1,56 +1,64 @@
 import typography from './core.js';
 import sizes from './fontSizes.js';
 
-const base = typography.base;
-const fontSizes = sizes.fontSizes;
-const headingSizes = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'];
-const octave = 6;
+// Typography core values
+const rootFontSize = typography.base.rootFontSize.value;
+const baseFontSize = typography.base.fontSize.value;
+const baseLineHeight = typography.base.lineHeight.value;
+
+// Set baseline based on typography core values
+const baseline = rootFontSize * baseFontSize * baseLineHeight;
+
+// Multiplier definitions for desktop and mobile
+const multipliers = {
+  desktop: [
+    { threshold: 39, multiplier: 1.5 },
+    { threshold: 28, multiplier: 1.25 },
+    { threshold: 25, multiplier: 1.125 },
+    { threshold: 20, multiplier: 1.0 },
+    { threshold: 0, multiplier: 0.875 },
+  ],
+  mobile: [
+    { threshold: 36, multiplier: 1.38 },
+    { threshold: 28, multiplier: 1.375 },
+    { threshold: 24, multiplier: 1 },
+    { threshold: 18, multiplier: 0.875 },
+    { threshold: 0, multiplier: 0.75 },
+  ],
+};
+
+const calculateLineHeight = (fontSize, key) => {
+  // Convert rem font size to px
+  const fontSizePx = parseFloat(fontSize) * rootFontSize;
+
+  // Choose the appropriate multipliers based on the key
+  const selectedMultipliers = key.includes('Mobile') ? multipliers.mobile : multipliers.desktop;
+
+  // Find the correct multiplier based on the font size
+  const multiplier = selectedMultipliers.find(item => fontSizePx >= item.threshold).multiplier;
+
+  // Calculate and return line height as a percentage
+  return parseInt((baseline * multiplier) / fontSizePx * 100);
+};
 
 /**
- * Calculates line height as a percentage based on font size.
- *
- * This function:
- * - Takes font size as input and scales it relative to base font size.
- * - Determines number of baseline octaves required to fit font size.
- * - Adds a small additional octave to ensure adequate spacing.
+* Generate line height for each font size key as percentage
+* to work correctly in Figma and on the web.
 */
-const calculateLineHeight = (fontSize) => {
-  const fontSizeValue = parseFloat(fontSize) / base.fontSize.value;
-  const numBaselines =
-    Math.ceil((fontSizeValue * octave) / base.lineHeight.value) / octave +
-    1 / octave;
+const createAllLineHeights = () => {
+  const keys = Object.keys(sizes.fontSizes);
+  const lineHeights = {};
 
-  return (numBaselines * base.lineHeight.value * 100) / fontSizeValue;
+  keys.forEach(key => {
+    lineHeights[key] = {
+      value: `${calculateLineHeight(sizes.fontSizes[key].value, key)}%`,
+      type: 'lineHeights',
+    };
+  });
+
+  return lineHeights;
 };
 
-/**
- * Creates a line height object with a percentage value based on
- * the specified font size. The percentage format is important for
- * ensuring compatibility in Figma and web.
- */
-const createLineHeightObject = (key, fontSize) => ({
-  value: `${calculateLineHeight(fontSize)}%`,
-  type: 'lineHeights',
-});
-
-// Initialize line heights object
-const lineHeights = {
-  caption: createLineHeightObject('caption', fontSizes.caption.value),
-  captionMobile: createLineHeightObject('captionMobile', fontSizes.captionMobile.value),
-  text: {
-    value: `${base.lineHeight.value * 100}%`,
-    type: 'lineHeights',
-  },
-  textMobile: createLineHeightObject('textMobile', fontSizes.textMobile.value),
-};
-
-// Generate heading line heights for desktop + mobile
-headingSizes.forEach(heading => {
-  const fontSize = fontSizes[heading].value;
-  const mobileFontSize = fontSizes[`${heading}Mobile`].value;
-
-  lineHeights[heading] = createLineHeightObject(heading, fontSize);
-  lineHeights[`${heading}Mobile`] = createLineHeightObject(`${heading}Mobile`, mobileFontSize);
-});
+const lineHeights = createAllLineHeights();
 
 export default { lineHeights };

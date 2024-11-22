@@ -1,11 +1,11 @@
 import typography from './core.js';
 
-const { fontSize, fontSizeMobile, scale } = typography.base;
+const { fontSize, fontSizeMobile, rootFontSize, scale } = typography.base;
 
 // Define multiplier for heading levels
 const headingsMultiplier = {
-  h1: 6,
-  h2: 5,
+  h1: 7.5,
+  h2: 7,
   h3: 4,
   h4: 3,
   h5: 2,
@@ -14,10 +14,20 @@ const headingsMultiplier = {
 
 // Generate font sizes based on a mobile flag and multiplier value
 const createFontSize = (key, isMobile = false, multiplier = 1) => {
-  const fontSizeValue = (isMobile ? fontSizeMobile.value : fontSize.value) * multiplier;
+  const baseFontSize = isMobile ? fontSizeMobile.value : fontSize.value;
+
+  // Calculate the rem font size value by applying the multiplier
+  const remFontSize = baseFontSize * multiplier;
+
+  /**
+  * To ensures an integer value is being returned when compiling the rem value to a px value,
+  * multiply remFontSize by 16 (root font size), round to the nearest pixel, then
+  * convert back to rem by dividing by 16.
+  */
+  const roundedFontSize = Math.round(remFontSize * rootFontSize.value) / rootFontSize.value;
 
   return {
-    value: `${fontSizeValue}rem`,
+    value: `${roundedFontSize}rem`,
     type: 'fontSizes',
   };
 };

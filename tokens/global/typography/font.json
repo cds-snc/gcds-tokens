@@ -161,24 +161,6 @@
         "fontSize": "{fontSizes.textMobile}"
       },
       "type": "typography"
-    },
-    "textLong": {
-      "value": {
-        "fontFamily": "{fontFamilies.body}",
-        "fontWeight": "{fontWeights.regular}",
-        "lineHeight": "150%",
-        "fontSize": "{fontSizes.text}"
-      },
-      "type": "typography"
-    },
-    "textLongMobile": {
-      "value": {
-        "fontFamily": "{fontFamilies.body}",
-        "fontWeight": "{fontWeights.regular}",
-        "lineHeight": "150%",
-        "fontSize": "{fontSizes.textMobile}"
-      },
-      "type": "typography"
     }
   }
 }

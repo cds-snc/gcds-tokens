@@ -3,7 +3,7 @@
  */
 
 :root {
-  --gcds-input-border-radius: 0.1875rem;
+  --gcds-input-border-radius: 0.125rem;
   --gcds-input-border-width: 0.125rem;
   --gcds-input-danger-border: #d3080c;
   --gcds-input-default-background: #ffffff;
@@ -12,9 +12,9 @@
   --gcds-input-disabled-text: #545961;
   --gcds-input-focus-border: #0535d2;
   --gcds-input-focus-box-shadow: 0 0 0 0.125rem #ffffff;
-  --gcds-input-font: 400 1.25rem/120% 'Noto Sans', sans-serif;
+  --gcds-input-font: 400 1.25rem/160% 'Noto Sans', sans-serif;
   --gcds-input-margin: 0 0 1.5rem;
   --gcds-input-min-width-and-height: 3rem;
-  --gcds-input-outline-width: 0.1875rem;
+  --gcds-input-outline-width: 0.25rem;
   --gcds-input-padding: 0.75rem;
 }

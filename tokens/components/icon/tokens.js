@@ -5,7 +5,7 @@ const lineHeights = heights.lineHeights;
 // Font sizes, line heights, and margin values
 const fontSizeKeys = ['caption', 'text', 'h6', 'h5', 'h4', 'h3', 'h2', 'h1'];
 const lineHeightKeys = fontSizeKeys;
-const marginKeys = [0, 50, 100, 150, 200, 250, 300, 400, 450, 500, 550, 600, 700, 800, 900, 1000];
+const marginKeys = [0, 25, 50, 75, 100, 125, 150, 175, 200, 225, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1050, 1100, 1150, 1200, 1250];
 
 // Create font and lineHeight objects
 const createPropertiesObject = (keys, type) => {
