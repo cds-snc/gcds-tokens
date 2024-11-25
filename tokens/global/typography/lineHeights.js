@@ -11,31 +11,25 @@ const baseline = rootFontSize * baseFontSize * baseLineHeight;
 
 // Multiplier definitions for desktop and mobile
 const multipliers = {
-  desktop: [
-    { threshold: 39, multiplier: 1.5 },
-    { threshold: 28, multiplier: 1.25 },
-    { threshold: 25, multiplier: 1.125 },
-    { threshold: 20, multiplier: 1.0 },
-    { threshold: 0, multiplier: 0.875 },
-  ],
-  mobile: [
-    { threshold: 36, multiplier: 1.38 },
-    { threshold: 28, multiplier: 1.375 },
-    { threshold: 24, multiplier: 1 },
-    { threshold: 18, multiplier: 0.875 },
-    { threshold: 0, multiplier: 0.75 },
-  ],
+  h1: { desktop: 1.5, mobile: 1.38 },
+  h2: { desktop: 1.5, mobile: 1.375 },
+  h3: { desktop: 1.25, mobile: 1 },
+  h4: { desktop: 1.125, mobile: 1 },
+  h5: { desktop:  1.0, mobile: 0.875 },
+  h6: { desktop:  1.0, mobile: 0.875 },
+  text: { desktop: 1.0, mobile: 0.875 },
+  caption: { desktop: 0.875, mobile: 0.75 },
 };
 
 const calculateLineHeight = (fontSize, key) => {
   // Convert rem font size to px
   const fontSizePx = parseFloat(fontSize) * rootFontSize;
 
-  // Choose the appropriate multipliers based on the key
-  const selectedMultipliers = key.includes('Mobile') ? multipliers.mobile : multipliers.desktop;
+  // Extract the size category + remove 'Mobile' suffix.
+  let fontKey = key.replace('Mobile', '');
 
-  // Find the correct multiplier based on the font size
-  const multiplier = selectedMultipliers.find(item => fontSizePx >= item.threshold).multiplier;
+  // Get the multiplier based on the key and device type.
+  const multiplier = key.includes('Mobile') ? multipliers[fontKey].mobile : multipliers[fontKey].desktop;
 
   // Calculate and return line height as a percentage
   return parseInt((baseline * multiplier) / fontSizePx * 100);
