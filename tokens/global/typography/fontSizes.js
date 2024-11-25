@@ -20,7 +20,7 @@ const createFontSize = (key, isMobile = false, multiplier = 1) => {
   const remFontSize = baseFontSize * multiplier;
 
   /**
-  * To ensures an integer value is being returned when compiling the rem value to a px value,
+  * To ensure an integer value is being returned when compiling the rem value to a px value,
   * multiply remFontSize by 16 (root font size), round to the nearest pixel, then
   * convert back to rem by dividing by 16.
   */
