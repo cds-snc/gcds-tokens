@@ -1496,13 +1496,13 @@
         "value": {
           "fontFamily": "'Noto Sans', sans-serif",
           "fontWeight": "500",
-          "lineHeight": "160%",
+          "lineHeight": "140%",
           "fontSize": "1.25rem"
         },
         "type": "typography"
       },
       "padding": {
-        "value": "0.75rem",
+        "value": "0.625rem 0.75rem",
         "type": "spacing"
       },
       "primary": {
@@ -1723,8 +1723,12 @@
           "value": "#20809D",
           "type": "color"
         },
+        "lineHeight": {
+          "value": "120%",
+          "type": "lineHeights"
+        },
         "padding": {
-          "value": "0.125rem 1.5rem",
+          "value": "0.0625rem 1.5rem",
           "type": "spacing"
         }
       },
@@ -1776,7 +1780,7 @@
           "type": "spacing"
         },
         "top": {
-          "value": "0.5rem",
+          "value": "0.625rem",
           "type": "spacing"
         },
         "width": {
@@ -1876,7 +1880,7 @@
         "type": "sizing"
       },
       "padding": {
-        "value": "0.75rem",
+        "value": "0.5rem",
         "type": "spacing"
       }
     },
@@ -2096,7 +2100,7 @@
             "type": "spacing"
           },
           "top": {
-            "value": "0.5rem",
+            "value": "0.875rem",
             "type": "spacing"
           }
         },
@@ -2269,7 +2273,7 @@
           "type": "spacing"
         },
         "padding": {
-          "value": "0.75rem",
+          "value": "0.5rem 0.75rem",
           "type": "spacing"
         },
         "text": {
@@ -2359,7 +2363,7 @@
             "type": "spacing"
           },
           "padding": {
-            "value": "0.75rem 0.125rem",
+            "value": "0.375rem 0.125rem",
             "type": "spacing"
           }
         },
@@ -3286,7 +3290,7 @@
         }
       },
       "padding": {
-        "value": "0.75rem",
+        "value": "0.5rem 0.75rem",
         "type": "spacing"
       }
     },
@@ -3474,7 +3478,7 @@
             }
           },
           "padding": {
-            "value": "1.125rem",
+            "value": "0.5rem 1.125rem",
             "type": "spacing"
           }
         }
@@ -3526,7 +3530,7 @@
           "type": "sizing"
         },
         "padding": {
-          "value": "0.875rem",
+          "value": "0.5rem 0.875rem",
           "type": "spacing"
         },
         "text": {
@@ -3636,7 +3640,7 @@
         "type": "spacing"
       },
       "padding": {
-        "value": "0.875rem",
+        "value": "0.625rem",
         "type": "spacing"
       },
       "sideNav": {
@@ -3647,7 +3651,7 @@
           }
         },
         "padding": {
-          "value": "0.875rem 0.75rem",
+          "value": "0.625rem 0.75rem",
           "type": "spacing"
         }
       },
@@ -3669,12 +3673,12 @@
             "type": "typography"
           },
           "padding": {
-            "value": "0.875rem 0.125rem",
+            "value": "0.5rem 0.125rem",
             "type": "spacing"
           }
         },
         "padding": {
-          "value": "1.125rem",
+          "value": "0.5rem 1.125rem",
           "type": "spacing"
         },
         "text": {
@@ -3870,7 +3874,7 @@
       "list": {
         "endButton": {
           "padding": {
-            "value": "0.75rem 0.5rem",
+            "value": "0.375rem 0.5rem",
             "type": "spacing"
           }
         }
@@ -3996,11 +4000,11 @@
           "type": "sizing"
         },
         "left": {
-          "value": "0.875rem",
+          "value": "0.9375rem",
           "type": "spacing"
         },
         "top": {
-          "value": "0.875rem",
+          "value": "0.9375rem",
           "type": "spacing"
         }
       },
@@ -4086,14 +4090,14 @@
         "type": "sizing"
       },
       "padding": {
-        "value": "0.75rem",
+        "value": "0.5rem",
         "type": "spacing"
       }
     },
     "search": {
       "border": {
         "radius": {
-          "value": "0.125rem 0 0 0.125rem",
+          "value": "0.375rem 0 0 0.375rem",
           "type": "borderRadius"
         },
         "width": {
@@ -4162,7 +4166,7 @@
         }
       },
       "padding": {
-        "value": "0.75rem",
+        "value": "0.5rem 0.75rem",
         "type": "spacing"
       }
     },
@@ -4243,7 +4247,7 @@
         }
       },
       "padding": {
-        "value": "0.75rem 3.75rem 0.75rem 0.75rem",
+        "value": "0.5rem 3.75rem 0.5rem 0.75rem",
         "type": "spacing"
       }
     },
@@ -4405,7 +4409,7 @@
         }
       },
       "padding": {
-        "value": "0.75rem",
+        "value": "0.5rem 0.75rem",
         "type": "spacing"
       }
     },
@@ -4451,7 +4455,7 @@
           "value": {
             "fontFamily": "'Noto Sans', sans-serif",
             "fontWeight": "400",
-            "lineHeight": "160%",
+            "lineHeight": "140%",
             "fontSize": "1.25rem"
           },
           "type": "typography"
@@ -4471,7 +4475,7 @@
           }
         },
         "padding": {
-          "value": "0.75rem 1.125rem",
+          "value": "0.625rem 1.125rem",
           "type": "spacing"
         },
         "text": {
@@ -4549,7 +4553,7 @@
           "type": "typography"
         },
         "padding": {
-          "value": "0.875rem 1.5rem",
+          "value": "0.75rem 1.5rem",
           "type": "spacing"
         },
         "text": {

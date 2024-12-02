@@ -22,7 +22,8 @@
   --gcds-card-image-margin: 0 0 1.5rem;
   --gcds-card-padding: 2.25rem 1.5rem;
   --gcds-card-badge-background-color: #20809d;
-  --gcds-card-badge-padding: 0.125rem 1.5rem;
+  --gcds-card-badge-line-height: 120%;
+  --gcds-card-badge-padding: 0.0625rem 1.5rem;
   --gcds-card-title-font-desktop: 700 1.8125rem/137% 'Lato', sans-serif;
   --gcds-card-title-font-mobile: 700 1.625rem/123% 'Lato', sans-serif;
   --gcds-card-title-margin: 0 0 0.5rem;

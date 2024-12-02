@@ -6,7 +6,7 @@
   --gcds-checkbox-check-border-width: 0.3125rem;
   --gcds-checkbox-check-height: 1.5rem;
   --gcds-checkbox-check-left: 1rem;
-  --gcds-checkbox-check-top: 0.5rem;
+  --gcds-checkbox-check-top: 0.625rem;
   --gcds-checkbox-check-width: 0.875rem;
   --gcds-checkbox-danger-border: #d3080c;
   --gcds-checkbox-default-text: #333333;
@@ -25,5 +25,5 @@
   --gcds-checkbox-label-padding: 0 0 0 3.75rem;
   --gcds-checkbox-margin: 0 0 1.125rem;
   --gcds-checkbox-max-width: 46.5rem;
-  --gcds-checkbox-padding: 0.75rem;
+  --gcds-checkbox-padding: 0.5rem;
 }

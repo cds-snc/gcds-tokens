@@ -22,13 +22,13 @@
   --gcds-nav-link-hover-decoration-thickness: 0.125rem;
   --gcds-nav-link-hover-text: #0535d2;
   --gcds-nav-link-margin: 0.5rem;
-  --gcds-nav-link-padding: 0.875rem;
+  --gcds-nav-link-padding: 0.625rem;
   --gcds-nav-link-side-nav-hover-background: #f1f2f3;
-  --gcds-nav-link-side-nav-padding: 0.875rem 0.75rem;
+  --gcds-nav-link-side-nav-padding: 0.625rem 0.75rem;
   --gcds-nav-link-top-nav-hover-background: #d6d9dd;
   --gcds-nav-link-top-nav-home-font: 600 1.5rem/133% 'Noto Sans', sans-serif;
-  --gcds-nav-link-top-nav-home-padding: 0.875rem 0.125rem;
-  --gcds-nav-link-top-nav-padding: 1.125rem;
+  --gcds-nav-link-top-nav-home-padding: 0.5rem 0.125rem;
+  --gcds-nav-link-top-nav-padding: 0.5rem 1.125rem;
   --gcds-nav-link-top-nav-text: #333333;
   --gcds-nav-link-top-nav-margin: 0 0 0 0.125rem;
 }
