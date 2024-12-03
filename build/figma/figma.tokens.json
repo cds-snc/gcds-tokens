@@ -1964,7 +1964,7 @@
         }
       },
       "margin": {
-        "value": "3rem 0 1.5rem",
+        "value": "3rem 0 1rem",
         "type": "spacing"
       }
     },
@@ -2494,7 +2494,7 @@
       },
       "listitem": {
         "margin": {
-          "value": "0 0 1.125rem",
+          "value": "0 0 0.625rem",
           "type": "spacing"
         }
       },
@@ -2559,7 +2559,7 @@
         },
         "nav": {
           "padding": {
-            "value": "3rem 0",
+            "value": "2.75rem 0",
             "type": "spacing"
           }
         },
