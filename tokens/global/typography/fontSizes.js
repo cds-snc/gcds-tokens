@@ -34,8 +34,8 @@ const createFontSize = (key, isMobile = false, multiplier = 1) => {
 
 // Initialize font sizes object with standard text sizes
 const fontSizes = {
-  caption: createFontSize('caption', false, 1 / scale.value),
-  captionMobile: createFontSize('caption', true, 1 / scale.value),
+  textSmall: createFontSize('textSmall', false, 1 / scale.value),
+  textSmallMobile: createFontSize('textSmall', true, 1 / scale.value),
   text: createFontSize('text'),
   textMobile: createFontSize('text', true),
 };

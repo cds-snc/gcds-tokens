@@ -18,7 +18,7 @@ const multipliers = {
   h5: { desktop:  1.0, mobile: 0.875 },
   h6: { desktop:  1.0, mobile: 0.875 },
   text: { desktop: 1.0, mobile: 0.875 },
-  caption: { desktop: 0.875, mobile: 0.75 },
+  textSmall: { desktop: 0.875, mobile: 0.75 },
 };
 
 const calculateLineHeight = (fontSize, key) => {

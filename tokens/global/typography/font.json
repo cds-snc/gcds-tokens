@@ -126,24 +126,6 @@
       },
       "type": "typography"
     },
-    "caption": {
-      "value": {
-        "fontFamily": "{fontFamilies.body}",
-        "fontWeight": "{fontWeights.regular}",
-        "lineHeight": "{lineHeights.caption}",
-        "fontSize": "{fontSizes.caption}"
-      },
-      "type": "typography"
-    },
-    "captionMobile": {
-      "value": {
-        "fontFamily": "{fontFamilies.body}",
-        "fontWeight": "{fontWeights.regular}",
-        "lineHeight": "{lineHeights.captionMobile}",
-        "fontSize": "{fontSizes.captionMobile}"
-      },
-      "type": "typography"
-    },
     "text": {
       "value": {
         "fontFamily": "{fontFamilies.body}",
@@ -159,6 +141,42 @@
         "fontWeight": "{fontWeights.regular}",
         "lineHeight": "{lineHeights.textMobile}",
         "fontSize": "{fontSizes.textMobile}"
+      },
+      "type": "typography"
+    },
+    "textMono": {
+      "value": {
+        "fontFamily": "{fontFamilies.monospace}",
+        "fontWeight": "{fontWeights.regular}",
+        "lineHeight": "{lineHeights.text}",
+        "fontSize": "{fontSizes.text}"
+      },
+      "type": "typography"
+    },
+    "textMonoMobile": {
+      "value": {
+        "fontFamily": "{fontFamilies.monospace}",
+        "fontWeight": "{fontWeights.regular}",
+        "lineHeight": "{lineHeights.textMobile}",
+        "fontSize": "{fontSizes.textMobile}"
+      },
+      "type": "typography"
+    },
+    "textSmall": {
+      "value": {
+        "fontFamily": "{fontFamilies.body}",
+        "fontWeight": "{fontWeights.regular}",
+        "lineHeight": "{lineHeights.textSmall}",
+        "fontSize": "{fontSizes.textSmall}"
+      },
+      "type": "typography"
+    },
+    "textSmallMobile": {
+      "value": {
+        "fontFamily": "{fontFamilies.body}",
+        "fontWeight": "{fontWeights.regular}",
+        "lineHeight": "{lineHeights.textSmallMobile}",
+        "fontSize": "{fontSizes.textSmallMobile}"
       },
       "type": "typography"
     }
