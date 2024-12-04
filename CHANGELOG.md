@@ -4,57 +4,9 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.20.2](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.20.1...gcds-tokens-v1.20.2)
-
-Released on: 2024-11-04
-
-### :arrows_counterclockwise: Code Refactoring
-
-* remove global focus text form color (breaking change) + label, hint and legend ([#340](https://github.com/cds-snc/gcds-tokens/issues/340)) ([90da86f](https://github.com/cds-snc/gcds-tokens/commit/90da86f214f9b2c295241f110cc857ac2963eebf))
-
-## [1.20.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.20.0...gcds-tokens-v1.20.1)
-
-Released on: 2024-10-23
-
-### :arrows_counterclockwise: Code Refactoring
-
-* adjust details tokens ([#337](https://github.com/cds-snc/gcds-tokens/issues/337)) ([c3ec9bf](https://github.com/cds-snc/gcds-tokens/commit/c3ec9bfb9a0895505758baecd63d217a11fafcd7))
-
-## [1.20.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.19.1...gcds-tokens-v1.20.0)
-
-Released on: 2024-10-02
-
-### :rocket: New Features
-
-* update notice tokens for new icon design ([#332](https://github.com/cds-snc/gcds-tokens/issues/332)) ([b6d9b7e](https://github.com/cds-snc/gcds-tokens/commit/b6d9b7e554d23826a02b06996771ad793533342b))
-
-## [1.19.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.19.0...gcds-tokens-v1.19.1)
-
-Released on: 2024-09-24
-```mermaid
-  info
-```
-
-
 ## [2.0.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.20.2...gcds-tokens-v2.0.0)
 
 Released on: 2024-12-04
-# diagram
-
-```mermaid
-flowchart LR;
-    old-0(gcds-spacing-0: 0px) --> new-0(gcds-spacing-0: 0px);
-    old-50(gcds-spacing-50: 3px) --> new-25(gcds-spacing-25: 2px);
-```
-
-```mermaid
-graph TD;
-  gcds-card --> gcds-text
-  gcds-card --> gcds-sr-only
-  gcds-card --> gcds-link
-  gcds-link --> gcds-icon
-  style gcds-card fill:#f9f,stroke:#333,stroke-width:4px
-```
 
 ### 🚀 New features
 * Updates to typography and spacing tokens([#345](https://github.com/cds-snc/gcds-tokens/issues/345)) ([xxx](https://github.com/cds-snc/gcds-tokens/commit/xxx))
@@ -72,7 +24,7 @@ Reference the [visual mapping table](#spacing-tokens-visual-mapping-table) to up
 The following design tokens have new values for font sizes, line heights and spacing.
 
 ### Font sizes
-Text style<br/>Name & token | Typeface<br/>Family & weight | Desktop<br/>Size / line height | Mobile<br/>Size / line height
+Text style<br/>Name & token | Typeface<br/>Family & weight | Desktop<br/>Size /  line height | Mobile<br/>Size /  line height
 -- | -- | -- | --
 H1<br/>`gcds-font-h1 `| Lato Bold | 41px / 1.17 | 37px / 1.19
 H2<br/>`gcds-font-h2` | Lato Bold | 39px / 1.23 | 35px / 1.25
@@ -149,44 +101,48 @@ Token name | Token value in px
 [^1]: Baseline value
 
 
-## Spacing tokens visual mapping table
-
+## Spacing tokens visual mapping guide
+<details>
+<summary>Spacing tokens visual mapping table</summary>
 Token | Old value | - | New/Updated Tokens | New value
 -- | -- | -- | -- | --
 spacing-0 | 0px | | spacing-0 | 0px
 spacing-50 | 3px | | spacing-25 | 2px
- |  | | spacing-50 | 4px
+  |   | | spacing-50 | 4px
 spacing-100 | 6px | | spacing-75 | 6px
 spacing-150 | 9px | | spacing-100 | 8px
- |  | | spacing-125 | 10px
+  |   | | spacing-125 | 10px
 spacing-200 | 12px | | spacing-150 | 12px
 spacing-250 | 15px | | spacing-175 | 14px
- |  | | spacing-200 | 16px
+  |   | | spacing-200 | 16px
 spacing-300 | 18px | | spacing-225 | 18px
- |  | | spacing-250 | 20px
+  |   | | spacing-250 | 20px
 spacing-400 | 24px | | spacing-300 | 24px
- |  | | spacing-350 | 28px
- |  | | spacing-400 | 32px
+  |   | | spacing-350 | 28px
+  |   | | spacing-400 | 32px
 spacing-450 | 36px | | spacing-450 | 36px
- |  | | spacing-500 | 40px
- |  | | spacing-550 | 44px
+  |   | | spacing-500 | 40px
+  |   | | spacing-550 | 44px
 spacing-500 | 48px | | spacing-600 | 48px
- |  | | spacing-650 | 52px
- |  | | spacing-700 | 56px
+  |   | | spacing-650 | 52px
+  |   | | spacing-700 | 56px
 spacing-550 | 60px | | spacing-750 | 60px
- |  | | spacing-800 | 64px
- |  | | spacing-850 | 68px
+  |   | | spacing-800 | 64px
+  |   | | spacing-850 | 68px
 spacing-600 | 72px | | spacing-900 | 72px
- |  | | spacing-950 | 76px
- |  | | spacing-1000 | 80px
- |  | | spacing-1050 | 84px
- |  | | spacing-1100 | 88px
- |  | | spacing-1150 | 92px
+  |   | | spacing-950 | 76px
+  |   | | spacing-1000 | 80px
+  |   | | spacing-1050 | 84px
+  |   | | spacing-1100 | 88px
+  |   | | spacing-1150 | 92px
 spacing-700 | 96px | | spacing-1200 | 96px
-spacing-800 | 120px | |  |
-spacing-900 | 144px | |  |
-spacing-1000 | 168px | |  |
+spacing-800 | 120px | |   |  
+spacing-900 | 144px | |   |  
+spacing-1000 | 168px | |   |  
+</details>
 
+<details>
+<summary>Visual mapping graph</summary>
 ```mermaid
 flowchart LR
     old-0(gcds-spacing-0: 0px) --> new-0(gcds-spacing-0: 0px)
@@ -223,7 +179,35 @@ flowchart LR
     new-900(gcds-spacing-900: 144px)
     new-1000(gcds-spacing-1000: 168px)
 ```
+</details>
 
+## [1.20.2](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.20.1...gcds-tokens-v1.20.2)
+
+Released on: 2024-11-04
+
+### :arrows_counterclockwise: Code Refactoring
+
+* remove global focus text form color (breaking change) + label, hint and legend ([#340](https://github.com/cds-snc/gcds-tokens/issues/340)) ([90da86f](https://github.com/cds-snc/gcds-tokens/commit/90da86f214f9b2c295241f110cc857ac2963eebf))
+
+## [1.20.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.20.0...gcds-tokens-v1.20.1)
+
+Released on: 2024-10-23
+
+### :arrows_counterclockwise: Code Refactoring
+
+* adjust details tokens ([#337](https://github.com/cds-snc/gcds-tokens/issues/337)) ([c3ec9bf](https://github.com/cds-snc/gcds-tokens/commit/c3ec9bfb9a0895505758baecd63d217a11fafcd7))
+
+## [1.20.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.19.1...gcds-tokens-v1.20.0)
+
+Released on: 2024-10-02
+
+### :rocket: New Features
+
+* update notice tokens for new icon design ([#332](https://github.com/cds-snc/gcds-tokens/issues/332)) ([b6d9b7e](https://github.com/cds-snc/gcds-tokens/commit/b6d9b7e554d23826a02b06996771ad793533342b))
+
+## [1.19.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.19.0...gcds-tokens-v1.19.1)
+
+Released on: 2024-09-24
 
 ### :bug: :wrench: Bug Fixes
 
