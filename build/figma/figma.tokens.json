@@ -1424,58 +1424,28 @@
     "breadcrumbs": {
       "item": {
         "arrow": {
-          "top": {
-            "value": "0.875rem",
-            "type": "spacing"
-          },
-          "left": {
-            "value": "0.125rem",
-            "type": "spacing"
-          }
-        },
-        "firstChild": {
           "margin": {
-            "value": "0 0 0 -1.5rem",
-            "type": "spacing"
-          }
-        },
-        "link": {
-          "padding": {
-            "value": "0.125rem",
+            "value": "0 0.75rem 0 0",
             "type": "spacing"
           }
         },
         "margin": {
-          "value": "0.75rem 0",
-          "type": "spacing"
-        },
-        "padding": {
-          "value": "0 0 0 1.5rem",
+          "value": "0.75rem 0.25rem",
           "type": "spacing"
         }
       },
       "margin": {
-        "value": "0 0 0 -0.375rem",
+        "value": "0",
         "type": "spacing"
       },
       "padding": {
-        "value": "0 0 0 0.375rem",
+        "value": "0",
         "type": "spacing"
       },
       "mobile": {
         "item": {
-          "arrow": {
-            "top": {
-              "value": "0.125rem",
-              "type": "spacing"
-            }
-          },
           "margin": {
             "value": "0.375rem 0",
-            "type": "spacing"
-          },
-          "padding": {
-            "value": "0",
             "type": "spacing"
           }
         }
