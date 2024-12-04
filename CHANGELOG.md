@@ -31,6 +31,199 @@ Released on: 2024-10-02
 ## [1.19.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.19.0...gcds-tokens-v1.19.1)
 
 Released on: 2024-09-24
+```mermaid
+  info
+```
+
+
+## [2.0.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.20.2...gcds-tokens-v2.0.0)
+
+Released on: 2024-12-04
+# diagram
+
+```mermaid
+flowchart LR;
+    old-0(gcds-spacing-0: 0px) --> new-0(gcds-spacing-0: 0px);
+    old-50(gcds-spacing-50: 3px) --> new-25(gcds-spacing-25: 2px);
+```
+
+```mermaid
+graph TD;
+  gcds-card --> gcds-text
+  gcds-card --> gcds-sr-only
+  gcds-card --> gcds-link
+  gcds-link --> gcds-icon
+  style gcds-card fill:#f9f,stroke:#333,stroke-width:4px
+```
+
+### 🚀 New features
+* Updates to typography and spacing tokens([#345](https://github.com/cds-snc/gcds-tokens/issues/345)) ([xxx](https://github.com/cds-snc/gcds-tokens/commit/xxx))
+
+### Breaking changes
+#### Updates to typography and spacing tokens([#345](https://github.com/cds-snc/gcds-tokens/issues/345)) ([xxx](https://github.com/cds-snc/gcds-tokens/commit/xxx))
+We have updated our typography and spacing tokens as part of ongoing efforts to align with Canada.ca Specifications
+
+_**If you are using this package**_
+Upgrade your version number to this release version to receive the changes in font sizes, line heights and spacing values.
+
+Reference the [visual mapping table](#spacing-tokens-visual-mapping-table) to update your design tokens for margins and paddings. The image/table compares the old spacing token values with the new ones, helping you identify the equivalent token to use. Review the chart to match your current values with their updated counterparts.
+
+#### What are the changes?
+The following design tokens have new values for font sizes, line heights and spacing.
+
+### Font sizes
+Text style<br/>Name & token | Typeface<br/>Family & weight | Desktop<br/>Size / line height | Mobile<br/>Size / line height
+-- | -- | -- | --
+H1<br/>`gcds-font-h1 `| Lato Bold | 41px / 1.17 | 37px / 1.19
+H2<br/>`gcds-font-h2` | Lato Bold | 39px / 1.23 | 35px / 1.25
+H3<br/>`gcds-font-h3` | Lato Bold | 29px / 1.37 | 26px / 1.23
+H4<br/>`gcds-font-h4` | Lato Bold | 27px / 1.33 | 24px / 1.33
+H5<br/>`gcds-font-h5` | Lato Bold | 24px / 1.33 | 22px / 1.27
+H6<br/>`gcds-font-h6` | Lato Bold | 22px / 1.45 | 20px / 1.40
+Label<br/>`gcds-font-label` | Noto sans Bold | 20px / 1.60 | 18px / 1.55
+Text<br/>`gcds-font-text` | Noto sans Regular | 20px / 1.60 | 18px / 1.55
+Text mono<br/>`gcds-font-text-mono` | Noto sans mono Reg. | 20px / 1.60 | 18px / 1.55
+Text small<br/>`gcds-font-text-small` | Noto sans Regular | 18px / 1.55 | 16px / 1.50
+
+### Line heights
+#### Desktop
+Token | Text style | Size | Snapped line height | Line height
+-- | -- | -- | -- | --
+`gcds-line-heights-h1` | H1 | 41px | 48px | 1.17
+`gcds-line-heights-h2` | H2 | 39px | 48px | 1.23
+`gcds-line-heights-h3` | H3 | 29px | 40px | 1.37
+`gcds-line-heights-h4` | H4 | 27px | 36px | 1.33
+`gcds-line-heights-h5` | H5 | 24px | 32px | 1.33
+`gcds-line-heights-h6` | H6 | 22px | 32px | 1.45
+`gcds-line-heights-text` | Label \| Text \| Mono | 20px | 32px | 1.60
+`gcds-line-heights-caption` | Small text | 18px | 28px | 1.55
+
+#### Mobile
+Token | Text style | Size | Snapped line height | Line height
+-- | -- | -- | -- | --
+`gcds-line-heights-h1-mobile` | H1 | 37px | 44px | 1.19
+`gcds-line-heights-h2-mobile` | H2 | 35px | 44px | 1.25
+`gcds-line-heights-h3-mobile` | H3 | 26px | 32px | 1.23
+`gcds-line-heights-h4-mobile` | H4 | 24px | 32px | 1.33
+`gcds-line-heights-h5-mobile` | H5 | 22px | 28px | 1.27
+`gcds-line-heights-h6-mobile` | H6 | 20px | 28px | 1.40
+`gcds-line-heights-text-mobile` | Label \| Text \| Mono | 18px | 28px | 1.55
+`gcds-line-heights-caption-mobile` | Small text | 16px | 24px | 1.50
+
+### Spacing
+#### Desktop
+Token name | Token value in px
+-- | --
+`gcds-spacing-0` | 0px
+`gcds-spacing-25` | 2px
+`gcds-spacing-50` | 4px
+`gcds-spacing-75` | 6px
+`gcds-spacing-100` | 8px
+`gcds-spacing-125` | 10px
+`gcds-spacing-150` | 12px
+`gcds-spacing-175` | 14px
+`gcds-spacing-200` | 16px
+`gcds-spacing-225` | 18px
+`gcds-spacing-250` | 20px
+`gcds-spacing-300` | 24px
+`gcds-spacing-350` | 28px
+`gcds-spacing-400`[^1] | 32px
+`gcds-spacing-450` | 36px
+`gcds-spacing-500` | 40px
+`gcds-spacing-550` | 44px
+`gcds-spacing-600` | 48px
+`gcds-spacing-650` | 52px
+`gcds-spacing-700` | 56px
+`gcds-spacing-750` | 60px
+`gcds-spacing-800` | 64px
+`gcds-spacing-850` | 68px
+`gcds-spacing-900` | 72px
+`gcds-spacing-950` | 76px
+`gcds-spacing-1000` | 80px
+`gcds-spacing-1050` | 84px
+`gcds-spacing-1100` | 88px
+`gcds-spacing-1150` | 92px
+`gcds-spacing-1200` | 96px
+`gcds-spacing-1250` | 100px
+
+[^1]: Baseline value
+
+
+## Spacing tokens visual mapping table
+
+Token | Old value | - | New/Updated Tokens | New value
+-- | -- | -- | -- | --
+spacing-0 | 0px | | spacing-0 | 0px
+spacing-50 | 3px | | spacing-25 | 2px
+ |  | | spacing-50 | 4px
+spacing-100 | 6px | | spacing-75 | 6px
+spacing-150 | 9px | | spacing-100 | 8px
+ |  | | spacing-125 | 10px
+spacing-200 | 12px | | spacing-150 | 12px
+spacing-250 | 15px | | spacing-175 | 14px
+ |  | | spacing-200 | 16px
+spacing-300 | 18px | | spacing-225 | 18px
+ |  | | spacing-250 | 20px
+spacing-400 | 24px | | spacing-300 | 24px
+ |  | | spacing-350 | 28px
+ |  | | spacing-400 | 32px
+spacing-450 | 36px | | spacing-450 | 36px
+ |  | | spacing-500 | 40px
+ |  | | spacing-550 | 44px
+spacing-500 | 48px | | spacing-600 | 48px
+ |  | | spacing-650 | 52px
+ |  | | spacing-700 | 56px
+spacing-550 | 60px | | spacing-750 | 60px
+ |  | | spacing-800 | 64px
+ |  | | spacing-850 | 68px
+spacing-600 | 72px | | spacing-900 | 72px
+ |  | | spacing-950 | 76px
+ |  | | spacing-1000 | 80px
+ |  | | spacing-1050 | 84px
+ |  | | spacing-1100 | 88px
+ |  | | spacing-1150 | 92px
+spacing-700 | 96px | | spacing-1200 | 96px
+spacing-800 | 120px | |  |
+spacing-900 | 144px | |  |
+spacing-1000 | 168px | |  |
+
+```mermaid
+flowchart LR
+    old-0(gcds-spacing-0: 0px) --> new-0(gcds-spacing-0: 0px)
+    old-50(gcds-spacing-50: 3px) --> new-25(gcds-spacing-25: 2px)
+    new-50(gcds-spacing-50: 4px)
+    old-100(gcds-spacing-100: 6px) --> new-75(gcds-spacing-75: 6px)
+    old-150(gcds-spacing-150: 9px) --> new-100(gcds-spacing-100: 8px)
+    new-125(gcds-spacing-125: 10px)
+    old-200(gcds-spacing-200: 12px) --> new-150(gcds-spacing-150: 12px)
+    old-250(gcds-spacing-250: 15px) --> new-175(gcds-spacing-175: 14px)
+    new-200(gcds-spacing-200: 16px)
+    old-300(gcds-spacing-300: 18px) --> new-225(gcds-spacing-225: 18px)
+    new-250(gcds-spacing-250: 20px)
+    old-400(gcds-spacing-400: 24px) --> new-300(gcds-spacing-300: 24px)
+    new-350(gcds-spacing-350: 28px)
+    new-400(gcds-spacing-400: 32px)
+    old-450(gcds-spacing-450: 36px) --> new-450(gcds-spacing-450: 36px)
+    new-500(gcds-spacing-500: 40px)
+    new-550(gcds-spacing-550: 44px)
+    old-500(gcds-spacing-500: 48px) --> new-600(gcds-spacing-600: 48px)
+    new-650(gcds-spacing-650: 52px)
+    new-700(gcds-spacing-700: 56px)
+    old-550(gcds-spacing-550: 60px) --> new-750(gcds-spacing-750: 60px)
+    new-800(gcds-spacing-800: 64px)
+    new-850(gcds-spacing-850: 68px)
+    old-600(gcds-spacing-600: 72px) --> new-900(gcds-spacing-900: 72px)
+    new-950(gcds-spacing-950: 76px)
+    new-1000(gcds-spacing-1000: 80px)
+    new-1050(gcds-spacing-1050: 84px)
+    new-1100(gcds-spacing-1100: 88px)
+    new-1150(gcds-spacing-1150: 92px)
+    old-700(gcds-spacing-700: 96px) --> new-1200(gcds-spacing-1200: 96px)
+    new-800(gcds-spacing-800: 120px)
+    new-900(gcds-spacing-900: 144px)
+    new-1000(gcds-spacing-1000: 168px)
+```
+
 
 ### :bug: :wrench: Bug Fixes
 
