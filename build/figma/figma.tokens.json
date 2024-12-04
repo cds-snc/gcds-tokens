@@ -1711,13 +1711,15 @@
           "value": "#20809D",
           "type": "color"
         },
-        "lineHeight": {
-          "value": "120%",
-          "type": "lineHeights"
-        },
         "padding": {
-          "value": "0.0625rem 1.5rem",
+          "value": "0 1.5rem",
           "type": "spacing"
+        },
+        "mobile": {
+          "padding": {
+            "value": "0.125rem 1.5rem",
+            "type": "spacing"
+          }
         }
       },
       "title": {
@@ -1742,7 +1744,7 @@
           }
         },
         "margin": {
-          "value": "0 0 0.5rem",
+          "value": "0 0 0.625rem",
           "type": "spacing"
         }
       },
