@@ -104,6 +104,7 @@ Token name | Token value in px
 ## Spacing tokens visual mapping guide
 <details>
 <summary>Spacing tokens visual mapping table</summary>
+
 Token | Old value | - | New/Updated Tokens | New value
 -- | -- | -- | -- | --
 spacing-0 | 0px | | spacing-0 | 0px
@@ -139,10 +140,12 @@ spacing-700 | 96px | | spacing-1200 | 96px
 spacing-800 | 120px | |   |  
 spacing-900 | 144px | |   |  
 spacing-1000 | 168px | |   |  
+
 </details>
 
 <details>
 <summary>Visual mapping graph</summary>
+
 ```mermaid
 flowchart LR
     old-0(gcds-spacing-0: 0px) --> new-0(gcds-spacing-0: 0px)
@@ -179,6 +182,7 @@ flowchart LR
     new-900(gcds-spacing-900: 144px)
     new-1000(gcds-spacing-1000: 168px)
 ```
+
 </details>
 
 ## [1.20.2](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.20.1...gcds-tokens-v1.20.2)
