@@ -99,8 +99,9 @@ Token name | Token value in px
 
 
 ## Spacing tokens visual mapping guide
+Refer to the mapping guides below, available in a table or graph format.
 <details>
-<summary>Spacing tokens visual mapping table</summary>
+<summary>Visual mapping table</summary>
 
 Token | Old value |  | New/Updated Tokens | New value
 -- | -- | -- | -- | --
@@ -146,39 +147,48 @@ spacing-1000 | 168px |:no_entry_sign:|   |  
 
 ```mermaid
 flowchart LR
+  subgraph tokens[" "]
+    direction LR
     old-0(gcds-spacing-0: 0px) --> new-0(gcds-spacing-0: 0px)
     old-50(gcds-spacing-50: 3px) --> new-25(gcds-spacing-25: 2px)
-    new-50(gcds-spacing-50: 4px)
+    no-old-50(" "):::invisible ~~~ new-50(gcds-spacing-50: 4px)
     old-100(gcds-spacing-100: 6px) --> new-75(gcds-spacing-75: 6px)
     old-150(gcds-spacing-150: 9px) --> new-100(gcds-spacing-100: 8px)
-    new-125(gcds-spacing-125: 10px)
+    nno-old-125(" "):::invisible ~~~ new-125(gcds-spacing-125: 10px)
     old-200(gcds-spacing-200: 12px) --> new-150(gcds-spacing-150: 12px)
     old-250(gcds-spacing-250: 15px) --> new-175(gcds-spacing-175: 14px)
-    new-200(gcds-spacing-200: 16px)
+    no-old-200(" "):::invisible ~~~ new-200(gcds-spacing-200: 16px)
     old-300(gcds-spacing-300: 18px) --> new-225(gcds-spacing-225: 18px)
-    new-250(gcds-spacing-250: 20px)
+    no-old-250(" "):::invisible ~~~ new-250(gcds-spacing-250: 20px)
     old-400(gcds-spacing-400: 24px) --> new-300(gcds-spacing-300: 24px)
-    new-350(gcds-spacing-350: 28px)
-    new-400(gcds-spacing-400: 32px)
+    no-old-(" "):::invisible ~~~ new-350(gcds-spacing-350: 28px)
+    no-old-(" "):::invisible ~~~ new-400(gcds-spacing-400: 32px)
     old-450(gcds-spacing-450: 36px) --> new-450(gcds-spacing-450: 36px)
-    new-500(gcds-spacing-500: 40px)
-    new-550(gcds-spacing-550: 44px)
+    no-old-500(" "):::invisible ~~~ new-500(gcds-spacing-500: 40px)
+    no-old-550(" "):::invisible ~~~ new-550(gcds-spacing-550: 44px)
     old-500(gcds-spacing-500: 48px) --> new-600(gcds-spacing-600: 48px)
-    new-650(gcds-spacing-650: 52px)
-    new-700(gcds-spacing-700: 56px)
+    no-old-650(" "):::invisible ~~~ new-650(gcds-spacing-650: 52px)
+    no-old-700(" "):::invisible ~~~ new-700(gcds-spacing-700: 56px)
     old-550(gcds-spacing-550: 60px) --> new-750(gcds-spacing-750: 60px)
-    new-800(gcds-spacing-800: 64px)
-    new-850(gcds-spacing-850: 68px)
+    no-old-800(" "):::invisible ~~~ new-800(gcds-spacing-800: 64px)
+    no-old-850(" "):::invisible ~~~ new-850(gcds-spacing-850: 68px)
     old-600(gcds-spacing-600: 72px) --> new-900(gcds-spacing-900: 72px)
-    new-950(gcds-spacing-950: 76px)
-    new-1000(gcds-spacing-1000: 80px)
-    new-1050(gcds-spacing-1050: 84px)
-    new-1100(gcds-spacing-1100: 88px)
-    new-1150(gcds-spacing-1150: 92px)
+    no-old-950(" "):::invisible ~~~ new-950(gcds-spacing-950: 76px)
+    no-old-1000(" "):::invisible ~~~ new-1000(gcds-spacing-1000: 80px)
+    no-old-1050(" "):::invisible ~~~ new-1050(gcds-spacing-1050: 84px)
+    no-old-1100(" "):::invisible ~~~ new-1100(gcds-spacing-1100: 88px)
+    no-old-1150(" "):::invisible ~~~ new-1150(gcds-spacing-1150: 92px)
     old-700(gcds-spacing-700: 96px) --> new-1200(gcds-spacing-1200: 96px)
-    new-800(gcds-spacing-800: 120px)
-    new-900(gcds-spacing-900: 144px)
-    new-1000(gcds-spacing-1000: 168px)
+    old-800(gcds-spacing-800: 120px):::deprecated ~~~ no-new-800(" "):::invisible
+    old-900(gcds-spacing-900: 144px):::deprecated ~~~ no-new-900(" "):::invisible
+    old-1000(gcds-spacing-1000: 168px):::deprecated ~~~ no-new-1000(" "):::invisible
+    no-old-1250(" "):::invisible ~~~ new-1250(gcds-spacing-1250: 100px)
+    classDef invisible fill:none,stroke:none;
+    classDef hideLinks stroke:none,stroke-width:0,arrowhead:none;
+    classDef deprecated stroke:#963939,color:#963939;
+    classDef bgcolor fill:#d3d3d3,stroke:none;
+    class bgcolor tokens;
+  end
 ```
 
 </details>
