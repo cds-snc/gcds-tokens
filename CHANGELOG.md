@@ -97,6 +97,11 @@ Token name | Token value in px
 
 ###### ^1 Baseline value
 
+### Changes to tokens
+We have deprecated our global `caption` token, and have replaced it with `text-small` instead.
+
+We have added 18 new spacing tokens, and removed 4. See the visual mapping guides below for more information.
+
 ### Spacing tokens visual mapping guide
 If you use any of the tokens listed above, refer to one of the token mapping guides below, to help you update your design tokens for margins and paddings.
 
