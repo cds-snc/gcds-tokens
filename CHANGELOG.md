@@ -168,7 +168,7 @@ gcds-spacing-900 | 144px |:no_entry_sign: | |  
 gcds-spacing-1000 | 168px |:no_entry_sign:| |
  | | |**new** | gcds-spacing-1250 | 100px
 
-\* :no_entry_sign: the values for these tokens have changed and are now deprecated. [Contact us](https://design-system.alpha.canada.ca/en/contact/) if you are using these tokens.
+\* :no_entry_sign: the values for these tokens have changed and are now deprecated. The old tokens have been re-assigned new values. [Contact us](https://design-system.alpha.canada.ca/en/contact/) if you are using these tokens.
 </details>
 
 <details>
@@ -222,7 +222,7 @@ flowchart LR
   end
 ```
 
-\* :no_entry_sign: the values for these tokens have changed and are now deprecated. [Contact us](https://design-system.alpha.canada.ca/en/contact/) if you are using these tokens.
+\* :no_entry_sign: the values for the tokens in red have changed and are now deprecated. The old tokens have been re-assigned new values. [Contact us](https://design-system.alpha.canada.ca/en/contact/) if you are using these tokens.
 
 </details>
 
