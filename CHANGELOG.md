@@ -222,6 +222,8 @@ flowchart LR
   end
 ```
 
+\* :no_entry_sign: the values for these tokens have changed and are now deprecated. [Contact us](https://design-system.alpha.canada.ca/en/contact/) if you are using these tokens.
+
 </details>
 
 ## [1.20.2](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.20.1...gcds-tokens-v1.20.2)
