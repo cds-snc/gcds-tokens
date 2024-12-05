@@ -3,20 +3,20 @@
  */
 
 :root {
-  --gcds-line-heights-caption: 135%;
-  --gcds-line-heights-caption-mobile: 140.625%;
-  --gcds-line-heights-text: 120%;
-  --gcds-line-heights-text-mobile: 150%;
-  --gcds-line-heights-h1: 118.38484422541731%;
-  --gcds-line-heights-h1-mobile: 123.31754606814303%;
-  --gcds-line-heights-h2: 122.08437060746162%;
-  --gcds-line-heights-h2-mobile: 124.85901539399481%;
-  --gcds-line-heights-h3: 124.85901539399482%;
-  --gcds-line-heights-h3-mobile: 124.85901539399481%;
-  --gcds-line-heights-h4: 126.41975308641973%;
-  --gcds-line-heights-h4-mobile: 122.90809327846364%;
-  --gcds-line-heights-h5: 126.41975308641975%;
-  --gcds-line-heights-h5-mobile: 138.27160493827162%;
-  --gcds-line-heights-h6: 124.44444444444444%;
-  --gcds-line-heights-h6-mobile: 133.33333333333334%;
+  --gcds-line-heights-text-small: 155%;
+  --gcds-line-heights-text-small-mobile: 150%;
+  --gcds-line-heights-text: 160%;
+  --gcds-line-heights-text-mobile: 155%;
+  --gcds-line-heights-h1: 117%;
+  --gcds-line-heights-h1-mobile: 119%;
+  --gcds-line-heights-h2: 123%;
+  --gcds-line-heights-h2-mobile: 125%;
+  --gcds-line-heights-h3: 137%;
+  --gcds-line-heights-h3-mobile: 123%;
+  --gcds-line-heights-h4: 133%;
+  --gcds-line-heights-h4-mobile: 133%;
+  --gcds-line-heights-h5: 133%;
+  --gcds-line-heights-h5-mobile: 127%;
+  --gcds-line-heights-h6: 145%;
+  --gcds-line-heights-h6-mobile: 140%;
 }

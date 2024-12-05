@@ -126,24 +126,6 @@
       },
       "type": "typography"
     },
-    "caption": {
-      "value": {
-        "fontFamily": "{fontFamilies.body}",
-        "fontWeight": "{fontWeights.regular}",
-        "lineHeight": "{lineHeights.caption}",
-        "fontSize": "{fontSizes.caption}"
-      },
-      "type": "typography"
-    },
-    "captionMobile": {
-      "value": {
-        "fontFamily": "{fontFamilies.body}",
-        "fontWeight": "{fontWeights.regular}",
-        "lineHeight": "{lineHeights.captionMobile}",
-        "fontSize": "{fontSizes.captionMobile}"
-      },
-      "type": "typography"
-    },
     "text": {
       "value": {
         "fontFamily": "{fontFamilies.body}",
@@ -162,21 +144,39 @@
       },
       "type": "typography"
     },
-    "textLong": {
+    "textMono": {
       "value": {
-        "fontFamily": "{fontFamilies.body}",
+        "fontFamily": "{fontFamilies.monospace}",
         "fontWeight": "{fontWeights.regular}",
-        "lineHeight": "150%",
+        "lineHeight": "{lineHeights.text}",
         "fontSize": "{fontSizes.text}"
       },
       "type": "typography"
     },
-    "textLongMobile": {
+    "textMonoMobile": {
+      "value": {
+        "fontFamily": "{fontFamilies.monospace}",
+        "fontWeight": "{fontWeights.regular}",
+        "lineHeight": "{lineHeights.textMobile}",
+        "fontSize": "{fontSizes.textMobile}"
+      },
+      "type": "typography"
+    },
+    "textSmall": {
       "value": {
         "fontFamily": "{fontFamilies.body}",
         "fontWeight": "{fontWeights.regular}",
-        "lineHeight": "150%",
-        "fontSize": "{fontSizes.textMobile}"
+        "lineHeight": "{lineHeights.textSmall}",
+        "fontSize": "{fontSizes.textSmall}"
+      },
+      "type": "typography"
+    },
+    "textSmallMobile": {
+      "value": {
+        "fontFamily": "{fontFamilies.body}",
+        "fontWeight": "{fontWeights.regular}",
+        "lineHeight": "{lineHeights.textSmallMobile}",
+        "fontSize": "{fontSizes.textSmallMobile}"
       },
       "type": "typography"
     }

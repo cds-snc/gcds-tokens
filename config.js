@@ -53,15 +53,30 @@ const transforms = [
 ];
 
 
-// Create file configuration for CSS + SCSS
+// Create file configuration for CSS + SCSS files
 const createFileConfig = (platform, filePath) => {
-  // Remove ".js" from file path, if present
-  const newFilePath = filePath.endsWith('.js') ? filePath.replace(/\.js$/, '') : filePath;
+  // Normalize filePath: if present, remove ".js" extension
+  const newFilePath = filePath.replace(/\.js$/, '');
 
   return {
     destination: `build/web/${platform}/${newFilePath}.${platform}`,
     format: `${platform}/variables`,
-    filter: token => token.filePath.includes(filePath),
+    filter: token => {
+      // Normalize token filePath: remove 'tokens/' prefix + file extensions (.js, .json)
+      const tokenDirPath = token.filePath.replace(/^tokens\//, '').replace(/\.(js|json)$/, '');
+
+      // If global token file, include all tokens
+      if (newFilePath === 'tokens') {
+        return true;
+      }
+
+      /**
+       * Match tokens from specified directory or its subdirectories,
+       * avoid including tokens from sibling directories (like text & textarea).
+       */
+      return tokenDirPath.startsWith(newFilePath) &&
+        (tokenDirPath === newFilePath || tokenDirPath.startsWith(`${newFilePath}/`));
+    },
   };
 };
 
