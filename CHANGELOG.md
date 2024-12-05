@@ -6,10 +6,10 @@ All notable changes to this project will be documented in this file.
 
 ## [2.0.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.20.2...gcds-tokens-v2.0.0)
 
-Released on: 2024-12-04
+Released on: 2024-12-05
 
 ### :rotating_light: Breaking changes
-* **Updates to typography and spacing tokens** ([#345](https://github.com/cds-snc/gcds-tokens/issues/345)) ([xxx](https://github.com/cds-snc/gcds-tokens/commit/xxx))
+* **add new typography and spacing values** ([#345](https://github.com/cds-snc/gcds-tokens/issues/345)) ([0aebdc1](https://github.com/cds-snc/gcds-tokens/commit/0aebdc1343213e66ffa55fab1abacf4c51bfe595))
 
 We have updated our typography and spacing tokens as part of ongoing efforts to align with Canada.ca Specifications
 
@@ -163,12 +163,12 @@ gcds-spacing-600 | 72px |:arrow_right:| gcds-spacing-900 | 72px
  | | |**new**| gcds-spacing-1100 | 88px
  | | |**new**| gcds-spacing-1150 | 92px
 gcds-spacing-700 | 96px |:arrow_right:| gcds-spacing-1200 | 96px
-gcds-spacing-800 | 120px |:no_entry_sign: | |  
-gcds-spacing-900 | 144px |:no_entry_sign: | |  
+gcds-spacing-800 | 120px |:no_entry_sign: | |  
+gcds-spacing-900 | 144px |:no_entry_sign: | |  
 gcds-spacing-1000 | 168px |:no_entry_sign:| |
  | | |**new** | gcds-spacing-1250 | 100px
 
-\* :no_entry_sign: the values for these tokens have changed and are now deprecated. [Contact us](https://design-system.alpha.canada.ca/en/contact/) if you are using these tokens.
+\* :no_entry_sign: the values for these tokens have changed and are now deprecated. The old tokens have been re-assigned new values. [Contact us](https://design-system.alpha.canada.ca/en/contact/) if you are using these tokens.
 </details>
 
 <details>
@@ -222,7 +222,7 @@ flowchart LR
   end
 ```
 
-\* :no_entry_sign: the values for these tokens have changed and are now deprecated. [Contact us](https://design-system.alpha.canada.ca/en/contact/) if you are using these tokens.
+\* :no_entry_sign: the values for the tokens in red have changed and are now deprecated. The old tokens have been re-assigned new values. [Contact us](https://design-system.alpha.canada.ca/en/contact/) if you are using these tokens.
 
 </details>
 
