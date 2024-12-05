@@ -36,26 +36,26 @@ The following design tokens have new values for font sizes, line heights and spa
 ###### Desktop
 Token | Element | Font size (px) | Font size (rem) | Line height
 | :--- | :---: |  :---: |  :--- |  :---: |
-`gcds-font-sizes-h1 `| H1 | 41px | 2.5625 | 117%
-`gcds-font-sizes-h2` | H2 | 39px | 2.4375 | 123%
-`gcds-font-sizes-h3` | H3 | 29px | 1.8125 | 137%
-`gcds-font-sizes-h4` | H4 | 27px | 1.6875 | 133%
-`gcds-font-sizes-h5` | H5 | 24px | 1.5 | 133%
-`gcds-font-sizes-h6` | H6 | 22px | 1.375 | 145%
-`gcds-font-sizes-text` | Label \| Text \| Mono | 20px | 1.25 | 160%
-`gcds-font-sizes-text-small` | Small Text | 18px | 1.125 | 155%
+`gcds-font-sizes-h1 `| H1 | 41px | 2.5625rem | 117%
+`gcds-font-sizes-h2` | H2 | 39px | 2.4375rem | 123%
+`gcds-font-sizes-h3` | H3 | 29px | 1.8125rem | 137%
+`gcds-font-sizes-h4` | H4 | 27px | 1.6875rem | 133%
+`gcds-font-sizes-h5` | H5 | 24px | 1.5rem | 133%
+`gcds-font-sizes-h6` | H6 | 22px | 1.375rem | 145%
+`gcds-font-sizes-text` | Label \| Text \| Mono | 20px | 1.25rem | 160%
+`gcds-font-sizes-text-small` | Small Text | 18px | 1.125rem | 155%
 
 ###### Mobile
 Token | Element | Font size (px) | Font size (rem) | Line height
 | :--- | :---: |  :---: |  :--- |  :---: |
-`gcds-font-sizes-h1-mobile `| H1 | 37px | 2.3125 | 119%
-`gcds-font-sizes-h2-mobile` | H2 | 35px | 2.1875 | 125%
-`gcds-font-sizes-h3-mobile` | H3 | 26px | 1.625 | 123%
-`gcds-font-sizes-h4-mobile` | H4 | 24px | 1.5 | 133%
-`gcds-font-sizes-h5-mobile` | H5 | 22px | 1.375 | 127%
-`gcds-font-sizes-h6-mobile` | H6 | 20px | 1.25 | 140%
-`gcds-font-sizes-text-mobile` | Label \| Text \| Mono | 18px | 1.125 | 155%
-`gcds-font-sizes-text-small-mobile` | Small Text | 16px | 1 | 150%
+`gcds-font-sizes-h1-mobile `| H1 | 37px | 2.3125rem | 119%
+`gcds-font-sizes-h2-mobile` | H2 | 35px | 2.1875rem | 125%
+`gcds-font-sizes-h3-mobile` | H3 | 26px | 1.625rem | 123%
+`gcds-font-sizes-h4-mobile` | H4 | 24px | 1.5rem | 133%
+`gcds-font-sizes-h5-mobile` | H5 | 22px | 1.375rem | 127%
+`gcds-font-sizes-h6-mobile` | H6 | 20px | 1.25rem | 140%
+`gcds-font-sizes-text-mobile` | Label \| Text \| Mono | 18px | 1.125rem | 155%
+`gcds-font-sizes-text-small-mobile` | Small Text | 16px | 1rem | 150%
 
 ##### Line heights
 ###### Desktop
