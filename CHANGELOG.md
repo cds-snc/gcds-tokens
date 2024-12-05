@@ -4,6 +4,228 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.20.2...gcds-tokens-v2.0.0)
+
+Released on: 2024-12-05
+
+### :rotating_light: Breaking changes
+* **add new typography and spacing values** ([#345](https://github.com/cds-snc/gcds-tokens/issues/345)) ([0aebdc1](https://github.com/cds-snc/gcds-tokens/commit/0aebdc1343213e66ffa55fab1abacf4c51bfe595))
+
+We have updated our typography and spacing tokens as part of ongoing efforts to align with Canada.ca Specifications
+
+_**If you are using this package**_
+Upgrade your version number to this release version to receive the changes in font sizes, line heights and spacing values.
+
+Reference the [visual mapping table](#spacing-tokens-visual-mapping-guide) to update your design tokens for margins and paddings. The image/table compares the old spacing token values with the new ones, helping you identify the equivalent token to use. Review the chart to match your current values with their updated counterparts.
+
+- [What are the changes?](#what-are-the-changes)
+  - [Font sizes](#font-sizes)
+    - [Desktop](#desktop)
+    - [Mobile](#mobile)
+  - [Line heights](#line-heights)
+    - [Desktop](#desktop-1)
+    - [Mobile](#mobile-1)
+  - [Spacing](#spacing)
+  - [Changes to some token names](#changes-to-some-token-names)
+  - [Spacing tokens visual mapping guide](#spacing-tokens-visual-mapping-guide)
+
+#### What are the changes?
+The following design tokens have new values for font sizes, line heights and spacing.
+
+##### Font sizes
+###### Desktop
+Token | Element | Font size (px) | Font size (rem) | Line height
+| :--- | :---: |  :---: |  :--- |  :---: |
+`gcds-font-sizes-h1 `| H1 | 41px | 2.5625rem | 117%
+`gcds-font-sizes-h2` | H2 | 39px | 2.4375rem | 123%
+`gcds-font-sizes-h3` | H3 | 29px | 1.8125rem | 137%
+`gcds-font-sizes-h4` | H4 | 27px | 1.6875rem | 133%
+`gcds-font-sizes-h5` | H5 | 24px | 1.5rem | 133%
+`gcds-font-sizes-h6` | H6 | 22px | 1.375rem | 145%
+`gcds-font-sizes-text` | Label \| Text \| Mono | 20px | 1.25rem | 160%
+`gcds-font-sizes-text-small` | Small Text | 18px | 1.125rem | 155%
+
+###### Mobile
+Token | Element | Font size (px) | Font size (rem) | Line height
+| :--- | :---: |  :---: |  :--- |  :---: |
+`gcds-font-sizes-h1-mobile `| H1 | 37px | 2.3125rem | 119%
+`gcds-font-sizes-h2-mobile` | H2 | 35px | 2.1875rem | 125%
+`gcds-font-sizes-h3-mobile` | H3 | 26px | 1.625rem | 123%
+`gcds-font-sizes-h4-mobile` | H4 | 24px | 1.5rem | 133%
+`gcds-font-sizes-h5-mobile` | H5 | 22px | 1.375rem | 127%
+`gcds-font-sizes-h6-mobile` | H6 | 20px | 1.25rem | 140%
+`gcds-font-sizes-text-mobile` | Label \| Text \| Mono | 18px | 1.125rem | 155%
+`gcds-font-sizes-text-small-mobile` | Small Text | 16px | 1rem | 150%
+
+##### Line heights
+###### Desktop
+Token | Element | Size | Snapped line height | Line height
+| :--- | :---: |  :---: |  :---: |  :---: |
+`gcds-line-heights-h1` | H1 | 41px | 48px | 117%
+`gcds-line-heights-h2` | H2 | 39px | 48px | 123%
+`gcds-line-heights-h3` | H3 | 29px | 40px | 137%
+`gcds-line-heights-h4` | H4 | 27px | 36px | 133%
+`gcds-line-heights-h5` | H5 | 24px | 32px | 133%
+`gcds-line-heights-h6` | H6 | 22px | 32px | 145%
+`gcds-line-heights-text` | Label \| Text \| Mono | 20px | 32px | 160%
+`gcds-line-heights-text-small` | Small text | 18px | 28px | 155%
+
+###### Mobile
+Token | Element | Size | Snapped line height | Line height
+| :--- | :---: |  :---: |  :---: |  :---: |
+`gcds-line-heights-h1-mobile` | H1 | 37px | 44px | 119%
+`gcds-line-heights-h2-mobile` | H2 | 35px | 44px | 125%
+`gcds-line-heights-h3-mobile` | H3 | 26px | 32px | 123%
+`gcds-line-heights-h4-mobile` | H4 | 24px | 32px | 133%
+`gcds-line-heights-h5-mobile` | H5 | 22px | 28px | 127%
+`gcds-line-heights-h6-mobile` | H6 | 20px | 28px | 140%
+`gcds-line-heights-text-mobile` | Label \| Text \| Mono | 18px | 28px | 155%
+`gcds-line-heights-text-small-mobile` | Small text | 16px | 24px | 150%
+
+##### Spacing
+Token name | Token value in px
+-- | ---:
+`gcds-spacing-0` | 0px
+`gcds-spacing-25` | 2px
+`gcds-spacing-50` | 4px
+`gcds-spacing-75` | 6px
+`gcds-spacing-100` | 8px
+`gcds-spacing-125` | 10px
+`gcds-spacing-150` | 12px
+`gcds-spacing-175` | 14px
+`gcds-spacing-200` | 16px
+`gcds-spacing-225` | 18px
+`gcds-spacing-250` | 20px
+`gcds-spacing-300` | 24px
+`gcds-spacing-350` | 28px
+`gcds-spacing-400`<sup>[[^1]](#1-baseline-value)</sup> | 32px
+`gcds-spacing-450` | 36px
+`gcds-spacing-500` | 40px
+`gcds-spacing-550` | 44px
+`gcds-spacing-600` | 48px
+`gcds-spacing-650` | 52px
+`gcds-spacing-700` | 56px
+`gcds-spacing-750` | 60px
+`gcds-spacing-800` | 64px
+`gcds-spacing-850` | 68px
+`gcds-spacing-900` | 72px
+`gcds-spacing-950` | 76px
+`gcds-spacing-1000` | 80px
+`gcds-spacing-1050` | 84px
+`gcds-spacing-1100` | 88px
+`gcds-spacing-1150` | 92px
+`gcds-spacing-1200` | 96px
+`gcds-spacing-1250` | 100px
+
+###### ^1 Baseline value
+
+##### Changes to some token names
+We have deprecated all of our global `caption` tokens, and have replaced them with `text-small` instead.
+
+We have added 18 new spacing tokens, and removed support for 3 values (any spacing larger than 100px). See the visual mapping guides below for more information.
+
+##### Spacing tokens visual mapping guide
+If you use any of the tokens listed above, refer to one of the token mapping guides below, to help you update your design tokens for margins and paddings. Tokens used in our `gcds-components` package will update automatically.
+
+<details>
+<summary>Visual mapping table</summary>
+This is a mapping table for the spacing tokens. Use this to identify the equivalent token to use for your design if you are using the old spacing tokens.
+
+Token | Old value |  | New/Updated Tokens | New value
+-- | -- | -- | -- | --
+gcds-spacing-0 | 0px |:arrow_right:| gcds-spacing-0 | 0px
+gcds-spacing-50 | 3px |:arrow_right:| gcds-spacing-25 | 2px
+ | | |**new**| gcds-spacing-50 | 4px
+gcds-spacing-100 | 6px |:arrow_right:| gcds-spacing-75 | 6px
+gcds-spacing-150 | 9px |:arrow_right:| gcds-spacing-100 | 8px
+ | | |**new**| gcds-spacing-125 | 10px
+gcds-spacing-200 | 12px |:arrow_right:| gcds-spacing-150 | 12px
+gcds-spacing-250 | 15px |:arrow_right:| gcds-spacing-175 | 14px
+ | | |**new**| gcds-spacing-200 | 16px
+gcds-spacing-300 | 18px |:arrow_right:| gcds-spacing-225 | 18px
+ | | |**new**| gcds-spacing-250 | 20px
+gcds-spacing-400 | 24px |:arrow_right:| gcds-spacing-300 | 24px
+ | | |**new**| gcds-spacing-350 | 28px
+ | | |**new**| gcds-spacing-400 | 32px
+gcds-spacing-450 | 36px |:arrow_right:| gcds-spacing-450 | 36px
+ | | |**new**| gcds-spacing-500 | 40px
+ | | |**new**| gcds-spacing-550 | 44px
+gcds-spacing-500 | 48px |:arrow_right:| gcds-spacing-600 | 48px
+ | | |**new**| gcds-spacing-650 | 52px
+ | | |**new**| gcds-spacing-700 | 56px
+gcds-spacing-550 | 60px |:arrow_right:| gcds-spacing-750 | 60px
+ | | |**new**| gcds-spacing-800 | 64px
+ | | |**new**| gcds-spacing-850 | 68px
+gcds-spacing-600 | 72px |:arrow_right:| gcds-spacing-900 | 72px
+ | | |**new**| gcds-spacing-950 | 76px
+ | | |**new**| gcds-spacing-1000 | 80px
+ | | |**new**| gcds-spacing-1050 | 84px
+ | | |**new**| gcds-spacing-1100 | 88px
+ | | |**new**| gcds-spacing-1150 | 92px
+gcds-spacing-700 | 96px |:arrow_right:| gcds-spacing-1200 | 96px
+gcds-spacing-800 | 120px |:no_entry_sign: | |  
+gcds-spacing-900 | 144px |:no_entry_sign: | |  
+gcds-spacing-1000 | 168px |:no_entry_sign:| |
+ | | |**new** | gcds-spacing-1250 | 100px
+
+\* :no_entry_sign: the values for these tokens have changed and are now deprecated. The old tokens have been re-assigned new values. [Contact us](https://design-system.alpha.canada.ca/en/contact/) if you are using these tokens.
+</details>
+
+<details>
+<summary>Visual mapping graph</summary>
+
+This is a mapping graph for the spacing tokens. Use this to identify the equivalent token to use for your design if you are using the old spacing tokens.
+```mermaid
+flowchart LR
+  subgraph tokens[" "]
+    direction LR
+    old-tokens["`Old Tokens`"] ~~~ new-tokens["`New Tokens`"]
+    old-0(gcds-spacing-0: 0px) --> new-0(gcds-spacing-0: 0px)
+    old-50(gcds-spacing-50: 3px) --> new-25(gcds-spacing-25: 2px)
+    no-old-50(" "):::invisible ~~~ new-50(gcds-spacing-50: 4px)
+    old-100(gcds-spacing-100: 6px) --> new-75(gcds-spacing-75: 6px)
+    old-150(gcds-spacing-150: 9px) --> new-100(gcds-spacing-100: 8px)
+    nno-old-125(" "):::invisible ~~~ new-125(gcds-spacing-125: 10px)
+    old-200(gcds-spacing-200: 12px) --> new-150(gcds-spacing-150: 12px)
+    old-250(gcds-spacing-250: 15px) --> new-175(gcds-spacing-175: 14px)
+    no-old-200(" "):::invisible ~~~ new-200(gcds-spacing-200: 16px)
+    old-300(gcds-spacing-300: 18px) --> new-225(gcds-spacing-225: 18px)
+    no-old-250(" "):::invisible ~~~ new-250(gcds-spacing-250: 20px)
+    old-400(gcds-spacing-400: 24px) --> new-300(gcds-spacing-300: 24px)
+    no-old-(" "):::invisible ~~~ new-350(gcds-spacing-350: 28px)
+    no-old-(" "):::invisible ~~~ new-400(gcds-spacing-400: 32px)
+    old-450(gcds-spacing-450: 36px) --> new-450(gcds-spacing-450: 36px)
+    no-old-500(" "):::invisible ~~~ new-500(gcds-spacing-500: 40px)
+    no-old-550(" "):::invisible ~~~ new-550(gcds-spacing-550: 44px)
+    old-500(gcds-spacing-500: 48px) --> new-600(gcds-spacing-600: 48px)
+    no-old-650(" "):::invisible ~~~ new-650(gcds-spacing-650: 52px)
+    no-old-700(" "):::invisible ~~~ new-700(gcds-spacing-700: 56px)
+    old-550(gcds-spacing-550: 60px) --> new-750(gcds-spacing-750: 60px)
+    no-old-800(" "):::invisible ~~~ new-800(gcds-spacing-800: 64px)
+    no-old-850(" "):::invisible ~~~ new-850(gcds-spacing-850: 68px)
+    old-600(gcds-spacing-600: 72px) --> new-900(gcds-spacing-900: 72px)
+    no-old-950(" "):::invisible ~~~ new-950(gcds-spacing-950: 76px)
+    no-old-1000(" "):::invisible ~~~ new-1000(gcds-spacing-1000: 80px)
+    no-old-1050(" "):::invisible ~~~ new-1050(gcds-spacing-1050: 84px)
+    no-old-1100(" "):::invisible ~~~ new-1100(gcds-spacing-1100: 88px)
+    no-old-1150(" "):::invisible ~~~ new-1150(gcds-spacing-1150: 92px)
+    old-700(gcds-spacing-700: 96px) --> new-1200(gcds-spacing-1200: 96px)
+    old-800(gcds-spacing-800: 120px):::deprecated ~~~ no-new-800(" "):::invisible
+    old-900(gcds-spacing-900: 144px):::deprecated ~~~ no-new-900(" "):::invisible
+    old-1000(gcds-spacing-1000: 168px):::deprecated ~~~ no-new-1000(" "):::invisible
+    no-old-1250(" "):::invisible ~~~ new-1250(gcds-spacing-1250: 100px)
+    classDef invisible fill:none,stroke:none;
+    classDef hideLinks stroke:none,stroke-width:0,arrowhead:none;
+    classDef deprecated stroke:#963939,color:#963939;
+    classDef bgcolor fill:#d3d3d3,stroke:none;
+    class bgcolor tokens;
+  end
+```
+
+\* :no_entry_sign: the values for the tokens in red have changed and are now deprecated. The old tokens have been re-assigned new values. [Contact us](https://design-system.alpha.canada.ca/en/contact/) if you are using these tokens.
+
+</details>
+
 ## [1.20.2](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.20.1...gcds-tokens-v1.20.2)
 
 Released on: 2024-11-04
