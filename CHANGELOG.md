@@ -98,7 +98,7 @@ Token name | Token value in px
 [^1]: Baseline value
 
 
-## Spacing tokens visual mapping guide
+### Spacing tokens visual mapping guide
 If you use any of the tokens listed above, refer to one of the token mapping guides below, to help you update your design tokens for margins and paddings.
 
 <details>
@@ -107,40 +107,40 @@ This is a mapping table for the spacing tokens. Use this to identify the equival
 
 Token | Old value |  | New/Updated Tokens | New value
 -- | -- | -- | -- | --
-spacing-0 | 0px |:arrow_right:| spacing-0 | 0px
-spacing-50 | 3px |:arrow_right:| spacing-25 | 2px
-  |   |**new**| spacing-50 | 4px
-spacing-100 | 6px |:arrow_right:| spacing-75 | 6px
-spacing-150 | 9px |:arrow_right:| spacing-100 | 8px
-  |   |**new**| spacing-125 | 10px
-spacing-200 | 12px |:arrow_right:| spacing-150 | 12px
-spacing-250 | 15px |:arrow_right:| spacing-175 | 14px
-  |   |**new**| spacing-200 | 16px
-spacing-300 | 18px |:arrow_right:| spacing-225 | 18px
-  |   |**new**| spacing-250 | 20px
-spacing-400 | 24px |:arrow_right:| spacing-300 | 24px
-  |   |**new**| spacing-350 | 28px
-  |   |**new**| spacing-400 | 32px
-spacing-450 | 36px |:arrow_right:| spacing-450 | 36px
-  |   |**new**| spacing-500 | 40px
-  |   |**new**| spacing-550 | 44px
-spacing-500 | 48px |:arrow_right:| spacing-600 | 48px
-  |   |**new**| spacing-650 | 52px
-  |   |**new**| spacing-700 | 56px
-spacing-550 | 60px |:arrow_right:| spacing-750 | 60px
-  |   |**new**| spacing-800 | 64px
-  |   |**new**| spacing-850 | 68px
-spacing-600 | 72px |:arrow_right:| spacing-900 | 72px
-  |   |**new**| spacing-950 | 76px
-  |   |**new**| spacing-1000 | 80px
-  |   |**new** | spacing-1050 | 84px
-  |   |**new** | spacing-1100 | 88px
-  |   |**new** | spacing-1150 | 92px
-spacing-700 | 96px |:arrow_right:| spacing-1200 | 96px
-spacing-800 | 120px |:no_entry_sign: |   |  
-spacing-900 | 144px |:no_entry_sign: |   |  
-spacing-1000 | 168px |:no_entry_sign:|   |  
-  |   |**new** | spacing-1250 | 100px
+gcds-spacing-0 | 0px |:arrow_right:| gcds-spacing-0 | 0px
+gcds-spacing-50 | 3px |:arrow_right:| gcds-spacing-25 | 2px
+ | | |**new**| gcds-spacing-50 | 4px
+gcds-spacing-100 | 6px |:arrow_right:| gcds-spacing-75 | 6px
+gcds-spacing-150 | 9px |:arrow_right:| gcds-spacing-100 | 8px
+ | | |**new**| gcds-spacing-125 | 10px
+gcds-spacing-200 | 12px |:arrow_right:| gcds-spacing-150 | 12px
+gcds-spacing-250 | 15px |:arrow_right:| gcds-spacing-175 | 14px
+ | | |**new**| gcds-spacing-200 | 16px
+gcds-spacing-300 | 18px |:arrow_right:| gcds-spacing-225 | 18px
+ | | |**new**| gcds-spacing-250 | 20px
+gcds-spacing-400 | 24px |:arrow_right:| gcds-spacing-300 | 24px
+ | | |**new**| gcds-spacing-350 | 28px
+ | | |**new**| gcds-spacing-400 | 32px
+gcds-spacing-450 | 36px |:arrow_right:| gcds-spacing-450 | 36px
+ | | |**new**| gcds-spacing-500 | 40px
+ | | |**new**| gcds-spacing-550 | 44px
+gcds-spacing-500 | 48px |:arrow_right:| gcds-spacing-600 | 48px
+ | | |**new**| gcds-spacing-650 | 52px
+ | | |**new**| gcds-spacing-700 | 56px
+gcds-spacing-550 | 60px |:arrow_right:| gcds-spacing-750 | 60px
+ | | |**new**| gcds-spacing-800 | 64px
+ | | |**new**| gcds-spacing-850 | 68px
+gcds-spacing-600 | 72px |:arrow_right:| gcds-spacing-900 | 72px
+ | | |**new**| gcds-spacing-950 | 76px
+ | | |**new**| gcds-spacing-1000 | 80px
+ | | |**new**| gcds-spacing-1050 | 84px
+ | | |**new**| gcds-spacing-1100 | 88px
+ | | |**new**| gcds-spacing-1150 | 92px
+gcds-spacing-700 | 96px |:arrow_right:| gcds-spacing-1200 | 96px
+gcds-spacing-800 | 120px |:no_entry_sign: | |  
+gcds-spacing-900 | 144px |:no_entry_sign: | |  
+gcds-spacing-1000 | 168px |:no_entry_sign:| | 
+ | | |**new** | gcds-spacing-1250 | 100px
 
 \* :no_entry_sign: these tokens have been deprecated. [Contact us](https://design-system.alpha.canada.ca/en/contact/) if you are using these tokens.
 </details>
