@@ -2263,7 +2263,7 @@
           "type": "spacing"
         },
         "padding": {
-          "value": "0.5rem 0.75rem",
+          "value": "0.625rem 0.75rem",
           "type": "spacing"
         },
         "text": {
@@ -2965,7 +2965,7 @@
     },
     "hint": {
       "margin": {
-        "value": "0 0 1.125rem",
+        "value": "0 0 0.5rem",
         "type": "spacing"
       },
       "text": {
@@ -4093,6 +4093,12 @@
         "width": {
           "value": "0.125rem",
           "type": "borderWidth"
+        }
+      },
+      "button": {
+        "padding": {
+          "value": "0.5rem",
+          "type": "spacing"
         }
       },
       "default": {

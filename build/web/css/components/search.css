@@ -5,6 +5,7 @@
 :root {
   --gcds-search-border-radius: 0.375rem 0 0 0.375rem;
   --gcds-search-border-width: 0.125rem;
+  --gcds-search-button-padding: 0.5rem;
   --gcds-search-default-background: #ffffff;
   --gcds-search-default-text: #333333;
   --gcds-search-focus-border-radius: 0.125rem;
