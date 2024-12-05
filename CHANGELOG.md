@@ -20,9 +20,11 @@ Reference the [visual mapping table](#spacing-tokens-visual-mapping-guide) to up
 
 - [What are the changes?](#what-are-the-changes)
   - [Font sizes](#font-sizes)
-  - [Line heights](#line-heights)
     - [Desktop](#desktop)
     - [Mobile](#mobile)
+  - [Line heights](#line-heights)
+    - [Desktop](#desktop-1)
+    - [Mobile](#mobile-1)
   - [Spacing](#spacing)
   - [Changes to some token names](#changes-to-some-token-names)
   - [Spacing tokens visual mapping guide](#spacing-tokens-visual-mapping-guide)
