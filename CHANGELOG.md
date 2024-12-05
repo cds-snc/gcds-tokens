@@ -31,18 +31,33 @@ Reference the [visual mapping table](#spacing-tokens-visual-mapping-guide) to up
 The following design tokens have new values for font sizes, line heights and spacing.
 
 ##### Font sizes
+###### Desktop
+Token | Element | Font size (px) | Font size (rem) | Line height
+-- | -- | -- | --
+H1<br/>`gcds-font-h1 `| Lato Bold | 41px | | 117%
+H2<br/>`gcds-font-h2` | Lato Bold | 39px | | 123%
+H3<br/>`gcds-font-h3` | Lato Bold | 29px | | 137%
+H4<br/>`gcds-font-h4` | Lato Bold | 27px | | 133%
+H5<br/>`gcds-font-h5` | Lato Bold | 24px | | 133%
+H6<br/>`gcds-font-h6` | Lato Bold | 22px | | 145%
+Label<br/>`gcds-font-label` | Noto sans Bold | 20px | | 160%
+Text<br/>`gcds-font-text` | Noto sans Regular | 20px | | 160%
+Text mono<br/>`gcds-font-text-mono` | Noto sans mono Reg. | 20px | | 160%
+Text small<br/>`gcds-font-text-small` | Noto sans Regular | 18px | | 155%
+
+###### Mobile
 Text style<br/>Name & token | Typeface<br/>Family & weight | Desktop<br/>Size /  line height | Mobile<br/>Size /  line height
 -- | -- | -- | --
-H1<br/>`gcds-font-h1 `| Lato Bold | 41px / 1.17 | 37px / 1.19
-H2<br/>`gcds-font-h2` | Lato Bold | 39px / 1.23 | 35px / 1.25
-H3<br/>`gcds-font-h3` | Lato Bold | 29px / 1.37 | 26px / 1.23
-H4<br/>`gcds-font-h4` | Lato Bold | 27px / 1.33 | 24px / 1.33
-H5<br/>`gcds-font-h5` | Lato Bold | 24px / 1.33 | 22px / 1.27
-H6<br/>`gcds-font-h6` | Lato Bold | 22px / 1.45 | 20px / 1.40
-Label<br/>`gcds-font-label` | Noto sans Bold | 20px / 1.60 | 18px / 1.55
-Text<br/>`gcds-font-text` | Noto sans Regular | 20px / 1.60 | 18px / 1.55
-Text mono<br/>`gcds-font-text-mono` | Noto sans mono Reg. | 20px / 1.60 | 18px / 1.55
-Text small<br/>`gcds-font-text-small` | Noto sans Regular | 18px / 1.55 | 16px / 1.50
+H1<br/>`gcds-font-h1-mobile `| Lato Bold | 41px / 1.17 | 37px / 1.19
+H2<br/>`gcds-font-h2-mobile` | Lato Bold | 39px / 1.23 | 35px / 1.25
+H3<br/>`gcds-font-h3-mobile` | Lato Bold | 29px / 1.37 | 26px / 1.23
+H4<br/>`gcds-font-h4-mobile` | Lato Bold | 27px / 1.33 | 24px / 1.33
+H5<br/>`gcds-font-h5-mobile` | Lato Bold | 24px / 1.33 | 22px / 1.27
+H6<br/>`gcds-font-h6-mobile` | Lato Bold | 22px / 1.45 | 20px / 1.40
+Label<br/>`gcds-font-label-mobile` | Noto sans Bold | 20px / 1.60 | 18px / 1.55
+Text<br/>`gcds-font-text-mobile` | Noto sans Regular | 20px / 1.60 | 18px / 1.55
+Text mono<br/>`gcds-font-text-mono-mobile` | Noto sans mono Reg. | 20px / 1.60 | 18px / 1.55
+Text small<br/>`gcds-font-text-small-mobile` | Noto sans Regular | 18px / 1.55 | 16px / 1.50
 
 ##### Line heights
 ###### Desktop
@@ -107,7 +122,7 @@ Token name | Token value in px
 ###### ^1 Baseline value
 
 ##### Changes to some token names
-We have deprecated our global `caption` token, and have replaced it with `text-small` instead.
+We have deprecated all of our global `caption` tokens, and have replaced them with `text-small` instead.
 
 We have added 18 new spacing tokens, and removed 4. See the visual mapping guides below for more information.
 
