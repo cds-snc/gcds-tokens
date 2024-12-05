@@ -21,7 +21,7 @@ Reference the [visual mapping table](#spacing-tokens-visual-mapping-guide) to up
 #### What are the changes?
 The following design tokens have new values for font sizes, line heights and spacing.
 
-### Font sizes
+##### Font sizes
 Text style<br/>Name & token | Typeface<br/>Family & weight | Desktop<br/>Size /  line height | Mobile<br/>Size /  line height
 -- | -- | -- | --
 H1<br/>`gcds-font-h1 `| Lato Bold | 41px / 1.17 | 37px / 1.19
@@ -35,8 +35,8 @@ Text<br/>`gcds-font-text` | Noto sans Regular | 20px / 1.60 | 18px / 1.55
 Text mono<br/>`gcds-font-text-mono` | Noto sans mono Reg. | 20px / 1.60 | 18px / 1.55
 Text small<br/>`gcds-font-text-small` | Noto sans Regular | 18px / 1.55 | 16px / 1.50
 
-### Line heights
-#### Desktop
+##### Line heights
+###### Desktop
 Token | Text style | Size | Snapped line height | Line height percentage
 | :--- | :---: |  :---: |  :---: |  :---: |
 `gcds-line-heights-h1` | H1 | 41px | 48px | 117%
@@ -48,7 +48,7 @@ Token | Text style | Size | Snapped line height | Line height percentage
 `gcds-line-heights-text` | Label \| Text \| Mono | 20px | 32px | 160%
 `gcds-line-heights-text-small` | Small text | 18px | 28px | 155%
 
-#### Mobile
+###### Mobile
 Token | Text style | Size | Snapped line height | Line height percentage
 | :--- | :---: |  :---: |  :---: |  :---: |
 `gcds-line-heights-h1-mobile` | H1 | 37px | 44px | 119%
@@ -60,7 +60,7 @@ Token | Text style | Size | Snapped line height | Line height percentage
 `gcds-line-heights-text-mobile` | Label \| Text \| Mono | 18px | 28px | 155%
 `gcds-line-heights-text-small-mobile` | Small text | 16px | 24px | 150%
 
-### Spacing
+##### Spacing
 Token name | Token value in px
 -- | ---:
 `gcds-spacing-0` | 0px
@@ -97,12 +97,12 @@ Token name | Token value in px
 
 ###### ^1 Baseline value
 
-### Changes to tokens
+##### Changes to tokens
 We have deprecated our global `caption` token, and have replaced it with `text-small` instead.
 
 We have added 18 new spacing tokens, and removed 4. See the visual mapping guides below for more information.
 
-### Spacing tokens visual mapping guide
+##### Spacing tokens visual mapping guide
 If you use any of the tokens listed above, refer to one of the token mapping guides below, to help you update your design tokens for margins and paddings.
 
 <details>
