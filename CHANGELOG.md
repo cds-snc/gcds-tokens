@@ -4,6 +4,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.21.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.20.2...gcds-tokens-v1.21.0) (2024-12-05)
+
+
+### :rocket: New Features
+
+* add new typography and spacing values ([#345](https://github.com/cds-snc/gcds-tokens/issues/345)) ([0aebdc1](https://github.com/cds-snc/gcds-tokens/commit/0aebdc1343213e66ffa55fab1abacf4c51bfe595))
+
 ## [1.20.2](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.20.1...gcds-tokens-v1.20.2)
 
 Released on: 2024-11-04
