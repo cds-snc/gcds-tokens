@@ -8,11 +8,9 @@ All notable changes to this project will be documented in this file.
 
 Released on: 2024-12-04
 
-### 🚀 New features
-* Updates to typography and spacing tokens([#345](https://github.com/cds-snc/gcds-tokens/issues/345)) ([xxx](https://github.com/cds-snc/gcds-tokens/commit/xxx))
+### :rotating_light: Breaking changes
+* **Updates to typography and spacing tokens** ([#345](https://github.com/cds-snc/gcds-tokens/issues/345)) ([xxx](https://github.com/cds-snc/gcds-tokens/commit/xxx))
 
-### Breaking changes
-#### Updates to typography and spacing tokens([#345](https://github.com/cds-snc/gcds-tokens/issues/345)) ([xxx](https://github.com/cds-snc/gcds-tokens/commit/xxx))
 We have updated our typography and spacing tokens as part of ongoing efforts to align with Canada.ca Specifications
 
 _**If you are using this package**_
@@ -63,7 +61,6 @@ Token | Text style | Size | Snapped line height | Line height
 `gcds-line-heights-caption-mobile` | Small text | 16px | 24px | 1.50
 
 ### Spacing
-#### Desktop
 Token name | Token value in px
 -- | --
 `gcds-spacing-0` | 0px
@@ -105,41 +102,42 @@ Token name | Token value in px
 <details>
 <summary>Spacing tokens visual mapping table</summary>
 
-Token | Old value | - | New/Updated Tokens | New value
+Token | Old value |  | New/Updated Tokens | New value
 -- | -- | -- | -- | --
-spacing-0 | 0px | | spacing-0 | 0px
-spacing-50 | 3px | | spacing-25 | 2px
-  |   | | spacing-50 | 4px
-spacing-100 | 6px | | spacing-75 | 6px
-spacing-150 | 9px | | spacing-100 | 8px
-  |   | | spacing-125 | 10px
-spacing-200 | 12px | | spacing-150 | 12px
-spacing-250 | 15px | | spacing-175 | 14px
-  |   | | spacing-200 | 16px
-spacing-300 | 18px | | spacing-225 | 18px
-  |   | | spacing-250 | 20px
-spacing-400 | 24px | | spacing-300 | 24px
-  |   | | spacing-350 | 28px
-  |   | | spacing-400 | 32px
-spacing-450 | 36px | | spacing-450 | 36px
-  |   | | spacing-500 | 40px
-  |   | | spacing-550 | 44px
-spacing-500 | 48px | | spacing-600 | 48px
-  |   | | spacing-650 | 52px
-  |   | | spacing-700 | 56px
-spacing-550 | 60px | | spacing-750 | 60px
-  |   | | spacing-800 | 64px
-  |   | | spacing-850 | 68px
-spacing-600 | 72px | | spacing-900 | 72px
-  |   | | spacing-950 | 76px
-  |   | | spacing-1000 | 80px
-  |   | | spacing-1050 | 84px
-  |   | | spacing-1100 | 88px
-  |   | | spacing-1150 | 92px
-spacing-700 | 96px | | spacing-1200 | 96px
-spacing-800 | 120px | |   |  
-spacing-900 | 144px | |   |  
-spacing-1000 | 168px | |   |  
+spacing-0 | 0px |:arrow_right:| spacing-0 | 0px
+spacing-50 | 3px |:arrow_right:| spacing-25 | 2px
+  |   |**new**| spacing-50 | 4px
+spacing-100 | 6px |:arrow_right:| spacing-75 | 6px
+spacing-150 | 9px |:arrow_right:| spacing-100 | 8px
+  |   |**new**| spacing-125 | 10px
+spacing-200 | 12px |:arrow_right:| spacing-150 | 12px
+spacing-250 | 15px |:arrow_right:| spacing-175 | 14px
+  |   |**new**| spacing-200 | 16px
+spacing-300 | 18px |:arrow_right:| spacing-225 | 18px
+  |   |**new**| spacing-250 | 20px
+spacing-400 | 24px |:arrow_right:| spacing-300 | 24px
+  |   |**new**| spacing-350 | 28px
+  |   |**new**| spacing-400 | 32px
+spacing-450 | 36px |:arrow_right:| spacing-450 | 36px
+  |   |**new**| spacing-500 | 40px
+  |   |**new**| spacing-550 | 44px
+spacing-500 | 48px |:arrow_right:| spacing-600 | 48px
+  |   |**new**| spacing-650 | 52px
+  |   |**new**| spacing-700 | 56px
+spacing-550 | 60px |:arrow_right:| spacing-750 | 60px
+  |   |**new**| spacing-800 | 64px
+  |   |**new**| spacing-850 | 68px
+spacing-600 | 72px |:arrow_right:| spacing-900 | 72px
+  |   |**new**| spacing-950 | 76px
+  |   |**new**| spacing-1000 | 80px
+  |   |**new** | spacing-1050 | 84px
+  |   |**new** | spacing-1100 | 88px
+  |   |**new** | spacing-1150 | 92px
+spacing-700 | 96px |:arrow_right:| spacing-1200 | 96px
+spacing-800 | 120px |:no_entry_sign: |   |  
+spacing-900 | 144px |:no_entry_sign: |   |  
+spacing-1000 | 168px |:no_entry_sign:|   |  
+  |   |**new** | spacing-1250 | 100px
 
 </details>
 
