@@ -35,35 +35,31 @@ The following design tokens have new values for font sizes, line heights and spa
 ##### Font sizes
 ###### Desktop
 Token | Element | Font size (px) | Font size (rem) | Line height
-| :--- | :---: |  :---: |  :---: |  :---: |
-`gcds-font-h1 `| Lato Bold | 41px | rem | 117%
-`gcds-font-h2` | Lato Bold | 39px | rem | 123%
-`gcds-font-h3` | Lato Bold | 29px | rem | 137%
-`gcds-font-h4` | Lato Bold | 27px | rem | 133%
-`gcds-font-h5` | Lato Bold | 24px | rem | 133%
-`gcds-font-h6` | Lato Bold | 22px | rem | 145%
-`gcds-font-label` | Noto sans Bold | 20px | rem | 160%
-`gcds-font-text` | Noto sans Regular | 20px | rem | 160%
-`gcds-font-text-mono` | Noto sans mono Reg. | 20px | rem | 160%
-`gcds-font-text-small` | Noto sans Regular | 18px | rem | 155%
+| :--- | :---: |  :---: |  :--- |  :---: |
+`gcds-font-sizes-h1 `| H1 | 41px | 2.5625 | 117%
+`gcds-font-sizes-h2` | H2 | 39px | 2.4375 | 123%
+`gcds-font-sizes-h3` | H3 | 29px | 1.8125 | 137%
+`gcds-font-sizes-h4` | H4 | 27px | 1.6875 | 133%
+`gcds-font-sizes-h5` | H5 | 24px | 1.5 | 133%
+`gcds-font-sizes-h6` | H6 | 22px | 1.375 | 145%
+`gcds-font-sizes-text` | Label \| Text \| Mono | 20px | 1.25 | 160%
+`gcds-font-sizes-text-small` | Small Text | 18px | 1.125 | 155%
 
 ###### Mobile
 Token | Element | Font size (px) | Font size (rem) | Line height
-| :--- | :---: |  :---: |  :---: |  :---: |
-`gcds-font-h1-mobile `| Lato Bold | 37px | rem | 119%
-`gcds-font-h2-mobile` | Lato Bold | 35px | rem | 125%
-`gcds-font-h3-mobile` | Lato Bold | 26px | rem | 123%
-`gcds-font-h4-mobile` | Lato Bold | 24px | rem | 133%
-`gcds-font-h5-mobile` | Lato Bold | 22px | rem | 127%
-`gcds-font-h6-mobile` | Lato Bold | 20px | rem | 140%
-`gcds-font-label-mobile` | Noto sans Bold | 18px | rem | 155%
-`gcds-font-text-mobile` | Noto sans Regular | 18px | rem | 155%
-`gcds-font-text-mono-mobile` | Noto sans mono Reg. | 18px | rem | 155%
-T`gcds-font-text-small-mobile` | Noto sans Regular | 16px | rem | 150%
+| :--- | :---: |  :---: |  :--- |  :---: |
+`gcds-font-sizes-h1-mobile `| H1 | 37px | 2.3125 | 119%
+`gcds-font-sizes-h2-mobile` | H2 | 35px | 2.1875 | 125%
+`gcds-font-sizes-h3-mobile` | H3 | 26px | 1.625 | 123%
+`gcds-font-sizes-h4-mobile` | H4 | 24px | 1.5 | 133%
+`gcds-font-sizes-h5-mobile` | H5 | 22px | 1.375 | 127%
+`gcds-font-sizes-h6-mobile` | H6 | 20px | 1.25 | 140%
+`gcds-font-sizes-text-mobile` | Label \| Text \| Mono | 18px | 1.125 | 155%
+`gcds-font-sizes-text-small-mobile` | Small Text | 16px | 1 | 150%
 
 ##### Line heights
 ###### Desktop
-Token | Text style | Size | Snapped line height | Line height
+Token | Element | Size | Snapped line height | Line height
 | :--- | :---: |  :---: |  :---: |  :---: |
 `gcds-line-heights-h1` | H1 | 41px | 48px | 117%
 `gcds-line-heights-h2` | H2 | 39px | 48px | 123%
@@ -75,7 +71,7 @@ Token | Text style | Size | Snapped line height | Line height
 `gcds-line-heights-text-small` | Small text | 18px | 28px | 155%
 
 ###### Mobile
-Token | Text style | Size | Snapped line height | Line height
+Token | Element | Size | Snapped line height | Line height
 | :--- | :---: |  :---: |  :---: |  :---: |
 `gcds-line-heights-h1-mobile` | H1 | 37px | 44px | 119%
 `gcds-line-heights-h2-mobile` | H2 | 35px | 44px | 125%
