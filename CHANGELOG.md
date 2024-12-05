@@ -33,17 +33,17 @@ The following design tokens have new values for font sizes, line heights and spa
 ##### Font sizes
 ###### Desktop
 Token | Element | Font size (px) | Font size (rem) | Line height
--- | -- | -- | --
-H1<br/>`gcds-font-h1 `| Lato Bold | 41px | | 117%
-H2<br/>`gcds-font-h2` | Lato Bold | 39px | | 123%
-H3<br/>`gcds-font-h3` | Lato Bold | 29px | | 137%
-H4<br/>`gcds-font-h4` | Lato Bold | 27px | | 133%
-H5<br/>`gcds-font-h5` | Lato Bold | 24px | | 133%
-H6<br/>`gcds-font-h6` | Lato Bold | 22px | | 145%
-Label<br/>`gcds-font-label` | Noto sans Bold | 20px | | 160%
-Text<br/>`gcds-font-text` | Noto sans Regular | 20px | | 160%
-Text mono<br/>`gcds-font-text-mono` | Noto sans mono Reg. | 20px | | 160%
-Text small<br/>`gcds-font-text-small` | Noto sans Regular | 18px | | 155%
+| :--- | :---: |  :---: |  :---: |  :---: |
+`gcds-font-h1 `| Lato Bold | 41px | rem | 117%
+`gcds-font-h2` | Lato Bold | 39px | rem | 123%
+`gcds-font-h3` | Lato Bold | 29px | rem | 137%
+`gcds-font-h4` | Lato Bold | 27px | rem | 133%
+`gcds-font-h5` | Lato Bold | 24px | rem | 133%
+`gcds-font-h6` | Lato Bold | 22px | rem | 145%
+`gcds-font-label` | Noto sans Bold | 20px | rem | 160%
+`gcds-font-text` | Noto sans Regular | 20px | rem | 160%
+`gcds-font-text-mono` | Noto sans mono Reg. | 20px | rem | 160%
+`gcds-font-text-small` | Noto sans Regular | 18px | rem | 155%
 
 ###### Mobile
 Text style<br/>Name & token | Typeface<br/>Family & weight | Desktop<br/>Size /  line height | Mobile<br/>Size /  line height
