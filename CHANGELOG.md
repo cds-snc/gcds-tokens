@@ -18,6 +18,15 @@ Upgrade your version number to this release version to receive the changes in fo
 
 Reference the [visual mapping table](#spacing-tokens-visual-mapping-guide) to update your design tokens for margins and paddings. The image/table compares the old spacing token values with the new ones, helping you identify the equivalent token to use. Review the chart to match your current values with their updated counterparts.
 
+- [What are the changes?](#what-are-the-changes)
+  - [Font sizes](#font-sizes)
+  - [Line heights](#line-heights)
+    - [Desktop](#desktop)
+    - [Mobile](#mobile)
+  - [Spacing](#spacing)
+  - [Changes to some token names](#changes-to-some-token-names)
+  - [Spacing tokens visual mapping guide](#spacing-tokens-visual-mapping-guide)
+
 #### What are the changes?
 The following design tokens have new values for font sizes, line heights and spacing.
 
@@ -97,7 +106,7 @@ Token name | Token value in px
 
 ###### ^1 Baseline value
 
-##### Changes to tokens
+##### Changes to some token names
 We have deprecated our global `caption` token, and have replaced it with `text-small` instead.
 
 We have added 18 new spacing tokens, and removed 4. See the visual mapping guides below for more information.
@@ -143,7 +152,7 @@ gcds-spacing-600 | 72px |:arrow_right:| gcds-spacing-900 | 72px
 gcds-spacing-700 | 96px |:arrow_right:| gcds-spacing-1200 | 96px
 gcds-spacing-800 | 120px |:no_entry_sign: | |  
 gcds-spacing-900 | 144px |:no_entry_sign: | |  
-gcds-spacing-1000 | 168px |:no_entry_sign:| | 
+gcds-spacing-1000 | 168px |:no_entry_sign:| |
  | | |**new** | gcds-spacing-1250 | 100px
 
 \* :no_entry_sign: these tokens have been deprecated. [Contact us](https://design-system.alpha.canada.ca/en/contact/) if you are using these tokens.
