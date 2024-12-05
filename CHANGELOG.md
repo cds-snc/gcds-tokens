@@ -46,22 +46,22 @@ Token | Element | Font size (px) | Font size (rem) | Line height
 `gcds-font-text-small` | Noto sans Regular | 18px | rem | 155%
 
 ###### Mobile
-Text style<br/>Name & token | Typeface<br/>Family & weight | Desktop<br/>Size /  line height | Mobile<br/>Size /  line height
--- | -- | -- | --
-H1<br/>`gcds-font-h1-mobile `| Lato Bold | 41px / 1.17 | 37px / 1.19
-H2<br/>`gcds-font-h2-mobile` | Lato Bold | 39px / 1.23 | 35px / 1.25
-H3<br/>`gcds-font-h3-mobile` | Lato Bold | 29px / 1.37 | 26px / 1.23
-H4<br/>`gcds-font-h4-mobile` | Lato Bold | 27px / 1.33 | 24px / 1.33
-H5<br/>`gcds-font-h5-mobile` | Lato Bold | 24px / 1.33 | 22px / 1.27
-H6<br/>`gcds-font-h6-mobile` | Lato Bold | 22px / 1.45 | 20px / 1.40
-Label<br/>`gcds-font-label-mobile` | Noto sans Bold | 20px / 1.60 | 18px / 1.55
-Text<br/>`gcds-font-text-mobile` | Noto sans Regular | 20px / 1.60 | 18px / 1.55
-Text mono<br/>`gcds-font-text-mono-mobile` | Noto sans mono Reg. | 20px / 1.60 | 18px / 1.55
-Text small<br/>`gcds-font-text-small-mobile` | Noto sans Regular | 18px / 1.55 | 16px / 1.50
+Token | Element | Font size (px) | Font size (rem) | Line height
+| :--- | :---: |  :---: |  :---: |  :---: |
+`gcds-font-h1-mobile `| Lato Bold | 37px | rem | 119%
+`gcds-font-h2-mobile` | Lato Bold | 35px | rem | 125%
+`gcds-font-h3-mobile` | Lato Bold | 26px | rem | 123%
+`gcds-font-h4-mobile` | Lato Bold | 24px | rem | 133%
+`gcds-font-h5-mobile` | Lato Bold | 22px | rem | 127%
+`gcds-font-h6-mobile` | Lato Bold | 20px | rem | 140%
+`gcds-font-label-mobile` | Noto sans Bold | 18px | rem | 155%
+`gcds-font-text-mobile` | Noto sans Regular | 18px | rem | 155%
+`gcds-font-text-mono-mobile` | Noto sans mono Reg. | 18px | rem | 155%
+T`gcds-font-text-small-mobile` | Noto sans Regular | 16px | rem | 150%
 
 ##### Line heights
 ###### Desktop
-Token | Text style | Size | Snapped line height | Line height percentage
+Token | Text style | Size | Snapped line height | Line height
 | :--- | :---: |  :---: |  :---: |  :---: |
 `gcds-line-heights-h1` | H1 | 41px | 48px | 117%
 `gcds-line-heights-h2` | H2 | 39px | 48px | 123%
@@ -73,7 +73,7 @@ Token | Text style | Size | Snapped line height | Line height percentage
 `gcds-line-heights-text-small` | Small text | 18px | 28px | 155%
 
 ###### Mobile
-Token | Text style | Size | Snapped line height | Line height percentage
+Token | Text style | Size | Snapped line height | Line height
 | :--- | :---: |  :---: |  :---: |  :---: |
 `gcds-line-heights-h1-mobile` | H1 | 37px | 44px | 119%
 `gcds-line-heights-h2-mobile` | H2 | 35px | 44px | 125%
