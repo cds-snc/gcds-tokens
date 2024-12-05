@@ -16,7 +16,7 @@ We have updated our typography and spacing tokens as part of ongoing efforts to 
 _**If you are using this package**_
 Upgrade your version number to this release version to receive the changes in font sizes, line heights and spacing values.
 
-Reference the [visual mapping table](#spacing-tokens-visual-mapping-table) to update your design tokens for margins and paddings. The image/table compares the old spacing token values with the new ones, helping you identify the equivalent token to use. Review the chart to match your current values with their updated counterparts.
+Reference the [visual mapping table](#spacing-tokens-visual-mapping-guide) to update your design tokens for margins and paddings. The image/table compares the old spacing token values with the new ones, helping you identify the equivalent token to use. Review the chart to match your current values with their updated counterparts.
 
 #### What are the changes?
 The following design tokens have new values for font sizes, line heights and spacing.
@@ -38,7 +38,7 @@ Text small<br/>`gcds-font-text-small` | Noto sans Regular | 18px / 1.55 | 16px /
 ### Line heights
 #### Desktop
 Token | Text style | Size | Snapped line height | Line height percentage
--- | -- | -- | -- | --
+| :--- | :---: |  :---: |  :---: |  :---: |
 `gcds-line-heights-h1` | H1 | 41px | 48px | 117%
 `gcds-line-heights-h2` | H2 | 39px | 48px | 123%
 `gcds-line-heights-h3` | H3 | 29px | 40px | 137%
@@ -50,7 +50,7 @@ Token | Text style | Size | Snapped line height | Line height percentage
 
 #### Mobile
 Token | Text style | Size | Snapped line height | Line height percentage
--- | -- | -- | -- | --
+| :--- | :---: |  :---: |  :---: |  :---: |
 `gcds-line-heights-h1-mobile` | H1 | 37px | 44px | 119%
 `gcds-line-heights-h2-mobile` | H2 | 35px | 44px | 125%
 `gcds-line-heights-h3-mobile` | H3 | 26px | 32px | 123%
@@ -62,7 +62,7 @@ Token | Text style | Size | Snapped line height | Line height percentage
 
 ### Spacing
 Token name | Token value in px
--- | --
+-- | ---:
 `gcds-spacing-0` | 0px
 `gcds-spacing-25` | 2px
 `gcds-spacing-50` | 4px
@@ -99,7 +99,7 @@ Token name | Token value in px
 
 
 ## Spacing tokens visual mapping guide
-Refer to the mapping guides below, available in a table or graph format.
+Refer to the token mapping guides below, available in a table or graph format.
 <details>
 <summary>Visual mapping table</summary>
 
@@ -140,6 +140,7 @@ spacing-900 | 144px |:no_entry_sign: |   |  
 spacing-1000 | 168px |:no_entry_sign:|   |  
   |   |**new** | spacing-1250 | 100px
 
+\* :no_entry_sign: these tokens have been deprecated. [Contact us](https://design-system.alpha.canada.ca/en/contact/) if you are using these tokens.
 </details>
 
 <details>
