@@ -99,9 +99,11 @@ Token name | Token value in px
 
 
 ## Spacing tokens visual mapping guide
-Refer to the token mapping guides below, available in a table or graph format.
+If you use any of the tokens listed above, refer to one of the token mapping guides below, to help you update your design tokens for margins and paddings.
+
 <details>
 <summary>Visual mapping table</summary>
+This is a mapping table for the spacing tokens. Use this to identify the equivalent token to use for your design if you are using the old spacing tokens.
 
 Token | Old value |  | New/Updated Tokens | New value
 -- | -- | -- | -- | --
@@ -146,6 +148,7 @@ spacing-1000 | 168px |:no_entry_sign:|   |  
 <details>
 <summary>Visual mapping graph</summary>
 
+This is a mapping graph for the spacing tokens. Use this to identify the equivalent token to use for your design if you are using the old spacing tokens.
 ```mermaid
 flowchart LR
   subgraph tokens[" "]
