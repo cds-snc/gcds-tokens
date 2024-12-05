@@ -76,7 +76,7 @@ Token name | Token value in px
 `gcds-spacing-250` | 20px
 `gcds-spacing-300` | 24px
 `gcds-spacing-350` | 28px
-`gcds-spacing-400`[^1] | 32px
+`gcds-spacing-400`<sup>[[^1]](#1-baseline-value)</sup> | 32px
 `gcds-spacing-450` | 36px
 `gcds-spacing-500` | 40px
 `gcds-spacing-550` | 44px
@@ -95,8 +95,8 @@ Token name | Token value in px
 `gcds-spacing-1200` | 96px
 `gcds-spacing-1250` | 100px
 
-[^1]: Baseline value
-
+###### ^1 Baseline value
+^1
 
 ### Spacing tokens visual mapping guide
 If you use any of the tokens listed above, refer to one of the token mapping guides below, to help you update your design tokens for margins and paddings.
