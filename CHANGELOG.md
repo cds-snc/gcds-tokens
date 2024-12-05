@@ -37,28 +37,28 @@ Text small<br/>`gcds-font-text-small` | Noto sans Regular | 18px / 1.55 | 16px /
 
 ### Line heights
 #### Desktop
-Token | Text style | Size | Snapped line height | Line height
+Token | Text style | Size | Snapped line height | Line height percentage
 -- | -- | -- | -- | --
-`gcds-line-heights-h1` | H1 | 41px | 48px | 1.17
-`gcds-line-heights-h2` | H2 | 39px | 48px | 1.23
-`gcds-line-heights-h3` | H3 | 29px | 40px | 1.37
-`gcds-line-heights-h4` | H4 | 27px | 36px | 1.33
-`gcds-line-heights-h5` | H5 | 24px | 32px | 1.33
-`gcds-line-heights-h6` | H6 | 22px | 32px | 1.45
-`gcds-line-heights-text` | Label \| Text \| Mono | 20px | 32px | 1.60
-`gcds-line-heights-caption` | Small text | 18px | 28px | 1.55
+`gcds-line-heights-h1` | H1 | 41px | 48px | 117%
+`gcds-line-heights-h2` | H2 | 39px | 48px | 123%
+`gcds-line-heights-h3` | H3 | 29px | 40px | 137%
+`gcds-line-heights-h4` | H4 | 27px | 36px | 133%
+`gcds-line-heights-h5` | H5 | 24px | 32px | 133%
+`gcds-line-heights-h6` | H6 | 22px | 32px | 145%
+`gcds-line-heights-text` | Label \| Text \| Mono | 20px | 32px | 160%
+`gcds-line-heights-text-small` | Small text | 18px | 28px | 155%
 
 #### Mobile
-Token | Text style | Size | Snapped line height | Line height
+Token | Text style | Size | Snapped line height | Line height percentage
 -- | -- | -- | -- | --
-`gcds-line-heights-h1-mobile` | H1 | 37px | 44px | 1.19
-`gcds-line-heights-h2-mobile` | H2 | 35px | 44px | 1.25
-`gcds-line-heights-h3-mobile` | H3 | 26px | 32px | 1.23
-`gcds-line-heights-h4-mobile` | H4 | 24px | 32px | 1.33
-`gcds-line-heights-h5-mobile` | H5 | 22px | 28px | 1.27
-`gcds-line-heights-h6-mobile` | H6 | 20px | 28px | 1.40
-`gcds-line-heights-text-mobile` | Label \| Text \| Mono | 18px | 28px | 1.55
-`gcds-line-heights-caption-mobile` | Small text | 16px | 24px | 1.50
+`gcds-line-heights-h1-mobile` | H1 | 37px | 44px | 119%
+`gcds-line-heights-h2-mobile` | H2 | 35px | 44px | 125%
+`gcds-line-heights-h3-mobile` | H3 | 26px | 32px | 123%
+`gcds-line-heights-h4-mobile` | H4 | 24px | 32px | 133%
+`gcds-line-heights-h5-mobile` | H5 | 22px | 28px | 127%
+`gcds-line-heights-h6-mobile` | H6 | 20px | 28px | 140%
+`gcds-line-heights-text-mobile` | Label \| Text \| Mono | 18px | 28px | 155%
+`gcds-line-heights-text-small-mobile` | Small text | 16px | 24px | 150%
 
 ### Spacing
 Token name | Token value in px
