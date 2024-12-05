@@ -122,7 +122,7 @@ Token name | Token value in px
 ##### Changes to some token names
 We have deprecated all of our global `caption` tokens, and have replaced them with `text-small` instead.
 
-We have added 18 new spacing tokens, and removed 4. See the visual mapping guides below for more information.
+We have added 18 new spacing tokens, and removed support for 3 values (any spacing larger than 100px). See the visual mapping guides below for more information.
 
 ##### Spacing tokens visual mapping guide
 If you use any of the tokens listed above, refer to one of the token mapping guides below, to help you update your design tokens for margins and paddings. Tokens used in our `gcds-components` package will update automatically.
@@ -168,7 +168,7 @@ gcds-spacing-900 | 144px |:no_entry_sign: | |  
 gcds-spacing-1000 | 168px |:no_entry_sign:| |
  | | |**new** | gcds-spacing-1250 | 100px
 
-\* :no_entry_sign: these tokens have been deprecated. [Contact us](https://design-system.alpha.canada.ca/en/contact/) if you are using these tokens.
+\* :no_entry_sign: the values for these tokens have changed and are now deprecated. [Contact us](https://design-system.alpha.canada.ca/en/contact/) if you are using these tokens.
 </details>
 
 <details>
