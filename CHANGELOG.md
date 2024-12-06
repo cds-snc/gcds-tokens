@@ -798,6 +798,8 @@ First release of GC Design System Tokens.
 
 # Journal des modifications
 
+Tout changement important à ce projet sera consigné dans le présent fichier.
+
 ## [1.20.2](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.20.1...gcds-tokens-v1.20.2)
 
 Version publiée le : 2024-11-04
@@ -880,9 +882,6 @@ Version publiée le : 2024-08-19
 
 * Mettre à jour les unités de style de carte et de l’indicateur d’étape pour les nouveaux designs ([#295](https://github.com/cds-snc/gcds-tokens/issues/295)) ([c8da35f](https://github.com/cds-snc/gcds-tokens/commit/c8da35fc5e5d53a097ad1375fdaf4933517b1772))
 
-
-Tout changement important à ce projet sera consigné dans le présent fichier.
-
 ## [1.16.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.16.0...gcds-tokens-v1.16.1)
 
 Version publiée le : 2024-08-13
@@ -905,7 +904,7 @@ Version publiée le : 2024-08-13
 
 ## [1.15.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.15.0...gcds-tokens-v1.15.1)
 
-Released on: 2024-08-08
+Version publiée le : 2024-08-08
 
 ### :bug: :wrench: Corrections de bogues
 
@@ -929,9 +928,9 @@ Version publiée le : 2024-07-24
 * revenir sur la mise à jour des unités de style de l’indicateur d’étape jusqu'à ce que l’indicateur d’étape soit prêt pour la publication ([#278](https://github.com/cds-snc/gcds-tokens/issues/278)) ([#293](https://github.com/cds-snc/gcds-tokens/issues/293)) ([24c7436](https://github.com/cds-snc/gcds-tokens/commit/24c74365dac87b06959d39a8ce67c7ffa772b0a7))
 
 
-### :arrows_counterclockwise: Code Refactoring
+### :arrows_counterclockwise: Refactorisation de code
 
-* update error message design ([#292](https://github.com/cds-snc/gcds-tokens/issues/292)) ([a8df46d](https://github.com/cds-snc/gcds-tokens/commit/a8df46dffb408ac5d3774529181e6d3751aeb142))
+* mettre à jour le design du message d'erreur ([#292](https://github.com/cds-snc/gcds-tokens/issues/292)) ([a8df46d](https://github.com/cds-snc/gcds-tokens/commit/a8df46dffb408ac5d3774529181e6d3751aeb142))
 
 
 ## [1.14.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.14.0...gcds-tokens-v1.14.1)
@@ -944,9 +943,9 @@ Version publiée le : 2024-07-10
 * Environnement invalide pour la version dans le message Slack ([#284](https://github.com/cds-snc/gcds-tokens/issues/284)) ([56ee12e](https://github.com/cds-snc/gcds-tokens/commit/56ee12e2ce475a552f3c8b50f917ee531b3d49de))
 
 
-### :arrows_counterclockwise: Code Refactoring
+### :arrows_counterclockwise: Refactorisation de code
 
-* remove tokens redundant after CSS rewrite ([#230](https://github.com/cds-snc/gcds-tokens/issues/230)) ([d819ecf](https://github.com/cds-snc/gcds-tokens/commit/d819ecf92d068bb8f675b1f9687f246e8f6a55b8))
+* supprimer les unités de style redondantes après la réécriture CSS ([#230](https://github.com/cds-snc/gcds-tokens/issues/230)) ([d819ecf](https://github.com/cds-snc/gcds-tokens/commit/d819ecf92d068bb8f675b1f9687f246e8f6a55b8))
 
 ## [1.14.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.13.4...gcds-tokens-v1.14.0)
 
