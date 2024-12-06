@@ -798,7 +798,212 @@ First release of GC Design System Tokens.
 
 # Journal des modifications
 
+## [1.20.2](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.20.1...gcds-tokens-v1.20.2)
+
+Version publiée le : 2024-11-04
+
+### :arrows_counterclockwise: Refactorisation de code
+
+* supprimer la couleur du texte de mise au point global (changement non rétrocompatible) + étiquette, indice et légende ([#340](https://github.com/cds-snc/gcds-tokens/issues/340)) ([90da86f](https://github.com/cds-snc/gcds-tokens/commit/90da86f214f9b2c295241f110cc857ac2963eebf))
+
+
+## [1.20.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.20.0...gcds-tokens-v1.20.1)
+
+Version publiée le : 2024-10-23
+
+### :arrows_counterclockwise: Refactorisation de code
+
+* ajuster les détails des unités de style ([#337](https://github.com/cds-snc/gcds-tokens/issues/337)) ([c3ec9bf](https://github.com/cds-snc/gcds-tokens/commit/c3ec9bfb9a0895505758baecd63d217a11fafcd7))
+
+
+## [1.20.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.19.1...gcds-tokens-v1.20.0)
+
+Version publiée le : 2024-10-02
+
+### :rocket: Nouvelle fonctionnalité
+
+* mettre à jour les unités de style d'avis pour le nouveau design d'icône ([#332](https://github.com/cds-snc/gcds-tokens/issues/332)) ([b6d9b7e](https://github.com/cds-snc/gcds-tokens/commit/b6d9b7e554d23826a02b06996771ad793533342b))
+
+## [1.19.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.19.0...gcds-tokens-v1.19.1)
+
+Version publiée le : 2024-09-24
+### :bug: :wrench: Corrections de bogues
+
+* Taille de la police de la légende du composant champ de date ([#328](https://github.com/cds-snc/gcds-tokens/issues/328)) ([8edde71](https://github.com/cds-snc/gcds-tokens/commit/8edde71d8c0f08b0c0c3cb993f3857e6d42ad796))
+* Mise à jour de la couleur du drapeau rouge pour qu'elle soit compatible avec rouge du PFIM ([#324](https://github.com/cds-snc/gcds-tokens/issues/324)) ([017f15b](https://github.com/cds-snc/gcds-tokens/commit/017f15b186a3d9229f632414f1012d8014ea62df))
+
+
+## [1.19.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.18.1...gcds-tokens-v1.19.0)
+
+Released on: 2024-09-13
+
+### :rocket: Nouvelle fonctionnalité
+
+* Nouvelles unités de style pour le texte en version mobile du composant de recherche ([#321](https://github.com/cds-snc/gcds-tokens/issues/321)) ([f4bdabe](https://github.com/cds-snc/gcds-tokens/commit/f4bdabea1c9606368d4f8264025527268b33fbbc))
+
+
+## [1.18.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.18.0...gcds-tokens-v1.18.1)
+
+Version publiée le : 2024-09-12
+
+### :bug: :wrench: Corrections de bogues
+
+* divers petits correctifs de bogues de conception ([#318](https://github.com/cds-snc/gcds-tokens/issues/318)) ([182270f](https://github.com/cds-snc/gcds-tokens/commit/182270fac9eb5ac47a6d6f36eba16dd392be5023))
+
+
+## [1.18.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.17.1...gcds-tokens-v1.18.0)
+
+Version publiée le: 2024-09-03
+
+### :rocket: Nouvelle fonctionnalité
+
+* Ajout des unités de style pour le composant d'avis + de nouvelles couleurs ([#313](https://github.com/cds-snc/gcds-tokens/issues/313)) ([5fb28f1](https://github.com/cds-snc/gcds-tokens/commit/5fb28f195e6ad3a09ba2d6ff18c4628a68a2e8f5))
+
+### :bug: :wrench: Corrections de bogues
+
+* Nom des unités de style de l’avis + ajout d'unités de style pour la marge ([#315](https://github.com/cds-snc/gcds-tokens/issues/315)) ([24185e5](https://github.com/cds-snc/gcds-tokens/commit/24185e5a04a86ba77e5746c9fa3219eeba9f9fab))
+
+
+## [1.17.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.17.0...gcds-tokens-v1.17.1)
+
+Version publiée le : 2024-08-20
+
+### :bug: :wrench: Version publiée le : 2024-08-20
+
+* Unités de style d’espacement pour les marges dans le composant carte ([#310](https://github.com/cds-snc/gcds-tokens/issues/310)) ([6c000e0](https://github.com/cds-snc/gcds-tokens/commit/6c000e0c100145b3097076d58ceafb80919f88db))
+
+## [1.17.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.16.1...gcds-tokens-v1.17.0)
+
+Version publiée le : 2024-08-19
+
+### :rocket: Nouvelle fonctionnalité
+
+* Mettre à jour les unités de style de carte et de l’indicateur d’étape pour les nouveaux designs ([#295](https://github.com/cds-snc/gcds-tokens/issues/295)) ([c8da35f](https://github.com/cds-snc/gcds-tokens/commit/c8da35fc5e5d53a097ad1375fdaf4933517b1772))
+
+
 Tout changement important à ce projet sera consigné dans le présent fichier.
+
+## [1.16.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.16.0...gcds-tokens-v1.16.1)
+
+Version publiée le : 2024-08-13
+### :bug: :wrench: Corrections de bogues
+
+* Police requise pour la légende du jeu de champs ([#307](https://github.com/cds-snc/gcds-tokens/issues/307)) ([2dad7bf](https://github.com/cds-snc/gcds-tokens/commit/2dad7bf5ee454b08cdcaf05310d5f855cbeae450))
+
+## [1.16.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.15.1...gcds-tokens-v1.16.0)
+
+Version publiée le : 2024-08-13
+
+### :rocket: Nouvelle fonctionnalité
+
+* Ajout d'unités de styles pour le composant champ de date (gcds-date-input) ([#301](https://github.com/cds-snc/gcds-tokens/issues/301)) ([33dcdf3](https://github.com/cds-snc/gcds-tokens/commit/33dcdf367fdc6d4e14ed6aa72f9d8f66c6348490))
+
+
+### :bug: :wrench: Corrections de bogues
+
+* mise à jour pour la taille de police pour l’étiquette “requise” + ajout des unités de style pour les éléments du chemin de navigation en version mobile ([#304](https://github.com/cds-snc/gcds-tokens/issues/304)) ([4359e16](https://github.com/cds-snc/gcds-tokens/commit/4359e16bb944f3cd215069b5af45cac416beccda))
+
+## [1.15.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.15.0...gcds-tokens-v1.15.1)
+
+Released on: 2024-08-08
+
+### :bug: :wrench: Corrections de bogues
+
+* Taille de police pour l'étiquette “requise” ([#302](https://github.com/cds-snc/gcds-tokens/issues/302)) ([f940755](https://github.com/cds-snc/gcds-tokens/commit/f940755cf586e2c30ee812e4c0f5fd0631a3c6b0))
+
+## [1.15.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.14.2...gcds-tokens-v1.15.0)
+
+Version publiée le : 2024-07-31
+
+### :rocket: Nouvelle fonctionnalité
+
+* ajouter d’une unité de style globale pour les liens visités ([#297](https://github.com/cds-snc/gcds-tokens/issues/297)) ([d344857](https://github.com/cds-snc/gcds-tokens/commit/d344857891e9629ff94cf3225dd3554e1fea21b4))
+
+## [1.14.2](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.14.1...gcds-tokens-v1.14.2)
+
+Version publiée le : 2024-07-24
+
+### :bug: :wrench: Corrections de bogues
+
+* revenir sur les mises à jour des unités de style de carte jusqu'à ce que la nouvelle version de carte soit prête à être publiée ([#294](https://github.com/cds-snc/gcds-tokens/issues/294)) ([c1753a1](https://github.com/cds-snc/gcds-tokens/commit/c1753a1027827edf23235951a7def4e6015b2f98))
+* revenir sur la mise à jour des unités de style de l’indicateur d’étape jusqu'à ce que l’indicateur d’étape soit prêt pour la publication ([#278](https://github.com/cds-snc/gcds-tokens/issues/278)) ([#293](https://github.com/cds-snc/gcds-tokens/issues/293)) ([24c7436](https://github.com/cds-snc/gcds-tokens/commit/24c74365dac87b06959d39a8ce67c7ffa772b0a7))
+
+
+### :arrows_counterclockwise: Code Refactoring
+
+* update error message design ([#292](https://github.com/cds-snc/gcds-tokens/issues/292)) ([a8df46d](https://github.com/cds-snc/gcds-tokens/commit/a8df46dffb408ac5d3774529181e6d3751aeb142))
+
+
+## [1.14.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.14.0...gcds-tokens-v1.14.1)
+
+Version publiée le : 2024-07-10
+
+### :bug: :wrench: Corrections de bogues
+
+* Ajoutez les unités de style manquantes des composants lien et carte ([#288](https://github.com/cds-snc/gcds-tokens/issues/288)) ([824fdc0](https://github.com/cds-snc/gcds-tokens/commit/824fdc068caa9641b7596ca07a43aea5673304ac))
+* Environnement invalide pour la version dans le message Slack ([#284](https://github.com/cds-snc/gcds-tokens/issues/284)) ([56ee12e](https://github.com/cds-snc/gcds-tokens/commit/56ee12e2ce475a552f3c8b50f917ee531b3d49de))
+
+
+### :arrows_counterclockwise: Code Refactoring
+
+* remove tokens redundant after CSS rewrite ([#230](https://github.com/cds-snc/gcds-tokens/issues/230)) ([d819ecf](https://github.com/cds-snc/gcds-tokens/commit/d819ecf92d068bb8f675b1f9687f246e8f6a55b8))
+
+## [1.14.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.13.4...gcds-tokens-v1.14.0)
+
+Version publiée le : 2024-07-05
+
+### :rocket: Nouvelle fonctionnalité
+
+* Mettre à jour les unités de style de carte pour correspondre au nouveau design ([#283](https://github.com/cds-snc/gcds-tokens/issues/283)) ([92c475f](https://github.com/cds-snc/gcds-tokens/commit/92c475fe2ddc421722a493515d8d00a8df4ad4ce))
+
+
+### :bug: :wrench: Corrections de bogues
+
+* Lien incorrect ([#281](https://github.com/cds-snc/gcds-tokens/issues/281)) ([d60be6c](https://github.com/cds-snc/gcds-tokens/commit/d60be6c86e8f8abc21f8b1592eddfdd30a3b400c))
+
+
+## [1.13.4](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.13.3...gcds-tokens-v1.13.4)
+
+Version publiée le : 2024-06-27
+
+### :arrows_counterclockwise: Refactorisation de code
+
+* Mettre à jour les unités de style de l’indicateur d’étape pour correspondre au nouveau design ([#278](https://github.com/cds-snc/gcds-tokens/issues/278)) ([f2abfb8](https://github.com/cds-snc/gcds-tokens/commit/f2abfb885a57f71814bf612044ab377acbfbb48a))
+
+## [1.13.3](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.13.2...gcds-tokens-v1.13.3)
+
+Version publiée le : 2024-05-28
+
+### :arrows_counterclockwise: Refactorisation de code
+
+* changer la police de monospace à noto sans mono ([#267](https://github.com/cds-snc/gcds-tokens/issues/267)) ([fee4a06](https://github.com/cds-snc/gcds-tokens/commit/fee4a06cd4e6a47b6440c13bec7c7cfc45deeded))
+
+
+## [1.13.2](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.13.1...gcds-tokens-v1.13.2)
+
+Version publiée le : 2024-04-30
+
+### :arrows_counterclockwise: Refactorisation de code
+
+* supprimer les unites de style globale d'arrière-plan noir ([#258](https://github.com/cds-snc/gcds-tokens/issues/258)) ([2071bb2](https://github.com/cds-snc/gcds-tokens/commit/2071bb2d6e36c3bcb1f36bbe0e5a339d0487ef32))
+* mettre à jour les détails de la marge + les unités de style de remplissage pour correspondre au nouveau design ([#259](https://github.com/cds-snc/gcds-tokens/issues/259)) ([9019e9b](https://github.com/cds-snc/gcds-tokens/commit/9019e9b8266c597bec54dbb46c4e3ce4ff0367f7))
+
+## [1.13.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.13.0...gcds-tokens-v1.13.1)
+
+Version publiée le : 2024-04-23
+
+### :bug: :wrench: Corrections de bogues
+
+* mettre à jour boutons de radio et case à cocher pour la bonne valeur ([#254](https://github.com/cds-snc/gcds-tokens/issues/254)) ([9cf2b2b](https://github.com/cds-snc/gcds-tokens/commit/9cf2b2b119fa8d8d19af86e9a77d7e0b99cec0d4))
+
+## [1.13.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.12.2...gcds-tokens-v1.13.0)
+
+Version publiée le : 2024-04-18
+
+### :rocket: Nouvelle fonctionnalité
+
+* ajouter des unités de style globales d'arrière-plan ([#252](https://github.com/cds-snc/gcds-tokens/issues/252)) ([ab6e899](https://github.com/cds-snc/gcds-tokens/commit/ab6e89967cb370082e7b1b093c247455eafc63f3))
+
 
 ## [1.12.2](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.12.1...gcds-tokens-v1.12.2)
 
