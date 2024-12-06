@@ -828,7 +828,7 @@ Référez-vous à ce [tableau de correspondance visuelle](#spacing-tokens-visual
 #### Quels sont les changements ?
 Les jetons de conception suivants ont de nouvelles valeurs pour les tailles de police, les hauteurs de ligne et les espacements.
 
-##### Tailes de Police
+##### Tailles de Police
 ###### Bureau
 Unite de style | Élément | Taille de la police (pixels) | Taille de la police (rem) | Hauteur de ligne
 | :--- | :---: |  :---: |  :--- |  :---: |
