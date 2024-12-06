@@ -814,16 +814,16 @@ mettez à jour votre numéro de version vers cette version de publication pour r
 
 Référez-vous à ce [tableau de correspondance visuelle](#spacing-tokens-visual-mapping-guide-1) pour mettre à jour vos unités de style de conception pour les marges et les remplissages. L'image/le tableau compare les anciennes valeurs d’unites de style d'espacement avec les nouvelles, vous aidant à identifier l’unité de style équivalente à utiliser. Examinez le tableau pour faire correspondre vos valeurs actuelles avec leurs homologues mises à jour.
 
-- [Quels sont les changements ?](#what-are-the-changes)
-  - [Tailles de police](#Tailes-de-Police)
-    - [Bureau](#Bureau)
+- [Quels sont les changements ?](#quels-sont-les-changements)
+  - [Tailles de police](#tailles-de-police)
+    - [Bureau](#bureau)
     - [Mobile](#mobile-2)
-  - [Hauteurs de ligne](#Hauteurs-de-ligne)
-    - [Bureau](#desktop-1)
+  - [Hauteurs de ligne](#hauteurs-de-ligne)
+    - [Bureau](#bureau-1)
     - [Mobile](#mobile-3)
   - [Espacement](#spacing)
-  - [Modifications de certains noms de jetons](#changes-to-some-token-names)
-  - [Guide de cartographie visuelle des jetons d'espacement](#spacing-tokens-visual-mapping-guide)
+  - [Modifications de certains noms d'unités de styles](#modifications-de-certains-noms-dunités-de-styles)
+  - [Guide visuel de mappage des unités de style d'espacement](#guide-visuel-de-mappage-des-unités-de-style-despacement)
 
 #### Quels sont les changements ?
 Les jetons de conception suivants ont de nouvelles valeurs pour les tailles de police, les hauteurs de ligne et les espacements.
@@ -971,7 +971,7 @@ gcds-spacing-1000 | 168px |:no_entry_sign:| |
 <details>
 <summary>Graphique de cartographie visuelle</summary>
 
-Ceci est un graphique de mappage pour les unités de style d’espacement. Utilisez ceci pour identifier l'unité de style équivalente à utiliser pour votre conception si vous utilisez les anciennes unités de style. 
+Ceci est un graphique de mappage pour les unités de style d’espacement. Utilisez ceci pour identifier l'unité de style équivalente à utiliser pour votre conception si vous utilisez les anciennes unités de style.
 
 ```mermaid
 flowchart LR
