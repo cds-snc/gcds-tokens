@@ -800,6 +800,231 @@ First release of GC Design System Tokens.
 
 Tout changement important à ce projet sera consigné dans le présent fichier.
 
+## [2.0.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.20.2...gcds-tokens-v2.0.0)
+
+Version publiée le : 2024-12-05
+
+### :rotating_light: Changements non rétrocompatibles
+* **Mises à jour des unités de style de typographie et d’espacement** ([#345](https://github.com/cds-snc/gcds-tokens/issues/345)) ([0aebdc1](https://github.com/cds-snc/gcds-tokens/commit/0aebdc1343213e66ffa55fab1abacf4c51bfe595))
+
+Nous avons mis à jour nos unités de style de typographie et d'espacement dans le cadre de nos efforts continus pour nous aligner sur les spécifications de Canada.ca.
+
+_**Si vous utilisez ce paquetage,**_
+mettez à jour votre numéro de version vers cette version de publication pour recevoir les modifications des tailles de police, des hauteurs de ligne et des valeurs d'espacement.
+
+Référez-vous à ce [tableau de correspondance visuelle](#spacing-tokens-visual-mapping-guide-1) pour mettre à jour vos unités de style de conception pour les marges et les remplissages. L'image/le tableau compare les anciennes valeurs d’unites de style d'espacement avec les nouvelles, vous aidant à identifier l’unité de style équivalente à utiliser. Examinez le tableau pour faire correspondre vos valeurs actuelles avec leurs homologues mises à jour.
+
+- [Quels sont les changements ?](#what-are-the-changes)
+  - [Tailles de police](#Tailes-de-Police)
+    - [Bureau](#Bureau)
+    - [Mobile](#mobile-2)
+  - [Hauteurs de ligne](#Hauteurs-de-ligne)
+    - [Bureau](#desktop-1)
+    - [Mobile](#mobile-3)
+  - [Espacement](#spacing)
+  - [Modifications de certains noms de jetons](#changes-to-some-token-names)
+  - [Guide de cartographie visuelle des jetons d'espacement](#spacing-tokens-visual-mapping-guide)
+
+#### Quels sont les changements ?
+Les jetons de conception suivants ont de nouvelles valeurs pour les tailles de police, les hauteurs de ligne et les espacements.
+
+##### Tailes de Police
+###### Bureau
+Unite de style | Élément | Taille de la police (pixels) | Taille de la police (rem) | Hauteur de ligne
+| :--- | :---: |  :---: |  :--- |  :---: |
+`gcds-font-sizes-h1 `| H1 | 41px | 2.5625rem | 117%
+`gcds-font-sizes-h2` | H2 | 39px | 2.4375rem | 123%
+`gcds-font-sizes-h3` | H3 | 29px | 1.8125rem | 137%
+`gcds-font-sizes-h4` | H4 | 27px | 1.6875rem | 133%
+`gcds-font-sizes-h5` | H5 | 24px | 1.5rem | 133%
+`gcds-font-sizes-h6` | H6 | 22px | 1.375rem | 145%
+`gcds-font-sizes-text` | Label \| Text \| Mono | 20px | 1.25rem | 160%
+`gcds-font-sizes-text-small` | Small Text | 18px | 1.125rem | 155%
+
+###### Mobile
+Unite de style | Élément | Taille de la police (pixels) | Taille de la police (rem) | Hauteur de ligne
+| :--- | :---: |  :---: |  :--- |  :---: |
+`gcds-font-sizes-h1-mobile `| H1 | 37px | 2.3125rem | 119%
+`gcds-font-sizes-h2-mobile` | H2 | 35px | 2.1875rem | 125%
+`gcds-font-sizes-h3-mobile` | H3 | 26px | 1.625rem | 123%
+`gcds-font-sizes-h4-mobile` | H4 | 24px | 1.5rem | 133%
+`gcds-font-sizes-h5-mobile` | H5 | 22px | 1.375rem | 127%
+`gcds-font-sizes-h6-mobile` | H6 | 20px | 1.25rem | 140%
+`gcds-font-sizes-text-mobile` | Label \| Text \| Mono | 18px | 1.125rem | 155%
+`gcds-font-sizes-text-small-mobile` | Small Text | 16px | 1rem | 150%
+
+##### Hauteurs de ligne
+###### Bureau
+Unite de style | Élément | Taille | Hauteur de ligne alignée | Hauteur de ligne
+| :--- | :---: |  :---: |  :---: |  :---: |
+`gcds-line-heights-h1` | H1 | 41px | 48px | 117%
+`gcds-line-heights-h2` | H2 | 39px | 48px | 123%
+`gcds-line-heights-h3` | H3 | 29px | 40px | 137%
+`gcds-line-heights-h4` | H4 | 27px | 36px | 133%
+`gcds-line-heights-h5` | H5 | 24px | 32px | 133%
+`gcds-line-heights-h6` | H6 | 22px | 32px | 145%
+`gcds-line-heights-text` | Label \| Text \| Mono | 20px | 32px | 160%
+`gcds-line-heights-text-small` | Small text | 18px | 28px | 155%
+
+###### Mobile
+Unite de style | Élément | Taille | Hauteur de ligne alignée | Hauteur de ligne
+| :--- | :---: |  :---: |  :---: |  :---: |
+`gcds-line-heights-h1-mobile` | H1 | 37px | 44px | 119%
+`gcds-line-heights-h2-mobile` | H2 | 35px | 44px | 125%
+`gcds-line-heights-h3-mobile` | H3 | 26px | 32px | 123%
+`gcds-line-heights-h4-mobile` | H4 | 24px | 32px | 133%
+`gcds-line-heights-h5-mobile` | H5 | 22px | 28px | 127%
+`gcds-line-heights-h6-mobile` | H6 | 20px | 28px | 140%
+`gcds-line-heights-text-mobile` | Label \| Text \| Mono | 18px | 28px | 155%
+`gcds-line-heights-text-small-mobile` | Small text | 16px | 24px | 150%
+
+##### Espacement
+Nom de l’unité de style | Valeur de l'unité de style en pixel
+-- | ---:
+`gcds-spacing-0` | 0px
+`gcds-spacing-25` | 2px
+`gcds-spacing-50` | 4px
+`gcds-spacing-75` | 6px
+`gcds-spacing-100` | 8px
+`gcds-spacing-125` | 10px
+`gcds-spacing-150` | 12px
+`gcds-spacing-175` | 14px
+`gcds-spacing-200` | 16px
+`gcds-spacing-225` | 18px
+`gcds-spacing-250` | 20px
+`gcds-spacing-300` | 24px
+`gcds-spacing-350` | 28px
+`gcds-spacing-400`<sup>[[^1]](#1-Valeur-de-référence)</sup> | 32px
+`gcds-spacing-450` | 36px
+`gcds-spacing-500` | 40px
+`gcds-spacing-550` | 44px
+`gcds-spacing-600` | 48px
+`gcds-spacing-650` | 52px
+`gcds-spacing-700` | 56px
+`gcds-spacing-750` | 60px
+`gcds-spacing-800` | 64px
+`gcds-spacing-850` | 68px
+`gcds-spacing-900` | 72px
+`gcds-spacing-950` | 76px
+`gcds-spacing-1000` | 80px
+`gcds-spacing-1050` | 84px
+`gcds-spacing-1100` | 88px
+`gcds-spacing-1150` | 92px
+`gcds-spacing-1200` | 96px
+`gcds-spacing-1250` | 100px
+
+###### ^1 Valeur de référence
+
+##### Modifications de certains noms d'unités de styles
+Nous avons déprécié toutes nos unités de style globales caption et les avons remplacées par `text-small`.
+
+Nous avons ajouté 18 nouvelles unités de style d'espacement et arrêté le support de 3 valeurs (tout espacement supérieur à 100px). Voir les guides visuels de mappage ci-dessous pour plus d'informations.
+
+##### Guide visuel de mappage des unités de style d'espacement
+Si vous utilisez l'un des jetons énumérés ci-dessus, référez-vous à l'un des guides de mappage des jetons ci-dessous pour vous aider à mettre à jour vos unités de style de conception pour les marges et les remplissages. Les unités de style utilisées dans notre package gcds-components se mettront à jour automatiquement.
+
+<details>
+<summary>Table de correspondance visuelle</summary>
+Ceci est une table de correspondance pour les unités de style d'espacement. Utilisez ceci pour identifier l’unité de style équivalente à utiliser pour votre conception si vous utilisez les anciennes unités de style d'espacement.
+
+Unité de style | Ancienne valeure |  | Nouvelle unité de style ou mise à jour | Nouvelle valeure
+-- | -- | -- | -- | --
+gcds-spacing-0 | 0px |:arrow_right:| gcds-spacing-0 | 0px
+gcds-spacing-50 | 3px |:arrow_right:| gcds-spacing-25 | 2px
+ | | |**nouveau**| gcds-spacing-50 | 4px
+gcds-spacing-100 | 6px |:arrow_right:| gcds-spacing-75 | 6px
+gcds-spacing-150 | 9px |:arrow_right:| gcds-spacing-100 | 8px
+ | | |**nouveau**| gcds-spacing-125 | 10px
+gcds-spacing-200 | 12px |:arrow_right:| gcds-spacing-150 | 12px
+gcds-spacing-250 | 15px |:arrow_right:| gcds-spacing-175 | 14px
+ | | |**nouveau**| gcds-spacing-200 | 16px
+gcds-spacing-300 | 18px |:arrow_right:| gcds-spacing-225 | 18px
+ | | |**nouveau**| gcds-spacing-250 | 20px
+gcds-spacing-400 | 24px |:arrow_right:| gcds-spacing-300 | 24px
+ | | |**nouveau**| gcds-spacing-350 | 28px
+ | | |**nouveau**| gcds-spacing-400 | 32px
+gcds-spacing-450 | 36px |:arrow_right:| gcds-spacing-450 | 36px
+ | | |**nouveau**| gcds-spacing-500 | 40px
+ | | |**nouveau**| gcds-spacing-550 | 44px
+gcds-spacing-500 | 48px |:arrow_right:| gcds-spacing-600 | 48px
+ | | |**nouveau**| gcds-spacing-650 | 52px
+ | | |**nouveau**| gcds-spacing-700 | 56px
+gcds-spacing-550 | 60px |:arrow_right:| gcds-spacing-750 | 60px
+ | | |**nouveau**| gcds-spacing-800 | 64px
+ | | |**nouveau**| gcds-spacing-850 | 68px
+gcds-spacing-600 | 72px |:arrow_right:| gcds-spacing-900 | 72px
+ | | |**nouveau**| gcds-spacing-950 | 76px
+ | | |**nouveau**| gcds-spacing-1000 | 80px
+ | | |**nouveau**| gcds-spacing-1050 | 84px
+ | | |**nouveau**| gcds-spacing-1100 | 88px
+ | | |**nouveau**| gcds-spacing-1150 | 92px
+gcds-spacing-700 | 96px |:arrow_right:| gcds-spacing-1200 | 96px
+gcds-spacing-800 | 120px |:no_entry_sign: | |  
+gcds-spacing-900 | 144px |:no_entry_sign: | |  
+gcds-spacing-1000 | 168px |:no_entry_sign:| |
+ | | |**nouveau** | gcds-spacing-1250 | 100px
+
+\* :no_entry_sign: les valeurs de ces unités de style ont changé et sont désormais obsolètes. Les anciennes unités de styles ont été affectées de nouvelles valeurs. [Contactez-nous](https://design-system.alpha.canada.ca/en/contact/) si vous utilisez ces unités de style.
+
+</details>
+
+<details>
+<summary>Graphique de cartographie visuelle</summary>
+
+Ceci est un graphique de mappage pour les unités de style d’espacement. Utilisez ceci pour identifier l'unité de style équivalente à utiliser pour votre conception si vous utilisez les anciennes unités de style. 
+
+```mermaid
+flowchart LR
+  subgraph tokens[" "]
+    direction LR
+    old-tokens["`Old Tokens`"] ~~~ new-tokens["`New Tokens`"]
+    old-0(gcds-spacing-0: 0px) --> new-0(gcds-spacing-0: 0px)
+    old-50(gcds-spacing-50: 3px) --> new-25(gcds-spacing-25: 2px)
+    no-old-50(" "):::invisible ~~~ new-50(gcds-spacing-50: 4px)
+    old-100(gcds-spacing-100: 6px) --> new-75(gcds-spacing-75: 6px)
+    old-150(gcds-spacing-150: 9px) --> new-100(gcds-spacing-100: 8px)
+    nno-old-125(" "):::invisible ~~~ new-125(gcds-spacing-125: 10px)
+    old-200(gcds-spacing-200: 12px) --> new-150(gcds-spacing-150: 12px)
+    old-250(gcds-spacing-250: 15px) --> new-175(gcds-spacing-175: 14px)
+    no-old-200(" "):::invisible ~~~ new-200(gcds-spacing-200: 16px)
+    old-300(gcds-spacing-300: 18px) --> new-225(gcds-spacing-225: 18px)
+    no-old-250(" "):::invisible ~~~ new-250(gcds-spacing-250: 20px)
+    old-400(gcds-spacing-400: 24px) --> new-300(gcds-spacing-300: 24px)
+    no-old-(" "):::invisible ~~~ new-350(gcds-spacing-350: 28px)
+    no-old-(" "):::invisible ~~~ new-400(gcds-spacing-400: 32px)
+    old-450(gcds-spacing-450: 36px) --> new-450(gcds-spacing-450: 36px)
+    no-old-500(" "):::invisible ~~~ new-500(gcds-spacing-500: 40px)
+    no-old-550(" "):::invisible ~~~ new-550(gcds-spacing-550: 44px)
+    old-500(gcds-spacing-500: 48px) --> new-600(gcds-spacing-600: 48px)
+    no-old-650(" "):::invisible ~~~ new-650(gcds-spacing-650: 52px)
+    no-old-700(" "):::invisible ~~~ new-700(gcds-spacing-700: 56px)
+    old-550(gcds-spacing-550: 60px) --> new-750(gcds-spacing-750: 60px)
+    no-old-800(" "):::invisible ~~~ new-800(gcds-spacing-800: 64px)
+    no-old-850(" "):::invisible ~~~ new-850(gcds-spacing-850: 68px)
+    old-600(gcds-spacing-600: 72px) --> new-900(gcds-spacing-900: 72px)
+    no-old-950(" "):::invisible ~~~ new-950(gcds-spacing-950: 76px)
+    no-old-1000(" "):::invisible ~~~ new-1000(gcds-spacing-1000: 80px)
+    no-old-1050(" "):::invisible ~~~ new-1050(gcds-spacing-1050: 84px)
+    no-old-1100(" "):::invisible ~~~ new-1100(gcds-spacing-1100: 88px)
+    no-old-1150(" "):::invisible ~~~ new-1150(gcds-spacing-1150: 92px)
+    old-700(gcds-spacing-700: 96px) --> new-1200(gcds-spacing-1200: 96px)
+    old-800(gcds-spacing-800: 120px):::deprecated ~~~ no-new-800(" "):::invisible
+    old-900(gcds-spacing-900: 144px):::deprecated ~~~ no-new-900(" "):::invisible
+    old-1000(gcds-spacing-1000: 168px):::deprecated ~~~ no-new-1000(" "):::invisible
+    no-old-1250(" "):::invisible ~~~ new-1250(gcds-spacing-1250: 100px)
+    classDef invisible fill:none,stroke:none;
+    classDef hideLinks stroke:none,stroke-width:0,arrowhead:none;
+    classDef deprecated stroke:#963939,color:#963939;
+    classDef bgcolor fill:#d3d3d3,stroke:none;
+    class bgcolor tokens;
+  end
+```
+
+\* :no_entry_sign: les valeurs des unités de style en rouge ont changé et sont désormais obsolètes. Les anciennes unités de style ont été affectées avec de nouvelles valeurs. [Contactez-nous](https://design-system.alpha.canada.ca/en/contact/) si vous utilisez ces jetons.
+
+
+</details>
+
 ## [1.20.2](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.20.1...gcds-tokens-v1.20.2)
 
 Version publiée le : 2024-11-04
