@@ -964,7 +964,7 @@ gcds-spacing-900 | 144px |:no_entry_sign: | |  
 gcds-spacing-1000 | 168px |:no_entry_sign:| |
  | | |**nouveau** | gcds-spacing-1250 | 100px
 
-\* :no_entry_sign: les valeurs de ces unités de style ont changé et sont désormais obsolètes. Les anciennes unités de styles ont été affectées de nouvelles valeurs. [Contactez-nous](https://design-system.alpha.canada.ca/en/contact/) si vous utilisez ces unités de style.
+\* :no_entry_sign: les valeurs de ces unités de style ont changé et sont désormais obsolètes. Les anciennes unités de styles ont été affectées de nouvelles valeurs. [Contactez-nous](https://systeme-design.alpha.canada.ca/fr/contact/) si vous utilisez ces unités de style.
 
 </details>
 
@@ -977,7 +977,7 @@ Ceci est un graphique de mappage pour les unités de style d’espacement. Utili
 flowchart LR
   subgraph tokens[" "]
     direction LR
-    old-tokens["`Old Tokens`"] ~~~ new-tokens["`New Tokens`"]
+    old-tokens["`Ancienne des unités de style`"] ~~~ new-tokens["`Nouvelle unité de style`"]
     old-0(gcds-spacing-0: 0px) --> new-0(gcds-spacing-0: 0px)
     old-50(gcds-spacing-50: 3px) --> new-25(gcds-spacing-25: 2px)
     no-old-50(" "):::invisible ~~~ new-50(gcds-spacing-50: 4px)
