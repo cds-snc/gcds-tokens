@@ -1062,7 +1062,7 @@ Version publiée le : 2024-09-24
 
 ## [1.19.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.18.1...gcds-tokens-v1.19.0)
 
-Released on: 2024-09-13
+Version publiée le : 2024-09-13
 
 ### :rocket: Nouvelle fonctionnalité
 
