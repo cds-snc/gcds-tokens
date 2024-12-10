@@ -1149,8 +1149,8 @@ Version publiée le : 2024-07-24
 
 ### :bug: :wrench: Corrections de bogues
 
-* revenir sur les mises à jour des unités de style de carte jusqu'à ce que la nouvelle version de carte soit prête à être publiée ([#294](https://github.com/cds-snc/gcds-tokens/issues/294)) ([c1753a1](https://github.com/cds-snc/gcds-tokens/commit/c1753a1027827edf23235951a7def4e6015b2f98))
-* revenir sur la mise à jour des unités de style de l’indicateur d’étape jusqu'à ce que l’indicateur d’étape soit prêt pour la publication ([#278](https://github.com/cds-snc/gcds-tokens/issues/278)) ([#293](https://github.com/cds-snc/gcds-tokens/issues/293)) ([24c7436](https://github.com/cds-snc/gcds-tokens/commit/24c74365dac87b06959d39a8ce67c7ffa772b0a7))
+* récupérer sur les mises à jour des unités de style de carte jusqu'à ce que la nouvelle version de carte soit prête à être publiée ([#294](https://github.com/cds-snc/gcds-tokens/issues/294)) ([c1753a1](https://github.com/cds-snc/gcds-tokens/commit/c1753a1027827edf23235951a7def4e6015b2f98))
+* récupérer sur la mise à jour des unités de style de l’indicateur d’étape jusqu'à ce que l’indicateur d’étape soit prêt pour la publication ([#278](https://github.com/cds-snc/gcds-tokens/issues/278)) ([#293](https://github.com/cds-snc/gcds-tokens/issues/293)) ([24c7436](https://github.com/cds-snc/gcds-tokens/commit/24c74365dac87b06959d39a8ce67c7ffa772b0a7))
 
 
 ### :arrows_counterclockwise: Refactorisation de code
