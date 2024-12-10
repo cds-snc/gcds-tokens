@@ -1020,7 +1020,7 @@ flowchart LR
   end
 ```
 
-\* :no_entry_sign: les valeurs des unités de style en rouge ont changé et sont désormais obsolètes. Les anciennes unités de style ont été affectées avec de nouvelles valeurs. [Contactez-nous](https://design-system.alpha.canada.ca/en/contact/) si vous utilisez ces jetons.
+\* :no_entry_sign: les valeurs des unités de style en rouge ont changé et sont désormais obsolètes. Les anciennes unités de style ont été affectées avec de nouvelles valeurs. [Contactez-nous](https://design-system.alpha.canada.ca/en/contact/) si vous utilisez ces unités de style.
 
 
 </details>
