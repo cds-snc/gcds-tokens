@@ -921,7 +921,7 @@ Nous avons déprécié toutes nos unités de style globales caption et les avons
 Nous avons ajouté 18 nouvelles unités de style d'espacement et arrêté le support de 3 valeurs (tout espacement supérieur à 100px). Voir les guides visuels de mappage ci-dessous pour plus d'informations.
 
 ##### Guide visuel de mappage des unités de style d'espacement
-Si vous utilisez l'un des jetons énumérés ci-dessus, référez-vous à l'un des guides de mappage des jetons ci-dessous pour vous aider à mettre à jour vos unités de style de conception pour les marges et les remplissages. Les unités de style utilisées dans notre package gcds-components se mettront à jour automatiquement.
+Si vous utilisez l'un des unités de style énumérés ci-dessus, référez-vous à l'un des guides de mappage des unités de style ci-dessous pour vous aider à mettre à jour vos unités de style de conception pour les marges et les remplissages. Les unités de style utilisées dans notre package gcds-components se mettront à jour automatiquement.
 
 <details>
 <summary>Table de correspondance visuelle</summary>
@@ -1273,9 +1273,9 @@ Version publiée le : 2023-11-08
 
 ### :jigsaw: Correctif
 
-- ajout de l’élément box-shadow du jeton de lien ([\#192](https://github.com/cds-snc/gcds-tokens/issues/192)) ([ca00a31](https://github.com/cds-snc/gcds-tokens/commit/ca00a310ca726156c94f61944d432c1275a2bb19))
-- mise à jour des jetons de lien (#[191](https://github.com/cds-snc/gcds-tokens/issues/191)) ([3649eb8](https://github.com/cds-snc/gcds-tokens/commit/3649eb833fadaee0024c4e183942f96fa524a786))
-- suppression de l’élément focus-border-color du jeton de lien ([\#198](https://github.com/cds-snc/gcds-tokens/issues/198)) ([0e17bf1](https://github.com/cds-snc/gcds-tokens/commit/0e17bf1ef16960e5086949f940c2fa05fb2675a5))
+- ajout de l’élément box-shadow de l'unité de style de lien ([\#192](https://github.com/cds-snc/gcds-tokens/issues/192)) ([ca00a31](https://github.com/cds-snc/gcds-tokens/commit/ca00a310ca726156c94f61944d432c1275a2bb19))
+- mise à jour des unités de style de lien (#[191](https://github.com/cds-snc/gcds-tokens/issues/191)) ([3649eb8](https://github.com/cds-snc/gcds-tokens/commit/3649eb833fadaee0024c4e183942f96fa524a786))
+- suppression de l’élément focus-border-color de l'unité de style de lien ([\#198](https://github.com/cds-snc/gcds-tokens/issues/198)) ([0e17bf1](https://github.com/cds-snc/gcds-tokens/commit/0e17bf1ef16960e5086949f940c2fa05fb2675a5))
 
 ## [1.10.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.9.2...gcds-tokens-v1.10.0)
 
@@ -1311,11 +1311,11 @@ Version publiée le : 2023-10-19
 
 ### :rocket: Nouvelles fonctionnalités
 
-- https://github.com/cds-snc/gcds-tokens/pull/175 - [946bbfc](https://github.com/cds-snc/gcds-tokens/pull/175/commits/946bbfce254ed16b98767e35fd5a4a89b6823135) \- Ajout de jetons pour gcds-text
+- https://github.com/cds-snc/gcds-tokens/pull/175 - [946bbfc](https://github.com/cds-snc/gcds-tokens/pull/175/commits/946bbfce254ed16b98767e35fd5a4a89b6823135) \- Ajout de l'unité de styles pour gcds-text
 
 ### :jigsaw: Correctif
 
-- https://github.com/cds-snc/gcds-utility/pull/175 - [1889762](https://github.com/cds-snc/gcds-tokens/pull/175/commits/03639c3bfaafcfbaae36f21288a58fdd870755eb) \- Ajout de jetons de limite de caractères pour gcds-heading
+- https://github.com/cds-snc/gcds-utility/pull/175 - [1889762](https://github.com/cds-snc/gcds-tokens/pull/175/commits/03639c3bfaafcfbaae36f21288a58fdd870755eb) \- Ajout de l'unité de styles de limite de caractères pour gcds-heading
 
 ## 1.8.0
 
@@ -1323,7 +1323,7 @@ Version publiée le : 2023-10-16
 
 ### :rocket: Nouvelles fonctionnalités
 
-- https://github.com/cds-snc/gcds-tokens/pull/173 - [4a20f0b](https://github.com/cds-snc/gcds-tokens/pull/173/commits/4a20f0b55ef0679b1b73fa486bc21cf87fcadb07) \- Ajout de jetons pour gcds-link
+- https://github.com/cds-snc/gcds-tokens/pull/173 - [4a20f0b](https://github.com/cds-snc/gcds-tokens/pull/173/commits/4a20f0b55ef0679b1b73fa486bc21cf87fcadb07) \- Ajout de l'unité de styles pour gcds-link
 
 ## 1.7.0
 
@@ -1332,7 +1332,7 @@ Version publiée le : 2023-10-10
 ### :rocket: Nouvelles fonctionnalités
 
 - https://github.com/cds-snc/gcds-utility/pull/170 - [aec4aa5](https://github.com/cds-snc/gcds-tokens/pull/170/commits/aec4aa5d5c34fb339c321a17880572b82e444461) \- Ajout de styles de police pour les appareils mobiles
-- https://github.com/cds-snc/gcds-tokens/pull/170 - [edd8c9e](https://github.com/cds-snc/gcds-tokens/pull/170/commits/edd8c9ecaf4f925ab0446b0dda6570b0fba438d5) \- Ajout de jetons pour gcds-heading
+- https://github.com/cds-snc/gcds-tokens/pull/170 - [edd8c9e](https://github.com/cds-snc/gcds-tokens/pull/170/commits/edd8c9ecaf4f925ab0446b0dda6570b0fba438d5) \- Ajout de l'unité de styles pour gcds-heading
 
 ## 1.6.1
 
@@ -1348,8 +1348,8 @@ Version publiée le : 2023-08-23
 
 ### :rocket: Nouvelles fonctionnalités
 
-- https://github.com/cds-snc/gcds-tokens/pull/145 - [4a8b152](https://github.com/cds-snc/gcds-tokens/pull/145/commits/4a8b15275a2cdc17e41eb03e9c3f16ba7b1a4120) \- Ajout de jetons de composant pour gcds-topic-menu
-- https://github.com/cds-snc/gcds-tokens/pull/145 - [63b6db3](https://github.com/cds-snc/gcds-tokens/pull/145/commits/63b6db3a21d56a437f2d32ca31d483e294561b69) \- Mise à jour des jetons de bordure et ajout des jetons de bordure manquants
+- https://github.com/cds-snc/gcds-tokens/pull/145 - [4a8b152](https://github.com/cds-snc/gcds-tokens/pull/145/commits/4a8b15275a2cdc17e41eb03e9c3f16ba7b1a4120) \- Ajout de l'unité de styles de composant pour gcds-topic-menu
+- https://github.com/cds-snc/gcds-tokens/pull/145 - [63b6db3](https://github.com/cds-snc/gcds-tokens/pull/145/commits/63b6db3a21d56a437f2d32ca31d483e294561b69) \- Mise à jour des unités de style de bordure et ajout des unités de style de bordure manquants
 
 ## 1.5.5
 
@@ -1367,7 +1367,7 @@ Version publiée le : 2023-08-16
 
 ### :jigsaw: Correctif
 
-- https://github.com/cds-snc/gcds-tokens/pull/144 - [160740c](https://github.com/cds-snc/gcds-tokens/pull/144/commits/160740c29f7ba4c3d1683013b245b8b39d8bbf2c) \- Mise à jour des jetons pour refléter les changements apportés lors de la révision des jetons
+- https://github.com/cds-snc/gcds-tokens/pull/144 - [160740c](https://github.com/cds-snc/gcds-tokens/pull/144/commits/160740c29f7ba4c3d1683013b245b8b39d8bbf2c) \- Mise à jour des unités de style pour refléter les changements apportés lors de la révision des unités de style
 
 ## 1.5.3
 
@@ -1383,7 +1383,7 @@ Version publiée le : 2023-08-04
 
 ### :jigsaw: Correctif
 
-- https://github.com/cds-snc/gcds-tokens/pull/140 - [be78635](https://github.com/cds-snc/gcds-tokens/pull/140/commits/be78635f25237de39577a40c81af420fd452faac) \- Modification des jetons border-radius dans le composant recherche
+- https://github.com/cds-snc/gcds-tokens/pull/140 - [be78635](https://github.com/cds-snc/gcds-tokens/pull/140/commits/be78635f25237de39577a40c81af420fd452faac) \- Modification des unités de style border-radius dans le composant recherche
 
 ## 1.5.1
 
@@ -1391,7 +1391,7 @@ Version publiée le : 2023-08-03
 
 ### :jigsaw: Correctif
 
-- https://github.com/cds-snc/gcds-tokens/pull/139 - [6cc2d8c](https://github.com/cds-snc/gcds-tokens/pull/139/commits/6cc2d8cde5529254c65871f51832c1ab9abe2878) \- Suppression du jeton de largeur inutilisé de l’en-tête
+- https://github.com/cds-snc/gcds-tokens/pull/139 - [6cc2d8c](https://github.com/cds-snc/gcds-tokens/pull/139/commits/6cc2d8cde5529254c65871f51832c1ab9abe2878) \- Suppression de l'unité de style de largeur inutilisé de l’en-tête
 
 ## 1.5.0
 
@@ -1399,7 +1399,7 @@ Version publiée le : 2023-08-02
 
 ### :rocket: Nouvelles fonctionnalités
 
-- https://github.com/cds-snc/gcds-tokens/pull/138 - [24a53ab](https://github.com/cds-snc/gcds-tokens/pull/138/commits/24a53abfe2d42bff6cdd3514d0edd1fb8f253708) \- Ajout des jetons pour le composant gcds-search
+- https://github.com/cds-snc/gcds-tokens/pull/138 - [24a53ab](https://github.com/cds-snc/gcds-tokens/pull/138/commits/24a53abfe2d42bff6cdd3514d0edd1fb8f253708) \- Ajout des unités de style pour le composant gcds-search
 
 ## 1.4.2
 
@@ -1409,7 +1409,7 @@ Version publiée le : 2023-07-24
 
 - https://github.com/cds-snc/gcds-tokens/pull/136 - [5da9524](https://github.com/cds-snc/gcds-tokens/pull/136/commits/5da9524cbe8e0d50bfba06138abe219735c8d43b) \- Ajustement de la police de légende du jeu de champs
 - https://github.com/cds-snc/gcds-tokens/pull/136 - [5732ad1](https://github.com/cds-snc/gcds-tokens/pull/136/commits/5732ad112ec366ac6ac533e968aa6f1ea5d24521) \- Mise à jour du style d’état d’erreur pour les composants de formulaire
-- https://github.com/cds-snc/gcds-tokens/pull/136 - [0966931](https://github.com/cds-snc/gcds-tokens/pull/136/commits/0966931be61b094cdc0449630009df50568babf5) \- Suppression des jetons de sous-titre du résumé des erreurs
+- https://github.com/cds-snc/gcds-tokens/pull/136 - [0966931](https://github.com/cds-snc/gcds-tokens/pull/136/commits/0966931be61b094cdc0449630009df50568babf5) \- Suppression des unités de style de sous-titre du résumé des erreurs
 
 ## 1.4.1
 
@@ -1425,19 +1425,19 @@ Version publiée le : 2023-07-04
 
 ### :rocket: Nouvelles fonctionnalités
 
-- https://github.com/cds-snc/gcds-tokens/pull/131 - [b7767b8](https://github.com/cds-snc/gcds-tokens/pull/131/commits/b7767b82ccd25950fb0fa79ab7b25d67db57fe7e) \- Ajout des jetons pour nav-link
-- https://github.com/cds-snc/gcds-tokens/pull/131 - [5eda70d](https://github.com/cds-snc/gcds-tokens/pull/131/commits/5eda70dfdb0ae97af574324ca93f937d28812073) \- Ajout des jetons pour nav-group
-- https://github.com/cds-snc/gcds-tokens/pull/131 - [4621154](https://github.com/cds-snc/gcds-tokens/pull/131/commits/46211545e5697593786c53f921ae0e04bd75576e) \- Remplacement des jetons site-menu par des jetons top-nav
-- https://github.com/cds-snc/gcds-tokens/pull/131 - [2aada68](https://github.com/cds-snc/gcds-tokens/pull/131/commits/2aada684b55524c91b96c5ef891ef1596359dbf7) \- Ajout des jetons pour side-nav
-- https://github.com/cds-snc/gcds-tokens/pull/131 - [e0763ac](https://github.com/cds-snc/gcds-tokens/pull/131/commits/e0763ac40a4da800794c9e752bd83eb336b240ff) \- Ajout des jetons nav-link pour appareils mobiles
-- https://github.com/cds-snc/gcds-tokens/pull/131 - [b5f209c](https://github.com/cds-snc/gcds-tokens/pull/131/commits/b5f209cf1cc98665c14093c8fb04676d59d508a8) \- Ajout des jetons side-nav pour appareils mobiles
-- https://github.com/cds-snc/gcds-tokens/pull/131 - [1f8aead](https://github.com/cds-snc/gcds-tokens/pull/131/commits/1f8aead90d58bce69de6f9a278924b9b0a66b5a9) \- Ajout des jetons top-nav pour appareils mobiles
-- https://github.com/cds-snc/gcds-tokens/pull/131 - [45f726b](https://github.com/cds-snc/gcds-tokens/pull/131/commits/45f726ba2e1b72e1ffb92ac1e563a9ffd6244fa8) \- Ajout des jetons nav-group pour appareils mobiles
+- https://github.com/cds-snc/gcds-tokens/pull/131 - [b7767b8](https://github.com/cds-snc/gcds-tokens/pull/131/commits/b7767b82ccd25950fb0fa79ab7b25d67db57fe7e) \- Ajout des unités de style pour nav-link
+- https://github.com/cds-snc/gcds-tokens/pull/131 - [5eda70d](https://github.com/cds-snc/gcds-tokens/pull/131/commits/5eda70dfdb0ae97af574324ca93f937d28812073) \- Ajout des unités de style pour nav-group
+- https://github.com/cds-snc/gcds-tokens/pull/131 - [4621154](https://github.com/cds-snc/gcds-tokens/pull/131/commits/46211545e5697593786c53f921ae0e04bd75576e) \- Remplacement des unités de style site-menu par des unités de style top-nav
+- https://github.com/cds-snc/gcds-tokens/pull/131 - [2aada68](https://github.com/cds-snc/gcds-tokens/pull/131/commits/2aada684b55524c91b96c5ef891ef1596359dbf7) \- Ajout des unités de style pour side-nav
+- https://github.com/cds-snc/gcds-tokens/pull/131 - [e0763ac](https://github.com/cds-snc/gcds-tokens/pull/131/commits/e0763ac40a4da800794c9e752bd83eb336b240ff) \- Ajout des unités de style nav-link pour appareils mobiles
+- https://github.com/cds-snc/gcds-tokens/pull/131 - [b5f209c](https://github.com/cds-snc/gcds-tokens/pull/131/commits/b5f209cf1cc98665c14093c8fb04676d59d508a8) \- Ajout des unités de style side-nav pour appareils mobiles
+- https://github.com/cds-snc/gcds-tokens/pull/131 - [1f8aead](https://github.com/cds-snc/gcds-tokens/pull/131/commits/1f8aead90d58bce69de6f9a278924b9b0a66b5a9) \- Ajout des unités de style top-nav pour appareils mobiles
+- https://github.com/cds-snc/gcds-tokens/pull/131 - [45f726b](https://github.com/cds-snc/gcds-tokens/pull/131/commits/45f726ba2e1b72e1ffb92ac1e563a9ffd6244fa8) \- Ajout des unités de style nav-group pour appareils mobiles
 
 ### :jigsaw: Correctif
 
 - https://github.com/cds-snc/gcds-tokens/pull/131 - [fcadc41](https://github.com/cds-snc/gcds-tokens/pull/131/commits/fcadc4143df8c217cbc40b9f092abfc100151708) \- Mise à jour des tailles de contenants xl et lg
-- https://github.com/cds-snc/gcds-tokens/pull/131 - [4621154](https://github.com/cds-snc/gcds-tokens/pull/131/commits/41cb12720c08e2a4c41777de5a06d29367cc7a8f) \- Suppression des jetons site-menu
+- https://github.com/cds-snc/gcds-tokens/pull/131 - [4621154](https://github.com/cds-snc/gcds-tokens/pull/131/commits/41cb12720c08e2a4c41777de5a06d29367cc7a8f) \- Suppression des unités de style site-menu
 
 ## 1.3.3
 
@@ -1445,7 +1445,7 @@ Version publiée le : 2023-07-04
 
 ### :jigsaw: Correctif
 
-- https://github.com/cds-snc/gcds-tokens/pull/133 - [76f0a75](https://github.com/cds-snc/gcds-tokens/pull/133/commits/76f0a7566a06d3423ca9e7928e87241a6a31fdc3) \- Mise à jour des jetons de bordure de carte
+- https://github.com/cds-snc/gcds-tokens/pull/133 - [76f0a75](https://github.com/cds-snc/gcds-tokens/pull/133/commits/76f0a7566a06d3423ca9e7928e87241a6a31fdc3) \- Mise à jour des unités de style de bordure de carte
 
 ## 1.3.2
 
@@ -1453,7 +1453,7 @@ Version publiée le : 2023-06-29
 
 ### :jigsaw: Correctif
 
-- https://github.com/cds-snc/gcds-tokens/pull/132 - [2e82963](https://github.com/cds-snc/gcds-tokens/pull/132/commits/2e829637bc7247bf3bc42e1e4852ad28cc7b2485) \- Ajout des jetons pour le composant conteneur
+- https://github.com/cds-snc/gcds-tokens/pull/132 - [2e82963](https://github.com/cds-snc/gcds-tokens/pull/132/commits/2e829637bc7247bf3bc42e1e4852ad28cc7b2485) \- Ajout des unités de style pour le composant conteneur
 
 ## 1.3.1
 
@@ -1461,7 +1461,7 @@ Version publiée le : 2023-06-27
 
 ### :jigsaw: Correctif
 
-- https://github.com/cds-snc/gcds-tokens/pull/130 - [de8074b](https://github.com/cds-snc/gcds-tokens/pull/130/commits/de8074b826f2a9a61f5f0ed98052102f0524b1ee) \- Ajout du jeton de description manquant pour la carte
+- https://github.com/cds-snc/gcds-tokens/pull/130 - [de8074b](https://github.com/cds-snc/gcds-tokens/pull/130/commits/de8074b826f2a9a61f5f0ed98052102f0524b1ee) \- Ajout de l'unité de style de description manquant pour la carte
 
 ## 1.3.0
 
@@ -1469,8 +1469,8 @@ Version publiée le : 2023-06-26
 
 ### :rocket: Nouvelles fonctionnalités
 
-- https://github.com/cds-snc/gcds-tokens/pull/127 - [82832a8](https://github.com/cds-snc/gcds-tokens/pull/127/commits/82832a87119f871687edd63f39ea16f8e34353cc) \- Nouveaux jetons pour le composant gcds-card
-- https://github.com/cds-snc/gcds-tokens/pull/127 - [26d1ee8](https://github.com/cds-snc/gcds-tokens/pull/127/commits/26d1ee89c6c0842e42fcdcf1b8b01eaffb406abe) \- Mise à jour du jeton de bordure de carte
+- https://github.com/cds-snc/gcds-tokens/pull/127 - [82832a8](https://github.com/cds-snc/gcds-tokens/pull/127/commits/82832a87119f871687edd63f39ea16f8e34353cc) \- Nouvelles unités de style pour le composant gcds-card
+- https://github.com/cds-snc/gcds-tokens/pull/127 - [26d1ee8](https://github.com/cds-snc/gcds-tokens/pull/127/commits/26d1ee89c6c0842e42fcdcf1b8b01eaffb406abe) \- Mise à jour de l'unité de style de bordure de carte
 
 ## 1.2.1
 
@@ -1478,7 +1478,7 @@ Version publiée le : 2023-06-22
 
 ### :jigsaw: Correctif
 
-- https://github.com/cds-snc/gcds-tokens/pull/128 - [3e72118](https://github.com/cds-snc/gcds-tokens/pull/128/commits/3e721187a5b1dda1637fe71443a5a0e82d901a0a) \- Ajout des jetons de composant manquants
+- https://github.com/cds-snc/gcds-tokens/pull/128 - [3e72118](https://github.com/cds-snc/gcds-tokens/pull/128/commits/3e721187a5b1dda1637fe71443a5a0e82d901a0a) \- Ajout des unités de style de composant manquants
 
 ## 1.2.0
 
@@ -1487,7 +1487,7 @@ Version publiée le : 2023-06-21
 ### :arrows_counterclockwise: Refactorisation du code
 
 - https://github.com/cds-snc/gcds-tokens/pull/126 - [a76688c](https://github.com/cds-snc/gcds-tokens/pull/126/commits/a76688c0ed9aa507f90a04268d7123d673e3fcbd) \- Fichiers base.json et base.js renommés à tokens.json et tokens.js pour améliorer la cohérence
-- https://github.com/cds-snc/gcds-tokens/pull/126 - [4f4ff47](https://github.com/cds-snc/gcds-tokens/pull/126/commits/4f4ff477ef4090fb694a740c534bc423dff1750f) \- Modification du chemin de jeton pour créer des fichiers de sortie pour chaque catégorie de jeton.
+- https://github.com/cds-snc/gcds-tokens/pull/126 - [4f4ff47](https://github.com/cds-snc/gcds-tokens/pull/126/commits/4f4ff477ef4090fb694a740c534bc423dff1750f) \- Modification du chemin de l'unité de style pour créer des fichiers de sortie pour chaque catégorie de l'unité de style.
 
 ## 1.1.3
 
@@ -1495,7 +1495,7 @@ Version publiée le : 2023-06-05
 
 ### :jigsaw: Correctif
 
-- https://github.com/cds-snc/gcds-tokens/pull/124 - [8c2aff2](https://github.com/cds-snc/gcds-tokens/pull/124/commits/8c2aff2c03db5d3f7aa08ae0271f71a3d7a8fc74) \- Suppression de la bordure active d’alerte et des jetons de bordure de pagination
+- https://github.com/cds-snc/gcds-tokens/pull/124 - [8c2aff2](https://github.com/cds-snc/gcds-tokens/pull/124/commits/8c2aff2c03db5d3f7aa08ae0271f71a3d7a8fc74) \- Suppression de la bordure active d’alerte et des unités de style de bordure de pagination
 
 ## 1.1.2
 
@@ -1512,9 +1512,9 @@ Version publiée le : 2023-05-31
 
 ### :jigsaw: Correctif
 
-- https://github.com/cds-snc/gcds-tokens/pull/122 - [ba0e4d6](https://github.com/cds-snc/gcds-tokens/pull/122/commits/ba0e4d661f41288a9af95beda0c15b982f094519#diff-eec67a891e2761c7007ee83fae55ad411905af763575b65a271d4bf884a8f457) \- Déplacement des jetons globaux pour le conteneur, l’espacement et la typographie dans un dossier global
+- https://github.com/cds-snc/gcds-tokens/pull/122 - [ba0e4d6](https://github.com/cds-snc/gcds-tokens/pull/122/commits/ba0e4d661f41288a9af95beda0c15b982f094519#diff-eec67a891e2761c7007ee83fae55ad411905af763575b65a271d4bf884a8f457) \- Déplacement des unités de style globaux pour le conteneur, l’espacement et la typographie dans un dossier global
 - https://github.com/cds-snc/gcds-tokens/pull/122 - [5098a50](https://github.com/cds-snc/gcds-tokens/pull/122/commits/5098a50df78c5a13e71e38cb9c33f39d852130eb) \- Validation que la signature du canada utilise du texte noir
-- https://github.com/cds-snc/gcds-tokens/pull/122 - [4d42cc5](https://github.com/cds-snc/gcds-tokens/pull/122/commits/4d42cc5a1d4b6f40f5ee258ed15edc41552295e6) \- Réorganisation des jetons de couleur bleue du clair au foncé
+- https://github.com/cds-snc/gcds-tokens/pull/122 - [4d42cc5](https://github.com/cds-snc/gcds-tokens/pull/122/commits/4d42cc5a1d4b6f40f5ee258ed15edc41552295e6) \- Réorganisation des unités de style de couleur bleue du clair au foncé
 
 ## 1.1.1
 
@@ -1522,7 +1522,7 @@ Version publiée le : 2023-04-25
 
 ### :jigsaw: Correctif
 
-- https://github.com/cds-snc/gcds-tokens/pull/114 - [8fc59ab](https://github.com/cds-snc/gcds-tokens/pull/114/commits/8fc59ab3c488c4f912e5b7d93a8a4248f8e6fbf7) \- Ajout de nouveaux jetons de marge et de marge intérieure pour gcds-breadcrumbs
+- https://github.com/cds-snc/gcds-tokens/pull/114 - [8fc59ab](https://github.com/cds-snc/gcds-tokens/pull/114/commits/8fc59ab3c488c4f912e5b7d93a8a4248f8e6fbf7) \- Ajout de nouvelles unités de style de marge et de marge intérieure pour gcds-breadcrumbs
 
 ## 1.1.0
 
@@ -1531,7 +1531,7 @@ Version publiée le : 2023-04-21
 ### :rocket: Nouvelles fonctionnalités
 
 - https://github.com/cds-snc/gcds-tokens/pull/112 - [42956e2](https://github.com/cds-snc/gcds-tokens/pull/112/commits/42956e2e1475ab5257c14cb7583f36f3312a71ff) \- Ajout du composant résumé des erreurs
-- https://github.com/cds-snc/gcds-tokens/pull/112 - [0ac7a26](https://github.com/cds-snc/gcds-tokens/pull/112/commits/0ac7a26669217ed37d5fb48bafc30da4c2b5ad81) \- Ajout du jeton couleur de texte
+- https://github.com/cds-snc/gcds-tokens/pull/112 - [0ac7a26](https://github.com/cds-snc/gcds-tokens/pull/112/commits/0ac7a26669217ed37d5fb48bafc30da4c2b5ad81) \- Ajout de l'unité de style couleur de texte
 
 ## 1.0.6
 
@@ -1539,7 +1539,7 @@ Version publiée le : 2023-04-21
 
 ### :jigsaw: Correctif
 
-- https://github.com/cds-snc/gcds-tokens/pull/113 - [a9b2712](https://github.com/cds-snc/gcds-tokens/pull/113/commits/a9b27127dc4cb47d51ed881d0dd2c6665b676802) \- Ajustement des jetons pour lang-toggle
+- https://github.com/cds-snc/gcds-tokens/pull/113 - [a9b2712](https://github.com/cds-snc/gcds-tokens/pull/113/commits/a9b27127dc4cb47d51ed881d0dd2c6665b676802) \- Ajustement des unités de style pour lang-toggle
 
 ## 1.0.5
 
@@ -1547,7 +1547,7 @@ Version publiée le : 2023-03-30
 
 ### :jigsaw: Correctif
 
-- https://github.com/cds-snc/gcds-tokens/pull/111 - [bf64968](https://github.com/cds-snc/gcds-tokens/pull/111/commits/bf6496851ff3352e85663d58e69d81b711ac693b) \- Nouveaux jetons pour les composants chemin de navigation et détails
+- https://github.com/cds-snc/gcds-tokens/pull/111 - [bf64968](https://github.com/cds-snc/gcds-tokens/pull/111/commits/bf6496851ff3352e85663d58e69d81b711ac693b) \- Nouvelles unités de style pour les composants chemin de navigation et détails
 
 ## 1.0.4
 
@@ -1555,9 +1555,9 @@ Version publiée le : 2023-03-27
 
 ### :jigsaw: Correctif
 
-- https://github.com/cds-snc/gcds-utility/pull/96 - [bde76cb](https://github.com/cds-snc/gcds-tokens/pull/96/commits/bde76cb594932586c763aa33255c1ae798b2641c) \- Mise à jour du jeton pied de page
+- https://github.com/cds-snc/gcds-utility/pull/96 - [bde76cb](https://github.com/cds-snc/gcds-tokens/pull/96/commits/bde76cb594932586c763aa33255c1ae798b2641c) \- Mise à jour de l'unité de style pied de page
 - https://github.com/cds-snc/gcds-utility/pull/96 - [a733313](https://github.com/cds-snc/gcds-tokens/pull/96/commits/a733313f23590fa784bdeebf5e76771f221636fd) \- Mises à jour des couleurs de liens de pied de page
-- https://github.com/cds-snc/gcds-tokens/pull/106 - [6db5164](https://github.com/cds-snc/gcds-tokens/pull/106/commits/6db5164684226eac930e5d76633e07533a157aea) \- Ajout de jetons pour prendre en charge les boutons mobiles pleine largeur
+- https://github.com/cds-snc/gcds-tokens/pull/106 - [6db5164](https://github.com/cds-snc/gcds-tokens/pull/106/commits/6db5164684226eac930e5d76633e07533a157aea) \- Ajout de l'unité de styles pour prendre en charge les boutons mobiles pleine largeur
 
 ## 1.0.3
 
@@ -1584,7 +1584,7 @@ Version publiée le : 2023-02-22
 ### :jigsaw: Correctif
 
 - https://github.com/cds-snc/gcds-tokens/pull/90 - [48efe65](https://github.com/cds-snc/gcds-tokens/pull/90/commits/48efe65acbe3d4f6f72d246b14f9748ee2c3b09f) \- Mise à jour de conception aux composants bouton, étiquette, téléverseur de fichiers et pied de page
-- https://github.com/cds-snc/gcds-tokens/pull/90 - [7a9bc12](https://github.com/cds-snc/gcds-tokens/pull/90/commits/7a9bc126226c9653c1e20882ec1b5177fbd815b8) \- Ajout des jetons pour le texte des boutons uniquement
+- https://github.com/cds-snc/gcds-tokens/pull/90 - [7a9bc12](https://github.com/cds-snc/gcds-tokens/pull/90/commits/7a9bc126226c9653c1e20882ec1b5177fbd815b8) \- Ajout des unités de style pour le texte des boutons uniquement
 
 ## 1.0.0
 
@@ -1592,4 +1592,4 @@ Version publiée le : 2023-02-10
 
 ### :rocket: Nouvelles fonctionnalités
 
-Première version des jetons Système de design GC
+Première version des unités de style Système de design GC
