@@ -3709,6 +3709,16 @@
               },
               "type": "typography"
             }
+          },
+          "marginBlockStart": {
+            "desktop": {
+              "value": "1rem",
+              "type": "spacing"
+            },
+            "mobile": {
+              "value": "1.25rem",
+              "type": "spacing"
+            }
           }
         },
         "slotted": {
