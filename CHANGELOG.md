@@ -826,7 +826,7 @@ Référez-vous à ce [tableau de correspondance visuelle](#spacing-tokens-visual
   - [Guide visuel de mappage des unités de style d'espacement](#guide-visuel-de-mappage-des-unités-de-style-despacement)
 
 #### Quels sont les changements ?
-Les jetons de conception suivants ont de nouvelles valeurs pour les tailles de police, les hauteurs de ligne et les espacements.
+Les unités de style suivantes ont de nouvelles valeurs pour les tailles de police, les hauteurs de ligne et les espacements.
 
 ##### Tailles de Police
 ###### Bureau
