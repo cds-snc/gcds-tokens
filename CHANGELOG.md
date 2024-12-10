@@ -977,7 +977,7 @@ Ceci est un graphique de mappage pour les unités de style d’espacement. Utili
 flowchart LR
   subgraph tokens[" "]
     direction LR
-    old-tokens["`Ancienne des unités de style`"] ~~~ new-tokens["`Nouvelle unité de style`"]
+    old-tokens["`Anciennes unités de style`"] ~~~ new-tokens["`Nouvelles unités de style`"]
     old-0(gcds-spacing-0: 0px) --> new-0(gcds-spacing-0: 0px)
     old-50(gcds-spacing-50: 3px) --> new-25(gcds-spacing-25: 2px)
     no-old-50(" "):::invisible ~~~ new-50(gcds-spacing-50: 4px)
