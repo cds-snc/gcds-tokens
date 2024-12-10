@@ -1435,17 +1435,17 @@
         }
       },
       "margin": {
-        "value": "0",
+        "value": "0 0 0 -0.125rem",
         "type": "spacing"
       },
       "padding": {
-        "value": "0",
+        "value": "0 0 0 0.125rem",
         "type": "spacing"
       },
       "mobile": {
         "item": {
           "margin": {
-            "value": "0.375rem 0",
+            "value": "0.125rem 0",
             "type": "spacing"
           }
         }
