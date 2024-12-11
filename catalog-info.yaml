@@ -11,6 +11,7 @@ metadata:
   labels:
     license: MIT
 spec:
-  type: website
+  type: library
   lifecycle: experimental
-  owner: cds-snc
+  owner: cds-snc/design-system 
+  system: gc-design-system
