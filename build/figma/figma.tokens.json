@@ -1435,17 +1435,17 @@
         }
       },
       "margin": {
-        "value": "0",
+        "value": "0 0 0 -0.125rem",
         "type": "spacing"
       },
       "padding": {
-        "value": "0",
+        "value": "0 0 0 0.125rem",
         "type": "spacing"
       },
       "mobile": {
         "item": {
           "margin": {
-            "value": "0.375rem 0",
+            "value": "0.125rem 0",
             "type": "spacing"
           }
         }
@@ -2065,7 +2065,7 @@
           "type": "spacing"
         },
         "padding": {
-          "value": "0.75rem 0rem 0.75rem 2.25rem",
+          "value": "0.75rem 0rem 0.75rem 1.75rem",
           "type": "spacing"
         },
         "slotted": {
@@ -2101,7 +2101,7 @@
           }
         },
         "padding": {
-          "value": "0.375rem 0.375rem 0.375rem 3rem",
+          "value": "0.375rem 0.375rem 0.375rem 2.5rem",
           "type": "spacing"
         }
       }
