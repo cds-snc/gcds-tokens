@@ -57,9 +57,9 @@ jobs:
           aws-region: ${{ env.CDN_REGION }}
 
       - name: Update CDN
-        if: steps.publish.outputs.id != ''
         run: |
-          PUBLISHED_PACKAGE="${{ steps.publish.outputs.id }}"
+          PUBLISHED_PACKAGE="${{ env.PACKAGE_NAME }}@${{ env.VERSION }}"
+          echo "Uploading package to the CDN: ${{ PUBLISHED_PACKAGE }}"
 
           mkdir -p ./tmp \
             && sleep 60 \
