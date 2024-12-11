@@ -24,11 +24,24 @@ jobs:
       - name: Git Checkout
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
+      - name: Check if package exists
+        id: package_exists
+        run: |
+          if npm show ${{ env.PACKAGE_NAME }}@${{ steps.publish.outputs.id }} > /dev/null 2>&1; then
+            echo "pkg_exists=true" >> $GITHUB_ENV
+          else
+            echo "pkg_exists=false" >> $GITHUB_ENV
+
       - name: Publish
+        if: pkg_exists != 'true'
         uses: JS-DevTools/npm-publish@e06fe3ef65499b38eb12224f2a60979f6d797330
         id: publish
         with:
           token: ${{ secrets.NPM_TOKEN }}
+
+      - name: Sleep for 60 seconds to give more time for NPM to complete publishing before proceeding to publish the rest
+        if: pkg_exists != 'true'
+        run: sleep 60
 
       - name: Configure AWS credentials using OIDC
         if: steps.publish.outputs.id != ''
@@ -77,4 +90,3 @@ jobs:
           json='{"text":"🚀 New release available! @cdssnc/gcds-tokens *version <https://github.com/cds-snc/gcds-tokens/releases/tag/gcds-tokens-v'$VERSION'|${{steps.publish.outputs.id}}>*"}'
           echo "Posting to slack: $json"
           curl -X POST -H 'Content-type: application/json' --data "$json" ${{ secrets.SLACK_WEBHOOK_DSNDEV }}
-          
