@@ -33,14 +33,14 @@ jobs:
             echo "pkg_exists=false" >> $GITHUB_ENV
 
       - name: Publish
-        if: pkg_exists != 'true'
+        if: env.pkg_exists != 'true'
         uses: JS-DevTools/npm-publish@e06fe3ef65499b38eb12224f2a60979f6d797330
         id: publish
         with:
           token: ${{ secrets.NPM_TOKEN }}
 
       - name: Sleep for 60 seconds to give more time for NPM to complete publishing before proceeding to publish the rest
-        if: pkg_exists != 'true'
+        if: env.pkg_exists != 'true'
         run: sleep 60
 
       - name: Configure AWS credentials using OIDC
