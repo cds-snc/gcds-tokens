@@ -35,6 +35,7 @@ jobs:
             echo "pkg_exists=true" >> $GITHUB_ENV
           else
             echo "pkg_exists=false" >> $GITHUB_ENV
+          fi
 
       - name: Publish
         if: env.pkg_exists != 'true'
