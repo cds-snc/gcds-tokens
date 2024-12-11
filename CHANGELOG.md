@@ -10,7 +10,7 @@ All notable changes to this project will be documented in this file.
 ### :bug: :wrench: Bug Fixes
 
 * adjust breadcrumbs item margin + details padding after typography & spacing update ([#353](https://github.com/cds-snc/gcds-tokens/issues/353)) ([31df600](https://github.com/cds-snc/gcds-tokens/commit/31df600fa297911989ccd0eda397c8ed6da29c61))
-* Notice heading spacing ([#351](https://github.com/cds-snc/gcds-tokens/issues/351)) ([959840d](https://github.com/cds-snc/gcds-tokens/commit/959840ddb2027875a57b684d0f32d86cf790bdec))
+* updated the Notice heading spacing to use new tokens ([#351](https://github.com/cds-snc/gcds-tokens/issues/351)) ([959840d](https://github.com/cds-snc/gcds-tokens/commit/959840ddb2027875a57b684d0f32d86cf790bdec))
 
 ## [2.0.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.20.2...gcds-tokens-v2.0.0)
 
