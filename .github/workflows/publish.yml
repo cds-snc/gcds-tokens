@@ -24,10 +24,14 @@ jobs:
       - name: Git Checkout
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
+      - name: Get version from package.json
+        id: get_version
+        run: echo "VERSION=$(jq -r '.version' package.json)" >> $GITHUB_ENV
+
       - name: Check if package exists
         id: package_exists
         run: |
-          if npm show ${{ env.PACKAGE_NAME }}@${{ steps.publish.outputs.id }} > /dev/null 2>&1; then
+          if npm show ${{ env.PACKAGE_NAME }}@${{ env.VERSION }} > /dev/null 2>&1; then
             echo "pkg_exists=true" >> $GITHUB_ENV
           else
             echo "pkg_exists=false" >> $GITHUB_ENV
