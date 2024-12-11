@@ -58,8 +58,8 @@ jobs:
 
       - name: Update CDN
         run: |
-          PUBLISHED_PACKAGE="${{ env.PACKAGE_NAME }}@${{ env.VERSION }}"
-          echo "Uploading package to the CDN: ${{ PUBLISHED_PACKAGE }}"
+          PUBLISHED_PACKAGE="$env.PACKAGE_NAME@env.VERSION"
+          echo "Uploading package to the CDN: $PUBLISHED_PACKAGE"
 
           mkdir -p ./tmp \
             && sleep 60 \
