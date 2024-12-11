@@ -808,6 +808,16 @@ First release of GC Design System Tokens.
 
 Tout changement important à ce projet sera consigné dans le présent fichier.
 
+## [2.0.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.0.0...gcds-tokens-v2.0.1)
+
+Version publiée le : 2024-12-10
+
+### :bug: :wrench: Corrections de bogues
+
+* _adjust breadcrumbs item margin + details padding after typography & spacing update_ ([#353](https://github.com/cds-snc/gcds-tokens/issues/353)) ([31df600](https://github.com/cds-snc/gcds-tokens/commit/31df600fa297911989ccd0eda397c8ed6da29c61))
+
+* Mis a jour de l'espacement de l'entête du composant Notice pour utiliser les nouvelles unités de style ([#351](https://github.com/cds-snc/gcds-tokens/issues/351)) ([959840d](https://github.com/cds-snc/gcds-tokens/commit/959840ddb2027875a57b684d0f32d86cf790bdec))
+
 ## [2.0.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v1.20.2...gcds-tokens-v2.0.0)
 
 Version publiée le : 2024-12-05
