@@ -108,24 +108,6 @@
       },
       "type": "typography"
     },
-    "label": {
-      "value": {
-        "fontFamily": "{fontFamilies.body}",
-        "fontWeight": "{fontWeights.medium}",
-        "lineHeight": "{lineHeights.text}",
-        "fontSize": "{fontSizes.text}"
-      },
-      "type": "typography"
-    },
-    "labelMobile": {
-      "value": {
-        "fontFamily": "{fontFamilies.body}",
-        "fontWeight": "{fontWeights.medium}",
-        "lineHeight": "{lineHeights.textMobile}",
-        "fontSize": "{fontSizes.textMobile}"
-      },
-      "type": "typography"
-    },
     "text": {
       "value": {
         "fontFamily": "{fontFamilies.body}",

@@ -988,24 +988,6 @@
         },
         "type": "typography"
       },
-      "label": {
-        "value": {
-          "fontFamily": "'Noto Sans', sans-serif",
-          "fontWeight": "500",
-          "lineHeight": "160%",
-          "fontSize": "1.25rem"
-        },
-        "type": "typography"
-      },
-      "labelMobile": {
-        "value": {
-          "fontFamily": "'Noto Sans', sans-serif",
-          "fontWeight": "500",
-          "lineHeight": "155%",
-          "fontSize": "1.125rem"
-        },
-        "type": "typography"
-      },
       "text": {
         "value": {
           "fontFamily": "'Noto Sans', sans-serif",
