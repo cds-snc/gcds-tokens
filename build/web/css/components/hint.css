@@ -3,6 +3,6 @@
  */
 
 :root {
-  --gcds-hint-margin: 0 0 0.5rem;
+  --gcds-hint-margin: -0.375rem 0 0.5rem;
   --gcds-hint-text: #43474e;
 }
