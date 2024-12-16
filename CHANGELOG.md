@@ -4,6 +4,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.2](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.0.1...gcds-tokens-v2.0.2)
+
+Released on: 2024-12-16
+
+### :arrows_counterclockwise: Code Refactoring
+
+* adjust form element spacing ([#365](https://github.com/cds-snc/gcds-tokens/issues/365)) ([e459947](https://github.com/cds-snc/gcds-tokens/commit/e459947ddb2d2d5c93370fffcf2065a4269195b2))
+* remove global font token for label ([#366](https://github.com/cds-snc/gcds-tokens/issues/366)) ([1a00c70](https://github.com/cds-snc/gcds-tokens/commit/1a00c70120c1dee9aabf28b97c4745035f169dca))
+
 ## [2.0.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.0.0...gcds-tokens-v2.0.1)
 
 Released on: 2024-12-11
