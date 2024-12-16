@@ -4,19 +4,9 @@
 
 All notable changes to this project will be documented in this file.
 
-## [2.1.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.0.1...gcds-tokens-v2.1.0) (2024-12-16)
+## [2.0.2](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.0.1...gcds-tokens-v2.0.2)
 
-
-### :rocket: New Features
-
-* update metadata fo point to System and Owner team ([#363](https://github.com/cds-snc/gcds-tokens/issues/363)) ([834e172](https://github.com/cds-snc/gcds-tokens/commit/834e1725851e4c43f302593edab45d6fe1e70653))
-
-
-### :bug: :wrench: Bug Fixes
-
-* **ci:** remove condition on setting up aws creds before uploading to the cdnn ([#362](https://github.com/cds-snc/gcds-tokens/issues/362)) ([3789f08](https://github.com/cds-snc/gcds-tokens/commit/3789f081f86fe99dcc4e966a2629f515d4e11010))
-* gh actions add ignore if package already exists ([#354](https://github.com/cds-snc/gcds-tokens/issues/354)) ([31da24a](https://github.com/cds-snc/gcds-tokens/commit/31da24ae8fc5c1913193543f3e35ed6ef57c2acc))
-
+Released on: 2024-12-16
 
 ### :arrows_counterclockwise: Code Refactoring
 
