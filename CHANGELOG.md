@@ -4,8 +4,9 @@
 
 All notable changes to this project will be documented in this file.
 
-## [2.0.3](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.0.2...gcds-tokens-v2.0.3) (2024-12-17)
+## [2.0.3](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.0.2...gcds-tokens-v2.0.3)
 
+Released on: 2024-12-17
 
 ### :art: Styles
 
