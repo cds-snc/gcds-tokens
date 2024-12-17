@@ -2057,6 +2057,18 @@
           }
         }
       },
+      "print": {
+        "summary": {
+          "fontWeight": {
+            "value": "600",
+            "type": "fontWeight"
+          },
+          "text": {
+            "value": "#333333",
+            "type": "color"
+          }
+        }
+      },
       "summary": {
         "arrow": {
           "borderLeft": {
