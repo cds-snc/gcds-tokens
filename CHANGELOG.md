@@ -4,6 +4,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.3](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.0.2...gcds-tokens-v2.0.3)
+
+Released on: 2024-12-17
+
+### :art: Styles
+
+* improve print design for details component ([#367](https://github.com/cds-snc/gcds-tokens/issues/367)) ([6581990](https://github.com/cds-snc/gcds-tokens/commit/65819904824e6febd91d3f42d327b5a37adc1bcb))
+
 ## [2.0.2](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.0.1...gcds-tokens-v2.0.2)
 
 Released on: 2024-12-16
