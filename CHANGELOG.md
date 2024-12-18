@@ -833,7 +833,7 @@ Version publiée le : 2024-12-10
 
 ### :bug: :wrench: Corrections de bogues
 
-* _adjust breadcrumbs item margin + details padding after typography & spacing update_ ([#353](https://github.com/cds-snc/gcds-tokens/issues/353)) ([31df600](https://github.com/cds-snc/gcds-tokens/commit/31df600fa297911989ccd0eda397c8ed6da29c61))
+* ajustement de la marge du fil d'ariane + details du marge intérieure après les mises à jour de la typographie et de l'espacement ([#353](https://github.com/cds-snc/gcds-tokens/issues/353)) ([31df600](https://github.com/cds-snc/gcds-tokens/commit/31df600fa297911989ccd0eda397c8ed6da29c61))
 
 * Mis a jour de l'espacement de l'entête du composant Notice pour utiliser les nouvelles unités de style ([#351](https://github.com/cds-snc/gcds-tokens/issues/351)) ([959840d](https://github.com/cds-snc/gcds-tokens/commit/959840ddb2027875a57b684d0f32d86cf790bdec))
 
