@@ -665,10 +665,10 @@
   --gcds-nav-group-trigger-focus-outline-offset: 0.125rem;
   --gcds-nav-group-trigger-focus-outline: 0.25rem solid #0535d2;
   --gcds-nav-group-trigger-focus-box-shadow: 0 0 0 0.125rem #ffffff;
-  --gcds-nav-group-trigger-font: 400 1.25rem/160% 'Noto Sans', sans-serif;
+  --gcds-nav-group-trigger-font: 400 1.25rem/140% 'Noto Sans', sans-serif;
   --gcds-nav-group-trigger-hover-text: #0535d2;
   --gcds-nav-group-trigger-max-width: 20rem;
-  --gcds-nav-group-trigger-padding: 0.625rem;
+  --gcds-nav-group-trigger-padding: 0.625rem 0.75rem;
   --gcds-nav-group-trigger-text: #333333;
   --gcds-nav-link-active-border-color: #33465c;
   --gcds-nav-link-active-font-weight: 700;
