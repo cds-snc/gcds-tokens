@@ -2128,12 +2128,12 @@
       "list": {
         "item": {
           "padding": {
-            "value": "0 0 0.75rem",
+            "value": "0 0 0.75rem 0.125rem",
             "type": "sizing"
           }
         },
         "margin": {
-          "value": "0 0 0 1.125rem",
+          "value": "0 0 0 1.25rem",
           "type": "spacing"
         }
       },
@@ -2156,7 +2156,7 @@
         }
       },
       "padding": {
-        "value": "2.25rem",
+        "value": "2.5rem",
         "type": "spacing"
       }
     },
