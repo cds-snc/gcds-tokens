@@ -4,6 +4,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.4](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.0.3...gcds-tokens-v2.0.4)
+
+Released on: 2025-01-08
+
+### :arrows_counterclockwise: Code Refactoring
+
+* update component spacing ([#371](https://github.com/cds-snc/gcds-tokens/issues/371)) ([48d1d2f](https://github.com/cds-snc/gcds-tokens/commit/48d1d2f715e92adecc1400a0c984d02965646609))
+
 ## [2.0.3](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.0.2...gcds-tokens-v2.0.3)
 
 Released on: 2024-12-17
