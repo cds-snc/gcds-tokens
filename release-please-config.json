@@ -16,7 +16,7 @@
     { "type": "fix", "section": ":bug: :wrench: Bug Fixes" },
     { "type": "perf", "section": ":sparkles: Performance Improvements" },
     { "type": "docs", "section": ":pencil: Documentation" },
-    { "type": "style", "section": ":art: Styles" },
+    { "type": "remove", "section": ":no_entry: Remove" },
     { "type": "refactor", "section": ":arrows_counterclockwise: Code Refactoring" },
     { "type": "revert", "section": "Reverts", "hidden": true },
     { "type": "chore", "section": "Patch", "hidden": true },
