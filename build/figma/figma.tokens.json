@@ -1412,7 +1412,7 @@
           }
         },
         "margin": {
-          "value": "0.75rem 0.25rem",
+          "value": "0.5rem 0.25rem",
           "type": "spacing"
         }
       },
@@ -1423,14 +1423,6 @@
       "padding": {
         "value": "0 0 0 0.125rem",
         "type": "spacing"
-      },
-      "mobile": {
-        "item": {
-          "margin": {
-            "value": "0.125rem 0",
-            "type": "spacing"
-          }
-        }
       }
     },
     "button": {
