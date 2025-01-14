@@ -15,6 +15,7 @@ Tokens replace hard-coded values with variables that can be reused throughout th
 - [How to use design tokens](#how-to-use-design-tokens)
   - [Using design tokens with our GCDS Components or GCDS Utility Framework](#using-design-tokens-with-our-gcds-components-or-gcds-utility-framework)
   - [Using design tokens on their own, without our GCDS Components or GCDS Utility Framework](#using-design-tokens-on-their-own-without-our-gcds-components-or-gcds-utility-framework)
+  - [Component design tokens](#component-design-tokens)
 - [Installation](#installation)
 - [How to contribute](#how-to-contribute)
 - [License](#license)
@@ -108,6 +109,13 @@ Add the GCDS global and base tokens to your SCSS by importing the `base.scss` an
 @import 'path/to/node_modules/@cdssnc/gcds-tokens/build/web/scss/base.scss'
 @import 'path/to/node_modules/@cdssnc/gcds-tokens/build/web/scss/global.scss'
 ```
+
+### Component design tokens
+
+GC Design System components have their own tokens. These component tokens are component-specific. Using them elsewhere can cause you problems.
+
+When misused component tokens can change unexpectedly. They receive updates any time the component they're attached to gets updated.
+
 ---
 
 ## Installation
@@ -148,6 +156,7 @@ Nos unités de style contribuent à créer une expérience visuelle uniforme qui
 - [Comment utiliser les unités de style](#comment-utiliser-les-unités-de-style)
   - [Utilisation des unités de style avec les composants ou le cadre utilitaire de Système de design GC](#utilisation-des-unités-de-style-avec-les-composants-ou-le-cadre-utilitaire-de-système-de-design-gc)
   - [Utilisation des unités de style sans les composants ou le cadre utilitaire de Système de design GC](#utilisation-des-unités-de-style-sans-les-composants-ou-le-cadre-utilitaire-de-système-de-design-gc)
+  - [Unité de style de composant](#unité-de-style-de-composant)
 - [Installation](#installation-1)
 - [Apportez votre contribution](#apportez-votre-contribution)
 - [Licence](#licence)
@@ -179,7 +188,7 @@ Alors vous avez déjà à votre disposition nos unités de style! Utilisez-les s
 
 
 
-### Utilisation des unités de style sans les composants ou le cadre utilitaire de Système de design GC 
+### Utilisation des unités de style sans les composants ou le cadre utilitaire de Système de design GC
 Vous pouvez utiliser les unités de style seules, sans les composants ou le cadre utilitaire de Système de design GC.
 
 #### Installer GCDS Tokens (unités de style de Système de design GC)
@@ -243,6 +252,12 @@ Ajoutez les unités de style globales et de base à votre SCSS en important les 
 @import 'path/to/node_modules/@cdssnc/gcds-tokens/build/web/scss/base.scss'
 @import 'path/to/node_modules/@cdssnc/gcds-tokens/build/web/scss/global.scss'
 ```
+
+### Unité de style de composant
+
+Les composants de Système de design GC possèdent leurs propres unités de style. Ces unités de style sont propres aux composants. Il est déconseillé de les utiliser ailleurs.
+
+Si elles sont utilisées incorrectement, les unités de style de composant peuvent avoir des comportements imprévisibles. Elles sont mises à jour chaque fois que le composant associé est mis à jour.
 
 ---
 
