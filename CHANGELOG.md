@@ -4,6 +4,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.1.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.0.4...gcds-tokens-v2.1.0) (2025-01-14)
+
+
+### :rocket: New Features
+
+* add grid gap value options for more flexibility ([#375](https://github.com/cds-snc/gcds-tokens/issues/375)) ([23d000c](https://github.com/cds-snc/gcds-tokens/commit/23d000ce1aa89c213a3591478109981496534eca))
+
+
+### :no_entry: Remove
+
+* remove old grid gap token ([#377](https://github.com/cds-snc/gcds-tokens/issues/377)) ([eba1d0a](https://github.com/cds-snc/gcds-tokens/commit/eba1d0a80d76a401ebc5972e7d657246b0261b20))
+
+
+### :arrows_counterclockwise: Code Refactoring
+
+* update breadcrumb item margin ([#373](https://github.com/cds-snc/gcds-tokens/issues/373)) ([79235ef](https://github.com/cds-snc/gcds-tokens/commit/79235ef8bc18e1b78f57fbc23c57d3ee8fa10495))
+
 ## [2.0.4](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.0.3...gcds-tokens-v2.0.4)
 
 Released on: 2025-01-08
