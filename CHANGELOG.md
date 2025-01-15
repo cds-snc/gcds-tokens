@@ -6,11 +6,13 @@ All notable changes to this project will be documented in this file.
 
 ## [2.1.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.0.4...gcds-tokens-v2.1.0) (2025-01-14)
 
+### :no_entry: Remove
+
+* removed the deprecated grid gap token `gcds-grid-gap` (see new grid gap value options) ([#377](https://github.com/cds-snc/gcds-tokens/issues/377)) ([eba1d0a](https://github.com/cds-snc/gcds-tokens/commit/eba1d0a80d76a401ebc5972e7d657246b0261b20))
 
 ### :rocket: New Features
 
 * add grid gap value options for more flexibility ([#375](https://github.com/cds-snc/gcds-tokens/issues/375)) ([23d000c](https://github.com/cds-snc/gcds-tokens/commit/23d000ce1aa89c213a3591478109981496534eca))
-
 
 | Grid Gap Token | Value   |
 |----------|---------|
@@ -30,12 +32,6 @@ All notable changes to this project will be documented in this file.
 | gcds-grid-gap-700 | 3.5rem   |
 | gcds-grid-gap-750 | 3.75rem  |
 | gcds-grid-gap-800 | 4rem     |
-
-
-### :no_entry: Remove
-
-* removed the deprecated grid gap token `gcds-grid-gap` (see new grid gap value options) ([#377](https://github.com/cds-snc/gcds-tokens/issues/377)) ([eba1d0a](https://github.com/cds-snc/gcds-tokens/commit/eba1d0a80d76a401ebc5972e7d657246b0261b20))
-
 
 ### :arrows_counterclockwise: Code Refactoring
 
