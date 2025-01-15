@@ -34,7 +34,7 @@ All notable changes to this project will be documented in this file.
 
 ### :no_entry: Remove
 
-* remove old grid gap token ([#377](https://github.com/cds-snc/gcds-tokens/issues/377)) ([eba1d0a](https://github.com/cds-snc/gcds-tokens/commit/eba1d0a80d76a401ebc5972e7d657246b0261b20))
+* removed the deprecated grid gap token `gcds-grid-gap` (see new grid gap value options) ([#377](https://github.com/cds-snc/gcds-tokens/issues/377)) ([eba1d0a](https://github.com/cds-snc/gcds-tokens/commit/eba1d0a80d76a401ebc5972e7d657246b0261b20))
 
 
 ### :arrows_counterclockwise: Code Refactoring
