@@ -12,6 +12,26 @@ All notable changes to this project will be documented in this file.
 * add grid gap value options for more flexibility ([#375](https://github.com/cds-snc/gcds-tokens/issues/375)) ([23d000c](https://github.com/cds-snc/gcds-tokens/commit/23d000ce1aa89c213a3591478109981496534eca))
 
 
+| Grid Gap Token | Value   |
+|----------|---------|
+| gcds-grid-gap-150 | 0.75rem  |
+| gcds-grid-gap-175 | 0.875rem |
+| gcds-grid-gap-200 | 1rem     |
+| gcds-grid-gap-225 | 1.125rem |
+| gcds-grid-gap-250 | 1.25rem  |
+| gcds-grid-gap-300 | 1.5rem   |
+| gcds-grid-gap-350 | 1.75rem  |
+| gcds-grid-gap-400 | 2rem     |
+| gcds-grid-gap-450 | 2.25rem  |
+| gcds-grid-gap-500 | 2.5rem   |
+| gcds-grid-gap-550 | 2.75rem  |
+| gcds-grid-gap-600 | 3rem     |
+| gcds-grid-gap-650 | 3.25rem  |
+| gcds-grid-gap-700 | 3.5rem   |
+| gcds-grid-gap-750 | 3.75rem  |
+| gcds-grid-gap-800 | 4rem     |
+
+
 ### :no_entry: Remove
 
 * remove old grid gap token ([#377](https://github.com/cds-snc/gcds-tokens/issues/377)) ([eba1d0a](https://github.com/cds-snc/gcds-tokens/commit/eba1d0a80d76a401ebc5972e7d657246b0261b20))
