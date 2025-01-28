@@ -3387,14 +3387,14 @@
           "value": {
             "fontFamily": "'Noto Sans', sans-serif",
             "fontWeight": "700",
-            "lineHeight": "150%",
+            "lineHeight": "155%",
             "fontSize": "1.125rem"
           },
           "type": "typography"
         }
       },
       "padding": {
-        "value": "0.5rem 0.75rem",
+        "value": "0.625rem 0.75rem",
         "type": "spacing"
       }
     },
