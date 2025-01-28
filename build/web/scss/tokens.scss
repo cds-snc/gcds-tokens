@@ -644,6 +644,8 @@ $gcds-label-margin: 0 0 0.5rem;
 $gcds-label-required-font-weight: 400;
 $gcds-label-required-margin: 0 0 0 0.375rem;
 $gcds-label-text: #333333;
+$gcds-lang-toggle-font-desktop: 400 1rem/150% 'Noto Sans', sans-serif; // Mandatory elements alignment: sub-components of header use 16px font
+$gcds-lang-toggle-font-mobile: 700 1.125rem/150% 'Noto Sans', sans-serif; // Mandatory elements alignment: size 18px 
 $gcds-lang-toggle-padding: 0.5rem 0.75rem;
 $gcds-nav-group-mobile-background: #ffffff;
 $gcds-nav-group-mobile-list-margin: 0.875rem 0 0;
