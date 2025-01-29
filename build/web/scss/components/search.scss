@@ -1,17 +1,20 @@
 
 // Do not edit directly, this file was auto-generated.
 
-$gcds-search-border-radius: 0.375rem 0 0 0.375rem;
-$gcds-search-border-width: 0.125rem;
-$gcds-search-button-padding: 0.5rem;
+$gcds-search-border-color: #d6d9dd;
+$gcds-search-border-radius: 0.375rem 0 0 0.375rem; // Will be removed in separate pull request
+$gcds-search-border-width: 0.0625rem;
+$gcds-search-button-padding: 0.125rem 0.25rem;
 $gcds-search-default-background: #ffffff;
 $gcds-search-default-text: #333333;
-$gcds-search-focus-border-radius: 0.125rem;
+$gcds-search-focus-border-radius: 0.125rem; // Will be removed in separate pull request
 $gcds-search-focus-border-color: #0535d2;
 $gcds-search-focus-box-shadow: 0 0 0 0.125rem #ffffff;
-$gcds-search-font-desktop: 400 1.25rem/160% 'Noto Sans', sans-serif;
-$gcds-search-font-mobile: 400 1.125rem/160% 'Noto Sans', sans-serif;
+$gcds-search-font: 400 1rem/150% 'Noto Sans', sans-serif; // Mandatory elements alignment: sub-components of header use 16px font
+$gcds-search-font-desktop: 400 1.25rem/160% 'Noto Sans', sans-serif; // Will be removed in separate pull request
+$gcds-search-font-mobile: 400 1.125rem/160% 'Noto Sans', sans-serif; // Will be removed in separate pull request
 $gcds-search-margin: 0 0 0.125rem;
-$gcds-search-min-width-and-height: 3rem;
+$gcds-search-max-height: 2.75rem;
+$gcds-search-min-width-and-height: 3rem; // Will be removed in separate pull request
 $gcds-search-outline-width: 0.25rem;
-$gcds-search-padding: 0.5rem 0.75rem;
+$gcds-search-padding: 0.375rem 0 0.375rem 0.75rem;
