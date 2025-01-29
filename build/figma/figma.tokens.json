@@ -1411,6 +1411,15 @@
             "type": "spacing"
           }
         },
+        "font": {
+          "value": {
+            "fontFamily": "'Noto Sans', sans-serif",
+            "fontWeight": "400",
+            "lineHeight": "150%",
+            "fontSize": "1rem"
+          },
+          "type": "typography"
+        },
         "margin": {
           "value": "0.5rem 0.25rem",
           "type": "spacing"
