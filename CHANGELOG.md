@@ -4,7 +4,9 @@
 
 All notable changes to this project will be documented in this file.
 
-## [2.2.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.1.0...gcds-tokens-v2.2.0) (2025-01-30)
+## [2.2.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.1.0...gcds-tokens-v2.2.0)
+
+Released on: 2025-01-30
 
 
 ### :rocket: New Features
