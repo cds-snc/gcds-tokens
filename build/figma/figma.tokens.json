@@ -4188,7 +4188,7 @@
       },
       "button": {
         "padding": {
-          "value": "0.125rem 0.25rem",
+          "value": "0.125rem",
           "type": "spacing"
         }
       },
