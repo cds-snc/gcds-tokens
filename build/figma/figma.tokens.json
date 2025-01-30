@@ -4177,10 +4177,6 @@
           "value": "#D6D9DD",
           "type": "color"
         },
-        "radius": {
-          "value": "0.375rem 0 0 0.375rem",
-          "type": "borderRadius"
-        },
         "width": {
           "value": "0.0625rem",
           "type": "borderWidth"
@@ -4204,10 +4200,6 @@
       },
       "focus": {
         "border": {
-          "radius": {
-            "value": "0.125rem",
-            "type": "borderRadius"
-          },
           "color": {
             "value": "#0535d2",
             "type": "color"
@@ -4227,34 +4219,12 @@
         },
         "type": "typography"
       },
-      "fontDesktop": {
-        "value": {
-          "fontFamily": "'Noto Sans', sans-serif",
-          "fontWeight": "400",
-          "lineHeight": "160%",
-          "fontSize": "1.25rem"
-        },
-        "type": "typography"
-      },
-      "fontMobile": {
-        "value": {
-          "fontFamily": "'Noto Sans', sans-serif",
-          "fontWeight": "400",
-          "lineHeight": "160%",
-          "fontSize": "1.125rem"
-        },
-        "type": "typography"
-      },
       "margin": {
         "value": "0 0 0.125rem",
         "type": "spacing"
       },
       "maxHeight": {
         "value": "2.75rem",
-        "type": "sizing"
-      },
-      "minWidthAndHeight": {
-        "value": "3rem",
         "type": "sizing"
       },
       "outline": {
