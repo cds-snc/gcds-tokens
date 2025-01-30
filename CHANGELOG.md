@@ -4,6 +4,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.2.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.1.0...gcds-tokens-v2.2.0) (2025-01-30)
+
+
+### :rocket: New Features
+
+* Add breadcrumb item font token ([#380](https://github.com/cds-snc/gcds-tokens/issues/380)) ([c4526e5](https://github.com/cds-snc/gcds-tokens/commit/c4526e5617db99bb180857c339d0d709c7c86d60))
+* Update language toggle tokens for mandatory elements alignment ([#379](https://github.com/cds-snc/gcds-tokens/issues/379)) ([9323afb](https://github.com/cds-snc/gcds-tokens/commit/9323afb708c7ea67d2e4b74fb6d5bf9f5a64d76e))
+* Update search component tokens ([#382](https://github.com/cds-snc/gcds-tokens/issues/382)) ([5e624d1](https://github.com/cds-snc/gcds-tokens/commit/5e624d173389a90fb42cf70abef170ee71fbdad0))
+
+
+### :bug: :wrench: Bug Fixes
+
+* adjust language-toggle padding to match design ([#383](https://github.com/cds-snc/gcds-tokens/issues/383)) ([b20b9ea](https://github.com/cds-snc/gcds-tokens/commit/b20b9eaa4f04d7935c68bc5958e10871ef1762b3))
+
+
+### :no_entry: Remove
+
+* Remove search component tokens ([#384](https://github.com/cds-snc/gcds-tokens/issues/384)) ([8c3d4d1](https://github.com/cds-snc/gcds-tokens/commit/8c3d4d12bf8f42406fac200bada5adce6be7c65e))
+
 ## [2.1.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.0.4...gcds-tokens-v2.1.0) (2025-01-14)
 
 ### :no_entry: Remove
