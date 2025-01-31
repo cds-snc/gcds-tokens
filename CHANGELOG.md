@@ -23,7 +23,12 @@ Released on: 2025-01-30
 
 ### :no_entry: Remove
 
-* Remove search component tokens ([#384](https://github.com/cds-snc/gcds-tokens/issues/384)) ([8c3d4d1](https://github.com/cds-snc/gcds-tokens/commit/8c3d4d12bf8f42406fac200bada5adce6be7c65e))
+* Remove search component tokens ([#384](https://github.com/cds-snc/gcds-tokens/issues/384)) ([8c3d4d1](https://github.com/cds-snc/gcds-tokens/commit/8c3d4d12bf8f42406fac200bada5adce6be7c65e)) 
+    - `--gcds-search-border-radius`
+    - `--gcds-search-focus-border-radius`
+    - `--gcds-search-font-desktop`
+    - `--gcds-search-font-mobile`
+    - `--gcds-search-min-width-and-height`
 
 ## [2.1.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.0.4...gcds-tokens-v2.1.0) (2025-01-14)
 
