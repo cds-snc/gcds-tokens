@@ -1,0 +1,22 @@
+/* Import Tailwind CSS framework */
+@import "tailwindcss";
+
+/* Configure Tailwind.config.js (if you don't want to use the new CSS Tailwind config) */
+@config "../tailwind.config.js";
+
+/* Import GCDS tokens */
+@import "../node_modules/@cdssnc/gcds-tokens/build/web/css/tokens.css";
+
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--gcds-border-default);
+  }
+
+  .text {
+    font-size: var(--gcds-font-sizes-text);
+  }
+}
