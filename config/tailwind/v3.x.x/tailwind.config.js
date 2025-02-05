@@ -1,5 +1,5 @@
 // Import GC Design System tokens
-import tokens from "./node_modules/@cdssnc/gcds-tokens/build/tailwind/tailwind.tokens.json";
+import tokens from "@cdssnc/gcds-tokens/build/tailwind/tailwind.tokens.json";
 
 const { blue, grayscale, green, orange, purple, red, yellow } = tokens.Tokens.color;
 const { bg, border, container, danger, focus, font, fontFamilies, fontSizes, fontWeights, lineHeights, link, outline, spacing, text } = tokens.Tokens;
