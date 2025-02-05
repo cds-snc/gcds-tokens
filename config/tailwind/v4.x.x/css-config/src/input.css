@@ -2,7 +2,7 @@
 @import "tailwindcss";
 
 /* Import GCDS tokens */
-@import "../node_modules/@cdssnc/gcds-tokens/build/web/css/tokens.css";
+@import "@cdssnc/gcds-tokens/build/web/css/tokens.css";
 
 @layer base {
   *,
