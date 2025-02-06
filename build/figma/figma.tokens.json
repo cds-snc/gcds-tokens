@@ -1407,7 +1407,7 @@
       "item": {
         "arrow": {
           "margin": {
-            "value": "0 0.75rem 0 0",
+            "value": "0 0.5rem 0 0",
             "type": "spacing"
           }
         },
@@ -1421,7 +1421,7 @@
           "type": "typography"
         },
         "margin": {
-          "value": "0.5rem 0.25rem",
+          "value": "0.5rem 0.25rem 0.5rem 0.125rem",
           "type": "spacing"
         }
       },
