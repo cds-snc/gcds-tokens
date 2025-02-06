@@ -4,6 +4,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.3.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.2.0...gcds-tokens-v2.3.0) (2025-02-06)
+
+
+### :rocket: New Features
+
+* Add search tokens for width, height and placeholder colour ([#389](https://github.com/cds-snc/gcds-tokens/issues/389)) ([e807d03](https://github.com/cds-snc/gcds-tokens/commit/e807d03b20cd765b7f0128f5887c5b9c70d7aa43))
+
+
+### :bug: :wrench: Bug Fixes
+
+* Breadcrumb item margins ([#390](https://github.com/cds-snc/gcds-tokens/issues/390)) ([7a40f9a](https://github.com/cds-snc/gcds-tokens/commit/7a40f9a124f81983d45fbf4838d4570be9e65499))
+
 ## [2.2.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.1.0...gcds-tokens-v2.2.0)
 
 Released on: 2025-01-30
