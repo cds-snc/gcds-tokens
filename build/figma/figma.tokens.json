@@ -4186,6 +4186,10 @@
         "padding": {
           "value": "0.125rem",
           "type": "spacing"
+        },
+        "widthHeight": {
+          "value": "2.5rem",
+          "type": "sizing"
         }
       },
       "default": {
@@ -4224,7 +4228,7 @@
         "type": "spacing"
       },
       "maxHeight": {
-        "value": "2.75rem",
+        "value": "2.5rem",
         "type": "sizing"
       },
       "outline": {
@@ -4236,6 +4240,10 @@
       "padding": {
         "value": "0.375rem 0 0.375rem 0.75rem",
         "type": "spacing"
+      },
+      "placeholder": {
+        "value": "#545961",
+        "type": "color"
       }
     },
     "select": {
