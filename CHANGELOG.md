@@ -4,6 +4,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.4.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.3.0...gcds-tokens-v2.4.0) (2025-02-10)
+
+
+### :rocket: New Features
+
+* Add tokens for fieldset in date-input ([#392](https://github.com/cds-snc/gcds-tokens/issues/392)) ([b1792ca](https://github.com/cds-snc/gcds-tokens/commit/b1792ca842952d3fc2b5ba0c2b1cbd5b56e4e655))
+
 ## [2.3.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.2.0...gcds-tokens-v2.3.0)
 
 Released on: 2025-02-06
