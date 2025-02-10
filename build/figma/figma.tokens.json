@@ -2476,6 +2476,15 @@
         }
       },
       "font": {
+        "_": {
+          "value": {
+            "fontFamily": "'Noto Sans', sans-serif",
+            "fontWeight": "400",
+            "lineHeight": "150%",
+            "fontSize": "1rem"
+          },
+          "type": "typography"
+        },
         "heading": {
           "value": {
             "fontFamily": "'Lato', sans-serif",
