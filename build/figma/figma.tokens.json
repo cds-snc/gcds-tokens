@@ -1976,7 +1976,7 @@
         "type": "typography"
       },
       "margin": {
-        "value": "3rem 0 1rem",
+        "value": "2.5rem 0 1rem",
         "type": "spacing"
       }
     },
