@@ -2508,24 +2508,6 @@
             "fontSize": "1.625rem"
           },
           "type": "typography"
-        },
-        "headingDesktop": {
-          "value": {
-            "fontFamily": "'Lato', sans-serif",
-            "fontWeight": "700",
-            "lineHeight": "133%",
-            "fontSize": "1.5rem"
-          },
-          "type": "typography"
-        },
-        "headingMobile": {
-          "value": {
-            "fontFamily": "'Lato', sans-serif",
-            "fontWeight": "700",
-            "lineHeight": "127%",
-            "fontSize": "1.375rem"
-          },
-          "type": "typography"
         }
       },
       "gridGap": {
