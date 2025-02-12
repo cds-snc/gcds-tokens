@@ -4300,11 +4300,19 @@
           "color": {
             "value": "#0535d2",
             "type": "color"
+          },
+          "width": {
+            "value": "0.125rem",
+            "type": "borderWidth"
           }
         },
         "boxShadow": {
           "value": "0 0 0 0.125rem #FFF",
           "type": "other"
+        },
+        "margin": {
+          "value": "0 -0.125rem 0 0",
+          "type": "spacing"
         }
       },
       "font": {
