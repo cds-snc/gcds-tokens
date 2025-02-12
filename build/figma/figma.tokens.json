@@ -2460,6 +2460,12 @@
       }
     },
     "footer": {
+      "band": {
+        "padding": {
+          "value": "2.25rem 0",
+          "type": "spacing"
+        }
+      },
       "container": {
         "margin": {
           "value": "0 auto",
@@ -2520,6 +2526,16 @@
             "fontSize": "1.375rem"
           },
           "type": "typography"
+        }
+      },
+      "gridGap": {
+        "value": "1.5rem",
+        "type": "spacing"
+      },
+      "heading": {
+        "margin": {
+          "value": "0 0 1.5rem",
+          "type": "spacing"
         }
       },
       "list": {
@@ -2606,7 +2622,7 @@
         "signature": {
           "lg": {
             "width": {
-              "value": "10.937rem",
+              "value": "10.25rem",
               "type": "sizing"
             },
             "minWidth": {
@@ -2618,9 +2634,31 @@
               "type": "spacing"
             }
           },
+          "width": {
+            "value": "10.25rem",
+            "type": "sizing"
+          },
+          "minWidth": {
+            "value": "auto",
+            "type": "sizing"
+          },
+          "maxHeight": {
+            "value": "2.4375rem",
+            "type": "sizing"
+          },
           "margin": {
-            "value": "2.25rem 0 3.75rem auto",
+            "value": "0 0 0 auto",
             "type": "spacing"
+          },
+          "sm": {
+            "width": {
+              "value": "6.25rem",
+              "type": "sizing"
+            },
+            "maxHeight": {
+              "value": "1.5rem",
+              "type": "sizing"
+            }
           }
         },
         "md": {
