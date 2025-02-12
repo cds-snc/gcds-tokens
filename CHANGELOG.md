@@ -4,6 +4,31 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.5.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.4.0...gcds-tokens-v2.5.0)
+
+Released on: 2025-02-12
+
+
+### :rocket: New Features
+
+* add date-modified font token + update margin-top value ([#396](https://github.com/cds-snc/gcds-tokens/issues/396)) ([3c9c698](https://github.com/cds-snc/gcds-tokens/commit/3c9c698f072de2cf83e5b36204c92f0015cadd40))
+* add footer font token + update heading font ([#397](https://github.com/cds-snc/gcds-tokens/issues/397)) ([1545797](https://github.com/cds-snc/gcds-tokens/commit/15457974beffc09a04fd7f574236420ce6bbed9e))
+
+
+### :bug: :wrench: Bug Fixes
+
+* maintain focus style for search ([#401](https://github.com/cds-snc/gcds-tokens/issues/401)) ([4a388bc](https://github.com/cds-snc/gcds-tokens/commit/4a388bcc0fa2990b4e69f611144bca1a3e7a9af0))
+
+
+### :no_entry: Remove
+
+* remove old footer font tokens ([#399](https://github.com/cds-snc/gcds-tokens/issues/399)) ([dce659e](https://github.com/cds-snc/gcds-tokens/commit/dce659e989c63a3b94a7795224df85b1926a6ec1))
+
+
+### :arrows_counterclockwise: Code Refactoring
+
+* update footer spacing tokens ([#400](https://github.com/cds-snc/gcds-tokens/issues/400)) ([bf5ff07](https://github.com/cds-snc/gcds-tokens/commit/bf5ff07ca8ce6e5ea78c18a4fc643b26cf87db64))
+
 ## [2.4.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.3.0...gcds-tokens-v2.4.0)
 
 Released on: 2025-02-10
