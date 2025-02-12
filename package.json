@@ -11,7 +11,6 @@
   },
   "files": [
     "build",
-    "config"
   ],
   "scripts": {
     "build": "style-dictionary build",
