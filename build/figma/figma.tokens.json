@@ -2481,10 +2481,6 @@
           "value": "#33465c",
           "type": "color"
         },
-        "padding": {
-          "value": "1.125rem 0",
-          "type": "spacing"
-        },
         "text": {
           "value": "#FFF",
           "type": "color"
@@ -2508,24 +2504,6 @@
             "fontSize": "1.625rem"
           },
           "type": "typography"
-        },
-        "headingDesktop": {
-          "value": {
-            "fontFamily": "'Lato', sans-serif",
-            "fontWeight": "700",
-            "lineHeight": "133%",
-            "fontSize": "1.5rem"
-          },
-          "type": "typography"
-        },
-        "headingMobile": {
-          "value": {
-            "fontFamily": "'Lato', sans-serif",
-            "fontWeight": "700",
-            "lineHeight": "127%",
-            "fontSize": "1.375rem"
-          },
-          "type": "typography"
         }
       },
       "gridGap": {
@@ -2539,18 +2517,8 @@
         }
       },
       "list": {
-        "gridGap": {
-          "value": "0.75rem",
-          "type": "spacing"
-        },
         "padding": {
           "value": "0",
-          "type": "spacing"
-        }
-      },
-      "listitem": {
-        "margin": {
-          "value": "0 0 0.625rem",
           "type": "spacing"
         }
       },
@@ -2558,12 +2526,6 @@
         "background": {
           "value": "#26374A",
           "type": "color"
-        },
-        "govnav": {
-          "padding": {
-            "value": "1.125rem 0",
-            "type": "spacing"
-          }
         },
         "nav": {
           "first": {
@@ -2588,22 +2550,12 @@
         "text": {
           "value": "#FFF",
           "type": "color"
-        },
-        "themenav": {
-          "padding": {
-            "value": "0.75rem 0 1.125rem",
-            "type": "spacing"
-          }
         }
       },
       "sub": {
         "background": {
           "value": "#F1F2F3",
           "type": "color"
-        },
-        "gridGap": {
-          "value": "0.75rem",
-          "type": "spacing"
         },
         "listitem": {
           "before": {
@@ -2613,27 +2565,7 @@
             }
           }
         },
-        "nav": {
-          "padding": {
-            "value": "2.75rem 0",
-            "type": "spacing"
-          }
-        },
         "signature": {
-          "lg": {
-            "width": {
-              "value": "10.25rem",
-              "type": "sizing"
-            },
-            "minWidth": {
-              "value": "auto",
-              "type": "sizing"
-            },
-            "margin": {
-              "value": "2.25rem 0 2.25rem auto",
-              "type": "spacing"
-            }
-          },
           "width": {
             "value": "10.25rem",
             "type": "sizing"
@@ -2659,18 +2591,6 @@
               "value": "1.5rem",
               "type": "sizing"
             }
-          }
-        },
-        "md": {
-          "width": {
-            "value": "7rem",
-            "type": "sizing"
-          }
-        },
-        "sm": {
-          "width": {
-            "value": "100%",
-            "type": "sizing"
           }
         }
       }
