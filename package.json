@@ -10,7 +10,7 @@
     "access": "public"
   },
   "files": [
-    "build",
+    "build"
   ],
   "scripts": {
     "build": "style-dictionary build",
