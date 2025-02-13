@@ -2462,8 +2462,14 @@
     "footer": {
       "band": {
         "padding": {
-          "value": "2.25rem 0",
-          "type": "spacing"
+          "desktop": {
+            "value": "2.25rem 0",
+            "type": "spacing"
+          },
+          "mobile": {
+            "value": "1.5rem 0",
+            "type": "spacing"
+          }
         }
       },
       "container": {
@@ -2560,7 +2566,7 @@
         "listitem": {
           "before": {
             "margin": {
-              "value": "0 1.125rem",
+              "value": "0 1.5rem",
               "type": "spacing"
             }
           }
