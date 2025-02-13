@@ -80,6 +80,15 @@ const createFileConfig = (platform, filePath) => {
   };
 };
 
+// Create a shared configuration for Figma and Tailwind
+const createJsonFileConfig = (destination) => ({
+  buildPath: 'build/',
+  prefix: 'gcds',
+  basePxFontSize: 20,
+  transforms: ['name/kebab', 'size/rem'],
+  files: [{ destination, format: 'jsontokens' },],
+});
+
 /**
  * Defines source token files, platform-specific settings,
  * custom transformations, and hooks for processing tokens.
@@ -104,22 +113,12 @@ export default {
       files: files.map(filePath => createFileConfig('css', filePath)),
       output: true,
     },
-    figma: {
-      buildPath: 'build/',
-      prefix: 'gcds',
-      basePxFontSize: 20,
-      transforms: ['name/kebab', 'size/rem'],
-      files: [
-        {
-          destination: 'figma/figma.tokens.json',
-          format: 'figmatokens',
-        },
-      ],
-    },
+    figma: createJsonFileConfig('figma/figma.tokens.json'),
+    tailwind: createJsonFileConfig('tailwind/tailwind.tokens.json'),
   },
   hooks: {
     formats: {
-      figmatokens: ({ dictionary }) => {
+      jsontokens: ({ dictionary }) => {
         return JSON.stringify({ Tokens: traverseObj(dictionary.tokens) }, null, 2);
       },
     },
