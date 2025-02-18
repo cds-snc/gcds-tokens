@@ -3254,40 +3254,6 @@
           "type": "lineHeights"
         }
       },
-      "fixedWidth": {
-        "textSmall": {
-          "value": 1.55,
-          "type": "sizing"
-        },
-        "text": {
-          "value": 1.6,
-          "type": "sizing"
-        },
-        "h6": {
-          "value": 1.45,
-          "type": "sizing"
-        },
-        "h5": {
-          "value": 1.33,
-          "type": "sizing"
-        },
-        "h4": {
-          "value": 1.33,
-          "type": "sizing"
-        },
-        "h3": {
-          "value": 1.37,
-          "type": "sizing"
-        },
-        "h2": {
-          "value": 1.23,
-          "type": "sizing"
-        },
-        "h1": {
-          "value": 1.17,
-          "type": "sizing"
-        }
-      },
       "margin": {
         "0": {
           "value": "0rem",
