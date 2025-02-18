@@ -1057,7 +1057,7 @@
         "type": "fontFamilies"
       },
       "icons": {
-        "value": "'Font Awesome 6 Free', FontAwesome",
+        "value": "'gcds-icons'",
         "type": "fontFamilies"
       }
     },
@@ -3052,7 +3052,7 @@
     "icon": {
       "font": {
         "family": {
-          "value": "'Font Awesome 6 Free', FontAwesome",
+          "value": "'gcds-icons'",
           "type": "fontFamilies"
         },
         "size": {
@@ -3086,6 +3086,38 @@
           },
           "h1": {
             "value": "2.5625rem",
+            "type": "fontSizes"
+          },
+          "textSmallMobile": {
+            "value": "1rem",
+            "type": "fontSizes"
+          },
+          "textMobile": {
+            "value": "1.125rem",
+            "type": "fontSizes"
+          },
+          "h6Mobile": {
+            "value": "1.25rem",
+            "type": "fontSizes"
+          },
+          "h5Mobile": {
+            "value": "1.375rem",
+            "type": "fontSizes"
+          },
+          "h4Mobile": {
+            "value": "1.5rem",
+            "type": "fontSizes"
+          },
+          "h3Mobile": {
+            "value": "1.625rem",
+            "type": "fontSizes"
+          },
+          "h2Mobile": {
+            "value": "2.1875rem",
+            "type": "fontSizes"
+          },
+          "h1Mobile": {
+            "value": "2.3125rem",
             "type": "fontSizes"
           }
         }
@@ -3121,6 +3153,38 @@
         },
         "h1": {
           "value": "117%",
+          "type": "lineHeights"
+        },
+        "textSmallMobile": {
+          "value": "150%",
+          "type": "lineHeights"
+        },
+        "textMobile": {
+          "value": "155%",
+          "type": "lineHeights"
+        },
+        "h6Mobile": {
+          "value": "140%",
+          "type": "lineHeights"
+        },
+        "h5Mobile": {
+          "value": "127%",
+          "type": "lineHeights"
+        },
+        "h4Mobile": {
+          "value": "133%",
+          "type": "lineHeights"
+        },
+        "h3Mobile": {
+          "value": "123%",
+          "type": "lineHeights"
+        },
+        "h2Mobile": {
+          "value": "125%",
+          "type": "lineHeights"
+        },
+        "h1Mobile": {
+          "value": "119%",
           "type": "lineHeights"
         }
       },
