@@ -10,7 +10,6 @@ All notable changes to this project will be documented in this file.
 ### :rocket: New Features
 
 * add mobile padding for footer bands ([#403](https://github.com/cds-snc/gcds-tokens/issues/403)) ([7d5e692](https://github.com/cds-snc/gcds-tokens/commit/7d5e6923f65795d1fb4cc4048ca09b221e1d26ef))
-* add tailwind example config files using gcds tokens ([#388](https://github.com/cds-snc/gcds-tokens/issues/388)) ([32adfea](https://github.com/cds-snc/gcds-tokens/commit/32adfea8f9b5349f78312d09d80933fc695fd355))
 
 ## [2.5.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.4.0...gcds-tokens-v2.5.0)
 
