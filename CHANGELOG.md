@@ -4,6 +4,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.6.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.5.0...gcds-tokens-v2.6.0) (2025-02-19)
+
+
+### :rocket: New Features
+
+* add mobile padding for footer bands ([#403](https://github.com/cds-snc/gcds-tokens/issues/403)) ([7d5e692](https://github.com/cds-snc/gcds-tokens/commit/7d5e6923f65795d1fb4cc4048ca09b221e1d26ef))
+
 ## [2.5.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.4.0...gcds-tokens-v2.5.0)
 
 Released on: 2025-02-12
