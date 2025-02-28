@@ -4298,10 +4298,6 @@
         }
       },
       "button": {
-        "padding": {
-          "value": "0.125rem",
-          "type": "spacing"
-        },
         "widthHeight": {
           "value": "2.5rem",
           "type": "sizing"
