@@ -1,7 +1,3 @@
-import heights from '../../global/typography/lineHeights.js';
-
-const lineHeights = heights.lineHeights;
-
 /**
  * Font sizes, line heights, and margin values
  */
@@ -45,24 +41,6 @@ const lineHeight = {
   ...createPropertiesObject(lineHeightKeys.map(key => `${key}Mobile`), 'lineHeights'),
 };
 
-/**
- * Iterate over lineHeightKeys array to compute fixed width values
- * from lineHeights into a standardized format.
- */
-// TODO: Will be removed in separate pull request
-const fixedWidth = lineHeightKeys.reduce((acc, key) => {
-  // Get value associated with current key from lineHeights object
-  const value = lineHeights[key].value;
-
-  acc[key] = {
-    // Convert string value to number and remove last character
-    value: Number(value.slice(0, -1)) / 100,
-    type: 'sizing',
-  };
-
-  return acc;
-}, {});
-
 const margin = marginKeys.reduce((acc, key) => {
   acc[key] = {
     value: `{spacing.${key}.value}`,
@@ -76,7 +54,6 @@ const icon = {
   icon: {
     font,
     lineHeight,
-    fixedWidth,
     margin,
   },
 };
