@@ -3,7 +3,7 @@
  */
 
 :root {
-  --gcds-icon-font-family: 'Font Awesome 6 Free', FontAwesome;
+  --gcds-icon-font-family: 'gcds-icons';
   --gcds-icon-font-size-text-small: 1.125rem;
   --gcds-icon-font-size-text: 1.25rem;
   --gcds-icon-font-size-h6: 1.375rem;
@@ -12,6 +12,14 @@
   --gcds-icon-font-size-h3: 1.8125rem;
   --gcds-icon-font-size-h2: 2.4375rem;
   --gcds-icon-font-size-h1: 2.5625rem;
+  --gcds-icon-font-size-text-small-mobile: 1rem;
+  --gcds-icon-font-size-text-mobile: 1.125rem;
+  --gcds-icon-font-size-h6-mobile: 1.25rem;
+  --gcds-icon-font-size-h5-mobile: 1.375rem;
+  --gcds-icon-font-size-h4-mobile: 1.5rem;
+  --gcds-icon-font-size-h3-mobile: 1.625rem;
+  --gcds-icon-font-size-h2-mobile: 2.1875rem;
+  --gcds-icon-font-size-h1-mobile: 2.3125rem;
   --gcds-icon-line-height-text-small: 155%;
   --gcds-icon-line-height-text: 160%;
   --gcds-icon-line-height-h6: 145%;
@@ -20,6 +28,14 @@
   --gcds-icon-line-height-h3: 137%;
   --gcds-icon-line-height-h2: 123%;
   --gcds-icon-line-height-h1: 117%;
+  --gcds-icon-line-height-text-small-mobile: 150%;
+  --gcds-icon-line-height-text-mobile: 155%;
+  --gcds-icon-line-height-h6-mobile: 140%;
+  --gcds-icon-line-height-h5-mobile: 127%;
+  --gcds-icon-line-height-h4-mobile: 133%;
+  --gcds-icon-line-height-h3-mobile: 123%;
+  --gcds-icon-line-height-h2-mobile: 125%;
+  --gcds-icon-line-height-h1-mobile: 119%;
   --gcds-icon-fixed-width-text-small: 1.55;
   --gcds-icon-fixed-width-text: 1.6;
   --gcds-icon-fixed-width-h6: 1.45;
