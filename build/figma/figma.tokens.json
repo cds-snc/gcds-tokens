@@ -81,6 +81,10 @@
         "700": {
           "value": "#03662A",
           "type": "color"
+        },
+        "800": {
+          "value": "#023b1a",
+          "type": "color"
         }
       },
       "purple": {
@@ -1464,16 +1468,36 @@
         }
       },
       "font": {
-        "value": {
-          "fontFamily": "'Noto Sans', sans-serif",
-          "fontWeight": "500",
-          "lineHeight": "140%",
-          "fontSize": "1.25rem"
+        "-": {
+          "value": {
+            "fontFamily": "'Noto Sans', sans-serif",
+            "fontWeight": "500",
+            "lineHeight": "140%",
+            "fontSize": "1.25rem"
+          },
+          "type": "typography"
         },
-        "type": "typography"
+        "desktop": {
+          "value": {
+            "fontFamily": "'Noto Sans', sans-serif",
+            "fontWeight": "500",
+            "lineHeight": "140%",
+            "fontSize": "1.25rem"
+          },
+          "type": "typography"
+        },
+        "mobile": {
+          "value": {
+            "fontFamily": "'Noto Sans', sans-serif",
+            "fontWeight": "500",
+            "lineHeight": "140%",
+            "fontSize": "1.125rem"
+          },
+          "type": "typography"
+        }
       },
       "padding": {
-        "value": "0.625rem 0.75rem",
+        "value": "0.625rem 1rem",
         "type": "spacing"
       },
       "primary": {
@@ -1567,21 +1591,87 @@
           "text": {
             "value": "#545961",
             "type": "color"
+          },
+          "opacity": {
+            "value": "50%",
+            "type": "other"
           }
         }
       },
       "small": {
         "font": {
-          "value": {
-            "fontFamily": "'Noto Sans', sans-serif",
-            "fontWeight": "400",
-            "lineHeight": "160%",
-            "fontSize": "80%"
+          "-": {
+            "value": {
+              "fontFamily": "'Noto Sans', sans-serif",
+              "fontWeight": "400",
+              "lineHeight": "160%",
+              "fontSize": "80%"
+            },
+            "type": "typography"
           },
-          "type": "typography"
+          "desktop": {
+            "value": {
+              "fontFamily": "'Noto Sans', sans-serif",
+              "fontWeight": "400",
+              "lineHeight": "155%",
+              "fontSize": "1.125rem"
+            },
+            "type": "typography"
+          },
+          "mobile": {
+            "value": {
+              "fontFamily": "'Noto Sans', sans-serif",
+              "fontWeight": "400",
+              "lineHeight": "150%",
+              "fontSize": "1rem"
+            },
+            "type": "typography"
+          }
         },
         "padding": {
-          "value": "0.75rem",
+          "value": "0.375rem 1rem",
+          "type": "spacing"
+        }
+      },
+      "start": {
+        "default": {
+          "background": {
+            "value": "#03662A",
+            "type": "color"
+          },
+          "text": {
+            "value": "#FFF",
+            "type": "color"
+          }
+        },
+        "hover": {
+          "background": {
+            "value": "#023b1a",
+            "type": "color"
+          }
+        },
+        "font": {
+          "desktop": {
+            "value": {
+              "fontFamily": "'Noto Sans', sans-serif",
+              "fontWeight": "600",
+              "lineHeight": "145%",
+              "fontSize": "1.375rem"
+            },
+            "type": "typography"
+          },
+          "mobile": {
+            "value": {
+              "fontFamily": "'Noto Sans', sans-serif",
+              "fontWeight": "500",
+              "lineHeight": "140%",
+              "fontSize": "1.25rem"
+            },
+            "type": "typography"
+          }
+        },
+        "padding": {
+          "value": "0.75rem 2rem",
           "type": "spacing"
         }
       },

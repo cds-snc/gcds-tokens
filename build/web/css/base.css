@@ -22,6 +22,7 @@
   --gcds-color-green-100: #e6f6ec;
   --gcds-color-green-500: #289f58; /* Must contrast 3:1 with white */
   --gcds-color-green-700: #03662a; /* Must contrast 7:1 with white */
+  --gcds-color-green-800: #023b1a;
   --gcds-color-purple-700: #7532b8; /* Must contrast 7:1 with white */
   --gcds-color-orange-700: #be5a00; /* Must contrast 7:1 with white */
   --gcds-color-red-100: #fbddda;
