@@ -69,6 +69,7 @@ module.exports = {
         100: green[100].value,
         500: green[500].value,
         700: green[700].value,
+        800: green[800].value,
       },
       orange: {
         700: orange[700].value,
