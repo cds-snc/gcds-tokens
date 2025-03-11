@@ -1468,15 +1468,6 @@
         }
       },
       "font": {
-        "-": {
-          "value": {
-            "fontFamily": "'Noto Sans', sans-serif",
-            "fontWeight": "500",
-            "lineHeight": "140%",
-            "fontSize": "1.25rem"
-          },
-          "type": "typography"
-        },
         "desktop": {
           "value": {
             "fontFamily": "'Noto Sans', sans-serif",
@@ -1584,14 +1575,6 @@
           }
         },
         "disabled": {
-          "background": {
-            "value": "#D6D9DD",
-            "type": "color"
-          },
-          "text": {
-            "value": "#545961",
-            "type": "color"
-          },
           "opacity": {
             "value": "50%",
             "type": "other"
@@ -1600,15 +1583,6 @@
       },
       "small": {
         "font": {
-          "-": {
-            "value": {
-              "fontFamily": "'Noto Sans', sans-serif",
-              "fontWeight": "400",
-              "lineHeight": "160%",
-              "fontSize": "80%"
-            },
-            "type": "typography"
-          },
           "desktop": {
             "value": {
               "fontFamily": "'Noto Sans', sans-serif",
