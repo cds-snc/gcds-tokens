@@ -4,6 +4,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.7.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.6.0...gcds-tokens-v2.7.0) (2025-03-11)
+
+
+### :rocket: New Features
+
+* Start button component tokens ([#416](https://github.com/cds-snc/gcds-tokens/issues/416)) ([d35e442](https://github.com/cds-snc/gcds-tokens/commit/d35e44210dddc3243781fbe65c5c9206582b6b76))
+
+
+### :no_entry: Remove
+
+* Remove old button tokens ([#418](https://github.com/cds-snc/gcds-tokens/issues/418)) ([eb09acd](https://github.com/cds-snc/gcds-tokens/commit/eb09acd25815244fed334c49829dc6fe4c30e5fc))
+
 ## [2.6.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.5.0...gcds-tokens-v2.6.0) (2025-02-19)
 
 
