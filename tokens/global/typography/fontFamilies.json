@@ -13,7 +13,7 @@
       "type": "fontFamilies"
     },
     "icons": {
-      "value": "'Font Awesome 6 Free', FontAwesome",
+      "value": "'gcds-icons'",
       "type": "fontFamilies"
     }
   }
