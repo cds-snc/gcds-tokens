@@ -2788,6 +2788,18 @@
         "value": "0 0 3rem",
         "type": "spacing"
       },
+      "menu": {
+        "topNav": {
+          "mobile": {
+            "trigger": {
+              "margin": {
+                "value": "1rem",
+                "type": "spacing"
+              }
+            }
+          }
+        }
+      },
       "skiptonav": {
         "top": {
           "value": "0.75rem",
