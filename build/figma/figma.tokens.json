@@ -2785,7 +2785,7 @@
         }
       },
       "margin": {
-        "value": "0 0 3.75rem",
+        "value": "0 0 3rem",
         "type": "spacing"
       },
       "skiptonav": {
