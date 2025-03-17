@@ -14,7 +14,7 @@ All notable changes to this project will be documented in this file.
 
 ### :no_entry: Remove
 
-* remove unused header brand margin + headersignature margin tokens ([#420](https://github.com/cds-snc/gcds-tokens/issues/420)) ([365a1cd](https://github.com/cds-snc/gcds-tokens/commit/365a1cd264a80752c1798be7eb682f3ba4451acb))
+* remove unused header brand margin + header signature margin tokens ([#420](https://github.com/cds-snc/gcds-tokens/issues/420)) ([365a1cd](https://github.com/cds-snc/gcds-tokens/commit/365a1cd264a80752c1798be7eb682f3ba4451acb))
 
 ## [2.7.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.6.0...gcds-tokens-v2.7.0)
 
