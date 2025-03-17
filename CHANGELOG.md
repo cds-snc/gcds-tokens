@@ -4,9 +4,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.7.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.7.0...gcds-tokens-v2.7.1)
+
+Released on: 2025-03-17
+
+
+### :bug: :wrench: Bug Fixes
+
+* header spacing and border colour + width ([#419](https://github.com/cds-snc/gcds-tokens/issues/419)) ([3839cef](https://github.com/cds-snc/gcds-tokens/commit/3839cef2d085bf5d13f33c00c22cc5cb72d498a3))
+
+
+### :no_entry: Remove
+
+* remove unused header brand margin + header signature margin tokens ([#420](https://github.com/cds-snc/gcds-tokens/issues/420)) ([365a1cd](https://github.com/cds-snc/gcds-tokens/commit/365a1cd264a80752c1798be7eb682f3ba4451acb))
+
 ## [2.7.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.6.0...gcds-tokens-v2.7.0)
 
-Released on 2025-03-11
+Released on: 2025-03-11
 
 ### :rocket: New Features
 
