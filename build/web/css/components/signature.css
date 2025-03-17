@@ -5,7 +5,8 @@
 :root {
   --gcds-signature-color-flag: #eb2d37;
   --gcds-signature-color-text: #000000;
-  --gcds-signature-signature-height: 1.6875rem;
+  --gcds-signature-signature-height: 1.21875rem;
+  --gcds-signature-signature-height-desktop: 2.09375rem;
   --gcds-signature-white-default: #ffffff;
   --gcds-signature-wordmark-height: 3rem;
 }
