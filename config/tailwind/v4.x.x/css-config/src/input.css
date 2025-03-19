@@ -203,6 +203,17 @@
     }
   }
 
+  /* ----- Custom focus class ----- */
+  .focus:focus {
+    background-color: var(--gcds-link-focus-background);
+    color: var(--gcds-link-focus-text) !important;
+    border-radius: var(--gcds-link-focus-border-radius);
+    box-shadow: var(--gcds-link-focus-box-shadow);
+    outline: var(--gcds-link-focus-outline-width) solid var(--gcds-link-focus-background);
+    outline-offset: var(--gcds-link-focus-outline-offset);
+    text-decoration: none;
+  }
+
   /* ----- Custom link colours ----- */
 
   /* Default link colour for links on a white background. */

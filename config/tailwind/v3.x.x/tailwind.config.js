@@ -221,16 +221,29 @@ module.exports = {
         full: container.full.value,
       },
       // Matches GCDS container sizes
-      maxWidth: (theme) => ({
-        ...theme('width'),
-      }),
+      maxWidth: theme => theme('width'),
       // Matches GCDS container sizes
-      minWidth: (theme) => ({
-        ...theme('width'),
-      }),
+      minWidth: theme => theme('width'),
     },
   },
   plugins: [
+    // Custom focus class
+    function ({ addUtilities }) {
+      const customFocusStyle = {
+        '.focus:focus': {
+          backgroundColor: link.focus.background.value,
+          color: link.focus.text.value,
+          borderRadius: link.focus.border.radius.value,
+          boxShadow: link.focus["box-shadow"].value,
+          outline: `${link.focus.outline.width.value} solid ${link.focus.background.value}`,
+          outlineOffset: link.focus["outline-offset"].value,
+          textDecoration: 'none',
+        },
+      };
+
+      addUtilities(customFocusStyle, ['focus']);
+    },
+
     // Custom link color classes.
     function ({ addUtilities, theme }) {
       const linkColors = theme('linkColor');
