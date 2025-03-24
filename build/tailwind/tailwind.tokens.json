@@ -1795,7 +1795,7 @@
       },
       "fieldset": {
         "margin": {
-          "value": "0 0 1.5rem",
+          "value": "0 0 1rem",
           "type": "spacing"
         }
       },
