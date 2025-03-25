@@ -263,10 +263,15 @@
 
   /* Colour: Red */
   --color-red-100: var(--gcds-color-red-100);
+  --color-red-200: var(--gcds-color-red-200);
+  --color-red-300: var(--gcds-color-red-300);
+  --color-red-400: var(--gcds-color-red-400);
+  --color-red-450: var(--gcds-color-red-450);
   --color-red-500: var(--gcds-color-red-500);
+  --color-red-600: var(--gcds-color-red-600);
   --color-red-700: var(--gcds-color-red-700);
+  --color-red-800: var(--gcds-color-red-800);
   --color-red-900: var(--gcds-color-red-900);
-  --color-red-flag: var(--gcds-color-red-flag);
 
   /* Colour: Yellow */
   --color-yellow-100: var(--gcds-color-yellow-100);
@@ -370,7 +375,7 @@
 @theme extend {
   /* ----- Background colours ----- */
   --background-color-dark: var(--gcds-bg-dark); /* Main dark background colour. */
-  --background-color-danger: var(--gcds-danger-background); /* Background colour for background emphasis on a destructive action or critical feedback. */
+  --background-color-danger: var(--gcds-danger-default); /* Background colour for background emphasis on a destructive action or critical feedback. */
   --background-color-focus: var(--gcds-focus-background); /* Background colour only for focus on interactive elements. */
   --background-color-light: var(--gcds-bg-light); /* Light background colour (alternative to white). */
   --background-color-primary: var(--gcds-bg-primary); /* Highlight background colour. */
