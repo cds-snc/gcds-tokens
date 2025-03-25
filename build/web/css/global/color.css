@@ -10,9 +10,8 @@
   --gcds-bg-light: #f1f2f3; /* Global bg color: light background */
   --gcds-bg-primary: #26374a; /* Global bg color: primary background */
   --gcds-bg-white: #ffffff; /* Global bg color: white background */
-  --gcds-danger-background: #fbddda; /* Global color: danger background */
-  --gcds-danger-border: #d3080c; /* Global color: danger border */
-  --gcds-danger-text: #a62a1e; /* Global color: danger text */
+  --gcds-danger-default: #e91620; /* Global color: danger default */
+  --gcds-danger-hover: #8c0d13; /* Global color: danger hover */
   --gcds-disabled-background: #d6d9dd; /* Global color: disabled background */
   --gcds-disabled-text: #545961; /* Global color: disabled text */
   --gcds-focus-background: #0535d2; /* Global color: focus background */

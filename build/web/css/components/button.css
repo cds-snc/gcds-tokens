@@ -5,9 +5,9 @@
 :root {
   --gcds-button-border-radius: 0.375rem;
   --gcds-button-border-width: 0.125rem;
-  --gcds-button-danger-default-background: #a62a1e;
+  --gcds-button-danger-default-background: #e91620;
   --gcds-button-danger-default-text: #ffffff;
-  --gcds-button-danger-hover-background: #822117;
+  --gcds-button-danger-hover-background: #8c0d13;
   --gcds-button-font-desktop: 500 1.25rem/140% 'Noto Sans', sans-serif;
   --gcds-button-font-mobile: 500 1.125rem/140% 'Noto Sans', sans-serif;
   --gcds-button-padding: 0.625rem 1rem;

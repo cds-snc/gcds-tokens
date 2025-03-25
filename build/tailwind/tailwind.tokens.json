@@ -101,23 +101,43 @@
       },
       "red": {
         "100": {
-          "value": "#FBDDDA",
+          "value": "#fad1d3",
+          "type": "color"
+        },
+        "200": {
+          "value": "#f5a3a7",
+          "type": "color"
+        },
+        "300": {
+          "value": "#f27379",
+          "type": "color"
+        },
+        "400": {
+          "value": "#ee444d",
+          "type": "color"
+        },
+        "450": {
+          "value": "#eb2d37",
           "type": "color"
         },
         "500": {
-          "value": "#d3080c",
+          "value": "#e91620",
+          "type": "color"
+        },
+        "600": {
+          "value": "#bb1119",
           "type": "color"
         },
         "700": {
-          "value": "#A62A1E",
+          "value": "#8c0d13",
+          "type": "color"
+        },
+        "800": {
+          "value": "#5d090d",
           "type": "color"
         },
         "900": {
-          "value": "#822117",
-          "type": "color"
-        },
-        "flag": {
-          "value": "#eb2d37",
+          "value": "#2e0507",
           "type": "color"
         }
       },
@@ -203,16 +223,12 @@
       }
     },
     "danger": {
-      "background": {
-        "value": "#FBDDDA",
+      "default": {
+        "value": "#e91620",
         "type": "color"
       },
-      "border": {
-        "value": "#d3080c",
-        "type": "color"
-      },
-      "text": {
-        "value": "#A62A1E",
+      "hover": {
+        "value": "#8c0d13",
         "type": "color"
       }
     },
@@ -1352,11 +1368,11 @@
       },
       "danger": {
         "background": {
-          "value": "#FBDDDA",
+          "value": "#fad1d3",
           "type": "color"
         },
         "icon": {
-          "value": "#d3080c",
+          "value": "#e91620",
           "type": "color"
         },
         "text": {
@@ -1452,7 +1468,7 @@
       "danger": {
         "default": {
           "background": {
-            "value": "#A62A1E",
+            "value": "#e91620",
             "type": "color"
           },
           "text": {
@@ -1462,7 +1478,7 @@
         },
         "hover": {
           "background": {
-            "value": "#822117",
+            "value": "#8c0d13",
             "type": "color"
           }
         }
@@ -1827,7 +1843,7 @@
       },
       "danger": {
         "border": {
-          "value": "#d3080c",
+          "value": "#e91620",
           "type": "color"
         }
       },
@@ -1924,7 +1940,7 @@
     "date-input": {
       "danger": {
         "border": {
-          "value": "#d3080c",
+          "value": "#e91620",
           "type": "color"
         }
       },
@@ -2207,7 +2223,7 @@
     "error-message": {
       "text": {
         "color": {
-          "value": "#A62A1E",
+          "value": "#e91620",
           "type": "border"
         }
       }
@@ -2215,7 +2231,7 @@
     "error-summary": {
       "border": {
         "color": {
-          "value": "#d3080c",
+          "value": "#e91620",
           "type": "color"
         },
         "width": {
@@ -2225,8 +2241,14 @@
       },
       "link": {
         "color": {
-          "value": "#A62A1E",
+          "value": "#e91620",
           "type": "color"
+        },
+        "hover": {
+          "color": {
+            "value": "#8c0d13",
+            "type": "color"
+          }
         }
       },
       "list": {
@@ -2424,7 +2446,7 @@
           },
           "default": {
             "text": {
-              "value": "#A62A1E",
+              "value": "#e91620",
               "type": "color"
             },
             "decoration": {
@@ -2436,7 +2458,7 @@
           },
           "hover": {
             "text": {
-              "value": "#822117",
+              "value": "#8c0d13",
               "type": "color"
             },
             "decoration": {
@@ -2458,7 +2480,7 @@
         "danger": {
           "border": {
             "color": {
-              "value": "#d3080c",
+              "value": "#e91620",
               "type": "color"
             }
           }
@@ -2843,7 +2865,7 @@
       "h1": {
         "border": {
           "background": {
-            "value": "#d3080c",
+            "value": "#bb1119",
             "type": "color"
           },
           "height": {
@@ -3364,7 +3386,7 @@
       },
       "danger": {
         "border": {
-          "value": "#d3080c",
+          "value": "#e91620",
           "type": "color"
         }
       },
@@ -3918,7 +3940,7 @@
       },
       "danger": {
         "text": {
-          "value": "#A62A1E",
+          "value": "#e91620",
           "type": "color"
         }
       },
@@ -4172,7 +4194,7 @@
       },
       "danger": {
         "border": {
-          "value": "#d3080c",
+          "value": "#e91620",
           "type": "color"
         }
       },
@@ -4358,7 +4380,7 @@
       },
       "danger": {
         "border": {
-          "value": "#d3080c",
+          "value": "#e91620",
           "type": "color"
         }
       },
@@ -4524,7 +4546,7 @@
       },
       "danger": {
         "border": {
-          "value": "#d3080c",
+          "value": "#e91620",
           "type": "color"
         }
       },
