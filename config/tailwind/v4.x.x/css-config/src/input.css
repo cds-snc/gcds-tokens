@@ -14,6 +14,13 @@
     border-color: var(--gcds-border-default, currentColor);
   }
 
+  /* Prevent mobile overflow */
+  body,
+  html {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
   /* ----- Default GCDS typography styles ----- */
   body {
     font: var(--gcds-font-text);
@@ -135,6 +142,32 @@
   /* Default font size */
   .text {
     font-size: var(--gcds-font-sizes-text);
+  }
+
+  /* ----- Custom class for full width background colour ----- */
+  .bg-full-width {
+    position: relative;
+    width: calc(100% + var(--gcds-spacing-225));
+    margin-inline: calc(-1 * var(--gcds-spacing-100));
+    padding-inline: var(--gcds-spacing-100);
+
+    &:before,
+    &:after {
+      position: absolute;
+      top: 0;
+      width: 100vw;
+      height: 100%;
+      content: '';
+      background-color: inherit;
+    }
+
+    &:before {
+      left: calc(-100vw + 1px);
+    }
+
+    &:after {
+      right: calc(-100vw + 1px);
+    }
   }
 
   /* ----- Custom font classes ----- */

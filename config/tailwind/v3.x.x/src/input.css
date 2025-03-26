@@ -6,6 +6,13 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Prevent mobile overflow */
+body,
+html {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 /* ----- Default GCDS typography styles ----- */
 @layer base {
   body {

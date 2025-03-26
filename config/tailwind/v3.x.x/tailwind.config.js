@@ -227,6 +227,34 @@ module.exports = {
     },
   },
   plugins: [
+    // Custom class for full width background colour
+    function ({ addUtilities }) {
+      const bgFullWidthStyle = {
+        '.bg-full-width': {
+          position: 'relative',
+          width: 'calc(100% + var(--gcds-spacing-225))',
+          marginInline: 'calc(-1 * var(--gcds-spacing-100))',
+          paddingInline: 'var(--gcds-spacing-100)',
+        },
+        '.bg-full-width:before, .bg-full-width:after': {
+          position: 'absolute',
+          top: '0',
+          width: '100vw',
+          height: '100%',
+          content: "''",
+          backgroundColor: 'inherit',
+        },
+        '.bg-full-width:before': {
+          left: 'calc(-100vw + 1px)',
+        },
+        '.bg-full-width:after': {
+          right: 'calc(-100vw + 1px)',
+        },
+      };
+
+      addUtilities(bgFullWidthStyle, ['responsive', 'hover', 'focus']);
+    },
+
     // Custom focus class
     function ({ addUtilities }) {
       const customFocusStyle = {
