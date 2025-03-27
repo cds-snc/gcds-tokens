@@ -116,8 +116,8 @@
   --gcds-alert-icon-mobile-margin: 0 0 0.875rem;
   --gcds-alert-padding: 0.75rem 0.875rem;
   --gcds-alert-text: #333333;
-  --gcds-alert-danger-background: #fbddda;
-  --gcds-alert-danger-icon: #d3080c;
+  --gcds-alert-danger-background: #fad1d3;
+  --gcds-alert-danger-icon: #e91620;
   --gcds-alert-danger-text: #333333;
   --gcds-alert-info-background: #d7e5f5;
   --gcds-alert-info-icon: #6584a6;
@@ -135,9 +135,9 @@
   --gcds-breadcrumbs-padding: 0 0 0 0.125rem;
   --gcds-button-border-radius: 0.375rem;
   --gcds-button-border-width: 0.125rem;
-  --gcds-button-danger-default-background: #a62a1e;
+  --gcds-button-danger-default-background: #e91620;
   --gcds-button-danger-default-text: #ffffff;
-  --gcds-button-danger-hover-background: #822117;
+  --gcds-button-danger-hover-background: #8c0d13;
   --gcds-button-font-desktop: 500 1.25rem/140% 'Noto Sans', sans-serif;
   --gcds-button-font-mobile: 500 1.125rem/140% 'Noto Sans', sans-serif;
   --gcds-button-padding: 0.625rem 1rem;
@@ -197,7 +197,7 @@
   --gcds-checkbox-check-left: 1rem;
   --gcds-checkbox-check-top: 0.625rem;
   --gcds-checkbox-check-width: 0.875rem;
-  --gcds-checkbox-danger-border: #d3080c;
+  --gcds-checkbox-danger-border: #e91620;
   --gcds-checkbox-default-text: #333333;
   --gcds-checkbox-disabled-background: #d6d9dd;
   --gcds-checkbox-disabled-border: #545961;
@@ -215,7 +215,7 @@
   --gcds-checkbox-margin: 0 0 1.125rem;
   --gcds-checkbox-max-width: 46.5rem;
   --gcds-checkbox-padding: 0.5rem;
-  --gcds-date-input-danger-border: #d3080c;
+  --gcds-date-input-danger-border: #e91620;
   --gcds-date-input-fieldset-font-desktop: 700 1.25rem/160% 'Noto Sans', sans-serif;
   --gcds-date-input-fieldset-font-mobile: 700 1.125rem/155% 'Noto Sans', sans-serif;
   --gcds-date-input-fieldset-error-margin: 0;
@@ -258,10 +258,11 @@
   --gcds-details-summary-arrow-top: 0.875rem;
   --gcds-details-summary-border-width: 0.0625rem;
   --gcds-details-summary-padding: 0.375rem 0.375rem 0.375rem 2.5rem;
-  --gcds-error-message-text-color: #a62a1e;
-  --gcds-error-summary-border-color: #d3080c;
+  --gcds-error-message-text-color: #e91620;
+  --gcds-error-summary-border-color: #e91620;
   --gcds-error-summary-border-width: 0.375rem;
-  --gcds-error-summary-link-color: #a62a1e;
+  --gcds-error-summary-link-color: #e91620;
+  --gcds-error-summary-link-hover-color: #8c0d13;
   --gcds-error-summary-list-item-padding: 0 0 0.75rem 0.125rem;
   --gcds-error-summary-list-margin: 0 0 0 1.25rem;
   --gcds-error-summary-margin: 0 0 2.25rem;
@@ -294,13 +295,13 @@
   --gcds-file-uploader-file-button-border-width: 0.0625rem;
   --gcds-file-uploader-file-button-border-radius: 0.375rem;
   --gcds-file-uploader-file-button-underline-offset: 0.25rem;
-  --gcds-file-uploader-file-button-default-text: #a62a1e;
+  --gcds-file-uploader-file-button-default-text: #e91620;
   --gcds-file-uploader-file-button-default-decoration-thickness: 0.0625rem;
-  --gcds-file-uploader-file-button-hover-text: #822117;
+  --gcds-file-uploader-file-button-hover-text: #8c0d13;
   --gcds-file-uploader-file-button-hover-decoration-thickness: 0.125rem;
   --gcds-file-uploader-file-button-margin: 0 0 0 2.25rem;
   --gcds-file-uploader-file-button-padding: 0.375rem 0.125rem;
-  --gcds-file-uploader-file-danger-border-color: #d3080c;
+  --gcds-file-uploader-file-danger-border-color: #e91620;
   --gcds-file-uploader-file-focus-border-color: #0535d2;
   --gcds-file-uploader-file-max-width: 30rem;
   --gcds-file-uploader-file-padding: 0.75rem 1.125rem;
@@ -370,7 +371,7 @@
   --gcds-heading-character-limit-h5: 50ch;
   --gcds-heading-character-limit-h6: 57ch;
   --gcds-heading-default-text: #333333;
-  --gcds-heading-h1-border-background: #d3080c;
+  --gcds-heading-h1-border-background: #bb1119;
   --gcds-heading-h1-border-height: 0.375rem;
   --gcds-heading-h1-border-margin: 0.5rem;
   --gcds-heading-h1-border-width: 4.5rem;
@@ -477,7 +478,7 @@
   --gcds-icon-margin-1250: 6.25rem;
   --gcds-input-border-radius: 0.125rem;
   --gcds-input-border-width: 0.125rem;
-  --gcds-input-danger-border: #d3080c;
+  --gcds-input-danger-border: #e91620;
   --gcds-input-default-background: #ffffff;
   --gcds-input-default-text: #333333;
   --gcds-input-disabled-background: #d6d9dd;
@@ -572,7 +573,7 @@
   --gcds-notice-content-slotted-font-mobile: 400 1.125rem/155% 'Noto Sans', sans-serif;
   --gcds-notice-content-slotted-list-margin: 1.5rem;
   --gcds-notice-content-slotted-margin: 0.5rem;
-  --gcds-notice-danger-text: #a62a1e;
+  --gcds-notice-danger-text: #e91620;
   --gcds-notice-icon-after-height: calc(100% - (3rem + 0.5rem));
   --gcds-notice-icon-before-height: 1.125rem;
   --gcds-notice-icon-gap: 0.875rem;
@@ -617,7 +618,7 @@
   --gcds-radio-check-height-and-width: 1.125rem;
   --gcds-radio-check-left: 0.9375rem;
   --gcds-radio-check-top: 0.9375rem;
-  --gcds-radio-danger-border: #d3080c;
+  --gcds-radio-danger-border: #e91620;
   --gcds-radio-default-text: #333333;
   --gcds-radio-disabled-background: #d6d9dd;
   --gcds-radio-disabled-border: #545961;
@@ -652,7 +653,7 @@
   --gcds-select-arrow-position-x: calc(100% - 0.75rem);
   --gcds-select-border-radius: 0.125rem;
   --gcds-select-border-width: 0.125rem;
-  --gcds-select-danger-border: #d3080c;
+  --gcds-select-danger-border: #e91620;
   --gcds-select-default-background: #ffffff;
   --gcds-select-default-text: #333333;
   --gcds-select-disabled-background: #d6d9dd;
@@ -680,7 +681,7 @@
   --gcds-stepper-margin-mobile: 0 0 0.25rem;
   --gcds-textarea-border-radius: 0.125rem;
   --gcds-textarea-border-width: 0.125rem;
-  --gcds-textarea-danger-border: #d3080c;
+  --gcds-textarea-danger-border: #e91620;
   --gcds-textarea-default-background: #ffffff;
   --gcds-textarea-default-text: #333333;
   --gcds-textarea-disabled-background: #d6d9dd;

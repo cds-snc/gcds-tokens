@@ -79,10 +79,15 @@ module.exports = {
       },
       red: {
         100: red[100].value,
+        200: red[200].value,
+        300: red[300].value,
+        400: red[400].value,
+        450: red[450].value,
         500: red[500].value,
+        600: red[600].value,
         700: red[700].value,
+        800: red[800].value,
         900: red[900].value,
-        flag: red.flag.value,
       },
       transparent: 'transparent',
       yellow: {
@@ -168,7 +173,7 @@ module.exports = {
     extend: {
       backgroundColor: {
         dark: bg.dark.value, // Main dark background colour.
-        danger: danger.background.value, // Background colour for background emphasis on a destructive action or critical feedback.
+        danger: danger.default.value, // Background colour for background emphasis on a destructive action or critical feedback.
         focus: focus.background.value, // Background colour only for focus on interactive elements.
         light: bg.light.value, // Light background colour (alternative to white).
         primary: bg.primary.value, // Highlight background colour.
