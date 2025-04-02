@@ -4,6 +4,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.8.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.7.1...gcds-tokens-v2.8.0)
+
+Released on: 2025-04-02
+
+
+### :rocket: New Features
+
+* add custom focus class for interactive elements to Tailwind configs ([#425](https://github.com/cds-snc/gcds-tokens/issues/425)) ([7e14476](https://github.com/cds-snc/gcds-tokens/commit/7e1447690f25537554d34708b930ad8650869e0a))
+* add custom full-width-bg class to Tailwind configs ([#428](https://github.com/cds-snc/gcds-tokens/issues/428)) ([670cc0c](https://github.com/cds-snc/gcds-tokens/commit/670cc0ccf0071f6c5029291fd6f7f8a9fa5482ae))
+* add default GCDS typography styles to Tailwind configs ([#423](https://github.com/cds-snc/gcds-tokens/issues/423)) ([f016ada](https://github.com/cds-snc/gcds-tokens/commit/f016adacf5177ab17e3d6548c0ada2243fff9310))
+
+
+### :bug: :wrench: Bug Fixes
+
+* update h1 border colour ([#430](https://github.com/cds-snc/gcds-tokens/issues/430)) ([69323c3](https://github.com/cds-snc/gcds-tokens/commit/69323c38c47eb0ab436490d36c9ac78f83139f99))
+
 ## [2.7.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.7.0...gcds-tokens-v2.7.1)
 
 Released on: 2025-03-17
