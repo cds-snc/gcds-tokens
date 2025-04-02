@@ -13,7 +13,7 @@ Released on: 2025-04-02
 
 * add custom focus class for interactive elements to Tailwind configs ([#425](https://github.com/cds-snc/gcds-tokens/issues/425)) ([7e14476](https://github.com/cds-snc/gcds-tokens/commit/7e1447690f25537554d34708b930ad8650869e0a))
 * add custom full-width-bg class to Tailwind configs ([#428](https://github.com/cds-snc/gcds-tokens/issues/428)) ([670cc0c](https://github.com/cds-snc/gcds-tokens/commit/670cc0ccf0071f6c5029291fd6f7f8a9fa5482ae))
-* add default GCDS typography styles to tailwind configs ([#423](https://github.com/cds-snc/gcds-tokens/issues/423)) ([f016ada](https://github.com/cds-snc/gcds-tokens/commit/f016adacf5177ab17e3d6548c0ada2243fff9310))
+* add default GCDS typography styles to Tailwind configs ([#423](https://github.com/cds-snc/gcds-tokens/issues/423)) ([f016ada](https://github.com/cds-snc/gcds-tokens/commit/f016adacf5177ab17e3d6548c0ada2243fff9310))
 
 
 ### :bug: :wrench: Bug Fixes
