@@ -3505,7 +3505,7 @@
           }
         },
         "padding": {
-          "value": "0.5rem 0.875rem 1.5rem 0.875rem",
+          "value": "0.5rem 0.875rem 4.75rem 0.875rem",
           "type": "spacing"
         },
         "trigger": {
