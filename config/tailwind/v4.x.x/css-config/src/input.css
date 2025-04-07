@@ -273,6 +273,9 @@
 @theme {
   /* ----- Colours ----- */
 
+  /* Limit Tailwind colours to GCDS colours */
+  --color-*: initial;
+
   /* Colour: Blue */
   --color-blue-100: var(--gcds-color-blue-100);
   --color-blue-500: var(--gcds-color-blue-500);
