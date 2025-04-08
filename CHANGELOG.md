@@ -9,7 +9,7 @@ All notable changes to this project will be documented in this file.
 
 ### :rocket: New Features
 
-* tailwind config 4 - limit colours to gcds colours ([#433](https://github.com/cds-snc/gcds-tokens/issues/433)) ([55492bd](https://github.com/cds-snc/gcds-tokens/commit/55492bda5a09f02651500164ef6d0fb0de5ba638))
+* limit colours to GCDS colours for Tailwind CSS config version 4 ([#433](https://github.com/cds-snc/gcds-tokens/issues/433)) ([55492bd](https://github.com/cds-snc/gcds-tokens/commit/55492bda5a09f02651500164ef6d0fb0de5ba638))
 
 
 ### :bug: :wrench: Bug Fixes
