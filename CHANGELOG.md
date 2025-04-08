@@ -4,6 +4,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.9.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.8.0...gcds-tokens-v2.9.0) (2025-04-08)
+
+
+### :rocket: New Features
+
+* tailwind config 4 - limit colours to gcds colours ([#433](https://github.com/cds-snc/gcds-tokens/issues/433)) ([55492bd](https://github.com/cds-snc/gcds-tokens/commit/55492bda5a09f02651500164ef6d0fb0de5ba638))
+
+
+### :bug: :wrench: Bug Fixes
+
+* mobile menu padding for Safari mobile ([#431](https://github.com/cds-snc/gcds-tokens/issues/431)) ([ba27e8d](https://github.com/cds-snc/gcds-tokens/commit/ba27e8d42b85fe51cbf90eca66c9a6bf7712d6e0))
+
 ## [2.8.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.7.1...gcds-tokens-v2.8.0)
 
 Released on: 2025-04-02
