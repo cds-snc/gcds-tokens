@@ -4,6 +4,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.9.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.9.0...gcds-tokens-v2.9.1) (2025-04-09)
+
+
+### :bug: :wrench: Bug Fixes
+
+* update spacing between links in footer sub band ([#434](https://github.com/cds-snc/gcds-tokens/issues/434)) ([d9d38d1](https://github.com/cds-snc/gcds-tokens/commit/d9d38d12a8ba38c702f9f51d747ac7069b913ed2))
+
 ## [2.9.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.8.0...gcds-tokens-v2.9.0)
 
 Released on: 2025-04-08
