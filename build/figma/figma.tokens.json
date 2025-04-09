@@ -2630,7 +2630,7 @@
         "listitem": {
           "before": {
             "margin": {
-              "value": "0 1.5rem",
+              "value": "0 0.75rem",
               "type": "spacing"
             }
           }
