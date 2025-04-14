@@ -42,7 +42,7 @@ The `fixed-width` property has been removed from the Icon component:
 
 As part of this change, the following icon tokens will be removed:
 
-- --gcds-icon-fixed-width-text-small;
+- --gcds-icon-fixed-width-text-small
 - --gcds-icon-fixed-width-text
 - --gcds-icon-fixed-width-h6
 - --gcds-icon-fixed-width-h5
