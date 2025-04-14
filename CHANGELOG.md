@@ -4,6 +4,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.10.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.9.1...gcds-tokens-v2.10.0) (2025-04-14)
+
+
+### :rocket: New Features
+
+* replace Font Awesome with GCDS icons font ([#406](https://github.com/cds-snc/gcds-tokens/issues/406)) ([a7b7470](https://github.com/cds-snc/gcds-tokens/commit/a7b74708cf91a0931f206ee53ac82f50cdb7ccba))
+
+
+### :no_entry: Remove
+
+* remove old icon fixed-width tokens ([#407](https://github.com/cds-snc/gcds-tokens/issues/407)) ([63ffc73](https://github.com/cds-snc/gcds-tokens/commit/63ffc732e3bef68920249b1f8c0c136e10b74ea6))
+
 ## [2.9.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.9.0...gcds-tokens-v2.9.1)
 
 Released on: 2025-04-09
