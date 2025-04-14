@@ -4,17 +4,52 @@
 
 All notable changes to this project will be documented in this file.
 
-## [2.10.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.9.1...gcds-tokens-v2.10.0) (2025-04-14)
+## [2.10.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.9.1...gcds-tokens-v2.10.0)
 
+Released on: 2025-04-14
 
 ### :rocket: New Features
 
+The Icon component will be updated to use the new "GCDS Icons" font, replacing FontAwesome.
+
 * replace Font Awesome with GCDS icons font ([#406](https://github.com/cds-snc/gcds-tokens/issues/406)) ([a7b7470](https://github.com/cds-snc/gcds-tokens/commit/a7b74708cf91a0931f206ee53ac82f50cdb7ccba))
+
+As part of this change, the following new icon tokens will be added:
+
+- --gcds-icon-font-size-text-small-mobile
+- --gcds-icon-font-size-text-mobile
+- --gcds-icon-font-size-h6-mobile
+- --gcds-icon-font-size-h5-mobile
+- --gcds-icon-font-size-h4-mobile
+- --gcds-icon-font-size-h3-mobile
+- --gcds-icon-font-size-h2-mobile
+- --gcds-icon-font-size-h1-mobile
+- --gcds-icon-line-height-text-small-mobile
+- --gcds-icon-line-height-text-mobile
+- --gcds-icon-line-height-h6-mobile
+- --gcds-icon-line-height-h5-mobile
+- --gcds-icon-line-height-h4-mobile
+- --gcds-icon-line-height-h3-mobile
+- --gcds-icon-line-height-h2-mobile
+- --gcds-icon-line-height-h1-mobile
 
 
 ### :no_entry: Remove
 
+The `fixed-width` property has been removed from the Icon component:
+
 * remove old icon fixed-width tokens ([#407](https://github.com/cds-snc/gcds-tokens/issues/407)) ([63ffc73](https://github.com/cds-snc/gcds-tokens/commit/63ffc732e3bef68920249b1f8c0c136e10b74ea6))
+
+As part of this change, the following icon tokens will be removed:
+
+- --gcds-icon-fixed-width-text-small;
+- --gcds-icon-fixed-width-text
+- --gcds-icon-fixed-width-h6
+- --gcds-icon-fixed-width-h5
+- --gcds-icon-fixed-width-h4
+- --gcds-icon-fixed-width-h3
+- --gcds-icon-fixed-width-h2
+- --gcds-icon-fixed-width-h1
 
 ## [2.9.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.9.0...gcds-tokens-v2.9.1)
 
@@ -157,7 +192,7 @@ Released on: 2025-01-30
 
 ### :no_entry: Remove
 
-* Remove search component tokens ([#384](https://github.com/cds-snc/gcds-tokens/issues/384)) ([8c3d4d1](https://github.com/cds-snc/gcds-tokens/commit/8c3d4d12bf8f42406fac200bada5adce6be7c65e)) 
+* Remove search component tokens ([#384](https://github.com/cds-snc/gcds-tokens/issues/384)) ([8c3d4d1](https://github.com/cds-snc/gcds-tokens/commit/8c3d4d12bf8f42406fac200bada5adce6be7c65e))
     - `--gcds-search-border-radius`
     - `--gcds-search-focus-border-radius`
     - `--gcds-search-font-desktop`
