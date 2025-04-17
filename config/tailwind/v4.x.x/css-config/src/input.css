@@ -279,6 +279,7 @@
   /* Colour: Blue */
   --color-blue-100: var(--gcds-color-blue-100);
   --color-blue-500: var(--gcds-color-blue-500);
+  --color-blue-650: var(--gcds-color-blue-650);
   --color-blue-700: var(--gcds-color-blue-700);
   --color-blue-750: var(--gcds-color-blue-750);
   --color-blue-800: var(--gcds-color-blue-800);
