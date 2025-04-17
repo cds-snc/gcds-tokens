@@ -4,6 +4,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.11.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.10.0...gcds-tokens-v2.11.0) (2025-04-17)
+
+
+### :rocket: New Features
+
+* add new blue colour token + update link default colour ([#437](https://github.com/cds-snc/gcds-tokens/issues/437)) ([4597922](https://github.com/cds-snc/gcds-tokens/commit/4597922d647bdf68671afa83a21f5a27b78d3e55))
+
 ## [2.10.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.9.1...gcds-tokens-v2.10.0)
 
 Released on: 2025-04-14
