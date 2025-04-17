@@ -3,6 +3,7 @@
 
 $gcds-color-blue-100: #d7e5f5;
 $gcds-color-blue-500: #6584a6; // Must contrast 3:1 with white
+$gcds-color-blue-650: #284162;
 $gcds-color-blue-700: #33465c; // Must contrast 7:1 with white
 $gcds-color-blue-750: #1e7b96;
 $gcds-color-blue-800: #2b4380;
@@ -53,7 +54,7 @@ $gcds-disabled-text: #545961; // Global color: disabled text
 $gcds-focus-background: #0535d2; // Global color: focus background
 $gcds-focus-border: #0535d2; // Global color: focus border
 $gcds-focus-text: #ffffff; // Global color: focus text
-$gcds-link-default: #2b4380; // Global color: link default
+$gcds-link-default: #284162; // Global color: link default
 $gcds-link-hover: #0535d2; // Global color: link hover
 $gcds-link-light: #ffffff; // Global color: link light
 $gcds-link-visited: #7532b8; // Global color: link visited
@@ -335,7 +336,7 @@ $gcds-card-focus-box-shadow: inset 0 0 0 0.125rem #0535d2;
 $gcds-card-focus-link-background-color: rgba(0, 0, 0, 0);
 $gcds-card-focus-link-border: none;
 $gcds-card-focus-link-box-shadow: none;
-$gcds-card-focus-link-color: #2b4380;
+$gcds-card-focus-link-color: #284162;
 $gcds-card-focus-link-outline: none;
 $gcds-card-focus-link-text-decoration-thickness: 0.125rem;
 $gcds-card-focus-outline-offset: 0.125rem;
@@ -390,7 +391,7 @@ $gcds-date-input-margin: 0.75rem;
 $gcds-date-modified-description-margin: 0 0 0 0.125rem;
 $gcds-date-modified-font: 400 1rem/150% 'Noto Sans', sans-serif; // Mandatory elements alignment: sub-components of footer use 16px font
 $gcds-date-modified-margin: 2.5rem 0 1rem;
-$gcds-details-default-text: #2b4380;
+$gcds-details-default-text: #284162;
 $gcds-details-default-decoration-thickness: 0.0625rem;
 $gcds-details-focus-background: #0535d2;
 $gcds-details-focus-text: #ffffff;
@@ -707,7 +708,7 @@ $gcds-nav-link-active-font-weight: 700;
 $gcds-nav-link-active-text: #26374a;
 $gcds-nav-link-active-background: #d7e5f5;
 $gcds-nav-link-border-width: 0.25rem;
-$gcds-nav-link-default-text: #2b4380;
+$gcds-nav-link-default-text: #284162;
 $gcds-nav-link-default-decoration-thickness: 0.0625rem;
 $gcds-nav-link-default-max-width: 20rem;
 $gcds-nav-link-default-underline-offset: 0.25rem;
@@ -753,7 +754,7 @@ $gcds-pagination-active-text: #ffffff;
 $gcds-pagination-active-background: #26374a;
 $gcds-pagination-border-radius: 0.125rem;
 $gcds-pagination-border-width: 0.125rem;
-$gcds-pagination-default-text: #2b4380;
+$gcds-pagination-default-text: #284162;
 $gcds-pagination-hover-background: #d7e5f5;
 $gcds-pagination-hover-text: #0535d2;
 $gcds-pagination-focus-background: #0535d2;
@@ -763,7 +764,7 @@ $gcds-pagination-focus-outline-width: 0.25rem;
 $gcds-pagination-font: 500 1.25rem/160% 'Noto Sans', sans-serif;
 $gcds-pagination-list-end-button-padding: 0.5rem;
 $gcds-pagination-listitem-margin: 0.375rem;
-$gcds-pagination-mobile-list-border: #2b4380;
+$gcds-pagination-mobile-list-border: #284162;
 $gcds-pagination-mobile-list-item-margin: 0.125rem;
 $gcds-pagination-mobile-list-prevnext-margin: 0.75rem auto 0;
 $gcds-pagination-simple-label-font-weight: 400;
@@ -950,5 +951,5 @@ $gcds-verify-banner-font: 400 1.125rem/155% 'Noto Sans', sans-serif;
 $gcds-verify-banner-summary-padding: 0.75rem;
 $gcds-verify-banner-summary-content-margin: 0 1.125rem 0 0;
 $gcds-verify-banner-text: #333333;
-$gcds-verify-banner-toggle-text: #2b4380;
+$gcds-verify-banner-toggle-text: #284162;
 $gcds-verify-banner-toggle-font-weight: 700;

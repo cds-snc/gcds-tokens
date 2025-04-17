@@ -10,6 +10,10 @@
           "value": "#6584A6",
           "type": "color"
         },
+        "650": {
+          "value": "#284162",
+          "type": "color"
+        },
         "700": {
           "value": "#33465c",
           "type": "color"
@@ -242,7 +246,7 @@
     },
     "link": {
       "default": {
-        "value": "#2b4380",
+        "value": "#284162",
         "type": "color"
       },
       "hover": {
@@ -1708,7 +1712,7 @@
             "type": "color"
           },
           "color": {
-            "value": "#2b4380",
+            "value": "#284162",
             "type": "color"
           },
           "outline": {
@@ -2047,7 +2051,7 @@
     "details": {
       "default": {
         "text": {
-          "value": "#2b4380",
+          "value": "#284162",
           "type": "color"
         },
         "decoration": {
@@ -3750,7 +3754,7 @@
       },
       "default": {
         "text": {
-          "value": "#2b4380",
+          "value": "#284162",
           "type": "color"
         },
         "decoration": {
@@ -4020,7 +4024,7 @@
       },
       "default": {
         "text": {
-          "value": "#2b4380",
+          "value": "#284162",
           "type": "color"
         }
       },
@@ -4080,7 +4084,7 @@
       "mobile": {
         "list": {
           "border": {
-            "value": "#2b4380",
+            "value": "#284162",
             "type": "border"
           },
           "item": {
@@ -5110,7 +5114,7 @@
       },
       "toggle": {
         "text": {
-          "value": "#2b4380",
+          "value": "#284162",
           "type": "color"
         },
         "fontWeight": {
