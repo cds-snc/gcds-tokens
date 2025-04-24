@@ -3553,6 +3553,15 @@
               "type": "borderWidth"
             }
           },
+          "font": {
+            "value": {
+              "fontFamily": "'Noto Sans', sans-serif",
+              "fontWeight": "500",
+              "lineHeight": "150%",
+              "fontSize": "1rem"
+            },
+            "type": "typography"
+          },
           "margin": {
             "value": "0.5rem",
             "type": "spacing"
@@ -3612,6 +3621,15 @@
             "type": "sizing"
           }
         },
+        "font": {
+          "value": {
+            "fontFamily": "'Noto Sans', sans-serif",
+            "fontWeight": "500",
+            "lineHeight": "150%",
+            "fontSize": "1rem"
+          },
+          "type": "typography"
+        },
         "trigger": {
           "border": {
             "width": {
@@ -3659,12 +3677,12 @@
           },
           "icon": {
             "margin": {
-              "value": "0.875rem",
+              "value": "0.5rem",
               "type": "spacing"
             }
           },
           "padding": {
-            "value": "0.875rem",
+            "value": "1rem",
             "type": "spacing"
           }
         }
@@ -3748,7 +3766,7 @@
       },
       "border": {
         "width": {
-          "value": "0.25rem",
+          "value": "0.125rem",
           "type": "borderWidth"
         }
       },
@@ -3809,6 +3827,15 @@
         },
         "type": "typography"
       },
+      "fontMobile": {
+        "value": {
+          "fontFamily": "'Noto Sans', sans-serif",
+          "fontWeight": "500",
+          "lineHeight": "150%",
+          "fontSize": "1rem"
+        },
+        "type": "typography"
+      },
       "hover": {
         "decoration": {
           "thickness": {
@@ -3842,6 +3869,15 @@
         }
       },
       "topNav": {
+        "font": {
+          "value": {
+            "fontFamily": "'Noto Sans', sans-serif",
+            "fontWeight": "500",
+            "lineHeight": "150%",
+            "fontSize": "1rem"
+          },
+          "type": "typography"
+        },
         "hover": {
           "background": {
             "value": "#D6D9DD",
@@ -3852,19 +3888,19 @@
           "font": {
             "value": {
               "fontFamily": "'Noto Sans', sans-serif",
-              "fontWeight": "600",
-              "lineHeight": "133%",
-              "fontSize": "1.5rem"
+              "fontWeight": "700",
+              "lineHeight": "150%",
+              "fontSize": "1rem"
             },
             "type": "typography"
           },
           "padding": {
-            "value": "0.875rem",
+            "value": "1rem 0.125rem",
             "type": "spacing"
           }
         },
         "padding": {
-          "value": "0.875rem",
+          "value": "1rem",
           "type": "spacing"
         },
         "text": {
@@ -3872,7 +3908,7 @@
           "type": "color"
         },
         "margin": {
-          "value": "0 0 0 0.125rem",
+          "value": "0",
           "type": "spacing"
         }
       }
@@ -4620,6 +4656,16 @@
       "background": {
         "value": "#F1F2F3",
         "type": "color"
+      },
+      "border": {
+        "color": {
+          "value": "#D6D9DD",
+          "type": "border"
+        },
+        "width": {
+          "value": "0.0625rem",
+          "type": "borderWidth"
+        }
       },
       "maxWidth": {
         "value": "71.25rem",
