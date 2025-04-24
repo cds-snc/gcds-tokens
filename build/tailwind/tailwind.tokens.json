@@ -4649,10 +4649,6 @@
       }
     },
     "top-nav": {
-      "background": {
-        "value": "#F1F2F3",
-        "type": "color"
-      },
       "border": {
         "color": {
           "value": "#D6D9DD",
