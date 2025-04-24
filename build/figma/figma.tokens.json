@@ -3653,10 +3653,6 @@
               }
             }
           },
-          "margin-inline-start": {
-            "value": "0.125rem",
-            "type": "spacing"
-          },
           "decoration": {
             "thickness": {
               "value": "0.0625rem",
