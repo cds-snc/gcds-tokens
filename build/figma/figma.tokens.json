@@ -3653,10 +3653,6 @@
               }
             }
           },
-          "margin-inline-start": {
-            "value": "0.125rem",
-            "type": "spacing"
-          },
           "decoration": {
             "thickness": {
               "value": "0.0625rem",
@@ -4653,10 +4649,6 @@
       }
     },
     "top-nav": {
-      "background": {
-        "value": "#F1F2F3",
-        "type": "color"
-      },
       "border": {
         "color": {
           "value": "#D6D9DD",
