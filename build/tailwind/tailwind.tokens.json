@@ -3635,12 +3635,6 @@
           "type": "typography"
         },
         "trigger": {
-          "border": {
-            "width": {
-              "value": "0.25rem",
-              "type": "borderWidth"
-            }
-          },
           "hover": {
             "background": {
               "value": "#D6D9DD",
