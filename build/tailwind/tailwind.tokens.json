@@ -1836,6 +1836,10 @@
         }
       },
       "default": {
+        "background": {
+          "value": "#FFF",
+          "type": "color"
+        },
         "text": {
           "value": "#333333",
           "type": "color"
@@ -1891,10 +1895,6 @@
         "type": "typography"
       },
       "input": {
-        "background": {
-          "value": "#FFF",
-          "type": "color"
-        },
         "border": {
           "radius": {
             "value": "0.125rem",
@@ -4247,6 +4247,10 @@
         }
       },
       "default": {
+        "background": {
+          "value": "#FFF",
+          "type": "color"
+        },
         "text": {
           "value": "#333333",
           "type": "color"
@@ -4296,10 +4300,6 @@
         "type": "typography"
       },
       "input": {
-        "background": {
-          "value": "#FFF",
-          "type": "color"
-        },
         "border": {
           "width": {
             "value": "0.125rem",

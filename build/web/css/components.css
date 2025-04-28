@@ -198,6 +198,7 @@
   --gcds-checkbox-check-top: 0.625rem;
   --gcds-checkbox-check-width: 0.875rem;
   --gcds-checkbox-danger-border: #d3080c;
+  --gcds-checkbox-default-background: #ffffff;
   --gcds-checkbox-default-text: #333333;
   --gcds-checkbox-disabled-background: #d6d9dd;
   --gcds-checkbox-disabled-border: #545961;
@@ -208,7 +209,6 @@
   --gcds-checkbox-focus-color: #0535d2;
   --gcds-checkbox-focus-outline-width: 0.25rem;
   --gcds-checkbox-font: 400 1.25rem/160% 'Noto Sans', sans-serif;
-  --gcds-checkbox-input-background: #ffffff;
   --gcds-checkbox-input-border-radius: 0.125rem;
   --gcds-checkbox-input-border-width: 0.125rem;
   --gcds-checkbox-input-height-and-width: 3rem;
@@ -630,6 +630,7 @@
   --gcds-radio-check-left: 0.9375rem;
   --gcds-radio-check-top: 0.9375rem;
   --gcds-radio-danger-border: #d3080c;
+  --gcds-radio-default-background: #ffffff;
   --gcds-radio-default-text: #333333;
   --gcds-radio-disabled-background: #d6d9dd;
   --gcds-radio-disabled-border: #545961;
@@ -639,7 +640,6 @@
   --gcds-radio-focus-color: #0535d2;
   --gcds-radio-focus-outline-width: 0.25rem;
   --gcds-radio-font: 400 1.25rem/160% 'Noto Sans', sans-serif;
-  --gcds-radio-input-background: #ffffff;
   --gcds-radio-input-border-width: 0.125rem;
   --gcds-radio-input-height-and-width: 3rem;
   --gcds-radio-label-padding: 0 0 0 3.75rem;

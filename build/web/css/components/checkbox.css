@@ -9,6 +9,7 @@
   --gcds-checkbox-check-top: 0.625rem;
   --gcds-checkbox-check-width: 0.875rem;
   --gcds-checkbox-danger-border: #d3080c;
+  --gcds-checkbox-default-background: #ffffff;
   --gcds-checkbox-default-text: #333333;
   --gcds-checkbox-disabled-background: #d6d9dd;
   --gcds-checkbox-disabled-border: #545961;
@@ -19,7 +20,6 @@
   --gcds-checkbox-focus-color: #0535d2;
   --gcds-checkbox-focus-outline-width: 0.25rem;
   --gcds-checkbox-font: 400 1.25rem/160% 'Noto Sans', sans-serif;
-  --gcds-checkbox-input-background: #ffffff;
   --gcds-checkbox-input-border-radius: 0.125rem;
   --gcds-checkbox-input-border-width: 0.125rem;
   --gcds-checkbox-input-height-and-width: 3rem;
