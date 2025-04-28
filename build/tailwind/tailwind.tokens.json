@@ -1836,6 +1836,10 @@
         }
       },
       "default": {
+        "background": {
+          "value": "#FFF",
+          "type": "color"
+        },
         "text": {
           "value": "#333333",
           "type": "color"
@@ -4243,6 +4247,10 @@
         }
       },
       "default": {
+        "background": {
+          "value": "#FFF",
+          "type": "color"
+        },
         "text": {
           "value": "#333333",
           "type": "color"
