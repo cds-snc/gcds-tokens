@@ -4,6 +4,26 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.11.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.10.0...gcds-tokens-v2.11.0) (2025-04-28)
+
+
+### :rocket: New Features
+
+* add new blue colour token + update link default colour ([#437](https://github.com/cds-snc/gcds-tokens/issues/437)) ([4597922](https://github.com/cds-snc/gcds-tokens/commit/4597922d647bdf68671afa83a21f5a27b78d3e55))
+* update design of top-nav ([#440](https://github.com/cds-snc/gcds-tokens/issues/440)) ([b370331](https://github.com/cds-snc/gcds-tokens/commit/b370331f39a0dbdbbc616d809c07e26b9acb6532))
+
+
+### :bug: :wrench: Bug Fixes
+
+* Add background colour to checkboxes and radios ([#442](https://github.com/cds-snc/gcds-tokens/issues/442)) ([74205dc](https://github.com/cds-snc/gcds-tokens/commit/74205dccee0d0c45d9718579c002141db6078106))
+* adjust nav-group padding to align with nav links ([#443](https://github.com/cds-snc/gcds-tokens/issues/443)) ([613254d](https://github.com/cds-snc/gcds-tokens/commit/613254d65f4abe011fcb3d82a30fdafc5b0927be))
+
+
+### :no_entry: Remove
+
+* old nav-group top-nav trigger token ([#444](https://github.com/cds-snc/gcds-tokens/issues/444)) ([f857756](https://github.com/cds-snc/gcds-tokens/commit/f85775624b32c3acfa3676ed48c3740793e8d464))
+* remove old nav-group token ([#441](https://github.com/cds-snc/gcds-tokens/issues/441)) ([b410561](https://github.com/cds-snc/gcds-tokens/commit/b410561cbd449dc978a5a8966d02669815e60799))
+
 ## [2.10.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.9.1...gcds-tokens-v2.10.0)
 
 Released on: 2025-04-14
