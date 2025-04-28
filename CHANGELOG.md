@@ -22,7 +22,7 @@ All notable changes to this project will be documented in this file.
 ### :no_entry: Remove
 
 * old nav-group top-nav trigger token ([#444](https://github.com/cds-snc/gcds-tokens/issues/444)) ([f857756](https://github.com/cds-snc/gcds-tokens/commit/f85775624b32c3acfa3676ed48c3740793e8d464))
-* remove old nav-group tokens ([#441](https://github.com/cds-snc/gcds-tokens/issues/441)) ([b410561](https://github.com/cds-snc/gcds-tokens/commit/b410561cbd449dc978a5a8966d02669815e60799) and [#444](https://github.com/cds-snc/gcds-tokens/issues/444)) ([f857756](https://github.com/cds-snc/gcds-tokens/commit/f85775624b32c3acfa3676ed48c3740793e8d464))
+* remove old nav-group tokens ([#441](https://github.com/cds-snc/gcds-tokens/issues/441)) ([b410561](https://github.com/cds-snc/gcds-tokens/commit/b410561cbd449dc978a5a8966d02669815e60799)) and [#444](https://github.com/cds-snc/gcds-tokens/issues/444)) ([f857756](https://github.com/cds-snc/gcds-tokens/commit/f85775624b32c3acfa3676ed48c3740793e8d464))
 
 ## [2.10.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.9.1...gcds-tokens-v2.10.0)
 
