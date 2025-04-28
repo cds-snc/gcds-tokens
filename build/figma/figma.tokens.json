@@ -1891,6 +1891,10 @@
         "type": "typography"
       },
       "input": {
+        "background": {
+          "value": "#FFF",
+          "type": "color"
+        },
         "border": {
           "radius": {
             "value": "0.125rem",
@@ -4292,6 +4296,10 @@
         "type": "typography"
       },
       "input": {
+        "background": {
+          "value": "#FFF",
+          "type": "color"
+        },
         "border": {
           "width": {
             "value": "0.125rem",
