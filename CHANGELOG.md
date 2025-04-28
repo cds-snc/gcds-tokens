@@ -15,7 +15,7 @@ All notable changes to this project will be documented in this file.
 
 ### :bug: :wrench: Bug Fixes
 
-* Add background colour to checkboxes and radios ([#442](https://github.com/cds-snc/gcds-tokens/issues/442)) ([74205dc](https://github.com/cds-snc/gcds-tokens/commit/74205dccee0d0c45d9718579c002141db6078106))
+* add background colour to checkboxes and radios ([#442](https://github.com/cds-snc/gcds-tokens/issues/442)) ([74205dc](https://github.com/cds-snc/gcds-tokens/commit/74205dccee0d0c45d9718579c002141db6078106))
 * adjust nav-group padding to align with nav links ([#443](https://github.com/cds-snc/gcds-tokens/issues/443)) ([613254d](https://github.com/cds-snc/gcds-tokens/commit/613254d65f4abe011fcb3d82a30fdafc5b0927be))
 
 
