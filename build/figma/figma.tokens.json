@@ -4109,13 +4109,33 @@
         }
       },
       "font": {
-        "value": {
-          "fontFamily": "'Noto Sans', sans-serif",
-          "fontWeight": "500",
-          "lineHeight": "160%",
-          "fontSize": "1.25rem"
+        "-": {
+          "value": {
+            "fontFamily": "'Noto Sans', sans-serif",
+            "fontWeight": "500",
+            "lineHeight": "160%",
+            "fontSize": "1.25rem"
+          },
+          "type": "typography"
         },
-        "type": "typography"
+        "desktop": {
+          "value": {
+            "fontFamily": "'Noto Sans', sans-serif",
+            "fontWeight": "500",
+            "lineHeight": "160%",
+            "fontSize": "1.25rem"
+          },
+          "type": "typography"
+        },
+        "mobile": {
+          "value": {
+            "fontFamily": "'Noto Sans', sans-serif",
+            "fontWeight": "500",
+            "lineHeight": "155%",
+            "fontSize": "1.125rem"
+          },
+          "type": "typography"
+        }
       },
       "list": {
         "endButton": {

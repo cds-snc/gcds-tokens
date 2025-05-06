@@ -606,7 +606,9 @@
   --gcds-pagination-focus-box-shadow: 0 0 0 0.125rem #ffffff;
   --gcds-pagination-focus-text: #ffffff;
   --gcds-pagination-focus-outline-width: 0.25rem;
-  --gcds-pagination-font: 500 1.25rem/160% 'Noto Sans', sans-serif;
+  --gcds-pagination-font: 500 1.25rem/160% 'Noto Sans', sans-serif; /** To be removed in another PR */
+  --gcds-pagination-font-desktop: 500 1.25rem/160% 'Noto Sans', sans-serif;
+  --gcds-pagination-font-mobile: 500 1.125rem/155% 'Noto Sans', sans-serif;
   --gcds-pagination-list-end-button-padding: 0.5rem;
   --gcds-pagination-listitem-margin: 0.375rem;
   --gcds-pagination-mobile-list-border: #284162;
