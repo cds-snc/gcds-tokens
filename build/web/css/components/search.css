@@ -12,7 +12,7 @@
   --gcds-search-focus-border-width: 0.125rem;
   --gcds-search-focus-box-shadow: 0 0 0 0.125rem #ffffff;
   --gcds-search-focus-margin: 0 -0.125rem 0 0;
-  --gcds-search-font: 400 1rem/150% 'Noto Sans', sans-serif; /* Mandatory elements alignment: sub-components of header use 16px font */
+  --gcds-search-font: 400 1rem/150% 'Noto Sans', sans-serif; /** Mandatory elements alignment: sub-components of header use 16px font */
   --gcds-search-margin: 0 0 0.125rem;
   --gcds-search-max-height: 2.5rem;
   --gcds-search-outline-width: 0.25rem;

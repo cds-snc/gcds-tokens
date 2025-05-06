@@ -6,13 +6,13 @@
   --gcds-topic-menu-border-width: 0.0625rem;
   --gcds-topic-menu-button-background: #26374a;
   --gcds-topic-menu-button-border: #26374a;
-  --gcds-topic-menu-button-expanded-background: #444444; /* Colour mandated by policy */
-  --gcds-topic-menu-button-expanded-border-color: #444444; /* Colour mandated by policy */
+  --gcds-topic-menu-button-expanded-background: #444444; /** Colour mandated by policy */
+  --gcds-topic-menu-button-expanded-border-color: #444444; /** Colour mandated by policy */
   --gcds-topic-menu-button-expanded-text: #ffffff;
   --gcds-topic-menu-button-font: 400 1.25rem/140% 'Noto Sans', sans-serif;
   --gcds-topic-menu-button-home-background: #ffffff;
   --gcds-topic-menu-button-home-border-color: #ffffff;
-  --gcds-topic-menu-button-home-text: #284162; /* Colour mandated by policy: link colour */
+  --gcds-topic-menu-button-home-text: #284162; /** Colour mandated by policy: link colour */
   --gcds-topic-menu-button-padding: 0.625rem 1.125rem;
   --gcds-topic-menu-button-text: #ffffff;
   --gcds-topic-menu-focus-background: #0535d2;
@@ -44,7 +44,7 @@
   --gcds-topic-menu-mobile-topiclist-item-first-menuitem-border: #d6d9dd;
   --gcds-topic-menu-mobile-topiclist-item-first-menuitem-text: #000000;
   --gcds-topic-menu-mobile-topiclist-item-last-menuitem-hover-text: #000000;
-  --gcds-topic-menu-mobile-topiclist-item-last-menuitem-text: #284162; /* Colour mandated by policy: link colour */
+  --gcds-topic-menu-mobile-topiclist-item-last-menuitem-text: #284162; /** Colour mandated by policy: link colour */
   --gcds-topic-menu-mobile-topiclist-menuitem-border-block-end: #d6d9dd;
   --gcds-topic-menu-mobile-topiclist-menuitem-haspopup-font: 400 1.125rem/160% 'Noto Sans', sans-serif;
   --gcds-topic-menu-mobile-topiclist-menuitem-hover-text: #0535d2;
@@ -52,8 +52,8 @@
   --gcds-topic-menu-mostrequested-item-first-font: 400 1.125rem/160% 'Noto Sans', sans-serif;
   --gcds-topic-menu-mostrequested-item-last-margin-block-start: 0.875rem;
   --gcds-topic-menu-mostrequested-item-width: 100%;
-  --gcds-topic-menu-themelist-background: #444444; /* Colour mandated by policy */
-  --gcds-topic-menu-themelist-item-border: #444444; /* Colour mandated by policy */
+  --gcds-topic-menu-themelist-background: #444444; /** Colour mandated by policy */
+  --gcds-topic-menu-themelist-item-border: #444444; /** Colour mandated by policy */
   --gcds-topic-menu-themelist-text: #ffffff;
   --gcds-topic-menu-themelist-width: 100%;
   --gcds-topic-menu-topiclist-background: #ffffff;
@@ -71,7 +71,7 @@
   --gcds-topic-menu-topiclist-menuitem-padding: 0.375rem 0;
   --gcds-topic-menu-topiclist-menuitem-popup-font: 700 1.25rem/160% 'Noto Sans', sans-serif;
   --gcds-topic-menu-topiclist-menuitem-popup-text: #000000;
-  --gcds-topic-menu-topiclist-menuitem-text: #284162; /* Colour mandated by policy: link colour */
+  --gcds-topic-menu-topiclist-menuitem-text: #284162; /** Colour mandated by policy: link colour */
   --gcds-topic-menu-topiclist-min-height: 49.1825rem;
   --gcds-topic-menu-topiclist-padding: 0 2.25rem 1.5rem 2.25rem;
   --gcds-topic-menu-topiclist-text: #000000;

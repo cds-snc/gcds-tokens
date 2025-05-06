@@ -3,26 +3,26 @@
  */
 
 :root {
-  --gcds-border-default: #7d828b; /* Global color: border default */
-  --gcds-active-background: #000000; /* Global color: active background */
-  --gcds-active-text: #ffffff; /* Global color: active text */
-  --gcds-bg-dark: #333333; /* Global bg color: dark background */
-  --gcds-bg-light: #f1f2f3; /* Global bg color: light background */
-  --gcds-bg-primary: #26374a; /* Global bg color: primary background */
-  --gcds-bg-white: #ffffff; /* Global bg color: white background */
-  --gcds-danger-background: #fbddda; /* Global color: danger background */
-  --gcds-danger-border: #d3080c; /* Global color: danger border */
-  --gcds-danger-text: #a62a1e; /* Global color: danger text */
-  --gcds-disabled-background: #d6d9dd; /* Global color: disabled background */
-  --gcds-disabled-text: #545961; /* Global color: disabled text */
-  --gcds-focus-background: #0535d2; /* Global color: focus background */
-  --gcds-focus-border: #0535d2; /* Global color: focus border */
-  --gcds-focus-text: #ffffff; /* Global color: focus text */
-  --gcds-link-default: #284162; /* Global color: link default */
-  --gcds-link-hover: #0535d2; /* Global color: link hover */
-  --gcds-link-light: #ffffff; /* Global color: link light */
-  --gcds-link-visited: #7532b8; /* Global color: link visited */
-  --gcds-text-light: #ffffff; /* Global color: text light */
-  --gcds-text-primary: #333333; /* Global color: text primary */
-  --gcds-text-secondary: #43474e; /* Global color: text secondary */
+  --gcds-border-default: #7d828b; /** Global color: border default */
+  --gcds-active-background: #000000; /** Global color: active background */
+  --gcds-active-text: #ffffff; /** Global color: active text */
+  --gcds-bg-dark: #333333; /** Global bg color: dark background */
+  --gcds-bg-light: #f1f2f3; /** Global bg color: light background */
+  --gcds-bg-primary: #26374a; /** Global bg color: primary background */
+  --gcds-bg-white: #ffffff; /** Global bg color: white background */
+  --gcds-danger-background: #fbddda; /** Global color: danger background */
+  --gcds-danger-border: #d3080c; /** Global color: danger border */
+  --gcds-danger-text: #a62a1e; /** Global color: danger text */
+  --gcds-disabled-background: #d6d9dd; /** Global color: disabled background */
+  --gcds-disabled-text: #545961; /** Global color: disabled text */
+  --gcds-focus-background: #0535d2; /** Global color: focus background */
+  --gcds-focus-border: #0535d2; /** Global color: focus border */
+  --gcds-focus-text: #ffffff; /** Global color: focus text */
+  --gcds-link-default: #284162; /** Global color: link default */
+  --gcds-link-hover: #0535d2; /** Global color: link hover */
+  --gcds-link-light: #ffffff; /** Global color: link light */
+  --gcds-link-visited: #7532b8; /** Global color: link visited */
+  --gcds-text-light: #ffffff; /** Global color: text light */
+  --gcds-text-primary: #333333; /** Global color: text primary */
+  --gcds-text-secondary: #43474e; /** Global color: text secondary */
 }

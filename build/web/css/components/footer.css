@@ -9,8 +9,8 @@
   --gcds-footer-container-width: 71.25rem;
   --gcds-footer-contextual-background: #33465c;
   --gcds-footer-contextual-text: #ffffff;
-  --gcds-footer-font: 400 1rem/150% 'Noto Sans', sans-serif; /* Mandatory elements alignment: sub-components of footer use 16px font. */
-  --gcds-footer-font-heading: 700 1.625rem/123% 'Lato', sans-serif; /* Mandatory elements alignment: size 26px */
+  --gcds-footer-font: 400 1rem/150% 'Noto Sans', sans-serif; /** Mandatory elements alignment: sub-components of footer use 16px font. */
+  --gcds-footer-font-heading: 700 1.625rem/123% 'Lato', sans-serif; /** Mandatory elements alignment: size 26px */
   --gcds-footer-grid-gap: 1.5rem;
   --gcds-footer-heading-margin: 0 0 1.5rem;
   --gcds-footer-list-padding: 0;
