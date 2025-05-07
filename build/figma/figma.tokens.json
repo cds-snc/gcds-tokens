@@ -2394,15 +2394,6 @@
         }
       },
       "font": {
-        "-": {
-          "value": {
-            "fontFamily": "'Noto Sans', sans-serif",
-            "fontWeight": "400",
-            "lineHeight": "140%",
-            "fontSize": "1.25rem"
-          },
-          "type": "typography"
-        },
         "desktop": {
           "value": {
             "fontFamily": "'Noto Sans', sans-serif",
@@ -4109,15 +4100,6 @@
         }
       },
       "font": {
-        "-": {
-          "value": {
-            "fontFamily": "'Noto Sans', sans-serif",
-            "fontWeight": "500",
-            "lineHeight": "160%",
-            "fontSize": "1.25rem"
-          },
-          "type": "typography"
-        },
         "desktop": {
           "value": {
             "fontFamily": "'Noto Sans', sans-serif",
@@ -4497,15 +4479,6 @@
         }
       },
       "font": {
-        "-": {
-          "value": {
-            "fontFamily": "'Noto Sans', sans-serif",
-            "fontWeight": "400",
-            "lineHeight": "160%",
-            "fontSize": "1.25rem"
-          },
-          "type": "typography"
-        },
         "desktop": {
           "value": {
             "fontFamily": "'Noto Sans', sans-serif",
@@ -4754,15 +4727,6 @@
             "type": "color"
           }
         },
-        "font": {
-          "value": {
-            "fontFamily": "'Noto Sans', sans-serif",
-            "fontWeight": "400",
-            "lineHeight": "140%",
-            "fontSize": "1.25rem"
-          },
-          "type": "typography"
-        },
         "home": {
           "background": {
             "value": "#FFF",
@@ -4845,15 +4809,6 @@
             "value": "#333333",
             "type": "color"
           }
-        },
-        "font": {
-          "value": {
-            "fontFamily": "'Noto Sans', sans-serif",
-            "fontWeight": "400",
-            "lineHeight": "160%",
-            "fontSize": "1.125rem"
-          },
-          "type": "typography"
         },
         "padding": {
           "value": "0.75rem 1.5rem",
@@ -4955,17 +4910,6 @@
               "value": "#D6D9DD",
               "type": "color"
             },
-            "haspopup": {
-              "font": {
-                "value": {
-                  "fontFamily": "'Noto Sans', sans-serif",
-                  "fontWeight": "400",
-                  "lineHeight": "160%",
-                  "fontSize": "1.125rem"
-                },
-                "type": "typography"
-              }
-            },
             "hoverText": {
               "value": "#0535d2",
               "type": "color"
@@ -4979,17 +4923,6 @@
       },
       "mostrequested": {
         "item": {
-          "first": {
-            "font": {
-              "value": {
-                "fontFamily": "'Noto Sans', sans-serif",
-                "fontWeight": "400",
-                "lineHeight": "160%",
-                "fontSize": "1.125rem"
-              },
-              "type": "typography"
-            }
-          },
           "last": {
             "marginBlockStart": {
               "value": "0.875rem"

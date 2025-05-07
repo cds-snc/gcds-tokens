@@ -13,7 +13,6 @@
   --gcds-select-disabled-text: #545961;
   --gcds-select-focus-border: #0535d2;
   --gcds-select-focus-box-shadow: 0 0 0 0.125rem #ffffff;
-  --gcds-select-font: 400 1.25rem/160% 'Noto Sans', sans-serif; /** To be removed in another PR */
   --gcds-select-font-desktop: 400 1.25rem/160% 'Noto Sans', sans-serif;
   --gcds-select-font-mobile: 400 1.125rem/155% 'Noto Sans', sans-serif;
   --gcds-select-margin: 0 0 1.5rem;
