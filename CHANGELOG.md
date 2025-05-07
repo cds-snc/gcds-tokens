@@ -4,6 +4,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.11.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.11.0...gcds-tokens-v2.11.1)
+
+Released on: 2025-05-07
+
+
+### :bug: :wrench: Bug Fixes
+
+* inconsistent text scaling across desktop + mobile styles for multiple components ([#448](https://github.com/cds-snc/gcds-tokens/issues/448)) ([27d6ef8](https://github.com/cds-snc/gcds-tokens/commit/27d6ef8656e22f7f8cb4204d173034bd736242b8))
+
+
+### :no_entry: Remove
+
+* deprecated tokens for file uploader, pagination, select, topic menu ([#449](https://github.com/cds-snc/gcds-tokens/issues/449)) ([29084aa](https://github.com/cds-snc/gcds-tokens/commit/29084aabc13d9eea14a109a64918c1caac852af2))
+
 ## [2.11.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.10.0...gcds-tokens-v2.11.0) 
 
 Released on: 2025-04-28
