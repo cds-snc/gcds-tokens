@@ -129,7 +129,7 @@
   --gcds-alert-warning-icon: #b3800f;
   --gcds-alert-warning-text: #333333;
   --gcds-breadcrumbs-item-arrow-margin: 0 0.5rem 0 0;
-  --gcds-breadcrumbs-item-font: 400 1rem/150% 'Noto Sans', sans-serif; /* Mandatory elements alignment: sub-components of header use 16px font */
+  --gcds-breadcrumbs-item-font: 400 1rem/150% 'Noto Sans', sans-serif; /** Mandatory elements alignment: sub-components of header use 16px font */
   --gcds-breadcrumbs-item-margin: 0.5rem 0.25rem 0.5rem 0.125rem;
   --gcds-breadcrumbs-margin: 0 0 0 -0.125rem;
   --gcds-breadcrumbs-padding: 0 0 0 0.125rem;
@@ -230,7 +230,7 @@
   --gcds-date-input-label-font-mobile: 500 1.125rem/155% 'Noto Sans', sans-serif;
   --gcds-date-input-margin: 0.75rem;
   --gcds-date-modified-description-margin: 0 0 0 0.125rem;
-  --gcds-date-modified-font: 400 1rem/150% 'Noto Sans', sans-serif; /* Mandatory elements alignment: sub-components of footer use 16px font */
+  --gcds-date-modified-font: 400 1rem/150% 'Noto Sans', sans-serif; /** Mandatory elements alignment: sub-components of footer use 16px font */
   --gcds-date-modified-margin: 2.5rem 0 1rem;
   --gcds-details-default-text: #284162;
   --gcds-details-default-decoration-thickness: 0.0625rem;
@@ -289,7 +289,9 @@
   --gcds-file-uploader-default-text: #333333;
   --gcds-file-uploader-disabled-background: #d6d9dd;
   --gcds-file-uploader-disabled-text: #545961;
-  --gcds-file-uploader-font: 400 1.25rem/140% 'Noto Sans', sans-serif;
+  --gcds-file-uploader-font: 400 1.25rem/140% 'Noto Sans', sans-serif; /** To be removed in another PR */
+  --gcds-file-uploader-font-desktop: 400 1.25rem/140% 'Noto Sans', sans-serif;
+  --gcds-file-uploader-font-mobile: 400 1.125rem/140% 'Noto Sans', sans-serif;
   --gcds-file-uploader-file-border-color: #7d828b;
   --gcds-file-uploader-file-border-width: 0.125rem;
   --gcds-file-uploader-file-button-border-width: 0.0625rem;
@@ -318,8 +320,8 @@
   --gcds-footer-container-width: 71.25rem;
   --gcds-footer-contextual-background: #33465c;
   --gcds-footer-contextual-text: #ffffff;
-  --gcds-footer-font: 400 1rem/150% 'Noto Sans', sans-serif; /* Mandatory elements alignment: sub-components of footer use 16px font. */
-  --gcds-footer-font-heading: 700 1.625rem/123% 'Lato', sans-serif; /* Mandatory elements alignment: size 26px */
+  --gcds-footer-font: 400 1rem/150% 'Noto Sans', sans-serif; /** Mandatory elements alignment: sub-components of footer use 16px font. */
+  --gcds-footer-font-heading: 700 1.625rem/123% 'Lato', sans-serif; /** Mandatory elements alignment: size 26px */
   --gcds-footer-grid-gap: 1.5rem;
   --gcds-footer-heading-margin: 0 0 1.5rem;
   --gcds-footer-list-padding: 0;
@@ -504,8 +506,8 @@
   --gcds-label-required-font-weight: 400;
   --gcds-label-required-margin: 0 0 0 0.375rem;
   --gcds-label-text: #333333;
-  --gcds-lang-toggle-font-desktop: 400 1rem/150% 'Noto Sans', sans-serif; /* Mandatory elements alignment: sub-components of header use 16px font */
-  --gcds-lang-toggle-font-mobile: 700 1.125rem/155% 'Noto Sans', sans-serif; /* Mandatory elements alignment: size 18px  */
+  --gcds-lang-toggle-font-desktop: 400 1rem/150% 'Noto Sans', sans-serif; /** Mandatory elements alignment: sub-components of header use 16px font */
+  --gcds-lang-toggle-font-mobile: 700 1.125rem/155% 'Noto Sans', sans-serif; /** Mandatory elements alignment: size 18px  */
   --gcds-lang-toggle-padding: 0.375rem 0.625rem;
   --gcds-nav-group-mobile-background: #ffffff;
   --gcds-nav-group-mobile-list-margin: 0.875rem 0 0;
@@ -604,7 +606,9 @@
   --gcds-pagination-focus-box-shadow: 0 0 0 0.125rem #ffffff;
   --gcds-pagination-focus-text: #ffffff;
   --gcds-pagination-focus-outline-width: 0.25rem;
-  --gcds-pagination-font: 500 1.25rem/160% 'Noto Sans', sans-serif;
+  --gcds-pagination-font: 500 1.25rem/160% 'Noto Sans', sans-serif; /** To be removed in another PR */
+  --gcds-pagination-font-desktop: 500 1.25rem/160% 'Noto Sans', sans-serif;
+  --gcds-pagination-font-mobile: 500 1.125rem/155% 'Noto Sans', sans-serif;
   --gcds-pagination-list-end-button-padding: 0.5rem;
   --gcds-pagination-listitem-margin: 0.375rem;
   --gcds-pagination-mobile-list-border: #284162;
@@ -654,7 +658,7 @@
   --gcds-search-focus-border-width: 0.125rem;
   --gcds-search-focus-box-shadow: 0 0 0 0.125rem #ffffff;
   --gcds-search-focus-margin: 0 -0.125rem 0 0;
-  --gcds-search-font: 400 1rem/150% 'Noto Sans', sans-serif; /* Mandatory elements alignment: sub-components of header use 16px font */
+  --gcds-search-font: 400 1rem/150% 'Noto Sans', sans-serif; /** Mandatory elements alignment: sub-components of header use 16px font */
   --gcds-search-margin: 0 0 0.125rem;
   --gcds-search-max-height: 2.5rem;
   --gcds-search-outline-width: 0.25rem;
@@ -670,7 +674,9 @@
   --gcds-select-disabled-text: #545961;
   --gcds-select-focus-border: #0535d2;
   --gcds-select-focus-box-shadow: 0 0 0 0.125rem #ffffff;
-  --gcds-select-font: 400 1.25rem/160% 'Noto Sans', sans-serif;
+  --gcds-select-font: 400 1.25rem/160% 'Noto Sans', sans-serif; /** To be removed in another PR */
+  --gcds-select-font-desktop: 400 1.25rem/160% 'Noto Sans', sans-serif;
+  --gcds-select-font-mobile: 400 1.125rem/155% 'Noto Sans', sans-serif;
   --gcds-select-margin: 0 0 1.5rem;
   --gcds-select-min-width-and-height: 3rem;
   --gcds-select-outline-width: 0.25rem;
@@ -709,13 +715,13 @@
   --gcds-topic-menu-border-width: 0.0625rem;
   --gcds-topic-menu-button-background: #26374a;
   --gcds-topic-menu-button-border: #26374a;
-  --gcds-topic-menu-button-expanded-background: #444444; /* Colour mandated by policy */
-  --gcds-topic-menu-button-expanded-border-color: #444444; /* Colour mandated by policy */
+  --gcds-topic-menu-button-expanded-background: #444444; /** Colour mandated by policy */
+  --gcds-topic-menu-button-expanded-border-color: #444444; /** Colour mandated by policy */
   --gcds-topic-menu-button-expanded-text: #ffffff;
-  --gcds-topic-menu-button-font: 400 1.25rem/140% 'Noto Sans', sans-serif;
+  --gcds-topic-menu-button-font: 400 1.25rem/140% 'Noto Sans', sans-serif; /** To be removed in another PR */
   --gcds-topic-menu-button-home-background: #ffffff;
   --gcds-topic-menu-button-home-border-color: #ffffff;
-  --gcds-topic-menu-button-home-text: #284162; /* Colour mandated by policy: link colour */
+  --gcds-topic-menu-button-home-text: #284162; /** Colour mandated by policy: link colour */
   --gcds-topic-menu-button-padding: 0.625rem 1.125rem;
   --gcds-topic-menu-button-text: #ffffff;
   --gcds-topic-menu-focus-background: #0535d2;
@@ -724,13 +730,13 @@
   --gcds-topic-menu-focus-box-shadow: 0 0 0 0.125rem #ffffff;
   --gcds-topic-menu-focus-outline-offset: 0.125rem;
   --gcds-topic-menu-focus-outline: 0.25rem solid #0535d2;
-  --gcds-topic-menu-font: 400 1.25rem/160% 'Noto Sans', sans-serif;
+  --gcds-topic-menu-font: 400 1rem/150% 'Noto Sans', sans-serif; /** Mandatory elements alignment: sub-components of header use 16px font */
   --gcds-topic-menu-max-width: 71.25rem;
   --gcds-topic-menu-menuitem-border-block-end: #545961;
   --gcds-topic-menu-menuitem-border-inline-end: #ffffff;
   --gcds-topic-menu-menuitem-expanded-background: #ffffff;
   --gcds-topic-menu-menuitem-expanded-text: #333333;
-  --gcds-topic-menu-menuitem-font: 400 1.125rem/160% 'Noto Sans', sans-serif;
+  --gcds-topic-menu-menuitem-font: 400 1.125rem/160% 'Noto Sans', sans-serif; /** To be removed in another PR */
   --gcds-topic-menu-menuitem-padding: 0.75rem 1.5rem;
   --gcds-topic-menu-menuitem-text: #ffffff;
   --gcds-topic-menu-menuitem-text-underline-offset: 0.25rem;
@@ -747,16 +753,16 @@
   --gcds-topic-menu-mobile-topiclist-item-first-menuitem-border: #d6d9dd;
   --gcds-topic-menu-mobile-topiclist-item-first-menuitem-text: #000000;
   --gcds-topic-menu-mobile-topiclist-item-last-menuitem-hover-text: #000000;
-  --gcds-topic-menu-mobile-topiclist-item-last-menuitem-text: #284162; /* Colour mandated by policy: link colour */
+  --gcds-topic-menu-mobile-topiclist-item-last-menuitem-text: #284162; /** Colour mandated by policy: link colour */
   --gcds-topic-menu-mobile-topiclist-menuitem-border-block-end: #d6d9dd;
-  --gcds-topic-menu-mobile-topiclist-menuitem-haspopup-font: 400 1.125rem/160% 'Noto Sans', sans-serif;
+  --gcds-topic-menu-mobile-topiclist-menuitem-haspopup-font: 400 1.125rem/160% 'Noto Sans', sans-serif; /** To be removed in another PR */
   --gcds-topic-menu-mobile-topiclist-menuitem-hover-text: #0535d2;
   --gcds-topic-menu-mobile-topiclist-menuitem-padding: 0.875rem 1.5rem 0.875rem 0;
-  --gcds-topic-menu-mostrequested-item-first-font: 400 1.125rem/160% 'Noto Sans', sans-serif;
+  --gcds-topic-menu-mostrequested-item-first-font: 400 1.125rem/160% 'Noto Sans', sans-serif; /** To be removed in another PR */
   --gcds-topic-menu-mostrequested-item-last-margin-block-start: 0.875rem;
   --gcds-topic-menu-mostrequested-item-width: 100%;
-  --gcds-topic-menu-themelist-background: #444444; /* Colour mandated by policy */
-  --gcds-topic-menu-themelist-item-border: #444444; /* Colour mandated by policy */
+  --gcds-topic-menu-themelist-background: #444444; /** Colour mandated by policy */
+  --gcds-topic-menu-themelist-item-border: #444444; /** Colour mandated by policy */
   --gcds-topic-menu-themelist-text: #ffffff;
   --gcds-topic-menu-themelist-width: 100%;
   --gcds-topic-menu-topiclist-background: #ffffff;
@@ -774,8 +780,8 @@
   --gcds-topic-menu-topiclist-menuitem-padding: 0.375rem 0;
   --gcds-topic-menu-topiclist-menuitem-popup-font: 700 1.25rem/160% 'Noto Sans', sans-serif;
   --gcds-topic-menu-topiclist-menuitem-popup-text: #000000;
-  --gcds-topic-menu-topiclist-menuitem-text: #284162; /* Colour mandated by policy: link colour */
-  --gcds-topic-menu-topiclist-min-height: 49.1825rem;
+  --gcds-topic-menu-topiclist-menuitem-text: #284162; /** Colour mandated by policy: link colour */
+  --gcds-topic-menu-topiclist-min-height: 45.9375rem;
   --gcds-topic-menu-topiclist-padding: 0 2.25rem 1.5rem 2.25rem;
   --gcds-topic-menu-topiclist-text: #000000;
   --gcds-topic-menu-topiclist-width: calc(100% - 22.5rem);
