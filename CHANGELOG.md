@@ -4,6 +4,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.11.2](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.11.1...gcds-tokens-v2.11.2) (2025-05-12)
+
+
+### :bug: :wrench: Bug Fixes
+
+* reduce link offset spacing ([#451](https://github.com/cds-snc/gcds-tokens/issues/451)) ([1a7b5b7](https://github.com/cds-snc/gcds-tokens/commit/1a7b5b79c56ca19bae52ed6ce2dcd0159aa670f7))
+
 ## [2.11.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.11.0...gcds-tokens-v2.11.1)
 
 Released on: 2025-05-07
