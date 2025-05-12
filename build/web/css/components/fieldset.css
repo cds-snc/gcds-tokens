@@ -4,11 +4,5 @@
 
 :root {
   --gcds-fieldset-default-text: #333333;
-  --gcds-fieldset-disabled-text: #545961;
-  --gcds-fieldset-font-desktop: 600 1.8125rem/137% 'Lato', sans-serif;
-  --gcds-fieldset-font-mobile: 600 1.625rem/123% 'Lato', sans-serif;
   --gcds-fieldset-legend-margin: 0 0 0.125rem;
-  --gcds-fieldset-legend-required-font-desktop: 400 1.25rem/160% 'Noto Sans', sans-serif;
-  --gcds-fieldset-legend-required-font-mobile: 400 1.125rem/155% 'Noto Sans', sans-serif;
-  --gcds-fieldset-legend-required-margin: 0 0 0 0.375rem;
 }
