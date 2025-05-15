@@ -1,6 +1,6 @@
 {
   "name": "@cdssnc/gcds-tokens",
-  "version": "2.6.0",
+  "version": "2.11.1",
   "author": "Government of Canada | Gouvernement du Canada",
   "description": "GC Design System Tokens",
   "homepage": "https://design-system.alpha.canada.ca/",
@@ -24,8 +24,8 @@
     "url": "https://github.com/cds-snc/gcds-tokens/issues"
   },
   "devDependencies": {
-    "prettier": "3.5.1",
-    "style-dictionary": "4.3.3"
+    "prettier": "3.5.3",
+    "style-dictionary": "4.4.0"
   },
   "license": "MIT"
 }

@@ -4,7 +4,157 @@
 
 All notable changes to this project will be documented in this file.
 
-## [2.6.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.5.0...gcds-tokens-v2.6.0) (2025-02-19)
+## [2.11.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.11.0...gcds-tokens-v2.11.1)
+
+Released on: 2025-05-07
+
+
+### :bug: :wrench: Bug Fixes
+
+* inconsistent text scaling across desktop + mobile styles for multiple components ([#448](https://github.com/cds-snc/gcds-tokens/issues/448)) ([27d6ef8](https://github.com/cds-snc/gcds-tokens/commit/27d6ef8656e22f7f8cb4204d173034bd736242b8))
+
+
+### :no_entry: Remove
+
+* deprecated tokens for file uploader, pagination, select, topic menu ([#449](https://github.com/cds-snc/gcds-tokens/issues/449)) ([29084aa](https://github.com/cds-snc/gcds-tokens/commit/29084aabc13d9eea14a109a64918c1caac852af2))
+
+## [2.11.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.10.0...gcds-tokens-v2.11.0) 
+
+Released on: 2025-04-28
+
+
+### :rocket: New Features
+
+* add new blue colour token + update link default colour ([#437](https://github.com/cds-snc/gcds-tokens/issues/437)) ([4597922](https://github.com/cds-snc/gcds-tokens/commit/4597922d647bdf68671afa83a21f5a27b78d3e55))
+* update design of top-nav ([#440](https://github.com/cds-snc/gcds-tokens/issues/440)) ([b370331](https://github.com/cds-snc/gcds-tokens/commit/b370331f39a0dbdbbc616d809c07e26b9acb6532))
+
+
+### :bug: :wrench: Bug Fixes
+
+* add background colour to checkboxes and radios ([#442](https://github.com/cds-snc/gcds-tokens/issues/442)) ([74205dc](https://github.com/cds-snc/gcds-tokens/commit/74205dccee0d0c45d9718579c002141db6078106))
+* adjust nav-group padding to align with nav links ([#443](https://github.com/cds-snc/gcds-tokens/issues/443)) ([613254d](https://github.com/cds-snc/gcds-tokens/commit/613254d65f4abe011fcb3d82a30fdafc5b0927be))
+
+
+### :no_entry: Remove
+
+* remove old nav-group tokens ([#441](https://github.com/cds-snc/gcds-tokens/issues/441)) ([b410561](https://github.com/cds-snc/gcds-tokens/commit/b410561cbd449dc978a5a8966d02669815e60799)) and ([#444](https://github.com/cds-snc/gcds-tokens/issues/444)) ([f857756](https://github.com/cds-snc/gcds-tokens/commit/f85775624b32c3acfa3676ed48c3740793e8d464))
+
+## [2.10.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.9.1...gcds-tokens-v2.10.0)
+
+Released on: 2025-04-14
+
+### :rocket: New Features
+
+The Icon component will be updated to use the new "GCDS Icons" font, replacing FontAwesome.
+
+* replace Font Awesome with GCDS icons font ([#406](https://github.com/cds-snc/gcds-tokens/issues/406)) ([a7b7470](https://github.com/cds-snc/gcds-tokens/commit/a7b74708cf91a0931f206ee53ac82f50cdb7ccba))
+
+As part of this change, the following new icon tokens will be added:
+
+- --gcds-icon-font-size-text-small-mobile
+- --gcds-icon-font-size-text-mobile
+- --gcds-icon-font-size-h6-mobile
+- --gcds-icon-font-size-h5-mobile
+- --gcds-icon-font-size-h4-mobile
+- --gcds-icon-font-size-h3-mobile
+- --gcds-icon-font-size-h2-mobile
+- --gcds-icon-font-size-h1-mobile
+- --gcds-icon-line-height-text-small-mobile
+- --gcds-icon-line-height-text-mobile
+- --gcds-icon-line-height-h6-mobile
+- --gcds-icon-line-height-h5-mobile
+- --gcds-icon-line-height-h4-mobile
+- --gcds-icon-line-height-h3-mobile
+- --gcds-icon-line-height-h2-mobile
+- --gcds-icon-line-height-h1-mobile
+
+
+### :no_entry: Remove
+
+The `fixed-width` property has been removed from the Icon component:
+
+* remove old icon fixed-width tokens ([#407](https://github.com/cds-snc/gcds-tokens/issues/407)) ([63ffc73](https://github.com/cds-snc/gcds-tokens/commit/63ffc732e3bef68920249b1f8c0c136e10b74ea6))
+
+As part of this change, the following icon tokens will be removed:
+
+- --gcds-icon-fixed-width-text-small
+- --gcds-icon-fixed-width-text
+- --gcds-icon-fixed-width-h6
+- --gcds-icon-fixed-width-h5
+- --gcds-icon-fixed-width-h4
+- --gcds-icon-fixed-width-h3
+- --gcds-icon-fixed-width-h2
+- --gcds-icon-fixed-width-h1
+
+## [2.9.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.9.0...gcds-tokens-v2.9.1)
+
+Released on: 2025-04-09
+
+
+### :bug: :wrench: Bug Fixes
+
+* update spacing between links in footer sub band ([#434](https://github.com/cds-snc/gcds-tokens/issues/434)) ([d9d38d1](https://github.com/cds-snc/gcds-tokens/commit/d9d38d12a8ba38c702f9f51d747ac7069b913ed2))
+
+## [2.9.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.8.0...gcds-tokens-v2.9.0)
+
+Released on: 2025-04-08
+
+
+### :rocket: New Features
+
+* limit colours to GCDS colours for Tailwind CSS config version 4 ([#433](https://github.com/cds-snc/gcds-tokens/issues/433)) ([55492bd](https://github.com/cds-snc/gcds-tokens/commit/55492bda5a09f02651500164ef6d0fb0de5ba638))
+
+
+### :bug: :wrench: Bug Fixes
+
+* mobile menu padding for Safari mobile ([#431](https://github.com/cds-snc/gcds-tokens/issues/431)) ([ba27e8d](https://github.com/cds-snc/gcds-tokens/commit/ba27e8d42b85fe51cbf90eca66c9a6bf7712d6e0))
+
+## [2.8.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.7.1...gcds-tokens-v2.8.0)
+
+Released on: 2025-04-02
+
+
+### :rocket: New Features
+
+* add custom focus class for interactive elements to Tailwind configs ([#425](https://github.com/cds-snc/gcds-tokens/issues/425)) ([7e14476](https://github.com/cds-snc/gcds-tokens/commit/7e1447690f25537554d34708b930ad8650869e0a))
+* add custom full-width-bg class to Tailwind configs ([#428](https://github.com/cds-snc/gcds-tokens/issues/428)) ([670cc0c](https://github.com/cds-snc/gcds-tokens/commit/670cc0ccf0071f6c5029291fd6f7f8a9fa5482ae))
+* add default GCDS typography styles to Tailwind configs ([#423](https://github.com/cds-snc/gcds-tokens/issues/423)) ([f016ada](https://github.com/cds-snc/gcds-tokens/commit/f016adacf5177ab17e3d6548c0ada2243fff9310))
+
+
+### :bug: :wrench: Bug Fixes
+
+* update h1 border colour ([#430](https://github.com/cds-snc/gcds-tokens/issues/430)) ([69323c3](https://github.com/cds-snc/gcds-tokens/commit/69323c38c47eb0ab436490d36c9ac78f83139f99))
+
+## [2.7.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.7.0...gcds-tokens-v2.7.1)
+
+Released on: 2025-03-17
+
+
+### :bug: :wrench: Bug Fixes
+
+* header spacing and border colour + width ([#419](https://github.com/cds-snc/gcds-tokens/issues/419)) ([3839cef](https://github.com/cds-snc/gcds-tokens/commit/3839cef2d085bf5d13f33c00c22cc5cb72d498a3))
+
+
+### :no_entry: Remove
+
+* remove unused header brand margin + header signature margin tokens ([#420](https://github.com/cds-snc/gcds-tokens/issues/420)) ([365a1cd](https://github.com/cds-snc/gcds-tokens/commit/365a1cd264a80752c1798be7eb682f3ba4451acb))
+
+## [2.7.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.6.0...gcds-tokens-v2.7.0)
+
+Released on: 2025-03-11
+
+### :rocket: New Features
+
+* Start button component tokens ([#416](https://github.com/cds-snc/gcds-tokens/issues/416)) ([d35e442](https://github.com/cds-snc/gcds-tokens/commit/d35e44210dddc3243781fbe65c5c9206582b6b76))
+
+
+### :no_entry: Remove
+
+* Remove old button tokens ([#418](https://github.com/cds-snc/gcds-tokens/issues/418)) ([eb09acd](https://github.com/cds-snc/gcds-tokens/commit/eb09acd25815244fed334c49829dc6fe4c30e5fc))
+
+## [2.6.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.5.0...gcds-tokens-v2.6.0)
+
+Released on 2025-02-19
 
 
 ### :rocket: New Features
@@ -77,7 +227,7 @@ Released on: 2025-01-30
 
 ### :no_entry: Remove
 
-* Remove search component tokens ([#384](https://github.com/cds-snc/gcds-tokens/issues/384)) ([8c3d4d1](https://github.com/cds-snc/gcds-tokens/commit/8c3d4d12bf8f42406fac200bada5adce6be7c65e)) 
+* Remove search component tokens ([#384](https://github.com/cds-snc/gcds-tokens/issues/384)) ([8c3d4d1](https://github.com/cds-snc/gcds-tokens/commit/8c3d4d12bf8f42406fac200bada5adce6be7c65e))
     - `--gcds-search-border-radius`
     - `--gcds-search-focus-border-radius`
     - `--gcds-search-font-desktop`

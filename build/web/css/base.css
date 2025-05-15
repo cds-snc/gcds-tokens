@@ -4,31 +4,33 @@
 
 :root {
   --gcds-color-blue-100: #d7e5f5;
-  --gcds-color-blue-500: #6584a6; /* Must contrast 3:1 with white */
-  --gcds-color-blue-700: #33465c; /* Must contrast 7:1 with white */
+  --gcds-color-blue-500: #6584a6; /** Must contrast 3:1 with white */
+  --gcds-color-blue-650: #284162;
+  --gcds-color-blue-700: #33465c; /** Must contrast 7:1 with white */
   --gcds-color-blue-750: #1e7b96;
   --gcds-color-blue-800: #2b4380;
-  --gcds-color-blue-850: #0535d2; /* Focus and hover colour */
+  --gcds-color-blue-850: #0535d2; /** Focus and hover colour */
   --gcds-color-blue-900: #26374a;
   --gcds-color-grayscale-0: #ffffff;
   --gcds-color-grayscale-50: #f1f2f3;
   --gcds-color-grayscale-100: #d6d9dd;
   --gcds-color-grayscale-300: #a8adb4;
-  --gcds-color-grayscale-500: #7d828b; /* Must contrast 3:1 with white */
-  --gcds-color-grayscale-700: #545961; /* Must contrast 7:1 with white */
+  --gcds-color-grayscale-500: #7d828b; /** Must contrast 3:1 with white */
+  --gcds-color-grayscale-700: #545961; /** Must contrast 7:1 with white */
   --gcds-color-grayscale-800: #43474e;
   --gcds-color-grayscale-900: #333333;
   --gcds-color-grayscale-1000: #000000;
   --gcds-color-green-100: #e6f6ec;
-  --gcds-color-green-500: #289f58; /* Must contrast 3:1 with white */
-  --gcds-color-green-700: #03662a; /* Must contrast 7:1 with white */
-  --gcds-color-purple-700: #7532b8; /* Must contrast 7:1 with white */
-  --gcds-color-orange-700: #be5a00; /* Must contrast 7:1 with white */
+  --gcds-color-green-500: #289f58; /** Must contrast 3:1 with white */
+  --gcds-color-green-700: #03662a; /** Must contrast 7:1 with white */
+  --gcds-color-green-800: #023b1a;
+  --gcds-color-purple-700: #7532b8; /** Must contrast 7:1 with white */
+  --gcds-color-orange-700: #be5a00; /** Must contrast 7:1 with white */
   --gcds-color-red-100: #fbddda;
-  --gcds-color-red-500: #d3080c; /* Must contrast 3:1 with white */
-  --gcds-color-red-700: #a62a1e; /* Must contrast 7:1 with white */
+  --gcds-color-red-500: #d3080c; /** Must contrast 3:1 with white */
+  --gcds-color-red-700: #a62a1e; /** Must contrast 7:1 with white */
   --gcds-color-red-900: #822117;
-  --gcds-color-red-flag: #eb2d37; /* Signature flag colour - FIP red */
+  --gcds-color-red-flag: #eb2d37; /** Signature flag colour - FIP red */
   --gcds-color-yellow-100: #faedd1;
-  --gcds-color-yellow-500: #b3800f; /* Must contrast 3:1 with white */
+  --gcds-color-yellow-500: #b3800f; /** Must contrast 3:1 with white */
 }

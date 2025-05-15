@@ -3,10 +3,10 @@
  */
 
 :root {
-  --gcds-base-root-font-size: 16; /* Defines the root font size as 16px */
-  --gcds-base-font-size: 1.25; /* Sets base font size to 20px */
-  --gcds-base-font-size-mobile: 1.125; /* Sets base font size for smaller screens to 18px */
-  --gcds-base-line-height: 1.6; /* Sets base line height to 32px */
+  --gcds-base-root-font-size: 16; /** Defines the root font size as 16px */
+  --gcds-base-font-size: 1.25; /** Sets base font size to 20px */
+  --gcds-base-font-size-mobile: 1.125; /** Sets base font size for smaller screens to 18px */
+  --gcds-base-line-height: 1.6; /** Sets base line height to 32px */
   --gcds-base-scale: 1.1;
   --gcds-font-h1: 700 2.5625rem/117% 'Lato', sans-serif;
   --gcds-font-h1-mobile: 700 2.3125rem/119% 'Lato', sans-serif;
@@ -29,7 +29,7 @@
   --gcds-font-families-heading: 'Lato', sans-serif;
   --gcds-font-families-body: 'Noto Sans', sans-serif;
   --gcds-font-families-monospace: 'Noto Sans Mono', monospace;
-  --gcds-font-families-icons: 'Font Awesome 6 Free', FontAwesome;
+  --gcds-font-families-icons: 'gcds-icons';
   --gcds-font-sizes-text-small: 1.125rem;
   --gcds-font-sizes-text-small-mobile: 1rem;
   --gcds-font-sizes-text: 1.25rem;

@@ -7,8 +7,8 @@
   --gcds-nav-link-active-font-weight: 700;
   --gcds-nav-link-active-text: #26374a;
   --gcds-nav-link-active-background: #d7e5f5;
-  --gcds-nav-link-border-width: 0.25rem;
-  --gcds-nav-link-default-text: #2b4380;
+  --gcds-nav-link-border-width: 0.125rem;
+  --gcds-nav-link-default-text: #284162;
   --gcds-nav-link-default-decoration-thickness: 0.0625rem;
   --gcds-nav-link-default-max-width: 20rem;
   --gcds-nav-link-default-underline-offset: 0.25rem;
@@ -19,16 +19,18 @@
   --gcds-nav-link-focus-outline: 0.25rem solid #0535d2;
   --gcds-nav-link-focus-box-shadow: 0 0 0 0.125rem #ffffff;
   --gcds-nav-link-font: 400 1.25rem/160% 'Noto Sans', sans-serif;
+  --gcds-nav-link-font-mobile: 500 1rem/150% 'Noto Sans', sans-serif;
   --gcds-nav-link-hover-decoration-thickness: 0.125rem;
   --gcds-nav-link-hover-text: #0535d2;
   --gcds-nav-link-margin: 0.5rem;
   --gcds-nav-link-padding: 0.625rem;
   --gcds-nav-link-side-nav-hover-background: #f1f2f3;
   --gcds-nav-link-side-nav-padding: 0.625rem 0.5rem;
+  --gcds-nav-link-top-nav-font: 500 1rem/150% 'Noto Sans', sans-serif;
   --gcds-nav-link-top-nav-hover-background: #d6d9dd;
-  --gcds-nav-link-top-nav-home-font: 600 1.5rem/133% 'Noto Sans', sans-serif;
-  --gcds-nav-link-top-nav-home-padding: 0.875rem;
-  --gcds-nav-link-top-nav-padding: 0.875rem;
+  --gcds-nav-link-top-nav-home-font: 700 1rem/150% 'Noto Sans', sans-serif;
+  --gcds-nav-link-top-nav-home-padding: 1rem 0.125rem;
+  --gcds-nav-link-top-nav-padding: 1rem;
   --gcds-nav-link-top-nav-text: #333333;
-  --gcds-nav-link-top-nav-margin: 0 0 0 0.125rem;
+  --gcds-nav-link-top-nav-margin: 0;
 }

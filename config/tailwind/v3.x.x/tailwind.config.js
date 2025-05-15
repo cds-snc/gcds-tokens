@@ -49,6 +49,7 @@ module.exports = {
       blue: {
         100: blue[100].value,
         500: blue[500].value,
+        650: blue[650].value,
         700: blue[700].value,
         750: blue[750].value,
         800: blue[800].value,
@@ -69,6 +70,7 @@ module.exports = {
         100: green[100].value,
         500: green[500].value,
         700: green[700].value,
+        800: green[800].value,
       },
       orange: {
         700: orange[700].value,
@@ -220,16 +222,57 @@ module.exports = {
         full: container.full.value,
       },
       // Matches GCDS container sizes
-      maxWidth: (theme) => ({
-        ...theme('width'),
-      }),
+      maxWidth: theme => theme('width'),
       // Matches GCDS container sizes
-      minWidth: (theme) => ({
-        ...theme('width'),
-      }),
+      minWidth: theme => theme('width'),
     },
   },
   plugins: [
+    // Custom class for full width background colour
+    function ({ addUtilities }) {
+      const bgFullWidthStyle = {
+        '.bg-full-width': {
+          position: 'relative',
+          width: 'calc(100% + var(--gcds-spacing-225))',
+          marginInline: 'calc(-1 * var(--gcds-spacing-100))',
+          paddingInline: 'var(--gcds-spacing-100)',
+        },
+        '.bg-full-width:before, .bg-full-width:after': {
+          position: 'absolute',
+          top: '0',
+          width: '100vw',
+          height: '100%',
+          content: "''",
+          backgroundColor: 'inherit',
+        },
+        '.bg-full-width:before': {
+          left: 'calc(-100vw + 1px)',
+        },
+        '.bg-full-width:after': {
+          right: 'calc(-100vw + 1px)',
+        },
+      };
+
+      addUtilities(bgFullWidthStyle, ['responsive', 'hover', 'focus']);
+    },
+
+    // Custom focus class
+    function ({ addUtilities }) {
+      const customFocusStyle = {
+        '.focus:focus': {
+          backgroundColor: link.focus.background.value,
+          color: link.focus.text.value,
+          borderRadius: link.focus.border.radius.value,
+          boxShadow: link.focus["box-shadow"].value,
+          outline: `${link.focus.outline.width.value} solid ${link.focus.background.value}`,
+          outlineOffset: link.focus["outline-offset"].value,
+          textDecoration: 'none',
+        },
+      };
+
+      addUtilities(customFocusStyle, ['focus']);
+    },
+
     // Custom link color classes.
     function ({ addUtilities, theme }) {
       const linkColors = theme('linkColor');

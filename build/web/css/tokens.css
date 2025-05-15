@@ -4,60 +4,62 @@
 
 :root {
   --gcds-color-blue-100: #d7e5f5;
-  --gcds-color-blue-500: #6584a6; /* Must contrast 3:1 with white */
-  --gcds-color-blue-700: #33465c; /* Must contrast 7:1 with white */
+  --gcds-color-blue-500: #6584a6; /** Must contrast 3:1 with white */
+  --gcds-color-blue-650: #284162;
+  --gcds-color-blue-700: #33465c; /** Must contrast 7:1 with white */
   --gcds-color-blue-750: #1e7b96;
   --gcds-color-blue-800: #2b4380;
-  --gcds-color-blue-850: #0535d2; /* Focus and hover colour */
+  --gcds-color-blue-850: #0535d2; /** Focus and hover colour */
   --gcds-color-blue-900: #26374a;
   --gcds-color-grayscale-0: #ffffff;
   --gcds-color-grayscale-50: #f1f2f3;
   --gcds-color-grayscale-100: #d6d9dd;
   --gcds-color-grayscale-300: #a8adb4;
-  --gcds-color-grayscale-500: #7d828b; /* Must contrast 3:1 with white */
-  --gcds-color-grayscale-700: #545961; /* Must contrast 7:1 with white */
+  --gcds-color-grayscale-500: #7d828b; /** Must contrast 3:1 with white */
+  --gcds-color-grayscale-700: #545961; /** Must contrast 7:1 with white */
   --gcds-color-grayscale-800: #43474e;
   --gcds-color-grayscale-900: #333333;
   --gcds-color-grayscale-1000: #000000;
   --gcds-color-green-100: #e6f6ec;
-  --gcds-color-green-500: #289f58; /* Must contrast 3:1 with white */
-  --gcds-color-green-700: #03662a; /* Must contrast 7:1 with white */
-  --gcds-color-purple-700: #7532b8; /* Must contrast 7:1 with white */
-  --gcds-color-orange-700: #be5a00; /* Must contrast 7:1 with white */
+  --gcds-color-green-500: #289f58; /** Must contrast 3:1 with white */
+  --gcds-color-green-700: #03662a; /** Must contrast 7:1 with white */
+  --gcds-color-green-800: #023b1a;
+  --gcds-color-purple-700: #7532b8; /** Must contrast 7:1 with white */
+  --gcds-color-orange-700: #be5a00; /** Must contrast 7:1 with white */
   --gcds-color-red-100: #fbddda;
-  --gcds-color-red-500: #d3080c; /* Must contrast 3:1 with white */
-  --gcds-color-red-700: #a62a1e; /* Must contrast 7:1 with white */
+  --gcds-color-red-500: #d3080c; /** Must contrast 3:1 with white */
+  --gcds-color-red-700: #a62a1e; /** Must contrast 7:1 with white */
   --gcds-color-red-900: #822117;
-  --gcds-color-red-flag: #eb2d37; /* Signature flag colour - FIP red */
+  --gcds-color-red-flag: #eb2d37; /** Signature flag colour - FIP red */
   --gcds-color-yellow-100: #faedd1;
-  --gcds-color-yellow-500: #b3800f; /* Must contrast 3:1 with white */
-  --gcds-border-radius-sm: 0.125rem; /* Global border: radius sm */
-  --gcds-border-radius-md: 0.375rem; /* Global border: radius md */
-  --gcds-border-radius-lg: 3rem; /* Global border: radius lg */
-  --gcds-border-radius-xl: 100%; /* Global border: radius xl */
-  --gcds-border-width-sm: 0.0625rem; /* Global border: width sm */
-  --gcds-border-width-md: 0.125rem; /* Global border: width md */
-  --gcds-border-width-lg: 0.25rem; /* Global border: width lg */
-  --gcds-border-width-xl: 0.375rem; /* Global border: width xl */
-  --gcds-border-default: #7d828b; /* Global color: border default */
-  --gcds-active-background: #000000; /* Global color: active background */
-  --gcds-active-text: #ffffff; /* Global color: active text */
-  --gcds-bg-dark: #333333; /* Global bg color: dark background */
-  --gcds-bg-light: #f1f2f3; /* Global bg color: light background */
-  --gcds-bg-primary: #26374a; /* Global bg color: primary background */
-  --gcds-bg-white: #ffffff; /* Global bg color: white background */
-  --gcds-danger-background: #fbddda; /* Global color: danger background */
-  --gcds-danger-border: #d3080c; /* Global color: danger border */
-  --gcds-danger-text: #a62a1e; /* Global color: danger text */
-  --gcds-disabled-background: #d6d9dd; /* Global color: disabled background */
-  --gcds-disabled-text: #545961; /* Global color: disabled text */
-  --gcds-focus-background: #0535d2; /* Global color: focus background */
-  --gcds-focus-border: #0535d2; /* Global color: focus border */
-  --gcds-focus-text: #ffffff; /* Global color: focus text */
-  --gcds-link-default: #2b4380; /* Global color: link default */
-  --gcds-link-hover: #0535d2; /* Global color: link hover */
-  --gcds-link-light: #ffffff; /* Global color: link light */
-  --gcds-link-visited: #7532b8; /* Global color: link visited */
+  --gcds-color-yellow-500: #b3800f; /** Must contrast 3:1 with white */
+  --gcds-border-radius-sm: 0.125rem; /** Global border: radius sm */
+  --gcds-border-radius-md: 0.375rem; /** Global border: radius md */
+  --gcds-border-radius-lg: 3rem; /** Global border: radius lg */
+  --gcds-border-radius-xl: 100%; /** Global border: radius xl */
+  --gcds-border-width-sm: 0.0625rem; /** Global border: width sm */
+  --gcds-border-width-md: 0.125rem; /** Global border: width md */
+  --gcds-border-width-lg: 0.25rem; /** Global border: width lg */
+  --gcds-border-width-xl: 0.375rem; /** Global border: width xl */
+  --gcds-border-default: #7d828b; /** Global color: border default */
+  --gcds-active-background: #000000; /** Global color: active background */
+  --gcds-active-text: #ffffff; /** Global color: active text */
+  --gcds-bg-dark: #333333; /** Global bg color: dark background */
+  --gcds-bg-light: #f1f2f3; /** Global bg color: light background */
+  --gcds-bg-primary: #26374a; /** Global bg color: primary background */
+  --gcds-bg-white: #ffffff; /** Global bg color: white background */
+  --gcds-danger-background: #fbddda; /** Global color: danger background */
+  --gcds-danger-border: #d3080c; /** Global color: danger border */
+  --gcds-danger-text: #a62a1e; /** Global color: danger text */
+  --gcds-disabled-background: #d6d9dd; /** Global color: disabled background */
+  --gcds-disabled-text: #545961; /** Global color: disabled text */
+  --gcds-focus-background: #0535d2; /** Global color: focus background */
+  --gcds-focus-border: #0535d2; /** Global color: focus border */
+  --gcds-focus-text: #ffffff; /** Global color: focus text */
+  --gcds-link-default: #284162; /** Global color: link default */
+  --gcds-link-hover: #0535d2; /** Global color: link hover */
+  --gcds-link-light: #ffffff; /** Global color: link light */
+  --gcds-link-visited: #7532b8; /** Global color: link visited */
   --gcds-link-focus-background: #0535d2;
   --gcds-link-focus-outline-width: 0.25rem;
   --gcds-link-focus-outline-offset: 0.125rem;
@@ -70,10 +72,10 @@
   --gcds-link-font-regular-mobile: 400 1.125rem/155% 'Noto Sans', sans-serif;
   --gcds-link-decoration-thickness: 0.0625rem;
   --gcds-link-hover-decoration-thickness: 0.125rem;
-  --gcds-link-underline-offset: 0.25rem;
-  --gcds-text-light: #ffffff; /* Global color: text light */
-  --gcds-text-primary: #333333; /* Global color: text primary */
-  --gcds-text-secondary: #43474e; /* Global color: text secondary */
+  --gcds-link-underline-offset: 0.125rem;
+  --gcds-text-light: #ffffff; /** Global color: text light */
+  --gcds-text-primary: #333333; /** Global color: text primary */
+  --gcds-text-secondary: #43474e; /** Global color: text secondary */
   --gcds-text-character-limit: 65ch;
   --gcds-text-role-light: #ffffff;
   --gcds-text-role-primary: #333333;
@@ -158,7 +160,7 @@
   --gcds-container-spacing-1150: 5.75rem;
   --gcds-container-spacing-1200: 6rem;
   --gcds-container-spacing-1250: 6.25rem;
-  --gcds-outline-width: 0.25rem; /* Global outline: width */
+  --gcds-outline-width: 0.25rem; /** Global outline: width */
   --gcds-spacing-0: 0rem;
   --gcds-spacing-25: 0.125rem;
   --gcds-spacing-50: 0.25rem;
@@ -190,10 +192,10 @@
   --gcds-spacing-1150: 5.75rem;
   --gcds-spacing-1200: 6rem;
   --gcds-spacing-1250: 6.25rem;
-  --gcds-base-root-font-size: 16; /* Defines the root font size as 16px */
-  --gcds-base-font-size: 1.25; /* Sets base font size to 20px */
-  --gcds-base-font-size-mobile: 1.125; /* Sets base font size for smaller screens to 18px */
-  --gcds-base-line-height: 1.6; /* Sets base line height to 32px */
+  --gcds-base-root-font-size: 16; /** Defines the root font size as 16px */
+  --gcds-base-font-size: 1.25; /** Sets base font size to 20px */
+  --gcds-base-font-size-mobile: 1.125; /** Sets base font size for smaller screens to 18px */
+  --gcds-base-line-height: 1.6; /** Sets base line height to 32px */
   --gcds-base-scale: 1.1;
   --gcds-font-h1: 700 2.5625rem/117% 'Lato', sans-serif;
   --gcds-font-h1-mobile: 700 2.3125rem/119% 'Lato', sans-serif;
@@ -216,7 +218,7 @@
   --gcds-font-families-heading: 'Lato', sans-serif;
   --gcds-font-families-body: 'Noto Sans', sans-serif;
   --gcds-font-families-monospace: 'Noto Sans Mono', monospace;
-  --gcds-font-families-icons: 'Font Awesome 6 Free', FontAwesome;
+  --gcds-font-families-icons: 'gcds-icons';
   --gcds-font-sizes-text-small: 1.125rem;
   --gcds-font-sizes-text-small-mobile: 1rem;
   --gcds-font-sizes-text: 1.25rem;
@@ -289,7 +291,7 @@
   --gcds-alert-warning-icon: #b3800f;
   --gcds-alert-warning-text: #333333;
   --gcds-breadcrumbs-item-arrow-margin: 0 0.5rem 0 0;
-  --gcds-breadcrumbs-item-font: 400 1rem/150% 'Noto Sans', sans-serif; /* Mandatory elements alignment: sub-components of header use 16px font */
+  --gcds-breadcrumbs-item-font: 400 1rem/150% 'Noto Sans', sans-serif; /** Mandatory elements alignment: sub-components of header use 16px font */
   --gcds-breadcrumbs-item-margin: 0.5rem 0.25rem 0.5rem 0.125rem;
   --gcds-breadcrumbs-margin: 0 0 0 -0.125rem;
   --gcds-breadcrumbs-padding: 0 0 0 0.125rem;
@@ -298,8 +300,9 @@
   --gcds-button-danger-default-background: #a62a1e;
   --gcds-button-danger-default-text: #ffffff;
   --gcds-button-danger-hover-background: #822117;
-  --gcds-button-font: 500 1.25rem/140% 'Noto Sans', sans-serif;
-  --gcds-button-padding: 0.625rem 0.75rem;
+  --gcds-button-font-desktop: 500 1.25rem/140% 'Noto Sans', sans-serif;
+  --gcds-button-font-mobile: 500 1.125rem/140% 'Noto Sans', sans-serif;
+  --gcds-button-padding: 0.625rem 1rem;
   --gcds-button-primary-default-background: #26374a;
   --gcds-button-primary-default-text: #ffffff;
   --gcds-button-primary-hover-background: #2b4380;
@@ -315,10 +318,16 @@
   --gcds-button-shared-focus-box-shadow: 0 0 0 0.125rem #ffffff;
   --gcds-button-shared-focus-outline-width: 0.25rem;
   --gcds-button-shared-focus-text: #ffffff;
-  --gcds-button-shared-disabled-background: #d6d9dd;
-  --gcds-button-shared-disabled-text: #545961;
-  --gcds-button-small-font: 400 80%/160% 'Noto Sans', sans-serif;
-  --gcds-button-small-padding: 0.75rem;
+  --gcds-button-shared-disabled-opacity: 50%;
+  --gcds-button-small-font-desktop: 400 1.125rem/155% 'Noto Sans', sans-serif;
+  --gcds-button-small-font-mobile: 400 1rem/150% 'Noto Sans', sans-serif;
+  --gcds-button-small-padding: 0.375rem 1rem;
+  --gcds-button-start-default-background: #03662a;
+  --gcds-button-start-default-text: #ffffff;
+  --gcds-button-start-hover-background: #023b1a;
+  --gcds-button-start-font-desktop: 600 1.375rem/145% 'Noto Sans', sans-serif;
+  --gcds-button-start-font-mobile: 500 1.25rem/140% 'Noto Sans', sans-serif;
+  --gcds-button-start-padding: 0.75rem 2rem;
   --gcds-button-width: fit-content;
   --gcds-card-background-color: #ffffff;
   --gcds-card-box-shadow: 0 0.125rem 0.5rem 0.125rem #00000019;
@@ -329,7 +338,7 @@
   --gcds-card-focus-link-background-color: rgba(0, 0, 0, 0);
   --gcds-card-focus-link-border: none;
   --gcds-card-focus-link-box-shadow: none;
-  --gcds-card-focus-link-color: #2b4380;
+  --gcds-card-focus-link-color: #284162;
   --gcds-card-focus-link-outline: none;
   --gcds-card-focus-link-text-decoration-thickness: 0.125rem;
   --gcds-card-focus-outline-offset: 0.125rem;
@@ -351,6 +360,7 @@
   --gcds-checkbox-check-top: 0.625rem;
   --gcds-checkbox-check-width: 0.875rem;
   --gcds-checkbox-danger-border: #d3080c;
+  --gcds-checkbox-default-background: #ffffff;
   --gcds-checkbox-default-text: #333333;
   --gcds-checkbox-disabled-background: #d6d9dd;
   --gcds-checkbox-disabled-border: #545961;
@@ -391,9 +401,9 @@
   --gcds-date-input-label-font-mobile: 500 1.125rem/155% 'Noto Sans', sans-serif;
   --gcds-date-input-margin: 0.75rem;
   --gcds-date-modified-description-margin: 0 0 0 0.125rem;
-  --gcds-date-modified-font: 400 1rem/150% 'Noto Sans', sans-serif; /* Mandatory elements alignment: sub-components of footer use 16px font */
+  --gcds-date-modified-font: 400 1rem/150% 'Noto Sans', sans-serif; /** Mandatory elements alignment: sub-components of footer use 16px font */
   --gcds-date-modified-margin: 2.5rem 0 1rem;
-  --gcds-details-default-text: #2b4380;
+  --gcds-details-default-text: #284162;
   --gcds-details-default-decoration-thickness: 0.0625rem;
   --gcds-details-focus-background: #0535d2;
   --gcds-details-focus-text: #ffffff;
@@ -460,7 +470,8 @@
   --gcds-file-uploader-default-text: #333333;
   --gcds-file-uploader-disabled-background: #d6d9dd;
   --gcds-file-uploader-disabled-text: #545961;
-  --gcds-file-uploader-font: 400 1.25rem/140% 'Noto Sans', sans-serif;
+  --gcds-file-uploader-font-desktop: 400 1.25rem/140% 'Noto Sans', sans-serif;
+  --gcds-file-uploader-font-mobile: 400 1.125rem/140% 'Noto Sans', sans-serif;
   --gcds-file-uploader-file-border-color: #7d828b;
   --gcds-file-uploader-file-border-width: 0.125rem;
   --gcds-file-uploader-file-button-border-width: 0.0625rem;
@@ -489,8 +500,8 @@
   --gcds-footer-container-width: 71.25rem;
   --gcds-footer-contextual-background: #33465c;
   --gcds-footer-contextual-text: #ffffff;
-  --gcds-footer-font: 400 1rem/150% 'Noto Sans', sans-serif; /* Mandatory elements alignment: sub-components of footer use 16px font. */
-  --gcds-footer-font-heading: 700 1.625rem/123% 'Lato', sans-serif; /* Mandatory elements alignment: size 26px */
+  --gcds-footer-font: 400 1rem/150% 'Noto Sans', sans-serif; /** Mandatory elements alignment: sub-components of footer use 16px font. */
+  --gcds-footer-font-heading: 700 1.625rem/123% 'Lato', sans-serif; /** Mandatory elements alignment: size 26px */
   --gcds-footer-grid-gap: 1.5rem;
   --gcds-footer-heading-margin: 0 0 1.5rem;
   --gcds-footer-list-padding: 0;
@@ -500,7 +511,7 @@
   --gcds-footer-main-nav-first-after-width: 2.25rem;
   --gcds-footer-main-text: #ffffff;
   --gcds-footer-sub-background: #f1f2f3;
-  --gcds-footer-sub-listitem-before-margin: 0 1.5rem;
+  --gcds-footer-sub-listitem-before-margin: 0 0.75rem;
   --gcds-footer-sub-signature-width: 10.25rem;
   --gcds-footer-sub-signature-min-width: auto;
   --gcds-footer-sub-signature-max-height: 2.4375rem;
@@ -526,16 +537,15 @@
   --gcds-grid-gap-700: 3.5rem;
   --gcds-grid-gap-750: 3.75rem;
   --gcds-grid-gap-800: 4rem;
-  --gcds-header-brand-border-color: #26374a;
-  --gcds-header-brand-border-width: 0.1875rem;
-  --gcds-header-brand-grid-gap: 0.75rem;
-  --gcds-header-brand-margin: 1.125rem 0 0;
-  --gcds-header-brand-padding: 0 0 0.375rem;
-  --gcds-header-brand-signature-margin: 0 0 0.375rem;
+  --gcds-header-brand-border-color: #d6d9dd;
+  --gcds-header-brand-border-width: 0.0625rem;
+  --gcds-header-brand-grid-gap: 0.5rem;
+  --gcds-header-brand-padding: 0.5rem 0 1rem;
   --gcds-header-brand-toggle-padding: 0 1.125rem;
   --gcds-header-container-max-width: 71.25rem;
-  --gcds-header-margin: 0 0 3.75rem;
-  --gcds-header-skiptonav-top: 1.5rem;
+  --gcds-header-margin: 0 0 3rem;
+  --gcds-header-menu-top-nav-mobile-trigger-margin: 1rem;
+  --gcds-header-skiptonav-top: 0.75rem;
   --gcds-heading-character-limit-h1: 31ch;
   --gcds-heading-character-limit-h2: 35ch;
   --gcds-heading-character-limit-h3: 40ch;
@@ -543,7 +553,7 @@
   --gcds-heading-character-limit-h5: 50ch;
   --gcds-heading-character-limit-h6: 57ch;
   --gcds-heading-default-text: #333333;
-  --gcds-heading-h1-border-background: #d3080c;
+  --gcds-heading-h1-border-background: #a62a1e;
   --gcds-heading-h1-border-height: 0.375rem;
   --gcds-heading-h1-border-margin: 0.5rem;
   --gcds-heading-h1-border-width: 4.5rem;
@@ -592,7 +602,7 @@
   --gcds-heading-spacing-1250: 6.25rem;
   --gcds-hint-margin: -0.375rem 0 0.5rem;
   --gcds-hint-text: #43474e;
-  --gcds-icon-font-family: 'Font Awesome 6 Free', FontAwesome;
+  --gcds-icon-font-family: 'gcds-icons';
   --gcds-icon-font-size-text-small: 1.125rem;
   --gcds-icon-font-size-text: 1.25rem;
   --gcds-icon-font-size-h6: 1.375rem;
@@ -601,6 +611,14 @@
   --gcds-icon-font-size-h3: 1.8125rem;
   --gcds-icon-font-size-h2: 2.4375rem;
   --gcds-icon-font-size-h1: 2.5625rem;
+  --gcds-icon-font-size-text-small-mobile: 1rem;
+  --gcds-icon-font-size-text-mobile: 1.125rem;
+  --gcds-icon-font-size-h6-mobile: 1.25rem;
+  --gcds-icon-font-size-h5-mobile: 1.375rem;
+  --gcds-icon-font-size-h4-mobile: 1.5rem;
+  --gcds-icon-font-size-h3-mobile: 1.625rem;
+  --gcds-icon-font-size-h2-mobile: 2.1875rem;
+  --gcds-icon-font-size-h1-mobile: 2.3125rem;
   --gcds-icon-line-height-text-small: 155%;
   --gcds-icon-line-height-text: 160%;
   --gcds-icon-line-height-h6: 145%;
@@ -609,14 +627,14 @@
   --gcds-icon-line-height-h3: 137%;
   --gcds-icon-line-height-h2: 123%;
   --gcds-icon-line-height-h1: 117%;
-  --gcds-icon-fixed-width-text-small: 1.55;
-  --gcds-icon-fixed-width-text: 1.6;
-  --gcds-icon-fixed-width-h6: 1.45;
-  --gcds-icon-fixed-width-h5: 1.33;
-  --gcds-icon-fixed-width-h4: 1.33;
-  --gcds-icon-fixed-width-h3: 1.37;
-  --gcds-icon-fixed-width-h2: 1.23;
-  --gcds-icon-fixed-width-h1: 1.17;
+  --gcds-icon-line-height-text-small-mobile: 150%;
+  --gcds-icon-line-height-text-mobile: 155%;
+  --gcds-icon-line-height-h6-mobile: 140%;
+  --gcds-icon-line-height-h5-mobile: 127%;
+  --gcds-icon-line-height-h4-mobile: 133%;
+  --gcds-icon-line-height-h3-mobile: 123%;
+  --gcds-icon-line-height-h2-mobile: 125%;
+  --gcds-icon-line-height-h1-mobile: 119%;
   --gcds-icon-margin-0: 0rem;
   --gcds-icon-margin-25: 0.125rem;
   --gcds-icon-margin-50: 0.25rem;
@@ -668,14 +686,15 @@
   --gcds-label-required-font-weight: 400;
   --gcds-label-required-margin: 0 0 0 0.375rem;
   --gcds-label-text: #333333;
-  --gcds-lang-toggle-font-desktop: 400 1rem/150% 'Noto Sans', sans-serif; /* Mandatory elements alignment: sub-components of header use 16px font */
-  --gcds-lang-toggle-font-mobile: 700 1.125rem/155% 'Noto Sans', sans-serif; /* Mandatory elements alignment: size 18px  */
-  --gcds-lang-toggle-padding: 0.5rem 0.625rem;
+  --gcds-lang-toggle-font-desktop: 400 1rem/150% 'Noto Sans', sans-serif; /** Mandatory elements alignment: sub-components of header use 16px font */
+  --gcds-lang-toggle-font-mobile: 700 1.125rem/155% 'Noto Sans', sans-serif; /** Mandatory elements alignment: size 18px  */
+  --gcds-lang-toggle-padding: 0.375rem 0.625rem;
   --gcds-nav-group-mobile-background: #ffffff;
   --gcds-nav-group-mobile-list-margin: 0.875rem 0 0;
-  --gcds-nav-group-mobile-padding: 0.5rem 0.875rem 1.5rem 0.875rem;
+  --gcds-nav-group-mobile-padding: 0.5rem 0.875rem 4.75rem 0.875rem;
   --gcds-nav-group-mobile-trigger-border-radius: 0.375rem;
   --gcds-nav-group-mobile-trigger-border-width: 0.125rem;
+  --gcds-nav-group-mobile-trigger-font: 500 1rem/150% 'Noto Sans', sans-serif;
   --gcds-nav-group-mobile-trigger-margin: 0.5rem;
   --gcds-nav-group-mobile-trigger-text: #2b4380;
   --gcds-nav-group-side-nav-dropdown-padding: 2.25rem;
@@ -687,16 +706,15 @@
   --gcds-nav-group-top-nav-dropdown-box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
   --gcds-nav-group-top-nav-dropdown-padding: 0.75rem 0.75rem 0.125rem;
   --gcds-nav-group-top-nav-dropdown-width: 20rem;
-  --gcds-nav-group-top-nav-trigger-border-width: 0.25rem;
+  --gcds-nav-group-top-nav-font: 500 1rem/150% 'Noto Sans', sans-serif;
   --gcds-nav-group-top-nav-trigger-hover-background: #d6d9dd;
   --gcds-nav-group-top-nav-trigger-hover-text: #0535d2;
   --gcds-nav-group-top-nav-trigger-hover-decoration-thickness: 0.125rem;
-  --gcds-nav-group-top-nav-trigger-margin-inline-start: 0.125rem;
   --gcds-nav-group-top-nav-trigger-decoration-thickness: 0.0625rem;
   --gcds-nav-group-top-nav-trigger-underline-offset: 0.25rem;
   --gcds-nav-group-top-nav-trigger-expanded-background-color: #d6d9dd;
-  --gcds-nav-group-top-nav-trigger-icon-margin: 0.875rem;
-  --gcds-nav-group-top-nav-trigger-padding: 0.875rem;
+  --gcds-nav-group-top-nav-trigger-icon-margin: 0.5rem;
+  --gcds-nav-group-top-nav-trigger-padding: 1.125rem 1rem;
   --gcds-nav-group-trigger-focus-background: #0535d2;
   --gcds-nav-group-trigger-focus-text: #ffffff;
   --gcds-nav-group-trigger-focus-border-radius: 0.125rem;
@@ -712,8 +730,8 @@
   --gcds-nav-link-active-font-weight: 700;
   --gcds-nav-link-active-text: #26374a;
   --gcds-nav-link-active-background: #d7e5f5;
-  --gcds-nav-link-border-width: 0.25rem;
-  --gcds-nav-link-default-text: #2b4380;
+  --gcds-nav-link-border-width: 0.125rem;
+  --gcds-nav-link-default-text: #284162;
   --gcds-nav-link-default-decoration-thickness: 0.0625rem;
   --gcds-nav-link-default-max-width: 20rem;
   --gcds-nav-link-default-underline-offset: 0.25rem;
@@ -724,18 +742,20 @@
   --gcds-nav-link-focus-outline: 0.25rem solid #0535d2;
   --gcds-nav-link-focus-box-shadow: 0 0 0 0.125rem #ffffff;
   --gcds-nav-link-font: 400 1.25rem/160% 'Noto Sans', sans-serif;
+  --gcds-nav-link-font-mobile: 500 1rem/150% 'Noto Sans', sans-serif;
   --gcds-nav-link-hover-decoration-thickness: 0.125rem;
   --gcds-nav-link-hover-text: #0535d2;
   --gcds-nav-link-margin: 0.5rem;
   --gcds-nav-link-padding: 0.625rem;
   --gcds-nav-link-side-nav-hover-background: #f1f2f3;
   --gcds-nav-link-side-nav-padding: 0.625rem 0.5rem;
+  --gcds-nav-link-top-nav-font: 500 1rem/150% 'Noto Sans', sans-serif;
   --gcds-nav-link-top-nav-hover-background: #d6d9dd;
-  --gcds-nav-link-top-nav-home-font: 600 1.5rem/133% 'Noto Sans', sans-serif;
-  --gcds-nav-link-top-nav-home-padding: 0.875rem;
-  --gcds-nav-link-top-nav-padding: 0.875rem;
+  --gcds-nav-link-top-nav-home-font: 700 1rem/150% 'Noto Sans', sans-serif;
+  --gcds-nav-link-top-nav-home-padding: 1rem 0.125rem;
+  --gcds-nav-link-top-nav-padding: 1rem;
   --gcds-nav-link-top-nav-text: #333333;
-  --gcds-nav-link-top-nav-margin: 0 0 0 0.125rem;
+  --gcds-nav-link-top-nav-margin: 0;
   --gcds-notice-border-width: 0.375rem;
   --gcds-notice-content-heading-font-desktop: 700 1.8125rem/137% 'Lato', sans-serif;
   --gcds-notice-content-heading-font-mobile: 700 1.625rem/123% 'Lato', sans-serif;
@@ -759,17 +779,18 @@
   --gcds-pagination-active-background: #26374a;
   --gcds-pagination-border-radius: 0.125rem;
   --gcds-pagination-border-width: 0.125rem;
-  --gcds-pagination-default-text: #2b4380;
+  --gcds-pagination-default-text: #284162;
   --gcds-pagination-hover-background: #d7e5f5;
   --gcds-pagination-hover-text: #0535d2;
   --gcds-pagination-focus-background: #0535d2;
   --gcds-pagination-focus-box-shadow: 0 0 0 0.125rem #ffffff;
   --gcds-pagination-focus-text: #ffffff;
   --gcds-pagination-focus-outline-width: 0.25rem;
-  --gcds-pagination-font: 500 1.25rem/160% 'Noto Sans', sans-serif;
+  --gcds-pagination-font-desktop: 500 1.25rem/160% 'Noto Sans', sans-serif;
+  --gcds-pagination-font-mobile: 500 1.125rem/155% 'Noto Sans', sans-serif;
   --gcds-pagination-list-end-button-padding: 0.5rem;
   --gcds-pagination-listitem-margin: 0.375rem;
-  --gcds-pagination-mobile-list-border: #2b4380;
+  --gcds-pagination-mobile-list-border: #284162;
   --gcds-pagination-mobile-list-item-margin: 0.125rem;
   --gcds-pagination-mobile-list-prevnext-margin: 0.75rem auto 0;
   --gcds-pagination-simple-label-font-weight: 400;
@@ -791,6 +812,7 @@
   --gcds-radio-check-left: 0.9375rem;
   --gcds-radio-check-top: 0.9375rem;
   --gcds-radio-danger-border: #d3080c;
+  --gcds-radio-default-background: #ffffff;
   --gcds-radio-default-text: #333333;
   --gcds-radio-disabled-background: #d6d9dd;
   --gcds-radio-disabled-border: #545961;
@@ -818,7 +840,6 @@
   --gcds-radio-padding: 0.5rem;
   --gcds-search-border-color: #d6d9dd;
   --gcds-search-border-width: 0.0625rem;
-  --gcds-search-button-padding: 0.125rem;
   --gcds-search-button-width-height: 2.5rem;
   --gcds-search-default-background: #ffffff;
   --gcds-search-default-text: #333333;
@@ -826,7 +847,7 @@
   --gcds-search-focus-border-width: 0.125rem;
   --gcds-search-focus-box-shadow: 0 0 0 0.125rem #ffffff;
   --gcds-search-focus-margin: 0 -0.125rem 0 0;
-  --gcds-search-font: 400 1rem/150% 'Noto Sans', sans-serif; /* Mandatory elements alignment: sub-components of header use 16px font */
+  --gcds-search-font: 400 1rem/150% 'Noto Sans', sans-serif; /** Mandatory elements alignment: sub-components of header use 16px font */
   --gcds-search-margin: 0 0 0.125rem;
   --gcds-search-max-height: 2.5rem;
   --gcds-search-outline-width: 0.25rem;
@@ -842,7 +863,8 @@
   --gcds-select-disabled-text: #545961;
   --gcds-select-focus-border: #0535d2;
   --gcds-select-focus-box-shadow: 0 0 0 0.125rem #ffffff;
-  --gcds-select-font: 400 1.25rem/160% 'Noto Sans', sans-serif;
+  --gcds-select-font-desktop: 400 1.25rem/160% 'Noto Sans', sans-serif;
+  --gcds-select-font-mobile: 400 1.125rem/155% 'Noto Sans', sans-serif;
   --gcds-select-margin: 0 0 1.5rem;
   --gcds-select-min-width-and-height: 3rem;
   --gcds-select-outline-width: 0.25rem;
@@ -853,7 +875,8 @@
   --gcds-side-nav-max-width: 20rem;
   --gcds-signature-color-flag: #eb2d37;
   --gcds-signature-color-text: #000000;
-  --gcds-signature-signature-height: 1.6875rem;
+  --gcds-signature-signature-height: 1.21875rem;
+  --gcds-signature-signature-height-desktop: 2.09375rem;
   --gcds-signature-white-default: #ffffff;
   --gcds-signature-wordmark-height: 3rem;
   --gcds-stepper-font-desktop: 600 1.375rem/145% 'Lato', sans-serif;
@@ -874,18 +897,18 @@
   --gcds-textarea-min-height: 3rem;
   --gcds-textarea-outline-width: 0.25rem;
   --gcds-textarea-padding: 0.5rem;
-  --gcds-top-nav-background: #f1f2f3;
+  --gcds-top-nav-border-color: #d6d9dd;
+  --gcds-top-nav-border-width: 0.0625rem;
   --gcds-top-nav-max-width: 71.25rem;
   --gcds-topic-menu-border-width: 0.0625rem;
   --gcds-topic-menu-button-background: #26374a;
   --gcds-topic-menu-button-border: #26374a;
-  --gcds-topic-menu-button-expanded-background: #444444; /* Colour mandated by policy */
-  --gcds-topic-menu-button-expanded-border-color: #444444; /* Colour mandated by policy */
+  --gcds-topic-menu-button-expanded-background: #444444; /** Colour mandated by policy */
+  --gcds-topic-menu-button-expanded-border-color: #444444; /** Colour mandated by policy */
   --gcds-topic-menu-button-expanded-text: #ffffff;
-  --gcds-topic-menu-button-font: 400 1.25rem/140% 'Noto Sans', sans-serif;
   --gcds-topic-menu-button-home-background: #ffffff;
   --gcds-topic-menu-button-home-border-color: #ffffff;
-  --gcds-topic-menu-button-home-text: #284162; /* Colour mandated by policy: link colour */
+  --gcds-topic-menu-button-home-text: #284162; /** Colour mandated by policy: link colour */
   --gcds-topic-menu-button-padding: 0.625rem 1.125rem;
   --gcds-topic-menu-button-text: #ffffff;
   --gcds-topic-menu-focus-background: #0535d2;
@@ -894,13 +917,12 @@
   --gcds-topic-menu-focus-box-shadow: 0 0 0 0.125rem #ffffff;
   --gcds-topic-menu-focus-outline-offset: 0.125rem;
   --gcds-topic-menu-focus-outline: 0.25rem solid #0535d2;
-  --gcds-topic-menu-font: 400 1.25rem/160% 'Noto Sans', sans-serif;
+  --gcds-topic-menu-font: 400 1rem/150% 'Noto Sans', sans-serif; /** Mandatory elements alignment: sub-components of header use 16px font */
   --gcds-topic-menu-max-width: 71.25rem;
   --gcds-topic-menu-menuitem-border-block-end: #545961;
   --gcds-topic-menu-menuitem-border-inline-end: #ffffff;
   --gcds-topic-menu-menuitem-expanded-background: #ffffff;
   --gcds-topic-menu-menuitem-expanded-text: #333333;
-  --gcds-topic-menu-menuitem-font: 400 1.125rem/160% 'Noto Sans', sans-serif;
   --gcds-topic-menu-menuitem-padding: 0.75rem 1.5rem;
   --gcds-topic-menu-menuitem-text: #ffffff;
   --gcds-topic-menu-menuitem-text-underline-offset: 0.25rem;
@@ -917,16 +939,14 @@
   --gcds-topic-menu-mobile-topiclist-item-first-menuitem-border: #d6d9dd;
   --gcds-topic-menu-mobile-topiclist-item-first-menuitem-text: #000000;
   --gcds-topic-menu-mobile-topiclist-item-last-menuitem-hover-text: #000000;
-  --gcds-topic-menu-mobile-topiclist-item-last-menuitem-text: #284162; /* Colour mandated by policy: link colour */
+  --gcds-topic-menu-mobile-topiclist-item-last-menuitem-text: #284162; /** Colour mandated by policy: link colour */
   --gcds-topic-menu-mobile-topiclist-menuitem-border-block-end: #d6d9dd;
-  --gcds-topic-menu-mobile-topiclist-menuitem-haspopup-font: 400 1.125rem/160% 'Noto Sans', sans-serif;
   --gcds-topic-menu-mobile-topiclist-menuitem-hover-text: #0535d2;
   --gcds-topic-menu-mobile-topiclist-menuitem-padding: 0.875rem 1.5rem 0.875rem 0;
-  --gcds-topic-menu-mostrequested-item-first-font: 400 1.125rem/160% 'Noto Sans', sans-serif;
   --gcds-topic-menu-mostrequested-item-last-margin-block-start: 0.875rem;
   --gcds-topic-menu-mostrequested-item-width: 100%;
-  --gcds-topic-menu-themelist-background: #444444; /* Colour mandated by policy */
-  --gcds-topic-menu-themelist-item-border: #444444; /* Colour mandated by policy */
+  --gcds-topic-menu-themelist-background: #444444; /** Colour mandated by policy */
+  --gcds-topic-menu-themelist-item-border: #444444; /** Colour mandated by policy */
   --gcds-topic-menu-themelist-text: #ffffff;
   --gcds-topic-menu-themelist-width: 100%;
   --gcds-topic-menu-topiclist-background: #ffffff;
@@ -944,8 +964,8 @@
   --gcds-topic-menu-topiclist-menuitem-padding: 0.375rem 0;
   --gcds-topic-menu-topiclist-menuitem-popup-font: 700 1.25rem/160% 'Noto Sans', sans-serif;
   --gcds-topic-menu-topiclist-menuitem-popup-text: #000000;
-  --gcds-topic-menu-topiclist-menuitem-text: #284162; /* Colour mandated by policy: link colour */
-  --gcds-topic-menu-topiclist-min-height: 49.1825rem;
+  --gcds-topic-menu-topiclist-menuitem-text: #284162; /** Colour mandated by policy: link colour */
+  --gcds-topic-menu-topiclist-min-height: 45.9375rem;
   --gcds-topic-menu-topiclist-padding: 0 2.25rem 1.5rem 2.25rem;
   --gcds-topic-menu-topiclist-text: #000000;
   --gcds-topic-menu-topiclist-width: calc(100% - 22.5rem);
@@ -966,6 +986,6 @@
   --gcds-verify-banner-summary-padding: 0.75rem;
   --gcds-verify-banner-summary-content-margin: 0 1.125rem 0 0;
   --gcds-verify-banner-text: #333333;
-  --gcds-verify-banner-toggle-text: #2b4380;
+  --gcds-verify-banner-toggle-text: #284162;
   --gcds-verify-banner-toggle-font-weight: 700;
 }
