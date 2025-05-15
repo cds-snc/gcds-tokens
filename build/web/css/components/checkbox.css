@@ -15,6 +15,7 @@
   --gcds-checkbox-disabled-border: #545961;
   --gcds-checkbox-disabled-text: #545961;
   --gcds-checkbox-error-padding: 0 0 0 3.75rem;
+  --gcds-checkbox-fieldset-margin: 0 0 1rem;
   --gcds-checkbox-focus-background: #ffffff;
   --gcds-checkbox-focus-box-shadow: 0 0 0 0.125rem #ffffff;
   --gcds-checkbox-focus-color: #0535d2;
@@ -23,7 +24,15 @@
   --gcds-checkbox-input-border-radius: 0.125rem;
   --gcds-checkbox-input-border-width: 0.125rem;
   --gcds-checkbox-input-height-and-width: 3rem;
+  --gcds-checkbox-label-font-desktop: 500 1.25rem/160% 'Noto Sans', sans-serif;
+  --gcds-checkbox-label-font-mobile: 500 1.125rem/155% 'Noto Sans', sans-serif;
   --gcds-checkbox-label-padding: 0 0 0 3.75rem;
+  --gcds-checkbox-legend-font-desktop: 700 1.25rem/160% 'Noto Sans', sans-serif;
+  --gcds-checkbox-legend-font-mobile: 700 1.125rem/155% 'Noto Sans', sans-serif;
+  --gcds-checkbox-legend-hint-margin: 0 0 1rem;
+  --gcds-checkbox-legend-margin: 0 0 0.125rem;
+  --gcds-checkbox-legend-required-font-desktop: 400 1.25rem/160% 'Noto Sans', sans-serif;
+  --gcds-checkbox-legend-required-font-mobile: 400 1.125rem/155% 'Noto Sans', sans-serif;
   --gcds-checkbox-margin: 0 0 1.125rem;
   --gcds-checkbox-max-width: 46.5rem;
   --gcds-checkbox-padding: 0.5rem;
