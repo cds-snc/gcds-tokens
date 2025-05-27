@@ -4,6 +4,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.12.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.11.1...gcds-tokens-v2.12.0) (2025-05-27)
+
+
+### :rocket: New Features
+
+* Add new fieldset tokens for gcds-checkboxes and gcds-radios ([#453](https://github.com/cds-snc/gcds-tokens/issues/453)) ([3f7dead](https://github.com/cds-snc/gcds-tokens/commit/3f7dead35619acf7ef5f4075e4c49b76abc21b36))
+* change top-nav nav-group bg to white to match new design ([#454](https://github.com/cds-snc/gcds-tokens/issues/454)) ([3feb8d1](https://github.com/cds-snc/gcds-tokens/commit/3feb8d1337229cbb131a1e4db9290e8ba17ce1f6))
+
+
+### :bug: :wrench: Bug Fixes
+
+* reduce link offset spacing ([#451](https://github.com/cds-snc/gcds-tokens/issues/451)) ([1a7b5b7](https://github.com/cds-snc/gcds-tokens/commit/1a7b5b79c56ca19bae52ed6ce2dcd0159aa670f7))
+
+
+### :no_entry: Remove
+
+* remove old fieldset component tokens ([#411](https://github.com/cds-snc/gcds-tokens/issues/411)) ([66c1998](https://github.com/cds-snc/gcds-tokens/commit/66c199881b120925ef100f4c199812faf093f011))
+
 ## [2.11.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.11.0...gcds-tokens-v2.11.1)
 
 Released on: 2025-05-07
