@@ -3802,7 +3802,7 @@
       "topNav": {
         "dropdown": {
           "background": {
-            "value": "#F1F2F3",
+            "value": "#FFF",
             "type": "color"
           },
           "box-shadow": {
