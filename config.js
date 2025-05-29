@@ -115,6 +115,22 @@ export default {
     },
     figma: createJsonFileConfig('figma/figma.tokens.json'),
     tailwind: createJsonFileConfig('tailwind/tailwind.tokens.json'),
+    js: {
+      transformGroup: 'js',
+      prefix: 'gcds',
+      buildPath: 'build/web/js/',
+      files: [
+      {
+        destination: 'tokens.js',
+        format: 'javascript/es6',
+      },
+      {
+        destination: 'tokens.d.ts',
+        format: 'typescript/es6-declarations',
+      },
+	  ],
+      output: true,
+    },
   },
   hooks: {
     formats: {
