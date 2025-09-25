@@ -3672,6 +3672,15 @@
       }
     },
     "nav-group": {
+      "font": {
+        "value": {
+          "fontFamily": "'Noto Sans', sans-serif",
+          "fontWeight": "500",
+          "lineHeight": "150%",
+          "fontSize": "1rem"
+        },
+        "type": "typography"
+      },
       "mobile": {
         "background": {
           "value": "#FFF",
@@ -3720,7 +3729,7 @@
       "sideNav": {
         "dropdown": {
           "padding": {
-            "value": "2.25rem",
+            "value": "1.75rem",
             "type": "spacing"
           }
         },
@@ -3737,7 +3746,7 @@
           },
           "icon": {
             "margin": {
-              "value": "1.125rem",
+              "value": "0.5rem",
               "type": "spacing"
             }
           },
@@ -3956,9 +3965,9 @@
       "font": {
         "value": {
           "fontFamily": "'Noto Sans', sans-serif",
-          "fontWeight": "400",
-          "lineHeight": "160%",
-          "fontSize": "1.25rem"
+          "fontWeight": "500",
+          "lineHeight": "150%",
+          "fontSize": "1rem"
         },
         "type": "typography"
       },
