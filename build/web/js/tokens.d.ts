@@ -776,33 +776,7 @@ export const GcdsErrorSummaryText: string;
 export const GcdsErrorSummaryMobilePadding: string;
 export const GcdsErrorSummaryPadding: string;
 export const GcdsFieldsetDefaultText: string;
-export const GcdsFieldsetDisabledText: string;
-export const GcdsFieldsetFontDesktop: {
-  fontFamily: string;
-  fontWeight: string;
-  lineHeight: string;
-  fontSize: string;
-};
-export const GcdsFieldsetFontMobile: {
-  fontFamily: string;
-  fontWeight: string;
-  lineHeight: string;
-  fontSize: string;
-};
 export const GcdsFieldsetLegendMargin: string;
-export const GcdsFieldsetLegendRequiredFontDesktop: {
-  fontFamily: string;
-  fontWeight: string;
-  lineHeight: string;
-  fontSize: string;
-};
-export const GcdsFieldsetLegendRequiredFontMobile: {
-  fontFamily: string;
-  fontWeight: string;
-  lineHeight: string;
-  fontSize: string;
-};
-export const GcdsFieldsetLegendRequiredMargin: string;
 export const GcdsFieldsetLegendSizeH2Desktop: {
   fontFamily: string;
   fontWeight: string;
@@ -1202,11 +1176,18 @@ export const GcdsLangToggleFontMobile: {
   fontSize: string;
 };
 export const GcdsLangTogglePadding: string;
+export const GcdsNavGroupFont: {
+  fontFamily: string;
+  fontWeight: string;
+  lineHeight: string;
+  fontSize: string;
+};
 export const GcdsNavGroupMobileBackground: string;
 export const GcdsNavGroupMobileListMargin: string;
 export const GcdsNavGroupMobilePadding: string;
 export const GcdsNavGroupMobileTriggerBorderRadius: string;
 export const GcdsNavGroupMobileTriggerBorderWidth: string;
+/** To be removed in another PR */
 export const GcdsNavGroupMobileTriggerFont: {
   fontFamily: string;
   fontWeight: string;
@@ -1224,6 +1205,7 @@ export const GcdsNavGroupTopNavDropdownBackground: string;
 export const GcdsNavGroupTopNavDropdownBoxShadow: string;
 export const GcdsNavGroupTopNavDropdownPadding: string;
 export const GcdsNavGroupTopNavDropdownWidth: string;
+/** To be removed in another PR */
 export const GcdsNavGroupTopNavFont: {
   fontFamily: string;
   fontWeight: string;
@@ -1244,6 +1226,7 @@ export const GcdsNavGroupTriggerFocusBorderRadius: string;
 export const GcdsNavGroupTriggerFocusOutlineOffset: string;
 export const GcdsNavGroupTriggerFocusOutline: string;
 export const GcdsNavGroupTriggerFocusBoxShadow: string;
+/** To be removed in another PR */
 export const GcdsNavGroupTriggerFont: {
   fontFamily: string;
   fontWeight: string;
@@ -1275,6 +1258,7 @@ export const GcdsNavLinkFont: {
   lineHeight: string;
   fontSize: string;
 };
+/** To be removed in another PR */
 export const GcdsNavLinkFontMobile: {
   fontFamily: string;
   fontWeight: string;
@@ -1287,6 +1271,7 @@ export const GcdsNavLinkMargin: string;
 export const GcdsNavLinkPadding: string;
 export const GcdsNavLinkSideNavHoverBackground: string;
 export const GcdsNavLinkSideNavPadding: string;
+/** To be removed in another PR */
 export const GcdsNavLinkTopNavFont: {
   fontFamily: string;
   fontWeight: string;
