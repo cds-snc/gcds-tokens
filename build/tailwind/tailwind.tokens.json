@@ -3707,15 +3707,6 @@
               "type": "borderWidth"
             }
           },
-          "font": {
-            "value": {
-              "fontFamily": "'Noto Sans', sans-serif",
-              "fontWeight": "500",
-              "lineHeight": "150%",
-              "fontSize": "1rem"
-            },
-            "type": "typography"
-          },
           "margin": {
             "value": "0.5rem",
             "type": "spacing"
@@ -3774,15 +3765,6 @@
             "value": "20rem",
             "type": "sizing"
           }
-        },
-        "font": {
-          "value": {
-            "fontFamily": "'Noto Sans', sans-serif",
-            "fontWeight": "500",
-            "lineHeight": "150%",
-            "fontSize": "1rem"
-          },
-          "type": "typography"
         },
         "trigger": {
           "hover": {
@@ -3857,15 +3839,6 @@
             "value": "0 0 0 0.125rem #FFF",
             "type": "color"
           }
-        },
-        "font": {
-          "value": {
-            "fontFamily": "'Noto Sans', sans-serif",
-            "fontWeight": "400",
-            "lineHeight": "140%",
-            "fontSize": "1.25rem"
-          },
-          "type": "typography"
         },
         "hover": {
           "text": {
@@ -3971,15 +3944,6 @@
         },
         "type": "typography"
       },
-      "fontMobile": {
-        "value": {
-          "fontFamily": "'Noto Sans', sans-serif",
-          "fontWeight": "500",
-          "lineHeight": "150%",
-          "fontSize": "1rem"
-        },
-        "type": "typography"
-      },
       "hover": {
         "decoration": {
           "thickness": {
@@ -4013,15 +3977,6 @@
         }
       },
       "topNav": {
-        "font": {
-          "value": {
-            "fontFamily": "'Noto Sans', sans-serif",
-            "fontWeight": "500",
-            "lineHeight": "150%",
-            "fontSize": "1rem"
-          },
-          "type": "typography"
-        },
         "hover": {
           "background": {
             "value": "#D6D9DD",

@@ -527,7 +527,6 @@
   --gcds-nav-group-mobile-padding: 0.5rem 0.875rem 4.75rem 0.875rem;
   --gcds-nav-group-mobile-trigger-border-radius: 0.375rem;
   --gcds-nav-group-mobile-trigger-border-width: 0.125rem;
-  --gcds-nav-group-mobile-trigger-font: 500 1rem/150% 'Noto Sans', sans-serif; /** To be removed in another PR */
   --gcds-nav-group-mobile-trigger-margin: 0.5rem;
   --gcds-nav-group-mobile-trigger-text: #2b4380;
   --gcds-nav-group-side-nav-dropdown-padding: 1.75rem;
@@ -539,7 +538,6 @@
   --gcds-nav-group-top-nav-dropdown-box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
   --gcds-nav-group-top-nav-dropdown-padding: 0.75rem 0.75rem 0.125rem;
   --gcds-nav-group-top-nav-dropdown-width: 20rem;
-  --gcds-nav-group-top-nav-font: 500 1rem/150% 'Noto Sans', sans-serif; /** To be removed in another PR */
   --gcds-nav-group-top-nav-trigger-hover-background: #d6d9dd;
   --gcds-nav-group-top-nav-trigger-hover-text: #0535d2;
   --gcds-nav-group-top-nav-trigger-hover-decoration-thickness: 0.125rem;
@@ -554,7 +552,6 @@
   --gcds-nav-group-trigger-focus-outline-offset: 0.125rem;
   --gcds-nav-group-trigger-focus-outline: 0.25rem solid #0535d2;
   --gcds-nav-group-trigger-focus-box-shadow: 0 0 0 0.125rem #ffffff;
-  --gcds-nav-group-trigger-font: 400 1.25rem/140% 'Noto Sans', sans-serif; /** To be removed in another PR */
   --gcds-nav-group-trigger-hover-text: #0535d2;
   --gcds-nav-group-trigger-max-width: 20rem;
   --gcds-nav-group-trigger-padding: 0.625rem 0.75rem;
@@ -575,14 +572,12 @@
   --gcds-nav-link-focus-outline: 0.25rem solid #0535d2;
   --gcds-nav-link-focus-box-shadow: 0 0 0 0.125rem #ffffff;
   --gcds-nav-link-font: 500 1rem/150% 'Noto Sans', sans-serif;
-  --gcds-nav-link-font-mobile: 500 1rem/150% 'Noto Sans', sans-serif; /** To be removed in another PR */
   --gcds-nav-link-hover-decoration-thickness: 0.125rem;
   --gcds-nav-link-hover-text: #0535d2;
   --gcds-nav-link-margin: 0.5rem;
   --gcds-nav-link-padding: 0.625rem;
   --gcds-nav-link-side-nav-hover-background: #f1f2f3;
   --gcds-nav-link-side-nav-padding: 0.625rem 0.5rem;
-  --gcds-nav-link-top-nav-font: 500 1rem/150% 'Noto Sans', sans-serif; /** To be removed in another PR */
   --gcds-nav-link-top-nav-hover-background: #d6d9dd;
   --gcds-nav-link-top-nav-home-font: 700 1rem/150% 'Noto Sans', sans-serif;
   --gcds-nav-link-top-nav-home-padding: 1rem 0.125rem;
