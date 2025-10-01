@@ -1187,13 +1187,6 @@ export const GcdsNavGroupMobileListMargin: string;
 export const GcdsNavGroupMobilePadding: string;
 export const GcdsNavGroupMobileTriggerBorderRadius: string;
 export const GcdsNavGroupMobileTriggerBorderWidth: string;
-/** To be removed in another PR */
-export const GcdsNavGroupMobileTriggerFont: {
-  fontFamily: string;
-  fontWeight: string;
-  lineHeight: string;
-  fontSize: string;
-};
 export const GcdsNavGroupMobileTriggerMargin: string;
 export const GcdsNavGroupMobileTriggerText: string;
 export const GcdsNavGroupSideNavDropdownPadding: string;
@@ -1205,13 +1198,6 @@ export const GcdsNavGroupTopNavDropdownBackground: string;
 export const GcdsNavGroupTopNavDropdownBoxShadow: string;
 export const GcdsNavGroupTopNavDropdownPadding: string;
 export const GcdsNavGroupTopNavDropdownWidth: string;
-/** To be removed in another PR */
-export const GcdsNavGroupTopNavFont: {
-  fontFamily: string;
-  fontWeight: string;
-  lineHeight: string;
-  fontSize: string;
-};
 export const GcdsNavGroupTopNavTriggerHoverBackground: string;
 export const GcdsNavGroupTopNavTriggerHoverText: string;
 export const GcdsNavGroupTopNavTriggerHoverDecorationThickness: string;
@@ -1226,13 +1212,6 @@ export const GcdsNavGroupTriggerFocusBorderRadius: string;
 export const GcdsNavGroupTriggerFocusOutlineOffset: string;
 export const GcdsNavGroupTriggerFocusOutline: string;
 export const GcdsNavGroupTriggerFocusBoxShadow: string;
-/** To be removed in another PR */
-export const GcdsNavGroupTriggerFont: {
-  fontFamily: string;
-  fontWeight: string;
-  lineHeight: string;
-  fontSize: string;
-};
 export const GcdsNavGroupTriggerHoverText: string;
 export const GcdsNavGroupTriggerMaxWidth: string;
 export const GcdsNavGroupTriggerPadding: string;
@@ -1258,26 +1237,12 @@ export const GcdsNavLinkFont: {
   lineHeight: string;
   fontSize: string;
 };
-/** To be removed in another PR */
-export const GcdsNavLinkFontMobile: {
-  fontFamily: string;
-  fontWeight: string;
-  lineHeight: string;
-  fontSize: string;
-};
 export const GcdsNavLinkHoverDecorationThickness: string;
 export const GcdsNavLinkHoverText: string;
 export const GcdsNavLinkMargin: string;
 export const GcdsNavLinkPadding: string;
 export const GcdsNavLinkSideNavHoverBackground: string;
 export const GcdsNavLinkSideNavPadding: string;
-/** To be removed in another PR */
-export const GcdsNavLinkTopNavFont: {
-  fontFamily: string;
-  fontWeight: string;
-  lineHeight: string;
-  fontSize: string;
-};
 export const GcdsNavLinkTopNavHoverBackground: string;
 export const GcdsNavLinkTopNavHomeFont: {
   fontFamily: string;

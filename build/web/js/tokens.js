@@ -1133,12 +1133,6 @@ export const GcdsNavGroupMobileListMargin = "0.875rem 0 0";
 export const GcdsNavGroupMobilePadding = "0.5rem 0.875rem 4.75rem 0.875rem";
 export const GcdsNavGroupMobileTriggerBorderRadius = "0.375rem";
 export const GcdsNavGroupMobileTriggerBorderWidth = "0.125rem";
-export const GcdsNavGroupMobileTriggerFont = {
-  fontFamily: "'Noto Sans', sans-serif",
-  fontWeight: "500",
-  lineHeight: "150%",
-  fontSize: "1rem",
-}; // To be removed in another PR
 export const GcdsNavGroupMobileTriggerMargin = "0.5rem";
 export const GcdsNavGroupMobileTriggerText = "#2b4380";
 export const GcdsNavGroupSideNavDropdownPadding = "1.75rem";
@@ -1151,12 +1145,6 @@ export const GcdsNavGroupTopNavDropdownBoxShadow =
   "0 0 0.5rem rgba(0, 0, 0, 0.25)";
 export const GcdsNavGroupTopNavDropdownPadding = "0.75rem 0.75rem 0.125rem";
 export const GcdsNavGroupTopNavDropdownWidth = "20rem";
-export const GcdsNavGroupTopNavFont = {
-  fontFamily: "'Noto Sans', sans-serif",
-  fontWeight: "500",
-  lineHeight: "150%",
-  fontSize: "1rem",
-}; // To be removed in another PR
 export const GcdsNavGroupTopNavTriggerHoverBackground = "#d6d9dd";
 export const GcdsNavGroupTopNavTriggerHoverText = "#0535d2";
 export const GcdsNavGroupTopNavTriggerHoverDecorationThickness = "0.125rem";
@@ -1171,12 +1159,6 @@ export const GcdsNavGroupTriggerFocusBorderRadius = "0.125rem";
 export const GcdsNavGroupTriggerFocusOutlineOffset = "0.125rem";
 export const GcdsNavGroupTriggerFocusOutline = "0.25rem solid #0535d2";
 export const GcdsNavGroupTriggerFocusBoxShadow = "0 0 0 0.125rem #ffffff";
-export const GcdsNavGroupTriggerFont = {
-  fontFamily: "'Noto Sans', sans-serif",
-  fontWeight: "400",
-  lineHeight: "140%",
-  fontSize: "1.25rem",
-}; // To be removed in another PR
 export const GcdsNavGroupTriggerHoverText = "#0535d2";
 export const GcdsNavGroupTriggerMaxWidth = "20rem";
 export const GcdsNavGroupTriggerPadding = "0.625rem 0.75rem";
@@ -1202,24 +1184,12 @@ export const GcdsNavLinkFont = {
   lineHeight: "150%",
   fontSize: "1rem",
 };
-export const GcdsNavLinkFontMobile = {
-  fontFamily: "'Noto Sans', sans-serif",
-  fontWeight: "500",
-  lineHeight: "150%",
-  fontSize: "1rem",
-}; // To be removed in another PR
 export const GcdsNavLinkHoverDecorationThickness = "0.125rem";
 export const GcdsNavLinkHoverText = "#0535d2";
 export const GcdsNavLinkMargin = "0.5rem";
 export const GcdsNavLinkPadding = "0.625rem";
 export const GcdsNavLinkSideNavHoverBackground = "#f1f2f3";
 export const GcdsNavLinkSideNavPadding = "0.625rem 0.5rem";
-export const GcdsNavLinkTopNavFont = {
-  fontFamily: "'Noto Sans', sans-serif",
-  fontWeight: "500",
-  lineHeight: "150%",
-  fontSize: "1rem",
-}; // To be removed in another PR
 export const GcdsNavLinkTopNavHoverBackground = "#d6d9dd";
 export const GcdsNavLinkTopNavHomeFont = {
   fontFamily: "'Noto Sans', sans-serif",
