@@ -507,7 +507,8 @@
   --gcds-input-disabled-text: #545961;
   --gcds-input-focus-border: #0535d2;
   --gcds-input-focus-box-shadow: 0 0 0 0.125rem #ffffff;
-  --gcds-input-font: 400 1.25rem/160% 'Noto Sans', sans-serif;
+  --gcds-input-font-desktop: 400 1.25rem/160% 'Noto Sans', sans-serif;
+  --gcds-input-font-mobile: 400 1.125rem/155% 'Noto Sans', sans-serif;
   --gcds-input-margin: 0 0 1.5rem;
   --gcds-input-min-width-and-height: 3rem;
   --gcds-input-outline-width: 0.25rem;
@@ -720,7 +721,8 @@
   --gcds-textarea-disabled-text: #545961;
   --gcds-textarea-focus-border: #0535d2;
   --gcds-textarea-focus-box-shadow: 0 0 0 0.125rem #ffffff;
-  --gcds-textarea-font: 400 1.25rem/160% 'Noto Sans', sans-serif;
+  --gcds-textarea-font-desktop: 400 1.25rem/160% 'Noto Sans', sans-serif;
+  --gcds-textarea-font-mobile: 400 1.125rem/155% 'Noto Sans', sans-serif;
   --gcds-textarea-margin: 0 0 1.5rem;
   --gcds-textarea-min-height: 3rem;
   --gcds-textarea-outline-width: 0.25rem;
