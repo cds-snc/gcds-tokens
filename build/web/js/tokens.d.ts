@@ -1141,6 +1141,18 @@ export const GcdsInputFont: {
   lineHeight: string;
   fontSize: string;
 };
+export const GcdsInputFontDesktop: {
+  fontFamily: string;
+  fontWeight: string;
+  lineHeight: string;
+  fontSize: string;
+};
+export const GcdsInputFontMobile: {
+  fontFamily: string;
+  fontWeight: string;
+  lineHeight: string;
+  fontSize: string;
+};
 export const GcdsInputMargin: string;
 export const GcdsInputMinWidthAndHeight: string;
 export const GcdsInputOutlineWidth: string;
@@ -1492,6 +1504,18 @@ export const GcdsTextareaDisabledText: string;
 export const GcdsTextareaFocusBorder: string;
 export const GcdsTextareaFocusBoxShadow: string;
 export const GcdsTextareaFont: {
+  fontFamily: string;
+  fontWeight: string;
+  lineHeight: string;
+  fontSize: string;
+};
+export const GcdsTextareaFontDesktop: {
+  fontFamily: string;
+  fontWeight: string;
+  lineHeight: string;
+  fontSize: string;
+};
+export const GcdsTextareaFontMobile: {
   fontFamily: string;
   fontWeight: string;
   lineHeight: string;
