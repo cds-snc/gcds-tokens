@@ -4,6 +4,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.13.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.13.0...gcds-tokens-v2.13.1) 
+
+Released on: 2025-10-06
+
+
+### :bug: :wrench: Bug Fixes
+
+* **gcds-input + gcds-textarea:** adjust input and textarea font size on mobile ([#468](https://github.com/cds-snc/gcds-tokens/issues/468)) ([2d94796](https://github.com/cds-snc/gcds-tokens/commit/2d947960908356d066c0ff45af2c796fec4ff064))
+
+
+### :no_entry: Remove
+
+* **gcds-input + gcds-textarea:** remove input and textarea font token ([#473](https://github.com/cds-snc/gcds-tokens/issues/473)) ([641175b](https://github.com/cds-snc/gcds-tokens/commit/641175b51ae430c74bf05b9edff6c036fc0dc179))
+
 ## [2.13.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.12.0...gcds-tokens-v2.13.0)
 
 Released on: 2025-10-01
