@@ -1135,12 +1135,6 @@ export const GcdsInputDisabledBackground: string;
 export const GcdsInputDisabledText: string;
 export const GcdsInputFocusBorder: string;
 export const GcdsInputFocusBoxShadow: string;
-export const GcdsInputFont: {
-  fontFamily: string;
-  fontWeight: string;
-  lineHeight: string;
-  fontSize: string;
-};
 export const GcdsInputFontDesktop: {
   fontFamily: string;
   fontWeight: string;
@@ -1503,12 +1497,6 @@ export const GcdsTextareaDisabledBackground: string;
 export const GcdsTextareaDisabledText: string;
 export const GcdsTextareaFocusBorder: string;
 export const GcdsTextareaFocusBoxShadow: string;
-export const GcdsTextareaFont: {
-  fontFamily: string;
-  fontWeight: string;
-  lineHeight: string;
-  fontSize: string;
-};
 export const GcdsTextareaFontDesktop: {
   fontFamily: string;
   fontWeight: string;
