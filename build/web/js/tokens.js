@@ -1083,12 +1083,6 @@ export const GcdsInputDisabledBackground = "#d6d9dd";
 export const GcdsInputDisabledText = "#545961";
 export const GcdsInputFocusBorder = "#0535d2";
 export const GcdsInputFocusBoxShadow = "0 0 0 0.125rem #ffffff";
-export const GcdsInputFont = {
-  fontFamily: "'Noto Sans', sans-serif",
-  fontWeight: "400",
-  lineHeight: "160%",
-  fontSize: "1.25rem",
-};
 export const GcdsInputFontDesktop = {
   fontFamily: "'Noto Sans', sans-serif",
   fontWeight: "400",
@@ -1449,12 +1443,6 @@ export const GcdsTextareaDisabledBackground = "#d6d9dd";
 export const GcdsTextareaDisabledText = "#545961";
 export const GcdsTextareaFocusBorder = "#0535d2";
 export const GcdsTextareaFocusBoxShadow = "0 0 0 0.125rem #ffffff";
-export const GcdsTextareaFont = {
-  fontFamily: "'Noto Sans', sans-serif",
-  fontWeight: "400",
-  lineHeight: "160%",
-  fontSize: "1.25rem",
-};
 export const GcdsTextareaFontDesktop = {
   fontFamily: "'Noto Sans', sans-serif",
   fontWeight: "400",
