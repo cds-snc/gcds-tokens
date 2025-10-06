@@ -1089,6 +1089,18 @@ export const GcdsInputFont = {
   lineHeight: "160%",
   fontSize: "1.25rem",
 };
+export const GcdsInputFontDesktop = {
+  fontFamily: "'Noto Sans', sans-serif",
+  fontWeight: "400",
+  lineHeight: "160%",
+  fontSize: "1.25rem",
+};
+export const GcdsInputFontMobile = {
+  fontFamily: "'Noto Sans', sans-serif",
+  fontWeight: "400",
+  lineHeight: "155%",
+  fontSize: "1.125rem",
+};
 export const GcdsInputMargin = "0 0 1.5rem";
 export const GcdsInputMinWidthAndHeight = "3rem";
 export const GcdsInputOutlineWidth = "0.25rem";
@@ -1442,6 +1454,18 @@ export const GcdsTextareaFont = {
   fontWeight: "400",
   lineHeight: "160%",
   fontSize: "1.25rem",
+};
+export const GcdsTextareaFontDesktop = {
+  fontFamily: "'Noto Sans', sans-serif",
+  fontWeight: "400",
+  lineHeight: "160%",
+  fontSize: "1.25rem",
+};
+export const GcdsTextareaFontMobile = {
+  fontFamily: "'Noto Sans', sans-serif",
+  fontWeight: "400",
+  lineHeight: "155%",
+  fontSize: "1.125rem",
 };
 export const GcdsTextareaMargin = "0 0 1.5rem";
 export const GcdsTextareaMinHeight = "3rem";
