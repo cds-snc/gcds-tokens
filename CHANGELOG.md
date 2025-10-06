@@ -4,7 +4,9 @@
 
 All notable changes to this project will be documented in this file.
 
-## [2.13.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.13.0...gcds-tokens-v2.13.1) (2025-10-06)
+## [2.13.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.13.0...gcds-tokens-v2.13.1) 
+
+Released on: 2025-10-06
 
 
 ### :bug: :wrench: Bug Fixes
