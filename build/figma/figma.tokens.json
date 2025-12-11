@@ -4311,57 +4311,6 @@
         }
       }
     },
-    "phaseBanner": {
-      "detailsCta": {
-        "margin": {
-          "value": "0 0 0 0.875rem",
-          "type": "spacing"
-        }
-      },
-      "font": {
-        "value": {
-          "fontFamily": "'Noto Sans', sans-serif",
-          "fontWeight": "400",
-          "lineHeight": "155%",
-          "fontSize": "1.125rem"
-        },
-        "type": "typography"
-      },
-      "icon": {
-        "margin": {
-          "value": "1.125rem",
-          "type": "spacing"
-        },
-        "maxHeight": {
-          "value": "1.125rem",
-          "type": "sizing"
-        }
-      },
-      "padding": {
-        "value": "0.875rem",
-        "type": "spacing"
-      },
-      "primary": {
-        "background": {
-          "value": "#26374A",
-          "type": "color"
-        },
-        "text": {
-          "value": "#FFF",
-          "type": "color"
-        }
-      },
-      "secondary": {
-        "background": {
-          "value": "#F1F2F3",
-          "type": "color"
-        },
-        "text": {
-          "value": "#333333",
-          "type": "color"
-        }
-      }
-    },
     "radio": {
       "border": {
         "radius": {
