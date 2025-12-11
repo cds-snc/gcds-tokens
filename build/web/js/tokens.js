@@ -1278,20 +1278,6 @@ export const GcdsPaginationSimpleLabelFontWeight = "400";
 export const GcdsPaginationSimpleListitemMargin = "0.375rem 0.375rem 0.75rem";
 export const GcdsPaginationSimpleListitemTextMargin = "0 0 0.125rem";
 export const GcdsPaginationSimplePadding = "0.75rem 0.5rem";
-export const GcdsPhaseBannerDetailsCtaMargin = "0 0 0 0.875rem";
-export const GcdsPhaseBannerFont = {
-  fontFamily: "'Noto Sans', sans-serif",
-  fontWeight: "400",
-  lineHeight: "155%",
-  fontSize: "1.125rem",
-};
-export const GcdsPhaseBannerIconMargin = "1.125rem";
-export const GcdsPhaseBannerIconMaxHeight = "1.125rem";
-export const GcdsPhaseBannerPadding = "0.875rem";
-export const GcdsPhaseBannerPrimaryBackground = "#26374a";
-export const GcdsPhaseBannerPrimaryText = "#ffffff";
-export const GcdsPhaseBannerSecondaryBackground = "#f1f2f3";
-export const GcdsPhaseBannerSecondaryText = "#333333";
 export const GcdsRadioBorderRadius = "100%";
 export const GcdsRadioCheckBorderWidth = "0.3125rem";
 export const GcdsRadioCheckHeightAndWidth = "1.125rem";
