@@ -4,6 +4,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.14.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.13.1...gcds-tokens-v2.14.0) (2025-12-18)
+
+
+### :rocket: New Features
+
+* notify when issue created by external user ([#485](https://github.com/cds-snc/gcds-tokens/issues/485)) ([6b38f43](https://github.com/cds-snc/gcds-tokens/commit/6b38f436a265e42bc4a34557092c185c847bca9b))
+
 ## [2.13.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.13.0...gcds-tokens-v2.13.1) 
 
 Released on: 2025-10-06
