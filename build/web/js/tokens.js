@@ -1278,20 +1278,6 @@ export const GcdsPaginationSimpleLabelFontWeight = "400";
 export const GcdsPaginationSimpleListitemMargin = "0.375rem 0.375rem 0.75rem";
 export const GcdsPaginationSimpleListitemTextMargin = "0 0 0.125rem";
 export const GcdsPaginationSimplePadding = "0.75rem 0.5rem";
-export const GcdsPhaseBannerDetailsCtaMargin = "0 0 0 0.875rem";
-export const GcdsPhaseBannerFont = {
-  fontFamily: "'Noto Sans', sans-serif",
-  fontWeight: "400",
-  lineHeight: "155%",
-  fontSize: "1.125rem",
-};
-export const GcdsPhaseBannerIconMargin = "1.125rem";
-export const GcdsPhaseBannerIconMaxHeight = "1.125rem";
-export const GcdsPhaseBannerPadding = "0.875rem";
-export const GcdsPhaseBannerPrimaryBackground = "#26374a";
-export const GcdsPhaseBannerPrimaryText = "#ffffff";
-export const GcdsPhaseBannerSecondaryBackground = "#f1f2f3";
-export const GcdsPhaseBannerSecondaryText = "#333333";
 export const GcdsRadioBorderRadius = "100%";
 export const GcdsRadioCheckBorderWidth = "0.3125rem";
 export const GcdsRadioCheckHeightAndWidth = "1.125rem";
@@ -1549,27 +1535,3 @@ export const GcdsTopicMenuTopiclistMinHeight = "45.9375rem";
 export const GcdsTopicMenuTopiclistPadding = "0 2.25rem 1.5rem 2.25rem";
 export const GcdsTopicMenuTopiclistText = "#000000";
 export const GcdsTopicMenuTopiclistWidth = "calc(100% - 22.5rem)";
-export const GcdsVerifyBannerBackground = "#f1f2f3";
-export const GcdsVerifyBannerContainerXs = "20rem";
-export const GcdsVerifyBannerContainerSm = "30rem";
-export const GcdsVerifyBannerContainerMd = "48rem";
-export const GcdsVerifyBannerContainerLg = "62rem";
-export const GcdsVerifyBannerContainerXl = "71.25rem";
-export const GcdsVerifyBannerContainerFull = "100%";
-export const GcdsVerifyBannerContainerPadding = "1.125rem";
-export const GcdsVerifyBannerContentBorderColor = "#7d828b";
-export const GcdsVerifyBannerContentBorderWidth = "0.0625rem";
-export const GcdsVerifyBannerContentHeadingMargin = "0 0 0.125rem";
-export const GcdsVerifyBannerContentPaddingBlockStart = "1.5rem";
-export const GcdsVerifyBannerContentPaddingBlockEnd = "0.75rem";
-export const GcdsVerifyBannerFont = {
-  fontFamily: "'Noto Sans', sans-serif",
-  fontWeight: "400",
-  lineHeight: "155%",
-  fontSize: "1.125rem",
-};
-export const GcdsVerifyBannerSummaryPadding = "0.75rem";
-export const GcdsVerifyBannerSummaryContentMargin = "0 1.125rem 0 0";
-export const GcdsVerifyBannerText = "#333333";
-export const GcdsVerifyBannerToggleText = "#284162";
-export const GcdsVerifyBannerToggleFontWeight = "700";
