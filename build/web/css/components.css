@@ -401,6 +401,9 @@
   --gcds-heading-h5-mobile: 700 1.375rem/127% 'Lato', sans-serif;
   --gcds-heading-h6-desktop: 700 1.375rem/145% 'Lato', sans-serif;
   --gcds-heading-h6-mobile: 700 1.25rem/140% 'Lato', sans-serif;
+  --gcds-heading-role-light: #ffffff;
+  --gcds-heading-role-primary: #333333;
+  --gcds-heading-role-secondary: #43474e;
   --gcds-heading-spacing-0: 0rem;
   --gcds-heading-spacing-25: 0.125rem;
   --gcds-heading-spacing-50: 0.25rem;
