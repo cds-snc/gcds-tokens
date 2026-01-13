@@ -1275,9 +1275,13 @@ export const GcdsPaginationMobileListBorder = "#284162";
 export const GcdsPaginationMobileListItemMargin = "0.125rem";
 export const GcdsPaginationMobileListPrevnextMargin = "0.75rem auto 0";
 export const GcdsPaginationSimpleLabelFontWeight = "400";
-export const GcdsPaginationSimpleListitemMargin = "0.375rem 0.375rem 0.75rem";
+export const GcdsPaginationSimpleListitemDividerBorder =
+  "0.0625rem solid #a8adb4";
+export const GcdsPaginationSimpleListitemDividerMargin = "1rem";
+export const GcdsPaginationSimpleListitemDividerPadding = "0 0 1rem 0";
+export const GcdsPaginationSimpleListitemMargin = "0";
 export const GcdsPaginationSimpleListitemTextMargin = "0 0 0.125rem";
-export const GcdsPaginationSimplePadding = "0.75rem 0.5rem";
+export const GcdsPaginationSimplePadding = "0.5rem 0.75rem 0.5rem 0.125rem";
 export const GcdsPhaseBannerDetailsCtaMargin = "0 0 0 0.875rem";
 export const GcdsPhaseBannerFont = {
   fontFamily: "'Noto Sans', sans-serif",

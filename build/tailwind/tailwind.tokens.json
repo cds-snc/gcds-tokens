@@ -4266,8 +4266,22 @@
           }
         },
         "listitem": {
+          "divider": {
+            "border": {
+              "value": "0.0625rem solid #A8ADB4",
+              "type": "other"
+            },
+            "margin": {
+              "value": "1rem",
+              "type": "spacing"
+            },
+            "padding": {
+              "value": "0 0 1rem 0",
+              "type": "spacing"
+            }
+          },
           "margin": {
-            "value": "0.375rem 0.375rem 0.75rem",
+            "value": "0",
             "type": "spacing"
           },
           "text": {
@@ -4278,7 +4292,7 @@
           }
         },
         "padding": {
-          "value": "0.75rem 0.5rem",
+          "value": "0.5rem 0.75rem 0.5rem 0.125rem",
           "type": "spacing"
         }
       }
