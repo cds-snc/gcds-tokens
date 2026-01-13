@@ -39,8 +39,8 @@ jobs:
 
       - name: Publish
         if: env.pkg_exists != 'true'
-        uses: JS-DevTools/npm-publish@e6cc16d2d37d6c24b542679f7b14ca20ba56d40a
         id: publish
+        run: npm publish --ignore-scripts --access public
         with:
           token: ${{ secrets.NPM_TOKEN }}
 
