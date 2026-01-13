@@ -1029,6 +1029,9 @@ export const GcdsHeadingH6Mobile: {
   lineHeight: string;
   fontSize: string;
 };
+export const GcdsHeadingRoleLight: string;
+export const GcdsHeadingRolePrimary: string;
+export const GcdsHeadingRoleSecondary: string;
 export const GcdsHeadingSpacing0: string;
 export const GcdsHeadingSpacing25: string;
 export const GcdsHeadingSpacing50: string;

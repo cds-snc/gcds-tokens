@@ -3127,6 +3127,20 @@
           "type": "typography"
         }
       },
+      "role": {
+        "light": {
+          "value": "#FFF",
+          "type": "color"
+        },
+        "primary": {
+          "value": "#333333",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "#43474E",
+          "type": "color"
+        }
+      },
       "spacing": {
         "0": {
           "value": "0rem",
