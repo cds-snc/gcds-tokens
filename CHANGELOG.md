@@ -4,6 +4,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.14.0](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.13.1...gcds-tokens-v2.14.0) (2026-01-13)
+
+
+### :rocket: New Features
+
+* **gcds-heading:** Add tokens for heading-role property ([#492](https://github.com/cds-snc/gcds-tokens/issues/492)) ([9cfcd42](https://github.com/cds-snc/gcds-tokens/commit/9cfcd42892861c41faa8ae835c10cb8b2f1ef7b5))
+* **gcds-pagination:** Add new tokens for updated simple pagination design ([#491](https://github.com/cds-snc/gcds-tokens/issues/491)) ([7fb4432](https://github.com/cds-snc/gcds-tokens/commit/7fb4432de600040aaa01b49d8a0e406edc835880))
+* notify when issue created by external user ([#485](https://github.com/cds-snc/gcds-tokens/issues/485)) ([6b38f43](https://github.com/cds-snc/gcds-tokens/commit/6b38f436a265e42bc4a34557092c185c847bca9b))
+
+
+### :bug: :wrench: Bug Fixes
+
+* escape of issue title characters ([#489](https://github.com/cds-snc/gcds-tokens/issues/489)) ([767713f](https://github.com/cds-snc/gcds-tokens/commit/767713f050cddb28bb0ed368d1d37042e4f94d97))
+
 ## [2.13.1](https://github.com/cds-snc/gcds-tokens/compare/gcds-tokens-v2.13.0...gcds-tokens-v2.13.1) 
 
 Released on: 2025-10-06
