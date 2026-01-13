@@ -41,8 +41,6 @@ jobs:
         if: env.pkg_exists != 'true'
         id: publish
         run: npm publish --ignore-scripts --access public
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
 
       - name: Sleep for 60 seconds to give more time for NPM to complete publishing before proceeding to publish the rest
         if: env.pkg_exists != 'true'
