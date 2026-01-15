@@ -40,8 +40,6 @@ export const GcdsColorRed500: string;
 /** Must contrast 7:1 with white */
 export const GcdsColorRed700: string;
 export const GcdsColorRed900: string;
-/** Signature flag colour - FIP red */
-export const GcdsColorRedFlag: string;
 export const GcdsColorYellow100: string;
 /** Must contrast 3:1 with white */
 export const GcdsColorYellow500: string;
@@ -886,6 +884,7 @@ export const GcdsFooterBandPaddingDesktop: string;
 export const GcdsFooterBandPaddingMobile: string;
 export const GcdsFooterContainerMargin: string;
 export const GcdsFooterContainerWidth: string;
+/** Footer background colour - Canada.ca style */
 export const GcdsFooterContextualBackground: string;
 export const GcdsFooterContextualText: string;
 /** Mandatory elements alignment: sub-components of footer use 16px font. */
@@ -953,6 +952,7 @@ export const GcdsHeadingCharacterLimitH4: string;
 export const GcdsHeadingCharacterLimitH5: string;
 export const GcdsHeadingCharacterLimitH6: string;
 export const GcdsHeadingDefaultText: string;
+/** Heading accent colour - Canada.ca style */
 export const GcdsHeadingH1BorderBackground: string;
 export const GcdsHeadingH1BorderHeight: string;
 export const GcdsHeadingH1BorderMargin: string;
@@ -1460,6 +1460,7 @@ export const GcdsSideNavHeadingFont: {
 export const GcdsSideNavHeadingMargin: string;
 export const GcdsSideNavHeadingPadding: string;
 export const GcdsSideNavMaxWidth: string;
+/** Signature flag colour - FIP red */
 export const GcdsSignatureColorFlag: string;
 export const GcdsSignatureColorText: string;
 export const GcdsSignatureSignatureHeight: string;

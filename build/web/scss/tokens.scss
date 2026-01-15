@@ -28,7 +28,6 @@ $gcds-color-red-100: #fbddda;
 $gcds-color-red-500: #d3080c; // Must contrast 3:1 with white
 $gcds-color-red-700: #a62a1e; // Must contrast 7:1 with white
 $gcds-color-red-900: #822117;
-$gcds-color-red-flag: #eb2d37; // Signature flag colour - FIP red
 $gcds-color-yellow-100: #faedd1;
 $gcds-color-yellow-500: #b3800f; // Must contrast 3:1 with white
 $gcds-border-radius-sm: 0.125rem; // Global border: radius sm
@@ -490,7 +489,7 @@ $gcds-footer-band-padding-desktop: 2.25rem 0;
 $gcds-footer-band-padding-mobile: 1.5rem 0;
 $gcds-footer-container-margin: 0 auto;
 $gcds-footer-container-width: 71.25rem;
-$gcds-footer-contextual-background: #33465c;
+$gcds-footer-contextual-background: #33465c; // Footer background colour - Canada.ca style
 $gcds-footer-contextual-text: #ffffff;
 $gcds-footer-font: 400 1rem/150% 'Noto Sans', sans-serif; // Mandatory elements alignment: sub-components of footer use 16px font.
 $gcds-footer-font-heading: 700 1.625rem/123% 'Lato', sans-serif; // Mandatory elements alignment: size 26px
@@ -545,7 +544,7 @@ $gcds-heading-character-limit-h4: 45ch;
 $gcds-heading-character-limit-h5: 50ch;
 $gcds-heading-character-limit-h6: 57ch;
 $gcds-heading-default-text: #333333;
-$gcds-heading-h1-border-background: #a62a1e;
+$gcds-heading-h1-border-background: #a62a1e; // Heading accent colour - Canada.ca style
 $gcds-heading-h1-border-height: 0.375rem;
 $gcds-heading-h1-border-margin: 0.5rem;
 $gcds-heading-h1-border-width: 4.5rem;
@@ -859,7 +858,7 @@ $gcds-side-nav-heading-font: 700 1.5rem/133% 'Lato', sans-serif;
 $gcds-side-nav-heading-margin: 0.5rem;
 $gcds-side-nav-heading-padding: 0.625rem;
 $gcds-side-nav-max-width: 20rem;
-$gcds-signature-color-flag: #eb2d37;
+$gcds-signature-color-flag: #eb2d37; // Signature flag colour - FIP red
 $gcds-signature-color-text: #000000;
 $gcds-signature-signature-height: 1.21875rem;
 $gcds-signature-signature-height-desktop: 2.09375rem;
