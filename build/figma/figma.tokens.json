@@ -74,20 +74,76 @@
         }
       },
       "green": {
+        "50": {
+          "value": "#ebfaf0",
+          "type": "color"
+        },
         "100": {
-          "value": "#E6F6EC",
+          "value": "#d6f5e1",
+          "type": "color"
+        },
+        "150": {
+          "value": "#c2f0d3",
+          "type": "color"
+        },
+        "200": {
+          "value": "#adebc4",
+          "type": "color"
+        },
+        "250": {
+          "value": "#99e6b5",
+          "type": "color"
+        },
+        "300": {
+          "value": "#85e0a6",
+          "type": "color"
+        },
+        "350": {
+          "value": "#70db97",
+          "type": "color"
+        },
+        "400": {
+          "value": "#5cd689",
+          "type": "color"
+        },
+        "450": {
+          "value": "#47d17a",
           "type": "color"
         },
         "500": {
-          "value": "#289F58",
+          "value": "#33cc6b",
+          "type": "color"
+        },
+        "550": {
+          "value": "#2eb860",
+          "type": "color"
+        },
+        "600": {
+          "value": "#29a356",
+          "type": "color"
+        },
+        "650": {
+          "value": "#248f4b",
           "type": "color"
         },
         "700": {
-          "value": "#03662A",
+          "value": "#1f7a40",
+          "type": "color"
+        },
+        "750": {
+          "value": "#196636",
           "type": "color"
         },
         "800": {
-          "value": "#023b1a",
+          "value": "#14522b",
+          "type": "color"
+        },
+        "850": {
+          "value": "#0f3d20",
+          "type": "color"
+        },
+        "900": {
+          "value": "#0a2915",
           "type": "color"
         }
       },
@@ -1506,11 +1562,11 @@
       },
       "success": {
         "background": {
-          "value": "#E6F6EC",
+          "value": "#d6f5e1",
           "type": "color"
         },
         "icon": {
-          "value": "#289F58",
+          "value": "#33cc6b",
           "type": "color"
         },
         "text": {
@@ -1736,7 +1792,7 @@
       "start": {
         "default": {
           "background": {
-            "value": "#03662A",
+            "value": "#196636",
             "type": "color"
           },
           "text": {
@@ -1746,7 +1802,7 @@
         },
         "hover": {
           "background": {
-            "value": "#023b1a",
+            "value": "#0f3d20",
             "type": "color"
           }
         },
@@ -4272,7 +4328,7 @@
       },
       "success": {
         "text": {
-          "value": "#03662A",
+          "value": "#196636",
           "type": "color"
         }
       },
