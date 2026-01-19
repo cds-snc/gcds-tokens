@@ -30,8 +30,24 @@ export const GcdsColorGreen500: string;
 /** Must contrast 7:1 with white */
 export const GcdsColorGreen700: string;
 export const GcdsColorGreen800: string;
-/** Must contrast 7:1 with white */
+export const GcdsColorPurple50: string;
+export const GcdsColorPurple100: string;
+export const GcdsColorPurple150: string;
+export const GcdsColorPurple200: string;
+export const GcdsColorPurple250: string;
+export const GcdsColorPurple300: string;
+export const GcdsColorPurple350: string;
+export const GcdsColorPurple400: string;
+export const GcdsColorPurple450: string;
+export const GcdsColorPurple500: string;
+export const GcdsColorPurple550: string;
+export const GcdsColorPurple600: string;
+export const GcdsColorPurple650: string;
 export const GcdsColorPurple700: string;
+export const GcdsColorPurple750: string;
+export const GcdsColorPurple800: string;
+export const GcdsColorPurple850: string;
+export const GcdsColorPurple900: string;
 /** Must contrast 7:1 with white */
 export const GcdsColorOrange700: string;
 export const GcdsColorRed100: string;
