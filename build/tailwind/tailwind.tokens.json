@@ -222,20 +222,76 @@
         }
       },
       "red": {
+        "50": {
+          "value": "#fce9eb",
+          "type": "color"
+        },
         "100": {
-          "value": "#FBDDDA",
+          "value": "#f9d2d7",
+          "type": "color"
+        },
+        "150": {
+          "value": "#f5bcc4",
+          "type": "color"
+        },
+        "200": {
+          "value": "#f2a6b0",
+          "type": "color"
+        },
+        "250": {
+          "value": "#ef8f9c",
+          "type": "color"
+        },
+        "300": {
+          "value": "#ec7988",
+          "type": "color"
+        },
+        "350": {
+          "value": "#e96375",
+          "type": "color"
+        },
+        "400": {
+          "value": "#e64d61",
+          "type": "color"
+        },
+        "450": {
+          "value": "#e2364d",
           "type": "color"
         },
         "500": {
-          "value": "#d3080c",
+          "value": "#df2039",
+          "type": "color"
+        },
+        "550": {
+          "value": "#c91d34",
+          "type": "color"
+        },
+        "600": {
+          "value": "#b3192e",
+          "type": "color"
+        },
+        "650": {
+          "value": "#9c1628",
           "type": "color"
         },
         "700": {
-          "value": "#A62A1E",
+          "value": "#861322",
+          "type": "color"
+        },
+        "750": {
+          "value": "#70101d",
+          "type": "color"
+        },
+        "800": {
+          "value": "#590d17",
+          "type": "color"
+        },
+        "850": {
+          "value": "#430a11",
           "type": "color"
         },
         "900": {
-          "value": "#822117",
+          "value": "#2d060b",
           "type": "color"
         }
       },
@@ -386,15 +442,15 @@
     },
     "danger": {
       "background": {
-        "value": "#FBDDDA",
+        "value": "#b3192e",
         "type": "color"
       },
       "border": {
-        "value": "#d3080c",
+        "value": "#b3192e",
         "type": "color"
       },
       "text": {
-        "value": "#A62A1E",
+        "value": "#b3192e",
         "type": "color"
       }
     },
@@ -1534,11 +1590,11 @@
       },
       "danger": {
         "background": {
-          "value": "#FBDDDA",
+          "value": "#f9d2d7",
           "type": "color"
         },
         "icon": {
-          "value": "#d3080c",
+          "value": "#b3192e",
           "type": "color"
         },
         "text": {
@@ -1634,7 +1690,7 @@
       "danger": {
         "default": {
           "background": {
-            "value": "#A62A1E",
+            "value": "#b3192e",
             "type": "color"
           },
           "text": {
@@ -1644,7 +1700,7 @@
         },
         "hover": {
           "background": {
-            "value": "#822117",
+            "value": "#861322",
             "type": "color"
           }
         }
@@ -2009,7 +2065,7 @@
       },
       "danger": {
         "border": {
-          "value": "#d3080c",
+          "value": "#b3192e",
           "type": "color"
         }
       },
@@ -2190,7 +2246,7 @@
     "date-input": {
       "danger": {
         "border": {
-          "value": "#d3080c",
+          "value": "#b3192e",
           "type": "color"
         }
       },
@@ -2473,7 +2529,7 @@
     "error-message": {
       "text": {
         "color": {
-          "value": "#A62A1E",
+          "value": "#b3192e",
           "type": "border"
         }
       }
@@ -2481,7 +2537,7 @@
     "error-summary": {
       "border": {
         "color": {
-          "value": "#d3080c",
+          "value": "#b3192e",
           "type": "color"
         },
         "width": {
@@ -2491,7 +2547,7 @@
       },
       "link": {
         "color": {
-          "value": "#A62A1E",
+          "value": "#b3192e",
           "type": "color"
         }
       },
@@ -2751,7 +2807,7 @@
           },
           "default": {
             "text": {
-              "value": "#A62A1E",
+              "value": "#b3192e",
               "type": "color"
             },
             "decoration": {
@@ -2763,7 +2819,7 @@
           },
           "hover": {
             "text": {
-              "value": "#822117",
+              "value": "#861322",
               "type": "color"
             },
             "decoration": {
@@ -2785,7 +2841,7 @@
         "danger": {
           "border": {
             "color": {
-              "value": "#d3080c",
+              "value": "#b3192e",
               "type": "color"
             }
           }
@@ -3735,7 +3791,7 @@
       },
       "danger": {
         "border": {
-          "value": "#d3080c",
+          "value": "#b3192e",
           "type": "color"
         }
       },
@@ -4290,7 +4346,7 @@
       },
       "danger": {
         "text": {
-          "value": "#A62A1E",
+          "value": "#b3192e",
           "type": "color"
         }
       },
@@ -4518,7 +4574,7 @@
       },
       "danger": {
         "border": {
-          "value": "#d3080c",
+          "value": "#b3192e",
           "type": "color"
         }
       },
@@ -4790,7 +4846,7 @@
       },
       "danger": {
         "border": {
-          "value": "#d3080c",
+          "value": "#b3192e",
           "type": "color"
         }
       },
@@ -4967,7 +5023,7 @@
       },
       "danger": {
         "border": {
-          "value": "#d3080c",
+          "value": "#b3192e",
           "type": "color"
         }
       },

@@ -56,10 +56,24 @@
   --gcds-color-purple-800: #2b1452;
   --gcds-color-purple-850: #200f3d;
   --gcds-color-purple-900: #150a29;
-  --gcds-color-red-100: #fbddda;
-  --gcds-color-red-500: #d3080c; /** Must contrast 3:1 with white */
-  --gcds-color-red-700: #a62a1e; /** Must contrast 7:1 with white */
-  --gcds-color-red-900: #822117;
+  --gcds-color-red-50: #fce9eb;
+  --gcds-color-red-100: #f9d2d7;
+  --gcds-color-red-150: #f5bcc4;
+  --gcds-color-red-200: #f2a6b0;
+  --gcds-color-red-250: #ef8f9c;
+  --gcds-color-red-300: #ec7988;
+  --gcds-color-red-350: #e96375;
+  --gcds-color-red-400: #e64d61;
+  --gcds-color-red-450: #e2364d;
+  --gcds-color-red-500: #df2039;
+  --gcds-color-red-550: #c91d34;
+  --gcds-color-red-600: #b3192e;
+  --gcds-color-red-650: #9c1628;
+  --gcds-color-red-700: #861322;
+  --gcds-color-red-750: #70101d;
+  --gcds-color-red-800: #590d17;
+  --gcds-color-red-850: #430a11;
+  --gcds-color-red-900: #2d060b;
   --gcds-color-yellow-50: #fef7e7;
   --gcds-color-yellow-100: #fcefcf;
   --gcds-color-yellow-150: #fbe7b6;
