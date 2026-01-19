@@ -48,17 +48,30 @@ export const GcdsColorPurple750: string;
 export const GcdsColorPurple800: string;
 export const GcdsColorPurple850: string;
 export const GcdsColorPurple900: string;
-/** Must contrast 7:1 with white */
-export const GcdsColorOrange700: string;
 export const GcdsColorRed100: string;
 /** Must contrast 3:1 with white */
 export const GcdsColorRed500: string;
 /** Must contrast 7:1 with white */
 export const GcdsColorRed700: string;
 export const GcdsColorRed900: string;
+export const GcdsColorYellow50: string;
 export const GcdsColorYellow100: string;
-/** Must contrast 3:1 with white */
+export const GcdsColorYellow150: string;
+export const GcdsColorYellow200: string;
+export const GcdsColorYellow250: string;
+export const GcdsColorYellow300: string;
+export const GcdsColorYellow350: string;
+export const GcdsColorYellow400: string;
+export const GcdsColorYellow450: string;
 export const GcdsColorYellow500: string;
+export const GcdsColorYellow550: string;
+export const GcdsColorYellow600: string;
+export const GcdsColorYellow650: string;
+export const GcdsColorYellow700: string;
+export const GcdsColorYellow750: string;
+export const GcdsColorYellow800: string;
+export const GcdsColorYellow850: string;
+export const GcdsColorYellow900: string;
 /** Global border: radius sm */
 export const GcdsBorderRadiusSm: string;
 /** Global border: radius md */

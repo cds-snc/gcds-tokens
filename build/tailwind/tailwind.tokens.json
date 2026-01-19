@@ -165,12 +165,6 @@
           "type": "color"
         }
       },
-      "orange": {
-        "700": {
-          "value": "#BE5A00",
-          "type": "color"
-        }
-      },
       "red": {
         "100": {
           "value": "#FBDDDA",
@@ -190,12 +184,76 @@
         }
       },
       "yellow": {
+        "50": {
+          "value": "#fef7e7",
+          "type": "color"
+        },
         "100": {
-          "value": "#FAEDD1",
+          "value": "#fcefcf",
+          "type": "color"
+        },
+        "150": {
+          "value": "#fbe7b6",
+          "type": "color"
+        },
+        "200": {
+          "value": "#fade9e",
+          "type": "color"
+        },
+        "250": {
+          "value": "#f9d686",
+          "type": "color"
+        },
+        "300": {
+          "value": "#f7ce6e",
+          "type": "color"
+        },
+        "350": {
+          "value": "#f6c655",
+          "type": "color"
+        },
+        "400": {
+          "value": "#f5be3d",
+          "type": "color"
+        },
+        "450": {
+          "value": "#f4b625",
           "type": "color"
         },
         "500": {
-          "value": "#B3800F",
+          "value": "#f2ad0d",
+          "type": "color"
+        },
+        "550": {
+          "value": "#da9c0b",
+          "type": "color"
+        },
+        "600": {
+          "value": "#c28b0a",
+          "type": "color"
+        },
+        "650": {
+          "value": "#aa7909",
+          "type": "color"
+        },
+        "700": {
+          "value": "#916808",
+          "type": "color"
+        },
+        "750": {
+          "value": "#795706",
+          "type": "color"
+        },
+        "800": {
+          "value": "#614505",
+          "type": "color"
+        },
+        "850": {
+          "value": "#493404",
+          "type": "color"
+        },
+        "900": {
+          "value": "#302303",
           "type": "color"
         }
       }
@@ -1462,11 +1520,11 @@
       },
       "warning": {
         "background": {
-          "value": "#FAEDD1",
+          "value": "#fcefcf",
           "type": "color"
         },
         "icon": {
-          "value": "#B3800F",
+          "value": "#f2ad0d",
           "type": "color"
         },
         "text": {
@@ -4220,7 +4278,7 @@
       },
       "warning": {
         "text": {
-          "value": "#BE5A00",
+          "value": "#f2ad0d",
           "type": "color"
         }
       }

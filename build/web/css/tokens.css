@@ -42,13 +42,28 @@
   --gcds-color-purple-800: #2b1452;
   --gcds-color-purple-850: #200f3d;
   --gcds-color-purple-900: #150a29;
-  --gcds-color-orange-700: #be5a00; /** Must contrast 7:1 with white */
   --gcds-color-red-100: #fbddda;
   --gcds-color-red-500: #d3080c; /** Must contrast 3:1 with white */
   --gcds-color-red-700: #a62a1e; /** Must contrast 7:1 with white */
   --gcds-color-red-900: #822117;
-  --gcds-color-yellow-100: #faedd1;
-  --gcds-color-yellow-500: #b3800f; /** Must contrast 3:1 with white */
+  --gcds-color-yellow-50: #fef7e7;
+  --gcds-color-yellow-100: #fcefcf;
+  --gcds-color-yellow-150: #fbe7b6;
+  --gcds-color-yellow-200: #fade9e;
+  --gcds-color-yellow-250: #f9d686;
+  --gcds-color-yellow-300: #f7ce6e;
+  --gcds-color-yellow-350: #f6c655;
+  --gcds-color-yellow-400: #f5be3d;
+  --gcds-color-yellow-450: #f4b625;
+  --gcds-color-yellow-500: #f2ad0d;
+  --gcds-color-yellow-550: #da9c0b;
+  --gcds-color-yellow-600: #c28b0a;
+  --gcds-color-yellow-650: #aa7909;
+  --gcds-color-yellow-700: #916808;
+  --gcds-color-yellow-750: #795706;
+  --gcds-color-yellow-800: #614505;
+  --gcds-color-yellow-850: #493404;
+  --gcds-color-yellow-900: #302303;
   --gcds-border-radius-sm: 0.125rem; /** Global border: radius sm */
   --gcds-border-radius-md: 0.375rem; /** Global border: radius md */
   --gcds-border-radius-lg: 3rem; /** Global border: radius lg */
@@ -303,8 +318,8 @@
   --gcds-alert-success-background: #e6f6ec;
   --gcds-alert-success-icon: #289f58;
   --gcds-alert-success-text: #333333;
-  --gcds-alert-warning-background: #faedd1;
-  --gcds-alert-warning-icon: #b3800f;
+  --gcds-alert-warning-background: #fcefcf;
+  --gcds-alert-warning-icon: #f2ad0d;
   --gcds-alert-warning-text: #333333;
   --gcds-breadcrumbs-item-arrow-margin: 0 0.5rem 0 0;
   --gcds-breadcrumbs-item-font: 400 1rem/150% 'Noto Sans', sans-serif; /** Mandatory elements alignment: sub-components of header use 16px font */
@@ -784,7 +799,7 @@
   --gcds-notice-info-text: #1e7b96;
   --gcds-notice-text: #333333;
   --gcds-notice-success-text: #03662a;
-  --gcds-notice-warning-text: #be5a00;
+  --gcds-notice-warning-text: #f2ad0d;
   --gcds-pagination-active-text: #ffffff;
   --gcds-pagination-active-background: #26374a;
   --gcds-pagination-border-radius: 0.125rem;
