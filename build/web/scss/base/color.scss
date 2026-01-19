@@ -1,6 +1,7 @@
 
 // Do not edit directly, this file was auto-generated.
 
+$gcds-color-black: #000000;
 $gcds-color-blue-100: #d7e5f5;
 $gcds-color-blue-500: #6584a6; // Must contrast 3:1 with white
 $gcds-color-blue-650: #284162;
@@ -9,15 +10,24 @@ $gcds-color-blue-750: #1e7b96;
 $gcds-color-blue-800: #2b4380;
 $gcds-color-blue-850: #0535d2; // Focus and hover colour
 $gcds-color-blue-900: #26374a;
-$gcds-color-grayscale-0: #ffffff;
-$gcds-color-grayscale-50: #f1f2f3;
-$gcds-color-grayscale-100: #d6d9dd;
-$gcds-color-grayscale-300: #a8adb4;
-$gcds-color-grayscale-500: #7d828b; // Must contrast 3:1 with white
-$gcds-color-grayscale-700: #545961; // Must contrast 7:1 with white
-$gcds-color-grayscale-800: #43474e;
-$gcds-color-grayscale-900: #333333;
-$gcds-color-grayscale-1000: #000000;
+$gcds-color-grayscale-50: #f2f2f2;
+$gcds-color-grayscale-100: #e6e6e6;
+$gcds-color-grayscale-150: #d9d9d9;
+$gcds-color-grayscale-200: #cccccc;
+$gcds-color-grayscale-250: #bfbfbf;
+$gcds-color-grayscale-300: #b3b3b3;
+$gcds-color-grayscale-350: #a6a6a6;
+$gcds-color-grayscale-400: #999999;
+$gcds-color-grayscale-450: #8c8c8c;
+$gcds-color-grayscale-500: #808080;
+$gcds-color-grayscale-550: #737373;
+$gcds-color-grayscale-600: #666666;
+$gcds-color-grayscale-650: #595959;
+$gcds-color-grayscale-700: #4d4d4d;
+$gcds-color-grayscale-750: #404040;
+$gcds-color-grayscale-800: #333333;
+$gcds-color-grayscale-850: #262626;
+$gcds-color-grayscale-900: #1a1a1a;
 $gcds-color-green-50: #ebfaf0;
 $gcds-color-green-100: #d6f5e1;
 $gcds-color-green-150: #c2f0d3;
@@ -72,6 +82,7 @@ $gcds-color-red-750: #70101d;
 $gcds-color-red-800: #590d17;
 $gcds-color-red-850: #430a11;
 $gcds-color-red-900: #2d060b;
+$gcds-color-white: #ffffff;
 $gcds-color-yellow-50: #fef7e7;
 $gcds-color-yellow-100: #fcefcf;
 $gcds-color-yellow-150: #fbe7b6;

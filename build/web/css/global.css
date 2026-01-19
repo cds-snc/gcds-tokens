@@ -11,18 +11,18 @@
   --gcds-border-width-md: 0.125rem; /** Global border: width md */
   --gcds-border-width-lg: 0.25rem; /** Global border: width lg */
   --gcds-border-width-xl: 0.375rem; /** Global border: width xl */
-  --gcds-border-default: #7d828b; /** Global color: border default */
+  --gcds-border-default: #b3b3b3; /** Global color: border default */
   --gcds-active-background: #000000; /** Global color: active background */
   --gcds-active-text: #ffffff; /** Global color: active text */
-  --gcds-bg-dark: #333333; /** Global bg color: dark background */
-  --gcds-bg-light: #f1f2f3; /** Global bg color: light background */
+  --gcds-bg-dark: #262626; /** Global bg color: dark background */
+  --gcds-bg-light: #f2f2f2; /** Global bg color: light background */
   --gcds-bg-primary: #26374a; /** Global bg color: primary background */
   --gcds-bg-white: #ffffff; /** Global bg color: white background */
   --gcds-danger-background: #b3192e; /** Global color: danger background */
   --gcds-danger-border: #b3192e; /** Global color: danger border */
   --gcds-danger-text: #b3192e; /** Global color: danger text */
-  --gcds-disabled-background: #d6d9dd; /** Global color: disabled background */
-  --gcds-disabled-text: #545961; /** Global color: disabled text */
+  --gcds-disabled-background: #d9d9d9; /** Global color: disabled background */
+  --gcds-disabled-text: #808080; /** Global color: disabled text */
   --gcds-focus-background: #0535d2; /** Global color: focus background */
   --gcds-focus-border: #0535d2; /** Global color: focus border */
   --gcds-focus-text: #ffffff; /** Global color: focus text */
@@ -32,7 +32,7 @@
   --gcds-link-visited: #4b248f; /** Global color: link visited */
   --gcds-text-light: #ffffff; /** Global color: text light */
   --gcds-text-primary: #333333; /** Global color: text primary */
-  --gcds-text-secondary: #43474e; /** Global color: text secondary */
+  --gcds-text-secondary: #595959; /** Global color: text secondary */
   --gcds-container-xs: 20rem;
   --gcds-container-sm: 30rem;
   --gcds-container-md: 48rem;

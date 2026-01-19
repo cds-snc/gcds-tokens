@@ -11,9 +11,9 @@
   --gcds-checkbox-danger-border: #b3192e;
   --gcds-checkbox-default-background: #ffffff;
   --gcds-checkbox-default-text: #333333;
-  --gcds-checkbox-disabled-background: #d6d9dd;
-  --gcds-checkbox-disabled-border: #545961;
-  --gcds-checkbox-disabled-text: #545961;
+  --gcds-checkbox-disabled-background: #d9d9d9;
+  --gcds-checkbox-disabled-border: #999999;
+  --gcds-checkbox-disabled-text: #808080;
   --gcds-checkbox-error-padding: 0 0 0 3.75rem;
   --gcds-checkbox-fieldset-margin: 0 0 1rem;
   --gcds-checkbox-focus-background: #ffffff;

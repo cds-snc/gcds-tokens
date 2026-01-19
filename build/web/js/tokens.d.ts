@@ -2,6 +2,7 @@
  * Do not edit directly, this file was auto-generated.
  */
 
+export const GcdsColorBlack: string;
 export const GcdsColorBlue100: string;
 /** Must contrast 3:1 with white */
 export const GcdsColorBlue500: string;
@@ -13,17 +14,24 @@ export const GcdsColorBlue800: string;
 /** Focus and hover colour */
 export const GcdsColorBlue850: string;
 export const GcdsColorBlue900: string;
-export const GcdsColorGrayscale0: string;
 export const GcdsColorGrayscale50: string;
 export const GcdsColorGrayscale100: string;
+export const GcdsColorGrayscale150: string;
+export const GcdsColorGrayscale200: string;
+export const GcdsColorGrayscale250: string;
 export const GcdsColorGrayscale300: string;
-/** Must contrast 3:1 with white */
+export const GcdsColorGrayscale350: string;
+export const GcdsColorGrayscale400: string;
+export const GcdsColorGrayscale450: string;
 export const GcdsColorGrayscale500: string;
-/** Must contrast 7:1 with white */
+export const GcdsColorGrayscale550: string;
+export const GcdsColorGrayscale600: string;
+export const GcdsColorGrayscale650: string;
 export const GcdsColorGrayscale700: string;
+export const GcdsColorGrayscale750: string;
 export const GcdsColorGrayscale800: string;
+export const GcdsColorGrayscale850: string;
 export const GcdsColorGrayscale900: string;
-export const GcdsColorGrayscale1000: string;
 export const GcdsColorGreen50: string;
 export const GcdsColorGreen100: string;
 export const GcdsColorGreen150: string;
@@ -78,6 +86,7 @@ export const GcdsColorRed750: string;
 export const GcdsColorRed800: string;
 export const GcdsColorRed850: string;
 export const GcdsColorRed900: string;
+export const GcdsColorWhite: string;
 export const GcdsColorYellow50: string;
 export const GcdsColorYellow100: string;
 export const GcdsColorYellow150: string;
