@@ -3,24 +3,24 @@
  */
 
 :root {
-  --gcds-nav-link-active-border-color: #33465c;
+  --gcds-nav-link-active-border-color: #26374a;
   --gcds-nav-link-active-font-weight: 700;
   --gcds-nav-link-active-text: #26374a;
-  --gcds-nav-link-active-background: #d7e5f5;
+  --gcds-nav-link-active-background: #d6e4f5;
   --gcds-nav-link-border-width: 0.125rem;
-  --gcds-nav-link-default-text: #284162;
+  --gcds-nav-link-default-text: #1f497a;
   --gcds-nav-link-default-decoration-thickness: 0.0625rem;
   --gcds-nav-link-default-max-width: 20rem;
   --gcds-nav-link-default-underline-offset: 0.25rem;
-  --gcds-nav-link-focus-background: #0535d2;
+  --gcds-nav-link-focus-background: #0d3ef2;
   --gcds-nav-link-focus-text: #ffffff;
   --gcds-nav-link-focus-border-radius: 0.125rem;
   --gcds-nav-link-focus-outline-offset: 0.125rem;
-  --gcds-nav-link-focus-outline: 0.25rem solid #0535d2;
+  --gcds-nav-link-focus-outline: 0.25rem solid #0d3ef2;
   --gcds-nav-link-focus-box-shadow: 0 0 0 0.125rem #ffffff;
   --gcds-nav-link-font: 500 1rem/150% 'Noto Sans', sans-serif;
   --gcds-nav-link-hover-decoration-thickness: 0.125rem;
-  --gcds-nav-link-hover-text: #0535d2;
+  --gcds-nav-link-hover-text: #0d3ef2;
   --gcds-nav-link-margin: 0.5rem;
   --gcds-nav-link-padding: 0.625rem;
   --gcds-nav-link-side-nav-hover-background: #f2f2f2;

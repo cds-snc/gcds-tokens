@@ -4,14 +4,26 @@
 
 :root {
   --gcds-color-black: #000000;
-  --gcds-color-blue-100: #d7e5f5;
-  --gcds-color-blue-500: #6584a6; /** Must contrast 3:1 with white */
-  --gcds-color-blue-650: #284162;
-  --gcds-color-blue-700: #33465c; /** Must contrast 7:1 with white */
-  --gcds-color-blue-750: #1e7b96;
-  --gcds-color-blue-800: #2b4380;
-  --gcds-color-blue-850: #0535d2; /** Focus and hover colour */
-  --gcds-color-blue-900: #26374a;
+  --gcds-color-blue-50: #ebf2fa;
+  --gcds-color-blue-100: #d6e4f5;
+  --gcds-color-blue-150: #c2d7f0;
+  --gcds-color-blue-200: #adcaeb;
+  --gcds-color-blue-250: #99bde6;
+  --gcds-color-blue-300: #85afe0;
+  --gcds-color-blue-350: #70a2db;
+  --gcds-color-blue-400: #5c95d6;
+  --gcds-color-blue-450: #4788d1;
+  --gcds-color-blue-500: #337acc;
+  --gcds-color-blue-550: #2e6eb8;
+  --gcds-color-blue-600: #2962a3;
+  --gcds-color-blue-650: #24568f;
+  --gcds-color-blue-700: #1f497a;
+  --gcds-color-blue-750: #193d66;
+  --gcds-color-blue-800: #143152;
+  --gcds-color-blue-850: #0f253d;
+  --gcds-color-blue-900: #0a1829;
+  --gcds-color-blue-muted: #26374a;
+  --gcds-color-blue-vivid: #0d3ef2; /** Focus and hover colour */
   --gcds-color-grayscale-50: #f2f2f2;
   --gcds-color-grayscale-100: #e6e6e6;
   --gcds-color-grayscale-150: #d9d9d9;

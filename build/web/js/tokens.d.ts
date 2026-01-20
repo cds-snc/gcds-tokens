@@ -3,17 +3,27 @@
  */
 
 export const GcdsColorBlack: string;
+export const GcdsColorBlue50: string;
 export const GcdsColorBlue100: string;
-/** Must contrast 3:1 with white */
+export const GcdsColorBlue150: string;
+export const GcdsColorBlue200: string;
+export const GcdsColorBlue250: string;
+export const GcdsColorBlue300: string;
+export const GcdsColorBlue350: string;
+export const GcdsColorBlue400: string;
+export const GcdsColorBlue450: string;
 export const GcdsColorBlue500: string;
+export const GcdsColorBlue550: string;
+export const GcdsColorBlue600: string;
 export const GcdsColorBlue650: string;
-/** Must contrast 7:1 with white */
 export const GcdsColorBlue700: string;
 export const GcdsColorBlue750: string;
 export const GcdsColorBlue800: string;
-/** Focus and hover colour */
 export const GcdsColorBlue850: string;
 export const GcdsColorBlue900: string;
+export const GcdsColorBlueMuted: string;
+/** Focus and hover colour */
+export const GcdsColorBlueVivid: string;
 export const GcdsColorGrayscale50: string;
 export const GcdsColorGrayscale100: string;
 export const GcdsColorGrayscale150: string;
