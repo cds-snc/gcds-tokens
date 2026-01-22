@@ -1287,6 +1287,7 @@ export const GcdsNavGroupTopNavTriggerUnderlineOffset: string;
 export const GcdsNavGroupTopNavTriggerExpandedBackgroundColor: string;
 export const GcdsNavGroupTopNavTriggerIconMargin: string;
 export const GcdsNavGroupTopNavTriggerPadding: string;
+export const GcdsNavGroupTopNavTriggerText: string;
 export const GcdsNavGroupTriggerFocusBackground: string;
 export const GcdsNavGroupTriggerFocusText: string;
 export const GcdsNavGroupTriggerFocusBorderRadius: string;
@@ -1334,6 +1335,7 @@ export const GcdsNavLinkTopNavHomeFont: {
 export const GcdsNavLinkTopNavHomePadding: string;
 export const GcdsNavLinkTopNavPadding: string;
 export const GcdsNavLinkTopNavText: string;
+export const GcdsNavLinkTopNavTextPrimary: string;
 export const GcdsNavLinkTopNavMargin: string;
 export const GcdsNoticeBorderWidth: string;
 export const GcdsNoticeContentHeadingFontDesktop: {
@@ -1523,6 +1525,7 @@ export const GcdsSelectMargin: string;
 export const GcdsSelectMinWidthAndHeight: string;
 export const GcdsSelectOutlineWidth: string;
 export const GcdsSelectPadding: string;
+export const GcdsSideNavHeadingColor: string;
 export const GcdsSideNavHeadingFont: {
   fontFamily: string;
   fontWeight: string;

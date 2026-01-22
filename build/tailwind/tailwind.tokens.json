@@ -84,7 +84,7 @@
         "type": "color"
       },
       "blue-vivid": {
-        "value": "#0d3EF2",
+        "value": "#1354ec",
         "type": "color"
       },
       "grayscale": {
@@ -500,7 +500,7 @@
         }
       },
       "default": {
-        "value": "#b3b3b3",
+        "value": "#8c8c8c",
         "type": "color"
       }
     },
@@ -558,11 +558,11 @@
     },
     "focus": {
       "background": {
-        "value": "#0d3EF2",
+        "value": "#1354ec",
         "type": "color"
       },
       "border": {
-        "value": "#0d3EF2",
+        "value": "#1354ec",
         "type": "color"
       },
       "text": {
@@ -576,7 +576,7 @@
         "type": "color"
       },
       "hover": {
-        "value": "#0d3EF2",
+        "value": "#1354ec",
         "type": "color"
       },
       "light": {
@@ -589,7 +589,7 @@
       },
       "focus": {
         "background": {
-          "value": "#0d3EF2",
+          "value": "#1354ec",
           "type": "color"
         },
         "outline": {
@@ -908,7 +908,7 @@
         "type": "sizing"
       },
       "border": {
-        "value": "0.0625rem solid #b3b3b3",
+        "value": "0.0625rem solid #8c8c8c",
         "type": "border"
       },
       "size": {
@@ -1579,7 +1579,7 @@
         },
         "focus": {
           "background": {
-            "value": "#0d3EF2",
+            "value": "#1354ec",
             "type": "color"
           },
           "text": {
@@ -1686,7 +1686,7 @@
           "type": "color"
         },
         "icon": {
-          "value": "#b3192e",
+          "value": "#861322",
           "type": "color"
         },
         "text": {
@@ -1700,7 +1700,7 @@
           "type": "color"
         },
         "icon": {
-          "value": "#337acc",
+          "value": "#1f497a",
           "type": "color"
         },
         "text": {
@@ -1714,7 +1714,7 @@
           "type": "color"
         },
         "icon": {
-          "value": "#33cc6b",
+          "value": "#1f7a40",
           "type": "color"
         },
         "text": {
@@ -1728,7 +1728,7 @@
           "type": "color"
         },
         "icon": {
-          "value": "#f2ad0d",
+          "value": "#916808",
           "type": "color"
         },
         "text": {
@@ -1886,7 +1886,7 @@
         },
         "focus": {
           "background": {
-            "value": "#0d3EF2",
+            "value": "#1354ec",
             "type": "color"
           },
           "box-shadow": {
@@ -1990,7 +1990,7 @@
         "type": "color"
       },
       "boxShadow": {
-        "value": "0 0.125rem 0.5rem 0.125rem #00000019",
+        "value": "0 0.125rem 0.5rem 0.125rem #00000010",
         "type": "other"
       },
       "color": {
@@ -2021,7 +2021,7 @@
       },
       "focus": {
         "box-shadow": {
-          "value": "inset 0 0 0 0.125rem #0d3EF2",
+          "value": "inset 0 0 0 0.125rem #1354ec",
           "type": "color"
         },
         "link": {
@@ -2059,17 +2059,17 @@
           "type": "borderWidth"
         },
         "outline": {
-          "value": "0.25rem solid #0d3EF2",
+          "value": "0.25rem solid #1354ec",
           "type": "other"
         }
       },
       "hover": {
         "backgroundColor": {
-          "value": "#f2f2f280",
+          "value": "#f2f2f2",
           "type": "color"
         },
         "boxShadow": {
-          "value": "0 0.25rem 0.5rem 0.25rem #00000032",
+          "value": "0 0.25rem 0.75rem 0.25rem #00000020",
           "type": "other"
         }
       },
@@ -2085,7 +2085,7 @@
       },
       "badge": {
         "backgroundColor": {
-          "value": "#20809D",
+          "value": "#2962a3",
           "type": "color"
         },
         "padding": {
@@ -2207,7 +2207,7 @@
           "type": "color"
         },
         "color": {
-          "value": "#0d3EF2",
+          "value": "#1354ec",
           "type": "color"
         },
         "outline": {
@@ -2473,7 +2473,7 @@
       },
       "focus": {
         "background": {
-          "value": "#0d3EF2",
+          "value": "#1354ec",
           "type": "color"
         },
         "text": {
@@ -2493,7 +2493,7 @@
           "type": "borderWidth"
         },
         "outline": {
-          "value": "0.25rem solid #0d3EF2",
+          "value": "0.25rem solid #1354ec",
           "type": "other"
         }
       },
@@ -2539,7 +2539,7 @@
       },
       "hover": {
         "text": {
-          "value": "#0d3EF2",
+          "value": "#1354ec",
           "type": "color"
         },
         "decoration": {
@@ -2552,7 +2552,7 @@
       "panel": {
         "border": {
           "color": {
-            "value": "#b3b3b3",
+            "value": "#8c8c8c",
             "type": "border"
           },
           "width": {
@@ -2872,7 +2872,7 @@
       "file": {
         "border": {
           "color": {
-            "value": "#b3b3b3",
+            "value": "#8c8c8c",
             "type": "color"
           },
           "width": {
@@ -2941,7 +2941,7 @@
         "focus": {
           "border": {
             "color": {
-              "value": "#0d3EF2",
+              "value": "#1354ec",
               "type": "color"
             }
           }
@@ -2958,7 +2958,7 @@
       "focus": {
         "button": {
           "background": {
-            "value": "#0d3EF2",
+            "value": "#1354ec",
             "type": "color"
           },
           "text": {
@@ -3909,7 +3909,7 @@
       },
       "focus": {
         "border": {
-          "value": "#0d3EF2",
+          "value": "#1354ec",
           "type": "color"
         },
         "box-shadow": {
@@ -4082,7 +4082,7 @@
           },
           "hover": {
             "background": {
-              "value": "#f2f2f2",
+              "value": "#e6e6e6",
               "type": "color"
             }
           },
@@ -4120,11 +4120,11 @@
         "trigger": {
           "hover": {
             "background": {
-              "value": "#d9d9d9",
+              "value": "#e6e6e6",
               "type": "color"
             },
             "text": {
-              "value": "#0d3EF2",
+              "value": "#1354ec",
               "type": "color"
             },
             "decoration": {
@@ -4148,7 +4148,7 @@
           },
           "expanded": {
             "background-color": {
-              "value": "#d9d9d9",
+              "value": "#e6e6e6",
               "type": "color"
             }
           },
@@ -4161,13 +4161,17 @@
           "padding": {
             "value": "1.125rem 1rem",
             "type": "spacing"
+          },
+          "text": {
+            "value": "#595959",
+            "type": "color"
           }
         }
       },
       "trigger": {
         "focus": {
           "background": {
-            "value": "#0d3EF2",
+            "value": "#1354ec",
             "type": "color"
           },
           "text": {
@@ -4183,7 +4187,7 @@
             "type": "borderWidth"
           },
           "outline": {
-            "value": "0.25rem solid #0d3EF2",
+            "value": "0.25rem solid #1354ec",
             "type": "other"
           },
           "box-shadow": {
@@ -4193,7 +4197,7 @@
         },
         "hover": {
           "text": {
-            "value": "#0d3EF2",
+            "value": "#1354ec",
             "type": "color"
           }
         },
@@ -4262,7 +4266,7 @@
       },
       "focus": {
         "background": {
-          "value": "#0d3EF2",
+          "value": "#1354ec",
           "type": "color"
         },
         "text": {
@@ -4278,7 +4282,7 @@
           "type": "borderWidth"
         },
         "outline": {
-          "value": "0.25rem solid #0d3EF2",
+          "value": "0.25rem solid #1354ec",
           "type": "other"
         },
         "box-shadow": {
@@ -4303,7 +4307,7 @@
           }
         },
         "text": {
-          "value": "#0d3EF2",
+          "value": "#1354ec",
           "type": "color"
         }
       },
@@ -4354,6 +4358,10 @@
           "type": "spacing"
         },
         "text": {
+          "value": "#595959",
+          "type": "color"
+        },
+        "text-primary": {
           "value": "#333333",
           "type": "color"
         },
@@ -4520,13 +4528,13 @@
           "type": "color"
         },
         "text": {
-          "value": "#0d3EF2",
+          "value": "#1354ec",
           "type": "color"
         }
       },
       "focus": {
         "background": {
-          "value": "#0d3EF2",
+          "value": "#1354ec",
           "type": "color"
         },
         "box-shadow": {
@@ -4608,7 +4616,7 @@
         "listitem": {
           "divider": {
             "border": {
-              "value": "0.0625rem solid #b3b3b3",
+              "value": "0.0625rem solid #8c8c8c",
               "type": "other"
             },
             "margin": {
@@ -4710,7 +4718,7 @@
           "type": "color"
         },
         "color": {
-          "value": "#0d3EF2",
+          "value": "#1354ec",
           "type": "color"
         },
         "outline": {
@@ -4870,7 +4878,7 @@
       "focus": {
         "border": {
           "color": {
-            "value": "#0d3EF2",
+            "value": "#1354ec",
             "type": "color"
           },
           "width": {
@@ -4964,7 +4972,7 @@
       },
       "focus": {
         "border": {
-          "value": "#0d3EF2",
+          "value": "#1354ec",
           "type": "color"
         },
         "box-shadow": {
@@ -5013,6 +5021,10 @@
     },
     "side-nav": {
       "heading": {
+        "color": {
+          "value": "#333333",
+          "type": "color"
+        },
         "font": {
           "value": {
             "fontFamily": "'Lato', sans-serif",
@@ -5141,7 +5153,7 @@
       },
       "focus": {
         "border": {
-          "value": "#0d3EF2",
+          "value": "#1354ec",
           "type": "color"
         },
         "box-shadow": {
@@ -5257,7 +5269,7 @@
       },
       "focus": {
         "background": {
-          "value": "#0d3EF2",
+          "value": "#1354ec",
           "type": "color"
         },
         "text": {
@@ -5277,7 +5289,7 @@
           "type": "borderWidth"
         },
         "outline": {
-          "value": "0.25rem solid #0d3EF2",
+          "value": "0.25rem solid #1354ec",
           "type": "other"
         }
       },
@@ -5416,7 +5428,7 @@
               "type": "color"
             },
             "hoverText": {
-              "value": "#0d3EF2",
+              "value": "#1354ec",
               "type": "color"
             },
             "padding": {
@@ -5514,7 +5526,7 @@
         "menuitem": {
           "hover": {
             "text": {
-              "value": "#0d3EF2",
+              "value": "#1354ec",
               "type": "color"
             },
             "textDecorationThickness": {

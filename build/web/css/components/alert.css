@@ -8,7 +8,7 @@
   --gcds-alert-button-border-width: 0.125rem;
   --gcds-alert-button-default-background: #ffffff;
   --gcds-alert-button-default-text: #333333;
-  --gcds-alert-button-focus-background: #0d3ef2;
+  --gcds-alert-button-focus-background: #1354ec;
   --gcds-alert-button-focus-text: #ffffff;
   --gcds-alert-button-icon-padding: 0.75rem;
   --gcds-alert-button-icon-width-and-height: 1.125rem;
@@ -26,15 +26,15 @@
   --gcds-alert-padding: 0.75rem 0.875rem;
   --gcds-alert-text: #333333;
   --gcds-alert-danger-background: #f9d2d7;
-  --gcds-alert-danger-icon: #b3192e;
+  --gcds-alert-danger-icon: #861322;
   --gcds-alert-danger-text: #333333;
   --gcds-alert-info-background: #d6e4f5;
-  --gcds-alert-info-icon: #337acc;
+  --gcds-alert-info-icon: #1f497a;
   --gcds-alert-info-text: #333333;
   --gcds-alert-success-background: #d6f5e1;
-  --gcds-alert-success-icon: #33cc6b;
+  --gcds-alert-success-icon: #1f7a40;
   --gcds-alert-success-text: #333333;
   --gcds-alert-warning-background: #fcefcf;
-  --gcds-alert-warning-icon: #f2ad0d;
+  --gcds-alert-warning-icon: #916808;
   --gcds-alert-warning-text: #333333;
 }

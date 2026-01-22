@@ -16,7 +16,7 @@
   --gcds-file-uploader-disabled-text: #808080;
   --gcds-file-uploader-font-desktop: 400 1.25rem/140% 'Noto Sans', sans-serif;
   --gcds-file-uploader-font-mobile: 400 1.125rem/140% 'Noto Sans', sans-serif;
-  --gcds-file-uploader-file-border-color: #b3b3b3;
+  --gcds-file-uploader-file-border-color: #8c8c8c;
   --gcds-file-uploader-file-border-width: 0.125rem;
   --gcds-file-uploader-file-button-border-width: 0.0625rem;
   --gcds-file-uploader-file-button-border-radius: 0.375rem;
@@ -28,10 +28,10 @@
   --gcds-file-uploader-file-button-margin: 0 0 0 2.25rem;
   --gcds-file-uploader-file-button-padding: 0.375rem 0.125rem;
   --gcds-file-uploader-file-danger-border-color: #b3192e;
-  --gcds-file-uploader-file-focus-border-color: #0d3ef2;
+  --gcds-file-uploader-file-focus-border-color: #1354ec;
   --gcds-file-uploader-file-max-width: 30rem;
   --gcds-file-uploader-file-padding: 0.75rem 1.125rem;
-  --gcds-file-uploader-focus-button-background: #0d3ef2;
+  --gcds-file-uploader-focus-button-background: #1354ec;
   --gcds-file-uploader-focus-button-text: #ffffff;
   --gcds-file-uploader-focus-button-outline-width: 0.25rem;
   --gcds-file-uploader-focus-button-outline-offset: 0.125rem;

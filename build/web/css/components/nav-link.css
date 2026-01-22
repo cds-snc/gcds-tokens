@@ -12,15 +12,15 @@
   --gcds-nav-link-default-decoration-thickness: 0.0625rem;
   --gcds-nav-link-default-max-width: 20rem;
   --gcds-nav-link-default-underline-offset: 0.25rem;
-  --gcds-nav-link-focus-background: #0d3ef2;
+  --gcds-nav-link-focus-background: #1354ec;
   --gcds-nav-link-focus-text: #ffffff;
   --gcds-nav-link-focus-border-radius: 0.125rem;
   --gcds-nav-link-focus-outline-offset: 0.125rem;
-  --gcds-nav-link-focus-outline: 0.25rem solid #0d3ef2;
+  --gcds-nav-link-focus-outline: 0.25rem solid #1354ec;
   --gcds-nav-link-focus-box-shadow: 0 0 0 0.125rem #ffffff;
   --gcds-nav-link-font: 500 1rem/150% 'Noto Sans', sans-serif;
   --gcds-nav-link-hover-decoration-thickness: 0.125rem;
-  --gcds-nav-link-hover-text: #0d3ef2;
+  --gcds-nav-link-hover-text: #1354ec;
   --gcds-nav-link-margin: 0.5rem;
   --gcds-nav-link-padding: 0.625rem;
   --gcds-nav-link-side-nav-hover-background: #f2f2f2;
@@ -29,6 +29,7 @@
   --gcds-nav-link-top-nav-home-font: 700 1rem/150% 'Noto Sans', sans-serif;
   --gcds-nav-link-top-nav-home-padding: 1rem 0.125rem;
   --gcds-nav-link-top-nav-padding: 1rem;
-  --gcds-nav-link-top-nav-text: #333333;
+  --gcds-nav-link-top-nav-text: #595959;
+  --gcds-nav-link-top-nav-text-primary: #333333;
   --gcds-nav-link-top-nav-margin: 0;
 }

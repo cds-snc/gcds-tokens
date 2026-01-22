@@ -9,8 +9,8 @@
   --gcds-pagination-border-width: 0.125rem;
   --gcds-pagination-default-text: #1f497a;
   --gcds-pagination-hover-background: #d6e4f5;
-  --gcds-pagination-hover-text: #0d3ef2;
-  --gcds-pagination-focus-background: #0d3ef2;
+  --gcds-pagination-hover-text: #1354ec;
+  --gcds-pagination-focus-background: #1354ec;
   --gcds-pagination-focus-box-shadow: 0 0 0 0.125rem #ffffff;
   --gcds-pagination-focus-text: #ffffff;
   --gcds-pagination-focus-outline-width: 0.25rem;
@@ -22,7 +22,7 @@
   --gcds-pagination-mobile-list-item-margin: 0.125rem;
   --gcds-pagination-mobile-list-prevnext-margin: 0.75rem auto 0;
   --gcds-pagination-simple-label-font-weight: 400;
-  --gcds-pagination-simple-listitem-divider-border: 0.0625rem solid #b3b3b3;
+  --gcds-pagination-simple-listitem-divider-border: 0.0625rem solid #8c8c8c;
   --gcds-pagination-simple-listitem-divider-margin: 1rem;
   --gcds-pagination-simple-listitem-divider-padding: 0 0 1rem 0;
   --gcds-pagination-simple-listitem-margin: 0;
