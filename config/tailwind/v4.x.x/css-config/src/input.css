@@ -1,8 +1,8 @@
 /* Import Tailwind CSS */
-@import "tailwindcss";
+@import 'tailwindcss';
 
 /* Import GCDS tokens */
-@import "@cdssnc/gcds-tokens/build/web/css/tokens.css";
+@import '@cdssnc/gcds-tokens/build/web/css/tokens.css';
 
 @layer base {
   *,
@@ -58,7 +58,7 @@
 
   h1:after {
     display: block;
-    content: "";
+    content: '';
     width: var(--gcds-heading-h1-border-width);
     margin-block-start: var(--gcds-heading-h1-border-margin);
     height: var(--gcds-heading-h1-border-height);
@@ -242,7 +242,8 @@
     color: var(--gcds-link-focus-text) !important;
     border-radius: var(--gcds-link-focus-border-radius);
     box-shadow: var(--gcds-link-focus-box-shadow);
-    outline: var(--gcds-link-focus-outline-width) solid var(--gcds-link-focus-background);
+    outline: var(--gcds-link-focus-outline-width) solid
+      var(--gcds-link-focus-background);
     outline-offset: var(--gcds-link-focus-outline-offset);
     text-decoration: none;
   }
@@ -276,49 +277,135 @@
   /* Limit Tailwind colours to GCDS colours */
   --color-*: initial;
 
+  /* Colour: Black */
+  --color-black: var(--gcds-color-black);
+
   /* Colour: Blue */
+  --color-blue-50: var(--gcds-color-blue-50);
   --color-blue-100: var(--gcds-color-blue-100);
+  --color-blue-150: var(--gcds-color-blue-150);
+  --color-blue-200: var(--gcds-color-blue-200);
+  --color-blue-250: var(--gcds-color-blue-250);
+  --color-blue-300: var(--gcds-color-blue-300);
+  --color-blue-350: var(--gcds-color-blue-350);
+  --color-blue-400: var(--gcds-color-blue-400);
+  --color-blue-450: var(--gcds-color-blue-450);
   --color-blue-500: var(--gcds-color-blue-500);
+  --color-blue-550: var(--gcds-color-blue-550);
+  --color-blue-600: var(--gcds-color-blue-600);
   --color-blue-650: var(--gcds-color-blue-650);
   --color-blue-700: var(--gcds-color-blue-700);
   --color-blue-750: var(--gcds-color-blue-750);
   --color-blue-800: var(--gcds-color-blue-800);
-  --color-blue-850: var(--gcds-color-blue-850);  /* Focus background colour. */
-  --color-blue-900: var(--gcds-color-blue-900);  /* Primary colour. */
+  --color-blue-850: var(--gcds-color-blue-850);
+  --color-blue-900: var(--gcds-color-blue-900);
+
+  /* Colour: Blue extended */
+  --gcds-color-blue-muted: var(--gcds-color-blue-muted); /* Primary accent. */
+  --gcds-color-blue-vivid: var(--gcds-color-blue-vivid); /* Focus colour. */
 
   /* Colour: Grayscale */
-  --color-white: var(--gcds-color-grayscale-0);
   --color-gray-50: var(--gcds-color-grayscale-50);
   --color-gray-100: var(--gcds-color-grayscale-100);
+  --color-gray-150: var(--gcds-color-grayscale-150);
+  --color-gray-200: var(--gcds-color-grayscale-200);
+  --color-gray-250: var(--gcds-color-grayscale-250);
   --color-gray-300: var(--gcds-color-grayscale-300);
+  --color-gray-350: var(--gcds-color-grayscale-350);
+  --color-gray-400: var(--gcds-color-grayscale-400);
+  --color-gray-450: var(--gcds-color-grayscale-450);
   --color-gray-500: var(--gcds-color-grayscale-500);
+  --color-gray-550: var(--gcds-color-grayscale-550);
+  --color-gray-600: var(--gcds-color-grayscale-600);
+  --color-gray-650: var(--gcds-color-grayscale-650); /* Secondary text. */
   --color-gray-700: var(--gcds-color-grayscale-700);
-  --color-gray-800: var(--gcds-color-grayscale-800);  /* Secondary text colour. */
-  --color-gray-900: var(--gcds-color-grayscale-900);  /* Primary text colour. */
-  --color-black: var(--gcds-color-grayscale-1000);
+  --color-gray-750: var(--gcds-color-grayscale-750);
+  --color-gray-800: var(--gcds-color-grayscale-800); /* Primary text. */
+  --color-gray-850: var(--gcds-color-grayscale-850);
+  --color-gray-900: var(--gcds-color-grayscale-900);
 
   /* Colour: Green */
+  --color-green-50: var(--gcds-color-green-50);
   --color-green-100: var(--gcds-color-green-100);
+  --color-green-150: var(--gcds-color-green-150);
+  --color-green-200: var(--gcds-color-green-200);
+  --color-green-250: var(--gcds-color-green-250);
+  --color-green-300: var(--gcds-color-green-300);
+  --color-green-350: var(--gcds-color-green-350);
+  --color-green-400: var(--gcds-color-green-400);
+  --color-green-450: var(--gcds-color-green-450);
   --color-green-500: var(--gcds-color-green-500);
+  --color-green-550: var(--gcds-color-green-550);
+  --color-green-600: var(--gcds-color-green-600);
+  --color-green-650: var(--gcds-color-green-650);
   --color-green-700: var(--gcds-color-green-700);
+  --color-green-750: var(--gcds-color-green-750);
   --color-green-800: var(--gcds-color-green-800);
-
-  /* Colour: Orange */
-  --color-orange-700: var(--gcds-color-orange-700);
+  --color-green-850: var(--gcds-color-green-850);
+  --color-green-900: var(--gcds-color-green-900);
 
   /* Colour: Purple */
+  --color-purple-50: var(--gcds-color-purple-50);
+  --color-purple-100: var(--gcds-color-purple-100);
+  --color-purple-150: var(--gcds-color-purple-150);
+  --color-purple-200: var(--gcds-color-purple-200);
+  --color-purple-250: var(--gcds-color-purple-250);
+  --color-purple-300: var(--gcds-color-purple-300);
+  --color-purple-350: var(--gcds-color-purple-350);
+  --color-purple-400: var(--gcds-color-purple-400);
+  --color-purple-450: var(--gcds-color-purple-450);
+  --color-purple-500: var(--gcds-color-purple-500);
+  --color-purple-550: var(--gcds-color-purple-550);
+  --color-purple-600: var(--gcds-color-purple-600);
+  --color-purple-650: var(--gcds-color-purple-650);
   --color-purple-700: var(--gcds-color-purple-700);
+  --color-purple-750: var(--gcds-color-purple-750);
+  --color-purple-800: var(--gcds-color-purple-800);
+  --color-purple-850: var(--gcds-color-purple-850);
+  --color-purple-900: var(--gcds-color-purple-900);
 
   /* Colour: Red */
+  --color-red-50: var(--gcds-color-red-50);
   --color-red-100: var(--gcds-color-red-100);
+  --color-red-150: var(--gcds-color-red-150);
+  --color-red-200: var(--gcds-color-red-200);
+  --color-red-250: var(--gcds-color-red-250);
+  --color-red-300: var(--gcds-color-red-300);
+  --color-red-350: var(--gcds-color-red-350);
+  --color-red-400: var(--gcds-color-red-400);
+  --color-red-450: var(--gcds-color-red-450);
   --color-red-500: var(--gcds-color-red-500);
+  --color-red-550: var(--gcds-color-red-550);
+  --color-red-600: var(--gcds-color-red-600);
+  --color-red-650: var(--gcds-color-red-650);
   --color-red-700: var(--gcds-color-red-700);
+  --color-red-750: var(--gcds-color-red-750);
+  --color-red-800: var(--gcds-color-red-800);
+  --color-red-850: var(--gcds-color-red-850);
   --color-red-900: var(--gcds-color-red-900);
-  --color-red-flag: var(--gcds-color-red-flag);
+
+  /* Colour: White */
+  --color-white: var(--gcds-color-white);
 
   /* Colour: Yellow */
+  --color-yellow-50: var(--gcds-color-yellow-50);
   --color-yellow-100: var(--gcds-color-yellow-100);
+  --color-yellow-150: var(--gcds-color-yellow-150);
+  --color-yellow-200: var(--gcds-color-yellow-200);
+  --color-yellow-250: var(--gcds-color-yellow-250);
+  --color-yellow-300: var(--gcds-color-yellow-300);
+  --color-yellow-350: var(--gcds-color-yellow-350);
+  --color-yellow-400: var(--gcds-color-yellow-400);
+  --color-yellow-450: var(--gcds-color-yellow-450);
   --color-yellow-500: var(--gcds-color-yellow-500);
+  --color-yellow-550: var(--gcds-color-yellow-550);
+  --color-yellow-600: var(--gcds-color-yellow-600);
+  --color-yellow-650: var(--gcds-color-yellow-650);
+  --color-yellow-700: var(--gcds-color-yellow-700);
+  --color-yellow-750: var(--gcds-color-yellow-750);
+  --color-yellow-800: var(--gcds-color-yellow-800);
+  --color-yellow-850: var(--gcds-color-yellow-850);
+  --color-yellow-900: var(--gcds-color-yellow-900);
 
   /* Colour: Others */
   --color-current: currentColor;
@@ -417,11 +504,21 @@
 
 @theme extend {
   /* ----- Background colours ----- */
-  --background-color-dark: var(--gcds-bg-dark); /* Main dark background colour. */
-  --background-color-danger: var(--gcds-danger-background); /* Background colour for background emphasis on a destructive action or critical feedback. */
-  --background-color-focus: var(--gcds-focus-background); /* Background colour only for focus on interactive elements. */
-  --background-color-light: var(--gcds-bg-light); /* Light background colour (alternative to white). */
-  --background-color-primary: var(--gcds-bg-primary); /* Highlight background colour. */
+  --background-color-dark: var(
+    --gcds-bg-dark
+  ); /* Main dark background colour. */
+  --background-color-danger: var(
+    --gcds-danger-background
+  ); /* Background colour for background emphasis on a destructive action or critical feedback. */
+  --background-color-focus: var(
+    --gcds-focus-background
+  ); /* Background colour only for focus on interactive elements. */
+  --background-color-light: var(
+    --gcds-bg-light
+  ); /* Light background colour (alternative to white). */
+  --background-color-primary: var(
+    --gcds-bg-primary
+  ); /* Highlight background colour. */
   --background-color-white: var(--gcds-bg-white); /* Main background colour. */
 
   /* ----- Border radius ----- */
@@ -447,5 +544,7 @@
   /* ----- Text colours ----- */
   --text-color-light: var(--gcds-text-light); /* Main light text colour. */
   --text-color-primary: var(--gcds-text-primary); /* Main text colour. */
-  --text-color-secondary: var(--gcds-text-secondary); /* Contrast text colour (alternative to primary). */
+  --text-color-secondary: var(
+    --gcds-text-secondary
+  ); /* Contrast text colour (alternative to primary). */
 }
