@@ -977,6 +977,9 @@ export const GcdsHeadingH6Mobile = {
   lineHeight: "140%",
   fontSize: "1.25rem",
 };
+export const GcdsHeadingRoleLight = "#ffffff";
+export const GcdsHeadingRolePrimary = "#333333";
+export const GcdsHeadingRoleSecondary = "#43474e";
 export const GcdsHeadingSpacing0 = "0rem";
 export const GcdsHeadingSpacing25 = "0.125rem";
 export const GcdsHeadingSpacing50 = "0.25rem";
@@ -1275,9 +1278,13 @@ export const GcdsPaginationMobileListBorder = "#284162";
 export const GcdsPaginationMobileListItemMargin = "0.125rem";
 export const GcdsPaginationMobileListPrevnextMargin = "0.75rem auto 0";
 export const GcdsPaginationSimpleLabelFontWeight = "400";
-export const GcdsPaginationSimpleListitemMargin = "0.375rem 0.375rem 0.75rem";
+export const GcdsPaginationSimpleListitemDividerBorder =
+  "0.0625rem solid #a8adb4";
+export const GcdsPaginationSimpleListitemDividerMargin = "1rem";
+export const GcdsPaginationSimpleListitemDividerPadding = "0 0 1rem 0";
+export const GcdsPaginationSimpleListitemMargin = "0";
 export const GcdsPaginationSimpleListitemTextMargin = "0 0 0.125rem";
-export const GcdsPaginationSimplePadding = "0.75rem 0.5rem";
+export const GcdsPaginationSimplePadding = "0.5rem 0.75rem 0.5rem 0.125rem";
 export const GcdsRadioBorderRadius = "100%";
 export const GcdsRadioCheckBorderWidth = "0.3125rem";
 export const GcdsRadioCheckHeightAndWidth = "1.125rem";

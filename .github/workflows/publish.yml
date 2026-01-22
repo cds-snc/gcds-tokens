@@ -24,6 +24,12 @@ jobs:
       - name: Git Checkout
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
 
+      - name: Setup Node
+        uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5.0.0
+        with:
+          node-version: "24"
+          registry-url: "https://registry.npmjs.org"
+
       - name: Get version from package.json
         id: get_version
         run: echo "VERSION=$(jq -r '.version' package.json)" >> $GITHUB_ENV
@@ -39,10 +45,8 @@ jobs:
 
       - name: Publish
         if: env.pkg_exists != 'true'
-        uses: JS-DevTools/npm-publish@e6cc16d2d37d6c24b542679f7b14ca20ba56d40a
         id: publish
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
+        run: npm publish --ignore-scripts --access public
 
       - name: Sleep for 60 seconds to give more time for NPM to complete publishing before proceeding to publish the rest
         if: env.pkg_exists != 'true'
