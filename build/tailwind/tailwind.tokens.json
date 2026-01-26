@@ -516,7 +516,7 @@
     },
     "bg": {
       "dark": {
-        "value": "#262626",
+        "value": "#333333",
         "type": "color"
       },
       "light": {

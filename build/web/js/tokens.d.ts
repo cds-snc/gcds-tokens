@@ -21,6 +21,7 @@ export const GcdsColorBlue750: string;
 export const GcdsColorBlue800: string;
 export const GcdsColorBlue850: string;
 export const GcdsColorBlue900: string;
+/** Primary colour */
 export const GcdsColorBlueMuted: string;
 /** Focus and hover colour */
 export const GcdsColorBlueVivid: string;
