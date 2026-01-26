@@ -12,14 +12,14 @@
   --gcds-notice-content-slotted-font-mobile: 400 1.125rem/155% 'Noto Sans', sans-serif;
   --gcds-notice-content-slotted-list-margin: 1.5rem;
   --gcds-notice-content-slotted-margin: 0.5rem;
-  --gcds-notice-danger-text: #a62a1e;
+  --gcds-notice-danger-text: #b3192e;
   --gcds-notice-icon-after-height: calc(100% - (3rem + 0.5rem));
   --gcds-notice-icon-before-height: 1.125rem;
   --gcds-notice-icon-gap: 0.875rem;
   --gcds-notice-icon-margin: 0.125rem auto 0;
   --gcds-notice-icon-width: 2.25rem;
-  --gcds-notice-info-text: #1e7b96;
+  --gcds-notice-info-text: #2962a3;
   --gcds-notice-text: #333333;
-  --gcds-notice-success-text: #03662a;
-  --gcds-notice-warning-text: #be5a00;
+  --gcds-notice-success-text: #196636;
+  --gcds-notice-warning-text: #f2ad0d;
 }

@@ -2,49 +2,120 @@
  * Do not edit directly, this file was auto-generated.
  */
 
+export const GcdsColorBlack: string;
+export const GcdsColorBlue50: string;
 export const GcdsColorBlue100: string;
-/** Must contrast 3:1 with white */
+export const GcdsColorBlue150: string;
+export const GcdsColorBlue200: string;
+export const GcdsColorBlue250: string;
+export const GcdsColorBlue300: string;
+export const GcdsColorBlue350: string;
+export const GcdsColorBlue400: string;
+export const GcdsColorBlue450: string;
 export const GcdsColorBlue500: string;
+export const GcdsColorBlue550: string;
+export const GcdsColorBlue600: string;
 export const GcdsColorBlue650: string;
-/** Must contrast 7:1 with white */
 export const GcdsColorBlue700: string;
 export const GcdsColorBlue750: string;
 export const GcdsColorBlue800: string;
-/** Focus and hover colour */
 export const GcdsColorBlue850: string;
 export const GcdsColorBlue900: string;
-export const GcdsColorGrayscale0: string;
+/** Primary colour */
+export const GcdsColorBlueMuted: string;
+/** Focus and hover colour */
+export const GcdsColorBlueVivid: string;
 export const GcdsColorGrayscale50: string;
 export const GcdsColorGrayscale100: string;
+export const GcdsColorGrayscale150: string;
+export const GcdsColorGrayscale200: string;
+export const GcdsColorGrayscale250: string;
 export const GcdsColorGrayscale300: string;
-/** Must contrast 3:1 with white */
+export const GcdsColorGrayscale350: string;
+export const GcdsColorGrayscale400: string;
+export const GcdsColorGrayscale450: string;
 export const GcdsColorGrayscale500: string;
-/** Must contrast 7:1 with white */
+export const GcdsColorGrayscale550: string;
+export const GcdsColorGrayscale600: string;
+export const GcdsColorGrayscale650: string;
 export const GcdsColorGrayscale700: string;
+export const GcdsColorGrayscale750: string;
 export const GcdsColorGrayscale800: string;
+export const GcdsColorGrayscale850: string;
 export const GcdsColorGrayscale900: string;
-export const GcdsColorGrayscale1000: string;
+export const GcdsColorGreen50: string;
 export const GcdsColorGreen100: string;
-/** Must contrast 3:1 with white */
+export const GcdsColorGreen150: string;
+export const GcdsColorGreen200: string;
+export const GcdsColorGreen250: string;
+export const GcdsColorGreen300: string;
+export const GcdsColorGreen350: string;
+export const GcdsColorGreen400: string;
+export const GcdsColorGreen450: string;
 export const GcdsColorGreen500: string;
-/** Must contrast 7:1 with white */
+export const GcdsColorGreen550: string;
+export const GcdsColorGreen600: string;
+export const GcdsColorGreen650: string;
 export const GcdsColorGreen700: string;
+export const GcdsColorGreen750: string;
 export const GcdsColorGreen800: string;
-/** Must contrast 7:1 with white */
+export const GcdsColorGreen850: string;
+export const GcdsColorGreen900: string;
+export const GcdsColorPurple50: string;
+export const GcdsColorPurple100: string;
+export const GcdsColorPurple150: string;
+export const GcdsColorPurple200: string;
+export const GcdsColorPurple250: string;
+export const GcdsColorPurple300: string;
+export const GcdsColorPurple350: string;
+export const GcdsColorPurple400: string;
+export const GcdsColorPurple450: string;
+export const GcdsColorPurple500: string;
+export const GcdsColorPurple550: string;
+export const GcdsColorPurple600: string;
+export const GcdsColorPurple650: string;
 export const GcdsColorPurple700: string;
-/** Must contrast 7:1 with white */
-export const GcdsColorOrange700: string;
+export const GcdsColorPurple750: string;
+export const GcdsColorPurple800: string;
+export const GcdsColorPurple850: string;
+export const GcdsColorPurple900: string;
+export const GcdsColorRed50: string;
 export const GcdsColorRed100: string;
-/** Must contrast 3:1 with white */
+export const GcdsColorRed150: string;
+export const GcdsColorRed200: string;
+export const GcdsColorRed250: string;
+export const GcdsColorRed300: string;
+export const GcdsColorRed350: string;
+export const GcdsColorRed400: string;
+export const GcdsColorRed450: string;
 export const GcdsColorRed500: string;
-/** Must contrast 7:1 with white */
+export const GcdsColorRed550: string;
+export const GcdsColorRed600: string;
+export const GcdsColorRed650: string;
 export const GcdsColorRed700: string;
+export const GcdsColorRed750: string;
+export const GcdsColorRed800: string;
+export const GcdsColorRed850: string;
 export const GcdsColorRed900: string;
-/** Signature flag colour - FIP red */
-export const GcdsColorRedFlag: string;
+export const GcdsColorWhite: string;
+export const GcdsColorYellow50: string;
 export const GcdsColorYellow100: string;
-/** Must contrast 3:1 with white */
+export const GcdsColorYellow150: string;
+export const GcdsColorYellow200: string;
+export const GcdsColorYellow250: string;
+export const GcdsColorYellow300: string;
+export const GcdsColorYellow350: string;
+export const GcdsColorYellow400: string;
+export const GcdsColorYellow450: string;
 export const GcdsColorYellow500: string;
+export const GcdsColorYellow550: string;
+export const GcdsColorYellow600: string;
+export const GcdsColorYellow650: string;
+export const GcdsColorYellow700: string;
+export const GcdsColorYellow750: string;
+export const GcdsColorYellow800: string;
+export const GcdsColorYellow850: string;
+export const GcdsColorYellow900: string;
 /** Global border: radius sm */
 export const GcdsBorderRadiusSm: string;
 /** Global border: radius md */
@@ -886,6 +957,7 @@ export const GcdsFooterBandPaddingDesktop: string;
 export const GcdsFooterBandPaddingMobile: string;
 export const GcdsFooterContainerMargin: string;
 export const GcdsFooterContainerWidth: string;
+/** Footer background colour - Canada.ca style */
 export const GcdsFooterContextualBackground: string;
 export const GcdsFooterContextualText: string;
 /** Mandatory elements alignment: sub-components of footer use 16px font. */
@@ -953,6 +1025,7 @@ export const GcdsHeadingCharacterLimitH4: string;
 export const GcdsHeadingCharacterLimitH5: string;
 export const GcdsHeadingCharacterLimitH6: string;
 export const GcdsHeadingDefaultText: string;
+/** Heading accent colour - Canada.ca style */
 export const GcdsHeadingH1BorderBackground: string;
 export const GcdsHeadingH1BorderHeight: string;
 export const GcdsHeadingH1BorderMargin: string;
@@ -1215,6 +1288,7 @@ export const GcdsNavGroupTopNavTriggerUnderlineOffset: string;
 export const GcdsNavGroupTopNavTriggerExpandedBackgroundColor: string;
 export const GcdsNavGroupTopNavTriggerIconMargin: string;
 export const GcdsNavGroupTopNavTriggerPadding: string;
+export const GcdsNavGroupTopNavTriggerText: string;
 export const GcdsNavGroupTriggerFocusBackground: string;
 export const GcdsNavGroupTriggerFocusText: string;
 export const GcdsNavGroupTriggerFocusBorderRadius: string;
@@ -1262,6 +1336,7 @@ export const GcdsNavLinkTopNavHomeFont: {
 export const GcdsNavLinkTopNavHomePadding: string;
 export const GcdsNavLinkTopNavPadding: string;
 export const GcdsNavLinkTopNavText: string;
+export const GcdsNavLinkTopNavTextPrimary: string;
 export const GcdsNavLinkTopNavMargin: string;
 export const GcdsNoticeBorderWidth: string;
 export const GcdsNoticeContentHeadingFontDesktop: {
@@ -1451,6 +1526,7 @@ export const GcdsSelectMargin: string;
 export const GcdsSelectMinWidthAndHeight: string;
 export const GcdsSelectOutlineWidth: string;
 export const GcdsSelectPadding: string;
+export const GcdsSideNavHeadingColor: string;
 export const GcdsSideNavHeadingFont: {
   fontFamily: string;
   fontWeight: string;
@@ -1460,6 +1536,7 @@ export const GcdsSideNavHeadingFont: {
 export const GcdsSideNavHeadingMargin: string;
 export const GcdsSideNavHeadingPadding: string;
 export const GcdsSideNavMaxWidth: string;
+/** Signature flag colour - FIP red */
 export const GcdsSignatureColorFlag: string;
 export const GcdsSignatureColorText: string;
 export const GcdsSignatureSignatureHeight: string;

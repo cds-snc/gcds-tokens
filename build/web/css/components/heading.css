@@ -10,7 +10,7 @@
   --gcds-heading-character-limit-h5: 50ch;
   --gcds-heading-character-limit-h6: 57ch;
   --gcds-heading-default-text: #333333;
-  --gcds-heading-h1-border-background: #a62a1e;
+  --gcds-heading-h1-border-background: #a62a1e; /** Heading accent colour - Canada.ca style */
   --gcds-heading-h1-border-height: 0.375rem;
   --gcds-heading-h1-border-margin: 0.5rem;
   --gcds-heading-h1-border-width: 4.5rem;
@@ -28,7 +28,7 @@
   --gcds-heading-h6-mobile: 700 1.25rem/140% 'Lato', sans-serif;
   --gcds-heading-role-light: #ffffff;
   --gcds-heading-role-primary: #333333;
-  --gcds-heading-role-secondary: #43474e;
+  --gcds-heading-role-secondary: #595959;
   --gcds-heading-spacing-0: 0rem;
   --gcds-heading-spacing-25: 0.125rem;
   --gcds-heading-spacing-50: 0.25rem;

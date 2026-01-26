@@ -2,7 +2,7 @@ name: Issue opened
 
 on:
   issues:
-    types: 
+    types:
       - opened
 
 permissions:
