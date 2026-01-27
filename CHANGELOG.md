@@ -74,7 +74,7 @@ Dans cette version :
 
 ## 🎨 Échelle de couleurs étendue
 
-Avec la version 1.0.0, les unités de style SDGC offrent maintenant une échelle de couleurs complète et fine pour les couleurs primaires et neutres. Chaque couleur comprend plusieurs nuances (p. ex., `blue -50` jusqu’à `blue-900`), offrant une plus grande flexibilité, uniformité et accessibilité dans la conception et le développement.
+Avec la version 1.0.0, les unités de style SDGC offrent maintenant une échelle de couleurs complète et fine pour les couleurs primaires et neutres. Chaque couleur comprend plusieurs nuances (p. ex., `blue-50` jusqu’à `blue-900`), offrant une plus grande flexibilité, uniformité et accessibilité dans la conception et le développement.
 
 - Plus de nuances pour chaque famille de couleurs (bleu, vert, violet, rouge, jaune, niveaux de gris, etc.)
 - Il est plus facile de répondre aux exigences de conception et d’assurer un contraste accessible.
