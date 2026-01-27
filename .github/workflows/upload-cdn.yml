@@ -51,6 +51,6 @@ jobs:
         if: success()
         run: |
           VERSION=$(npm view ${{ env.PACKAGE_NAME }} version)
-          json='{"text":"🚀 New release available@ @gcds-core/tokens *version <https://github.com/cds-snc/gcds-tokens/releases/tag/gcds-tokens-v'$VERSION'|$VERSION>*"}'
+          json='{"text":"🚀 New release available on @gcds-core/tokens *version <https://github.com/cds-snc/gcds-tokens/releases/tag/gcds-tokens-v'$VERSION'|$VERSION>*"}'
           echo "Posting to slack: $json"
           curl -X POST -H 'Content-type: application/json' --data "$json" ${{ secrets.SLACK_WEBHOOK_DSNDEV }}
