@@ -86,6 +86,6 @@ Consultez le guide de migration pour en savoir plus sur les unités de style de 
 
 Si vous utilisez actuellement **`@cdssnc/gcds-tokens’**, vous devrez migrer vers la nouvelle version pour continuer à recevoir des mises à jour et des améliorations.
 
-👉 **Suivez le guide de migration :** \*\*\[Migration de @cdssnc/gcds-tokens vers @gcds-core/tokens](./docs/migration/stable-v1.md)**
+👉 **Suivez le guide de migration : [Migration de @cdssnc/gcds-tokens vers @gcds-core/tokens](./docs/migration/stable-v1.md)**
 
 **Remarque&nbsp;:** Comme les unités de style SDGC avaient été publiées auparavant en tant que produit alpha @cdssnc/gcds-tokens, nous avons conservé une version archivée du journal des modifications. Vous pouvez y accéder [ici](archived/CHANGELOG.md). Nous avons désactivé le paquet @cdssnc/gcds-tokens sur npm. Il ne recevra plus de mises à jour ni de corrections de bogues, et nous recommandons fortement la migration vers @gcds-core/tokens pour continuer à recevoir des améliorations et nouvelles versions.
