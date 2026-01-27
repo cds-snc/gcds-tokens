@@ -42,5 +42,5 @@ If you are currently using **`@cdssnc/gcds-tokens@2.14.0`**, you’ll need to mi
 **[Migrating from @cdssnc/gcds-tokens to @gcds-core/tokens](./docs/migration/stable-v1.md)**
 
 
-**Note**: Since GCDS Tokens was previously released as an alpha product `@cdssnc/gcds-tokens`, we’ve kept an archived version of the CHANGELOG which can be found [here](archived/CHANGELOG.md).
+**Note**: Since GCDS Tokens was previously released as an alpha product `@cdssnc/gcds-tokens`, we’ve kept an archived version of the CHANGELOG which can be found [here](archived/CHANGELOG-tokens.md).
 We have deprecated the `@cdssnc/gcds-tokens` package on npm. It will no longer receive updates or bug fixes, and we strongly recommend migrating to `@gcds-core/tokens` to continue receiving improvements and future releases.
