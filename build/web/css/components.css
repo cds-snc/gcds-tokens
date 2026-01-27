@@ -112,7 +112,6 @@
   --gcds-alert-content-slotted-list-margin: 1.5rem;
   --gcds-alert-content-slotted-margin: 0.5rem;
   --gcds-alert-font: 400 1.25rem/160% 'Noto Sans', sans-serif;
-  --gcds-alert-icon-font-size: 2.25rem;
   --gcds-alert-icon-mobile-margin: 0 0 0.875rem;
   --gcds-alert-padding: 0.75rem 0.875rem;
   --gcds-alert-text: #333333;
@@ -147,7 +146,6 @@
   --gcds-button-secondary-default-background: rgba(0, 0, 0, 0);
   --gcds-button-secondary-default-text: #26374a;
   --gcds-button-secondary-hover-background: #d6e4f5;
-  --gcds-button-secondary-active-background: #d6e4f5;
   --gcds-button-mobile-margin: 0.125rem 0;
   --gcds-button-mobile-width: 100%;
   --gcds-button-shared-active-background: #000000;
@@ -201,9 +199,7 @@
   --gcds-checkbox-default-background: #ffffff;
   --gcds-checkbox-default-text: #333333;
   --gcds-checkbox-disabled-background: #d9d9d9;
-  --gcds-checkbox-disabled-border: #999999;
   --gcds-checkbox-disabled-text: #808080;
-  --gcds-checkbox-error-padding: 0 0 0 3.75rem;
   --gcds-checkbox-fieldset-margin: 0 0 1rem;
   --gcds-checkbox-focus-background: #ffffff;
   --gcds-checkbox-focus-box-shadow: 0 0 0 0.125rem #ffffff;
@@ -228,9 +224,7 @@
   --gcds-date-input-danger-border: #b3192e;
   --gcds-date-input-fieldset-font-desktop: 700 1.25rem/160% 'Noto Sans', sans-serif;
   --gcds-date-input-fieldset-font-mobile: 700 1.125rem/155% 'Noto Sans', sans-serif;
-  --gcds-date-input-fieldset-error-margin: 0;
   --gcds-date-input-fieldset-hint-margin: 0.375rem 0 0.125rem;
-  --gcds-date-input-fieldset-margin: 0 0 1.125rem;
   --gcds-date-input-fieldset-required-font-desktop: 400 1.25rem/160% 'Noto Sans', sans-serif;
   --gcds-date-input-fieldset-required-font-mobile: 400 1.125rem/155% 'Noto Sans', sans-serif;
   --gcds-date-input-fieldset-required-margin: 0 0 0 0.375rem;
@@ -266,7 +260,6 @@
   --gcds-details-summary-arrow-border-top-bottom: 0.5rem;
   --gcds-details-summary-arrow-left: 0.375rem;
   --gcds-details-summary-arrow-top: 0.875rem;
-  --gcds-details-summary-border-width: 0.0625rem;
   --gcds-details-summary-padding: 0.375rem 0.375rem 0.375rem 2.5rem;
   --gcds-error-message-text-color: #b3192e;
   --gcds-error-summary-border-color: #b3192e;
@@ -295,7 +288,6 @@
   --gcds-file-uploader-button-border-radius: 0.375rem;
   --gcds-file-uploader-button-border-width: 0.125rem;
   --gcds-file-uploader-button-font-weight: 500;
-  --gcds-file-uploader-button-outline-width: 0.25rem;
   --gcds-file-uploader-button-margin: 0 0 1.125rem;
   --gcds-file-uploader-button-padding: 0.625rem 0.75rem;
   --gcds-file-uploader-button-text: #26374a;
@@ -306,8 +298,6 @@
   --gcds-file-uploader-font-mobile: 400 1.125rem/140% 'Noto Sans', sans-serif;
   --gcds-file-uploader-file-border-color: #8c8c8c;
   --gcds-file-uploader-file-border-width: 0.125rem;
-  --gcds-file-uploader-file-button-border-width: 0.0625rem;
-  --gcds-file-uploader-file-button-border-radius: 0.375rem;
   --gcds-file-uploader-file-button-underline-offset: 0.25rem;
   --gcds-file-uploader-file-button-default-text: #b3192e;
   --gcds-file-uploader-file-button-default-decoration-thickness: 0.0625rem;
@@ -373,7 +363,6 @@
   --gcds-header-brand-border-width: 0.0625rem;
   --gcds-header-brand-grid-gap: 0.5rem;
   --gcds-header-brand-padding: 0.5rem 0 1rem;
-  --gcds-header-brand-toggle-padding: 0 1.125rem;
   --gcds-header-container-max-width: 71.25rem;
   --gcds-header-margin: 0 0 3rem;
   --gcds-header-menu-top-nav-mobile-trigger-margin: 1rem;
@@ -542,7 +531,6 @@
   --gcds-nav-group-top-nav-dropdown-box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
   --gcds-nav-group-top-nav-dropdown-padding: 0.75rem 0.75rem 0.125rem;
   --gcds-nav-group-top-nav-dropdown-width: 20rem;
-  --gcds-nav-group-top-nav-trigger-hover-background: #e6e6e6;
   --gcds-nav-group-top-nav-trigger-hover-text: #1354ec;
   --gcds-nav-group-top-nav-trigger-hover-decoration-thickness: 0.125rem;
   --gcds-nav-group-top-nav-trigger-decoration-thickness: 0.0625rem;
@@ -624,7 +612,6 @@
   --gcds-pagination-font-mobile: 500 1.125rem/155% 'Noto Sans', sans-serif;
   --gcds-pagination-list-end-button-padding: 0.5rem;
   --gcds-pagination-listitem-margin: 0.375rem;
-  --gcds-pagination-mobile-list-border: #1f497a;
   --gcds-pagination-mobile-list-item-margin: 0.125rem;
   --gcds-pagination-mobile-list-prevnext-margin: 0.75rem auto 0;
   --gcds-pagination-simple-label-font-weight: 400;
@@ -635,7 +622,6 @@
   --gcds-pagination-simple-listitem-text-margin: 0 0 0.125rem;
   --gcds-pagination-simple-padding: 0.5rem 0.75rem 0.5rem 0.125rem;
   --gcds-radio-border-radius: 100%;
-  --gcds-radio-check-border-width: 0.3125rem;
   --gcds-radio-check-height-and-width: 1.125rem;
   --gcds-radio-check-left: 0.9375rem;
   --gcds-radio-check-top: 0.9375rem;
@@ -750,7 +736,6 @@
   --gcds-topic-menu-font: 400 1rem/150% 'Noto Sans', sans-serif; /** Mandatory elements alignment: sub-components of header use 16px font */
   --gcds-topic-menu-max-width: 71.25rem;
   --gcds-topic-menu-menuitem-border-block-end: #545961;
-  --gcds-topic-menu-menuitem-border-inline-end: #ffffff;
   --gcds-topic-menu-menuitem-expanded-background: #ffffff;
   --gcds-topic-menu-menuitem-expanded-text: #333333;
   --gcds-topic-menu-menuitem-padding: 0.75rem 1.5rem;
@@ -759,7 +744,6 @@
   --gcds-topic-menu-menuitem-width: 22.5rem;
   --gcds-topic-menu-mobile-item-expanded-margin-inline-start: 3.75rem;
   --gcds-topic-menu-mobile-item-expanded-padding-inline-start: 3.75rem;
-  --gcds-topic-menu-mobile-menuitem-background: #d6d9dd;
   --gcds-topic-menu-mobile-mostrequested-background: #d6d9dd;
   --gcds-topic-menu-mobile-mostrequested-border: #a8adb4;
   --gcds-topic-menu-mobile-mostrequested-expanded-margin-inline-start: 6rem;
@@ -784,7 +768,6 @@
   --gcds-topic-menu-topiclist-box-shadow: 0.5rem 0.5rem 0.5rem 0.375rem rgba(0,0,0,.1);
   --gcds-topic-menu-topiclist-item-first-font: 700 1.8125rem/137% 'Noto Sans', sans-serif;
   --gcds-topic-menu-topiclist-item-first-margin-block-end: 2.25rem;
-  --gcds-topic-menu-topiclist-item-first-width: 100%;
   --gcds-topic-menu-topiclist-item-last-left: 25rem;
   --gcds-topic-menu-topiclist-item-last-top: 6rem;
   --gcds-topic-menu-topiclist-left: 22.5rem;

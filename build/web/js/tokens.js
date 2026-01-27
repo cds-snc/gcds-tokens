@@ -495,7 +495,6 @@ export const GcdsAlertFont = {
   lineHeight: "160%",
   fontSize: "1.25rem",
 };
-export const GcdsAlertIconFontSize = "2.25rem";
 export const GcdsAlertIconMobileMargin = "0 0 0.875rem";
 export const GcdsAlertPadding = "0.75rem 0.875rem";
 export const GcdsAlertText = "#333333";
@@ -545,7 +544,6 @@ export const GcdsButtonPrimaryHoverBackground = "#1f497a";
 export const GcdsButtonSecondaryDefaultBackground = "#00000000";
 export const GcdsButtonSecondaryDefaultText = "#26374a";
 export const GcdsButtonSecondaryHoverBackground = "#d6e4f5";
-export const GcdsButtonSecondaryActiveBackground = "#d6e4f5";
 export const GcdsButtonMobileMargin = "0.125rem 0";
 export const GcdsButtonMobileWidth = "100%";
 export const GcdsButtonSharedActiveBackground = "#000000";
@@ -639,9 +637,7 @@ export const GcdsCheckboxDangerBorder = "#b3192e";
 export const GcdsCheckboxDefaultBackground = "#ffffff";
 export const GcdsCheckboxDefaultText = "#333333";
 export const GcdsCheckboxDisabledBackground = "#d9d9d9";
-export const GcdsCheckboxDisabledBorder = "#999999";
 export const GcdsCheckboxDisabledText = "#808080";
-export const GcdsCheckboxErrorPadding = "0 0 0 3.75rem";
 export const GcdsCheckboxFieldsetMargin = "0 0 1rem";
 export const GcdsCheckboxFocusBackground = "#ffffff";
 export const GcdsCheckboxFocusBoxShadow = "0 0 0 0.125rem #ffffff";
@@ -711,9 +707,7 @@ export const GcdsDateInputFieldsetFontMobile = {
   lineHeight: "155%",
   fontSize: "1.125rem",
 };
-export const GcdsDateInputFieldsetErrorMargin = "0";
 export const GcdsDateInputFieldsetHintMargin = "0.375rem 0 0.125rem";
-export const GcdsDateInputFieldsetMargin = "0 0 1.125rem";
 export const GcdsDateInputFieldsetRequiredFontDesktop = {
   fontFamily: "'Noto Sans', sans-serif",
   fontWeight: "400",
@@ -794,7 +788,6 @@ export const GcdsDetailsSummaryArrowBorderLeft = "0.875rem";
 export const GcdsDetailsSummaryArrowBorderTopBottom = "0.5rem";
 export const GcdsDetailsSummaryArrowLeft = "0.375rem";
 export const GcdsDetailsSummaryArrowTop = "0.875rem";
-export const GcdsDetailsSummaryBorderWidth = "0.0625rem";
 export const GcdsDetailsSummaryPadding = "0.375rem 0.375rem 0.375rem 2.5rem";
 export const GcdsErrorMessageTextColor = "#b3192e";
 export const GcdsErrorSummaryBorderColor = "#b3192e";
@@ -873,7 +866,6 @@ export const GcdsFileUploaderButtonBackground = "#ffffff";
 export const GcdsFileUploaderButtonBorderRadius = "0.375rem";
 export const GcdsFileUploaderButtonBorderWidth = "0.125rem";
 export const GcdsFileUploaderButtonFontWeight = "500";
-export const GcdsFileUploaderButtonOutlineWidth = "0.25rem";
 export const GcdsFileUploaderButtonMargin = "0 0 1.125rem";
 export const GcdsFileUploaderButtonPadding = "0.625rem 0.75rem";
 export const GcdsFileUploaderButtonText = "#26374a";
@@ -894,8 +886,6 @@ export const GcdsFileUploaderFontMobile = {
 };
 export const GcdsFileUploaderFileBorderColor = "#8c8c8c";
 export const GcdsFileUploaderFileBorderWidth = "0.125rem";
-export const GcdsFileUploaderFileButtonBorderWidth = "0.0625rem";
-export const GcdsFileUploaderFileButtonBorderRadius = "0.375rem";
 export const GcdsFileUploaderFileButtonUnderlineOffset = "0.25rem";
 export const GcdsFileUploaderFileButtonDefaultText = "#b3192e";
 export const GcdsFileUploaderFileButtonDefaultDecorationThickness = "0.0625rem";
@@ -971,7 +961,6 @@ export const GcdsHeaderBrandBorderColor = "#d9d9d9";
 export const GcdsHeaderBrandBorderWidth = "0.0625rem";
 export const GcdsHeaderBrandGridGap = "0.5rem";
 export const GcdsHeaderBrandPadding = "0.5rem 0 1rem";
-export const GcdsHeaderBrandTogglePadding = "0 1.125rem";
 export const GcdsHeaderContainerMaxWidth = "71.25rem";
 export const GcdsHeaderMargin = "0 0 3rem";
 export const GcdsHeaderMenuTopNavMobileTriggerMargin = "1rem";
@@ -1236,7 +1225,6 @@ export const GcdsNavGroupTopNavDropdownBoxShadow =
   "0 0 0.5rem rgba(0, 0, 0, 0.25)";
 export const GcdsNavGroupTopNavDropdownPadding = "0.75rem 0.75rem 0.125rem";
 export const GcdsNavGroupTopNavDropdownWidth = "20rem";
-export const GcdsNavGroupTopNavTriggerHoverBackground = "#e6e6e6";
 export const GcdsNavGroupTopNavTriggerHoverText = "#1354ec";
 export const GcdsNavGroupTopNavTriggerHoverDecorationThickness = "0.125rem";
 export const GcdsNavGroupTopNavTriggerDecorationThickness = "0.0625rem";
@@ -1358,7 +1346,6 @@ export const GcdsPaginationFontMobile = {
 };
 export const GcdsPaginationListEndButtonPadding = "0.5rem";
 export const GcdsPaginationListitemMargin = "0.375rem";
-export const GcdsPaginationMobileListBorder = "#1f497a";
 export const GcdsPaginationMobileListItemMargin = "0.125rem";
 export const GcdsPaginationMobileListPrevnextMargin = "0.75rem auto 0";
 export const GcdsPaginationSimpleLabelFontWeight = "400";
@@ -1370,7 +1357,6 @@ export const GcdsPaginationSimpleListitemMargin = "0";
 export const GcdsPaginationSimpleListitemTextMargin = "0 0 0.125rem";
 export const GcdsPaginationSimplePadding = "0.5rem 0.75rem 0.5rem 0.125rem";
 export const GcdsRadioBorderRadius = "100%";
-export const GcdsRadioCheckBorderWidth = "0.3125rem";
 export const GcdsRadioCheckHeightAndWidth = "1.125rem";
 export const GcdsRadioCheckLeft = "0.9375rem";
 export const GcdsRadioCheckTop = "0.9375rem";
@@ -1565,7 +1551,6 @@ export const GcdsTopicMenuFont = {
 }; // Mandatory elements alignment: sub-components of header use 16px font
 export const GcdsTopicMenuMaxWidth = "71.25rem";
 export const GcdsTopicMenuMenuitemBorderBlockEnd = "#545961";
-export const GcdsTopicMenuMenuitemBorderInlineEnd = "#ffffff";
 export const GcdsTopicMenuMenuitemExpandedBackground = "#ffffff";
 export const GcdsTopicMenuMenuitemExpandedText = "#333333";
 export const GcdsTopicMenuMenuitemPadding = "0.75rem 1.5rem";
@@ -1574,7 +1559,6 @@ export const GcdsTopicMenuMenuitemTextUnderlineOffset = "0.25rem";
 export const GcdsTopicMenuMenuitemWidth = "22.5rem";
 export const GcdsTopicMenuMobileItemExpandedMarginInlineStart = "3.75rem";
 export const GcdsTopicMenuMobileItemExpandedPaddingInlineStart = "3.75rem";
-export const GcdsTopicMenuMobileMenuitemBackground = "#d6d9dd";
 export const GcdsTopicMenuMobileMostrequestedBackground = "#d6d9dd";
 export const GcdsTopicMenuMobileMostrequestedBorder = "#a8adb4";
 export const GcdsTopicMenuMobileMostrequestedExpandedMarginInlineStart = "6rem";
@@ -1606,7 +1590,6 @@ export const GcdsTopicMenuTopiclistItemFirstFont = {
   fontSize: "1.8125rem",
 };
 export const GcdsTopicMenuTopiclistItemFirstMarginBlockEnd = "2.25rem";
-export const GcdsTopicMenuTopiclistItemFirstWidth = "100%";
 export const GcdsTopicMenuTopiclistItemLastLeft = "25rem";
 export const GcdsTopicMenuTopiclistItemLastTop = "6rem";
 export const GcdsTopicMenuTopiclistLeft = "22.5rem";
