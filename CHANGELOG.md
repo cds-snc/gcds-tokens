@@ -1,8 +1,7 @@
 ([Français](#journal-des-modifications))
-
 # Changelog
 ## v1.0.0
-Released on: 2026-02-27
+Released on: 2026-01-27
 
 ## 🎉 GCDS Tokens v1.0.0 is now available
 
@@ -45,15 +44,13 @@ If you're currently using **`@cdssnc/gcds-tokens`**, you’ll need to migrate to
 **Note**: Since GCDS Tokens was previously released as an alpha product `@cdssnc/gcds-tokens`, we’ve kept an archived version of the CHANGELOG which can be found [here](archived/CHANGELOG.md).
 We've deprecated the `@cdssnc/gcds-tokens` package on npm. It will no longer receive updates or bug fixes, and we strongly recommend migrating to `@gcds-core/tokens` to continue receiving improvements and future releases.
 
-# Journal des modifications
-## v1.0.0
-Publié le : 2026-02-27
+---
 
 # Journal des modifications
 
 ## v1.0.0
 
-Version publiée le&nbsp;: 2026-XX-XX
+Version publiée le&nbsp;: 2026-01-27
 
 ## 🎉 Les unités de style de Système de design GC (SDGC) v1.0.0 sont maintenant disponibles
 
@@ -77,7 +74,7 @@ Dans cette version :
 
 ## 🎨 Échelle de couleurs étendue
 
-Avec la version 1.0.0, les unités de style SDGC offrent maintenant une échelle de couleurs complète et fine pour toutes les couleurs primaires et neutres. Chaque couleur comprend plusieurs nuances (p. ex., `blue -50` jusqu’à `blue-900`), offrant une plus grande flexibilité, uniformité et accessibilité dans la conception et le développement.
+Avec la version 1.0.0, les unités de style SDGC offrent maintenant une échelle de couleurs complète et fine pour les couleurs primaires et neutres. Chaque couleur comprend plusieurs nuances (p. ex., `blue -50` jusqu’à `blue-900`), offrant une plus grande flexibilité, uniformité et accessibilité dans la conception et le développement.
 
 - Plus de nuances pour chaque famille de couleurs (bleu, vert, violet, rouge, jaune, niveaux de gris, etc.)
 - Il est plus facile de répondre aux exigences de conception et d’assurer un contraste accessible.
