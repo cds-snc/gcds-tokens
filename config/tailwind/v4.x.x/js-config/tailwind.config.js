@@ -1,5 +1,5 @@
 // Import GC Design System tokens
-import tokens from '@cdssnc/gcds-tokens/build/tailwind/tailwind.tokens.json';
+import tokens from '@gcds-core/tokens/build/tailwind/tailwind.tokens.json';
 
 const {
   black,

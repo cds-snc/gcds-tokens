@@ -5,7 +5,7 @@
 @config "../tailwind.config.js";
 
 /* Import GCDS tokens */
-@import "@cdssnc/gcds-tokens/build/web/css/tokens.css";
+@import "@gcds-core/tokens/build/web/css/tokens.css";
 
 @layer base {
   *,
