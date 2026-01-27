@@ -19,10 +19,12 @@ jobs:
   upload-to-cdn:
     name: Upload package to CDN
     runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success' }}
+    if: ${{ (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success') || github.event_name == 'workflow_dispatch' }}
     steps:
       - name: Git Checkout
         uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+        with:
+          ref: ${{ github.event.workflow_run.head_sha }}
 
       - name: Configure AWS credentials using OIDC
         uses: aws-actions/configure-aws-credentials@7474bc4690e29a8392af63c5b98e7449536d5c3a # v4.3.1
@@ -39,6 +41,7 @@ jobs:
           echo "Uploading package to the CDN: $PUBLISHED_PACKAGE"
 
           mkdir -p ./tmp \
+            && sleep 60 \
             && npm install --prefix ./tmp "$PUBLISHED_PACKAGE" \
             && cd ./tmp/node_modules
 
