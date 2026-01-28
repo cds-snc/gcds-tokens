@@ -1,0 +1,56 @@
+name: Upload GCDS Tokens to CDN
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Publish GCDS Tokens"]
+    types:
+      - completed
+
+permissions:
+  id-token: write
+  contents: read
+
+env:
+  CDN_BUCKET: gc-design-system-production-cdn
+  CDN_REGION: ca-central-1
+  PACKAGE_NAME: '@gcds-core/tokens'
+
+jobs:
+  upload-to-cdn:
+    name: Upload package to CDN
+    runs-on: ubuntu-latest
+    if: ${{ (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success') || github.event_name == 'workflow_dispatch' }}
+    steps:
+      - name: Configure AWS credentials using OIDC
+        uses: aws-actions/configure-aws-credentials@7474bc4690e29a8392af63c5b98e7449536d5c3a # v4.3.1
+        with:
+          role-to-assume: arn:aws:iam::307395567143:role/gcds-tokens-apply
+          role-session-name: CDNPublish
+          aws-region: ${{ env.CDN_REGION }}
+
+      - name: Update CDN
+        run: |
+          # Wait for npm registry propagation
+          sleep 60
+
+          VERSION=$(npm view ${{ env.PACKAGE_NAME }} version)
+          PUBLISHED_PACKAGE="${{ env.PACKAGE_NAME }}@$VERSION"
+          echo "Uploading package to the CDN: $PUBLISHED_PACKAGE"
+
+          mkdir -p ./tmp
+          npm install --prefix ./tmp "$PUBLISHED_PACKAGE"
+
+          aws s3 sync ./tmp/node_modules/${{ env.PACKAGE_NAME }} s3://${{ env.CDN_BUCKET }}/"$PUBLISHED_PACKAGE" --delete
+          aws s3 sync ./tmp/node_modules/${{ env.PACKAGE_NAME }} s3://${{ env.CDN_BUCKET }}/${{ env.PACKAGE_NAME }}@latest --delete
+          aws s3api head-object --bucket ${{ env.CDN_BUCKET }} --key "$PUBLISHED_PACKAGE"/package.json
+          aws s3api head-object --bucket ${{ env.CDN_BUCKET }} --key ${{ env.PACKAGE_NAME }}@latest/package.json
+
+          aws cloudfront create-invalidation --distribution-id ${{ secrets.CDN_CLOUDFRONT_DIST_ID }} --paths "/*"
+
+      - name: Slack notify on CDN upload
+        if: success()
+        run: |
+          VERSION=$(npm view ${{ env.PACKAGE_NAME }} version)
+          json='{"text":"🚀 New release available on @gcds-core/tokens *version <https://github.com/cds-snc/gcds-tokens/releases/tag/gcds-tokens-v'$VERSION'|$VERSION>*"}'
+          echo "Posting to slack: $json"
+          curl -X POST -H 'Content-type: application/json' --data "$json" ${{ secrets.SLACK_WEBHOOK_DSNDEV }}

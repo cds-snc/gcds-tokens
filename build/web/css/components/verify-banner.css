@@ -3,7 +3,7 @@
  */
 
 :root {
-  --gcds-verify-banner-background: #f1f2f3;
+  --gcds-verify-banner-background: #f2f2f2;
   --gcds-verify-banner-container-xs: 20rem;
   --gcds-verify-banner-container-sm: 30rem;
   --gcds-verify-banner-container-md: 48rem;
@@ -11,7 +11,7 @@
   --gcds-verify-banner-container-xl: 71.25rem;
   --gcds-verify-banner-container-full: 100%;
   --gcds-verify-banner-container-padding: 1.125rem;
-  --gcds-verify-banner-content-border-color: #7d828b;
+  --gcds-verify-banner-content-border-color: #8c8c8c;
   --gcds-verify-banner-content-border-width: 0.0625rem;
   --gcds-verify-banner-content-heading-margin: 0 0 0.125rem;
   --gcds-verify-banner-content-padding-block-start: 1.5rem;
@@ -20,6 +20,6 @@
   --gcds-verify-banner-summary-padding: 0.75rem;
   --gcds-verify-banner-summary-content-margin: 0 1.125rem 0 0;
   --gcds-verify-banner-text: #333333;
-  --gcds-verify-banner-toggle-text: #284162;
+  --gcds-verify-banner-toggle-text: #1f497a;
   --gcds-verify-banner-toggle-font-weight: 700;
 }

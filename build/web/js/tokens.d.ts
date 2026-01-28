@@ -2,49 +2,120 @@
  * Do not edit directly, this file was auto-generated.
  */
 
+export const GcdsColorBlack: string;
+export const GcdsColorBlue50: string;
 export const GcdsColorBlue100: string;
-/** Must contrast 3:1 with white */
+export const GcdsColorBlue150: string;
+export const GcdsColorBlue200: string;
+export const GcdsColorBlue250: string;
+export const GcdsColorBlue300: string;
+export const GcdsColorBlue350: string;
+export const GcdsColorBlue400: string;
+export const GcdsColorBlue450: string;
 export const GcdsColorBlue500: string;
+export const GcdsColorBlue550: string;
+export const GcdsColorBlue600: string;
 export const GcdsColorBlue650: string;
-/** Must contrast 7:1 with white */
 export const GcdsColorBlue700: string;
 export const GcdsColorBlue750: string;
 export const GcdsColorBlue800: string;
-/** Focus and hover colour */
 export const GcdsColorBlue850: string;
 export const GcdsColorBlue900: string;
-export const GcdsColorGrayscale0: string;
+/** Primary colour */
+export const GcdsColorBlueMuted: string;
+/** Focus and hover colour */
+export const GcdsColorBlueVivid: string;
 export const GcdsColorGrayscale50: string;
 export const GcdsColorGrayscale100: string;
+export const GcdsColorGrayscale150: string;
+export const GcdsColorGrayscale200: string;
+export const GcdsColorGrayscale250: string;
 export const GcdsColorGrayscale300: string;
-/** Must contrast 3:1 with white */
+export const GcdsColorGrayscale350: string;
+export const GcdsColorGrayscale400: string;
+export const GcdsColorGrayscale450: string;
 export const GcdsColorGrayscale500: string;
-/** Must contrast 7:1 with white */
+export const GcdsColorGrayscale550: string;
+export const GcdsColorGrayscale600: string;
+export const GcdsColorGrayscale650: string;
 export const GcdsColorGrayscale700: string;
+export const GcdsColorGrayscale750: string;
 export const GcdsColorGrayscale800: string;
+export const GcdsColorGrayscale850: string;
 export const GcdsColorGrayscale900: string;
-export const GcdsColorGrayscale1000: string;
+export const GcdsColorGreen50: string;
 export const GcdsColorGreen100: string;
-/** Must contrast 3:1 with white */
+export const GcdsColorGreen150: string;
+export const GcdsColorGreen200: string;
+export const GcdsColorGreen250: string;
+export const GcdsColorGreen300: string;
+export const GcdsColorGreen350: string;
+export const GcdsColorGreen400: string;
+export const GcdsColorGreen450: string;
 export const GcdsColorGreen500: string;
-/** Must contrast 7:1 with white */
+export const GcdsColorGreen550: string;
+export const GcdsColorGreen600: string;
+export const GcdsColorGreen650: string;
 export const GcdsColorGreen700: string;
+export const GcdsColorGreen750: string;
 export const GcdsColorGreen800: string;
-/** Must contrast 7:1 with white */
+export const GcdsColorGreen850: string;
+export const GcdsColorGreen900: string;
+export const GcdsColorPurple50: string;
+export const GcdsColorPurple100: string;
+export const GcdsColorPurple150: string;
+export const GcdsColorPurple200: string;
+export const GcdsColorPurple250: string;
+export const GcdsColorPurple300: string;
+export const GcdsColorPurple350: string;
+export const GcdsColorPurple400: string;
+export const GcdsColorPurple450: string;
+export const GcdsColorPurple500: string;
+export const GcdsColorPurple550: string;
+export const GcdsColorPurple600: string;
+export const GcdsColorPurple650: string;
 export const GcdsColorPurple700: string;
-/** Must contrast 7:1 with white */
-export const GcdsColorOrange700: string;
+export const GcdsColorPurple750: string;
+export const GcdsColorPurple800: string;
+export const GcdsColorPurple850: string;
+export const GcdsColorPurple900: string;
+export const GcdsColorRed50: string;
 export const GcdsColorRed100: string;
-/** Must contrast 3:1 with white */
+export const GcdsColorRed150: string;
+export const GcdsColorRed200: string;
+export const GcdsColorRed250: string;
+export const GcdsColorRed300: string;
+export const GcdsColorRed350: string;
+export const GcdsColorRed400: string;
+export const GcdsColorRed450: string;
 export const GcdsColorRed500: string;
-/** Must contrast 7:1 with white */
+export const GcdsColorRed550: string;
+export const GcdsColorRed600: string;
+export const GcdsColorRed650: string;
 export const GcdsColorRed700: string;
+export const GcdsColorRed750: string;
+export const GcdsColorRed800: string;
+export const GcdsColorRed850: string;
 export const GcdsColorRed900: string;
-/** Signature flag colour - FIP red */
-export const GcdsColorRedFlag: string;
+export const GcdsColorWhite: string;
+export const GcdsColorYellow50: string;
 export const GcdsColorYellow100: string;
-/** Must contrast 3:1 with white */
+export const GcdsColorYellow150: string;
+export const GcdsColorYellow200: string;
+export const GcdsColorYellow250: string;
+export const GcdsColorYellow300: string;
+export const GcdsColorYellow350: string;
+export const GcdsColorYellow400: string;
+export const GcdsColorYellow450: string;
 export const GcdsColorYellow500: string;
+export const GcdsColorYellow550: string;
+export const GcdsColorYellow600: string;
+export const GcdsColorYellow650: string;
+export const GcdsColorYellow700: string;
+export const GcdsColorYellow750: string;
+export const GcdsColorYellow800: string;
+export const GcdsColorYellow850: string;
+export const GcdsColorYellow900: string;
 /** Global border: radius sm */
 export const GcdsBorderRadiusSm: string;
 /** Global border: radius md */
@@ -461,7 +532,6 @@ export const GcdsAlertFont: {
   lineHeight: string;
   fontSize: string;
 };
-export const GcdsAlertIconFontSize: string;
 export const GcdsAlertIconMobileMargin: string;
 export const GcdsAlertPadding: string;
 export const GcdsAlertText: string;
@@ -512,7 +582,6 @@ export const GcdsButtonPrimaryHoverBackground: string;
 export const GcdsButtonSecondaryDefaultBackground: string;
 export const GcdsButtonSecondaryDefaultText: string;
 export const GcdsButtonSecondaryHoverBackground: string;
-export const GcdsButtonSecondaryActiveBackground: string;
 export const GcdsButtonMobileMargin: string;
 export const GcdsButtonMobileWidth: string;
 export const GcdsButtonSharedActiveBackground: string;
@@ -606,9 +675,7 @@ export const GcdsCheckboxDangerBorder: string;
 export const GcdsCheckboxDefaultBackground: string;
 export const GcdsCheckboxDefaultText: string;
 export const GcdsCheckboxDisabledBackground: string;
-export const GcdsCheckboxDisabledBorder: string;
 export const GcdsCheckboxDisabledText: string;
-export const GcdsCheckboxErrorPadding: string;
 export const GcdsCheckboxFieldsetMargin: string;
 export const GcdsCheckboxFocusBackground: string;
 export const GcdsCheckboxFocusBoxShadow: string;
@@ -678,9 +745,7 @@ export const GcdsDateInputFieldsetFontMobile: {
   lineHeight: string;
   fontSize: string;
 };
-export const GcdsDateInputFieldsetErrorMargin: string;
 export const GcdsDateInputFieldsetHintMargin: string;
-export const GcdsDateInputFieldsetMargin: string;
 export const GcdsDateInputFieldsetRequiredFontDesktop: {
   fontFamily: string;
   fontWeight: string;
@@ -762,7 +827,6 @@ export const GcdsDetailsSummaryArrowBorderLeft: string;
 export const GcdsDetailsSummaryArrowBorderTopBottom: string;
 export const GcdsDetailsSummaryArrowLeft: string;
 export const GcdsDetailsSummaryArrowTop: string;
-export const GcdsDetailsSummaryBorderWidth: string;
 export const GcdsDetailsSummaryPadding: string;
 export const GcdsErrorMessageTextColor: string;
 export const GcdsErrorSummaryBorderColor: string;
@@ -841,7 +905,6 @@ export const GcdsFileUploaderButtonBackground: string;
 export const GcdsFileUploaderButtonBorderRadius: string;
 export const GcdsFileUploaderButtonBorderWidth: string;
 export const GcdsFileUploaderButtonFontWeight: string;
-export const GcdsFileUploaderButtonOutlineWidth: string;
 export const GcdsFileUploaderButtonMargin: string;
 export const GcdsFileUploaderButtonPadding: string;
 export const GcdsFileUploaderButtonText: string;
@@ -862,8 +925,6 @@ export const GcdsFileUploaderFontMobile: {
 };
 export const GcdsFileUploaderFileBorderColor: string;
 export const GcdsFileUploaderFileBorderWidth: string;
-export const GcdsFileUploaderFileButtonBorderWidth: string;
-export const GcdsFileUploaderFileButtonBorderRadius: string;
 export const GcdsFileUploaderFileButtonUnderlineOffset: string;
 export const GcdsFileUploaderFileButtonDefaultText: string;
 export const GcdsFileUploaderFileButtonDefaultDecorationThickness: string;
@@ -886,6 +947,7 @@ export const GcdsFooterBandPaddingDesktop: string;
 export const GcdsFooterBandPaddingMobile: string;
 export const GcdsFooterContainerMargin: string;
 export const GcdsFooterContainerWidth: string;
+/** Footer background colour - Canada.ca style */
 export const GcdsFooterContextualBackground: string;
 export const GcdsFooterContextualText: string;
 /** Mandatory elements alignment: sub-components of footer use 16px font. */
@@ -941,7 +1003,6 @@ export const GcdsHeaderBrandBorderColor: string;
 export const GcdsHeaderBrandBorderWidth: string;
 export const GcdsHeaderBrandGridGap: string;
 export const GcdsHeaderBrandPadding: string;
-export const GcdsHeaderBrandTogglePadding: string;
 export const GcdsHeaderContainerMaxWidth: string;
 export const GcdsHeaderMargin: string;
 export const GcdsHeaderMenuTopNavMobileTriggerMargin: string;
@@ -953,6 +1014,7 @@ export const GcdsHeadingCharacterLimitH4: string;
 export const GcdsHeadingCharacterLimitH5: string;
 export const GcdsHeadingCharacterLimitH6: string;
 export const GcdsHeadingDefaultText: string;
+/** Heading accent colour - Canada.ca style */
 export const GcdsHeadingH1BorderBackground: string;
 export const GcdsHeadingH1BorderHeight: string;
 export const GcdsHeadingH1BorderMargin: string;
@@ -1207,7 +1269,6 @@ export const GcdsNavGroupTopNavDropdownBackground: string;
 export const GcdsNavGroupTopNavDropdownBoxShadow: string;
 export const GcdsNavGroupTopNavDropdownPadding: string;
 export const GcdsNavGroupTopNavDropdownWidth: string;
-export const GcdsNavGroupTopNavTriggerHoverBackground: string;
 export const GcdsNavGroupTopNavTriggerHoverText: string;
 export const GcdsNavGroupTopNavTriggerHoverDecorationThickness: string;
 export const GcdsNavGroupTopNavTriggerDecorationThickness: string;
@@ -1215,6 +1276,7 @@ export const GcdsNavGroupTopNavTriggerUnderlineOffset: string;
 export const GcdsNavGroupTopNavTriggerExpandedBackgroundColor: string;
 export const GcdsNavGroupTopNavTriggerIconMargin: string;
 export const GcdsNavGroupTopNavTriggerPadding: string;
+export const GcdsNavGroupTopNavTriggerText: string;
 export const GcdsNavGroupTriggerFocusBackground: string;
 export const GcdsNavGroupTriggerFocusText: string;
 export const GcdsNavGroupTriggerFocusBorderRadius: string;
@@ -1262,6 +1324,7 @@ export const GcdsNavLinkTopNavHomeFont: {
 export const GcdsNavLinkTopNavHomePadding: string;
 export const GcdsNavLinkTopNavPadding: string;
 export const GcdsNavLinkTopNavText: string;
+export const GcdsNavLinkTopNavTextPrimary: string;
 export const GcdsNavLinkTopNavMargin: string;
 export const GcdsNoticeBorderWidth: string;
 export const GcdsNoticeContentHeadingFontDesktop: {
@@ -1327,7 +1390,6 @@ export const GcdsPaginationFontMobile: {
 };
 export const GcdsPaginationListEndButtonPadding: string;
 export const GcdsPaginationListitemMargin: string;
-export const GcdsPaginationMobileListBorder: string;
 export const GcdsPaginationMobileListItemMargin: string;
 export const GcdsPaginationMobileListPrevnextMargin: string;
 export const GcdsPaginationSimpleLabelFontWeight: string;
@@ -1337,22 +1399,7 @@ export const GcdsPaginationSimpleListitemDividerPadding: string;
 export const GcdsPaginationSimpleListitemMargin: string;
 export const GcdsPaginationSimpleListitemTextMargin: string;
 export const GcdsPaginationSimplePadding: string;
-export const GcdsPhaseBannerDetailsCtaMargin: string;
-export const GcdsPhaseBannerFont: {
-  fontFamily: string;
-  fontWeight: string;
-  lineHeight: string;
-  fontSize: string;
-};
-export const GcdsPhaseBannerIconMargin: string;
-export const GcdsPhaseBannerIconMaxHeight: string;
-export const GcdsPhaseBannerPadding: string;
-export const GcdsPhaseBannerPrimaryBackground: string;
-export const GcdsPhaseBannerPrimaryText: string;
-export const GcdsPhaseBannerSecondaryBackground: string;
-export const GcdsPhaseBannerSecondaryText: string;
 export const GcdsRadioBorderRadius: string;
-export const GcdsRadioCheckBorderWidth: string;
 export const GcdsRadioCheckHeightAndWidth: string;
 export const GcdsRadioCheckLeft: string;
 export const GcdsRadioCheckTop: string;
@@ -1465,6 +1512,7 @@ export const GcdsSelectMargin: string;
 export const GcdsSelectMinWidthAndHeight: string;
 export const GcdsSelectOutlineWidth: string;
 export const GcdsSelectPadding: string;
+export const GcdsSideNavHeadingColor: string;
 export const GcdsSideNavHeadingFont: {
   fontFamily: string;
   fontWeight: string;
@@ -1474,6 +1522,7 @@ export const GcdsSideNavHeadingFont: {
 export const GcdsSideNavHeadingMargin: string;
 export const GcdsSideNavHeadingPadding: string;
 export const GcdsSideNavMaxWidth: string;
+/** Signature flag colour - FIP red */
 export const GcdsSignatureColorFlag: string;
 export const GcdsSignatureColorText: string;
 export const GcdsSignatureSignatureHeight: string;
@@ -1551,7 +1600,6 @@ export const GcdsTopicMenuFont: {
 };
 export const GcdsTopicMenuMaxWidth: string;
 export const GcdsTopicMenuMenuitemBorderBlockEnd: string;
-export const GcdsTopicMenuMenuitemBorderInlineEnd: string;
 export const GcdsTopicMenuMenuitemExpandedBackground: string;
 export const GcdsTopicMenuMenuitemExpandedText: string;
 export const GcdsTopicMenuMenuitemPadding: string;
@@ -1560,7 +1608,6 @@ export const GcdsTopicMenuMenuitemTextUnderlineOffset: string;
 export const GcdsTopicMenuMenuitemWidth: string;
 export const GcdsTopicMenuMobileItemExpandedMarginInlineStart: string;
 export const GcdsTopicMenuMobileItemExpandedPaddingInlineStart: string;
-export const GcdsTopicMenuMobileMenuitemBackground: string;
 export const GcdsTopicMenuMobileMostrequestedBackground: string;
 export const GcdsTopicMenuMobileMostrequestedBorder: string;
 export const GcdsTopicMenuMobileMostrequestedExpandedMarginInlineStart: string;
@@ -1593,7 +1640,6 @@ export const GcdsTopicMenuTopiclistItemFirstFont: {
   fontSize: string;
 };
 export const GcdsTopicMenuTopiclistItemFirstMarginBlockEnd: string;
-export const GcdsTopicMenuTopiclistItemFirstWidth: string;
 export const GcdsTopicMenuTopiclistItemLastLeft: string;
 export const GcdsTopicMenuTopiclistItemLastTop: string;
 export const GcdsTopicMenuTopiclistLeft: string;
@@ -1614,27 +1660,3 @@ export const GcdsTopicMenuTopiclistMinHeight: string;
 export const GcdsTopicMenuTopiclistPadding: string;
 export const GcdsTopicMenuTopiclistText: string;
 export const GcdsTopicMenuTopiclistWidth: string;
-export const GcdsVerifyBannerBackground: string;
-export const GcdsVerifyBannerContainerXs: string;
-export const GcdsVerifyBannerContainerSm: string;
-export const GcdsVerifyBannerContainerMd: string;
-export const GcdsVerifyBannerContainerLg: string;
-export const GcdsVerifyBannerContainerXl: string;
-export const GcdsVerifyBannerContainerFull: string;
-export const GcdsVerifyBannerContainerPadding: string;
-export const GcdsVerifyBannerContentBorderColor: string;
-export const GcdsVerifyBannerContentBorderWidth: string;
-export const GcdsVerifyBannerContentHeadingMargin: string;
-export const GcdsVerifyBannerContentPaddingBlockStart: string;
-export const GcdsVerifyBannerContentPaddingBlockEnd: string;
-export const GcdsVerifyBannerFont: {
-  fontFamily: string;
-  fontWeight: string;
-  lineHeight: string;
-  fontSize: string;
-};
-export const GcdsVerifyBannerSummaryPadding: string;
-export const GcdsVerifyBannerSummaryContentMargin: string;
-export const GcdsVerifyBannerText: string;
-export const GcdsVerifyBannerToggleText: string;
-export const GcdsVerifyBannerToggleFontWeight: string;

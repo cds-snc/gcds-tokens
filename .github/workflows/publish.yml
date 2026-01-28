@@ -1,11 +1,9 @@
-name: Publish tokens
+name: Publish GCDS Tokens
 on:
   workflow_dispatch:
   push:
-    branches:
-      - main
-    paths:
-      - 'package.json'
+    tags:
+      - 'gcds-tokens*'
 
 permissions:
   id-token: write
@@ -14,7 +12,7 @@ permissions:
 env:
   CDN_BUCKET: gc-design-system-production-cdn
   CDN_REGION: ca-central-1
-  PACKAGE_NAME: '@cdssnc/gcds-tokens'
+  PACKAGE_NAME: '@gcds-core/tokens'
 
 jobs:
   build-deploy:
@@ -22,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Git Checkout
-        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
 
       - name: Setup Node
         uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5.0.0
@@ -43,7 +41,7 @@ jobs:
             echo "pkg_exists=false" >> $GITHUB_ENV
           fi
 
-      - name: Publish
+      - name: Publish @gcds-core/tokens to npm
         if: env.pkg_exists != 'true'
         id: publish
         run: npm publish --ignore-scripts --access public
@@ -59,23 +57,6 @@ jobs:
           role-session-name: CDNPublish
           aws-region: ${{ env.CDN_REGION }}
 
-      - name: Update CDN
-        run: |
-          PUBLISHED_PACKAGE="${{ env.PACKAGE_NAME }}@${{ env.VERSION }}"
-          echo "Uploading package to the CDN: $PUBLISHED_PACKAGE"
-
-          mkdir -p ./tmp \
-            && sleep 60 \
-            && npm install --prefix ./tmp "$PUBLISHED_PACKAGE" \
-            && cd ./tmp/node_modules
-
-          aws s3 sync ./${{ env.PACKAGE_NAME }} s3://${{ env.CDN_BUCKET }}/"$PUBLISHED_PACKAGE" --delete
-          aws s3 sync ./${{ env.PACKAGE_NAME }} s3://${{ env.CDN_BUCKET }}/${{ env.PACKAGE_NAME }}@latest --delete
-          aws s3api head-object --bucket ${{ env.CDN_BUCKET }} --key "$PUBLISHED_PACKAGE"/package.json
-          aws s3api head-object --bucket ${{ env.CDN_BUCKET }} --key ${{ env.PACKAGE_NAME }}@latest/package.json
-
-          aws cloudfront create-invalidation --distribution-id ${{ secrets.CDN_CLOUDFRONT_DIST_ID }} --paths "/*"
-
       - name: Report deployment to Sentinel
         if: steps.publish.outputs.id != ''
         uses: cds-snc/sentinel-forward-data-action@main
@@ -88,13 +69,13 @@ jobs:
       - name: Slack notify on failure
         if: failure()
         run: |
-          json='{"blocks":[{"type":"section","text":{"type":"mrkdwn","text":":red: Publish @cdssnc/gcds-tokens failed: <https://github.com/cds-snc/gcds-tokens/actions/workflows/publish.yml|Publish tokens>"}}]}'
+          json='{"blocks":[{"type":"section","text":{"type":"mrkdwn","text":":red: Publish @gcds-core/tokens failed: <https://github.com/cds-snc/gcds-tokens/actions/workflows/publish.yml|Publish tokens>"}}]}'
           curl -X POST -H 'Content-type: application/json' --data "$json" ${{ secrets.SLACK_WEBHOOK_OPS }}
 
       - name: Slack notify on release and publish
         if: steps.publish.outputs.id != ''
         run: |
           VERSION=$(jq -r '.version' package.json)
-          json='{"text":"🚀 New release available! @cdssnc/gcds-tokens *version <https://github.com/cds-snc/gcds-tokens/releases/tag/gcds-tokens-v'$VERSION'|${{steps.publish.outputs.id}}>*"}'
+          json='{"text":"🚀 New release available! @gcds-core/tokens *version <https://github.com/cds-snc/gcds-tokens/releases/tag/gcds-tokens-v'$VERSION'|${{steps.publish.outputs.id}}>*"}'
           echo "Posting to slack: $json"
           curl -X POST -H 'Content-type: application/json' --data "$json" ${{ secrets.SLACK_WEBHOOK_DSNDEV }}
