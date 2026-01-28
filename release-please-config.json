@@ -7,7 +7,10 @@
       "bump-patch-for-minor-pre-major": false,
       "draft": false,
       "prerelease": false,
-      "pull-request-title-pattern": "chore: GCDS Tokens Release v${version}"
+      "pull-request-title-pattern": "chore: GCDS Tokens Release v${version}",
+      "component": "@gcds-core/tokens",
+      "release-type": "node",
+      "include-component-in-tag": true
     }
   },
   "changelog-sections": [
