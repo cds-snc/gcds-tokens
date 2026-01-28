@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     tags:
-      - '@gcds-core/tokens-v*'
+      - '@gcds-core/tokens*'
 
 permissions:
   id-token: write
