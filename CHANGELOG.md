@@ -25,7 +25,7 @@ With this release:
 
 ## 🎨 Expanded Colour Scale
 
-With v1.0.0, GCDS Tokens now provides a comprehensive, fine-grained colour scale for primary and neutral colours. Each colour includes multiple shades (e.g., `blue-50` through `blue-900`), for greater flexibility, consistency, and accessibility in design and development.
+With v1.0.0, GCDS Tokens now provides a full and fine-grained colour scale for primary and neutral colours. Each colour includes multiple shades (e.g., `blue-50` through `blue-900`), for greater flexibility, consistency, and accessibility in design and development.
 
 - More shades for each colour family (blue, green, purple, red, yellow, grayscale, etc.)
 - Easier to match design requirements and achieve accessible contrast
