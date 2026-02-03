@@ -5,7 +5,7 @@
 
 ### :bug: :wrench: Bug Fixes
 
-- **gcds-notice:**: improve warning notice icon colour contrast ([#508](https://github.com/cds-snc/gcds-tokens/issues/508)) ([5cebde9](https://github.com/cds-snc/gcds-tokens/commit/5cebde917d102491874b489c7d814c1f677389c7))
+- **gcds-notice**: improve warning notice icon colour contrast ([#508](https://github.com/cds-snc/gcds-tokens/issues/508)) ([5cebde9](https://github.com/cds-snc/gcds-tokens/commit/5cebde917d102491874b489c7d814c1f677389c7))
 
 ## v1.0.0
 Released on: 2026-01-27
