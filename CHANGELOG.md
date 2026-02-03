@@ -1,5 +1,12 @@
 ([Français](#journal-des-modifications))
 # Changelog
+## [1.0.1](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens@1.0.0...@gcds-core/tokens-v1.0.1) (2026-02-03)
+
+
+### :bug: :wrench: Bug Fixes
+
+* improve the icon colour for the warning notice ([#508](https://github.com/cds-snc/gcds-tokens/issues/508)) ([5cebde9](https://github.com/cds-snc/gcds-tokens/commit/5cebde917d102491874b489c7d814c1f677389c7))
+
 ## v1.0.0
 Released on: 2026-01-27
 
