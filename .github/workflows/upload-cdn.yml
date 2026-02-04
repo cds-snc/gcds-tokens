@@ -51,8 +51,8 @@ jobs:
         if: success()
         run: |
           VERSION=$(npm view ${{ env.PACKAGE_NAME }} version)
-          TAG="%40gcds-core/tokens-v${VERSION}"
-          URL="https://github.com/cds-snc/gcds-tokens/tree/${TAG}"
+          TAG="%40gcds-core%2Ftokens-v${VERSION}"
+          URL="https://github.com/cds-snc/gcds-tokens/releases/tag/${TAG}"
           
           json=$(jq -n \
             --arg version "$VERSION" \
