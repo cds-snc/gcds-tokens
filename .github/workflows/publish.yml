@@ -46,17 +46,6 @@ jobs:
         id: publish
         run: npm publish --ignore-scripts --access public
 
-      - name: Sleep for 60 seconds to give more time for NPM to complete publishing before proceeding to publish the rest
-        if: env.pkg_exists != 'true'
-        run: sleep 60
-
-      - name: Configure AWS credentials using OIDC
-        uses: aws-actions/configure-aws-credentials@7474bc4690e29a8392af63c5b98e7449536d5c3a # v4.3.1
-        with:
-          role-to-assume: arn:aws:iam::307395567143:role/gcds-tokens-apply
-          role-session-name: CDNPublish
-          aws-region: ${{ env.CDN_REGION }}
-
       - name: Report deployment to Sentinel
         if: steps.publish.outputs.id != ''
         uses: cds-snc/sentinel-forward-data-action@main
