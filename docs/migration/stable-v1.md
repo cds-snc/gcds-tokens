@@ -161,7 +161,7 @@ Affected components:
 
 - `gcds-alert`
 - `gcds-button`
-- `cds-checkboxes`
+- `gcds-checkboxes`
 - `gcds-date-input`
 - `gcds-details`
 - `gcds-file-uploader`
