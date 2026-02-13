@@ -74,12 +74,16 @@ For PRs that are complex, in lieu of a simple approval or an "LGTM" ✅, include
 
 **Design checklist (if needed)**
 
+For designers, include the following with your approval:
+
 - [ ] I have verified visual outputs generated from tokens where applicable.
 - [ ] The changes meet design expectations and align with the design system and token taxonomy.
 - [ ] I have verified accessibility considerations (e.g., colour contrast, motion, etc.) remain compliant.
 - [ ] Any design inconsistencies have been raised in Slack or tracked via an issue.
 
 **Content checklist (if needed)**
+
+For content, include the following with your approval:
 
 - [ ] I understand the context and intent of the content or documentation changes.
 - [ ] I have reviewed all content for clarity, readability, and tone.
