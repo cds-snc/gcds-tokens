@@ -6,13 +6,14 @@ _TODO:_
 - Please add any screenshots or screen captures of your work (if needed).
 - Include the specifications here or token mapping if you have it.
 
-# 🧩 Related Issues | Cartes liées
+## 🧩 Related Issues | Cartes liées
+
 
 _TODO: Link to related issue(s) that this PR addresses or fixes, i.e. "Closes #124", "Fixes #456"_
 - Issue #
 - Zenhub issue: 
 
-# 🧪 Test instructions | Instructions pour tester la modification
+## 🧪 Test instructions | Instructions pour tester la modification
 
 _TODO: Replace the instructions below as needed. Describe any steps needed to verify the change(s) work as expected._
 
@@ -33,7 +34,7 @@ _TODO: Replace the instructions below as needed. Describe any steps needed to ve
 - [ ] Spot-check generated outputs (CSS/JSON/JS/etc.) for the changed tokens
 - [ ] Confirm no unintended diffs outside the scope of change
 
-# ✍️ Author checklist | Liste de vérification de l'auteur
+## ✍️ Author checklist | Liste de vérification de l'auteur
 
 **Choose one:**
 - [ ] This PR is a patch (use `fix:`)
@@ -59,7 +60,7 @@ _TODO: Replace the instructions below as needed. Describe any steps needed to ve
 - [ ] I have verified token changes remain aligned with design system naming, taxonomy, and semantic standards.
 - [ ] I have ensured test instructions are clear and reproducible.
 
-# 🧐 Reviewer checklist | Liste de vérification du réviseur
+## 🧐 Reviewer checklist | Liste de vérification du réviseur
 
 **Developer checklist**
 
@@ -85,7 +86,7 @@ For PRs that are complex, in lieu of a simple approval or an "LGTM" ✅, include
 - [ ] I have reviewed English and French content for accuracy, terminology consistency, and parity.
 
 
-# ⚠️ Impact/Risks | Risques
+## ⚠️ Impact/Risks | Risques
 
 _Optional: Use this section to highlight any potential implcations, risks or important notes for reviewers or maintainers, i.e. breaking changes, performance implications, dependency updates, etc._
 _Highlight any deprecation notices here_
