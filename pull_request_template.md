@@ -54,6 +54,7 @@ _TODO: Replace the instructions below as needed. Describe any steps needed to ve
 - [ ] I have verified accessibility requirements (contrast, motion, etc.) continue to meet standards.
 - [ ] I have verified token references, aliases, and inheritance chains resolve correctly.
 - [ ] I have confirmed Style Dictionary builds complete successfully across supported output formats.
+- [ ] I have updated the Tailwind config (if necessary)
 - [ ] I have verified token transformations and generated platform outputs produce expected results.
 - [ ] I have added or updated documentation as needed.
 - [ ] For visual or design-affecting token changes, I have posted in the dev-design Slack channel.
