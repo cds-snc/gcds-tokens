@@ -524,7 +524,7 @@ gcds-spacing-900 | 144px |:no_entry_sign: | |  
 gcds-spacing-1000 | 168px |:no_entry_sign:| |
  | | |**new** | gcds-spacing-1250 | 100px
 
-\* :no_entry_sign: the values for these tokens have changed and are now deprecated. The old tokens have been re-assigned new values. [Contact us](https://design-system.alpha.canada.ca/en/contact/) if you are using these tokens.
+\* :no_entry_sign: the values for these tokens have changed and are now deprecated. The old tokens have been re-assigned new values. [Contact us](https://design-system.canada.ca/en/contact/) if you are using these tokens.
 </details>
 
 <details>
@@ -578,7 +578,7 @@ flowchart LR
   end
 ```
 
-\* :no_entry_sign: the values for the tokens in red have changed and are now deprecated. The old tokens have been re-assigned new values. [Contact us](https://design-system.alpha.canada.ca/en/contact/) if you are using these tokens.
+\* :no_entry_sign: the values for the tokens in red have changed and are now deprecated. The old tokens have been re-assigned new values. [Contact us](https://design-system.canada.ca/en/contact/) if you are using these tokens.
 
 </details>
 
@@ -1330,7 +1330,7 @@ gcds-spacing-900 | 144px |:no_entry_sign: | |  
 gcds-spacing-1000 | 168px |:no_entry_sign:| |
  | | |**nouveau** | gcds-spacing-1250 | 100px
 
-\* :no_entry_sign: les valeurs de ces unités de style ont changé et sont désormais obsolètes. Les anciennes unités de styles ont été affectées de nouvelles valeurs. [Contactez-nous](https://systeme-design.alpha.canada.ca/fr/contact/) si vous utilisez ces unités de style.
+\* :no_entry_sign: les valeurs de ces unités de style ont changé et sont désormais obsolètes. Les anciennes unités de styles ont été affectées de nouvelles valeurs. [Contactez-nous](https://systeme-design.canada.ca/fr/contact/) si vous utilisez ces unités de style.
 
 </details>
 
@@ -1386,7 +1386,7 @@ flowchart LR
   end
 ```
 
-\* :no_entry_sign: les valeurs des unités de style en rouge ont changé et sont désormais obsolètes. Les anciennes unités de style ont été affectées avec de nouvelles valeurs. [Contactez-nous](https://design-system.alpha.canada.ca/en/contact/) si vous utilisez ces unités de style.
+\* :no_entry_sign: les valeurs des unités de style en rouge ont changé et sont désormais obsolètes. Les anciennes unités de style ont été affectées avec de nouvelles valeurs. [Contactez-nous](https://design-system.canada.ca/en/contact/) si vous utilisez ces unités de style.
 
 
 </details>

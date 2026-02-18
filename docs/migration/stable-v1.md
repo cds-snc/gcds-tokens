@@ -37,7 +37,7 @@ To migrate to the stable release of GCDS Tokens, follow these steps:
     ```
   - **After:**
     ```scss
-    @import 'https://cdn.design-system.alpha.canada.ca/@gcds-core/gcds-tokens@1.0.0/build/web/css/tokens.css';
+    @import 'https://cdn.design-system.canada.ca/@gcds-core/gcds-tokens@1.0.0/build/web/css/tokens.css';
     ```
 
 ### 2. Update Your Token References and Usage
