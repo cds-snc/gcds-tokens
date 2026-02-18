@@ -26,7 +26,7 @@ We are using [Style Dictionary](https://amzn.github.io/style-dictionary/#/) to b
 
 ---
 ## How to use design tokens
-What are GCDS Design Tokens and what tokens are available to me? Refer to our [documentation on styles and design tokens on our website](https://design-system.alpha.canada.ca/en/styles/design-tokens/) for details.
+What are GCDS Design Tokens and what tokens are available to me? Refer to our [documentation on styles and design tokens on our website](https://design-system.canada.ca/en/styles/design-tokens/) for details.
 
 ### Using design tokens with our GCDS Components or GCDS Utility Framework
 
@@ -168,7 +168,7 @@ Nos unités de style contribuent à créer une expérience visuelle uniforme qui
 Nous utilisons [Style Dictionary](https://amzn.github.io/style-dictionary/#/) pour concevoir nos unités de style.
 
 ## Comment utiliser les unités de style
-Que sont les unités de style de Système de design GC et quelles sont celles à ma disposition? Pour en savoir plus, référez-vous à notre [documentation sur les styles et les unités de style sur notre site Web](https://systeme-design.alpha.canada.ca/fr/styles/unites-de-style/).
+Que sont les unités de style de Système de design GC et quelles sont celles à ma disposition? Pour en savoir plus, référez-vous à notre [documentation sur les styles et les unités de style sur notre site Web](https://systeme-design.canada.ca/fr/styles/unites-de-style/).
 
 ### Utilisation des unités de style avec les composants ou le cadre utilitaire de Système de design GC
 Si vous utilisez l’un des composants de Système de design GC ou son cadre utilitaire, et que vous avez importé une feuille de style CSS de la façon suivante :
