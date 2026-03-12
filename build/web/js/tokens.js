@@ -584,7 +584,8 @@ export const GcdsButtonStartFontMobile = {
 export const GcdsButtonStartPadding = "0.75rem 2rem";
 export const GcdsButtonWidth = "fit-content";
 export const GcdsCardBackgroundColor = "#ffffff";
-export const GcdsCardBoxShadow = "0 0.125rem 0.5rem 0.125rem #00000010";
+export const GcdsCardBorder = "0.0625rem solid #8c8c8c";
+export const GcdsCardBoxShadow = "0 0.125rem 0.5rem 0.125rem #00000010"; // Deprecated since v1.1.0. The card box-shadow has been removed and this token will be deleted in the next major release.
 export const GcdsCardColor = "#333333";
 export const GcdsCardDescriptionFontDesktop = {
   fontFamily: "'Noto Sans', sans-serif",
