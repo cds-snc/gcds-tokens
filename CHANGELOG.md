@@ -9,7 +9,9 @@ Released on: 2026-03-16
 
 * **gcds-card:** replace box-shadow with border for improved accessibility and deprecate box-shadow token ([#519](https://github.com/cds-snc/gcds-tokens/issues/519)) ([ce80fd6](https://github.com/cds-snc/gcds-tokens/commit/ce80fd6790d7f5cf1431efefe449f02f45b77484))
 
-## [1.0.1](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens@1.0.0...@gcds-core/tokens-v1.0.1) (2026-02-03)
+## [1.0.1](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens@1.0.0...@gcds-core/tokens-v1.0.1)
+
+Released on: 2026-02-03
 
 
 ### :bug: :wrench: Bug Fixes
