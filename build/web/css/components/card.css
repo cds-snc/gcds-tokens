@@ -4,7 +4,8 @@
 
 :root {
   --gcds-card-background-color: #ffffff;
-  --gcds-card-box-shadow: 0 0.125rem 0.5rem 0.125rem #00000010;
+  --gcds-card-border: 0.0625rem solid #8c8c8c;
+  --gcds-card-box-shadow: 0 0.125rem 0.5rem 0.125rem #00000010; /** Deprecated since v1.1.0. The card box-shadow has been removed and this token will be deleted in the next major release. */
   --gcds-card-color: #333333;
   --gcds-card-description-font-desktop: 400 1.25rem/155% 'Noto Sans', sans-serif;
   --gcds-card-description-font-mobile: 400 1.125rem/155% 'Noto Sans', sans-serif;

@@ -622,6 +622,8 @@ export const GcdsButtonStartFontMobile: {
 export const GcdsButtonStartPadding: string;
 export const GcdsButtonWidth: string;
 export const GcdsCardBackgroundColor: string;
+export const GcdsCardBorder: string;
+/** Deprecated since v1.1.0. The card box-shadow has been removed and this token will be deleted in the next major release. */
 export const GcdsCardBoxShadow: string;
 export const GcdsCardColor: string;
 export const GcdsCardDescriptionFontDesktop: {

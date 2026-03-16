@@ -1977,6 +1977,10 @@
         "value": "#ffffff",
         "type": "color"
       },
+      "border": {
+        "value": "0.0625rem solid #8c8c8c",
+        "type": "border"
+      },
       "boxShadow": {
         "value": "0 0.125rem 0.5rem 0.125rem #00000010",
         "type": "other"
