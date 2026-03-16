@@ -1,13 +1,29 @@
 ([Français](#journal-des-modifications))
-# Changelog
-## [1.0.1](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens@1.0.0...@gcds-core/tokens-v1.0.1) (2026-02-03)
 
+# Changelog
+
+## [1.1.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.0.1...@gcds-core/tokens-v1.1.0)
+
+Released on: 2026-03-16
+
+### :rocket: New Features
+
+- **gcds-card:** add `gcds-card-border` for improved accessibility and deprecate `gcds-card-box-shadow` token ([#519](https://github.com/cds-snc/gcds-tokens/issues/519)) ([ce80fd6](https://github.com/cds-snc/gcds-tokens/commit/ce80fd6790d7f5cf1431efefe449f02f45b77484))
+
+### :warning: Deprecation Notice
+
+`gcds-card-box-shadow` is deprecated and will be removed in the next major release. Do not use this token. Card styling now uses a border instead of a box-shadow.
+
+## [1.0.1](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens@1.0.0...@gcds-core/tokens-v1.0.1)
+
+Released on: 2026-02-03
 
 ### :bug: :wrench: Bug Fixes
 
 - **gcds-notice**: improve warning notice icon colour contrast ([#508](https://github.com/cds-snc/gcds-tokens/issues/508)) ([5cebde9](https://github.com/cds-snc/gcds-tokens/commit/5cebde917d102491874b489c7d814c1f677389c7))
 
 ## v1.0.0
+
 Released on: 2026-01-27
 
 ## 🎉 GCDS Tokens v1.0.0 is now available
@@ -46,7 +62,6 @@ If you're currently using **`@cdssnc/gcds-tokens`**, you’ll need to migrate to
 
 👉 **Follow the migration guide:**
 **[Migrating from @cdssnc/gcds-tokens to @gcds-core/tokens](./docs/migration/stable-v1.md)**
-
 
 **Note**: Since GCDS Tokens was previously released as an alpha product `@cdssnc/gcds-tokens`, we’ve kept an archived version of the CHANGELOG which can be found [here](archived/CHANGELOG.md).
 We've deprecated the `@cdssnc/gcds-tokens` package on npm. It will no longer receive updates or bug fixes, and we strongly recommend migrating to `@gcds-core/tokens` to continue receiving improvements and future releases.
