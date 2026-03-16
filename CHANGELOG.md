@@ -1,6 +1,8 @@
 ([Français](#journal-des-modifications))
 # Changelog
-## [1.1.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.0.1...@gcds-core/tokens-v1.1.0) (2026-03-16)
+## [1.1.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.0.1...@gcds-core/tokens-v1.1.0)
+
+Released on: 2026-03-16
 
 
 ### :rocket: New Features
