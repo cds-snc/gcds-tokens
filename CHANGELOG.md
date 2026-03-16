@@ -12,7 +12,7 @@ Released on: 2026-03-16
 
 ### :warning: Deprecation Notice
 
-The previous `gcds-card-box-shadow` token has been deprecated and marked for removal in the next major release. The token remains in place for backward compatibility but should no longer be used.
+The previous `gcds-card-box-shadow` token has been deprecated and marked for removal in the next major release. The token remains in place for backward compatibility but should no longer be used. The `gcds-card` component now uses `gcds-card-border` instead of `gcds-card-box-shadow` because it now uses a border instead of box-shadow.
 
 ## [1.0.1](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens@1.0.0...@gcds-core/tokens-v1.0.1)
 
