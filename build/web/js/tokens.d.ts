@@ -1263,6 +1263,7 @@ export const GcdsNavGroupMobileTriggerBorderWidth: string;
 export const GcdsNavGroupMobileTriggerMargin: string;
 export const GcdsNavGroupMobileTriggerText: string;
 export const GcdsNavGroupSideNavDropdownPadding: string;
+/** Deprecated since v1.2.0. The nav group trigger will now use a medium font weight for all use cases. */
 export const GcdsNavGroupSideNavTriggerFontWeight: string;
 export const GcdsNavGroupSideNavTriggerHoverBackground: string;
 export const GcdsNavGroupSideNavTriggerIconMargin: string;
@@ -1278,6 +1279,7 @@ export const GcdsNavGroupTopNavTriggerUnderlineOffset: string;
 export const GcdsNavGroupTopNavTriggerExpandedBackgroundColor: string;
 export const GcdsNavGroupTopNavTriggerIconMargin: string;
 export const GcdsNavGroupTopNavTriggerPadding: string;
+/** Deprecated since v1.2.0. The nav group trigger text will now use the --gcds-nav-group-trigger-text token for all use cases. */
 export const GcdsNavGroupTopNavTriggerText: string;
 export const GcdsNavGroupTriggerFocusBackground: string;
 export const GcdsNavGroupTriggerFocusText: string;
@@ -1317,6 +1319,7 @@ export const GcdsNavLinkPadding: string;
 export const GcdsNavLinkSideNavHoverBackground: string;
 export const GcdsNavLinkSideNavPadding: string;
 export const GcdsNavLinkTopNavHoverBackground: string;
+/** Deprecated since v1.2.0. The nav link home font will now use the --gcds-nav-link-home-font token for all use cases. */
 export const GcdsNavLinkTopNavHomeFont: {
   fontFamily: string;
   fontWeight: string;
@@ -1326,6 +1329,7 @@ export const GcdsNavLinkTopNavHomeFont: {
 export const GcdsNavLinkTopNavHomePadding: string;
 export const GcdsNavLinkTopNavPadding: string;
 export const GcdsNavLinkTopNavText: string;
+/** Deprecated since v1.2.0. The nav link home text will now use the --gcds-nav-link-home-text colour token for all use cases. */
 export const GcdsNavLinkTopNavTextPrimary: string;
 export const GcdsNavLinkTopNavMargin: string;
 export const GcdsNoticeBorderWidth: string;
