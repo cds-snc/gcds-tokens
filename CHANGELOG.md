@@ -2,7 +2,9 @@
 
 # Changelog
 
-## [1.2.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.1.0...@gcds-core/tokens-v1.2.0) (2026-03-18)
+## [1.2.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.1.0...@gcds-core/tokens-v1.2.0)
+
+Released on: 2026-03-18
 
 
 ### :rocket: New Features
@@ -12,7 +14,13 @@
 
 ### :warning: Deprecation Notice
 
-* **nav-link + nav-group:** old home link styles in favor of unified styles ([#523](https://github.com/cds-snc/gcds-tokens/issues/523)) ([542cf36](https://github.com/cds-snc/gcds-tokens/commit/542cf3694153c3d1c20b875c8d91c899f6a96101))
+* **nav-link + nav-group:** deprecate old home link styles in favour of unified styles ([#523](https://github.com/cds-snc/gcds-tokens/issues/523)) ([542cf36](https://github.com/cds-snc/gcds-tokens/commit/542cf3694153c3d1c20b875c8d91c899f6a96101))
+The following tokens have been deprecated. They will be deleted in the next major release.
+
+- `--gcds-nav-group-side-nav-trigger-font-weight`
+- `--gcds-nav-group-top-nav-trigger-text`
+- `--gcds-nav-link-top-nav-home-font`
+- `--gcds-nav-link-top-nav-text-primary`
 
 ## [1.1.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.0.1...@gcds-core/tokens-v1.1.0)
 
