@@ -4150,7 +4150,7 @@
           "type": "spacing"
         },
         "text": {
-          "value": "#333333",
+          "value": "#595959",
           "type": "color"
         }
       }
@@ -4238,6 +4238,21 @@
           "fontSize": "1rem"
         },
         "type": "typography"
+      },
+      "home": {
+        "font": {
+          "value": {
+            "fontFamily": "'Noto Sans', sans-serif",
+            "fontWeight": "700",
+            "lineHeight": "150%",
+            "fontSize": "1rem"
+          },
+          "type": "typography"
+        },
+        "text": {
+          "value": "#333333",
+          "type": "color"
+        }
       },
       "hover": {
         "decoration": {
@@ -4957,10 +4972,10 @@
         },
         "font": {
           "value": {
-            "fontFamily": "'Lato', sans-serif",
+            "fontFamily": "'Noto Sans', sans-serif",
             "fontWeight": "700",
-            "lineHeight": "133%",
-            "fontSize": "1.5rem"
+            "lineHeight": "150%",
+            "fontSize": "1rem"
           },
           "type": "typography"
         },
