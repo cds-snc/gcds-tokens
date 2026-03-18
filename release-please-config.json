@@ -20,7 +20,11 @@
     { "type": "perf", "section": ":sparkles: Performance Improvements" },
     { "type": "docs", "section": ":pencil: Documentation" },
     { "type": "remove", "section": ":no_entry: Remove" },
-    { "type": "refactor", "section": ":arrows_counterclockwise: Code Refactoring" },
+    { "type": "deprecate", "section": ":warning: Deprecation Notice" },
+    {
+      "type": "refactor",
+      "section": ":arrows_counterclockwise: Code Refactoring"
+    },
     { "type": "revert", "section": "Reverts", "hidden": true },
     { "type": "chore", "section": "Patch", "hidden": true },
     { "type": "test", "section": "Tests", "hidden": true },
