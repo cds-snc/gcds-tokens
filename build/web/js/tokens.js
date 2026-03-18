@@ -1217,7 +1217,7 @@ export const GcdsNavGroupMobileTriggerBorderWidth = "0.125rem";
 export const GcdsNavGroupMobileTriggerMargin = "0.5rem";
 export const GcdsNavGroupMobileTriggerText = "#26374a";
 export const GcdsNavGroupSideNavDropdownPadding = "1.75rem";
-export const GcdsNavGroupSideNavTriggerFontWeight = "600";
+export const GcdsNavGroupSideNavTriggerFontWeight = "600"; // Deprecated since v1.2.0. The nav group trigger will now use a medium font weight for all use cases. This token will be deleted in the next major release.
 export const GcdsNavGroupSideNavTriggerHoverBackground = "#e6e6e6";
 export const GcdsNavGroupSideNavTriggerIconMargin = "0.5rem";
 export const GcdsNavGroupSideNavTriggerMargin = "0.5rem";
@@ -1233,7 +1233,7 @@ export const GcdsNavGroupTopNavTriggerUnderlineOffset = "0.25rem";
 export const GcdsNavGroupTopNavTriggerExpandedBackgroundColor = "#e6e6e6";
 export const GcdsNavGroupTopNavTriggerIconMargin = "0.5rem";
 export const GcdsNavGroupTopNavTriggerPadding = "1.125rem 1rem";
-export const GcdsNavGroupTopNavTriggerText = "#595959";
+export const GcdsNavGroupTopNavTriggerText = "#595959"; // Deprecated since v1.2.0. The nav group trigger text will now use the --gcds-nav-group-trigger-text token for all use cases. This token will be deleted in the next major release.
 export const GcdsNavGroupTriggerFocusBackground = "#1354ec";
 export const GcdsNavGroupTriggerFocusText = "#ffffff";
 export const GcdsNavGroupTriggerFocusBorderRadius = "0.125rem";
@@ -1284,11 +1284,11 @@ export const GcdsNavLinkTopNavHomeFont = {
   fontWeight: "700",
   lineHeight: "150%",
   fontSize: "1rem",
-};
+}; // Deprecated since v1.2.0. The nav link home font will now use the --gcds-nav-link-home-font token for all use cases. This token will be deleted in the next major release.
 export const GcdsNavLinkTopNavHomePadding = "1rem 0.125rem";
 export const GcdsNavLinkTopNavPadding = "1rem";
 export const GcdsNavLinkTopNavText = "#595959";
-export const GcdsNavLinkTopNavTextPrimary = "#333333";
+export const GcdsNavLinkTopNavTextPrimary = "#333333"; // Deprecated since v1.2.0. The nav link home text will now use the --gcds-nav-link-home-text colour token for all use cases. This token will be deleted in the next major release.
 export const GcdsNavLinkTopNavMargin = "0";
 export const GcdsNoticeBorderWidth = "0.375rem";
 export const GcdsNoticeContentHeadingFontDesktop = {
