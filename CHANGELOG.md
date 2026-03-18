@@ -2,6 +2,18 @@
 
 # Changelog
 
+## [1.2.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.1.0...@gcds-core/tokens-v1.2.0) (2026-03-18)
+
+
+### :rocket: New Features
+
+* **nav-link + nav-group:** support consistent home link styling across top-nav + side-nav ([#521](https://github.com/cds-snc/gcds-tokens/issues/521)) ([0d989ef](https://github.com/cds-snc/gcds-tokens/commit/0d989ef6f6505f93a03ae53ca8d470fe2fe0f29f))
+
+
+### :warning: Deprecation Notice
+
+* **nav-link + nav-group:** old home link styles in favor of unified styles ([#523](https://github.com/cds-snc/gcds-tokens/issues/523)) ([542cf36](https://github.com/cds-snc/gcds-tokens/commit/542cf3694153c3d1c20b875c8d91c899f6a96101))
+
 ## [1.1.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.0.1...@gcds-core/tokens-v1.1.0)
 
 Released on: 2026-03-16
