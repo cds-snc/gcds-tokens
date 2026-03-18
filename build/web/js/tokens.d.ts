@@ -1310,6 +1310,13 @@ export const GcdsNavLinkFont: {
   lineHeight: string;
   fontSize: string;
 };
+export const GcdsNavLinkHomeFont: {
+  fontFamily: string;
+  fontWeight: string;
+  lineHeight: string;
+  fontSize: string;
+};
+export const GcdsNavLinkHomeText: string;
 export const GcdsNavLinkHoverDecorationThickness: string;
 export const GcdsNavLinkHoverText: string;
 export const GcdsNavLinkMargin: string;

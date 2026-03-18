@@ -1243,7 +1243,7 @@ export const GcdsNavGroupTriggerFocusBoxShadow = "0 0 0 0.125rem #ffffff";
 export const GcdsNavGroupTriggerHoverText = "#1354ec";
 export const GcdsNavGroupTriggerMaxWidth = "20rem";
 export const GcdsNavGroupTriggerPadding = "0.625rem 0.75rem";
-export const GcdsNavGroupTriggerText = "#333333";
+export const GcdsNavGroupTriggerText = "#595959";
 export const GcdsNavLinkActiveBorderColor = "#26374a";
 export const GcdsNavLinkActiveFontWeight = "700";
 export const GcdsNavLinkActiveText = "#26374a";
@@ -1265,6 +1265,13 @@ export const GcdsNavLinkFont = {
   lineHeight: "150%",
   fontSize: "1rem",
 };
+export const GcdsNavLinkHomeFont = {
+  fontFamily: "'Noto Sans', sans-serif",
+  fontWeight: "700",
+  lineHeight: "150%",
+  fontSize: "1rem",
+};
+export const GcdsNavLinkHomeText = "#333333";
 export const GcdsNavLinkHoverDecorationThickness = "0.125rem";
 export const GcdsNavLinkHoverText = "#1354ec";
 export const GcdsNavLinkMargin = "0.5rem";
@@ -1471,10 +1478,10 @@ export const GcdsSelectOutlineWidth = "0.25rem";
 export const GcdsSelectPadding = "0.5rem 3.75rem 0.5rem 0.5rem";
 export const GcdsSideNavHeadingColor = "#333333";
 export const GcdsSideNavHeadingFont = {
-  fontFamily: "'Lato', sans-serif",
+  fontFamily: "'Noto Sans', sans-serif",
   fontWeight: "700",
-  lineHeight: "133%",
-  fontSize: "1.5rem",
+  lineHeight: "150%",
+  fontSize: "1rem",
 };
 export const GcdsSideNavHeadingMargin = "0.5rem";
 export const GcdsSideNavHeadingPadding = "0.625rem";

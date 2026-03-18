@@ -19,6 +19,8 @@
   --gcds-nav-link-focus-outline: 0.25rem solid #1354ec;
   --gcds-nav-link-focus-box-shadow: 0 0 0 0.125rem #ffffff;
   --gcds-nav-link-font: 500 1rem/150% 'Noto Sans', sans-serif;
+  --gcds-nav-link-home-font: 700 1rem/150% 'Noto Sans', sans-serif;
+  --gcds-nav-link-home-text: #333333;
   --gcds-nav-link-hover-decoration-thickness: 0.125rem;
   --gcds-nav-link-hover-text: #1354ec;
   --gcds-nav-link-margin: 0.5rem;

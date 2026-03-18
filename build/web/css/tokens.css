@@ -793,7 +793,7 @@
   --gcds-nav-group-trigger-hover-text: #1354ec;
   --gcds-nav-group-trigger-max-width: 20rem;
   --gcds-nav-group-trigger-padding: 0.625rem 0.75rem;
-  --gcds-nav-group-trigger-text: #333333;
+  --gcds-nav-group-trigger-text: #595959;
   --gcds-nav-link-active-border-color: #26374a;
   --gcds-nav-link-active-font-weight: 700;
   --gcds-nav-link-active-text: #26374a;
@@ -810,6 +810,8 @@
   --gcds-nav-link-focus-outline: 0.25rem solid #1354ec;
   --gcds-nav-link-focus-box-shadow: 0 0 0 0.125rem #ffffff;
   --gcds-nav-link-font: 500 1rem/150% 'Noto Sans', sans-serif;
+  --gcds-nav-link-home-font: 700 1rem/150% 'Noto Sans', sans-serif;
+  --gcds-nav-link-home-text: #333333;
   --gcds-nav-link-hover-decoration-thickness: 0.125rem;
   --gcds-nav-link-hover-text: #1354ec;
   --gcds-nav-link-margin: 0.5rem;
@@ -929,7 +931,7 @@
   --gcds-select-outline-width: 0.25rem;
   --gcds-select-padding: 0.5rem 3.75rem 0.5rem 0.5rem;
   --gcds-side-nav-heading-color: #333333;
-  --gcds-side-nav-heading-font: 700 1.5rem/133% 'Lato', sans-serif;
+  --gcds-side-nav-heading-font: 700 1rem/150% 'Noto Sans', sans-serif;
   --gcds-side-nav-heading-margin: 0.5rem;
   --gcds-side-nav-heading-padding: 0.625rem;
   --gcds-side-nav-max-width: 20rem;
