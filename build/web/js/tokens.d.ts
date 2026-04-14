@@ -830,6 +830,7 @@ export const GcdsDetailsSummaryArrowBorderTopBottom: string;
 export const GcdsDetailsSummaryArrowLeft: string;
 export const GcdsDetailsSummaryArrowTop: string;
 export const GcdsDetailsSummaryPadding: string;
+export const GcdsDetailsSummaryUnderlineOffset: string;
 export const GcdsErrorMessageTextColor: string;
 export const GcdsErrorSummaryBorderColor: string;
 export const GcdsErrorSummaryBorderWidth: string;
