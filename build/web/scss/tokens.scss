@@ -761,7 +761,7 @@ $gcds-lang-toggle-padding: 0.375rem 0.625rem;
 $gcds-nav-group-font: 500 1rem/150% 'Noto Sans', sans-serif;
 $gcds-nav-group-mobile-background: #ffffff;
 $gcds-nav-group-mobile-border-radius: var(--gcds-spacing-175) var(--gcds-spacing-175) 0 0;
-$gcds-nav-group-mobile-height: calc(100vh - var(--gcds-spacing-700));
+$gcds-nav-group-mobile-height: calc(100dvh - var(--gcds-spacing-700));
 $gcds-nav-group-mobile-list-margin: 0.875rem 0 0;
 $gcds-nav-group-mobile-overlay-background: rgba(0, 0, 0, 0.25);
 $gcds-nav-group-mobile-padding: 0 1rem 4.75rem 1rem;

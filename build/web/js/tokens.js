@@ -1213,7 +1213,8 @@ export const GcdsNavGroupFont = {
 export const GcdsNavGroupMobileBackground = "#ffffff";
 export const GcdsNavGroupMobileBorderRadius =
   "var(--gcds-spacing-175) var(--gcds-spacing-175) 0 0";
-export const GcdsNavGroupMobileHeight = "calc(100vh - var(--gcds-spacing-700))";
+export const GcdsNavGroupMobileHeight =
+  "calc(100dvh - var(--gcds-spacing-700))";
 export const GcdsNavGroupMobileListMargin = "0.875rem 0 0";
 export const GcdsNavGroupMobileOverlayBackground = "#00000040";
 export const GcdsNavGroupMobilePadding = "0 1rem 4.75rem 1rem";
