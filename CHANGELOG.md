@@ -2,7 +2,9 @@
 
 # Changelog
 
-## [1.3.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.2.0...@gcds-core/tokens-v1.3.0) (2026-04-20)
+## [1.3.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.2.0...@gcds-core/tokens-v1.3.0)
+
+Released on: 2026-04-20
 
 
 ### :rocket: New Features
