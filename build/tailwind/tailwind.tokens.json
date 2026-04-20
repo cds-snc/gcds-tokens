@@ -5178,13 +5178,15 @@
         "value": "71.25rem",
         "type": "sizing"
       },
-      "width-full": {
-        "value": "100%",
-        "type": "sizing"
-      },
-      "width-constrained": {
-        "value": "90%",
-        "type": "sizing"
+      "width": {
+        "full": {
+          "value": "100%",
+          "type": "sizing"
+        },
+        "constrained": {
+          "value": "90%",
+          "type": "sizing"
+        }
       }
     },
     "topic-menu": {
