@@ -3987,14 +3987,26 @@
           "value": "#ffffff",
           "type": "color"
         },
+        "border-radius": {
+          "value": "var(--gcds-spacing-175) var(--gcds-spacing-175) 0 0",
+          "type": "other"
+        },
+        "height": {
+          "value": "calc(100dvh - var(--gcds-spacing-700))",
+          "type": "spacing"
+        },
         "list": {
           "margin": {
             "value": "0.875rem 0 0",
             "type": "spacing"
           }
         },
+        "overlay-background": {
+          "value": "rgba(0, 0, 0, 0.25)",
+          "type": "color"
+        },
         "padding": {
-          "value": "0.5rem 0.875rem 4.75rem 0.875rem",
+          "value": "0 1rem 4.75rem 1rem",
           "type": "spacing"
         },
         "trigger": {
@@ -5165,6 +5177,16 @@
       "maxWidth": {
         "value": "71.25rem",
         "type": "sizing"
+      },
+      "width": {
+        "full": {
+          "value": "100%",
+          "type": "sizing"
+        },
+        "constrained": {
+          "value": "90%",
+          "type": "sizing"
+        }
       }
     },
     "topic-menu": {

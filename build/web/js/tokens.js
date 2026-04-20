@@ -1211,8 +1211,13 @@ export const GcdsNavGroupFont = {
   fontSize: "1rem",
 };
 export const GcdsNavGroupMobileBackground = "#ffffff";
+export const GcdsNavGroupMobileBorderRadius =
+  "var(--gcds-spacing-175) var(--gcds-spacing-175) 0 0";
+export const GcdsNavGroupMobileHeight =
+  "calc(100dvh - var(--gcds-spacing-700))";
 export const GcdsNavGroupMobileListMargin = "0.875rem 0 0";
-export const GcdsNavGroupMobilePadding = "0.5rem 0.875rem 4.75rem 0.875rem";
+export const GcdsNavGroupMobileOverlayBackground = "#00000040";
+export const GcdsNavGroupMobilePadding = "0 1rem 4.75rem 1rem";
 export const GcdsNavGroupMobileTriggerBorderRadius = "0.375rem";
 export const GcdsNavGroupMobileTriggerBorderWidth = "0.125rem";
 export const GcdsNavGroupMobileTriggerMargin = "0.5rem";
@@ -1535,6 +1540,8 @@ export const GcdsTextareaPadding = "0.5rem";
 export const GcdsTopNavBorderColor = "#d9d9d9";
 export const GcdsTopNavBorderWidth = "0.0625rem";
 export const GcdsTopNavMaxWidth = "71.25rem";
+export const GcdsTopNavWidthFull = "100%";
+export const GcdsTopNavWidthConstrained = "90%";
 export const GcdsTopicMenuBorderWidth = "0.0625rem";
 export const GcdsTopicMenuButtonBackground = "#26374a";
 export const GcdsTopicMenuButtonBorder = "#26374a";
