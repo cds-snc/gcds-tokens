@@ -2,6 +2,14 @@
 
 # Changelog
 
+## [1.3.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.2.0...@gcds-core/tokens-v1.3.0) (2026-04-20)
+
+
+### :rocket: New Features
+
+* **gcds-details, gcds-link, gcds-nav-link:** Update underline offset value for link, nav-link and details components ([#527](https://github.com/cds-snc/gcds-tokens/issues/527)) ([8ffaa4e](https://github.com/cds-snc/gcds-tokens/commit/8ffaa4e5ccb8d1fe4663f74545bc0d66ac93ea29))
+* **gcds-top-nav, gcds-nav-group:** Improve mobile navigation layout and top-nav width control ([#529](https://github.com/cds-snc/gcds-tokens/issues/529)) ([3807be9](https://github.com/cds-snc/gcds-tokens/commit/3807be90f606a08dfd48836fdb2e61afe7c6aee2))
+
 ## [1.2.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.1.0...@gcds-core/tokens-v1.2.0)
 
 Released on: 2026-03-18
