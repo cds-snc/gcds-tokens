@@ -1512,6 +1512,97 @@ export const GcdsStepperFontMobile = {
 };
 export const GcdsStepperMarginDesktop = "0 0 0.5rem";
 export const GcdsStepperMarginMobile = "0 0 0.25rem";
+export const GcdsTableActivePillsMargin = "1rem";
+export const GcdsTableActiveSortingBorderColor = "#b3b3b3";
+export const GcdsTableActiveSortingBorderWidth = "0.0625rem";
+export const GcdsTableActiveSortingMargin = "0.25rem";
+export const GcdsTableActiveSortingPadding = "0.5rem";
+export const GcdsTableBorderWidth = "0.0625rem";
+export const GcdsTableButtonPadding = "0.25rem 0.375rem";
+export const GcdsTableCellBorderColor = "#8c8c8c";
+export const GcdsTableCellPaddingDesktop = "0.75rem 0.5rem";
+export const GcdsTableCellPaddingMobile = "0.375rem 0";
+export const GcdsTableCellPaddingMobileFirstLast = "0.75rem";
+export const GcdsTableEmptyPaddingDesktop = "4rem";
+export const GcdsTableEmptyPaddingMobile = "1rem";
+export const GcdsTableFiltersBorderColor = "#d9d9d9";
+export const GcdsTableFiltersBorderWidth = "0.0625rem";
+export const GcdsTableFiltersCountBackground = "#d6e4f5";
+export const GcdsTableFiltersCountBorderRadius = "0.375rem";
+export const GcdsTableFiltersCountText = "#26374a";
+export const GcdsTableFiltersCountLineHeight = "100%";
+export const GcdsTableFiltersCountMargin = "0.25rem";
+export const GcdsTableFiltersCountPadding = "0.25rem 0.5rem";
+export const GcdsTableFiltersMargin = "1rem";
+export const GcdsTableFiltersPadding = "1rem";
+export const GcdsTableFont = {
+  fontFamily: "'Noto Sans', sans-serif",
+  fontWeight: "400",
+  lineHeight: "150%",
+  fontSize: "1rem",
+};
+export const GcdsTableFontSizeSmall = "0.875rem";
+export const GcdsTableFontWeightMobile = "400";
+export const GcdsTableGap = "0.5rem";
+export const GcdsTableHeaderCellBorderColor = "#262626";
+export const GcdsTableHeaderCellBorderWidth = "0.125rem";
+export const GcdsTableHeaderCellFocusBackground = "#1354ec";
+export const GcdsTableHeaderCellFocusBoxShadow = "0 0 0 0.125rem #ffffff";
+export const GcdsTableHeaderCellFocusOutlineOffset = "0.125rem";
+export const GcdsTableHeaderCellFocusOutlineWidth = "0.25rem";
+export const GcdsTableHeaderCellFocusText = "#ffffff";
+export const GcdsTableHeaderCellFontWeight = "700";
+export const GcdsTableHeaderCellHoverBackground = "#ebf2fa";
+export const GcdsTableHeaderCellText = "#1a1a1a";
+export const GcdsTableLabelMobile = "#595959";
+export const GcdsTableMargin = "1rem";
+export const GcdsTableModalBackdropBackground = "#00000040";
+export const GcdsTableModalBackground = "#ffffff";
+export const GcdsTableModalBodyFontBold = {
+  fontFamily: "'Noto Sans', sans-serif",
+  fontWeight: "700",
+  lineHeight: "155%",
+  fontSize: "1.125rem",
+};
+export const GcdsTableModalBodyFontMedium = {
+  fontFamily: "'Noto Sans', sans-serif",
+  fontWeight: "500",
+  lineHeight: "155%",
+  fontSize: "1.125rem",
+};
+export const GcdsTableModalBorder = "0.0625rem solid #8c8c8c";
+export const GcdsTableModalBorderRadiusDesktop = "1.5rem";
+export const GcdsTableModalBorderRadiusMobile = "0.875rem 0.875rem 0 0";
+export const GcdsTableModalBoxShadow =
+  "0 0.125rem 1rem 0.25rem rgba(0, 0, 0, 0.2)";
+export const GcdsTableModalFooterBoxShadow =
+  "0 -0.25rem 0.75rem -0.125rem rgba(0, 0, 0, 0.1)";
+export const GcdsTableModalFooterButtonPadding = "0.625rem 1rem";
+export const GcdsTableModalFooterButtonWidth = "100%";
+export const GcdsTableModalHeaderHeading = {
+  fontFamily: "'Noto Sans', sans-serif",
+  fontWeight: "700",
+  lineHeight: "160%",
+  fontSize: "1.25rem",
+};
+export const GcdsTableModalHeightMobile = "calc(100dvh - 3.5rem)";
+export const GcdsTableModalMaxWidth = "48.5rem";
+export const GcdsTableModalMaxHeightDesktop = "calc(100dvh - 256px)";
+export const GcdsTableModalSpacing = "1rem";
+export const GcdsTableModalWidth = "100%";
+export const GcdsTableOuterBorderColor = "#d9d9d9";
+export const GcdsTablePageInfoBorderColor = "#b3b3b3";
+export const GcdsTablePageInfoBorderWidth = "0.0625rem";
+export const GcdsTablePageInfoPadding = "0.5rem";
+export const GcdsTablePaginationMargin = "0.625rem";
+export const GcdsTablePillBackground = "#e6e6e6";
+export const GcdsTablePillBorderRadius = "1.25rem";
+export const GcdsTablePillIconMargin = "0.125rem";
+export const GcdsTablePillIconSize = "1.5rem";
+export const GcdsTablePillPadding = "0.125rem 0.25rem 0.125rem 0.625rem";
+export const GcdsTablePillText = "#595959";
+export const GcdsTableSelectPadding = "0.25rem 3.75rem 0.25rem 0.25rem";
+export const GcdsTableText = "#333333";
 export const GcdsTextareaBorderRadius = "0.125rem";
 export const GcdsTextareaBorderWidth = "0.125rem";
 export const GcdsTextareaDangerBorder = "#b3192e";
