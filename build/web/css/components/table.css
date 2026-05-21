@@ -27,8 +27,8 @@
   --gcds-table-filters-margin: 1rem;
   --gcds-table-filters-padding: 1rem;
   --gcds-table-font: 400 1rem/150% 'Noto Sans', sans-serif;
-  --gcds-table-font-size-small: undefined undefined/undefined undefined;
-  --gcds-table-font-weight-mobile: undefined undefined/undefined undefined;
+  --gcds-table-font-size-small: 0.875rem;
+  --gcds-table-font-weight-mobile: 400;
   --gcds-table-gap: 0.5rem;
   --gcds-table-header-cell-border-color: #262626;
   --gcds-table-header-cell-border-width: 0.125rem;

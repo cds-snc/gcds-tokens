@@ -5211,11 +5211,11 @@
       },
       "fontSizeSmall": {
         "value": "0.875rem",
-        "type": "typography"
+        "type": "fontSizes"
       },
       "fontWeightMobile": {
         "value": "400",
-        "type": "typography"
+        "type": "fontWeights"
       },
       "gap": {
         "value": "0.5rem",
