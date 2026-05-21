@@ -1571,6 +1571,7 @@ export const GcdsTableCellBorderColor: string;
 export const GcdsTableCellPaddingDesktop: string;
 export const GcdsTableCellPaddingMobile: string;
 export const GcdsTableCellPaddingMobileFirstLast: string;
+export const GcdsTableEmptyBackground: string;
 export const GcdsTableEmptyPaddingDesktop: string;
 export const GcdsTableEmptyPaddingMobile: string;
 export const GcdsTableFiltersBorderColor: string;

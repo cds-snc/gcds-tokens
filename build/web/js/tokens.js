@@ -1523,6 +1523,7 @@ export const GcdsTableCellBorderColor = "#8c8c8c";
 export const GcdsTableCellPaddingDesktop = "0.75rem 0.5rem";
 export const GcdsTableCellPaddingMobile = "0.375rem 0";
 export const GcdsTableCellPaddingMobileFirstLast = "0.75rem";
+export const GcdsTableEmptyBackground = "#f2f2f2";
 export const GcdsTableEmptyPaddingDesktop = "4rem";
 export const GcdsTableEmptyPaddingMobile = "1rem";
 export const GcdsTableFiltersBorderColor = "#d9d9d9";

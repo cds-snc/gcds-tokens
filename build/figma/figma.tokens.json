@@ -5141,6 +5141,10 @@
         }
       },
       "empty": {
+        "background": {
+          "value": "#f2f2f2",
+          "type": "color"
+        },
         "padding": {
           "desktop": {
             "value": "4rem",
