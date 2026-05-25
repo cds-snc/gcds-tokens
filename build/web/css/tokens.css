@@ -1013,6 +1013,13 @@
   --gcds-table-pagination-margin: 0.625rem;
   --gcds-table-pill-background: #e6e6e6;
   --gcds-table-pill-border-radius: 1.25rem;
+  --gcds-table-pill-focus-background: #1354ec;
+  --gcds-table-pill-focus-box-shadow: 0 0 0 0.125rem #ffffff;
+  --gcds-table-pill-focus-outline-offset: 0.125rem;
+  --gcds-table-pill-focus-outline-width: 0.25rem;
+  --gcds-table-pill-focus-text: #ffffff;
+  --gcds-table-pill-hover-background: #ebf2fa;
+  --gcds-table-pill-hover-text: #26374a;
   --gcds-table-pill-icon-margin: 0.125rem;
   --gcds-table-pill-icon-size: 1.5rem;
   --gcds-table-pill-padding: 0.125rem 0.25rem 0.125rem 0.625rem;

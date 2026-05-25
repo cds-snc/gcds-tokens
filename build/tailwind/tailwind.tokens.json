@@ -5431,6 +5431,40 @@
             "type": "borderRadius"
           }
         },
+        "focus": {
+          "background": {
+            "value": "#1354ec",
+            "type": "color"
+          },
+          "boxShadow": {
+            "value": "0 0 0 0.125rem #ffffff",
+            "type": "boxShadow"
+          },
+          "outline": {
+            "offset": {
+              "value": "0.125rem",
+              "type": "spacing"
+            },
+            "width": {
+              "value": "0.25rem",
+              "type": "other"
+            }
+          },
+          "text": {
+            "value": "#ffffff",
+            "type": "color"
+          }
+        },
+        "hover": {
+          "background": {
+            "value": "#ebf2fa",
+            "type": "color"
+          },
+          "text": {
+            "value": "#26374a",
+            "type": "color"
+          }
+        },
         "icon": {
           "margin": {
             "value": "0.125rem",
