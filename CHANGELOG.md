@@ -104,6 +104,59 @@ We've deprecated the `@cdssnc/gcds-tokens` package on npm. It will no longer rec
 
 # Journal des modifications
 
+## [1.3.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.2.0...@gcds-core/tokens-v1.3.0)
+
+Version publiée le&nbsp;: 2026-04-20
+
+### :rocket: Nouvelles fonctionnalités
+
+* **gcds-details, gcds-link, gcds-nav-link&nbsp;:** Mise à jour de la valeur de décalage de soulignement pour les composants gcds-link, gcds-nav-link et gcds-details ([#527](https://github.com/cds-snc/gcds-tokens/issues/527)) ([8ffa4e](https://github.com/cds-snc/gcds-tokens/commit/8ffaa4e5ccb8d1fe4663f74545bc0d66ac93ea29))
+* **gcds-top-nav, gcds-nav-group&nbsp;:** Amélioration de la disposition de la navigation mobile et du contrôle de la largeur de navigation supérieure ([#529](https://github.com/cds-snc/gcds-tokens/issues/529)) ([3807be9](https://github.com/cds-snc/gcds-tokens/commit/3807be90f606a08dfd48836fdb2e61afe7c6aee2))
+
+## [1.2.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.1.0...@gcds-core/tokens-v1.2.0)
+
+Version publiée le&nbsp;: 2026-03-18
+
+### :rocket: Nouvelles fonctionnalités
+
+* **nav-link + nav-group&nbsp;:** prise en charge d’un style uniforme pour le lien d’accueil dans la navigation supérieure + la navigation latérale ([#521](https://github.com/cds-snc/gcds-tokens/issues/521)) ([0d989ef](https://github.com/cds-snc/gcds-tokens/commit/0d989ef6f6505f93a03ae53ca8d470fe2fe0f29f))
+
+Les unités de style suivants ont été ajoutés&nbsp;:
+
+- `--gcds-nav-link-home-font`
+- `--gcds-nav-link-home-text`
+
+### :warning: Avis de mise hors service
+
+* **nav-link + nav-group&nbsp;:** mise hors service des anciens styles de liens d’accueil en faveur des styles unifiés ([#523](https://github.com/cds-snc/gcds-tokens/issues/523)) ([542cf36](https://github.com/cds-snc/gcds-tokens/commit/542cf3694153c3d1c20b875c8d91c899f6a96101))
+
+Les unités de style suivants ont été mis hors service. Ils seront supprimés dans la prochaine version majeure.
+
+- `--gcds-nav-group-side-nav-trigger-font-weight`
+- `--gcds-nav-group-top-nav-trigger-text`
+- `--gcds-nav-link-top-nav-home-font`
+- `--gcds-nav-link-top-nav-text-primary`
+
+## [1.1.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.0.1...@gcds-core/tokens-v1.1.0)
+
+Version publiée le&nbsp;: 2026-03-16
+
+### :rocket: Nouvelles fonctionnalités
+
+- **gcds-card&nbsp;:** ajout de `gcds-card-border` pour une meilleure accessibilité et mise hors service de l’unité de style `gcds-card-box-shadow` ([#519](https://github.com/cds-snc/gcds-tokens/issues/519)) ([ce80fd6](https://github.com/cds-snc/gcds-tokens/commit/ce80fd6790d7f5cf1431efefe449f02f45b77484))
+
+### :warning: Avis de mise hors service
+
+`gcds-card-box-shadow` est obsolète et sera retiré dans la prochaine version majeure. N’utilisez pas cette unité de style. Le style des cartes utilise maintenant une bordure plutôt qu’une boîte-ombre.
+
+## [1.0.1](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens@1.0.0...@gcds-core/tokens-v1.0.1)
+
+Version publiée le&nbsp;: 2026-02-03
+
+### :bug: :wrench: Corrections de bogues
+
+- **gcds-notice**&nbsp;: amélioration du contraste de couleur de l’icône d’avertissement ([#508](https://github.com/cds-snc/gcds-tokens/issues/508)) ([5cebde9](https://github.com/cds-snc/gcds-tokens/commit/5cebde917d102491874b489c7d814c1f677389c7))
+
 ## v1.0.0
 
 Version publiée le&nbsp;: 2026-01-27
