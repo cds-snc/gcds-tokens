@@ -9,7 +9,7 @@ Released on: 2026-05-27
 
 ### :rocket: New Features
 
-* **gcds-table:** add new table tokens ([#535](https://github.com/cds-snc/gcds-tokens/issues/535)) ([b3970a3](https://github.com/cds-snc/gcds-tokens/commit/b3970a3eb381d1fe951122d11cab21fad55fd0c3))
+* **gcds-table:** add new component tokens for the new table component ([#535](https://github.com/cds-snc/gcds-tokens/issues/535)) ([b3970a3](https://github.com/cds-snc/gcds-tokens/commit/b3970a3eb381d1fe951122d11cab21fad55fd0c3))
 
 ## [1.3.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.2.0...@gcds-core/tokens-v1.3.0)
 
@@ -112,6 +112,14 @@ We've deprecated the `@cdssnc/gcds-tokens` package on npm. It will no longer rec
 ---
 
 # Journal des modifications
+
+## [1.4.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.3.0...@gcds-core/tokens-v1.4.0) 
+
+Version publiée le&nbsp;: 2026-05-27
+
+### :rocket: Nouvelles fonctionnalités
+
+* **gcds-table&nbsp;:** unités de style ajoutées pour le nouveau composant tableau ([#535](https://github.com/cds-snc/gcds-tokens/issues/535)) ([b3970a3](https://github.com/cds-snc/gcds-tokens/commit/b3970a3eb381d1fe951122d11cab21fad55fd0c3))
 
 ## [1.3.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.2.0...@gcds-core/tokens-v1.3.0)
 
