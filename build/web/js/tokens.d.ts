@@ -1574,6 +1574,10 @@ export const GcdsTableCellPaddingMobileFirstLast: string;
 export const GcdsTableEmptyBackground: string;
 export const GcdsTableEmptyPaddingDesktop: string;
 export const GcdsTableEmptyPaddingMobile: string;
+export const GcdsTableFocusBackground: string;
+export const GcdsTableFocusBoxShadow: string;
+export const GcdsTableFocusOutlineOffset: string;
+export const GcdsTableFocusOutlineWidth: string;
 export const GcdsTableFiltersBorderColor: string;
 export const GcdsTableFiltersBorderWidth: string;
 export const GcdsTableFiltersCountBackground: string;
@@ -1635,6 +1639,7 @@ export const GcdsTableModalHeaderHeading: {
 export const GcdsTableModalHeightMobile: string;
 export const GcdsTableModalMaxWidth: string;
 export const GcdsTableModalMaxHeightDesktop: string;
+export const GcdsTableModalMinHeight: string;
 export const GcdsTableModalSpacing: string;
 export const GcdsTableModalWidth: string;
 export const GcdsTableOuterBorderColor: string;
