@@ -5156,6 +5156,26 @@
           }
         }
       },
+      "focus": {
+        "background": {
+          "value": "#1354ec",
+          "type": "color"
+        },
+        "boxShadow": {
+          "value": "0 0 0 0.125rem #ffffff",
+          "type": "boxShadow"
+        },
+        "outline": {
+          "offset": {
+            "value": "0.125rem",
+            "type": "spacing"
+          },
+          "width": {
+            "value": "0.25rem",
+            "type": "other"
+          }
+        }
+      },
       "filters": {
         "border": {
           "color": {
@@ -5380,6 +5400,10 @@
             "value": "calc(100dvh - 256px)",
             "type": "sizing"
           }
+        },
+        "minHeight": {
+          "value": "18.5rem",
+          "type": "sizing"
         },
         "spacing": {
           "value": "1rem",
