@@ -2,6 +2,13 @@
 
 # Changelog
 
+## [1.5.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.4.0...@gcds-core/tokens-v1.5.0) (2026-06-05)
+
+
+### :rocket: New Features
+
+* **gcds-table:** New component tokens to fix usability issues ([#541](https://github.com/cds-snc/gcds-tokens/issues/541)) ([345c0e4](https://github.com/cds-snc/gcds-tokens/commit/345c0e4361e031f1490248672aec4fd12eb4fa7e))
+
 ## [1.4.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.3.0...@gcds-core/tokens-v1.4.0) 
 
 Released on: 2026-05-27
