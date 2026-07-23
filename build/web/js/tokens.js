@@ -934,7 +934,7 @@ export const GcdsFooterMainNavFirstAfterWidth = "2.25rem";
 export const GcdsFooterMainText = "#ffffff";
 export const GcdsFooterSubBackground = "#f2f2f2";
 export const GcdsFooterSubListitemBeforeMargin = "0 0.75rem";
-export const GcdsFooterSubSignatureWidth = "10.25rem";
+export const GcdsFooterSubSignatureWidth = "12.6rem";
 export const GcdsFooterSubSignatureMinWidth = "auto";
 export const GcdsFooterSubSignatureMaxHeight = "2.4375rem";
 export const GcdsFooterSubSignatureMargin = "0 0 0 auto";
@@ -1494,10 +1494,15 @@ export const GcdsSideNavHeadingPadding = "0.625rem";
 export const GcdsSideNavMaxWidth = "20rem";
 export const GcdsSignatureColorFlag = "#eb2d37"; // Signature flag colour - FIP red
 export const GcdsSignatureColorText = "#000000";
-export const GcdsSignatureSignatureHeight = "1.21875rem";
-export const GcdsSignatureSignatureHeightDesktop = "2.09375rem";
+export const GcdsSignatureSignatureHeight = "1.5rem";
+export const GcdsSignatureSignatureHeightDesktop = "2.0625rem";
+export const GcdsSignatureSignatureWidth = "16.5625rem";
+export const GcdsSignatureSignatureWidthDesktop = "22.5rem";
 export const GcdsSignatureWhiteDefault = "#ffffff";
-export const GcdsSignatureWordmarkHeight = "3rem";
+export const GcdsSignatureWordmarkHeight = "2.25rem";
+export const GcdsSignatureWordmarkHeightDesktop = "3rem";
+export const GcdsSignatureWordmarkWidth = "9.46rem";
+export const GcdsSignatureWordmarkWidthDesktop = "12.6rem";
 export const GcdsStepperFontDesktop = {
   fontFamily: "'Lato', sans-serif",
   fontWeight: "600",
