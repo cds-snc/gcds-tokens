@@ -1544,8 +1544,13 @@ export const GcdsSignatureColorFlag: string;
 export const GcdsSignatureColorText: string;
 export const GcdsSignatureSignatureHeight: string;
 export const GcdsSignatureSignatureHeightDesktop: string;
+export const GcdsSignatureSignatureWidth: string;
+export const GcdsSignatureSignatureWidthDesktop: string;
 export const GcdsSignatureWhiteDefault: string;
 export const GcdsSignatureWordmarkHeight: string;
+export const GcdsSignatureWordmarkHeightDesktop: string;
+export const GcdsSignatureWordmarkWidth: string;
+export const GcdsSignatureWordmarkWidthDesktop: string;
 export const GcdsStepperFontDesktop: {
   fontFamily: string;
   fontWeight: string;
