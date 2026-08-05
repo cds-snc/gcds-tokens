@@ -550,6 +550,7 @@ export const GcdsAlertContentHeadingFontMobile: {
 export const GcdsAlertContentHeadingMargin: string;
 export const GcdsAlertContentHeadingMarginDesktop: string;
 export const GcdsAlertContentHeadingMarginMobile: string;
+/** Deprecated since v1.6.0. The alert will now use the same heading margin across all viewports. This token will be deleted in the next major release. */
 export const GcdsAlertContentHeadingMobileMargin: string;
 export const GcdsAlertContentMargin: string;
 export const GcdsAlertContentMarginDesktop: string;
@@ -576,6 +577,7 @@ export const GcdsAlertFontMobile: {
 };
 export const GcdsAlertIconMarginDesktop: string;
 export const GcdsAlertIconMarginMobile: string;
+/** Deprecated since v1.6.0. The alert will now use the same icon margin across all viewports. This token will be deleted in the next major release. */
 export const GcdsAlertIconMobileMargin: string;
 export const GcdsAlertPadding: string;
 export const GcdsAlertPaddingDesktop: string;

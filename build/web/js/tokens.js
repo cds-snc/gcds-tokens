@@ -501,7 +501,7 @@ export const GcdsAlertContentHeadingFontMobile = {
 export const GcdsAlertContentHeadingMargin = "0 0 0.75rem";
 export const GcdsAlertContentHeadingMarginDesktop = "0 0 0.875rem";
 export const GcdsAlertContentHeadingMarginMobile = "0 0 0.75rem";
-export const GcdsAlertContentHeadingMobileMargin = "0 0 0.5rem";
+export const GcdsAlertContentHeadingMobileMargin = "0 0 0.5rem"; // Deprecated since v1.6.0. The alert will now use the same heading margin across all viewports. This token will be deleted in the next major release.
 export const GcdsAlertContentMargin = "0 0 1.125rem";
 export const GcdsAlertContentMarginDesktop = "0 0 1.25rem";
 export const GcdsAlertContentMarginMobile = "0 0 1.125rem";
@@ -527,7 +527,7 @@ export const GcdsAlertFontMobile = {
 };
 export const GcdsAlertIconMarginDesktop = "0 0 1rem";
 export const GcdsAlertIconMarginMobile = "0 0 0.75rem";
-export const GcdsAlertIconMobileMargin = "0 0 0.875rem";
+export const GcdsAlertIconMobileMargin = "0 0 0.875rem"; // Deprecated since v1.6.0. The alert will now use the same icon margin across all viewports. This token will be deleted in the next major release.
 export const GcdsAlertPadding = "1rem";
 export const GcdsAlertPaddingDesktop = "1.25rem";
 export const GcdsAlertPaddingMobile = "1rem";
