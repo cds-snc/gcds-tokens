@@ -504,6 +504,7 @@ export const GcdsLineHeightsH5: string;
 export const GcdsLineHeightsH5Mobile: string;
 export const GcdsLineHeightsH6: string;
 export const GcdsLineHeightsH6Mobile: string;
+export const GcdsAlertBorderRadius: string;
 export const GcdsAlertBorderWidth: string;
 export const GcdsAlertButtonBorderRadius: string;
 export const GcdsAlertButtonBorderWidth: string;
@@ -524,6 +525,7 @@ export const GcdsAlertContentHeadingFont: {
 };
 export const GcdsAlertContentHeadingMargin: string;
 export const GcdsAlertContentHeadingMobileMargin: string;
+export const GcdsAlertContentMargin: string;
 export const GcdsAlertContentSlottedListMargin: string;
 export const GcdsAlertContentSlottedMargin: string;
 export const GcdsAlertFont: {
@@ -532,6 +534,7 @@ export const GcdsAlertFont: {
   lineHeight: string;
   fontSize: string;
 };
+export const GcdsAlertIconMargin: string;
 export const GcdsAlertIconMobileMargin: string;
 export const GcdsAlertPadding: string;
 export const GcdsAlertText: string;
