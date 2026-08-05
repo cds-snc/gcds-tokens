@@ -505,17 +505,29 @@ export const GcdsLineHeightsH5Mobile: string;
 export const GcdsLineHeightsH6: string;
 export const GcdsLineHeightsH6Mobile: string;
 export const GcdsAlertBorderRadius: string;
+/** Deprecated since v1.6.0. The alert will no longer use a border. This token will be deleted in the next major release. */
 export const GcdsAlertBorderWidth: string;
+/** Deprecated since v1.6.0. The alert will now use the gcds-button for all use cases. This token will be deleted in the next major release. */
 export const GcdsAlertButtonBorderRadius: string;
+/** Deprecated since v1.6.0. The alert will now use the gcds-button for all use cases. This token will be deleted in the next major release. */
 export const GcdsAlertButtonBorderWidth: string;
+/** Deprecated since v1.6.0. The alert will now use the gcds-button for all use cases. This token will be deleted in the next major release. */
 export const GcdsAlertButtonDefaultBackground: string;
+/** Deprecated since v1.6.0. The alert will now use the gcds-button for all use cases. This token will be deleted in the next major release. */
 export const GcdsAlertButtonDefaultText: string;
+/** Deprecated since v1.6.0. The alert will now use the gcds-button for all use cases. This token will be deleted in the next major release. */
 export const GcdsAlertButtonFocusBackground: string;
+/** Deprecated since v1.6.0. The alert will now use the gcds-button for all use cases. This token will be deleted in the next major release. */
 export const GcdsAlertButtonFocusText: string;
+/** Deprecated since v1.6.0. The alert will now use the gcds-button for all use cases. This token will be deleted in the next major release. */
 export const GcdsAlertButtonIconPadding: string;
+/** Deprecated since v1.6.0. The alert will now use the gcds-button for all use cases. This token will be deleted in the next major release. */
 export const GcdsAlertButtonIconWidthAndHeight: string;
+/** Deprecated since v1.6.0. The alert will now use the gcds-button for all use cases. This token will be deleted in the next major release. */
 export const GcdsAlertButtonMargin: string;
+/** Deprecated since v1.6.0. The alert will now use the gcds-button for all use cases. This token will be deleted in the next major release. */
 export const GcdsAlertButtonMobileMargin: string;
+/** Deprecated since v1.6.0. The alert will now use the gcds-button for all use cases. This token will be deleted in the next major release. */
 export const GcdsAlertButtonOutlineWidth: string;
 export const GcdsAlertContentHeadingFont: {
   fontFamily: string;
