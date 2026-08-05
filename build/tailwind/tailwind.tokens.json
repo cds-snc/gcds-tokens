@@ -3068,7 +3068,7 @@
         },
         "signature": {
           "width": {
-            "value": "10.25rem",
+            "value": "12.6rem",
             "type": "sizing"
           },
           "minWidth": {
@@ -5024,11 +5024,19 @@
       },
       "signature": {
         "height": {
-          "value": "1.21875rem",
+          "value": "1.5rem",
           "type": "sizing"
         },
         "heightDesktop": {
-          "value": "2.09375rem",
+          "value": "2.0625rem",
+          "type": "sizing"
+        },
+        "width": {
+          "value": "16.5625rem",
+          "type": "sizing"
+        },
+        "widthDesktop": {
+          "value": "22.5rem",
           "type": "sizing"
         }
       },
@@ -5040,7 +5048,19 @@
       },
       "wordmark": {
         "height": {
+          "value": "2.25rem",
+          "type": "sizing"
+        },
+        "heightDesktop": {
           "value": "3rem",
+          "type": "sizing"
+        },
+        "width": {
+          "value": "9.46rem",
+          "type": "sizing"
+        },
+        "widthDesktop": {
+          "value": "12.6rem",
           "type": "sizing"
         }
       }

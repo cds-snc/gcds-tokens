@@ -5,8 +5,13 @@
 :root {
   --gcds-signature-color-flag: #eb2d37; /** Signature flag colour - FIP red */
   --gcds-signature-color-text: #000000;
-  --gcds-signature-signature-height: 1.21875rem;
-  --gcds-signature-signature-height-desktop: 2.09375rem;
+  --gcds-signature-signature-height: 1.5rem;
+  --gcds-signature-signature-height-desktop: 2.0625rem;
+  --gcds-signature-signature-width: 16.5625rem;
+  --gcds-signature-signature-width-desktop: 22.5rem;
   --gcds-signature-white-default: #ffffff;
-  --gcds-signature-wordmark-height: 3rem;
+  --gcds-signature-wordmark-height: 2.25rem;
+  --gcds-signature-wordmark-height-desktop: 3rem;
+  --gcds-signature-wordmark-width: 9.46rem;
+  --gcds-signature-wordmark-width-desktop: 12.6rem;
 }
