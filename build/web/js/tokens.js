@@ -486,9 +486,25 @@ export const GcdsAlertContentHeadingFont = {
   lineHeight: "140%",
   fontSize: "1.25rem",
 };
+export const GcdsAlertContentHeadingFontDesktop = {
+  fontFamily: "'Lato', sans-serif",
+  fontWeight: "700",
+  lineHeight: "145%",
+  fontSize: "1.375rem",
+};
+export const GcdsAlertContentHeadingFontMobile = {
+  fontFamily: "'Lato', sans-serif",
+  fontWeight: "700",
+  lineHeight: "140%",
+  fontSize: "1.25rem",
+};
 export const GcdsAlertContentHeadingMargin = "0 0 0.75rem";
+export const GcdsAlertContentHeadingMarginDesktop = "0 0 0.875rem";
+export const GcdsAlertContentHeadingMarginMobile = "0 0 0.75rem";
 export const GcdsAlertContentHeadingMobileMargin = "0 0 0.5rem";
 export const GcdsAlertContentMargin = "0 0 1.125rem";
+export const GcdsAlertContentMarginDesktop = "0 0 1.25rem";
+export const GcdsAlertContentMarginMobile = "0 0 1.125rem";
 export const GcdsAlertContentSlottedListMargin = "1.5rem";
 export const GcdsAlertContentSlottedMargin = "0.5rem";
 export const GcdsAlertFont = {
@@ -497,9 +513,24 @@ export const GcdsAlertFont = {
   lineHeight: "160%",
   fontSize: "1.25rem",
 };
-export const GcdsAlertIconMargin = "0 0 0.75rem";
+export const GcdsAlertFontDesktop = {
+  fontFamily: "'Noto Sans', sans-serif",
+  fontWeight: "400",
+  lineHeight: "160%",
+  fontSize: "1.25rem",
+};
+export const GcdsAlertFontMobile = {
+  fontFamily: "'Noto Sans', sans-serif",
+  fontWeight: "400",
+  lineHeight: "155%",
+  fontSize: "1.125rem",
+};
+export const GcdsAlertIconMarginDesktop = "0 0 1rem";
+export const GcdsAlertIconMarginMobile = "0 0 0.75rem";
 export const GcdsAlertIconMobileMargin = "0 0 0.875rem";
 export const GcdsAlertPadding = "1rem";
+export const GcdsAlertPaddingDesktop = "1.25rem";
+export const GcdsAlertPaddingMobile = "1rem";
 export const GcdsAlertText = "#333333";
 export const GcdsAlertDangerBackground = "#f9d2d7";
 export const GcdsAlertDangerIcon = "#b3192e";

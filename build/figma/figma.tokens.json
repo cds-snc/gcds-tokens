@@ -1621,17 +1621,47 @@
       "content": {
         "heading": {
           "font": {
-            "value": {
-              "fontFamily": "'Lato', sans-serif",
-              "fontWeight": "700",
-              "lineHeight": "140%",
-              "fontSize": "1.25rem"
+            "-": {
+              "value": {
+                "fontFamily": "'Lato', sans-serif",
+                "fontWeight": "700",
+                "lineHeight": "140%",
+                "fontSize": "1.25rem"
+              },
+              "type": "typography"
             },
-            "type": "typography"
+            "desktop": {
+              "value": {
+                "fontFamily": "'Lato', sans-serif",
+                "fontWeight": "700",
+                "lineHeight": "145%",
+                "fontSize": "1.375rem"
+              },
+              "type": "typography"
+            },
+            "mobile": {
+              "value": {
+                "fontFamily": "'Lato', sans-serif",
+                "fontWeight": "700",
+                "lineHeight": "140%",
+                "fontSize": "1.25rem"
+              },
+              "type": "typography"
+            }
           },
           "margin": {
-            "value": "0 0 0.75rem",
-            "type": "spacing"
+            "-": {
+              "value": "0 0 0.75rem",
+              "type": "spacing"
+            },
+            "desktop": {
+              "value": "0 0 0.875rem",
+              "type": "spacing"
+            },
+            "mobile": {
+              "value": "0 0 0.75rem",
+              "type": "spacing"
+            }
           },
           "mobile": {
             "margin": {
@@ -1641,8 +1671,18 @@
           }
         },
         "margin": {
-          "value": "0 0 1.125rem",
-          "type": "spacing"
+          "-": {
+            "value": "0 0 1.125rem",
+            "type": "spacing"
+          },
+          "desktop": {
+            "value": "0 0 1.25rem",
+            "type": "spacing"
+          },
+          "mobile": {
+            "value": "0 0 1.125rem",
+            "type": "spacing"
+          }
         },
         "slotted": {
           "list": {
@@ -1658,18 +1698,44 @@
         }
       },
       "font": {
-        "value": {
-          "fontFamily": "'Noto Sans', sans-serif",
-          "fontWeight": "400",
-          "lineHeight": "160%",
-          "fontSize": "1.25rem"
+        "-": {
+          "value": {
+            "fontFamily": "'Noto Sans', sans-serif",
+            "fontWeight": "400",
+            "lineHeight": "160%",
+            "fontSize": "1.25rem"
+          },
+          "type": "typography"
         },
-        "type": "typography"
+        "desktop": {
+          "value": {
+            "fontFamily": "'Noto Sans', sans-serif",
+            "fontWeight": "400",
+            "lineHeight": "160%",
+            "fontSize": "1.25rem"
+          },
+          "type": "typography"
+        },
+        "mobile": {
+          "value": {
+            "fontFamily": "'Noto Sans', sans-serif",
+            "fontWeight": "400",
+            "lineHeight": "155%",
+            "fontSize": "1.125rem"
+          },
+          "type": "typography"
+        }
       },
       "icon": {
         "margin": {
-          "value": "0 0 0.75rem",
-          "type": "spacing"
+          "desktop": {
+            "value": "0 0 1rem",
+            "type": "spacing"
+          },
+          "mobile": {
+            "value": "0 0 0.75rem",
+            "type": "spacing"
+          }
         },
         "mobile": {
           "margin": {
@@ -1679,8 +1745,18 @@
         }
       },
       "padding": {
-        "value": "1rem",
-        "type": "spacing"
+        "-": {
+          "value": "1rem",
+          "type": "spacing"
+        },
+        "desktop": {
+          "value": "1.25rem",
+          "type": "spacing"
+        },
+        "mobile": {
+          "value": "1rem",
+          "type": "spacing"
+        }
       },
       "text": {
         "value": "#333333",
