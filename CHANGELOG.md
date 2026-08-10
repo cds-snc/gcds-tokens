@@ -2,50 +2,46 @@
 
 # Changelog
 
-## [1.5.1](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.5.0...@gcds-core/tokens-v1.5.1) (2026-08-10)
+## [1.5.1](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.5.0...@gcds-core/tokens-v1.5.1)
 
+Released on: 2026-08-10
+
+### :rocket: New Features
+
+- **gcds-alert:** update alert component styling ([#552](https://github.com/cds-snc/gcds-tokens/issues/552)) ([c660b6d](https://github.com/cds-snc/gcds-tokens/commit/c660b6d531271d38461f6042cb175f0c28f78ad2))
 
 ### :bug: :wrench: Bug Fixes
 
-* **gcds-signature:** adjust sizing of signature ([#547](https://github.com/cds-snc/gcds-tokens/issues/547)) ([74c9c3b](https://github.com/cds-snc/gcds-tokens/commit/74c9c3be79bce434323ea2a73ecb62387e628746))
-
-
-### :art: Styles
-
-* **gcds-alert:** update alert component styling ([#552](https://github.com/cds-snc/gcds-tokens/issues/552)) ([c660b6d](https://github.com/cds-snc/gcds-tokens/commit/c660b6d531271d38461f6042cb175f0c28f78ad2))
-
+- **gcds-signature:** adjust sizing of signature ([#547](https://github.com/cds-snc/gcds-tokens/issues/547)) ([74c9c3b](https://github.com/cds-snc/gcds-tokens/commit/74c9c3be79bce434323ea2a73ecb62387e628746))
 
 ### :warning: Deprecation Notice
 
-* **gcds-alert:** old alert tokens in favour of new design ([#551](https://github.com/cds-snc/gcds-tokens/issues/551)) ([8e43514](https://github.com/cds-snc/gcds-tokens/commit/8e435141fffca0a3c1e1d49586c75d2dae55e1d0))
+- **gcds-alert:** old alert tokens in favour of new design ([#551](https://github.com/cds-snc/gcds-tokens/issues/551)) ([8e43514](https://github.com/cds-snc/gcds-tokens/commit/8e435141fffca0a3c1e1d49586c75d2dae55e1d0))
 
-## [1.5.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.4.0...@gcds-core/tokens-v1.5.0) 
+## [1.5.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.4.0...@gcds-core/tokens-v1.5.0)
 
 Released on 2026-06-08
 
-
 ### :rocket: New Features
 
-* **gcds-table:** New component tokens to fix usability issues ([#541](https://github.com/cds-snc/gcds-tokens/issues/541)) ([345c0e4](https://github.com/cds-snc/gcds-tokens/commit/345c0e4361e031f1490248672aec4fd12eb4fa7e))
+- **gcds-table:** New component tokens to fix usability issues ([#541](https://github.com/cds-snc/gcds-tokens/issues/541)) ([345c0e4](https://github.com/cds-snc/gcds-tokens/commit/345c0e4361e031f1490248672aec4fd12eb4fa7e))
 
-## [1.4.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.3.0...@gcds-core/tokens-v1.4.0) 
+## [1.4.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.3.0...@gcds-core/tokens-v1.4.0)
 
 Released on: 2026-05-27
 
-
 ### :rocket: New Features
 
-* **gcds-table:** add new component tokens for the new table component ([#535](https://github.com/cds-snc/gcds-tokens/issues/535)) ([b3970a3](https://github.com/cds-snc/gcds-tokens/commit/b3970a3eb381d1fe951122d11cab21fad55fd0c3))
+- **gcds-table:** add new component tokens for the new table component ([#535](https://github.com/cds-snc/gcds-tokens/issues/535)) ([b3970a3](https://github.com/cds-snc/gcds-tokens/commit/b3970a3eb381d1fe951122d11cab21fad55fd0c3))
 
 ## [1.3.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.2.0...@gcds-core/tokens-v1.3.0)
 
 Released on: 2026-04-20
 
-
 ### :rocket: New Features
 
-* **gcds-details, gcds-link, gcds-nav-link:** Update underline offset value for link, nav-link and details components ([#527](https://github.com/cds-snc/gcds-tokens/issues/527)) ([8ffaa4e](https://github.com/cds-snc/gcds-tokens/commit/8ffaa4e5ccb8d1fe4663f74545bc0d66ac93ea29))
-* **gcds-top-nav, gcds-nav-group:** Improve mobile navigation layout and top-nav width control ([#529](https://github.com/cds-snc/gcds-tokens/issues/529)) ([3807be9](https://github.com/cds-snc/gcds-tokens/commit/3807be90f606a08dfd48836fdb2e61afe7c6aee2))
+- **gcds-details, gcds-link, gcds-nav-link:** Update underline offset value for link, nav-link and details components ([#527](https://github.com/cds-snc/gcds-tokens/issues/527)) ([8ffaa4e](https://github.com/cds-snc/gcds-tokens/commit/8ffaa4e5ccb8d1fe4663f74545bc0d66ac93ea29))
+- **gcds-top-nav, gcds-nav-group:** Improve mobile navigation layout and top-nav width control ([#529](https://github.com/cds-snc/gcds-tokens/issues/529)) ([3807be9](https://github.com/cds-snc/gcds-tokens/commit/3807be90f606a08dfd48836fdb2e61afe7c6aee2))
 
 ## [1.2.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.1.0...@gcds-core/tokens-v1.2.0)
 
@@ -53,16 +49,16 @@ Released on: 2026-03-18
 
 ### :rocket: New Features
 
-* **nav-link + nav-group:** support consistent home link styling across top-nav + side-nav ([#521](https://github.com/cds-snc/gcds-tokens/issues/521)) ([0d989ef](https://github.com/cds-snc/gcds-tokens/commit/0d989ef6f6505f93a03ae53ca8d470fe2fe0f29f))
+- **nav-link + nav-group:** support consistent home link styling across top-nav + side-nav ([#521](https://github.com/cds-snc/gcds-tokens/issues/521)) ([0d989ef](https://github.com/cds-snc/gcds-tokens/commit/0d989ef6f6505f93a03ae53ca8d470fe2fe0f29f))
 
 The following tokens have been added:
 
 - `--gcds-nav-link-home-font`
-- `--gcds-nav-link-home-text` 
+- `--gcds-nav-link-home-text`
 
 ### :warning: Deprecation Notice
 
-* **nav-link + nav-group:** deprecate old home link styles in favour of unified styles ([#523](https://github.com/cds-snc/gcds-tokens/issues/523)) ([542cf36](https://github.com/cds-snc/gcds-tokens/commit/542cf3694153c3d1c20b875c8d91c899f6a96101))
+- **nav-link + nav-group:** deprecate old home link styles in favour of unified styles ([#523](https://github.com/cds-snc/gcds-tokens/issues/523)) ([542cf36](https://github.com/cds-snc/gcds-tokens/commit/542cf3694153c3d1c20b875c8d91c899f6a96101))
 
 The following tokens have been deprecated. They will be deleted in the next major release.
 
@@ -139,13 +135,13 @@ We've deprecated the `@cdssnc/gcds-tokens` package on npm. It will no longer rec
 
 # Journal des modifications
 
-## [1.4.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.3.0...@gcds-core/tokens-v1.4.0) 
+## [1.4.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.3.0...@gcds-core/tokens-v1.4.0)
 
 Version publiée le&nbsp;: 2026-05-27
 
 ### :rocket: Nouvelles fonctionnalités
 
-* **gcds-table&nbsp;:** unités de style ajoutées pour le nouveau composant tableau ([#535](https://github.com/cds-snc/gcds-tokens/issues/535)) ([b3970a3](https://github.com/cds-snc/gcds-tokens/commit/b3970a3eb381d1fe951122d11cab21fad55fd0c3))
+- **gcds-table&nbsp;:** unités de style ajoutées pour le nouveau composant tableau ([#535](https://github.com/cds-snc/gcds-tokens/issues/535)) ([b3970a3](https://github.com/cds-snc/gcds-tokens/commit/b3970a3eb381d1fe951122d11cab21fad55fd0c3))
 
 ## [1.3.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.2.0...@gcds-core/tokens-v1.3.0)
 
@@ -153,8 +149,8 @@ Version publiée le&nbsp;: 2026-04-20
 
 ### :rocket: Nouvelles fonctionnalités
 
-* **gcds-details, gcds-link, gcds-nav-link&nbsp;:** Mise à jour de la valeur de décalage de soulignement pour les composants gcds-link, gcds-nav-link et gcds-details ([#527](https://github.com/cds-snc/gcds-tokens/issues/527)) ([8ffa4e](https://github.com/cds-snc/gcds-tokens/commit/8ffaa4e5ccb8d1fe4663f74545bc0d66ac93ea29))
-* **gcds-top-nav, gcds-nav-group&nbsp;:** Amélioration de la disposition de la navigation mobile et du contrôle de la largeur de navigation supérieure ([#529](https://github.com/cds-snc/gcds-tokens/issues/529)) ([3807be9](https://github.com/cds-snc/gcds-tokens/commit/3807be90f606a08dfd48836fdb2e61afe7c6aee2))
+- **gcds-details, gcds-link, gcds-nav-link&nbsp;:** Mise à jour de la valeur de décalage de soulignement pour les composants gcds-link, gcds-nav-link et gcds-details ([#527](https://github.com/cds-snc/gcds-tokens/issues/527)) ([8ffa4e](https://github.com/cds-snc/gcds-tokens/commit/8ffaa4e5ccb8d1fe4663f74545bc0d66ac93ea29))
+- **gcds-top-nav, gcds-nav-group&nbsp;:** Amélioration de la disposition de la navigation mobile et du contrôle de la largeur de navigation supérieure ([#529](https://github.com/cds-snc/gcds-tokens/issues/529)) ([3807be9](https://github.com/cds-snc/gcds-tokens/commit/3807be90f606a08dfd48836fdb2e61afe7c6aee2))
 
 ## [1.2.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.1.0...@gcds-core/tokens-v1.2.0)
 
@@ -162,7 +158,7 @@ Version publiée le&nbsp;: 2026-03-18
 
 ### :rocket: Nouvelles fonctionnalités
 
-* **nav-link + nav-group&nbsp;:** prise en charge d’un style uniforme pour le lien d’accueil dans la navigation supérieure + la navigation latérale ([#521](https://github.com/cds-snc/gcds-tokens/issues/521)) ([0d989ef](https://github.com/cds-snc/gcds-tokens/commit/0d989ef6f6505f93a03ae53ca8d470fe2fe0f29f))
+- **nav-link + nav-group&nbsp;:** prise en charge d’un style uniforme pour le lien d’accueil dans la navigation supérieure + la navigation latérale ([#521](https://github.com/cds-snc/gcds-tokens/issues/521)) ([0d989ef](https://github.com/cds-snc/gcds-tokens/commit/0d989ef6f6505f93a03ae53ca8d470fe2fe0f29f))
 
 Les unités de style suivants ont été ajoutés&nbsp;:
 
@@ -171,7 +167,7 @@ Les unités de style suivants ont été ajoutés&nbsp;:
 
 ### :warning: Avis de mise hors service
 
-* **nav-link + nav-group&nbsp;:** mise hors service des anciens styles de liens d’accueil en faveur des styles unifiés ([#523](https://github.com/cds-snc/gcds-tokens/issues/523)) ([542cf36](https://github.com/cds-snc/gcds-tokens/commit/542cf3694153c3d1c20b875c8d91c899f6a96101))
+- **nav-link + nav-group&nbsp;:** mise hors service des anciens styles de liens d’accueil en faveur des styles unifiés ([#523](https://github.com/cds-snc/gcds-tokens/issues/523)) ([542cf36](https://github.com/cds-snc/gcds-tokens/commit/542cf3694153c3d1c20b875c8d91c899f6a96101))
 
 Les unités de style suivants ont été mis hors service. Ils seront supprimés dans la prochaine version majeure.
 
