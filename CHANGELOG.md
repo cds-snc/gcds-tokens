@@ -2,6 +2,23 @@
 
 # Changelog
 
+## [1.5.1](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.5.0...@gcds-core/tokens-v1.5.1) (2026-08-10)
+
+
+### :bug: :wrench: Bug Fixes
+
+* **gcds-signature:** adjust sizing of signature ([#547](https://github.com/cds-snc/gcds-tokens/issues/547)) ([74c9c3b](https://github.com/cds-snc/gcds-tokens/commit/74c9c3be79bce434323ea2a73ecb62387e628746))
+
+
+### :art: Styles
+
+* **gcds-alert:** update alert component styling ([#552](https://github.com/cds-snc/gcds-tokens/issues/552)) ([c660b6d](https://github.com/cds-snc/gcds-tokens/commit/c660b6d531271d38461f6042cb175f0c28f78ad2))
+
+
+### :warning: Deprecation Notice
+
+* **gcds-alert:** old alert tokens in favour of new design ([#551](https://github.com/cds-snc/gcds-tokens/issues/551)) ([8e43514](https://github.com/cds-snc/gcds-tokens/commit/8e435141fffca0a3c1e1d49586c75d2dae55e1d0))
+
 ## [1.5.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.4.0...@gcds-core/tokens-v1.5.0) 
 
 Released on 2026-06-08
