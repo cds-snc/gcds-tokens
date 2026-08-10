@@ -12,11 +12,11 @@ Released on: 2026-08-10
 
 ### :bug: :wrench: Bug Fixes
 
-- **gcds-signature:** adjust sizing of signature ([#547](https://github.com/cds-snc/gcds-tokens/issues/547)) ([74c9c3b](https://github.com/cds-snc/gcds-tokens/commit/74c9c3be79bce434323ea2a73ecb62387e628746))
+- **gcds-signature:** Adjust sizing of signature ([#547](https://github.com/cds-snc/gcds-tokens/issues/547)) ([74c9c3b](https://github.com/cds-snc/gcds-tokens/commit/74c9c3be79bce434323ea2a73ecb62387e628746))
 
 ### :warning: Deprecation Notice
 
-- **gcds-alert:** old alert tokens in favour of new design ([#551](https://github.com/cds-snc/gcds-tokens/issues/551)) ([8e43514](https://github.com/cds-snc/gcds-tokens/commit/8e435141fffca0a3c1e1d49586c75d2dae55e1d0))
+- **gcds-alert:** Old alert tokens in favour of new design ([#551](https://github.com/cds-snc/gcds-tokens/issues/551)) ([8e43514](https://github.com/cds-snc/gcds-tokens/commit/8e435141fffca0a3c1e1d49586c75d2dae55e1d0))
 
 ## [1.5.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.4.0...@gcds-core/tokens-v1.5.0)
 
