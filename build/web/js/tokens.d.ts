@@ -505,18 +505,31 @@ export const GcdsLineHeightsH5Mobile: string;
 export const GcdsLineHeightsH6: string;
 export const GcdsLineHeightsH6Mobile: string;
 export const GcdsAlertBorderRadius: string;
+/** Deprecated since v1.6.0. The alert will no longer use a border. This token will be deleted in the next major release. */
 export const GcdsAlertBorderWidth: string;
+/** Deprecated since v1.6.0. The alert will now use the gcds-button for all use cases. This token will be deleted in the next major release. */
 export const GcdsAlertButtonBorderRadius: string;
+/** Deprecated since v1.6.0. The alert will now use the gcds-button for all use cases. This token will be deleted in the next major release. */
 export const GcdsAlertButtonBorderWidth: string;
+/** Deprecated since v1.6.0. The alert will now use the gcds-button for all use cases. This token will be deleted in the next major release. */
 export const GcdsAlertButtonDefaultBackground: string;
+/** Deprecated since v1.6.0. The alert will now use the gcds-button for all use cases. This token will be deleted in the next major release. */
 export const GcdsAlertButtonDefaultText: string;
+/** Deprecated since v1.6.0. The alert will now use the gcds-button for all use cases. This token will be deleted in the next major release. */
 export const GcdsAlertButtonFocusBackground: string;
+/** Deprecated since v1.6.0. The alert will now use the gcds-button for all use cases. This token will be deleted in the next major release. */
 export const GcdsAlertButtonFocusText: string;
+/** Deprecated since v1.6.0. The alert will now use the gcds-button for all use cases. This token will be deleted in the next major release. */
 export const GcdsAlertButtonIconPadding: string;
+/** Deprecated since v1.6.0. The alert will now use the gcds-button for all use cases. This token will be deleted in the next major release. */
 export const GcdsAlertButtonIconWidthAndHeight: string;
+/** Deprecated since v1.6.0. The alert will now use the gcds-button for all use cases. This token will be deleted in the next major release. */
 export const GcdsAlertButtonMargin: string;
+/** Deprecated since v1.6.0. The alert will now use the gcds-button for all use cases. This token will be deleted in the next major release. */
 export const GcdsAlertButtonMobileMargin: string;
+/** Deprecated since v1.6.0. The alert will now use the gcds-button for all use cases. This token will be deleted in the next major release. */
 export const GcdsAlertButtonOutlineWidth: string;
+/** Deprecated since v1.6.0. The alert will use a desktop and mobile heading font with the new styling. This token will be deleted in the next major release. */
 export const GcdsAlertContentHeadingFont: {
   fontFamily: string;
   fontWeight: string;
@@ -535,15 +548,19 @@ export const GcdsAlertContentHeadingFontMobile: {
   lineHeight: string;
   fontSize: string;
 };
+/** Deprecated since v1.6.0. The alert will use a desktop and mobile heading margin with the new styling. This token will be deleted in the next major release. */
 export const GcdsAlertContentHeadingMargin: string;
 export const GcdsAlertContentHeadingMarginDesktop: string;
 export const GcdsAlertContentHeadingMarginMobile: string;
+/** Deprecated since v1.6.0. The alert will now use the same heading margin across all viewports. This token will be deleted in the next major release. */
 export const GcdsAlertContentHeadingMobileMargin: string;
+/** Deprecated since v1.6.0. The alert will use a desktop and mobile content margin with the new styling. This token will be deleted in the next major release. */
 export const GcdsAlertContentMargin: string;
 export const GcdsAlertContentMarginDesktop: string;
 export const GcdsAlertContentMarginMobile: string;
 export const GcdsAlertContentSlottedListMargin: string;
 export const GcdsAlertContentSlottedMargin: string;
+/** Deprecated since v1.6.0. The alert will use a desktop and mobile font with the new styling. This token will be deleted in the next major release. */
 export const GcdsAlertFont: {
   fontFamily: string;
   fontWeight: string;
@@ -564,7 +581,9 @@ export const GcdsAlertFontMobile: {
 };
 export const GcdsAlertIconMarginDesktop: string;
 export const GcdsAlertIconMarginMobile: string;
+/** Deprecated since v1.6.0. The alert will now use the same icon margin across all viewports. This token will be deleted in the next major release. */
 export const GcdsAlertIconMobileMargin: string;
+/** Deprecated since v1.6.0. The alert will use a desktop and mobile padding with the new styling. This token will be deleted in the next major release. */
 export const GcdsAlertPadding: string;
 export const GcdsAlertPaddingDesktop: string;
 export const GcdsAlertPaddingMobile: string;
