@@ -504,6 +504,7 @@ export const GcdsLineHeightsH5: string;
 export const GcdsLineHeightsH5Mobile: string;
 export const GcdsLineHeightsH6: string;
 export const GcdsLineHeightsH6Mobile: string;
+export const GcdsAlertBorderRadius: string;
 export const GcdsAlertBorderWidth: string;
 export const GcdsAlertButtonBorderRadius: string;
 export const GcdsAlertButtonBorderWidth: string;
@@ -522,8 +523,25 @@ export const GcdsAlertContentHeadingFont: {
   lineHeight: string;
   fontSize: string;
 };
+export const GcdsAlertContentHeadingFontDesktop: {
+  fontFamily: string;
+  fontWeight: string;
+  lineHeight: string;
+  fontSize: string;
+};
+export const GcdsAlertContentHeadingFontMobile: {
+  fontFamily: string;
+  fontWeight: string;
+  lineHeight: string;
+  fontSize: string;
+};
 export const GcdsAlertContentHeadingMargin: string;
+export const GcdsAlertContentHeadingMarginDesktop: string;
+export const GcdsAlertContentHeadingMarginMobile: string;
 export const GcdsAlertContentHeadingMobileMargin: string;
+export const GcdsAlertContentMargin: string;
+export const GcdsAlertContentMarginDesktop: string;
+export const GcdsAlertContentMarginMobile: string;
 export const GcdsAlertContentSlottedListMargin: string;
 export const GcdsAlertContentSlottedMargin: string;
 export const GcdsAlertFont: {
@@ -532,8 +550,24 @@ export const GcdsAlertFont: {
   lineHeight: string;
   fontSize: string;
 };
+export const GcdsAlertFontDesktop: {
+  fontFamily: string;
+  fontWeight: string;
+  lineHeight: string;
+  fontSize: string;
+};
+export const GcdsAlertFontMobile: {
+  fontFamily: string;
+  fontWeight: string;
+  lineHeight: string;
+  fontSize: string;
+};
+export const GcdsAlertIconMarginDesktop: string;
+export const GcdsAlertIconMarginMobile: string;
 export const GcdsAlertIconMobileMargin: string;
 export const GcdsAlertPadding: string;
+export const GcdsAlertPaddingDesktop: string;
+export const GcdsAlertPaddingMobile: string;
 export const GcdsAlertText: string;
 export const GcdsAlertDangerBackground: string;
 export const GcdsAlertDangerIcon: string;
