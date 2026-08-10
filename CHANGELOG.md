@@ -16,7 +16,7 @@ Released on: 2026-08-10
 
 ### :warning: Deprecation Notice
 
-- **gcds-alert:** Old alert tokens in favour of new design ([#551](https://github.com/cds-snc/gcds-tokens/issues/551)) ([8e43514](https://github.com/cds-snc/gcds-tokens/commit/8e435141fffca0a3c1e1d49586c75d2dae55e1d0))
+- **gcds-alert:** Deprecate old alert tokens in favour of new design ([#551](https://github.com/cds-snc/gcds-tokens/issues/551)) ([8e43514](https://github.com/cds-snc/gcds-tokens/commit/8e435141fffca0a3c1e1d49586c75d2dae55e1d0))
 
 ## [1.5.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.4.0...@gcds-core/tokens-v1.5.0)
 
