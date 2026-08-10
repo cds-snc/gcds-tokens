@@ -16,25 +16,25 @@
   --gcds-alert-button-margin: 0 0 0 0.875rem; /** Deprecated since v1.6.0. The alert will now use the gcds-button for all use cases. This token will be deleted in the next major release. */
   --gcds-alert-button-mobile-margin: 0.875rem 0 0; /** Deprecated since v1.6.0. The alert will now use the gcds-button for all use cases. This token will be deleted in the next major release. */
   --gcds-alert-button-outline-width: 0.25rem; /** Deprecated since v1.6.0. The alert will now use the gcds-button for all use cases. This token will be deleted in the next major release. */
-  --gcds-alert-content-heading-font: 700 1.25rem/140% 'Lato', sans-serif;
+  --gcds-alert-content-heading-font: 700 1.25rem/140% 'Lato', sans-serif; /** Deprecated since v1.6.0. The alert will use a desktop and mobile heading font with the new styling. This token will be deleted in the next major release. */
   --gcds-alert-content-heading-font-desktop: 700 1.375rem/145% 'Lato', sans-serif;
   --gcds-alert-content-heading-font-mobile: 700 1.25rem/140% 'Lato', sans-serif;
-  --gcds-alert-content-heading-margin: 0 0 0.75rem;
+  --gcds-alert-content-heading-margin: 0 0 0.75rem; /** Deprecated since v1.6.0. The alert will use a desktop and mobile heading margin with the new styling. This token will be deleted in the next major release. */
   --gcds-alert-content-heading-margin-desktop: 0 0 0.875rem;
   --gcds-alert-content-heading-margin-mobile: 0 0 0.75rem;
   --gcds-alert-content-heading-mobile-margin: 0 0 0.5rem; /** Deprecated since v1.6.0. The alert will now use the same heading margin across all viewports. This token will be deleted in the next major release. */
-  --gcds-alert-content-margin: 0 0 1.125rem;
+  --gcds-alert-content-margin: 0 0 1.125rem; /** Deprecated since v1.6.0. The alert will use a desktop and mobile content margin with the new styling. This token will be deleted in the next major release. */
   --gcds-alert-content-margin-desktop: 0 0 1.25rem;
   --gcds-alert-content-margin-mobile: 0 0 1.125rem;
   --gcds-alert-content-slotted-list-margin: 1.5rem;
   --gcds-alert-content-slotted-margin: 0.5rem;
-  --gcds-alert-font: 400 1.25rem/160% 'Noto Sans', sans-serif;
+  --gcds-alert-font: 400 1.25rem/160% 'Noto Sans', sans-serif; /** Deprecated since v1.6.0. The alert will use a desktop and mobile font with the new styling. This token will be deleted in the next major release. */
   --gcds-alert-font-desktop: 400 1.25rem/160% 'Noto Sans', sans-serif;
   --gcds-alert-font-mobile: 400 1.125rem/155% 'Noto Sans', sans-serif;
   --gcds-alert-icon-margin-desktop: 0 0 1rem;
   --gcds-alert-icon-margin-mobile: 0 0 0.75rem;
   --gcds-alert-icon-mobile-margin: 0 0 0.875rem; /** Deprecated since v1.6.0. The alert will now use the same icon margin across all viewports. This token will be deleted in the next major release. */
-  --gcds-alert-padding: 1rem;
+  --gcds-alert-padding: 1rem; /** Deprecated since v1.6.0. The alert will use a desktop and mobile padding with the new styling. This token will be deleted in the next major release. */
   --gcds-alert-padding-desktop: 1.25rem;
   --gcds-alert-padding-mobile: 1rem;
   --gcds-alert-text: #333333;
