@@ -8,7 +8,7 @@ Released on: 2026-08-10
 
 ### :rocket: New Features
 
-- **gcds-alert:** update alert component styling ([#552](https://github.com/cds-snc/gcds-tokens/issues/552)) ([c660b6d](https://github.com/cds-snc/gcds-tokens/commit/c660b6d531271d38461f6042cb175f0c28f78ad2))
+- **gcds-alert:** Update alert component styling ([#552](https://github.com/cds-snc/gcds-tokens/issues/552)) ([c660b6d](https://github.com/cds-snc/gcds-tokens/commit/c660b6d531271d38461f6042cb175f0c28f78ad2))
 
 ### :bug: :wrench: Bug Fixes
 
