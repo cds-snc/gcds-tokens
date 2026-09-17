@@ -30,6 +30,24 @@ const traverseObj = obj => {
   return output;
 };
 
+const stripLegacyValueReferences = obj => {
+  if (Array.isArray(obj)) {
+    return obj.map(stripLegacyValueReferences);
+  }
+
+  if (typeof obj === 'string') {
+    return obj.replace(/\{([^}]+?)\.value\}/g, '{$1}');
+  }
+
+  if (obj && typeof obj === 'object') {
+    return Object.fromEntries(
+      Object.entries(obj).map(([key, value]) => [key, stripLegacyValueReferences(value)]),
+    );
+  }
+
+  return obj;
+};
+
 // Custom transformation to format typography tokens
 StyleDictionary.registerTransform({
   type: 'value',
@@ -100,6 +118,7 @@ export default {
     'tokens/global/**/*.@(js|json)',
     'tokens/components/**/*.@(js|json)',
   ],
+  preprocessors: ['strip-legacy-value-references'],
   platforms: {
     scss: {
       transforms,
@@ -133,6 +152,9 @@ export default {
     },
   },
   hooks: {
+    preprocessors: {
+      'strip-legacy-value-references': dictionary => stripLegacyValueReferences(dictionary),
+    },
     formats: {
       jsontokens: ({ dictionary }) => {
         return JSON.stringify({ Tokens: traverseObj(dictionary.tokens) }, null, 2);
