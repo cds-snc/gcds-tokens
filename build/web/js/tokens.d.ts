@@ -1030,11 +1030,16 @@ export const GcdsFooterMainNavFirstAfterWidth: string;
 export const GcdsFooterMainText: string;
 export const GcdsFooterSubBackground: string;
 export const GcdsFooterSubListitemBeforeMargin: string;
+/** Deprecated since v1.7.0. The footer will no longer set the size of the signature. This token will be deleted in the next major release. */
 export const GcdsFooterSubSignatureWidth: string;
+/** Deprecated since v1.7.0. The footer will no longer set the size of the signature. This token will be deleted in the next major release. */
 export const GcdsFooterSubSignatureMinWidth: string;
+/** Deprecated since v1.7.0. The footer will no longer set the size of the signature. This token will be deleted in the next major release. */
 export const GcdsFooterSubSignatureMaxHeight: string;
 export const GcdsFooterSubSignatureMargin: string;
+/** Deprecated since v1.7.0. The footer will no longer set the size of the signature. This token will be deleted in the next major release. */
 export const GcdsFooterSubSignatureSmWidth: string;
+/** Deprecated since v1.7.0. The footer will no longer set the size of the signature. This token will be deleted in the next major release. */
 export const GcdsFooterSubSignatureSmMaxHeight: string;
 export const GcdsGridColumnsDefaultBase: number;
 export const GcdsGridColumnsDefaultTablet: number;
