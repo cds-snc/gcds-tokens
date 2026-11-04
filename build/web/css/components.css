@@ -350,12 +350,12 @@
   --gcds-footer-main-text: #ffffff;
   --gcds-footer-sub-background: #f2f2f2;
   --gcds-footer-sub-listitem-before-margin: 0 0.75rem;
-  --gcds-footer-sub-signature-width: 12.6rem;
-  --gcds-footer-sub-signature-min-width: auto;
-  --gcds-footer-sub-signature-max-height: 2.4375rem;
+  --gcds-footer-sub-signature-width: 12.6rem; /** Deprecated since v1.7.0. The footer will no longer set the size of the signature. This token will be deleted in the next major release. */
+  --gcds-footer-sub-signature-min-width: auto; /** Deprecated since v1.7.0. The footer will no longer set the size of the signature. This token will be deleted in the next major release. */
+  --gcds-footer-sub-signature-max-height: 2.4375rem; /** Deprecated since v1.7.0. The footer will no longer set the size of the signature. This token will be deleted in the next major release. */
   --gcds-footer-sub-signature-margin: 0 0 0 auto;
-  --gcds-footer-sub-signature-sm-width: 6.25rem;
-  --gcds-footer-sub-signature-sm-max-height: 1.5rem;
+  --gcds-footer-sub-signature-sm-width: 6.25rem; /** Deprecated since v1.7.0. The footer will no longer set the size of the signature. This token will be deleted in the next major release. */
+  --gcds-footer-sub-signature-sm-max-height: 1.5rem; /** Deprecated since v1.7.0. The footer will no longer set the size of the signature. This token will be deleted in the next major release. */
   --gcds-grid-columns-default-base: 1;
   --gcds-grid-columns-default-tablet: 6;
   --gcds-grid-columns-default-desktop: 12;
