@@ -2,6 +2,13 @@
 
 # Changelog
 
+## [1.6.1](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.6.0...@gcds-core/tokens-v1.6.1) (2026-11-04)
+
+
+### :warning: Deprecation Notice
+
+* **gcds-footer:** old footer signature tokens ([#561](https://github.com/cds-snc/gcds-tokens/issues/561)) ([0449b17](https://github.com/cds-snc/gcds-tokens/commit/0449b1744d12bf83a78583da77d46441e4efbb98))
+
 ## [1.6.0](https://github.com/cds-snc/gcds-tokens/compare/@gcds-core/tokens-v1.5.0...@gcds-core/tokens-v1.6.0)
 
 Released on: 2026-08-10
