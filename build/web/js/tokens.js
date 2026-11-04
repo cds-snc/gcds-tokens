@@ -1655,6 +1655,60 @@ export const GcdsTablePillPadding = "0.125rem 0.25rem 0.125rem 0.625rem";
 export const GcdsTablePillText = "#595959";
 export const GcdsTableSelectPadding = "0.25rem 3.75rem 0.25rem 0.25rem";
 export const GcdsTableText = "#333333";
+export const GcdsTagBorderRadius = "1.5rem";
+export const GcdsTagTextMaxWidth = "20ch";
+export const GcdsTagDotSize = "0.625rem";
+export const GcdsTagDotBorderRadius = "100%";
+export const GcdsTagBlueBackground = "#d6e4f5";
+export const GcdsTagBlueText = "#0a1829";
+export const GcdsTagBlueDot = "#70a2db";
+export const GcdsTagGrayBackground = "#e6e6e6";
+export const GcdsTagGrayText = "#262626";
+export const GcdsTagGrayDot = "#a6a6a6";
+export const GcdsTagGreenBackground = "#d6f5e1";
+export const GcdsTagGreenText = "#0a2915";
+export const GcdsTagGreenDot = "#70db97";
+export const GcdsTagPurpleBackground = "#e1d6f5";
+export const GcdsTagPurpleText = "#150a29";
+export const GcdsTagPurpleDot = "#9770db";
+export const GcdsTagRedBackground = "#f9d2d7";
+export const GcdsTagRedText = "#2d060b";
+export const GcdsTagRedDot = "#e96375";
+export const GcdsTagYellowBackground = "#fcefcf";
+export const GcdsTagYellowText = "#302303";
+export const GcdsTagYellowDot = "#f6c655";
+export const GcdsTagFontRegularDesktop = {
+  fontFamily: "'Noto Sans', sans-serif",
+  fontWeight: "400",
+  lineHeight: "155%",
+  fontSize: "1.125rem",
+};
+export const GcdsTagFontRegularMobile = {
+  fontFamily: "'Noto Sans', sans-serif",
+  fontWeight: "400",
+  lineHeight: "150%",
+  fontSize: "1rem",
+};
+export const GcdsTagFontSmallDesktop = {
+  fontFamily: "'Noto Sans', sans-serif",
+  fontWeight: "400",
+  lineHeight: "150%",
+  fontSize: "1rem",
+};
+export const GcdsTagFontSmallMobile = {
+  fontFamily: "'Noto Sans', sans-serif",
+  fontWeight: "400",
+  lineHeight: "150%",
+  fontSize: "1rem",
+};
+export const GcdsTagPaddingRegularDesktop = "0.125rem 0.75rem 0.125rem 0.5rem";
+export const GcdsTagPaddingRegularMobile = "0.125rem 0.625rem 0.125rem 0.5rem";
+export const GcdsTagPaddingSmallDesktop = "0.125rem 0.625rem 0.125rem 0.5rem";
+export const GcdsTagPaddingSmallMobile = "0rem 0.5rem 0rem 0.375rem";
+export const GcdsTagGapRegularDesktop = "0.375rem";
+export const GcdsTagGapRegularMobile = "0.375rem";
+export const GcdsTagGapSmallDesktop = "0.375rem";
+export const GcdsTagGapSmallMobile = "0.25rem";
 export const GcdsTextareaBorderRadius = "0.125rem";
 export const GcdsTextareaBorderWidth = "0.125rem";
 export const GcdsTextareaDangerBorder = "#b3192e";
