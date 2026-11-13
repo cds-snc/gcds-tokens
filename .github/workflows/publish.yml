@@ -42,6 +42,10 @@ jobs:
             echo "pkg_exists=false" >> $GITHUB_ENV
           fi
 
+      - name: Add version banner to build files
+        if: env.pkg_exists != 'true'
+        run: node scripts/add-version-banner.js
+
       - name: Publish @gcds-core/tokens to npm
         if: env.pkg_exists != 'true'
         id: publish
